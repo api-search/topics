@@ -1,0 +1,114 @@
+{% comment %}
+  Collapsible provider list grouped by rating band.
+
+  Used by every listing that shows providers — use cases, features, VC
+  portfolios, secondary market, and the providers/APIs indexes. The ordering
+  contract is set in scripts/lib_rating.py: bands descending (exemplar →
+  minimal, unrated last), composite descending inside a band, then A–Z.
+
+  Exemplar and Strong render OPEN; everything below renders CLOSED, because on
+  a list of thousands the long tail is noise until it's asked for. That choice
+  lives in lib_rating.BANDS_OPEN_BY_DEFAULT and arrives here as `group.open`.
+
+  Two ways to hand it the rows. Most callers pass `group.items` as full row
+  hashes and that is it. The tag pages can't: there are ~275,000 (tag, provider)
+  pairs, so a full row per pair is ~200 MB of data. They pass slug STRINGS in
+  `group.items` plus a shared `rows` lookup table, and the join happens here.
+
+  EVERY ROW IS A FOUR-COLUMN GRID, and each cell declares its OWN column in
+  band-list.css.html rather than relying on auto-placement. That is the fix for
+  the jumble on /tags/<slug>/: the row emits up to four cells (name, middle,
+  meta, glyph) but the grid declared only three tracks, so on a rated provider
+  the K'in sun wrapped onto a second line underneath the name, and on a provider
+  with no description the meta cell slid left into the description track. Cells
+  are optional and the column each one lands in is not, so a row missing any of
+  them still lines up with every other row in the group.
+
+  Params:
+    bands      - array of {band,label,blurb,open,count,items} from group_by_band()
+    rows       - OPTIONAL slug -> row map. When present, each `items` entry is
+                 read as a slug into it instead of as the row itself.
+    link_base  - URL prefix for each item (default /providers/)
+    layout     - OPTIONAL 'kin' to lead each row with the K'in sun:
+                 sun | name | tags | score. The default keeps the network's
+                 shared listing anatomy — name | description | meta | sun —
+                 because 30+ capability sites and apievangelist.com render the
+                 sun on the far right. Only the column ORDER changes; the markup
+                 is identical either way, so nothing else has to branch.
+    omit_tag   - OPTIONAL tag label to leave OUT of every row's tag chips. A tag
+                 page passes its own name: every provider on /tags/video/ is
+                 tagged Video, so repeating it 1,000 times says nothing and eats
+                 the width the other tags need.
+    more_url   - OPTIONAL destination for the "see them all" link a capped group shows
+    empty_text - shown when there are no items at all
+
+  The middle cell shows `item.tags` when the row carries them and falls back to
+  `item.description`. Tag chips are plain text, never links: the whole row is an
+  <a>, and a nested anchor is invalid HTML that browsers silently unnest.
+{% endcomment %}
+{% assign _base = include.link_base | default: '/providers/' %}
+{% assign _rows = include.rows %}
+{% if include.layout == 'kin' %}{% assign _variant = ' band-list-kin' %}{% else %}{% assign _variant = '' %}{% endif %}
+{% assign _omit = include.omit_tag %}
+
+{% if include.bands and include.bands.size > 0 %}
+<div class="band-list{{ _variant }}">
+  {% for group in include.bands %}
+  <details class="band-group band-group-{{ group.band }}"{% if group.open %} open{% endif %}>
+    <summary>
+      <span class="band-pill band-{{ group.band }}">{{ group.label }}</span>
+      <span class="band-group-count">{{ group.count }}</span>
+      <span class="band-group-blurb">{{ group.blurb }}</span>
+    </summary>
+    <div class="band-group-body">
+      {%- comment -%}
+        WHITESPACE-CONTROLLED THROUGHOUT — every tag below trims, and
+        deliberately so. The pretty-printed version of this loop emitted ~380
+        bytes of indentation and blank lines per row, which nobody ever sees and
+        which is most of the payload on a long listing: 13 MB on /tags/company/.
+        Keep the hyphens on when editing. The row is a CSS grid, so the stripped
+        whitespace between its cells changes nothing about how it renders.
+
+        (And never write a literal Liquid tag in prose like this — Liquid parses
+        tags inside comment blocks for block matching, so an unmatched one here
+        is a hard build failure. See network/CLAUDE.md.)
+      {%- endcomment -%}
+      {%- for entry in group.items -%}
+      {%- if _rows %}{% assign item = _rows[entry] %}{% assign _slug = entry %}
+      {%- else %}{% assign item = entry %}{% assign _slug = entry.slug %}{% endif -%}
+      {%- if item -%}
+      <a class="band-row" href="{{ _base }}{{ _slug }}/"
+        ><span class="band-row-name">{{ item.name }}</span
+        >{% if item.tags and item.tags.size > 0 %}<span class="band-row-tags">{% for t in item.tags %}{% unless t == _omit %}<span class="band-tag">{{ t }}</span>{% endunless %}{% endfor %}</span>{% elsif item.description and item.description != '' %}<span class="band-row-desc">{{ item.description | strip_html | truncate: 110 }}</span>{% endif %}<span class="band-row-meta"
+          >{% if item.api_count and item.api_count > 0 %}<span class="band-row-apis">{{ item.api_count }} API{% if item.api_count != 1 %}s{% endif %}</span>{% endif %}{% if item.score_composite %}<span class="band-row-score">{{ item.score_composite | round: 1 }}</span>{% endif %}</span
+        >{%- comment -%}
+          The K'in sun. Far right of the row by default — the listing anatomy
+          shared with apievangelist.com — and FIRST under layout='kin', which
+          the tag pages use. Emitted here in the same place either way; the
+          column it lands in is CSS, so this loop never branches on layout.
+          Only where a facet breakdown exists; the home-page quick list
+          deliberately shows the number alone, no sun.
+          See api-evangelist/kin-score/glyph/GLYPH.md.
+        {%- endcomment -%}
+        {%- if item.score_composite and item.facets -%}
+        <span class="kin-row-glyph" data-kin-glyph data-size="44" data-palette="facet" data-name="{{ item.name | escape }}" data-score="{{ item.score_composite }}" data-band="{{ item.band }}" data-agent-score="{{ item.agent_score | default: 0 }}" data-agent-band="{{ item.agent_band | default: 'human-only' }}" data-facets='{{ item.facets | jsonify }}' data-dims="{{ item.agent_dims }}"></span>
+        {%- endif -%}
+      </a>
+      {%- endif -%}
+      {%- endfor -%}
+      {%- comment -%}
+        A capped group says so. `count` is always the band's TRUE size, so the
+        heading above and any total built from it stay honest; `shown` appears
+        only when the producer rendered fewer (build_tag_bands.py caps at 1,000 a
+        band, which trims 3 of 13,493 tag pages). Never truncate silently.
+      {%- endcomment -%}
+      {%- if group.shown and group.shown < group.count -%}
+      <p class="band-truncated">Showing the top {% include number.html n=group.shown %} of {% include number.html n=group.count %} by rating.{% if include.more_url %} <a href="{{ include.more_url }}">See them all &rarr;</a>{% endif %}</p>
+      {%- endif -%}
+    </div>
+  </details>
+  {% endfor %}
+</div>
+{% else %}
+<p class="band-empty">{{ include.empty_text | default: 'No providers matched yet.' }}</p>
+{% endif %}

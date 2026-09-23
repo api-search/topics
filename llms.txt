@@ -1,0 +1,13 @@
+---
+layout: none
+---
+# apis.io/topics — Topics on the APIs.io Network
+
+> Topics are subjects rather than companies: the concepts, standards, regulations, patterns and topic indexes the API Evangelist catalog tracks (API linting, streaming, GDPR, event sourcing, WSDL…). Each page lists the resources the topic's repository collects and the providers on APIs.io whose own tags share at least two of the topic's tags.
+
+Topics are generated from every `api-evangelist/*` repository whose apis.yml declares `kind: topic`, `x-type: concept` or `x-type: index`. They were previously listed as providers; those URLs now redirect here. Search indexing, AI grounding/RAG, and AI training are explicitly permitted.
+
+## Core entry points
+
+- [Topics directory](https://apis.io/topics/): every topic with its provider and resource counts
+- [sitemap.xml](https://apis.io/topics/sitemap.xml): every topic page

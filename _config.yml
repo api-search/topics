@@ -1,0 +1,31 @@
+name: APIs.io Topics
+description: Subjects rather than companies — the concepts, standards, regulations, patterns and topic indexes the API Evangelist catalog tracks, each cross-linked to the providers on the APIs.io network that work in it.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+node: website
+nav_active: topics
+
+keywords:
+  - APIs
+  - Topics
+  - API concepts
+  - API standards
+  - API discovery
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+collections:
+  topics:
+    output: true
+    permalink: /topics/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic
+
+github_org: api-search
+github_repo: topics

@@ -1,0 +1,50 @@
+---
+layout: default
+meta_title: "Topics — Concepts, Standards and Subjects Across the API Landscape | APIs.io"
+meta_description: "Browse the subjects the API Evangelist catalog tracks — concepts, standards, regulations, patterns and topic indexes like API linting, streaming, GDPR and event sourcing — each cross-linked to the providers on APIs.io that work in it."
+title: "Topics"
+nav_active: topics
+---
+<style>
+  .topic-hero { text-align: center; padding: 2rem 0 1rem; }
+  .topic-hero h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .topic-hero p { color: #4a5568; max-width: 720px; margin: 0 auto 1rem; line-height: 1.6; }
+  .topic-stats { color: #6c757d; font-size: 0.9rem; }
+  .topic-stats strong { color: #1a1a2e; }
+  .topic-filter { display: block; max-width: 420px; margin: 1rem auto 0; padding: 0.55rem 0.8rem; border: 1px solid #cbd5e1; border-radius: 8px; width: 100%; }
+  .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .topic-card { background: #fff; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.1rem; text-decoration: none; color: inherit; display: block; transition: all 0.15s; }
+  .topic-card:hover { border-color: #0f766e; box-shadow: 0 2px 8px rgba(15, 118, 110, 0.12); transform: translateY(-1px); text-decoration: none; color: inherit; }
+  .topic-card h3 { font-size: 1.05rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.45rem; }
+  .topic-card p { font-size: 0.88rem; color: #4a5568; line-height: 1.5; margin: 0 0 0.7rem; min-height: 4.4em; }
+  .topic-meta { display: flex; gap: 0.75rem; font-size: 0.8rem; color: #475569; flex-wrap: wrap; }
+  .topic-kind { text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; color: #0f766e; }
+  .differ-box { background: #f8fafc; border-left: 4px solid #0f766e; padding: 1rem 1.25rem; margin: 2rem 0; border-radius: 0 8px 8px 0; font-size: 0.93rem; color: #4a5568; }
+  @media (max-width: 575px) { .topic-grid { grid-template-columns: 1fr; } }
+</style>
+
+<div class="topic-hero">
+  <h1>Topics</h1>
+  <p>The subjects the API Evangelist catalog tracks — concepts, standards, regulations, patterns and topic indexes. A topic is not a company: it has no API of its own to rate. Each page collects the resources for the subject and the providers on APIs.io that work in it.</p>
+  <p class="topic-stats"><strong>{{ site.data.topics | size }}</strong> topics</p>
+  <input class="topic-filter" type="search" placeholder="Filter topics…" aria-label="Filter topics" oninput="var q=this.value.toLowerCase();document.querySelectorAll('.topic-card').forEach(function(c){c.style.display=c.dataset.k.indexOf(q)>-1?'':'none'})">
+</div>
+
+<div class="topic-grid">
+  {% assign sorted = site.data.topics | sort: "name" %}
+  {% for t in sorted %}
+  <a href="{{ t.url }}" class="topic-card" data-k="{{ t.name | downcase | escape }} {{ t.slug }}">
+    <h3>{{ t.name }}</h3>
+    {% if t.short %}<p>{{ t.short }}</p>{% endif %}
+    <div class="topic-meta">
+      <span class="topic-kind">{{ t.kind }}</span>
+      <span><strong>{{ t.provider_count }}</strong> providers</span>
+      {% if t.api_count > 0 %}<span><strong>{{ t.api_count }}</strong> resources</span>{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="differ-box">
+  <strong>Topics vs. areas vs. tags.</strong> <a href="https://apis.io/areas/">Areas</a> are the 77 curated API Evangelist research areas. <a href="https://apis.io/tags/">Tags</a> are the vocabulary providers are filed under. Topics are the subject repositories themselves — an index of linting tools, a regulation, a protocol — which used to be listed as though they were companies.
+</div>

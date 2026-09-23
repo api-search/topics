@@ -1,0 +1,98 @@
+---
+layout: default
+---
+<style>
+  .topic-hero { background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%); border: 1px solid #99f6e4; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .topic-overline { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #0f766e; font-weight: 600; margin-bottom: 0.5rem; }
+  .topic-title { font-size: 2rem; font-weight: 700; margin: 0; color: #1a1a2e; }
+  .topic-desc { color: #2c3e50; line-height: 1.7; margin: 1rem 0 0; }
+  .topic-stats { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 1rem; font-size: 0.9rem; color: #0f766e; }
+  .topic-stats strong { color: #1a1a2e; }
+  .section-title { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .res-list { list-style: none; padding: 0; margin: 0; }
+  .res-list li { padding: 0.6rem 0; border-bottom: 1px solid #eef1f5; }
+  .res-list .res-name { font-weight: 600; color: #1e40af; }
+  .res-list .res-desc { color: #4a5568; font-size: 0.88rem; margin-top: 0.2rem; }
+  .link-pill, .tag-pill { display: inline-block; padding: 0.3em 0.75em; border-radius: 999px; font-size: 0.8rem; text-decoration: none; margin: 0.2rem 0.25rem 0.2rem 0; }
+  .link-pill { background: #ccfbf1; color: #0f766e; }
+  .tag-pill { background: #f1f5f9; color: #334155; }
+  .prov-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .prov-table th, .prov-table td { padding: 0.65rem 0.6rem; text-align: left; border-bottom: 1px solid #e3e7ee; vertical-align: middle; }
+  .prov-table th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; font-weight: 600; }
+  .prov-table a { color: #1e40af; font-weight: 600; text-decoration: none; }
+  .prov-desc { color: #4a5568; font-size: 0.85rem; }
+  .prov-num { font-family: monospace; color: #475569; text-align: right; }
+  .band-pill { display: inline-block; padding: 0.15em 0.55em; border-radius: 999px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; }
+  .band-exemplar { background: #d1f7e0; color: #0f5132; } .band-strong { background: #cfe2ff; color: #0a3d91; }
+  .band-developing { background: #fff3cd; color: #664d03; } .band-thin, .band-emerging { background: #ffe0c2; color: #7a3e07; }
+  .band-minimal { background: #e9ecef; color: #495057; }
+  .empty-note { color: #6c757d; font-size: 0.9rem; }
+  @media (max-width: 767px) { .prov-desc { display: none; } }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="https://apis.io/topics/">Topics</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+  </ol>
+</nav>
+
+<div class="topic-hero">
+  <div class="topic-overline">Topic · {{ page.kind }}</div>
+  <h1 class="topic-title">{{ page.name }}</h1>
+  {% if page.description %}<p class="topic-desc">{{ page.description }}</p>{% endif %}
+  <div class="topic-stats">
+    <span><strong>{{ page.provider_count }}</strong> related provider{% if page.provider_count != 1 %}s{% endif %} on APIs.io</span>
+    {% if page.api_count > 0 %}<span><strong>{{ page.api_count }}</strong> resource{% if page.api_count != 1 %}s{% endif %}</span>{% endif %}
+    <a href="{{ page.repo }}" rel="noopener">Source repository →</a>
+  </div>
+</div>
+
+{% if page.apis and page.apis.size > 0 %}
+<h2 class="section-title">Resources</h2>
+<ul class="res-list">
+  {% for a in page.apis %}
+  <li>
+    {% if a.url %}<a class="res-name" href="{{ a.url }}" rel="noopener">{{ a.name }}</a>{% else %}<span class="res-name">{{ a.name }}</span>{% endif %}
+    {% if a.description %}<div class="res-desc">{{ a.description }}</div>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if page.links and page.links.size > 0 %}
+<h2 class="section-title">Links</h2>
+<div>{% for l in page.links %}<a class="link-pill" href="{{ l.url }}" rel="noopener">{{ l.type }}</a>{% endfor %}</div>
+{% endif %}
+
+<h2 class="section-title">Providers working in {{ page.name }}</h2>
+{% if page.providers and page.providers.size > 0 %}
+<p class="empty-note">Providers whose own tags share at least two of this topic's tags, most shared first{% if page.provider_count > page.providers.size %} — the top {{ page.providers.size }} of {{ page.provider_count }}{% endif %}.</p>
+<table class="prov-table">
+  <thead><tr><th>Provider</th><th class="prov-desc">About</th><th>Rating</th><th class="prov-num">APIs</th></tr></thead>
+  <tbody>
+  {% for p in page.providers %}
+    <tr>
+      <td><a href="https://apis.io/providers/{{ p.slug }}/">{{ p.name }}</a></td>
+      <td class="prov-desc">{{ p.description }}</td>
+      <td>{% if p.score_band %}<span class="band-pill band-{{ p.score_band }}">{{ p.score_band }}</span>{% endif %}</td>
+      <td class="prov-num">{{ p.api_count }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="empty-note">No provider on APIs.io shares enough of this topic's tags to list here yet.</p>
+{% endif %}
+
+{% if page.tags and page.tags.size > 0 %}
+<h2 class="section-title">Tags</h2>
+<div>{% for t in page.tags %}<span class="tag-pill">{{ t }}</span>{% endfor %}</div>
+{% endif %}
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "DefinedTerm", "name": {{ page.name | jsonify }},
+  "description": {{ page.description | jsonify }}, "url": "https://apis.io/topics/{{ page.slug }}/",
+  "inDefinedTermSet": { "@type": "DefinedTermSet", "name": "APIs.io Topics", "url": "https://apis.io/topics/" } }
+</script>

@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% comment %}
+      Title strategy: pull keywords into the <title> per page type so each
+      result in SERPs telegraphs what the page actually is. Falls through to
+      the bare name when the layout isn't recognized.
+    {% endcomment %}
+    {% assign _title_suffix = '' %}
+    {% comment %} Prefer page.collection (always populated for collection items
+       in Jekyll); fall back to page.layout for ordinary pages. {% endcomment %}
+    {% case page.collection %}
+      {% when 'providers' %}{% assign _title_suffix = ' — API Provider, Schemas' %}
+      {% when 'apis' %}{% assign _title_suffix = ' — Documentation, OpenAPI' %}
+      {% when 'schemas' %}{% assign _title_suffix = ' — JSON Schema' %}
+      {% when 'asyncapis' %}{% assign _title_suffix = ' — Event-Driven AsyncAPI' %}
+      {% when 'graphqls' %}{% assign _title_suffix = ' — GraphQL Specification' %}
+      {% when 'apicollections' %}{% assign _title_suffix = ' — API Collection' %}
+      {% when 'jsonld' %}{% assign _title_suffix = ' — JSON-LD Context' %}
+      {% when 'rules' %}{% assign _title_suffix = ' — Spectral Governance Ruleset' %}
+      {% when 'plans' %}{% assign _title_suffix = ' — API Pricing Plans' %}
+      {% when 'ratelimits' %}{% assign _title_suffix = ' — API Rate Limits' %}
+      {% when 'finops' %}{% assign _title_suffix = ' — API FinOps Profile' %}
+      {% when 'industries' %}{% assign _title_suffix = ' — Industry Vertical, API Providers' %}
+      {% when 'regions' %}{% assign _title_suffix = ' — Sales Region, API Providers' %}
+      {% when 'skills' %}{% assign _title_suffix = ' — Official Agent Skill' %}
+      {% when 'servers' %}{% assign _title_suffix = ' — Official MCP Server' %}
+      {% when 'channels' %}{% assign _title_suffix = ' — Event-Driven Channel' %}
+      {% when 'channel_providers' %}{% assign _title_suffix = ' — Event-Driven API Provider' %}
+    {% endcase %}
+    {% if _title_suffix == '' %}
+      {% case page.layout %}
+        {% when 'provider' %}{% assign _title_suffix = ' — API Provider, Schemas' %}
+        {% when 'api' %}{% assign _title_suffix = ' — Documentation, OpenAPI' %}
+        {% when 'schema' %}{% assign _title_suffix = ' — JSON Schema' %}
+        {% when 'asyncapi' %}{% assign _title_suffix = ' — Event-Driven AsyncAPI' %}
+        {% when 'graphql' %}{% assign _title_suffix = ' — GraphQL Specification' %}
+        {% when 'collection' %}{% assign _title_suffix = ' — API Collection' %}
+        {% when 'apicollections' %}{% assign _title_suffix = ' — API Collection' %}
+        {% when 'jsonld' %}{% assign _title_suffix = ' — JSON-LD Context' %}
+        {% when 'rules' %}{% assign _title_suffix = ' — Spectral Governance Ruleset' %}
+        {% when 'plan' %}{% assign _title_suffix = ' — API Pricing Plans' %}
+        {% when 'ratelimit' %}{% assign _title_suffix = ' — API Rate Limits' %}
+        {% when 'finops' %}{% assign _title_suffix = ' — API FinOps Profile' %}
+        {% when 'industry' %}{% assign _title_suffix = ' — Industry Vertical, API Providers' %}
+        {% when 'region' %}{% assign _title_suffix = ' — Sales Region, API Providers' %}
+        {% when 'skill' %}{% assign _title_suffix = ' — Official Agent Skill' %}
+        {% when 'skill-provider' %}{% assign _title_suffix = ' — Official Agent Skills' %}
+        {% when 'mcp-server' %}{% assign _title_suffix = ' — Official MCP Server' %}
+        {% when 'channel' %}{% assign _title_suffix = ' — Event-Driven Channel' %}
+        {% when 'channel-provider' %}{% assign _title_suffix = ' — Event-Driven API Provider' %}
+      {% endcase %}
+    {% endif %}
+    <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }}{{ _title_suffix }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.description }}{% endif %}</title>
+    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% elsif page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}{{ site.keywords | join: ', ' }}">
+    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}">
+    <link rel="api-catalog" href="https://apis.io/.well-known/api-catalog" type="application/linkset+json">
+    <link rel="agent-skills" href="https://apis.io/skills/">
+    {%- comment -%}
+      Agent markdown twin. Advertised ONLY on layouts that actually get one, so we
+      never point an agent at a 404 -- agent-twins.py writes index.md beside these
+      pages and nowhere else. Absolute URL, and the same document is served to every
+      client; nothing on this network varies by user-agent.
+      See research/agent-ad-serving/ROLLOUT-laneworks.md
+    {%- endcomment -%}
+    {% if page.layout == "provider" or page.layout == "api" %}
+    <link rel="alternate" type="text/markdown" title="Markdown source" href="{{ page.url | prepend: site.url }}index.md">
+    {% endif %}
+
+    {%- comment -%}
+      Share image. A scored provider shares its Kin Score card -- the K'in sun, the
+      composite and its band, agent readiness, and every facet. Built by
+      api-evangelist/kin-score/cards/ and published to kinlane-images; the URL is stable
+      across rescores, so a rescore rewrites the bytes rather than minting a new path.
+
+      An API detail page shares the card of the provider that publishes it. The API page
+      carries `provider_slug` but no score of its own, so the guard is `site.data.kin_cards`
+      -- an index the card builder writes from the PNGs that actually exist (emit-index.mjs).
+      Without it these ~28k pages fall back to the one generic site card, which is the same
+      "the best thing on the page never leaves the page" problem one level down.
+
+      Guarded rather than assumed: an og:image at a 404 is worse than the site card. Never
+      repoint page.image -- that holds the provider's own logo and is also the JSON-LD logo.
+    {%- endcomment -%}
+    {% assign _kin_slug = nil %}
+    {% if page.layout == "provider" and page.score and page.slug %}
+      {% assign _kin_slug = page.slug %}
+      {% assign _kin_alt = page.name | append: ": Kin Score " | append: page.score.composite | append: " out of 100 (" | append: page.score.band | append: ")" %}
+    {% elsif page.provider_slug and site.data.kin_cards %}
+      {% assign _kin = site.data.kin_cards[page.provider_slug] %}
+      {% if _kin %}
+        {% assign _kin_slug = page.provider_slug %}
+        {% assign _kin_alt = page.provider_name | append: ": Kin Score " | append: _kin.c | append: " out of 100 (" | append: _kin.b | append: ")" %}
+      {% endif %}
+    {% endif %}
+    {% if _kin_slug %}{% assign _og_image = _kin_slug | prepend: "https://kinlane-images.s3.amazonaws.com/shared/kin-score/cards/" | append: ".png" %}{% elsif page.layout == "post" and page.image %}{% assign _og_image = page.image | prepend: site.url %}{% else %}{% assign _og_image = site.image %}{% endif %}
+    {% if _kin_slug %}{% assign _og_alt = _kin_alt %}{% elsif page.title %}{% assign _og_alt = page.title %}{% else %}{% assign _og_alt = site.name %}{% endif %}
+    {% if page.layout == "post" %}{% assign _og_type = "article" %}{% else %}{% assign _og_type = "website" %}{% endif %}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:type" content="{{ _og_type }}">
+    <meta property="og:image" content="{{ _og_image }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ _og_alt | escape }}">
+    {% if page.layout == "post" and page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.layout == "post" and page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}">
+    {% endfor %}{% endif %}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ _og_image }}">
+    <meta name="twitter:image:alt" content="{{ _og_alt | escape }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/sticky-footer.css" rel="stylesheet">
+    <script src="/assets/jquery-3.7.1.min.js"></script>
+    <script src="/assets/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js-yaml.min.js"></script>
+
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: #333; }
+      .navbar { padding: 0.75rem 0; }
+      .navbar-brand { font-weight: 700; font-size: 1.4rem; letter-spacing: -0.5px; padding-top: 0; padding-bottom: 0; }
+      .navbar-brand img { display: block; height: 28px; width: auto; }
+      .nav-link { font-size: 0.95rem; padding: 0.5rem 0.7rem !important; }
+      .container.my-5 { max-width: 960px; }
+      a { color: #0d6efd; }
+      a:hover { color: #0a58ca; }
+
+      /* ------------------------------------------------------------------
+         Masthead — three shallow mega-menus (Browse / Artifacts / Signals)
+         replacing the single 26-link "More" column (2026-07-28). Menus are
+         built from _data/nav.yml by _includes/nav.html; `columns:` there maps
+         to .nav-mega-N here.
+         Breakpoint is XL (1200px), not LG: eight top-level items plus the
+         search field and the CTA don't fit at 992px.
+      ------------------------------------------------------------------ */
+      .navbar-search { min-width: 15rem; }
+      .navbar-cta { white-space: nowrap; }
+
+      @media (min-width: 1200px) {
+        .navbar-search { margin-right: 0.5rem; }
+        .navbar .dropdown-menu { padding: 0.75rem 0.25rem; border: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.18); }
+        .navbar .dropdown-header { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; padding: 0.15rem 1rem 0.35rem; }
+        .navbar .dropdown-item { font-size: 0.9rem; padding: 0.3rem 1rem; }
+        .navbar .dropdown-item.active, .navbar .dropdown-item:active { background-color: #0d6efd; color: #fff; }
+
+        /* Multi-column menus: groups lay out side by side as flex children.
+           Bootstrap's dropdown JS only cares about .dropdown-toggle /
+           .dropdown-menu / .dropdown-item, all of which survive the nesting,
+           so keyboard navigation still works. */
+        .nav-mega { display: none; }
+        .nav-mega.show { display: flex; flex-wrap: wrap; }
+        .nav-mega-1 { min-width: 13rem; }
+        .nav-mega-2 { min-width: 26rem; }
+        .nav-mega-3 { min-width: 39rem; }
+        .nav-mega-group { flex: 1 1 12rem; min-width: 12rem; padding-bottom: 0.35rem; }
+        .nav-mega-list { list-style: none; margin: 0; padding: 0; }
+
+        /* Right-align the last menu so a wide 3-column panel can't push the
+           page into a horizontal scrollbar. */
+        .navbar-nav > .nav-item.dropdown:last-of-type .nav-mega { right: 0; left: auto; }
+      }
+
+      /* Collapsed navbar: render menus inline (no light popover card floating
+         over the dark bar) and match the dark styling so the whole drawer
+         reads as one list. */
+      @media (max-width: 1199px) {
+        .navbar-collapse { padding: 0.5rem 0 0.25rem; }
+        .navbar-nav .nav-link { padding: 0.6rem 0 !important; }
+        .navbar .dropdown-menu {
+          position: static; float: none; display: block;
+          background-color: transparent; border: 0; box-shadow: none;
+          padding: 0.25rem 0 0.5rem 0.75rem;
+          margin: 0; width: auto;
+        }
+        .navbar .dropdown-toggle::after { display: none; }
+        .nav-mega-list { list-style: none; margin: 0; padding: 0; }
+        .navbar .dropdown-header {
+          color: rgba(255,255,255,0.55);
+          font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.6px;
+          padding: 0.75rem 0 0.25rem; font-weight: 600;
+        }
+        .navbar-dark .dropdown-menu .dropdown-item {
+          color: rgba(255,255,255,0.85);
+          padding: 0.5rem 0; font-size: 0.95rem;
+        }
+        .navbar-dark .dropdown-menu .dropdown-item:hover,
+        .navbar-dark .dropdown-menu .dropdown-item:focus {
+          color: #fff; background-color: rgba(255,255,255,0.06); border-radius: 4px;
+          padding-left: 0.5rem; padding-right: 0.5rem;
+        }
+        .navbar-dark .dropdown-menu .dropdown-item.active {
+          color: #fff; background-color: rgba(13,110,253,0.6); border-radius: 4px;
+          padding-left: 0.5rem; padding-right: 0.5rem;
+        }
+        .navbar-search { margin-top: 0.5rem; min-width: 0; }
+        .navbar-cta { margin-top: 0.6rem; align-self: flex-start; }
+      }
+    </style>
+    <script>
+      // Collapsed navbar: expand every menu automatically when the drawer is
+      // opened, so Browse / Artifacts / Signals are visible without a second
+      // tap. Boundary must match the CSS above (1199px).
+      document.addEventListener('DOMContentLoaded', function () {
+        var collapseEl = document.getElementById('navbarSupportedContent');
+        if (!collapseEl) return;
+        collapseEl.addEventListener('show.bs.collapse', function () {
+          if (window.matchMedia('(max-width: 1199px)').matches) {
+            collapseEl.querySelectorAll('.dropdown-menu').forEach(function (m) {
+              m.classList.add('show');
+            });
+          }
+        });
+        collapseEl.addEventListener('hidden.bs.collapse', function () {
+          collapseEl.querySelectorAll('.dropdown-menu.show').forEach(function (m) {
+            m.classList.remove('show');
+          });
+        });
+      });
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H4KFSEF6P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6H4KFSEF6P');
+
+      function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              var pair = vars[i].split('=');
+              if (decodeURIComponent(pair[0]) == variable) {
+                  return decodeURIComponent(pair[1]);
+              }
+          }
+      }
+    </script>
+
+    {%- comment -%}
+      WebMCP runtime. MUST stay in <head>: page scripts inside {{ content }}
+      call window.apisioWebMCP.register() at parse time, so the global has to
+      exist before the body is parsed.
+    {%- endcomment -%}
+    {% include webmcp.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+    {% if site.alert.enabled %}
+    <div class="alert alert-{{ site.alert.type }} mb-0 rounded-0 text-center" role="alert">
+      {{ site.alert.message }}
+    </div>
+    {% endif %}
+    <!-- Laneworks ad network (ads.laneworks.net) -->
+    <script async src="https://ads.laneworks.net/embed.js"></script>
+    <div data-laneworks-ad="top-banner"></div>
+    <main class="container mt-2 mb-5" role="main">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  {%- comment -%}
+    Kin Score glyph — renders every [data-kin-glyph] placeholder.
+    Canonical source: api-evangelist/kin-score/glyph/, vendored into
+    _shared/assets/js/ so bootstrap-sites.py ships it to every site. It used to
+    live only in network/ and providers/ as a hand-edit ON TOP of this layout,
+    which meant every bootstrap run silently reverted both.
+  {%- endcomment -%}
+  <script src="/assets/js/kin-glyph.js"></script>
+
+  </body>
+</html>

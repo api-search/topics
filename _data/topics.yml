@@ -1,0 +1,1239 @@
+- slug: acceptance-criteria
+  name: Acceptance Criteria
+  kind: topic
+  short: Acceptance criteria are predefined conditions that a product, feature, or user story must meet to be considered complete and acceptable by stakeholders. These criteria establish c…
+  url: https://apis.io/topics/acceptance-criteria/
+  api_count: 9
+  provider_count: 33
+- slug: accessibility-standards
+  name: Accessibility Standards
+  kind: topic
+  short: Guidelines and technical specifications that ensure digital content, applications, and technologies are usable by people with disabilities, including standards like WCAG, Section…
+  url: https://apis.io/topics/accessibility-standards/
+  api_count: 6
+  provider_count: 7
+- slug: accounting-standards
+  name: Accounting Standards
+  kind: topic
+  short: Accounting Standards are the formal rules and guidelines that govern how financial transactions and statements are recorded, reported, and disclosed. They ensure consistency, tran…
+  url: https://apis.io/topics/accounting-standards/
+  api_count: 5
+  provider_count: 2
+- slug: acid
+  name: ACID
+  kind: topic
+  short: ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that guarantee database transactions are processed reliably even in the face of errors, power failures,…
+  url: https://apis.io/topics/acid/
+  api_count: 5
+  provider_count: 6
+- slug: activitypub
+  name: ActivityPub
+  kind: topic
+  short: ActivityPub is a W3C Recommendation that defines a decentralized social networking protocol and REST API standard for federated social interactions. It provides both a client-to-s…
+  url: https://apis.io/topics/activitypub/
+  api_count: 13
+  provider_count: 3
+- slug: actor-model
+  name: Actor Model
+  kind: topic
+  short: The Actor Model is a mathematical model of concurrent computation where the fundamental unit of computation is an actor, an entity that processes messages asynchronously and maint…
+  url: https://apis.io/topics/actor-model/
+  api_count: 5
+  provider_count: 3
+- slug: advanced-excel
+  name: Advanced Excel
+  kind: topic
+  short: Advanced Excel is a subject-matter topic encompassing Microsoft Excel's programmatic capabilities for data analysis, formula execution, workbook management, chart generation, and…
+  url: https://apis.io/topics/advanced-excel/
+  api_count: 5
+  provider_count: 20
+- slug: agent-readiness
+  name: Agent Readiness
+  kind: topic
+  short: A topic index covering the operational practices, signals, and patterns that make an API surface safely usable by autonomous AI agents rather than only by humans. Catalogs the spe…
+  url: https://apis.io/topics/agent-readiness/
+  api_count: 15
+  provider_count: 379
+- slug: agents-md
+  name: AGENTS.md
+  kind: topic
+  short: AGENTS.md is an open standard file format that provides context and instructions to AI coding agents working on software projects. Like a README for agents, an AGENTS.md file live…
+  url: https://apis.io/topics/agents-md/
+  api_count: 1
+  provider_count: 14
+- slug: agile
+  name: Agile
+  kind: topic
+  short: A collection of resources, standards, and APIs representing the broader agile landscape — the set of software development principles first codified in the 2001 Agile Manifesto. Ag…
+  url: https://apis.io/topics/agile/
+  api_count: 0
+  provider_count: 17
+- slug: aircon
+  name: Aircon
+  kind: topic
+  short: A curated index of APIs, data sources, and developer resources related to air conditioning, HVAC (Heating, Ventilation, and Air Conditioning), and climate control systems. This to…
+  url: https://apis.io/topics/aircon/
+  api_count: 6
+  provider_count: 102
+- slug: allianz-technology-standards
+  name: Allianz Technology Standards
+  kind: topic
+  short: A collection of technology standards and guidelines maintained by Allianz for software development, API design, architecture, and engineering practices. Allianz follows API-first…
+  url: https://apis.io/topics/allianz-technology-standards/
+  api_count: 5
+  provider_count: 24
+- slug: analytics
+  name: Analytics
+  kind: topic
+  short: A curated index of analytics platforms, SDKs, and open source solutions spanning the full analytics spectrum — from web and product analytics (Google Analytics, Mixpanel, Amplitud…
+  url: https://apis.io/topics/analytics/
+  api_count: 0
+  provider_count: 229
+- slug: api-first
+  name: API-First
+  kind: topic
+  short: API-First is a software development methodology where APIs are treated as first-class citizens and designed before implementation begins. In an API-first approach, teams establish…
+  url: https://apis.io/topics/api-first/
+  api_count: 4
+  provider_count: 12
+- slug: application-research
+  name: Application Research
+  kind: topic
+  short: 'Application Research is a topic collection focused on specifications for declaring application service integration dependencies. It covers five specification formats: Score (platf…'
+  url: https://apis.io/topics/application-research/
+  api_count: 36
+  provider_count: 2
+- slug: architectural-design-patterns
+  name: Architectural Design Patterns
+  kind: topic
+  short: Architectural Design Patterns are reusable solutions to commonly occurring problems in software architecture. They provide templates for designing system structure, component inte…
+  url: https://apis.io/topics/architectural-design-patterns/
+  api_count: 3
+  provider_count: 12
+- slug: async-apis
+  name: AsyncAPI
+  kind: topic
+  short: Topic index for the AsyncAPI ecosystem — the open specification, tooling, and adopter community for describing event-driven and message-driven APIs. AsyncAPI is to asynchronous AP…
+  url: https://apis.io/topics/async-apis/
+  api_count: 19
+  provider_count: 4
+- slug: authors-md
+  name: AUTHORS.md
+  kind: topic
+  short: AUTHORS.md is a file format standard used in open-source and collaborative software projects to list the original creators, primary authors, and significant contributors of a proj…
+  url: https://apis.io/topics/authors-md/
+  api_count: 1
+  provider_count: 36
+- slug: automated-sorting-systems
+  name: Automated Sorting Systems
+  kind: topic
+  short: Automated Sorting Systems covers the technology landscape of automated conveyance, sortation, and parcel routing systems used in logistics, warehousing, e-commerce fulfillment, an…
+  url: https://apis.io/topics/automated-sorting-systems/
+  api_count: 13
+  provider_count: 77
+- slug: banking-regulation
+  name: Banking Regulation
+  kind: topic
+  short: Banking regulation encompasses the rules, standards, and frameworks governing banks and financial institutions. Key frameworks include the Basel Accords (Basel I, II, III, IV) for…
+  url: https://apis.io/topics/banking-regulation/
+  api_count: 0
+  provider_count: 177
+- slug: barcode-scanners
+  name: Barcode Scanners
+  kind: topic
+  short: Barcode scanning technology and APIs for scanning, generating, and looking up barcode data including UPC, EAN, ISBN, QR codes, Code 128, Code 39, and other barcode formats used in…
+  url: https://apis.io/topics/barcode-scanners/
+  api_count: 3
+  provider_count: 109
+- slug: basel-compliance
+  name: Basel Compliance
+  kind: topic
+  short: Basel Compliance covers the regulatory frameworks and technical standards issued by the Basel Committee on Banking Supervision (BCBS) at the Bank for International Settlements. Th…
+  url: https://apis.io/topics/basel-compliance/
+  api_count: 0
+  provider_count: 108
+- slug: basel-iii
+  name: Basel III
+  kind: concept
+  short: Basel III is a comprehensive global regulatory framework developed by the Basel Committee on Banking Supervision (BCBS) in response to the 2007-2008 financial crisis. It strengthe…
+  url: https://apis.io/topics/basel-iii/
+  api_count: 0
+  provider_count: 71
+- slug: belts
+  name: Belts
+  kind: topic
+  short: Belts covers the landscape of APIs, data standards, and digital resources related to conveyor belts and industrial belt systems. This topic encompasses conveyor belt monitoring an…
+  url: https://apis.io/topics/belts/
+  api_count: 0
+  provider_count: 98
+- slug: boycott-israeli-consumer-goods-dataset
+  name: Boycott Israeli Consumer Goods Dataset
+  kind: topic
+  short: The Boycott Israeli Consumer Goods Dataset, maintained by TechForPalestine, is a version-controlled, golden-source repository collating consumer boycott and alternative product da…
+  url: https://apis.io/topics/boycott-israeli-consumer-goods-dataset/
+  api_count: 2
+  provider_count: 7
+- slug: c-sharp
+  name: C#
+  kind: topic
+  short: C# is a modern, object-oriented programming language developed by Microsoft as part of the .NET platform. It is used for building Windows applications, web services, games (via Un…
+  url: https://apis.io/topics/c-sharp/
+  api_count: 5
+  provider_count: 9
+- slug: capabilities
+  name: Capabilities
+  kind: topic
+  short: Capabilities is a generic index entry within the API Evangelist Network used to describe the catalog of reusable API capabilities that emerge across provider profiles. Unlike a co…
+  url: https://apis.io/topics/capabilities/
+  api_count: 0
+  provider_count: 0
+- slug: capital-requirements
+  name: Capital Requirements
+  kind: topic
+  short: Capital Requirements is a specialized technology or methodology in the capital domain that addresses specific technical or business requirements. It provides targeted capabilities…
+  url: https://apis.io/topics/capital-requirements/
+  api_count: 0
+  provider_count: 2
+- slug: ccpa
+  name: CCPA (California Consumer Privacy Act)
+  kind: topic
+  short: The California Consumer Privacy Act (CCPA), amended by the California Privacy Rights Act (CPRA), is a state statute that grants California residents rights over their personal inf…
+  url: https://apis.io/topics/ccpa/
+  api_count: 6
+  provider_count: 92
+- slug: certificate-enrolment-protocols
+  name: Certificate Enrolment Protocols
+  kind: topic
+  short: Certificate Enrolment Protocols are the interoperable standards that automate the lifecycle operations of requesting, issuing, renewing, and revoking X.509 digital certificates be…
+  url: https://apis.io/topics/certificate-enrolment-protocols/
+  api_count: 10
+  provider_count: 64
+- slug: chat
+  name: Chat
+  kind: topic
+  short: Topic-level profile capturing the Chat API category in the API Evangelist network. This profile defines a reference vocabulary and a generic OpenAPI shape for chat APIs that manag…
+  url: https://apis.io/topics/chat/
+  api_count: 3
+  provider_count: 110
+- slug: circuit-breaker
+  name: Circuit Breaker
+  kind: topic
+  short: The Circuit Breaker is a stability pattern for distributed systems and API architectures that prevents cascading failure when a downstream service degrades. A breaker wraps a remo…
+  url: https://apis.io/topics/circuit-breaker/
+  api_count: 0
+  provider_count: 24
+- slug: cloud
+  name: Cloud
+  kind: topic
+  short: Cloud is a topic profile in the API Evangelist Network covering the major public cloud platforms and their APIs. The topic indexes the hyperscalers (Amazon Web Services, Microsoft…
+  url: https://apis.io/topics/cloud/
+  api_count: 16
+  provider_count: 147
+- slug: cloud-storage
+  name: Cloud Storage
+  kind: topic
+  short: Cloud Storage is a topic profile in the API Evangelist Network covering the major cloud and S3-compatible object, file, and block storage APIs. The topic indexes the canonical hyp…
+  url: https://apis.io/topics/cloud-storage/
+  api_count: 11
+  provider_count: 65
+- slug: cloud-storage-and-data-acquisition
+  name: Cloud Storage and Data Acquisition
+  kind: topic
+  short: Cloud Storage and Data Acquisition is a topic profile in the API Evangelist Network covering APIs and tooling for ingesting, moving, and persisting bulk and streaming data into cl…
+  url: https://apis.io/topics/cloud-storage-and-data-acquisition/
+  api_count: 6
+  provider_count: 48
+- slug: code-first
+  name: Code First
+  kind: topic
+  short: Code-first is an API design and software development approach where the application's source code is the primary source of truth and the API contract (OpenAPI document, GraphQL sc…
+  url: https://apis.io/topics/code-first/
+  api_count: 0
+  provider_count: 6
+- slug: command-line-interface
+  name: Command Line Interface
+  kind: topic
+  short: Command Line Interface (CLI) is a text-based way of interacting with software by typing commands at a prompt. Modern CLI design draws on decades of UNIX conventions while incorpor…
+  url: https://apis.io/topics/command-line-interface/
+  api_count: 4
+  provider_count: 126
+- slug: communication-protocols
+  name: Communication Protocols
+  kind: topic
+  short: Communication protocols are systems of rules that allow two or more entities in a networked system to exchange information. Modern API platforms rely on layered protocol stacks th…
+  url: https://apis.io/topics/communication-protocols/
+  api_count: 7
+  provider_count: 11
+- slug: configuration-language
+  name: Configuration Language
+  kind: topic
+  short: Configuration languages are formats and DSLs used to express the desired state of software systems, infrastructure, applications, and APIs. Configuration languages span a spectrum…
+  url: https://apis.io/topics/configuration-language/
+  api_count: 9
+  provider_count: 4
+- slug: consensus
+  name: Consensus
+  kind: topic
+  short: Consensus is the distributed systems problem of getting a set of unreliable processes to agree on a value or sequence of values. Consensus algorithms power state-machine replicati…
+  url: https://apis.io/topics/consensus/
+  api_count: 5
+  provider_count: 7
+- slug: consumer-products
+  name: Consumer Products
+  kind: topic
+  short: Industry-vertical index of APIs, data sources, syndication networks, and product information management (PIM) platforms that power the consumer packaged goods (CPG) and consumer p…
+  url: https://apis.io/topics/consumer-products/
+  api_count: 18
+  provider_count: 66
+- slug: context-engineering
+  name: Context Engineering
+  kind: topic
+  short: Context engineering is the practice of curating the information that large language models receive at inference time so that the model can perform a task reliably and cost-effecti…
+  url: https://apis.io/topics/context-engineering/
+  api_count: 5
+  provider_count: 559
+- slug: contributors-md
+  name: CONTRIBUTORS.md
+  kind: topic
+  short: CONTRIBUTORS.md is an open source convention used to recognize the people and organizations that have contributed to a project. The file lists contributors by name, GitHub handle,…
+  url: https://apis.io/topics/contributors-md/
+  api_count: 2
+  provider_count: 32
+- slug: convention-over-configuration
+  name: Convention Over Configuration
+  kind: topic
+  short: Convention over Configuration (CoC) is a software design principle that prefers sensible defaults and standard patterns over explicit, repetitive configuration. Frameworks that ad…
+  url: https://apis.io/topics/convention-over-configuration/
+  api_count: 5
+  provider_count: 0
+- slug: conventions-md
+  name: CONVENTIONS.md
+  kind: topic
+  short: CONVENTIONS.md is a Markdown convention popularized by AI pair programming tools such as aider and adopted by AI coding agents like Cursor, Cline, and Claude Code. It documents pr…
+  url: https://apis.io/topics/conventions-md/
+  api_count: 2
+  provider_count: 18
+- slug: copilot-instructions-md
+  name: copilot-instructions.md
+  kind: topic
+  short: copilot-instructions.md is a GitHub Copilot custom instructions file placed at .github/copilot-instructions.md in a repository. It provides repository-specific guidance and prefer…
+  url: https://apis.io/topics/copilot-instructions-md/
+  api_count: 2
+  provider_count: 10
+- slug: cqrs
+  name: CQRS
+  kind: topic
+  short: Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates read and write operations for a data store into distinct models. Commands mutate state a…
+  url: https://apis.io/topics/cqrs/
+  api_count: 0
+  provider_count: 4
+- slug: css
+  name: CSS (Cascading Style Sheets)
+  kind: concept
+  short: Cascading Style Sheets (CSS) is a W3C web standard for describing the presentation of documents written in HTML and XML, including layout, colors, typography, and animations. CSS…
+  url: https://apis.io/topics/css/
+  api_count: 1
+  provider_count: 3
+- slug: customs-advisory-services
+  name: Customs Advisory Services
+  kind: topic
+  short: Customs advisory services help importers, exporters, and trade professionals navigate complex customs regulations, tariff classifications, valuation rulings, country-of-origin det…
+  url: https://apis.io/topics/customs-advisory-services/
+  api_count: 0
+  provider_count: 14
+- slug: customs-brokerage
+  name: Customs Brokerage
+  kind: topic
+  short: Customs brokerage is the licensed practice of clearing imported and exported goods through customs authorities on behalf of importers, exporters, and freight forwarders. Licensed…
+  url: https://apis.io/topics/customs-brokerage/
+  api_count: 0
+  provider_count: 23
+- slug: customs-computer-system
+  name: Customs Computer System
+  kind: topic
+  short: A customs computer system is the national IT platform that customs authorities operate to manage the import and export of goods, collect duties and taxes, enforce trade restrictio…
+  url: https://apis.io/topics/customs-computer-system/
+  api_count: 0
+  provider_count: 9
+- slug: customs-forms
+  name: Customs Forms
+  kind: topic
+  short: Customs forms are the standardized declarations and supporting documents that importers, exporters, and carriers must complete to move goods across international borders. Common f…
+  url: https://apis.io/topics/customs-forms/
+  api_count: 0
+  provider_count: 194
+- slug: customs-procedures
+  name: Customs Procedures
+  kind: topic
+  short: Customs procedures are the regulated processes that govern how goods are entered into, transited through, and exported from a customs territory. The major procedures include relea…
+  url: https://apis.io/topics/customs-procedures/
+  api_count: 0
+  provider_count: 10
+- slug: cybersecurity-standards
+  name: Cybersecurity Standards
+  kind: topic
+  short: Cybersecurity Standards captures the public, machine-readable, and reference frameworks that establish best practices for protecting information systems, networks, software, and d…
+  url: https://apis.io/topics/cybersecurity-standards/
+  api_count: 10
+  provider_count: 161
+- slug: data-commons
+  name: Data Commons
+  kind: topic
+  short: Data Commons is an open knowledge graph initiative led by Google that aggregates and harmonizes the world's public data into a single graph, making global statistical data simple…
+  url: https://apis.io/topics/data-commons/
+  api_count: 8
+  provider_count: 20
+- slug: data-flow-diagrams
+  name: Data Flow Diagrams
+  kind: topic
+  short: Data Flow Diagrams (DFDs) are graphical models that depict how data moves through a system across processes, data stores, external entities, and flows. The technique spans Yourdon…
+  url: https://apis.io/topics/data-flow-diagrams/
+  api_count: 0
+  provider_count: 1
+- slug: data-format
+  name: Data Format
+  kind: topic
+  short: Data Format covers the syntactic conventions used to represent, exchange, and persist information. The landscape spans text formats (JSON, XML, YAML, CSV, TOML), binary formats (P…
+  url: https://apis.io/topics/data-format/
+  api_count: 0
+  provider_count: 0
+- slug: data-modeling
+  name: Data Modeling
+  kind: topic
+  short: Data Modeling is the discipline of designing structured representations of data to organize information, define relationships, and govern how data is stored, accessed, and managed…
+  url: https://apis.io/topics/data-modeling/
+  api_count: 0
+  provider_count: 0
+- slug: data-models
+  name: Data Models
+  kind: topic
+  short: Data Models are structured representations of entities, attributes, and relationships that define how data is stored, accessed, and exchanged. The landscape spans relational, hier…
+  url: https://apis.io/topics/data-models/
+  api_count: 0
+  provider_count: 0
+- slug: data-privacy-standards
+  name: Data Privacy Standards
+  kind: topic
+  short: Data Privacy Standards is the landscape of laws, regulations, frameworks, and technical standards that govern the collection, processing, sharing, and protection of personal data.…
+  url: https://apis.io/topics/data-privacy-standards/
+  api_count: 0
+  provider_count: 82
+- slug: data-quality-standards
+  name: Data Quality Standards
+  kind: topic
+  short: Data Quality Standards is the landscape of frameworks, standards, and tools used to define and measure the accuracy, completeness, consistency, validity, uniqueness, and timelines…
+  url: https://apis.io/topics/data-quality-standards/
+  api_count: 0
+  provider_count: 23
+- slug: data-warehouse-schemas
+  name: Data Warehouse Schemas
+  kind: topic
+  short: Data Warehouse Schemas is the landscape of analytical schema patterns used to organize fact and dimension data for business intelligence and reporting. It spans star, snowflake, a…
+  url: https://apis.io/topics/data-warehouse-schemas/
+  api_count: 0
+  provider_count: 109
+- slug: database-normalization
+  name: Database Normalization
+  kind: topic
+  short: Database Normalization is the formal process of structuring relational schemas to reduce redundancy and avoid update, insert, and delete anomalies. It is governed by Codd's normal…
+  url: https://apis.io/topics/database-normalization/
+  api_count: 0
+  provider_count: 0
+- slug: database-schema-design
+  name: Database Schema Design
+  kind: topic
+  short: Database Schema Design is the practice of defining the tables, columns, data types, constraints, indexes, and relationships that make up a database. It applies to relational, docu…
+  url: https://apis.io/topics/database-schema-design/
+  api_count: 0
+  provider_count: 0
+- slug: defense-in-depth
+  name: Defense in Depth
+  kind: topic
+  short: Defense in Depth is a layered cybersecurity strategy that uses multiple, overlapping security controls so that if one control fails, others continue to protect systems, data, and…
+  url: https://apis.io/topics/defense-in-depth/
+  api_count: 0
+  provider_count: 178
+- slug: devops
+  name: DevOps
+  kind: topic
+  short: DevOps is a cultural and technical movement that combines software development and IT operations to shorten the development lifecycle and deliver high-quality software continuousl…
+  url: https://apis.io/topics/devops/
+  api_count: 0
+  provider_count: 505
+- slug: dhcp
+  name: DHCP
+  kind: topic
+  short: Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on IP networks. DHCP dynamically assigns IP address…
+  url: https://apis.io/topics/dhcp/
+  api_count: 0
+  provider_count: 6
+- slug: dimensional-modeling
+  name: Dimensional Modeling
+  kind: topic
+  short: A data modeling technique used in data warehousing that structures data into fact tables containing measurable metrics and dimension tables containing descriptive attributes, opti…
+  url: https://apis.io/topics/dimensional-modeling/
+  api_count: 0
+  provider_count: 109
+- slug: disclosure-requirements
+  name: Disclosure Requirements
+  kind: topic
+  short: Disclosure Requirements are the regulatory and legal obligations for organizations to reveal specific information to stakeholders, regulators, and the public. These requirements s…
+  url: https://apis.io/topics/disclosure-requirements/
+  api_count: 0
+  provider_count: 55
+- slug: embeddable
+  name: Embeddable
+  kind: topic
+  short: An index and topic collection covering embeddable widgets, JavaScript SDKs, iframe-able experiences, and embedded analytics. Embeddable platforms allow product teams to drop pre-b…
+  url: https://apis.io/topics/embeddable/
+  api_count: 0
+  provider_count: 1
+- slug: energy-utilities
+  name: Energy and Utilities
+  kind: topic
+  short: Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It inde…
+  url: https://apis.io/topics/energy-utilities/
+  api_count: 17
+  provider_count: 384
+- slug: entity-relationship
+  name: Entity Relationship
+  kind: topic
+  short: Entity-Relationship (ER) modeling is a data modeling technique used to describe the data requirements for an information system. ER diagrams visually represent entities (objects o…
+  url: https://apis.io/topics/entity-relationship/
+  api_count: 0
+  provider_count: 0
+- slug: event-sourcing
+  name: Event Sourcing
+  kind: topic
+  short: Event sourcing is an architectural pattern where state changes are stored as a sequence of immutable events rather than just the current state. Instead of storing only the current…
+  url: https://apis.io/topics/event-sourcing/
+  api_count: 0
+  provider_count: 10
+- slug: fashion-ai
+  name: Fashion AI
+  kind: topic
+  short: Fashion AI is a cutting-edge technology that uses artificial intelligence to revolutionize the way we shop for clothing. By analyzing vast amounts of data on trends, styles, and c…
+  url: https://apis.io/topics/fashion-ai/
+  api_count: 1
+  provider_count: 1
+- slug: fda-regulations
+  name: FDA Regulations
+  kind: topic
+  short: FDA Regulations is the body of federal rules the U.S. Food and Drug Administration enforces over the safety, efficacy and security of food, human and animal drugs, biologics, medi…
+  url: https://apis.io/topics/fda-regulations/
+  api_count: 1
+  provider_count: 581
+- slug: financial-regulation
+  name: Financial Regulation
+  kind: topic
+  short: Financial regulation is the body of laws, rules, and supervisory frameworks governing financial markets, banks, broker-dealers, asset managers, payment providers, and crypto firms…
+  url: https://apis.io/topics/financial-regulation/
+  api_count: 0
+  provider_count: 91
+- slug: gateways
+  name: Gateways
+  kind: topic
+  short: A curated index of API, AI, data, and event gateways including cloud-managed services, open source projects, and commercial platforms that route, secure, and manage traffic across…
+  url: https://apis.io/topics/gateways/
+  api_count: 0
+  provider_count: 6
+- slug: gdpr
+  name: GDPR
+  kind: topic
+  short: The General Data Protection Regulation (GDPR) is a comprehensive data privacy law enacted by the European Union that governs how organizations collect, process, and store personal…
+  url: https://apis.io/topics/gdpr/
+  api_count: 0
+  provider_count: 56
+- slug: governance
+  name: API Governance
+  kind: topic
+  short: API Governance is the practice of defining and enforcing the policies, standards, and processes that guide how APIs are designed, built, secured, versioned, and retired across an…
+  url: https://apis.io/topics/governance/
+  api_count: 16
+  provider_count: 80
+- slug: guardrails
+  name: AI Guardrails
+  kind: topic
+  short: AI Guardrails are runtime and design-time controls that screen the inputs and outputs of large language model (LLM) applications and AI agents. They detect and block prompt inject…
+  url: https://apis.io/topics/guardrails/
+  api_count: 14
+  provider_count: 28
+- slug: high-tech
+  name: High Tech
+  kind: topic
+  short: High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic compone…
+  url: https://apis.io/topics/high-tech/
+  api_count: 12
+  provider_count: 301
+- slug: hipaa
+  name: HIPAA
+  kind: topic
+  short: HIPAA (Health Insurance Portability and Accountability Act) is U.S. legislation providing data privacy and security provisions for safeguarding medical information. HIPAA complian…
+  url: https://apis.io/topics/hipaa/
+  api_count: 0
+  provider_count: 217
+- slug: http
+  name: HTTP
+  kind: topic
+  short: HTTP (Hypertext Transfer Protocol) is the foundation-level protocol for data communication on the World Wide Web, defining how messages are formatted and transmitted between clien…
+  url: https://apis.io/topics/http/
+  api_count: 0
+  provider_count: 10
+- slug: imap
+  name: IMAP
+  kind: topic
+  short: IMAP (Internet Message Access Protocol) is a standard email protocol that allows email clients to access and manage email messages stored on a mail server. IMAP enables users to v…
+  url: https://apis.io/topics/imap/
+  api_count: 0
+  provider_count: 49
+- slug: inbox
+  name: Inbox
+  kind: topic
+  short: Inbox is an API Evangelist index of email and inbox-oriented API platforms that developers use to send, receive, parse, route, schedule, and verify email messages. The index focus…
+  url: https://apis.io/topics/inbox/
+  api_count: 2
+  provider_count: 68
+- slug: informatics
+  name: Informatics
+  kind: topic
+  short: Informatics encompasses the science of information and computation, including bioinformatics, health informatics, clinical informatics, and computational biology. This index is a…
+  url: https://apis.io/topics/informatics/
+  api_count: 0
+  provider_count: 49
+- slug: interface-specifications
+  name: Interface Specifications
+  kind: topic
+  short: Interface Specifications define the contract between different software components, including API endpoints, data formats, protocols, and integration requirements. They are used a…
+  url: https://apis.io/topics/interface-specifications/
+  api_count: 0
+  provider_count: 1
+- slug: javascript
+  name: JavaScript
+  kind: topic
+  short: JavaScript is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. It is a multi-paradigm, dynamic language supporting object-orie…
+  url: https://apis.io/topics/javascript/
+  api_count: 8
+  provider_count: 1
+- slug: json-schema
+  name: JSON Schema
+  kind: topic
+  short: JSON Schema is a vocabulary for annotating and validating JSON documents, widely used for defining API request and response shapes across REST APIs. The current stable specificati…
+  url: https://apis.io/topics/json-schema/
+  api_count: 1
+  provider_count: 5
+- slug: jules-md
+  name: JULES.md
+  kind: topic
+  short: JULES.md is a configuration file format for the Google Jules AI coding agent, providing project-specific instructions, architecture context, and coding standards to guide AI-assis…
+  url: https://apis.io/topics/jules-md/
+  api_count: 1
+  provider_count: 24
+- slug: kerberos
+  name: Kerberos
+  kind: topic
+  short: Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity to one ano…
+  url: https://apis.io/topics/kerberos/
+  api_count: 1
+  provider_count: 96
+- slug: knowledge
+  name: API Knowledge
+  kind: topic
+  short: API knowledge is the layer of indexes, descriptions, contexts, and signals that lets humans and agents reason about which APIs exist, what they do, who operates them, what they co…
+  url: https://apis.io/topics/knowledge/
+  api_count: 9
+  provider_count: 108
+- slug: kubernetes-operators
+  name: Kubernetes Operators
+  kind: topic
+  short: Kubernetes Operators are a method of packaging, deploying, and managing Kubernetes applications that extend the Kubernetes API to create, configure, and manage instances of comple…
+  url: https://apis.io/topics/kubernetes-operators/
+  api_count: 11
+  provider_count: 210
+- slug: lakehouse-architecture
+  name: Lakehouse Architecture
+  kind: topic
+  short: Lakehouse Architecture is a data architecture paradigm that combines the best features of data lakes and data warehouses, providing ACID transactions, schema enforcement, and gove…
+  url: https://apis.io/topics/lakehouse-architecture/
+  api_count: 1
+  provider_count: 66
+- slug: linting
+  name: API Linting
+  kind: topic
+  short: API Linting is a topic index for the tools, rulesets, vocabularies, and practices that automate API style guide enforcement across OpenAPI, AsyncAPI, JSON Schema, and adjacent con…
+  url: https://apis.io/topics/linting/
+  api_count: 10
+  provider_count: 33
+- slug: linux-server
+  name: Linux Server
+  kind: topic
+  short: Linux Server is a topic catalog covering management, administration, and monitoring interfaces used to operate Linux servers in production. It organizes references to systemd, coc…
+  url: https://apis.io/topics/linux-server/
+  api_count: 7
+  provider_count: 50
+- slug: linuxunix
+  name: Linux/Unix System
+  kind: topic
+  short: A topic catalog of system-level APIs and interfaces available across Linux/Unix-like operating systems. Includes kernel system calls, POSIX standards, inter-process communication…
+  url: https://apis.io/topics/linuxunix/
+  api_count: 10
+  provider_count: 14
+- slug: multi-tier-architecture
+  name: Multi-Tier Architecture
+  kind: topic
+  short: A software architecture pattern that separates an application into logical layers or tiers, typically presentation, business logic, and data access layers, to improve modularity,…
+  url: https://apis.io/topics/multi-tier-architecture/
+  api_count: 0
+  provider_count: 5
+- slug: mvc
+  name: MVC
+  kind: topic
+  short: Model-View-Controller (MVC) is a software architectural pattern that separates an application into three interconnected components - the Model (data), View (user interface), and C…
+  url: https://apis.io/topics/mvc/
+  api_count: 0
+  provider_count: 8
+- slug: mxml
+  name: MXML
+  kind: topic
+  short: MXML (Magic XML) is a declarative XML-based markup language used in Adobe Flex for creating user interfaces and applications, allowing developers to define UI components and layou…
+  url: https://apis.io/topics/mxml/
+  api_count: 0
+  provider_count: 1
+- slug: normalization
+  name: Normalization
+  kind: topic
+  short: Normalization is a data management concept used in database design and data processing to reduce data redundancy and improve data integrity. In databases, normalization organizes…
+  url: https://apis.io/topics/normalization/
+  api_count: 0
+  provider_count: 13
+- slug: oauth
+  name: OAuth
+  kind: topic
+  short: OAuth is an open authorization framework that enables third-party applications to access user resources without exposing credentials. It provides a secure, token-based delegation…
+  url: https://apis.io/topics/oauth/
+  api_count: 3
+  provider_count: 128
+- slug: oracle-platforms
+  name: Oracle Platforms
+  kind: topic
+  short: 'Oracle Platforms is the API Evangelist index of Oracle''s cloud and enterprise platform APIs: the Oracle Cloud Infrastructure (OCI) control plane for compute, storage, networking a…'
+  url: https://apis.io/topics/oracle-platforms/
+  api_count: 11
+  provider_count: 294
+- slug: orders-api
+  name: Orders
+  kind: index
+  short: This is a template APIs.json for a orders API, to be used in storytelling, training, and knowledge bases.
+  url: https://apis.io/topics/orders-api/
+  api_count: 1
+  provider_count: 0
+- slug: payments-api
+  name: Payments API
+  kind: topic
+  short: This is a demo Payments API index used by API Evangelist to model and reference patterns common to payments providers, including authentication, charges, customers, payouts, refun…
+  url: https://apis.io/topics/payments-api/
+  api_count: 0
+  provider_count: 1
+- slug: pdf
+  name: PDF
+  kind: topic
+  short: PDF (Portable Document Format) is a file format developed by Adobe in 1993 used to present documents in a manner independent of application software, hardware, and operating syste…
+  url: https://apis.io/topics/pdf/
+  api_count: 0
+  provider_count: 8
+- slug: persons-api
+  name: Persons
+  kind: index
+  short: This is a template APIs.json for a persons API, to be used in storytelling, training, and knowledge bases.
+  url: https://apis.io/topics/persons-api/
+  api_count: 1
+  provider_count: 0
+- slug: pig-latin
+  name: Pig Latin
+  kind: topic
+  short: Pig Latin is a language game in which English words are altered according to a simple set of rules (typically moving the first consonant cluster to the end of the word and appendi…
+  url: https://apis.io/topics/pig-latin/
+  api_count: 0
+  provider_count: 0
+- slug: plans
+  name: Plans
+  kind: topic
+  short: An index and topic collection covering machine-readable API and SaaS plan definitions. Plans capture the structured representation of pricing tiers, included entitlements, metered…
+  url: https://apis.io/topics/plans/
+  api_count: 0
+  provider_count: 0
+- slug: power-tools
+  name: Power Tools
+  kind: topic
+  short: Power Tools is an index of API capabilities, developer tooling, and utilities curated by API Evangelist. This collection aggregates developer-facing APIs and SDKs that support aut…
+  url: https://apis.io/topics/power-tools/
+  api_count: 0
+  provider_count: 71
+- slug: products-api
+  name: Products
+  kind: index
+  short: This is a template APIs.json for a products API, to be used in storytelling, training, and knowledge bases.
+  url: https://apis.io/topics/products-api/
+  api_count: 1
+  provider_count: 0
+- slug: realtime
+  name: Realtime
+  kind: topic
+  short: A topic catalog of realtime APIs, protocols, providers, and patterns. Realtime distinguishes itself from streaming by being interactive and typically bidirectional — channels, pre…
+  url: https://apis.io/topics/realtime/
+  api_count: 26
+  provider_count: 49
+- slug: redis-streams
+  name: Redis Streams
+  kind: topic
+  short: Redis Streams is a data structure in Redis that models an append-only log for managing streams of data, providing consumer groups, message acknowledgment, and the ability to proce…
+  url: https://apis.io/topics/redis-streams/
+  api_count: 1
+  provider_count: 29
+- slug: regulatory
+  name: Regulatory
+  kind: topic
+  short: The regulatory domain encompasses compliance requirements, regulatory reporting, and governance frameworks that organizations must adhere to across industries. APIs in this space…
+  url: https://apis.io/topics/regulatory/
+  api_count: 8
+  provider_count: 194
+- slug: regulatory-templates
+  name: Regulatory Templates
+  kind: topic
+  short: Pre-built templates, frameworks, and policy libraries for meeting regulatory compliance requirements across industries and jurisdictions including GDPR, HIPAA, SOC 2, ISO 27001, P…
+  url: https://apis.io/topics/regulatory-templates/
+  api_count: 4
+  provider_count: 105
+- slug: relational-data-modeling
+  name: Relational Data Modeling
+  kind: topic
+  short: Relational data modeling is a database design approach that organizes data into tables (relations) with rows and columns, establishing relationships between tables through primary…
+  url: https://apis.io/topics/relational-data-modeling/
+  api_count: 9
+  provider_count: 0
+- slug: reporting-templates
+  name: Reporting Templates
+  kind: topic
+  short: Pre-built document templates for generating standardized reports, dashboards, and data presentations with consistent formatting and structure. Organizations use reporting template…
+  url: https://apis.io/topics/reporting-templates/
+  api_count: 0
+  provider_count: 57
+- slug: reserve-requirements
+  name: Reserve Requirements
+  kind: topic
+  short: Reserve Requirements refers to the Federal Reserve's Regulation D framework governing reserve requirement ratios for depository institutions. As of March 26, 2020, the Federal Res…
+  url: https://apis.io/topics/reserve-requirements/
+  api_count: 5
+  provider_count: 2
+- slug: rest-api
+  name: REST API
+  kind: topic
+  short: Representational State Transfer (REST) is an architectural style for designing networked applications using standard HTTP methods and stateless communication between client and se…
+  url: https://apis.io/topics/rest-api/
+  api_count: 0
+  provider_count: 59
+- slug: rest-services
+  name: REST Services
+  kind: topic
+  short: Representational State Transfer (REST) is an architectural style for designing networked applications using stateless communication and standard HTTP methods (GET, POST, PUT, DELE…
+  url: https://apis.io/topics/rest-services/
+  api_count: 0
+  provider_count: 9
+- slug: restful-apis
+  name: RESTful APIs
+  kind: topic
+  short: Representational State Transfer (REST) is an architectural style for designing networked applications. RESTful APIs use HTTP methods to perform CRUD operations and communicate bet…
+  url: https://apis.io/topics/restful-apis/
+  api_count: 0
+  provider_count: 42
+- slug: restful-web-services
+  name: RESTful Web Services
+  kind: topic
+  short: RESTful web services are web services built using the Representational State Transfer (REST) architectural style, using HTTP as the transport protocol with standard methods to per…
+  url: https://apis.io/topics/restful-web-services/
+  api_count: 5
+  provider_count: 9
+- slug: rfid
+  name: RFID
+  kind: topic
+  short: Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID p…
+  url: https://apis.io/topics/rfid/
+  api_count: 7
+  provider_count: 58
+- slug: roorules
+  name: .Roorules
+  kind: topic
+  short: .roorules is a configuration file convention for Roo Code, an open-source AI-powered autonomous coding assistant built for VS Code. The .roorules file allows developers to define…
+  url: https://apis.io/topics/roorules/
+  api_count: 3
+  provider_count: 412
+- slug: safe-agile
+  name: SAFe Agile
+  kind: topic
+  short: The Scaled Agile Framework (SAFe) is an enterprise-scale agile framework developed by Scaled Agile, Inc. that provides guidance for implementing agile practices across large organ…
+  url: https://apis.io/topics/safe-agile/
+  api_count: 5
+  provider_count: 35
+- slug: scala
+  name: Scala
+  kind: topic
+  short: A topic collection covering the Scala programming language ecosystem, including its standard library, key frameworks, and widely-used libraries. Scala is a strongly-typed, JVM-bas…
+  url: https://apis.io/topics/scala/
+  api_count: 11
+  provider_count: 9
+- slug: scalability
+  name: Scalability
+  kind: topic
+  short: A subject-matter collection covering APIs, tools, frameworks, and data sources related to application scalability, infrastructure scaling, performance optimization, and elastic re…
+  url: https://apis.io/topics/scalability/
+  api_count: 7
+  provider_count: 76
+- slug: scalable-architecture
+  name: Scalable Architecture
+  kind: topic
+  short: A subject-matter collection covering APIs, patterns, tools, and frameworks for building scalable system architecture. This topic encompasses microservices design, service mesh, ev…
+  url: https://apis.io/topics/scalable-architecture/
+  api_count: 8
+  provider_count: 76
+- slug: scalable-infrastructure
+  name: Scalable Infrastructure
+  kind: topic
+  short: A subject-matter collection covering APIs, tools, and platforms for building and managing scalable cloud infrastructure. This topic encompasses compute, storage, networking, conta…
+  url: https://apis.io/topics/scalable-infrastructure/
+  api_count: 3
+  provider_count: 155
+- slug: scalable-platforms
+  name: Scalable Platforms
+  kind: topic
+  short: A subject-matter collection covering APIs, tools, and platforms for building and deploying scalable platform infrastructure. This topic encompasses Platform-as-a-Service (PaaS) pr…
+  url: https://apis.io/topics/scalable-platforms/
+  api_count: 7
+  provider_count: 78
+- slug: scalable-services
+  name: Scalable Services
+  kind: topic
+  short: A curated topic collection covering APIs, patterns, tools, and best practices for designing and operating scalable services. This includes cloud-native microservices, API gateways…
+  url: https://apis.io/topics/scalable-services/
+  api_count: 14
+  provider_count: 214
+- slug: scalable-software-and-systems
+  name: Scalable Software and Systems
+  kind: topic
+  short: A topic collection exploring the APIs, design patterns, frameworks, and platforms that enable scalable software and systems engineering. Covers architectural patterns such as CQRS…
+  url: https://apis.io/topics/scalable-software-and-systems/
+  api_count: 9
+  provider_count: 34
+- slug: scalable-systems
+  name: Scalable Systems
+  kind: topic
+  short: A topic collection focused on APIs, tools, and platforms for designing and operating scalable distributed systems. Covers load balancing, auto-scaling, service discovery, distribu…
+  url: https://apis.io/topics/scalable-systems/
+  api_count: 7
+  provider_count: 26
+- slug: schema-design
+  name: Schema Design
+  kind: topic
+  short: Schema Design is the practice of defining the structure, constraints, and semantics of data models used in APIs, databases, and data exchange formats. It encompasses schema-first…
+  url: https://apis.io/topics/schema-design/
+  api_count: 5
+  provider_count: 28
+- slug: schema-evolution
+  name: Schema Evolution
+  kind: topic
+  short: Schema Evolution is the practice of managing changes to data schemas over time while preserving compatibility between producers and consumers. It covers backward compatibility, fo…
+  url: https://apis.io/topics/schema-evolution/
+  api_count: 9
+  provider_count: 2
+- slug: schema-free
+  name: Schema Free
+  kind: topic
+  short: Schema Free (schemaless) databases and APIs allow data to be stored and retrieved without a predefined fixed schema. Rather than enforcing structure at the database level, schema-…
+  url: https://apis.io/topics/schema-free/
+  api_count: 5
+  provider_count: 6
+- slug: schema-validation
+  name: Schema Validation
+  kind: topic
+  short: Schema validation is the practice of verifying that data structures conform to a defined schema, contract, or specification. In API development, schema validation ensures API requ…
+  url: https://apis.io/topics/schema-validation/
+  api_count: 6
+  provider_count: 19
+- slug: sdlc
+  name: SDLC
+  kind: topic
+  short: Software Development Life Cycle - A systematic process for planning, creating, testing, and deploying software systems. Effective use of this practice reduces bugs in production a…
+  url: https://apis.io/topics/sdlc/
+  api_count: 0
+  provider_count: 1
+- slug: secure-tunneling-protocols
+  name: Secure Tunneling Protocols
+  kind: topic
+  short: Network protocols that create encrypted tunnels for secure data transmission over untrusted networks, including VPN technologies like IPsec, SSL/TLS, WireGuard, and SSH tunneling…
+  url: https://apis.io/topics/secure-tunneling-protocols/
+  api_count: 0
+  provider_count: 75
+- slug: security-protocols
+  name: Security Protocols
+  kind: topic
+  short: A set of rules and standards that define how data is transmitted securely over networks, including protocols like SSL/TLS, HTTPS, SSH, and IPsec that provide encryption, authentic…
+  url: https://apis.io/topics/security-protocols/
+  api_count: 0
+  provider_count: 127
+- slug: serverless
+  name: Serverless
+  kind: topic
+  short: An index and topic collection covering serverless compute, function-as-a-service (FaaS) runtimes, and edge function platforms. Serverless platforms abstract away server management…
+  url: https://apis.io/topics/serverless/
+  api_count: 0
+  provider_count: 12
+- slug: service-oriented-architecture
+  name: Service Oriented Architecture
+  kind: topic
+  short: An architectural pattern where software components provide services to other components through a communication protocol over a network. Services are loosely coupled, reusable, an…
+  url: https://apis.io/topics/service-oriented-architecture/
+  api_count: 0
+  provider_count: 13
+- slug: six-sigma
+  name: Six Sigma
+  kind: topic
+  short: Six Sigma is a data-driven process improvement methodology that uses statistical analysis to reduce defects and variability in business processes, targeting fewer than 3.4 defects…
+  url: https://apis.io/topics/six-sigma/
+  api_count: 3
+  provider_count: 4
+- slug: sketches
+  name: Sketches
+  kind: topic
+  short: Sketches are probabilistic data structures used in computing and data engineering to approximate answers to queries over large data streams with controlled error bounds and dramat…
+  url: https://apis.io/topics/sketches/
+  api_count: 3
+  provider_count: 4
+- slug: software-defined-networking
+  name: Software-Defined Networking
+  kind: topic
+  short: Software-Defined Networking (SDN) is a network architecture approach that decouples the network control plane from the data forwarding plane, enabling dynamic, programmatically ef…
+  url: https://apis.io/topics/software-defined-networking/
+  api_count: 2
+  provider_count: 21
+- slug: software-design-architectural-patterns
+  name: Software Design Architectural Patterns
+  kind: topic
+  short: Software architectural patterns are reusable solutions and best practices for organizing software system architecture. Key patterns include MVC (Model-View-Controller), Microservi…
+  url: https://apis.io/topics/software-design-architectural-patterns/
+  api_count: 2
+  provider_count: 18
+- slug: software-design-patterns
+  name: Software Design Patterns
+  kind: topic
+  short: Software design patterns are reusable solutions to commonly occurring problems in software design. Originally catalogued by the Gang of Four (GoF) in 1994, they include 23 pattern…
+  url: https://apis.io/topics/software-design-patterns/
+  api_count: 2
+  provider_count: 7
+- slug: specification
+  name: Specification
+  kind: topic
+  short: A subject-matter collection covering API specifications, specification formats, specification-driven development, and the broader specification landscape. This includes OpenAPI, A…
+  url: https://apis.io/topics/specification/
+  api_count: 4
+  provider_count: 56
+- slug: spreadsheets
+  name: Spreadsheets
+  kind: topic
+  short: Spreadsheets covers the APIs, tools, and services for programmatic access to spreadsheet data across major platforms including Google Sheets and Microsoft Excel. The Google Sheets…
+  url: https://apis.io/topics/spreadsheets/
+  api_count: 7
+  provider_count: 44
+- slug: standard-operating-procedures
+  name: Standard Operating Procedures
+  kind: topic
+  short: Standard Operating Procedures (SOPs) are documented step-by-step instructions for routine operations and processes to ensure consistency, quality, and compliance across an organiz…
+  url: https://apis.io/topics/standard-operating-procedures/
+  api_count: 0
+  provider_count: 18
+- slug: streaming
+  name: Streaming
+  kind: topic
+  short: Streaming is a topic catalog of the protocols, platforms, and processing engines used to move and transform real-time, high-volume, often bidirectional data over the network. It i…
+  url: https://apis.io/topics/streaming/
+  api_count: 21
+  provider_count: 95
+- slug: support-md
+  name: SUPPORT.md
+  kind: topic
+  short: SUPPORT.md is a GitHub community health file that describes how users can get help with an open source project. When present in a repository root or .github/ directory, GitHub aut…
+  url: https://apis.io/topics/support-md/
+  api_count: 1
+  provider_count: 31
+- slug: tax-reporting-templates
+  name: Tax Reporting Templates
+  kind: topic
+  short: Pre-built templates and frameworks for generating tax reports, compliance documents, and financial summaries required for tax filing and regulatory purposes. Covers IRS Modernized…
+  url: https://apis.io/topics/tax-reporting-templates/
+  api_count: 6
+  provider_count: 54
+- slug: tax-templates
+  name: Tax Templates
+  kind: topic
+  short: Pre-designed templates for organizing and filing tax documents and returns. Financial institutions and enterprises use these templates to streamline tax operations and manage fisc…
+  url: https://apis.io/topics/tax-templates/
+  api_count: 5
+  provider_count: 42
+- slug: technical-specifications
+  name: Technical Specifications
+  kind: topic
+  short: Technical specifications are detailed technical requirements, standards, and parameters that define the characteristics and performance criteria of a product, system, or service.…
+  url: https://apis.io/topics/technical-specifications/
+  api_count: 6
+  provider_count: 20
+- slug: technology-standards
+  name: Technology Standards
+  kind: topic
+  short: Technology Standards covers the landscape of formal technical standards, protocols, and normative specifications developed by international standards bodies including IEEE, IETF,…
+  url: https://apis.io/topics/technology-standards/
+  api_count: 15
+  provider_count: 12
+- slug: templates
+  name: Templates
+  kind: topic
+  short: A cross-industry subject-matter collection covering API design templates, code templates, documentation templates, API specification templates, and templating engines used in API…
+  url: https://apis.io/topics/templates/
+  api_count: 6
+  provider_count: 108
+- slug: test-cases
+  name: Test Cases
+  kind: topic
+  short: Structured scenarios that verify software functionality by defining inputs, execution conditions, and expected results to ensure quality and correctness. Test cases are the fundam…
+  url: https://apis.io/topics/test-cases/
+  api_count: 9
+  provider_count: 150
+- slug: test-driven-development
+  name: Test-Driven Development
+  kind: topic
+  short: A software development approach where tests are written before the actual code, following a red-green-refactor cycle to ensure code quality and maintainability. TDD requires devel…
+  url: https://apis.io/topics/test-driven-development/
+  api_count: 5
+  provider_count: 92
+- slug: test-first
+  name: Test First
+  kind: topic
+  short: A software development approach where tests are written before the implementation code, ensuring code quality and driving design decisions through test requirements. Test-first de…
+  url: https://apis.io/topics/test-first/
+  api_count: 5
+  provider_count: 8
+- slug: test-plans
+  name: Test Plans
+  kind: topic
+  short: Structured documentation outlining test objectives, scope, approach, resources, schedule, and deliverables for software testing activities. Test plans define the overall strategy…
+  url: https://apis.io/topics/test-plans/
+  api_count: 5
+  provider_count: 37
+- slug: test-rate-limit-check
+  name: Test Rate Limit Check
+  kind: topic
+  short: Testing and validation of API rate limiting implementations to ensure that APIs correctly enforce request quotas, return appropriate error responses, and recover gracefully when l…
+  url: https://apis.io/topics/test-rate-limit-check/
+  api_count: 9
+  provider_count: 105
+- slug: test-scripts
+  name: Test Scripts
+  kind: topic
+  short: Automated scripts used to verify software functionality, validate code behavior, and ensure quality through repeatable testing procedures. Test scripts encode testing logic in exe…
+  url: https://apis.io/topics/test-scripts/
+  api_count: 11
+  provider_count: 199
+- slug: test-specifications
+  name: Test Specifications
+  kind: topic
+  short: Documentation that defines the requirements, procedures, and expected outcomes for testing software systems and APIs. Test specifications establish the criteria that implementatio…
+  url: https://apis.io/topics/test-specifications/
+  api_count: 8
+  provider_count: 55
+- slug: test-suites
+  name: Test Suites
+  kind: topic
+  short: A collection of organized test cases designed to validate specific functionality or features of software applications and APIs. Test suites group related test cases into logical u…
+  url: https://apis.io/topics/test-suites/
+  api_count: 10
+  provider_count: 42
+- slug: underwriting-standards
+  name: Underwriting Standards
+  kind: topic
+  short: A curated collection of data standards, APIs, and specifications used in insurance underwriting. This covers the landscape of industry-wide data interchange formats, protocol stan…
+  url: https://apis.io/topics/underwriting-standards/
+  api_count: 2
+  provider_count: 314
+- slug: use-cases
+  name: Use Cases
+  kind: topic
+  short: A curated collection of practical API use cases across industries and technical domains. Use cases describe specific scenarios where APIs solve real-world problems, improve workfl…
+  url: https://apis.io/topics/use-cases/
+  api_count: 0
+  provider_count: 2
+- slug: visioconference
+  name: Visioconference
+  kind: topic
+  short: Visioconference (video conferencing) is a category of communication technology enabling real-time visual and audio communication between remote participants. This repository profi…
+  url: https://apis.io/topics/visioconference/
+  api_count: 9
+  provider_count: 177
+- slug: waterfall
+  name: Waterfall
+  kind: topic
+  short: Waterfall is a sequential software development methodology where progress flows steadily downward through defined phases including requirements, system design, implementation, tes…
+  url: https://apis.io/topics/waterfall/
+  api_count: 0
+  provider_count: 11
+- slug: wcag
+  name: WCAG
+  kind: topic
+  short: Web Content Accessibility Guidelines (WCAG) are a set of international standards published by the W3C Web Accessibility Initiative (WAI) for making web content accessible to peopl…
+  url: https://apis.io/topics/wcag/
+  api_count: 4
+  provider_count: 7
+- slug: web-standards
+  name: Web Standards
+  kind: topic
+  short: Specifications and guidelines that define how web technologies should work, ensuring interoperability and consistency across browsers and platforms. Web standards are developed by…
+  url: https://apis.io/topics/web-standards/
+  api_count: 24
+  provider_count: 26
+- slug: wireframes
+  name: Wireframes
+  kind: topic
+  short: Wireframes are low-fidelity visual representations of user interface layouts used in early design stages to establish structure, hierarchy, and functionality before high-fidelity…
+  url: https://apis.io/topics/wireframes/
+  api_count: 8
+  provider_count: 16
+- slug: write-ahead-log
+  name: Write Ahead Log
+  kind: topic
+  short: A Write-Ahead Log (WAL) is a standard technique in database systems where changes are first recorded to a sequential log file before being applied to the actual data files. It ens…
+  url: https://apis.io/topics/write-ahead-log/
+  api_count: 0
+  provider_count: 2
+- slug: wsdl
+  name: WSDL
+  kind: topic
+  short: WSDL (Web Services Description Language) is a W3C standard XML format for describing web service interfaces. It defines services as collections of network endpoints (ports) that e…
+  url: https://apis.io/topics/wsdl/
+  api_count: 0
+  provider_count: 16
+- slug: xml
+  name: XML
+  kind: topic
+  short: XML (Extensible Markup Language) is a W3C standard markup language and data format that defines rules for encoding documents in a way that is both human-readable and machine-reada…
+  url: https://apis.io/topics/xml/
+  api_count: 4
+  provider_count: 11
+- slug: xslt
+  name: XSLT
+  kind: topic
+  short: XSLT (Extensible Stylesheet Language Transformations) is a W3C standard language for transforming XML documents into other formats such as HTML, plain text, or different XML struc…
+  url: https://apis.io/topics/xslt/
+  api_count: 3
+  provider_count: 6
+- slug: zero-trust
+  name: Zero Trust
+  kind: topic
+  short: Zero Trust is the umbrella cybersecurity strategy that eliminates implicit trust based on network location and requires continuous verification of every user, device, workload, an…
+  url: https://apis.io/topics/zero-trust/
+  api_count: 9
+  provider_count: 392
