@@ -66,48 +66,48 @@ providers:
   description: Raft is a consensus algorithm for distributed systems designed to be understandable and provide the same guarantees as Paxos, used for distributed log replication and leader election in fault-tolerant systems.
   api_count: 0
   score_band: minimal
-  score_composite: 7.6
+  score_composite: 5.1
   shared: 4
 - slug: etcd
   name: Etcd
   description: etcd is a CNCF graduated distributed, reliable key-value store used as the backing store for all Kubernetes cluster data. It provides strong consistency guarantees using the Raft consensus algorithm, supporting watch operations, lease-base…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
-  shared: 2
-- slug: apache-helix
-  name: Apache Helix
-  description: Apache Helix is a generic cluster management framework for partitioned and replicated distributed resources. It automates partition management, replication, fault tolerance, and cluster expansion for distributed systems, providing a REST A…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.8
+  score_composite: 49.9
   shared: 2
 - slug: sapien
   name: Sapien
   description: Sapien is the company behind Proof of Quality (PoQ), an open protocol and consensus/attestation system for verifiable quality signals on AI data and subjective expert outputs. A panel of independent, collateral-backed validators reviews ea…
   api_count: 1
-  score_band: developing
-  score_composite: 39.4
+  score_band: thin
+  score_composite: 39.2
   shared: 2
 - slug: tendermint
   name: Tendermint
   description: Tendermint is a core contributor to the Cosmos Network and the original developer of Tendermint Core, a best-in-class Byzantine Fault Tolerant (BFT) consensus engine for state-machine replication, alongside the Cosmos SDK blockchain applic…
   api_count: 1
   score_band: thin
-  score_composite: 39.2
+  score_composite: 38.8
+  shared: 2
+- slug: apache-helix
+  name: Apache Helix
+  description: Apache Helix is a generic cluster management framework for partitioned and replicated distributed resources. It automates partition management, replication, fault tolerance, and cluster expansion for distributed systems, providing a REST A…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.5
   shared: 2
 - slug: espresso
   name: Espresso
   description: Espresso Systems builds the Espresso Network, a high-performance consensus and sequencing layer that gives rollups and institution-grade financial applications real-time settlement (~3 second finality) without sacrificing control, privacy,…
   api_count: 1
   score_band: thin
-  score_composite: 35.5
+  score_composite: 35.3
   shared: 2
 - slug: cypherium
   name: Cypherium
   description: Cypherium is a permissionless Layer-1 blockchain built to bridge centralized (CeFi) and decentralized (DeFi) finance and bring real-world assets on-chain at scale. It runs CypherBFT, a hybrid consensus that pairs GPU proof-of-work committe…
   api_count: 2
   score_band: emerging
-  score_composite: 13.9
+  score_composite: 12.9
   shared: 2
 ---

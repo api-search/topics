@@ -13,7 +13,7 @@ tags:
 - Food Safety
 - Inspection
 - Enforcement
-- Federal-Government
+- Federal Government
 - Public Data
 - Import
 repo: https://github.com/api-evangelist/fda-regulations
@@ -79,42 +79,42 @@ links:
   url: https://github.com/api-evangelist/fda-regulations/blob/main/mcp/fda-regulations-mcp.yml
 - type: X-WellKnownProbe
   url: https://github.com/api-evangelist/fda-regulations/blob/main/well-known/fda-regulations-well-known.yml
-provider_count: 581
+provider_count: 594
 providers:
 - slug: food-and-drug-administration
   name: Food and Drug Administration
   description: openFDA is an Elasticsearch-based public API that serves FDA data on drugs, devices, foods, animal/veterinary products, and tobacco. Each noun exposes one or more datasets including adverse events, recall enforcement reports, product label…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 31.3
   shared: 3
 - slug: johnson-and-johnson
   name: Johnson & Johnson
   description: Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such a…
   api_count: 1
-  score_band: thin
-  score_composite: 27.4
+  score_band: emerging
+  score_composite: 26.1
   shared: 3
 - slug: food-safety-and-inspection-service
   name: Food Safety and Inspection Service
   description: The Food Safety and Inspection Service (FSIS) is a branch of the United States Department of Agriculture (USDA) responsible for ensuring the safety of the nation's commercial supply of meat, poultry, and egg products. FSIS publishes a Reca…
   api_count: 1
   score_band: emerging
-  score_composite: 20.9
+  score_composite: 19.9
   shared: 3
 - slug: acto
   name: ACTO
   description: ACTO is a Toronto-headquartered Life Sciences software company whose Intelligent Field Excellence (IFE) platform prepares biopharmaceutical, biotech and medtech commercial and medical field teams for healthcare-provider conversations. The…
   api_count: 0
   score_band: emerging
-  score_composite: 18.8
+  score_composite: 17.8
   shared: 3
 - slug: gan-and-lee-pharmaceuticals
   name: Gan & Lee Pharmaceuticals
   description: 'Gan & Lee Pharmaceuticals (Shanghai Stock Exchange: 603087) is a Chinese biopharmaceutical company founded in 1998, specializing in the research, development, production, and commercialization of recombinant insulin analogs and injection d…'
   api_count: 0
   score_band: minimal
-  score_composite: 10.0
+  score_composite: 9.8
   shared: 3
 - slug: via-global-health
   name: Via Global Health
@@ -128,167 +128,167 @@ providers:
   description: Rakuten Medical, Inc. is a global biotechnology company headquartered in San Diego, California, developing precision, cell-targeting investigational cancer therapies on its proprietary Alluminox platform — a drug-device combination pairing…
   api_count: 0
   score_band: minimal
-  score_composite: 7.6
+  score_composite: 7.7
   shared: 3
 - slug: panacea
   name: Panacea
   description: Panacea is an AI-native FDA regulatory services firm (Y Combinator Spring 2026, operating as withpanacea.com) that pairs experienced ex-FDA regulatory consultants with a proprietary AI platform to accelerate medical device and pharmaceutic…
   api_count: 0
   score_band: minimal
-  score_composite: 4.3
+  score_composite: 4.6
   shared: 3
 - slug: zurex-pharma
   name: Zurex Pharma
   description: Zurex Pharma, Inc. is a privately held specialty pharmaceutical and medical technology company founded in 2008 and headquartered in Middleton, Wisconsin, developing a portfolio of patented antimicrobial formulations intended to prevent hea…
   api_count: 0
   score_band: minimal
-  score_composite: 2.9
+  score_composite: 3.3
   shared: 3
 - slug: hospira
   name: Hospira
   description: Hospira was a global specialty pharmaceutical and medication delivery company providing injectable drugs and infusion technologies before being acquired by Pfizer in 2015. No public APIs are offered under the Hospira brand.
   api_count: 0
   score_band: minimal
-  score_composite: 2.4
+  score_composite: 2.8
   shared: 3
 - slug: vascular-therapies
   name: Vascular Therapies
   description: Vascular Therapies, Inc. is a privately held, clinical-stage biopharmaceutical company headquartered in Cresskill, New Jersey, developing Sirogen, a proprietary sirolimus formulation delivered from a bioabsorbable collagen implant placed p…
   api_count: 0
   score_band: minimal
-  score_composite: 1.8
+  score_composite: 2.6
   shared: 3
-- slug: cms
-  name: Centers for Medicare and Medicaid Services
-  description: The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insu…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 81.7
-  shared: 2
 - slug: veeva
   name: Veeva
   description: Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operat…
   api_count: 1
   score_band: exemplar
-  score_composite: 75.6
+  score_composite: 72.8
   shared: 2
 - slug: autoderm-ai-dermatology-api
   name: Autoderm – AI Dermatology API
   description: Autoderm is a white-label REST API for AI-assisted analysis of dermatological images, operated as a regulated medical device. A client POSTs a single skin photograph as multipart/form-data and receives the top five most probable conditions…
   api_count: 2
   score_band: strong
-  score_composite: 63.5
-  shared: 2
-- slug: athelas
-  name: Athelas
-  description: Athelas (Commure d/b/a Athelas) is a healthcare technology company building AI-powered infrastructure for provider organizations, spanning remote patient monitoring (RPM), an AI-native EHR ("Air"), ambient AI scribing, and revenue cycle ma…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.6
+  score_composite: 60.5
   shared: 2
 - slug: cancer-gov
   name: Cancer.gov
   description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
   api_count: 17
   score_band: developing
-  score_composite: 53.0
+  score_composite: 50.0
   shared: 2
 - slug: tracelink
   name: TraceLink
   description: TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two doz…
   api_count: 6
   score_band: developing
-  score_composite: 52.1
+  score_composite: 49.6
+  shared: 2
+- slug: athelas
+  name: Athelas
+  description: Athelas (Commure d/b/a Athelas) is a healthcare technology company building AI-powered infrastructure for provider organizations, spanning remote patient monitoring (RPM), an AI-native EHR ("Air"), ambient AI scribing, and revenue cycle ma…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.4
+  shared: 2
+- slug: cms-gov
+  name: CMS — Centers for Medicare & Medicaid Services
+  description: The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Mark…
+  api_count: 42
+  score_band: developing
+  score_composite: 44.5
   shared: 2
 - slug: centers-for-disease-control-and-prevention
   name: Centers for Disease Control and Prevention
   description: The Centers for Disease Control and Prevention (CDC) is the United States' national public health agency, part of the Department of Health and Human Services. CDC operates a broad portfolio of free, anonymously callable public APIs and ope…
   api_count: 3
   score_band: developing
-  score_composite: 47.3
+  score_composite: 44.4
   shared: 2
 - slug: open-fda
   name: openFDA
   description: openFDA is the FDA's open data platform providing REST APIs for public access to FDA regulatory datasets. It covers drug adverse events (FAERS), drug labeling (SPL), drug recall enforcement reports, medical device 510(k) clearances, device…
   api_count: 17
   score_band: developing
-  score_composite: 45.8
+  score_composite: 43.4
   shared: 2
 - slug: roivant-sciences
   name: Roivant Sciences
   description: 'Roivant Sciences (Nasdaq: ROIV) is a holding company that builds focused subsidiary biotech and health-tech operating units called "Vants." Founded by Vivek Ramaswamy in 2014 and now led by CEO Matt Gline, Roivant has launched companies ac…'
   api_count: 1
   score_band: developing
-  score_composite: 45.7
+  score_composite: 41.8
   shared: 2
 - slug: biogen
   name: Biogen
   description: Biogen is a global biotechnology company that discovers, develops, and delivers therapies for people living with serious neurological diseases including multiple sclerosis, Alzheimer's, and spinal muscular atrophy.
   api_count: 1
   score_band: developing
-  score_composite: 43.0
+  score_composite: 40.7
   shared: 2
-- slug: eko-health
-  name: Eko Health
-  description: Eko Health Inc. is an Oakland, California digital health company that builds FDA-cleared digital stethoscopes (CORE 500, CORE Digital Attachment, DUO, and the 3M Littmann CORE) together with cloud software and AI algorithms for the detecti…
-  api_count: 2
+- slug: va-gov
+  name: Department of Veterans Affairs (VA Lighthouse)
+  description: VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake…
+  api_count: 22
   score_band: developing
-  score_composite: 41.7
-  shared: 2
-- slug: dexcom
-  name: Dexcom
-  description: Dexcom is a leading medical device company that develops, manufactures, and distributes continuous glucose monitoring (CGM) systems for people with diabetes. The company's wearable sensors stream real-time glucose data to mobile apps, dedi…
-  api_count: 7
-  score_band: developing
-  score_composite: 41.4
-  shared: 2
-- slug: substance-abuse-and-mental-health-services-administration
-  name: Substance Abuse and Mental Health Services Administration
-  description: The Substance Abuse and Mental Health Services Administration (SAMHSA) is a branch of the U.S. Department of Health and Human Services dedicated to improving the quality and availability of prevention, treatment, and recovery support servi…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.3
-  shared: 2
-- slug: usda
-  name: USDA
-  description: The US Department of Agriculture provides a suite of free public REST APIs covering agricultural statistics, food and nutrition data, market news, food safety inspection records, crop and vegetation monitoring, and geospatial services. API…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.3
+  score_composite: 39.9
   shared: 2
 - slug: empatica
   name: Empatica
   description: Empatica Inc. is an MIT Media Lab spinoff, founded in Cambridge, Massachusetts, that builds FDA-cleared medical wearables — EmbracePlus, EmbraceMini and the EpiMonitor epilepsy monitoring system — together with the Empatica Health Monitori…
   api_count: 3
-  score_band: developing
-  score_composite: 40.0
+  score_band: thin
+  score_composite: 38.5
+  shared: 2
+- slug: eko-health
+  name: Eko Health
+  description: Eko Health Inc. is an Oakland, California digital health company that builds FDA-cleared digital stethoscopes (CORE 500, CORE Digital Attachment, DUO, and the 3M Littmann CORE) together with cloud software and AI algorithms for the detecti…
+  api_count: 2
+  score_band: thin
+  score_composite: 38.4
+  shared: 2
+- slug: substance-abuse-and-mental-health-services-administration
+  name: Substance Abuse and Mental Health Services Administration
+  description: The Substance Abuse and Mental Health Services Administration (SAMHSA) is a branch of the U.S. Department of Health and Human Services dedicated to improving the quality and availability of prevention, treatment, and recovery support servi…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.4
+  shared: 2
+- slug: usda
+  name: USDA
+  description: The US Department of Agriculture provides a suite of free public REST APIs covering agricultural statistics, food and nutrition data, market news, food safety inspection records, crop and vegetation monitoring, and geospatial services. API…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.1
+  shared: 2
+- slug: dexcom
+  name: Dexcom
+  description: Dexcom is a leading medical device company that develops, manufactures, and distributes continuous glucose monitoring (CGM) systems for people with diabetes. The company's wearable sensors stream real-time glucose data to mobile apps, dedi…
+  api_count: 7
+  score_band: thin
+  score_composite: 38.0
   shared: 2
 - slug: united-states-national-library-of-medicine
   name: United States National Library of Medicine
   description: The United States National Library of Medicine (NLM) is the world's largest biomedical library. It serves as a vital resource for researchers, healthcare professionals, and the general public by providing access to a vast collection of bio…
   api_count: 4
   score_band: thin
-  score_composite: 39.2
+  score_composite: 36.8
   shared: 2
 - slug: doceree
   name: Doceree
   description: Doceree Inc. is a US healthcare marketing technology company (Short Hills, New Jersey) operating a global network of physician-only platforms for programmatic messaging and point-of-care advertising to healthcare professionals. Its platfor…
   api_count: 3
   score_band: thin
-  score_composite: 38.4
+  score_composite: 36.5
   shared: 2
-- slug: xrhealth
-  name: XRHealth
-  description: XRHealth is an extended-reality (XR) therapeutics and virtual-clinic company, founded in 2016 with offices in Boston, Massachusetts and Tel Aviv, Israel, that delivers FDA-registered and CE-marked virtual and augmented reality treatment fo…
-  api_count: 2
+- slug: exo
+  name: Exo
+  description: Exo (Exo Imaging, Inc.) is a Santa Clara, California medical imaging company building a handheld ultrasound ecosystem for point-of-care ultrasound (POCUS). Its silicon-based Exo Iris handheld probe pairs an FDA-cleared, on-device AI suite…
+  api_count: 0
   score_band: thin
-  score_composite: 37.8
-  shared: 2
-- slug: united-states-department-of-agriculture
-  name: United States Department of Agriculture
-  description: The United States Department of Agriculture (USDA) is a federal agency responsible for developing and executing policies related to farming, agriculture, forestry, and food. The USDA works to ensure the sustainability and safety of America…
-  api_count: 4
-  score_band: thin
-  score_composite: 37.7
+  score_composite: 36.1
   shared: 2
 ---

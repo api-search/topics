@@ -29,7 +29,7 @@ links:
   url: https://jules.google.com/
 - type: LlmsText
   url: https://jules.google.com/llms.txt
-provider_count: 24
+provider_count: 26
 providers:
 - slug: cursorrules
   name: .cursorrules
@@ -71,91 +71,105 @@ providers:
   description: Runloop is the AI Agent Accelerator — secure code sandboxes (Devboxes), evaluation infrastructure (Benchmarks, Scenarios), and production-grade orchestration for AI coding agents at enterprise scale. The platform provides a single REST API…
   api_count: 14
   score_band: strong
-  score_composite: 61.0
+  score_composite: 59.0
   shared: 2
 - slug: assembled
   name: Assembled
   description: Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled l…
   api_count: 4
   score_band: strong
-  score_composite: 59.2
+  score_composite: 57.5
   shared: 2
 - slug: amika
   name: Amika
   description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
   api_count: 1
   score_band: developing
-  score_composite: 50.7
+  score_composite: 50.8
   shared: 2
 - slug: standard-compute
   name: Standard Compute
   description: An independent, flat-rate LLM inference API for AI coding agents. Standard Compute runs a single OpenAI-compatible (and Anthropic Messages-compatible) inference endpoint that smart-routes each request to the best-fit model across closed fr…
   api_count: 1
   score_band: developing
-  score_composite: 46.2
+  score_composite: 46.9
+  shared: 2
+- slug: aisera
+  name: Aisera
+  description: Aisera is an enterprise agentic AI platform that builds, deploys, and orchestrates AI agents and assistants for IT service management, HR, finance, procurement, and customer service. The AiseraGPT platform combines domain-specific LLMs, co…
+  api_count: 4
+  score_band: developing
+  score_composite: 45.1
   shared: 2
 - slug: kimetsu-dev
   name: Kimetsu
   description: Kimetsu (kimetsu.dev) is Rodrigo Córdoba's open-source infrastructure for coding agents. Kimetsu itself is a local, model-free memory sidecar — one Rust binary and one SQLite brain per project — that Claude Code, Codex, Cursor, Pi and Open…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 45.0
-  shared: 2
-- slug: hoplite
-  name: Hoplite
-  description: Hoplite is a cloud coding-agent platform (Y Combinator S26). You connect a GitHub repository, describe a task in a thread, and an autonomous agent does the work inside an isolated, cloned dev environment (a "sandbox") — reading and editing…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.4
+  score_composite: 44.4
   shared: 2
 - slug: ellipsis
   name: Ellipsis
   description: Ellipsis is a managed cloud platform for running autonomous coding agents at scale. Engineering teams define agents as YAML config files that live in their repositories, and Ellipsis runs them in isolated, ephemeral sandboxes to review pul…
   api_count: 1
   score_band: thin
-  score_composite: 35.5
+  score_composite: 37.3
+  shared: 2
+- slug: hoplite
+  name: Hoplite
+  description: Hoplite is a cloud coding-agent platform (Y Combinator S26). You connect a GitHub repository, describe a task in a thread, and an autonomous agent does the work inside an isolated, cloned dev environment (a "sandbox") — reading and editing…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.8
   shared: 2
 - slug: niteshift
   name: Niteshift
   description: Niteshift is the full-stack cloud for coding agents. Engineering teams define their dev environment, tools, and policies once, then run frontier or open-source coding agents (Claude Code, Codex, Cursor, OpenCode, Pi) inside fully configure…
   api_count: 0
   score_band: emerging
-  score_composite: 24.0
-  shared: 2
-- slug: perseus
-  name: Perseus
-  description: Perseus (legal name Efficient Systems Inc.) is an applied AI lab focused on semantic search in latent spaces, founded by Samrath Chadha and backed by Y Combinator (Fall 2025 batch). Its first product is a retrieval engine that grounds codi…
-  api_count: 0
-  score_band: emerging
-  score_composite: 22.9
+  score_composite: 25.8
   shared: 2
 - slug: openblock-labs
   name: OpenBlock Labs
   description: OpenBlock Labs builds OB-1, a self-improving autonomous coding agent that automates the software development lifecycle from PM to PR. OB-1 runs as a native terminal CLI and inside VS Code and JetBrains IDEs, consumes MCP (Model Context Pro…
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 23.5
+  shared: 2
+- slug: continua
+  name: Continua
+  description: Continua AI, Inc. is a Brooklyn-based startup founded by former Google Distinguished Engineer David Petrou and backed by GV, Bessemer Venture Partners, and angel investors. Its product, Wheelie, is a public Development OS for agentic codin…
+  api_count: 0
+  score_band: emerging
+  score_composite: 22.8
+  shared: 2
+- slug: perseus
+  name: Perseus
+  description: Perseus (legal name Efficient Systems Inc.) is an applied AI lab focused on semantic search in latent spaces, founded by Samrath Chadha and backed by Y Combinator (Fall 2025 batch). Its first product is a retrieval engine that grounds codi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 22.1
   shared: 2
 - slug: igent
   name: iGent
   description: iGent AI is a UK-based artificial intelligence company (Altrincham, Cheshire) building Maestro, an autonomous AI software-engineering agent. Maestro pairs adaptive autonomy with an ensemble of frontier AI models to plan, generate, test, an…
   api_count: 0
   score_band: emerging
-  score_composite: 21.3
+  score_composite: 20.7
   shared: 2
 - slug: sparkles
   name: Sparkles
   description: Sparkles (sparkles.dev) is a San Francisco developer-tools startup in Y Combinator's Winter 2026 batch building AI coding agents for a whole team, not just engineers. A technical owner connects the company's GitHub repositories and configu…
   api_count: 0
   score_band: emerging
-  score_composite: 11.6
+  score_composite: 11.1
   shared: 2
 - slug: everest
   name: Everest
   description: Everest is an early-stage Y Combinator (Fall 2025 / F25) startup based in San Francisco building agent-ready technical support for developer tools. Its premise is that a growing share of a devtool's users will be coding agents rather than…
   api_count: 0
   score_band: minimal
-  score_composite: 5.0
+  score_composite: 3.3
   shared: 2
 - slug: aiignore
   name: .AIIgnore

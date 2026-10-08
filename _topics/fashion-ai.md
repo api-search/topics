@@ -23,13 +23,20 @@ links:
   url: https://github.com/api-evangelist/fashion-ai/blob/main/authentication/fashion-ai-authentication.yml
 - type: Blog
   url: https://blog.segmind.com/feed/
-provider_count: 1
+provider_count: 2
 providers:
 - slug: fashn
   name: FASHN AI
   description: FASHN AI is an AI-first company specializing in human-centric generative image models tailored for fashion applications. The public API offers an asynchronous prediction workflow against a catalog of models including Try-On Max, Product to…
   api_count: 1
   score_band: thin
-  score_composite: 31.9
+  score_composite: 29.5
+  shared: 2
+- slug: bode
+  name: Bode
+  description: Bode is a fashion and lifestyle brand offering clothing, accessories, and home goods. The company operates an e‑commerce site at https://bode.com, but no public API documentation or endpoints were discovered during profiling. This entry re…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
   shared: 2
 ---

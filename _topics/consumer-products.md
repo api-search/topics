@@ -7,7 +7,7 @@ description: Industry-vertical index of APIs, data sources, syndication networks
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/consumer-products.png
 tags:
 - Consumer Products
-- CPG
+- Consumer Packaged Goods
 - Product Data
 - Retail
 - GTIN
@@ -110,21 +110,21 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-beauty-example.json
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-household-example.json
-provider_count: 66
+provider_count: 143
 providers:
 - slug: salsify
   name: Salsify
   description: Salsify is a product experience management (PXM) and supplier experience management (SXM) platform used by brands, distributors and retailers to centralize product content, digital assets and syndication to the digital shelf. The Salsify p…
   api_count: 3
   score_band: strong
-  score_composite: 56.1
+  score_composite: 59.0
   shared: 3
 - slug: 1worldsync
   name: 1WorldSync
   description: 1WorldSync is the leading product content network and a GS1-certified GDSN data pool, helping consumer goods brands, manufacturers, and retailers create, manage, syndicate, and verify trusted product content across the digital shelf and th…
   api_count: 1
   score_band: developing
-  score_composite: 49.8
+  score_composite: 50.2
   shared: 3
 - slug: powerreviews
   name: PowerReviews
@@ -138,56 +138,63 @@ providers:
   description: Akeneo is a Product Information Management (PIM) platform that centralizes, enriches, and distributes product data across digital commerce channels, enabling brands, retailers, and manufacturers to deliver consistent product experiences. T…
   api_count: 1
   score_band: thin
-  score_composite: 32.3
+  score_composite: 33.4
   shared: 3
 - slug: colgate-palmolive
   name: Colgate-Palmolive
   description: Colgate-Palmolive Company is a global consumer-products manufacturer operating in oral care, personal care, home care, and pet nutrition through brands such as Colgate, Palmolive, Hill's Pet Nutrition, Speed Stick, Ajax, and Softsoap. Colg…
   api_count: 0
   score_band: emerging
-  score_composite: 13.6
+  score_composite: 14.8
+  shared: 3
+- slug: harmonya
+  name: Harmonya
+  description: Harmonya is a New York- and Tel Aviv-based product intelligence company for consumer packaged goods manufacturers and retailers. Founded in 2021, it reads live product listings, pack and label copy, manufacturer specs, syndicated feeds and…
+  api_count: 0
+  score_band: emerging
+  score_composite: 13.5
   shared: 3
 - slug: noviconnect
   name: Novi Connect
   description: Novi Connect (Novi) is an AI shopping optimization platform and data infrastructure for CPG and retail brands. It connects brands, certification bodies, and major retailers to verify, standardize, and distribute product data so products ar…
   api_count: 0
   score_band: minimal
-  score_composite: 9.8
-  shared: 3
-- slug: alkemics
-  name: Alkemics
-  description: Alkemics was a French SaaS company founded in 2011 in Paris that operated a collaborative commerce platform connecting consumer packaged goods (CPG) brands and retailers to share, enrich, and distribute product content and data across the…
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.3
+  score_composite: 8.8
   shared: 3
 - slug: green-thumb-industries
   name: Green Thumb Industries
   description: A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multipl…
   api_count: 0
   score_band: minimal
-  score_composite: 7.7
+  score_composite: 7.4
   shared: 3
-- slug: open-food-facts
-  name: Open Food Facts
-  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Da…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.3
-  shared: 2
+- slug: alkemics
+  name: Alkemics
+  description: Alkemics was a French SaaS company founded in 2011 in Paris that operated a collaborative commerce platform connecting consumer packaged goods (CPG) brands and retailers to share, enrich, and distribute product content and data across the…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.7
+  shared: 3
 - slug: bazaarvoice
   name: Bazaarvoice
   description: Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of br…
   api_count: 23
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.8
+  shared: 2
+- slug: open-food-facts
+  name: Open Food Facts
+  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Da…
+  api_count: 8
+  score_band: strong
+  score_composite: 60.1
   shared: 2
 - slug: erply
   name: Erply
   description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more st…
   api_count: 4
   score_band: strong
-  score_composite: 59.0
+  score_composite: 58.8
   shared: 2
 - slug: back-market
   name: Back Market
@@ -201,61 +208,68 @@ providers:
   description: Channable is a feed management and marketplace integration platform that helps online retailers, brands, and agencies optimize, distribute, and advertise their product data across more than 2,500 marketing channels, price comparison sites,…
   api_count: 1
   score_band: developing
-  score_composite: 50.2
-  shared: 2
-- slug: treez
-  name: Treez
-  description: Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its publ…
-  api_count: 13
-  score_band: developing
-  score_composite: 46.0
-  shared: 2
-- slug: fabric-com
-  name: fabric
-  description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appe…
-  api_count: 16
-  score_band: developing
-  score_composite: 44.8
+  score_composite: 49.5
   shared: 2
 - slug: smarter-sorting
   name: Smarter Sorting
   description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. I…
   api_count: 2
   score_band: developing
-  score_composite: 44.7
+  score_composite: 46.2
   shared: 2
-- slug: coldsnap
-  name: ColdSnap
-  description: ColdSnap (formerly Sigma Phase, Corp.) is a Billerica, Massachusetts hardware and frozen-confection company founded in October 2018 by Matt Fonte, whose plug-and-play countertop appliance chills and churns a single serving of premium ice c…
-  api_count: 3
+- slug: treez
+  name: Treez
+  description: Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its publ…
+  api_count: 13
   score_band: developing
-  score_composite: 43.4
-  shared: 2
-- slug: lily-ai
-  name: Lily AI
-  description: Lily AI, Inc. is a retail product-intelligence company whose platform, Lily Max, enriches e-commerce product catalogs so that products are legible to advertising platforms, search engines, onsite search, and AI shopping agents. Agents iden…
-  api_count: 2
-  score_band: developing
-  score_composite: 39.7
+  score_composite: 44.2
   shared: 2
 - slug: kroger
   name: Kroger
   description: The Kroger Co. is the largest supermarket operator in the United States and runs a two-tier developer programme from developer.kroger.com. The Public tier is self-service after account and application registration and covers Products, Loca…
   api_count: 14
   score_band: developing
-  score_composite: 39.5
+  score_composite: 42.9
+  shared: 2
+- slug: fabric-com
+  name: fabric
+  description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appe…
+  api_count: 16
+  score_band: developing
+  score_composite: 42.7
+  shared: 2
+- slug: lily-ai
+  name: Lily AI
+  description: Lily AI, Inc. is a retail product-intelligence company whose platform, Lily Max, enriches e-commerce product catalogs so that products are legible to advertising platforms, search engines, onsite search, and AI shopping agents. Agents iden…
+  api_count: 2
+  score_band: developing
+  score_composite: 40.0
   shared: 2
 - slug: maison-safqa-holdings-limited
-  name: Maison Safqa Holdings Limited
+  name: Maison Safqa
   description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Devel…
   api_count: 1
   score_band: thin
-  score_composite: 39.1
+  score_composite: 38.2
   shared: 2
-- slug: tecovas
-  name: Tecovas
-  description: Tecovas is an Austin, Texas direct-to-consumer Western wear brand selling handcrafted cowboy boots, work boots, hats, leather goods and apparel for men, women and kids, made by artisans in Leon, Mexico and sold online and through its own U…
+- slug: coldsnap
+  name: ColdSnap
+  description: ColdSnap (formerly Sigma Phase, Corp.) is a Billerica, Massachusetts hardware and frozen-confection company founded in October 2018 by Matt Fonte, whose plug-and-play countertop appliance chills and churns a single serving of premium ice c…
   api_count: 3
+  score_band: thin
+  score_composite: 37.5
+  shared: 2
+- slug: cure-hydration
+  name: Cure Hydration
+  description: Cure Hydration (CURE) is a New York based direct-to-consumer beverage brand founded in 2019 by Lauren Picasso, selling plant-based electrolyte drink mixes built on the World Health Organization's Oral Rehydration Solution formula — organic…
+  api_count: 3
+  score_band: thin
+  score_composite: 35.9
+  shared: 2
+- slug: lemon-perfect
+  name: Lemon Perfect
+  description: Lemon Perfect is an Atlanta-based beverage company founded in 2017 by Yanni Hufnagel, making organic, zero-sugar flavored lemon water powered by half a squeezed organic lemon per bottle and 100% daily value vitamin C. It sells direct-to-co…
+  api_count: 2
   score_band: thin
   score_composite: 35.9
   shared: 2
@@ -264,62 +278,48 @@ providers:
   description: Venzee is a product data syndication and Product Information Management (PIM) platform for ecommerce brands, manufacturers, and distributors, now operating as Jasper PIM (JasperX) with a channel connector ecosystem powered by Venzee's MESH…
   api_count: 1
   score_band: thin
-  score_composite: 35.0
-  shared: 2
-- slug: bybe
-  name: BYBE
-  description: BYBE, Inc. is a promotion platform for the beer, wine, and spirits industry, connecting alcohol beverage brands, retailers, and consumers through digital cash-back rebates. Brands fund offers in the BYBE dashboard; retailers embed those of…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.6
-  shared: 2
-- slug: therabody
-  name: Therabody
-  description: Therabody is a Los Angeles-based wellness technology company founded in 2016 by Dr. Jason Wersland, best known for inventing the Theragun percussive therapy device. Its product ecosystem spans percussive therapy (Theragun), pneumatic compr…
-  api_count: 3
-  score_band: thin
-  score_composite: 34.1
-  shared: 2
-- slug: circana
-  name: Circana
-  description: Circana (formerly IRI and The NPD Group) is the leading advisor on the complexity of consumer behavior, providing data-driven insights, analytics, and technology solutions that help almost 7,000 brands and retailers understand and predict…
-  api_count: 20
-  score_band: thin
-  score_composite: 33.4
+  score_composite: 34.7
   shared: 2
 - slug: madeiramadeira
   name: Madeiramadeira
   description: MadeiraMadeira (MadeiraMadeira Comercio Eletronico S/A, Curitiba, Parana) is one of Brazil's largest online retailers and marketplaces for home goods - furniture, decor, appliances, building materials, bathroom and kitchen fixtures, and pl…
   api_count: 7
   score_band: thin
-  score_composite: 33.4
+  score_composite: 34.5
+  shared: 2
+- slug: circana
+  name: Circana
+  description: Circana (formerly IRI and The NPD Group) is the leading advisor on the complexity of consumer behavior, providing data-driven insights, analytics, and technology solutions that help almost 7,000 brands and retailers understand and predict…
+  api_count: 20
+  score_band: thin
+  score_composite: 34.1
+  shared: 2
+- slug: beekeepers-naturals
+  name: Beekeeper's Naturals
+  description: Beekeeper's Naturals is a direct-to-consumer bee-derived wellness and supplement brand founded in 2017 by Carly Stein Kremer, selling propolis throat sprays, B.LXR royal-jelly brain fuel, superfood honey, bee pollen and kids' immunity prod…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.7
+  shared: 2
+- slug: bybe
+  name: BYBE
+  description: BYBE, Inc. is a promotion platform for the beer, wine, and spirits industry, connecting alcohol beverage brands, retailers, and consumers through digital cash-back rebates. Brands fund offers in the BYBE dashboard; retailers embed those of…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.3
   shared: 2
 - slug: ikea
   name: IKEA
   description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
   api_count: 4
   score_band: thin
-  score_composite: 33.3
+  score_composite: 32.7
   shared: 2
-- slug: flipp-wishabi
-  name: Flipp (Wishabi)
-  description: Flipp (operated by Wishabi) is a Toronto-based retail media and digital merchandising company that connects retailers, brands, and consumers through shoppable digital experiences. Its consumer app aggregates weekly digital flyers, coupons,…
-  api_count: 2
-  score_band: thin
-  score_composite: 32.2
-  shared: 2
-- slug: ibotta
-  name: Ibotta
-  description: 'Ibotta is a Denver-based consumer technology company (NYSE: IBTA) that operates a cash-back rewards platform and the Ibotta Performance Network (IPN), a digital promotions and retail-media network. Consumers earn real cash back on everyday…'
-  api_count: 2
-  score_band: thin
-  score_composite: 31.0
-  shared: 2
-- slug: zentail
-  name: Zentail
-  description: Zentail is a multichannel ecommerce platform that helps brands and retailers manage product listings, inventory, pricing, and orders across marketplaces like Amazon, Walmart, Target Plus, eBay, Shopify, BigCommerce, and Newegg from a singl…
+- slug: liquid-death
+  name: Liquid Death
+  description: Liquid Death is a Los Angeles beverage company founded in 2014 by Mike Cessario, Pat Cook and JonRyan Riggins, selling still and sparkling mountain water, iced tea, flavored sparkling water, the Death Dust electrolyte powder and a Sparklin…
   api_count: 1
   score_band: thin
-  score_composite: 30.5
+  score_composite: 32.2
   shared: 2
 ---

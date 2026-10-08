@@ -148,14 +148,14 @@ providers:
   name: CloudEvents
   description: CloudEvents is a CNCF graduated specification for describing event data in a common way. It provides a consistent format for event metadata across services, platforms, and systems, enabling interoperability between event producers and cons…
   api_count: 1
-  score_band: developing
-  score_composite: 39.6
+  score_band: thin
+  score_composite: 37.6
   shared: 2
 - slug: openfeature
   name: OpenFeature
   description: OpenFeature is a CNCF incubating open specification for feature flag management. It provides a vendor-agnostic API for evaluating feature flags, enabling developers to use a consistent interface regardless of the underlying feature flag pr…
   api_count: 1
   score_band: thin
-  score_composite: 30.2
+  score_composite: 28.0
   shared: 2
 ---

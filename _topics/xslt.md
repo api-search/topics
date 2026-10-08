@@ -57,48 +57,34 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/json-ld/xslt-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/vocabulary/xslt-vocabulary.yml
-provider_count: 6
+provider_count: 4
 providers:
 - slug: acord
   name: ACORD
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
-  score_band: strong
-  score_composite: 55.3
+  score_band: developing
+  score_composite: 51.7
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 44.3
+  score_composite: 45.6
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: thin
-  score_composite: 28.1
-  shared: 2
-- slug: rss
-  name: RSS
-  description: RSS (Really Simple Syndication) is the canonical XML feed format family for publishing and subscribing to streams of frequently updated content — blogs, news, podcasts, and other periodic resources. The RSS family in this index covers RSS…
-  api_count: 6
   score_band: emerging
-  score_composite: 19.5
-  shared: 2
-- slug: jax-ws
-  name: JAX-WS
-  description: JAX-WS (Java API for XML Web Services) is a Java standard for building and consuming SOAP-based XML web services. Originally specified as JSR 224 under the Java Community Process, JAX-WS is now part of Jakarta EE as Jakarta XML Web Service…
-  api_count: 3
-  score_band: emerging
-  score_composite: 12.9
+  score_composite: 26.0
   shared: 2
 - slug: mismo
   name: MISMO
   description: MISMO — the Mortgage Industry Standards Maintenance Organization — is the standards development body for US real estate finance, founded in 1999 and a not-for-profit wholly owned subsidiary of the Mortgage Bankers Association since 2004. I…
   api_count: 0
   score_band: minimal
-  score_composite: 8.8
+  score_composite: 6.7
   shared: 2
 ---

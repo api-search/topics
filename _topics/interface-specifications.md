@@ -27,6 +27,6 @@ providers:
   description: Integration Patterns are design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Enterprise Integration Patterns (EIP),…
   api_count: 0
   score_band: minimal
-  score_composite: 6.4
+  score_composite: 3.9
   shared: 2
 ---

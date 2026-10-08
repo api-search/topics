@@ -87,216 +87,216 @@ links:
   url: https://www.fedramp.gov/
 - type: HITRUST
   url: https://hitrustalliance.net/
-provider_count: 161
+provider_count: 197
 providers:
+- slug: secureframe
+  name: Secureframe
+  description: Secureframe automates security and privacy compliance for SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, CMMC, FedRAMP, NIST 800-171 and more. Its Public API is a 112-operation, JSON:API-shaped REST contract over the compliance record of truth —…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.1
+  shared: 5
 - slug: drata
   name: Drata
   description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired…
   api_count: 3
   score_band: exemplar
-  score_composite: 67.3
+  score_composite: 70.2
   shared: 4
 - slug: regscale
   name: RegScale
   description: RegScale is a Continuous Controls Monitoring (CCM) and compliance-automation company whose cloud-native, OSCAL-native GRC platform keeps organizations continuously audit-ready by turning compliance documentation into living, machine-readab…
   api_count: 3
   score_band: developing
-  score_composite: 50.9
-  shared: 4
-- slug: secureframe
-  name: Secureframe
-  description: Secureframe automates security and privacy compliance for SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, CMMC, FedRAMP, NIST 800-171 and more. Its Public API is a 112-operation, JSON:API-shaped REST contract over the compliance record of truth —…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.8
+  score_composite: 46.5
   shared: 4
 - slug: carbide
   name: Carbide
   description: Carbide (carbidesecure.com) is a compliance-automation and risk-management platform that pairs software with credentialed security advisors to help fast-growing organizations achieve and maintain security certifications and regulatory comp…
   api_count: 0
   score_band: emerging
-  score_composite: 19.5
+  score_composite: 20.5
   shared: 4
 - slug: cleardata
   name: Cleardata
   description: ClearDATA is healthcare's dedicated cloud security, compliance, and operations partner, helping providers, payers, health-tech software companies, medical device makers, and life sciences organizations build and run on AWS, Microsoft Azure…
   api_count: 0
   score_band: emerging
-  score_composite: 15.3
+  score_composite: 14.7
+  shared: 4
+- slug: scytale
+  name: Scytale
+  description: Scytale is an AI-powered Governance, Risk, and Compliance (GRC) platform that automates security compliance for cloud and SaaS companies. It combines AI agents with in-house compliance experts to automate evidence collection, continuous co…
+  api_count: 0
+  score_band: emerging
+  score_composite: 14.0
+  shared: 4
+- slug: sprinto
+  name: Sprinto
+  description: Sprinto is a security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, GDPR, PCI DSS, and more. Sprinto offers an API for building custom compliance and risk workflows; specific public reference docs are limited and r…
+  api_count: 1
+  score_band: emerging
+  score_composite: 13.3
   shared: 4
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 80.4
+  score_composite: 76.7
   shared: 3
-- slug: formassembly
-  name: FormAssembly
-  description: FormAssembly is an enterprise form and data collection platform with a REST API for managing forms, exporting submission data, handling Salesforce integrations, and building compliant data collection workflows. The API supports OAuth2 auth…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.9
+- slug: anecdotes
+  name: anecdotes
+  description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
+  api_count: 3
+  score_band: strong
+  score_composite: 64.0
   shared: 3
 - slug: viso-trust
   name: VISO Trust
   description: VISO TRUST is an AI-powered third-party risk management (TPRM) platform that helps security teams assess and continuously monitor vendor risk across third, fourth, and nth parties. Its Artifact Intelligence AI engine reads vendor security…
   api_count: 1
   score_band: developing
-  score_composite: 49.1
-  shared: 3
-- slug: heidi-health
-  name: Heidi Health
-  description: Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability su…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.2
+  score_composite: 50.2
   shared: 3
 - slug: vanta
   name: Vanta
   description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
   api_count: 2
   score_band: developing
-  score_composite: 47.9
+  score_composite: 48.8
+  shared: 3
+- slug: formassembly
+  name: FormAssembly
+  description: FormAssembly is an enterprise form and data collection platform with a REST API for managing forms, exporting submission data, handling Salesforce integrations, and building compliant data collection workflows. The API supports OAuth2 auth…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.5
   shared: 3
 - slug: google-cloud-assured-workloads
   name: Google Cloud Assured Workloads
   description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
   api_count: 1
   score_band: developing
-  score_composite: 43.6
+  score_composite: 45.6
+  shared: 3
+- slug: heidi-health
+  name: Heidi Health
+  description: Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability su…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.6
   shared: 3
 - slug: security-scorecard
   name: SecurityScorecard
   description: SecurityScorecard is a cybersecurity ratings and third-party risk management platform that continuously rates the security posture of any company from the outside in, producing an A-F security score across ten risk factors. Its REST API (b…
   api_count: 1
   score_band: developing
-  score_composite: 43.5
+  score_composite: 43.8
   shared: 3
 - slug: nucleus-security
   name: Nucleus Security
   description: Nucleus Security is a risk-based vulnerability and exposure management platform that unifies findings from across an organization's scanning estate - network, application, cloud, container and penetration-test tooling - into a single norma…
   api_count: 2
   score_band: thin
-  score_composite: 32.0
+  score_composite: 35.0
   shared: 3
 - slug: cynomi
   name: Cynomi
   description: Cynomi is an AI-powered, automated virtual CISO (vCISO) platform built for MSPs, MSSPs, and cybersecurity consultancies to deliver scalable security and compliance services to their clients. The platform automates risk assessments, generat…
   api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 28.5
   shared: 3
 - slug: thoropass
   name: Thoropass
   description: Thoropass is an auditor-led, AI-powered compliance and audit automation platform that combines software with expert auditor services. Its products span continuous compliance monitoring and alerting, automated evidence collection, a global…
   api_count: 1
   score_band: emerging
-  score_composite: 22.0
+  score_composite: 24.7
+  shared: 3
+- slug: anitian
+  name: Anitian
+  description: Anitian, Inc. is a Portland, Oregon cloud security and compliance automation company that helps SaaS providers reach and maintain U.S. federal compliance. Its FedFlex platform automates the FedRAMP lifecycle — pre-engineered AWS and Azure…
+  api_count: 2
+  score_band: emerging
+  score_composite: 24.0
   shared: 3
 - slug: risk-ledger
   name: Risk Ledger
   description: Risk Ledger is a London-based third-party and supply chain risk management platform that helps organizations assess, monitor, and continuously manage the security risks across their supplier networks. Through its "Active Supply Chain Secur…
   api_count: 0
   score_band: emerging
-  score_composite: 20.0
-  shared: 3
-- slug: scytale
-  name: Scytale
-  description: Scytale is an AI-powered Governance, Risk, and Compliance (GRC) platform that automates security compliance for cloud and SaaS companies. It combines AI agents with in-house compliance experts to automate evidence collection, continuous co…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.3
-  shared: 3
-- slug: sprinto
-  name: Sprinto
-  description: Sprinto is a security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, GDPR, PCI DSS, and more. Sprinto offers an API for building custom compliance and risk workflows; specific public reference docs are limited and r…
-  api_count: 1
-  score_band: emerging
-  score_composite: 14.3
+  score_composite: 20.6
   shared: 3
 - slug: tugboat-logic
   name: Tugboat Logic
   description: Tugboat Logic is a security assurance and compliance automation platform acquired by OneTrust in 2021. It supports SOC 2, ISO 27001, HIPAA, GDPR, and NIST. As of 2024, the product has been rebranded under OneTrust's Certification Automatio…
   api_count: 1
-  score_band: emerging
-  score_composite: 11.8
+  score_band: minimal
+  score_composite: 10.9
+  shared: 3
+- slug: hyperproof
+  name: Hyperproof
+  description: Hyperproof is a continuous compliance and risk management platform that automates evidence collection, control management, and audit workflows. It exposes a public REST API covering 20+ resources (Controls, Policies, Programs, Risks, Proof…
+  api_count: 2
+  score_band: minimal
+  score_composite: 10.1
   shared: 3
 - slug: cowbell
   name: Cowbell
   description: Cowbell is a Pleasanton, California-based adaptive cyber insurance provider serving small and medium-sized businesses (SMBs) and the middle market with standalone cyber liability coverage, technology errors & omissions (Tech E&O), manageme…
   api_count: 0
   score_band: minimal
-  score_composite: 9.5
+  score_composite: 9.6
   shared: 3
 - slug: alyne
   name: Alyne
   description: Alyne is a cloud-native governance, risk and compliance (GRC) platform, founded in Munich in 2015 and acquired by Mitratech in 2021, where it is now offered as Mitratech's Alyne. The platform pairs a large curated library of controls and r…
   api_count: 0
   score_band: minimal
-  score_composite: 6.3
+  score_composite: 4.7
   shared: 3
+- slug: onetrust
+  name: OneTrust
+  description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP…
+  api_count: 37
+  score_band: exemplar
+  score_composite: 72.7
+  shared: 2
 - slug: paubox
   name: Paubox
   description: Paubox is a HIPAA compliant, HITRUST certified email infrastructure company serving healthcare organizations in the United States. Its products encrypt outbound email without recipient portals, passwords, or plugins, and work alongside Goo…
   api_count: 3
   score_band: exemplar
-  score_composite: 71.5
+  score_composite: 68.4
   shared: 2
-- slug: onetrust
-  name: OneTrust
-  description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP…
-  api_count: 37
-  score_band: strong
-  score_composite: 65.6
-  shared: 2
-- slug: azure-health
-  name: Microsoft Azure Health Data Services
-  description: Microsoft Azure Health Data Services is a cloud-based suite of managed API services built on open healthcare standards (FHIR R4, DICOM, HL7) that enables healthcare organizations to collect, store, analyze, and exchange protected health in…
-  api_count: 2
-  score_band: strong
-  score_composite: 65.4
-  shared: 2
-- slug: xcures
-  name: xCures
-  description: xCures operates the Clinical Clarity Engine, an AI platform that retrieves, organizes and structures fragmented patient medical records into decision-ready clinical data. Founded in 2018 and headquartered in Oakland, California, the compan…
+- slug: dun-and-bradstreet
+  name: Dun & Bradstreet
+  description: Dun & Bradstreet is a leading global provider of business decisioning data and analytics, anchored by the D-U-N-S Number — a unique nine-digit identifier assigned to more than 500 million businesses worldwide. Founded in 1841 as The Mercan…
   api_count: 1
   score_band: strong
-  score_composite: 64.5
+  score_composite: 65.9
+  shared: 2
+- slug: fenergo
+  name: Fenergo
+  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
+  api_count: 145
+  score_band: strong
+  score_composite: 62.3
   shared: 2
 - slug: spruce-health
   name: Spruce Health
   description: Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail…
   api_count: 16
   score_band: strong
-  score_composite: 64.2
+  score_composite: 61.2
   shared: 2
-- slug: anecdotes
-  name: anecdotes
-  description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+- slug: azure-health
+  name: Microsoft Azure Health Data Services
+  description: Microsoft Azure Health Data Services is a cloud-based suite of managed API services built on open healthcare standards (FHIR R4, DICOM, HL7) that enables healthcare organizations to collect, store, analyze, and exchange protected health in…
+  api_count: 2
   score_band: strong
-  score_composite: 63.1
-  shared: 2
-- slug: medtrainer
-  name: MedTrainer
-  description: MedTrainer is a healthcare workforce compliance software company that consolidates learning management, credentialing and provider enrollment, document and policy management, incident reporting, safety plans, contract management and exclus…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
-  shared: 2
-- slug: synthflow
-  name: Synthflow
-  description: Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses c…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.9
-  shared: 2
-- slug: kaseya
-  name: Kaseya
-  description: Kaseya is a Miami-based provider of IT and security management software for managed service providers (MSPs) and internal IT teams, delivering its portfolio through the Kaseya 365 and IT Complete platforms. The company owns a large family…
-  api_count: 3
-  score_band: strong
-  score_composite: 58.8
+  score_composite: 61.0
   shared: 2
 ---

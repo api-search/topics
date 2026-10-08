@@ -20,13 +20,13 @@ providers:
   description: The Financial Industry Regulatory Authority (FINRA) is a regulatory organization that oversees and regulates the securities industry in the United States. The FINRA Developer Center exposes Query, Notification, and Submission APIs for acce…
   api_count: 6
   score_band: thin
-  score_composite: 37.6
+  score_composite: 35.7
   shared: 2
 - slug: farm-credit-administration
   name: Farm Credit Administration
   description: The Farm Credit Administration (FCA) is an independent US federal agency that regulates and examines the Farm Credit System (FCS) — a nationwide network of cooperatively owned banks and associations providing credit and financial services…
   api_count: 1
   score_band: emerging
-  score_composite: 24.3
+  score_composite: 21.8
   shared: 2
 ---

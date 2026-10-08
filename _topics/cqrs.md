@@ -53,27 +53,27 @@ providers:
   description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites…
   api_count: 1
   score_band: developing
-  score_composite: 44.3
+  score_composite: 46.7
   shared: 2
 - slug: axon-framework
   name: Axon Framework
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 36.4
+  score_composite: 34.3
   shared: 2
 - slug: eventuate
   name: Eventuate
   description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, providing frameworks for managing distributed data consistency across services without two-phase commit.
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 21.3
   shared: 2
 - slug: serverless-patterns
   name: Serverless Patterns
   description: A collection of serverless architectures and patterns for building applications on AWS, featuring ready-to-use templates and best practices for Lambda, API Gateway, EventBridge, and other serverless services. Cloud adoption of this technol…
   api_count: 0
   score_band: minimal
-  score_composite: 5.0
+  score_composite: 2.5
   shared: 2
 ---

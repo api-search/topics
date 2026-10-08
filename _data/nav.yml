@@ -56,6 +56,7 @@ header:
           - { key: tags, label: Tags, url: 'https://apis.io/tags/' }
           - { key: industries, label: Industries, url: 'https://apis.io/industries/' }
           - { key: areas, label: Areas, url: 'https://apis.io/areas/' }
+          - { key: topics, label: Topics, url: 'https://apis.io/topics/' }
       - header: Business Architecture
         items:
           - { key: capabilities, label: Business Capabilities, url: 'https://apis.io/capabilities/' }
@@ -131,9 +132,26 @@ header:
     label: Kin Score
     url: https://apis.io/rating/
 
+  # The consumer side of the Kin Score: how an agent signing up for an API carries a record of who
+  # it is (2026-10-03). Flat, beside Kin Score, because the two are mirror images — one rates the
+  # provider, the other describes the caller. A page, not a section: EXCLUDED in
+  # build_well_known_catalog.py ('/kya/').
+  # Short label on purpose: "Know Your Agent" wrapped to three lines in the masthead at 1300px.
+  # The footer and the page title carry the full name.
+  - key: kya
+    label: KYA
+    url: https://apis.io/kya/
+
   - key: stack
     label: Stack
     url: https://apis.io/stack/
+
+  # Lead page for the on-premise appliance (first draft, 2026-09-28). Flat item so it is one
+  # click from every page on every site; a page, not a section, so it is EXCLUDED in
+  # build_well_known_catalog.py.
+  - key: on-premise
+    label: On-Premise
+    url: https://apis.io/on-premise/
 
   - key: blog
     label: Blog
@@ -164,11 +182,13 @@ footer:
         - { label: Tags, url: 'https://apis.io/tags/' }
         - { label: Industries, url: 'https://apis.io/industries/' }
         - { label: Areas, url: 'https://apis.io/areas/' }
+        - { label: Topics, url: 'https://apis.io/topics/' }
         - { label: Regions, url: 'https://apis.io/regions/' }
         - { label: Countries, url: 'https://apis.io/countries/' }
         - { label: Regulations, url: 'https://apis.io/regulations/' }
         - { label: Venture Capital, url: 'https://apis.io/vcs/' }
         - { label: Secondary Market, url: 'https://apis.io/secondary-market/' }
+        - { label: Gartner Magic Quadrants, url: 'https://apis.io/gartner/' }
         - { label: API Estates, url: 'https://apis.io/estates/' }
         - { label: Business Capabilities, url: 'https://apis.io/capabilities/' }
 
@@ -226,6 +246,7 @@ footer:
         - { label: Blog, url: 'https://apis.io/blog/' }
         - { label: Newsletter, url: 'https://usecommune.com/n/apisio' }
         - { label: Add Your API, url: 'https://apis.io/add/' }
+        - { label: On-Premise, url: 'https://apis.io/on-premise/' }
         - { label: Support, url: 'https://apis.io/support/' }
         - { label: GitHub, url: 'https://github.com/api-search' }
 

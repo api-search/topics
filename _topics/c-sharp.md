@@ -68,22 +68,22 @@ providers:
   name: Microsoft .NET
   description: Microsoft .NET is a free, cross-platform, open source developer platform for building many different types of applications. The .NET APIs and developer tools provide programmatic access to .NET runtime services, NuGet package management, p…
   api_count: 10
-  score_band: strong
-  score_composite: 60.9
+  score_band: exemplar
+  score_composite: 67.7
   shared: 3
 - slug: restsharp
   name: RestSharp
   description: RestSharp is a simple REST and HTTP API client library for .NET that wraps HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response bodies. Supports JSON, XML, and CSV f…
   api_count: 1
   score_band: emerging
-  score_composite: 21.6
+  score_composite: 20.7
   shared: 3
 - slug: refitter
   name: Refitter
   description: Refitter is a .NET tool and source generator that produces Refit HTTP client interfaces from OpenAPI specifications. It runs at compile time as a source generator or as a standalone CLI tool (dotnet-refitter), enabling type-safe API consum…
   api_count: 2
   score_band: thin
-  score_composite: 34.1
+  score_composite: 35.5
   shared: 2
 - slug: microsoft-package
   name: Microsoft Package
@@ -97,34 +97,34 @@ providers:
   description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from A…'
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 25.9
   shared: 2
 - slug: polly
   name: Polly
   description: Polly is a .NET resilience and transient-fault-handling library that allows developers to express resilience strategies such as Retry, Circuit Breaker, Hedging, Timeout, Rate Limiter, and Fallback in a fluent and thread-safe manner. A .NET…
   api_count: 1
   score_band: emerging
-  score_composite: 17.9
+  score_composite: 16.0
   shared: 2
 - slug: nunit
   name: NUnit
   description: NUnit is a unit-testing framework for all .NET languages. Initially ported from JUnit, the current production release has been completely rewritten with many new features and support for a wide range of .NET platforms. NUnit is a software…
   api_count: 4
   score_band: emerging
-  score_composite: 15.3
+  score_composite: 13.6
   shared: 2
 - slug: xamarin
   name: Xamarin
   description: Xamarin was the San Francisco company behind the Mono-based cross-platform mobile development framework, letting developers build native iOS, Android, and Mac apps from a single C#/.NET codebase. Backed by investors including Insight Partn…
   api_count: 0
   score_band: emerging
-  score_composite: 13.9
+  score_composite: 12.3
   shared: 2
 - slug: aptera
   name: Aptera
   description: Aptera (Aptera Software, Inc.) was a custom software development consultancy based in Fort Wayne, Indiana, founded in 2003 and specializing in the Microsoft stack — .NET, SharePoint, Azure, business intelligence, and web and mobile applica…
   api_count: 0
-  score_band: minimal
-  score_composite: 6.4
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

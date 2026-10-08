@@ -32,76 +32,41 @@ links:
   url: https://github.com/api-evangelist/http/blob/main/json-schema/http-problem-details.json
 - type: Rules
   url: https://github.com/api-evangelist/http/blob/main/rules/http-rules.yml
-provider_count: 10
+provider_count: 5
 providers:
-- slug: tcp-ip
-  name: TCP/IP
-  description: TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol suite that powers the internet and most computer networks. It provides reliable, ordered delivery of data between applications across diver…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.0
-  shared: 3
-- slug: network-protocols
-  name: Network Protocols
-  description: Network protocols are the standardized rules and conventions for communication between network devices. They include foundational protocols such as TCP/IP, HTTP, HTTPS, DNS, BGP, SMTP, FTP, SSH and many others that enable data exchange acr…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.4
-  shared: 3
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
   score_band: thin
-  score_composite: 30.4
+  score_composite: 28.4
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: thin
-  score_composite: 28.1
-  shared: 2
-- slug: ble
-  name: BLE
-  description: Bluetooth Low Energy (BLE), also known as Bluetooth Smart, is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group (Bluetooth SIG). Aimed at IoT and embedded applications, BLE provides r…
-  api_count: 3
   score_band: emerging
-  score_composite: 25.6
+  score_composite: 26.0
   shared: 2
 - slug: internet-assigned-numbers-authority
   name: Internet Assigned Numbers Authority
   description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
   api_count: 3
   score_band: emerging
-  score_composite: 14.3
-  shared: 2
-- slug: ldap
-  name: LDAP
-  description: LDAP (Lightweight Directory Access Protocol) is an industry-standard application protocol for accessing and maintaining distributed directory information services over an IP network, formally specified in RFC 4511. It plays a critical role…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.5
-  shared: 2
-- slug: p4
-  name: P4
-  description: P4 is a Linux Foundation project enabling programmable data planes in networking devices through an open, standardized programming language. It allows network engineers to define how packets are processed by forwarding planes of network de…
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.4
+  score_composite: 12.7
   shared: 2
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 4.2
   shared: 2
 - slug: messaging-protocol
   name: Messaging Protocol
   description: Messaging Protocol is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. Examples include AMQP, MQTT, STOMP, and other protocols that enable reliable, effic…
   api_count: 0
   score_band: minimal
-  score_composite: 5.0
+  score_composite: 2.5
   shared: 2
 ---

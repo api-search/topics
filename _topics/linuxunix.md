@@ -66,104 +66,97 @@ links:
   url: https://www.kernel.org/doc/html/latest/
 - type: Reference
   url: https://man7.org/linux/man-pages/
-provider_count: 14
+provider_count: 13
 providers:
 - slug: unix
   name: UNIX System Call
   description: Core UNIX/POSIX system calls providing low-level operating system interfaces for process management, file operations, interprocess communication, and system control.
   api_count: 11
   score_band: emerging
-  score_composite: 17.5
+  score_composite: 15.8
   shared: 4
 - slug: linux
   name: Linux
   description: Linux is an open-source Unix-like operating system kernel originally created by Linus Torvalds. This index catalogs the userspace and kernel programming interfaces exposed by Linux, including system calls, eBPF, ioctl, netlink, procfs, sys…
   api_count: 10
   score_band: emerging
-  score_composite: 14.0
+  score_composite: 12.3
   shared: 4
-- slug: posix
-  name: POSIX
-  description: POSIX (Portable Operating System Interface) is a family of IEEE and Open Group standards that define a consistent operating system API, command line shell, and utility interfaces for maintaining compatibility between Unix and Unix-like sys…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 3
 - slug: red-hat-enterprise-linux-8
   name: Red Hat Enterprise Linux 8
   description: Red Hat Enterprise Linux 8 (RHEL 8) is an enterprise-grade Linux distribution that provides a stable, secure, and high-performance operating system platform for modern IT environments. RHEL 8 is managed and accessed programmatically throug…
   api_count: 1
   score_band: developing
-  score_composite: 52.5
+  score_composite: 53.7
   shared: 2
 - slug: rhel
   name: Red Hat Enterprise Linux
   description: Red Hat Enterprise Linux (RHEL) is the world's leading enterprise Linux platform, providing APIs and services for subscription management, security insights, compliance monitoring, vulnerability assessment, patch management, content delive…
   api_count: 2
   score_band: developing
-  score_composite: 41.7
+  score_composite: 44.7
   shared: 2
 - slug: flatcar-container-linux
   name: Flatcar Container Linux
   description: Flatcar Container Linux is a CNCF incubating minimal, immutable Linux distribution designed for running containers. It provides automatic atomic updates through the Nebraska update server, ensuring nodes stay secure and consistent. Flatcar…
   api_count: 1
   score_band: thin
-  score_composite: 38.4
+  score_composite: 36.6
   shared: 2
 - slug: debian
   name: Debian
   description: Debian is a free operating system distribution maintained by the Debian Project, a community of more than a thousand volunteers worldwide. Debian provides a number of developer-facing services including a source-code browsing API at source…
   api_count: 2
   score_band: thin
-  score_composite: 32.9
+  score_composite: 32.0
   shared: 2
 - slug: systemd
   name: systemd
   description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and…
   api_count: 7
   score_band: thin
-  score_composite: 28.6
+  score_composite: 30.1
   shared: 2
 - slug: gvisor
   name: gVisor
   description: gVisor is an application kernel written in Go that implements a substantial portion of the Linux system surface. It provides an additional layer of isolation between running applications and the host operating system, intercepting and hand…
   api_count: 1
   score_band: emerging
-  score_composite: 24.9
+  score_composite: 24.2
   shared: 2
 - slug: shell-scripting
   name: Shell Scripting
   description: A collection of APIs and resources for Shell Scripting development, including utilities, documentation, and tools.
   api_count: 5
   score_band: emerging
-  score_composite: 18.8
+  score_composite: 15.6
   shared: 2
 - slug: ebpf
   name: eBPF
   description: eBPF (extended Berkeley Packet Filter) is a technology that allows programs to run in a sandboxed virtual machine within the Linux kernel without changing kernel source code or loading kernel modules. It enables high-performance networking…
   api_count: 0
   score_band: minimal
-  score_composite: 8.5
+  score_composite: 6.9
   shared: 2
 - slug: bash
   name: Bash Shell
   description: GNU Bash (Bourne Again SHell) is the default Unix shell and command-line interpreter on most Linux distributions and macOS. Developed by Brian Fox for the GNU Project as a free replacement for the Bourne shell, Bash provides a rich scripti…
   api_count: 0
   score_band: minimal
-  score_composite: 6.0
+  score_composite: 4.3
   shared: 2
 - slug: concurrent-real-time
   name: Concurrent Real-Time
   description: Concurrent Real-Time, Inc. is a provider of high-performance real-time computing systems, software, and solutions, headquartered in Pompano Beach, Florida. Its portfolio centers on RedHawk Linux, a real-time operating system based on Linux…
   api_count: 0
   score_band: minimal
-  score_composite: 5.0
+  score_composite: 3.4
   shared: 2
 - slug: santa-cruz-operation
   name: Santa Cruz Operation
   description: Santa Cruz Operation (SCO) was an American software company founded in 1979 in Santa Cruz, California, best known for its Unix operating systems for Intel x86 hardware — Xenix (developed with Microsoft), SCO UNIX, SCO OpenServer, and UnixW…
   api_count: 0
-  score_band: null
+  score_band: minimal
   score_composite: 0
   shared: 2
 ---

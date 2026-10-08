@@ -56,13 +56,13 @@ providers:
   description: The U.S. Securities and Exchange Commission (SEC) EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides free public access to corporate financial filings submitted to the SEC. The EDGAR REST API at data.sec.gov deliver…
   api_count: 3
   score_band: developing
-  score_composite: 44.9
+  score_composite: 41.9
   shared: 3
 - slug: inscopehq
   name: Inscope
   description: Inscope is an AI-powered financial reporting and automation platform for accounting firms and enterprise finance teams. It drafts accurate, GAAP-compliant financial statements, cash flow statements, and audit workpapers in minutes, keeping…
   api_count: 0
   score_band: emerging
-  score_composite: 17.3
+  score_composite: 18.1
   shared: 2
 ---

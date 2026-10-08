@@ -12,14 +12,8 @@ tags:
 - Fediverse
 - W3C
 repo: https://github.com/api-evangelist/activitypub
-api_count: 13
+api_count: 10
 apis:
-- name: ActivityPub Actors API
-  description: Actors are the primary objects in ActivityPub that represent entities capable of performing activities. Each actor has a unique IRI and exposes properties such as inbox, outbox, followers, following, and liked collections. Actor objects ar…
-- name: ActivityPub Inbox API
-  description: The inbox is an OrderedCollection endpoint on each actor that receives activities delivered by remote servers. Servers POST activities to an actor's inbox to federate content. The inbox also supports GET for authorized clients to retrieve…
-- name: ActivityPub Outbox API
-  description: The outbox is an OrderedCollection endpoint that stores activities published by an actor. Clients POST activities to an actor's outbox to create, update, delete, follow, like, and perform other social interactions. The server then federate…
 - name: ActivityPub Followers and Following API
   description: Actors expose followers and following as OrderedCollection or Collection endpoints. These endpoints enumerate the social graph connections for an actor. The Follow activity posted to the outbox initiates a follow relationship; the target a…
 - name: ActivityPub Liked Collection API
@@ -31,15 +25,15 @@ apis:
 - name: ActivityPub NodeInfo API
   description: NodeInfo is a complementary protocol used by ActivityPub servers to expose server capability metadata at /.well-known/nodeinfo. It describes the software name, version, supported protocols, usage statistics, and open registration status, e…
 - name: ActivityPub Actors API
-  description: Retrieve actor profile objects
+  description: Actors are the primary objects in ActivityPub that represent entities capable of performing activities. Each actor has a unique IRI and exposes properties such as inbox, outbox, followers, following, and liked collections. Actor objects ar…
 - name: ActivityPub Collections API
   description: Followers, following, and liked collections
 - name: ActivityPub Discovery API
   description: WebFinger and NodeInfo discovery endpoints
 - name: ActivityPub Inbox API
-  description: Receive and read activities delivered to an actor
+  description: The inbox is an OrderedCollection endpoint on each actor that receives activities delivered by remote servers. Servers POST activities to an actor's inbox to federate content. The inbox also supports GET for authorized clients to retrieve…
 - name: ActivityPub Outbox API
-  description: Publish activities from an actor and read their history
+  description: The outbox is an OrderedCollection endpoint that stores activities published by an actor. Clients POST activities to an actor's outbox to create, update, delete, follow, like, and perform other social interactions. The server then federate…
 links:
 - type: AgenticAccess
   url: https://github.com/api-evangelist/activitypub/blob/main/agentic-access/activitypub-agentic-access.yml
@@ -79,27 +73,62 @@ links:
   url: https://github.com/api-evangelist/activitypub/blob/main/plans/activitypub-plans.yml
 - type: FinOps
   url: https://github.com/api-evangelist/activitypub/blob/main/finops/activitypub-finops.yml
-provider_count: 3
+provider_count: 8
 providers:
 - slug: misskey
   name: Misskey
   description: Misskey is a free, open-source, decentralized microblogging platform that implements the ActivityPub protocol, enabling federation across independent instances and interoperability with other fediverse software such as Mastodon and Pleroma…
   api_count: 1
   score_band: developing
-  score_composite: 53.4
+  score_composite: 51.0
   shared: 2
-- slug: lemmy
-  name: Lemmy
-  description: Lemmy is a free, open-source, self-hostable federated link aggregator and discussion platform built as a Reddit alternative. It exposes a versioned REST API at /api/v4/ for creating posts, commenting, managing communities, voting, searchin…
-  api_count: 1
+- slug: atproto
+  name: AT Protocol
+  description: AT Protocol (Authenticated Transfer Protocol) is an open, federated social networking protocol developed by Bluesky Social PBC that powers the Bluesky social network and its 40M+ users. The protocol defines a public HTTP API surface via XR…
+  api_count: 2
   score_band: developing
-  score_composite: 46.5
+  score_composite: 45.0
   shared: 2
 - slug: pixelfed
   name: Pixelfed
   description: Pixelfed is a decentralized, federated photo-sharing platform and open-source alternative to Instagram. Built on the ActivityPub protocol, it connects with the broader Fediverse — including Mastodon, PeerTube, and other federated networks…
   api_count: 1
   score_band: developing
-  score_composite: 44.9
+  score_composite: 44.2
+  shared: 2
+- slug: diaspora
+  name: Diaspora
+  description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operate…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.2
+  shared: 2
+- slug: lemmy
+  name: Lemmy
+  description: Lemmy is a free, open-source, self-hostable federated link aggregator and discussion platform built as a Reddit alternative. It exposes a versioned REST API at /api/v4/ for creating posts, commenting, managing communities, voting, searchin…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.8
+  shared: 2
+- slug: elk
+  name: Elk
+  description: Elk is a nimble, MIT-licensed Mastodon web client maintained by Anthony Fu, Daniel Roe, Kevin Deng and Patak. It runs as a Nuxt 4 progressive web app at elk.zone and connects to any Mastodon-compatible instance the user chooses, speaking t…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.0
+  shared: 2
+- slug: zot
+  name: Zot
+  description: A decentralized communication protocol and platform for federated social networking, enabling secure and private content sharing across distributed servers.
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.5
+  shared: 2
+- slug: salduu-profe-social
+  name: Salduu (Profe Social)
+  description: Salduu, operating as Profe Social at profe.social, is a 500 Global-backed social networking platform. The live host serves Mastodon's default robots.txt (Disallow /search, sitemap.xml.gz) and a Ruby on Rails error stack, indicating the pla…
+  api_count: 0
+  score_band: minimal
+  score_composite: 2.9
   shared: 2
 ---

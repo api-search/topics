@@ -42,27 +42,27 @@ providers:
   description: Amazon Managed Service for Apache Flink is the easiest way to transform and analyze streaming data in real time with Apache Flink. It enables you to build sophisticated streaming analytics applications using Apache Flink with fully managed…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 54.0
   shared: 2
 - slug: altinity
   name: Altinity
   description: Altinity is the enterprise provider for open-source ClickHouse, the real-time analytical database. It builds and operates Altinity.Cloud, a fully managed ClickHouse service available on AWS, GCP, Azure and Hetzner, plus a bring-your-own-cl…
   api_count: 1
   score_band: developing
-  score_composite: 41.1
+  score_composite: 40.8
   shared: 2
 - slug: apache-flink
   name: Apache Flink
   description: Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It provides a REST API for job management, cluster operations, metrics collection, and checkpoint management f…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 29.5
   shared: 2
 - slug: flink
   name: Apache Flink
   description: Apache Flink is an open-source framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is designed to run in all common cluster environments and to perform computations at in-memory…
   api_count: 1
   score_band: emerging
-  score_composite: 24.6
+  score_composite: 22.9
   shared: 2
 ---

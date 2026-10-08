@@ -66,28 +66,28 @@ providers:
   name: Cribl
   description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, an…
   api_count: 6
-  score_band: developing
-  score_composite: 53.0
+  score_band: strong
+  score_composite: 54.4
   shared: 2
 - slug: carvel
   name: Carvel
   description: Carvel is a set of reliable, single-purpose, composable command-line tools that help build, configure, and deploy applications to Kubernetes. The toolset includes ytt for YAML templating, kapp for application lifecycle management, kbld for…
   api_count: 7
   score_band: thin
-  score_composite: 38.3
+  score_composite: 38.5
   shared: 2
 - slug: capn-proto
   name: Cap'n Proto
   description: Cap'n Proto is an open-source binary data interchange format and capability-based RPC protocol specification originally created by Kenton Varda. Unlike Protocol Buffers, Cap'n Proto's in-memory representation is identical to its wire forma…
   api_count: 5
   score_band: emerging
-  score_composite: 15.8
+  score_composite: 14.1
   shared: 2
 - slug: kustomize
   name: Kustomize
   description: Kustomize is a Kubernetes-native configuration management tool that lets you customize untemplated YAML files for multiple purposes, leaving the original YAML intact and usable as-is, using a template-free approach to configuration customi…
   api_count: 1
   score_band: emerging
-  score_composite: 14.7
+  score_composite: 13.1
   shared: 2
 ---

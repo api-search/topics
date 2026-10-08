@@ -28,48 +28,34 @@ links:
   url: https://www.ietf.org/rfc/rfc951.txt
 - type: DHCP Options RFC
   url: https://www.ietf.org/rfc/rfc2132.txt
-provider_count: 6
+provider_count: 4
 providers:
-- slug: tcp-ip
-  name: TCP/IP
-  description: TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol suite that powers the internet and most computer networks. It provides reliable, ordered delivery of data between applications across diver…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.0
-  shared: 3
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 4.2
   shared: 3
 - slug: smtp
   name: SMTP
   description: Simple Mail Transfer Protocol (SMTP) is the foundational internet standard for transmitting electronic mail across networks. Defined in RFC 5321 (October 2008), SMTP uses a command-response model over TCP port 25 (or 587 for submission, 46…
   api_count: 2
   score_band: emerging
-  score_composite: 14.0
+  score_composite: 13.0
   shared: 2
 - slug: snmp
   name: SNMP
   description: Simple Network Management Protocol (SNMP) is the foundational IETF standard for monitoring and managing network devices. SNMP defines a request/response protocol over UDP (ports 161 and 162) for retrieving and altering management variables…
   api_count: 5
-  score_band: emerging
-  score_composite: 11.7
-  shared: 2
-- slug: network-protocols
-  name: Network Protocols
-  description: Network protocols are the standardized rules and conventions for communication between network devices. They include foundational protocols such as TCP/IP, HTTP, HTTPS, DNS, BGP, SMTP, FTP, SSH and many others that enable data exchange acr…
-  api_count: 0
   score_band: minimal
-  score_composite: 6.4
+  score_composite: 10.8
   shared: 2
 - slug: messaging-protocol
   name: Messaging Protocol
   description: Messaging Protocol is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. Examples include AMQP, MQTT, STOMP, and other protocols that enable reliable, effic…
   api_count: 0
   score_band: minimal
-  score_composite: 5.0
+  score_composite: 2.5
   shared: 2
 ---

@@ -10,8 +10,12 @@ tags:
 - Index
 - Vocabulary
 repo: https://github.com/api-evangelist/capabilities
-api_count: 0
-apis: []
+api_count: 2
+apis:
+- name: Capabilities Events API
+  description: The Events API from Capabilities — 1 operation(s) for events.
+- name: Capabilities Sessions API
+  description: The Sessions API from Capabilities — 2 operation(s) for sessions.
 links:
 - type: Website
   url: https://apievangelist.com/

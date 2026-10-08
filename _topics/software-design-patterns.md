@@ -48,48 +48,48 @@ providers:
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
   score_band: emerging
-  score_composite: 14.4
+  score_composite: 12.5
   shared: 3
 - slug: microservice-architecture-patterns
   name: Micro-Service Architecture Patterns
   description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
   api_count: 0
   score_band: minimal
-  score_composite: 6.4
+  score_composite: 3.9
   shared: 3
 - slug: microservices-design-patterns
   name: Microservices Design Patterns
   description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
   api_count: 0
   score_band: minimal
-  score_composite: 4.1
+  score_composite: 1.6
   shared: 3
 - slug: amazon-well-architected-tool
   name: Amazon Well-Architected Tool
   description: The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural best practices. It provides a consistent process for evaluating architectures and implementing designs that scale over time acro…
   api_count: 1
   score_band: strong
-  score_composite: 56.9
+  score_composite: 57.9
   shared: 2
 - slug: secure-by-design
   name: Secure-By-Design
   description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
   api_count: 0
   score_band: minimal
-  score_composite: 5.5
+  score_composite: 3.0
   shared: 2
 - slug: services-patterns
   name: Services Patterns
   description: Design patterns and architectural approaches for building microservices and service-oriented applications. Modern distributed architectures rely on it to coordinate workloads across multiple nodes and regions.
   api_count: 0
   score_band: minimal
-  score_composite: 4.7
+  score_composite: 2.3
   shared: 2
 - slug: monolithic-architecture
   name: Monolithic Architecture
   description: Monolithic Architecture is a software design approach in which an application is built as a single, unified unit where all components, business logic, data access, and user interface are tightly coupled and deployed together. It contrasts…
   api_count: 0
   score_band: minimal
-  score_composite: 4.1
+  score_composite: 1.6
   shared: 2
 ---

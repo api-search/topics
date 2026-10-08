@@ -21,6 +21,6 @@ providers:
   description: The Software Development Lifecycle (SDLC) encompasses all processes, tools, and methodologies involved in planning, developing, testing, and delivering software from inception to retirement. Modern SDLC platforms integrate project planning…
   api_count: 7
   score_band: emerging
-  score_composite: 25.0
+  score_composite: 24.2
   shared: 4
 ---

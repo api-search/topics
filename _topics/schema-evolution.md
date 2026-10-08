@@ -80,13 +80,13 @@ providers:
   description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-b…'
   api_count: 2
   score_band: strong
-  score_composite: 61.4
+  score_composite: 65.3
   shared: 2
 - slug: confluent-schema-registry
   name: Confluent Schema Registry
   description: Confluent Schema Registry is the open-source serving layer for schema metadata used in Apache Kafka data pipelines. It exposes a RESTful interface for storing and retrieving Avro, JSON Schema, and Protobuf schemas, manages schema evolution…
   api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 33.4
   shared: 2
 ---

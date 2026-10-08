@@ -88,62 +88,62 @@ providers:
   description: Unison Computing, PBC is a public benefit corporation building the Unison programming language, Unison Cloud, and Unison Share. Unison is a statically-typed functional language where code is content-addressed and immutable; Unison Cloud de…
   api_count: 1
   score_band: thin
-  score_composite: 30.7
+  score_composite: 31.9
   shared: 3
 - slug: lightbend
   name: Lightbend
   description: Lightbend, Inc. (dba Akka) is the company behind the Akka agentic systems platform. Founded as Typesafe by the creators of the Scala language and the Akka actor toolkit, the company built the JVM reactive stack — Akka actors, Akka Streams,…
   api_count: 0
-  score_band: thin
-  score_composite: 37.8
+  score_band: developing
+  score_composite: 40.6
   shared: 2
 - slug: akka
   name: Akka
   description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of librari…
   api_count: 1
   score_band: thin
-  score_composite: 34.4
+  score_composite: 32.9
   shared: 2
 - slug: vineyard
   name: Vineyard
   description: Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyar…
   api_count: 1
   score_band: thin
-  score_composite: 32.2
+  score_composite: 29.7
   shared: 2
 - slug: redplanetlabs
   name: Redplanetlabs
   description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while p…
   api_count: 1
   score_band: emerging
-  score_composite: 25.7
+  score_composite: 25.6
   shared: 2
 - slug: groovy
   name: Apache Groovy
   description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syn…
   api_count: 3
   score_band: emerging
-  score_composite: 17.4
+  score_composite: 16.3
   shared: 2
 - slug: java
   name: Java
   description: Java is a high-level, class-based, object-oriented programming language developed by Sun Microsystems and now stewarded by Oracle. The Java Standard Edition (SE) platform provides a comprehensive set of APIs and class libraries for buildin…
   api_count: 9
   score_band: emerging
-  score_composite: 17.4
+  score_composite: 16.3
   shared: 2
 - slug: kotlin
   name: Kotlin
   description: Kotlin is a modern, concise, and safe programming language for the JVM, Android, and multiplatform development. It is developed by JetBrains and provides full interoperability with Java. Kotlin's standard library and ecosystem offer rich A…
   api_count: 2
   score_band: emerging
-  score_composite: 15.5
+  score_composite: 14.0
   shared: 2
 - slug: concord-systems
   name: Concord Systems
   description: Concord Systems was a Brooklyn, New York stream-processing company founded in December 2014 by Alexander Gallego and Emilio Del Tesoro, and backed by Bloomberg Beta. It built a high-performance distributed stream processing framework writt…
   api_count: 0
-  score_band: minimal
-  score_composite: 9.3
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

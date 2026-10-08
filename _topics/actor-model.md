@@ -49,21 +49,21 @@ providers:
   name: Lightbend
   description: Lightbend, Inc. (dba Akka) is the company behind the Akka agentic systems platform. Founded as Typesafe by the creators of the Scala language and the Akka actor toolkit, the company built the JVM reactive stack — Akka actors, Akka Streams,…
   api_count: 0
-  score_band: thin
-  score_composite: 37.8
+  score_band: developing
+  score_composite: 40.6
   shared: 2
 - slug: akka
   name: Akka
   description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of librari…
   api_count: 1
   score_band: thin
-  score_composite: 34.4
+  score_composite: 32.9
   shared: 2
 - slug: tla-plus-foundation
   name: TLA Plus Foundation
   description: The TLA+ Foundation is an independent nonprofit hosted by the Linux Foundation, dedicated to fostering the adoption of the TLA+ specification language in industry, academia, and education. Created by Leslie Lamport, TLA+ is a high-level fo…
   api_count: 6
   score_band: emerging
-  score_composite: 20.8
+  score_composite: 19.2
   shared: 2
 ---

@@ -39,6 +39,6 @@ providers:
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are…
   api_count: 0
   score_band: minimal
-  score_composite: 6.9
+  score_composite: 4.4
   shared: 2
 ---

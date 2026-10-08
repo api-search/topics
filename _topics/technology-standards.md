@@ -76,90 +76,48 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/technology-standards/refs/heads/main/vocabulary/technology-standards-vocabulary.yml
 - type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/technology-standards/refs/heads/main/json-ld/technology-standards-context.jsonld
-provider_count: 12
+provider_count: 6
 providers:
-- slug: tcp-ip
-  name: TCP/IP
-  description: TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol suite that powers the internet and most computer networks. It provides reliable, ordered delivery of data between applications across diver…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.0
-  shared: 3
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
   score_band: thin
-  score_composite: 30.4
+  score_composite: 28.4
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: thin
-  score_composite: 28.1
-  shared: 2
-- slug: ble
-  name: BLE
-  description: Bluetooth Low Energy (BLE), also known as Bluetooth Smart, is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group (Bluetooth SIG). Aimed at IoT and embedded applications, BLE provides r…
-  api_count: 3
   score_band: emerging
-  score_composite: 25.6
-  shared: 2
-- slug: internet-assigned-numbers-authority
-  name: Internet Assigned Numbers Authority
-  description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
-  api_count: 3
-  score_band: emerging
-  score_composite: 14.3
+  score_composite: 26.0
   shared: 2
 - slug: smtp
   name: SMTP
   description: Simple Mail Transfer Protocol (SMTP) is the foundational internet standard for transmitting electronic mail across networks. Defined in RFC 5321 (October 2008), SMTP uses a command-response model over TCP port 25 (or 587 for submission, 46…
   api_count: 2
   score_band: emerging
-  score_composite: 14.0
+  score_composite: 13.0
   shared: 2
-- slug: ldap
-  name: LDAP
-  description: LDAP (Lightweight Directory Access Protocol) is an industry-standard application protocol for accessing and maintaining distributed directory information services over an IP network, formally specified in RFC 4511. It plays a critical role…
-  api_count: 1
+- slug: internet-assigned-numbers-authority
+  name: Internet Assigned Numbers Authority
+  description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
+  api_count: 3
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 12.7
   shared: 2
 - slug: snmp
   name: SNMP
   description: Simple Network Management Protocol (SNMP) is the foundational IETF standard for monitoring and managing network devices. SNMP defines a request/response protocol over UDP (ports 161 and 162) for retrieving and altering management variables…
   api_count: 5
-  score_band: emerging
-  score_composite: 11.7
-  shared: 2
-- slug: ftp
-  name: FTP
-  description: FTP (File Transfer Protocol) is a standard network protocol used to transfer files between a client and a server over a TCP-based network. FTP is a protocol specification rather than a vendor or HTTP API, and is documented primarily in IET…
-  api_count: 0
   score_band: minimal
-  score_composite: 6.9
+  score_composite: 10.8
   shared: 2
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
   score_band: minimal
-  score_composite: 6.8
-  shared: 2
-- slug: network-protocols
-  name: Network Protocols
-  description: Network protocols are the standardized rules and conventions for communication between network devices. They include foundational protocols such as TCP/IP, HTTP, HTTPS, DNS, BGP, SMTP, FTP, SSH and many others that enable data exchange acr…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.4
-  shared: 2
-- slug: posix
-  name: POSIX
-  description: POSIX (Portable Operating System Interface) is a family of IEEE and Open Group standards that define a consistent operating system API, command line shell, and utility interfaces for maintaining compatibility between Unix and Unix-like sys…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
+  score_composite: 4.2
   shared: 2
 ---

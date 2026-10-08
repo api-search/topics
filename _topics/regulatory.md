@@ -7,7 +7,7 @@ description: The regulatory domain encompasses compliance requirements, regulato
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regulatory.png
 tags:
 - Compliance
-- Financial-Services
+- Financial Services
 - Governance
 - Healthcare Regulation
 - Regulatory Reporting
@@ -69,216 +69,216 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/vocabulary/regulatory-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/examples/regulatory-compliance-check-finra-example.json
-provider_count: 194
+provider_count: 233
 providers:
+- slug: greenboard
+  name: Greenboard
+  description: Greenboard is an AI-native compliance software platform for SEC- and FINRA-regulated financial institutions, consolidating communications archiving, employee compliance monitoring, marketing/advertising review, firm-wide compliance managem…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.0
+  shared: 5
+- slug: fenergo
+  name: Fenergo
+  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
+  api_count: 145
+  score_band: strong
+  score_composite: 62.3
+  shared: 4
+- slug: metricstream
+  name: MetricStream
+  description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
+  api_count: 8
+  score_band: thin
+  score_composite: 31.7
+  shared: 4
 - slug: emtech
   name: EMTECH
   description: EMTECH is a financial-technology company founded in 2019 that modernizes financial market infrastructure for central banks, financial regulators, and financial service providers. Its Beyond Suite delivers regulatory sandbox management (Bey…
   api_count: 0
   score_band: thin
-  score_composite: 32.1
+  score_composite: 30.8
+  shared: 4
+- slug: acin
+  name: Acin
+  description: Acin is a London-based operational and non-financial risk (NFR) data company for financial services, founded in 2018 and acquired by regulatory-intelligence firm CUBE in June 2025. Its platform ingests a bank's process, risk and control in…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.7
   shared: 4
 - slug: hadrius
   name: Hadrius
   description: Hadrius is an AI-native compliance platform for SEC- and FINRA-regulated financial firms, including broker-dealers, registered investment advisors (RIAs), private funds, and compliance consultants. The platform consolidates multiple compli…
   api_count: 0
   score_band: emerging
-  score_composite: 14.6
+  score_composite: 14.4
   shared: 4
-- slug: greenboard
-  name: Greenboard
-  description: Greenboard is an AI-native compliance software platform for SEC- and FINRA-regulated financial institutions, consolidating communications archiving, employee compliance monitoring, marketing/advertising review, firm-wide compliance managem…
-  api_count: 0
-  score_band: emerging
-  score_composite: 11.7
-  shared: 4
-- slug: fenergo
-  name: Fenergo
-  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
-  api_count: 145
+- slug: anecdotes
+  name: anecdotes
+  description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
+  api_count: 3
   score_band: strong
-  score_composite: 60.0
+  score_composite: 64.0
   shared: 3
 - slug: spektr
   name: Spektr
   description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring usi…
   api_count: 1
   score_band: developing
-  score_composite: 50.6
+  score_composite: 50.7
   shared: 3
 - slug: vanta
   name: Vanta
   description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
   api_count: 2
   score_band: developing
-  score_composite: 47.9
+  score_composite: 48.8
   shared: 3
 - slug: openpages
   name: OpenPages
   description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it…
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 47.7
   shared: 3
-- slug: acin
-  name: Acin
-  description: Acin is a London-based operational and non-financial risk (NFR) data company for financial services, founded in 2018 and acquired by regulatory-intelligence firm CUBE in June 2025. Its platform ingests a bank's process, risk and control in…
+- slug: wegalvanize
+  name: Wegalvanize
+  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
   api_count: 1
-  score_band: thin
-  score_composite: 29.7
+  score_band: developing
+  score_composite: 47.5
   shared: 3
-- slug: hummingbird-regtech
-  name: Hummingbird RegTech
-  description: Hummingbird RegTech, Inc. is a financial-crime compliance (RegTech) platform that unifies risk and compliance operations for banks, fintechs, and financial institutions. The product spans customer screening (sanctions, PEP, and adverse-med…
+- slug: venminder-digital-comply
+  name: Venminder (Digital Comply)
+  description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitori…
   api_count: 1
+  score_band: developing
+  score_composite: 45.5
+  shared: 3
+- slug: green-check-verified
+  name: Green Check Verified
+  description: Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.4
+  shared: 3
+- slug: merkle-science
+  name: Merkle Science
+  description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.1
+  shared: 3
+- slug: anitian
+  name: Anitian
+  description: Anitian, Inc. is a Portland, Oregon cloud security and compliance automation company that helps SaaS providers reach and maintain U.S. federal compliance. Its FedFlex platform automates the FedRAMP lifecycle — pre-engineered AWS and Azure…
+  api_count: 2
   score_band: emerging
-  score_composite: 21.9
+  score_composite: 24.0
   shared: 3
 - slug: bretton
   name: Bretton
   description: Bretton AI (formerly Greenlite AI) is a San Francisco fintech building AI-native operational infrastructure for financial institutions' back-office and financial-crime-compliance workflows. Its audit-ready AI agents automate AML alert inve…
   api_count: 0
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 22.8
+  shared: 3
+- slug: hummingbird-regtech
+  name: Hummingbird RegTech
+  description: Hummingbird RegTech, Inc. is a financial-crime compliance (RegTech) platform that unifies risk and compliance operations for banks, fintechs, and financial institutions. The product spans customer screening (sanctions, PEP, and adverse-med…
+  api_count: 1
+  score_band: emerging
+  score_composite: 22.3
   shared: 3
 - slug: risk-ledger
   name: Risk Ledger
   description: Risk Ledger is a London-based third-party and supply chain risk management platform that helps organizations assess, monitor, and continuously manage the security risks across their supplier networks. Through its "Active Supply Chain Secur…
   api_count: 0
   score_band: emerging
-  score_composite: 20.0
+  score_composite: 20.6
   shared: 3
 - slug: carbide
   name: Carbide
   description: Carbide (carbidesecure.com) is a compliance-automation and risk-management platform that pairs software with credentialed security advisors to help fast-growing organizations achieve and maintain security certifications and regulatory comp…
   api_count: 0
   score_band: emerging
-  score_composite: 19.5
+  score_composite: 20.5
   shared: 3
-- slug: hummingbird
-  name: Hummingbird
-  description: Hummingbird is an AI-powered compliance operations platform for financial institutions and fintechs. It automates customer screening (sanctions, PEP, and adverse-media checks), transaction monitoring for financial crime, investigations and…
+- slug: luminosai
+  name: Luminos.AI
+  description: Luminos.AI is an AI governance and evaluation platform that tests AI systems — classical machine learning, generative AI, and autonomous agents — for legal, regulatory, and reputational risk. The platform automates continuous evaluations a…
   api_count: 0
   score_band: emerging
-  score_composite: 18.5
+  score_composite: 20.5
+  shared: 3
+- slug: azimuth-grc
+  name: Azimuth GRC
+  description: Azimuth GRC provides automated compliance management software that transforms complex regulatory requirements into clear, actionable guidance. Their platform, VALIDATOR, offers real‑time monitoring, audit automation, and curated legal cont…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.1
   shared: 3
 - slug: behavox
   name: Behavox
   description: Behavox is an AI-native compliance and conduct-surveillance software company serving the world's leading financial institutions and regulated enterprises. Its Unified AI Controls Platform spans directive, preventive, detective, and correct…
   api_count: 0
   score_band: emerging
-  score_composite: 17.6
+  score_composite: 19.2
+  shared: 3
+- slug: hummingbird
+  name: Hummingbird
+  description: Hummingbird is an AI-powered compliance operations platform for financial institutions and fintechs. It automates customer screening (sanctions, PEP, and adverse-media checks), transaction monitoring for financial crime, investigations and…
+  api_count: 0
+  score_band: emerging
+  score_composite: 19.0
   shared: 3
 - slug: complybridge-inc
-  name: ComplyBridge, Inc.
+  name: ComplyBridge
   description: ComplyBridge is a compliance operating system for regulated financial services firms operating in the European Economic Area — banks and credit institutions, electronic money institutions, crypto-asset service providers, payment institutio…
   api_count: 0
   score_band: emerging
   score_composite: 15.7
+  shared: 3
+- slug: wordsmith
+  name: Wordsmith
+  description: Wordsmith is an Edinburgh-based legal AI platform built for in-house legal teams, marketed as a Slack-native legal copilot that lets non-legal staff self-serve compliant answers, templates, and contract reviews directly in the tools they a…
+  api_count: 2
+  score_band: emerging
+  score_composite: 15.4
+  shared: 3
+- slug: themis
+  name: Themis
+  description: Themis (askthemis.com) is a governance, risk, and compliance (GRC) SaaS platform positioned as a "compliance collaboration" tool that streamlines partnerships between companies and their vendors, banks, credit unions, and fintechs by accel…
+  api_count: 0
+  score_band: emerging
+  score_composite: 14.8
+  shared: 3
+- slug: scytale
+  name: Scytale
+  description: Scytale is an AI-powered Governance, Risk, and Compliance (GRC) platform that automates security compliance for cloud and SaaS companies. It combines AI agents with in-house compliance experts to automate evidence collection, continuous co…
+  api_count: 0
+  score_band: emerging
+  score_composite: 14.0
   shared: 3
 - slug: norm-ai
   name: Norm Ai
   description: Norm Ai (legal name Nomos AI, Inc.) is a legal and compliance AI company that embeds law and regulation directly into autonomous AI agents. Its platform spans Norm Law (an AI-native law firm), Norm Technology (domain-expert-built complianc…
   api_count: 0
   score_band: emerging
-  score_composite: 12.8
+  score_composite: 13.1
+  shared: 3
+- slug: diligent-boards
+  name: Diligent
+  description: Diligent Corporation is a governance, risk, and compliance (GRC) software company best known for its board management portal (Diligent Boards / Boardbooks) and the broader Diligent One Platform, which unifies board management, enterprise r…
+  api_count: 4
+  score_band: emerging
+  score_composite: 13.0
   shared: 3
 - slug: umony
   name: Umony
   description: Umony is a London-based communications compliance platform, founded in 2017 and backed by Seedcamp, that captures, records, and archives employee voice calls, SMS, WhatsApp, and Microsoft Teams conversations at the telecom-network level fo…
   api_count: 0
   score_band: emerging
-  score_composite: 12.6
-  shared: 3
-- slug: eisen
-  name: Eisen
-  description: Eisen is an AI-enabled compliance operations platform for financial institutions and digital asset companies, managing escheatment (unclaimed property), disbursement, customer outreach, and 1099 tax reporting across all account types. Its…
-  api_count: 0
-  score_band: minimal
-  score_composite: 10.8
-  shared: 3
-- slug: silent-eight
-  name: Silent Eight
-  description: Silent Eight is an AI-driven financial crime compliance (FCC) technology company founded in Singapore in 2015 and operating globally. Its flagship platform, Iris 7, delivers policy-bound agentic AI that replicates the investigative judgeme…
-  api_count: 0
-  score_band: minimal
-  score_composite: 10.6
-  shared: 3
-- slug: payna
-  name: Payna
-  description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.3
-  shared: 3
-- slug: scenario-x-global-holding-pte-ltd
-  name: SCENARIO-X GLOBAL HOLDING PTE. LTD.
-  description: SCENARIO-X GLOBAL HOLDING PTE. LTD. (Scenario X) is a financial-technology company building an AI- and quantum-computing-powered platform for financial risk analysis, stress testing, and regulatory reporting. The integrated platform is org…
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.3
-  shared: 3
-- slug: tongdun
-  name: Tongdun
-  description: Tongdun (同盾科技 / Tongdun Technology) is a Hangzhou-based intelligent risk-control and anti-fraud analytics company whose public product presence now operates under the 小盾未来 (Xiaodun Future) brand at xiaodun.com. It uses AI and intelligent-a…
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.6
-  shared: 3
-- slug: bayshore
-  name: Bayshore
-  description: Bayshore (bayshore AI GmbH) is a Munich-based legal and compliance technology company building an agentic AI platform that turns any ruleset — from sector regulations to internal corporate policies — into deterministic, machine-readable gu…
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.1
-  shared: 3
-- slug: klaimee
-  name: Klaimee
-  description: Klaimee is a Y Combinator (Spring/P26 batch) startup building certification, financial guarantee, and liability insurance for AI agents running in production. The company evaluates an autonomous agent across risk dimensions such as scope,…
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.1
-  shared: 3
-- slug: cambridge-blockchain
-  name: Cambridge Blockchain
-  description: Cambridge Blockchain, Inc. was a blockchain-based digital identity and compliance software company founded in 2015 and headquartered in Cambridge / Boston, Massachusetts. Its enterprise platform let financial institutions deliver strong di…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.3
-  shared: 3
-- slug: internal-control-standards
-  name: Internal Control Standards
-  description: Internal Control Standards are frameworks of policies and procedures designed to provide reasonable assurance regarding the achievement of objectives in operational effectiveness, reliable financial reporting, and compliance with laws and…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 3
-- slug: security-standards-and-procedures
-  name: Security Standards and Procedures
-  description: Frameworks and documented guidelines that establish security requirements, controls, and best practices for protecting organizational assets and information systems. It plays a critical role in protecting organizational assets and maintain…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.3
-  shared: 3
-- slug: outils-de-gestion-des-risques
-  name: Outils De Gestion Des Risques
-  description: Outils de Gestion des Risques refers to risk management tools and services used in French-speaking business and regulatory environments, covering risk assessment, monitoring, mitigation, reporting, and compliance. No verifiable public APIs…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.1
-  shared: 3
-- slug: clausematch
-  name: Clausematch
-  description: Clausematch is a London-founded regulatory technology (RegTech) company providing a cloud platform for policy and procedure management, regulatory change management, and structured document authoring and collaboration for banks, insurers,…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.4
-  shared: 3
-- slug: fenrock-ai
-  name: Fenrock AI
-  description: Fenrock AI is a Y Combinator (W26) company building specialized AI agents for the banking back office. Founded in 2026 and based in San Francisco by Charu Sharma and Michael M., Fenrock overlays on a bank's existing systems and ingests int…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.5
+  score_composite: 13.0
   shared: 3
 ---

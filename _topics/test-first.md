@@ -57,62 +57,48 @@ links:
   url: https://github.com/api-evangelist/test-first/blob/main/json-ld/test-first-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/test-first/blob/main/vocabulary/test-first-vocabulary.yml
-provider_count: 8
+provider_count: 6
 providers:
 - slug: cucumber
   name: Cucumber
   description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing execu…
   api_count: 5
   score_band: thin
-  score_composite: 29.4
-  shared: 2
-- slug: bdd
-  name: BDD (Behavior-Driven Development)
-  description: Behavior-Driven Development (BDD) is a software development methodology that combines test-driven development with domain-driven design, encouraging collaboration between developers, QA, and business stakeholders through human-readable tes…
-  api_count: 5
-  score_band: emerging
-  score_composite: 22.5
-  shared: 2
-- slug: agile-sdlc
-  name: Agile SDLC
-  description: A collection of resources, tools, and APIs covering the Agile Software Development Life Cycle (SDLC) — an iterative and incremental approach to software development that integrates agile principles across every phase from requirements thro…
-  api_count: 0
-  score_band: minimal
-  score_composite: 10.8
+  score_composite: 28.2
   shared: 2
 - slug: approxima
   name: Approxima
   description: 'Approxima is a Y Combinator (Winter 2026) startup building AI agents that test every pull request. Approxima plugs into your CI/CD pipeline and runs autonomous agents on each PR: the agents build your application in an isolated sandbox, ex…'
   api_count: 0
   score_band: minimal
-  score_composite: 10.5
+  score_composite: 10.1
   shared: 2
 - slug: secure-by-design
   name: Secure-By-Design
   description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
   api_count: 0
   score_band: minimal
-  score_composite: 5.5
+  score_composite: 3.0
   shared: 2
 - slug: secure-by-default
   name: Secure-By-Default
   description: A security design principle where systems and software are configured with the most secure settings from the initial deployment, requiring users to explicitly opt-in to less secure options rather than having to manually enable security fea…
   api_count: 0
   score_band: minimal
-  score_composite: 5.2
+  score_composite: 2.7
   shared: 2
 - slug: security-by-design
   name: Security by Design
   description: A software development approach that integrates security considerations and practices from the initial design phase through the entire development lifecycle, rather than adding security as an afterthought. It plays a critical role in prote…
   api_count: 0
   score_band: minimal
-  score_composite: 4.3
+  score_composite: 1.8
   shared: 2
 - slug: methodology
   name: Methodology
   description: Methodology is a concept entry covering systematic approaches and processes used in technology, software development, and computing to address specific technical challenges and improve outcomes.
   api_count: 0
   score_band: minimal
-  score_composite: 3.2
+  score_composite: 0.7
   shared: 2
 ---

@@ -36,48 +36,48 @@ providers:
   description: Zenodo is a free, open research data repository operated by CERN and co-developed under the European OpenAIRE program. It enables researchers to deposit, share, and preserve any research output — including datasets, software, papers, prepr…
   api_count: 1
   score_band: developing
-  score_composite: 50.6
+  score_composite: 47.1
   shared: 2
 - slug: opendatasoft
   name: Opendatasoft
   description: Open data platform with REST APIs for accessing public datasets from 1,000+ cities and organizations, providing standard OData and JSON query interfaces. Now operating as Huwise, the platform powers 3,000+ data marketplaces and provides ca…
   api_count: 1
   score_band: developing
-  score_composite: 48.4
-  shared: 2
-- slug: new-york-public-library-whats-on-the-menu
-  name: New York Public Library What's On The Menu
-  description: The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. T…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.6
+  score_composite: 43.5
   shared: 2
 - slug: curatorsearch
   name: CuratorSearch
   description: An independent, daily-refreshed record of museum/gallery/curatorial vacancies and advertised salaries, aggregated from 400+ institutions' careers pages. Exposes a keyless REST/JSON API, an OpenAPI 3.1 contract, a hosted MCP server, llms.tx…
   api_count: 1
   score_band: thin
-  score_composite: 35.2
+  score_composite: 32.2
+  shared: 2
+- slug: new-york-public-library-whats-on-the-menu
+  name: New York Public Library What's On The Menu
+  description: The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. T…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.1
   shared: 2
 - slug: nutrientsdb
   name: NutrientsDB
   description: A curated global food-composition dataset of roughly 2.9 million food entries across 86 normalized nutrient fields, deduplicated across 180+ countries and sold under a one-time license as a downloadable file for local use rather than as a…
   api_count: 2
   score_band: thin
-  score_composite: 33.0
+  score_composite: 30.3
   shared: 2
 - slug: free-exercise-db
   name: Free Exercise DB
   description: 'Free Exercise DB is an open, public-domain exercise dataset published by yuhonas on GitHub: 873 individual JSON documents describing strength, stretching, plyometric, powerlifting, olympic-weightlifting, strongman and cardio exercises, eac…'
   api_count: 1
   score_band: emerging
-  score_composite: 23.0
+  score_composite: 22.4
   shared: 2
 - slug: data-gov
   name: Data.gov
   description: Data.gov is the United States federal government's open data catalog, operated by the General Services Administration (GSA) Technology Transformation Services. It indexes over 300,000 datasets, tools, and resources from federal, state, loc…
   api_count: 4
   score_band: emerging
-  score_composite: 20.3
+  score_composite: 19.3
   shared: 2
 ---

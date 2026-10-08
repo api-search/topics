@@ -44,6 +44,8 @@ apis:
   description: Project revisions on the main branch.
   url: https://sqldbm.com/
 links:
+- type: CapabilityMap
+  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/capabilities/relational-data-modeling-capability-edges.yml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/relational-data-modeling/blob/main/agentic-access/relational-data-modeling-agentic-access.yml
 - type: VulnerabilityDisclosure

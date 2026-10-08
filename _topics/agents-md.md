@@ -33,7 +33,7 @@ links:
   url: https://agents.md/
 - type: GitHubOrganization
   url: https://github.com/agentic-ai-foundation
-provider_count: 14
+provider_count: 17
 providers:
 - slug: cursorrules
   name: .cursorrules
@@ -91,26 +91,47 @@ providers:
   score_band: null
   score_composite: 0
   shared: 3
+- slug: archbee
+  name: Archbee
+  description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 70.9
+  shared: 2
 - slug: assembled
   name: Assembled
   description: Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled l…
   api_count: 4
   score_band: strong
-  score_composite: 59.2
+  score_composite: 57.5
   shared: 2
 - slug: sweep
   name: Sweep
   description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes…
   api_count: 2
   score_band: developing
-  score_composite: 51.6
+  score_composite: 52.2
+  shared: 2
+- slug: aisera
+  name: Aisera
+  description: Aisera is an enterprise agentic AI platform that builds, deploys, and orchestrates AI agents and assistants for IT service management, HR, finance, procurement, and customer service. The AiseraGPT platform combines domain-specific LLMs, co…
+  api_count: 4
+  score_band: developing
+  score_composite: 45.1
+  shared: 2
+- slug: corestory
+  name: CoreStory
+  description: CoreStory is an AI code intelligence platform that ingests large brownfield and legacy codebases and reverse-engineers a persistent understanding of how they work — generating product requirements (PRDs), technical specifications, dependen…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.6
   shared: 2
 - slug: supernova
   name: Supernova
   description: Supernova is an AI-powered platform for product teams that unifies design system management, documentation, code automation, and collaborative prototyping around a single source of truth for design tokens, components, and brand. Its "Conte…
   api_count: 0
   score_band: thin
-  score_composite: 29.7
+  score_composite: 31.6
   shared: 2
 - slug: aiignore
   name: .AIIgnore
