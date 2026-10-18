@@ -29,6 +29,12 @@ apis:
   description: XML Schema Definition Language (XSD) is the W3C Recommendation for describing the structure and constraints of XML documents using an XML-based grammar. XSD 1.1 is the current version and provides element/attribute declarations, complex an…
   url: https://www.w3.org/XML/Schema
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/xml/blob/main/plans/xml-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/xml/blob/main/rate-limits/xml-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/xml/blob/main/finops/xml-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/xml/blob/main/security/xml-domain-security.yml
 - type: Website
@@ -58,28 +64,28 @@ providers:
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 51.7
+  score_composite: 50.2
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.6
+  score_composite: 45.7
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 27.7
   shared: 2
 - slug: soap
   name: SOAP
   description: SOAP (Simple Object Access Protocol) is an XML-based messaging protocol for exchanging structured information in web services, standardized by W3C as SOAP 1.2 (2003). It provides a platform-independent, language-neutral framework for web s…
   api_count: 1
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 19.0
   shared: 2
 - slug: mismo
   name: MISMO
@@ -93,20 +99,20 @@ providers:
   description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.9
   shared: 2
 - slug: html5
   name: HTML5
   description: HTML5 is the fifth major version of the HyperText Markup Language used for structuring and presenting content on the web. Standardized by the W3C in 2014 and now maintained by WHATWG as the HTML Living Standard, HTML5 introduced semantic e…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.9
   shared: 2
 - slug: markup-language
   name: Markup Language
   description: A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. Examples include HTML, XML, Markdown, LaTeX, and others that add semantic meaning or formatting instructions to text cont…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 2
 ---

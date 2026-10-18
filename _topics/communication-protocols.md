@@ -40,6 +40,12 @@ apis:
   description: A simple, one-way, server-to-client streaming protocol defined as part of the HTML living standard. SSE runs over plain HTTP, supports automatic reconnection, and is widely used for live status feeds and LLM token streaming.
   url: https://html.spec.whatwg.org/multipage/server-sent-events.html
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/communication-protocols/blob/main/plans/communication-protocols-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/communication-protocols/blob/main/rate-limits/communication-protocols-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/communication-protocols/blob/main/finops/communication-protocols-finops.yml
 - type: VulnerabilityDisclosure
   url: https://github.com/api-evangelist/communication-protocols/blob/main/security/communication-protocols-vulnerability-disclosure.yml
 - type: DomainSecurity
@@ -70,49 +76,49 @@ providers:
   description: Firebase is Google's app development platform — a backend-as-a-service (BaaS) suite for building, running, and growing web and mobile apps. It bundles managed backend products including Authentication, Cloud Firestore, Realtime Database, C…
   api_count: 4
   score_band: developing
-  score_composite: 46.0
+  score_composite: 46.1
   shared: 2
 - slug: transportapi
   name: TransportAPI
   description: TransportAPI is a managed data service provider for UK public transport, offering real-time and scheduled bus, rail, and multimodal transport data via REST and WebSocket APIs to power apps, websites, analytics, and data-mining workflows.
   api_count: 1
-  score_band: developing
-  score_composite: 40.6
+  score_band: thin
+  score_composite: 34.8
   shared: 2
 - slug: lumen-technologies
   name: Lumen Technologies
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Cent…
   api_count: 1
   score_band: thin
-  score_composite: 31.6
+  score_composite: 30.0
+  shared: 2
+- slug: w3c
+  name: W3C
+  description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.7
   shared: 2
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
   score_band: thin
-  score_composite: 28.4
-  shared: 2
-- slug: w3c
-  name: W3C
-  description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
-  api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_composite: 26.9
   shared: 2
 - slug: websockets
   name: WebSockets
   description: WebSockets is a communication protocol providing full-duplex communication channels over a single TCP connection, enabling real-time data exchange between client and server. Standardized by RFC 6455 and the WHATWG Living Standard, it is fu…
   api_count: 0
   score_band: emerging
-  score_composite: 19.2
+  score_composite: 19.3
   shared: 2
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
   score_band: minimal
-  score_composite: 4.2
+  score_composite: 4.3
   shared: 2
 - slug: sockeye-networks
   name: Sockeye Networks
@@ -124,7 +130,7 @@ providers:
 - slug: subspace
   name: Subspace
   description: Subspace was a real-time network-as-a-service platform delivering a dedicated, performance-optimized global network for latency-sensitive applications — WebRTC, VoIP/SIP calling, video conferencing, multiplayer gaming, and fintech. Its Pro…
-  api_count: 1
+  api_count: 2
   score_band: minimal
   score_composite: 0
   shared: 2

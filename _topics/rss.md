@@ -65,50 +65,50 @@ providers:
   name: GSMA
   description: The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona.…
   api_count: 37
-  score_band: developing
-  score_composite: 53.8
+  score_band: strong
+  score_composite: 54.3
   shared: 2
 - slug: acord
   name: ACORD
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 51.7
-  shared: 2
-- slug: asyncapi
-  name: AsyncAPI
-  description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.7
+  score_composite: 50.2
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.6
+  score_composite: 45.7
+  shared: 2
+- slug: asyncapi
+  name: AsyncAPI
+  description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.2
   shared: 2
 - slug: meredith
   name: Dotdash Meredith / People Inc
   description: Profile for People Inc (formerly Dotdash Meredith) in the API Evangelist network. America's largest digital and print publisher, operating 40+ brands including PEOPLE, Better Homes & Gardens, Allrecipes, Investopedia, Verywell, Food & Wine…
   api_count: 30
   score_band: developing
-  score_composite: 43.0
+  score_composite: 41.5
   shared: 2
 - slug: rss-app
   name: RSS.app
   description: RSS.app provides a no‑code platform that lets users generate RSS feeds from any website or social media source, create embeddable widgets, and automate content distribution via bots to Discord, Slack, Telegram, and email. It offers a suite…
   api_count: 3
   score_band: developing
-  score_composite: 39.8
+  score_composite: 39.9
   shared: 2
 - slug: vice-media
   name: Vice Media
   description: Vice Media is the Brooklyn, New York youth-culture and news media company founded in 1994 in Montreal by Suroosh Alvi, Shane Smith and Gavin McInnes, which grew from the VICE magazine into a global multi-platform publisher, film and televi…
   api_count: 6
   score_band: thin
-  score_composite: 36.5
+  score_composite: 36.6
   shared: 2
 - slug: newsblur
   name: NewsBlur
@@ -122,42 +122,35 @@ providers:
   description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
   api_count: 2
   score_band: thin
-  score_composite: 29.8
+  score_composite: 28.3
+  shared: 2
+- slug: openehr
+  name: openEHR
+  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
+  api_count: 15
+  score_band: thin
+  score_composite: 28.1
   shared: 2
 - slug: apis-json
   name: APIs.json
   description: APIs.json is an open, machine-readable specification that API providers can use to describe their API operations, similar to how websites use sitemap.xml. The format provides a lightweight means for individuals and organizations to documen…
   api_count: 1
   score_band: thin
-  score_composite: 28.2
-  shared: 2
-- slug: openehr
-  name: openEHR
-  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 13
-  score_band: thin
-  score_composite: 27.0
+  score_composite: 26.7
   shared: 2
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked s…
-  api_count: 1
+  api_count: 2
   score_band: emerging
-  score_composite: 23.5
+  score_composite: 23.6
   shared: 2
 - slug: cbs
   name: CBS (Paramount Global)
   description: CBS is the flagship broadcast television network of Paramount (Paramount Skydance Corporation, formerly Paramount Global), covering CBS Entertainment, CBS News, CBS Sports and the CBS owned-and-operated stations, and feeding Paramount+. CB…
   api_count: 2
   score_band: emerging
-  score_composite: 23.1
-  shared: 2
-- slug: wired
-  name: Wired
-  description: Wired (wired.com) is an American technology and culture magazine published by Condé Nast, covering how emerging technologies affect culture, the economy, and politics. Founded in 1993, Wired provides RSS feeds for programmatic content cons…
-  api_count: 1
-  score_band: emerging
-  score_composite: 21.9
+  score_composite: 23.2
   shared: 2
 - slug: federal-accounting-standards-advisory-board
   name: Federal Accounting Standards Advisory Board
@@ -166,19 +159,26 @@ providers:
   score_band: emerging
   score_composite: 21.2
   shared: 2
+- slug: wired
+  name: Wired
+  description: Wired (wired.com) is an American technology and culture magazine published by Condé Nast, covering how emerging technologies affect culture, the economy, and politics. Founded in 1993, Wired provides RSS feeds for programmatic content cons…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.4
+  shared: 2
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
   api_count: 24
   score_band: emerging
-  score_composite: 17.8
+  score_composite: 18.3
   shared: 2
 - slug: hackernoon
   name: Hackernoon
   description: HackerNoon is an independent technology publishing platform and community CMS, founded in 2016 by David Smooke and headquartered in Edwards, Colorado. It operates a free, open library of more than 150,000 practitioner-authored, human-edite…
   api_count: 0
   score_band: emerging
-  score_composite: 16.9
+  score_composite: 17.0
   shared: 2
 - slug: astm-international
   name: ASTM International
@@ -192,7 +192,7 @@ providers:
   description: The OpenAPI Initiative is a Linux Foundation project that promotes the OpenAPI Specification for defining standard, language-agnostic interfaces to RESTful APIs. It provides governance, tooling ecosystem support, and community collaboratio…
   api_count: 1
   score_band: minimal
-  score_composite: 10.1
+  score_composite: 8.6
   shared: 2
 - slug: mismo
   name: MISMO

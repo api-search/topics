@@ -35,6 +35,8 @@ apis:
 - name: ActivityPub Outbox API
   description: The outbox is an OrderedCollection endpoint that stores activities published by an actor. Clients POST activities to an actor's outbox to create, update, delete, follow, like, and perform other social interactions. The server then federate…
 links:
+- type: BlogRSS
+  url: https://activitypub.rocks/feed.xml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/activitypub/blob/main/agentic-access/activitypub-agentic-access.yml
 - type: DomainSecurity
@@ -80,49 +82,49 @@ providers:
   description: Misskey is a free, open-source, decentralized microblogging platform that implements the ActivityPub protocol, enabling federation across independent instances and interoperability with other fediverse software such as Mastodon and Pleroma…
   api_count: 1
   score_band: developing
-  score_composite: 51.0
-  shared: 2
-- slug: atproto
-  name: AT Protocol
-  description: AT Protocol (Authenticated Transfer Protocol) is an open, federated social networking protocol developed by Bluesky Social PBC that powers the Bluesky social network and its 40M+ users. The protocol defines a public HTTP API surface via XR…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.0
-  shared: 2
-- slug: pixelfed
-  name: Pixelfed
-  description: Pixelfed is a decentralized, federated photo-sharing platform and open-source alternative to Instagram. Built on the ActivityPub protocol, it connects with the broader Fediverse — including Mastodon, PeerTube, and other federated networks…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.2
+  score_composite: 44.4
   shared: 2
 - slug: diaspora
   name: Diaspora
   description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operate…
   api_count: 1
   score_band: developing
-  score_composite: 42.2
+  score_composite: 42.3
+  shared: 2
+- slug: pixelfed
+  name: Pixelfed
+  description: Pixelfed is a decentralized, federated photo-sharing platform and open-source alternative to Instagram. Built on the ActivityPub protocol, it connects with the broader Fediverse — including Mastodon, PeerTube, and other federated networks…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.2
+  shared: 2
+- slug: atproto
+  name: AT Protocol
+  description: AT Protocol (Authenticated Transfer Protocol) is an open, federated social networking protocol developed by Bluesky Social PBC that powers the Bluesky social network and its 40M+ users. The protocol defines a public HTTP API surface via XR…
+  api_count: 2
+  score_band: thin
+  score_composite: 36.7
   shared: 2
 - slug: lemmy
   name: Lemmy
   description: Lemmy is a free, open-source, self-hostable federated link aggregator and discussion platform built as a Reddit alternative. It exposes a versioned REST API at /api/v4/ for creating posts, commenting, managing communities, voting, searchin…
   api_count: 1
-  score_band: developing
-  score_composite: 41.8
+  score_band: thin
+  score_composite: 34.3
   shared: 2
 - slug: elk
   name: Elk
   description: Elk is a nimble, MIT-licensed Mastodon web client maintained by Anthony Fu, Daniel Roe, Kevin Deng and Patak. It runs as a Nuxt 4 progressive web app at elk.zone and connects to any Mastodon-compatible instance the user chooses, speaking t…
   api_count: 1
   score_band: thin
-  score_composite: 30.0
+  score_composite: 29.1
   shared: 2
 - slug: zot
   name: Zot
   description: A decentralized communication protocol and platform for federated social networking, enabling secure and private content sharing across distributed servers.
   api_count: 1
   score_band: emerging
-  score_composite: 18.5
+  score_composite: 12.5
   shared: 2
 - slug: salduu-profe-social
   name: Salduu (Profe Social)

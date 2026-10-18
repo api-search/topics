@@ -90,6 +90,12 @@ apis:
   description: The ECMAScript specification (ECMA-262) defines the JavaScript programming language. Published annually by TC39 with new features, ECMAScript is the foundation for all JavaScript runtime environments including browsers and Node.js.
   url: https://ecma-international.org/publications-and-standards/standards/ecma-262/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/web-standards/blob/main/plans/web-standards-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/web-standards/blob/main/rate-limits/web-standards-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/web-standards/blob/main/finops/web-standards-finops.yml
 - type: IssueTracker
   url: https://github.com/whatwg/html/issues
 - type: ContributionGuide
@@ -135,63 +141,63 @@ providers:
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 51.0
+  score_composite: 51.1
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 50.4
+  score_composite: 48.9
   shared: 2
 - slug: typescript
   name: TypeScript
   description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for l…
   api_count: 3
   score_band: developing
-  score_composite: 43.4
+  score_composite: 42.1
   shared: 2
 - slug: canada-health-infoway
   name: Canada Health Infoway
   description: Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway…
-  api_count: 2
-  score_band: thin
-  score_composite: 39.1
+  api_count: 3
+  score_band: developing
+  score_composite: 39.7
   shared: 2
 - slug: cabolabs
   name: CaboLabs
   description: CaboLabs Health Informatics is a Montevideo, Uruguay based health informatics company founded in 2012 by Pablo Pazos Gutierrez, specializing in clinical data standards and interoperability. It builds and licenses Atomik, a standardized ope…
   api_count: 2
   score_band: thin
-  score_composite: 37.6
+  score_composite: 37.7
   shared: 2
 - slug: aousd
   name: Alliance for OpenUSD
   description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
   api_count: 2
   score_band: thin
-  score_composite: 29.8
+  score_composite: 28.3
   shared: 2
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 13
+  api_count: 15
   score_band: thin
-  score_composite: 27.0
+  score_composite: 28.1
   shared: 2
 - slug: meteor
   name: Meteor
   description: Meteor is a full-stack JavaScript platform for building modern web and mobile applications. It provides documentation, resources, and API references to help developers build and deploy applications with real-time capabilities.
   api_count: 1
   score_band: emerging
-  score_composite: 25.1
+  score_composite: 23.6
   shared: 2
 - slug: sails-co
   name: Sails Co
   description: Sails Co. is a full-service web, mobile, and cloud development studio (Y Combinator W15, Austin, Texas) founded by the creators of Sails.js. Sails.js is an open-source, API-driven MVC framework for Node.js — built on top of Express and Soc…
   api_count: 0
   score_band: emerging
-  score_composite: 22.4
+  score_composite: 22.5
   shared: 2
 - slug: paper
   name: Paper
@@ -205,28 +211,28 @@ providers:
   description: Thymeleaf is a modern server-side Java template engine for both web and standalone environments, capable of processing HTML, XML, JavaScript, CSS, and plain text. Its primary goal is to bring elegant natural templates to development workfl…
   api_count: 3
   score_band: emerging
-  score_composite: 21.2
+  score_composite: 19.7
   shared: 2
 - slug: fhir
   name: Fast Healthcare Interoperability Resources
   description: FHIR (Fast Healthcare Interoperability Resources) is a platform specification developed by HL7 that defines a set of capabilities for use across the healthcare process, in all jurisdictions, and in many different clinical and administrativ…
   api_count: 1
   score_band: emerging
-  score_composite: 19.9
+  score_composite: 18.4
   shared: 2
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
   api_count: 24
   score_band: emerging
-  score_composite: 17.8
+  score_composite: 18.3
   shared: 2
 - slug: angular
   name: Angular
   description: Angular is an open-source TypeScript-based web application framework maintained by Google and a community of contributors. It provides a comprehensive platform for building single-page applications with a component-based architecture, reac…
   api_count: 10
   score_band: emerging
-  score_composite: 15.3
+  score_composite: 13.8
   shared: 2
 - slug: ember
   name: Ember
@@ -239,8 +245,8 @@ providers:
   name: React
   description: A JavaScript library for building user interfaces, maintained by Meta and the open source community.
   api_count: 2
-  score_band: emerging
-  score_composite: 11.0
+  score_band: minimal
+  score_composite: 9.5
   shared: 2
 - slug: freshehr
   name: freshEHR
@@ -254,13 +260,13 @@ providers:
   description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.9
   shared: 2
 - slug: yellowbrink
   name: YellowBrink
   description: YellowBrink is a Netherlands-based, vendor-neutral community platform for open health data, founded by Jan de Lange and Bouwe Koopal to connect healthcare professionals, vendors, researchers and policymakers working with open standards suc…
   api_count: 0
   score_band: minimal
-  score_composite: 4.0
+  score_composite: 4.1
   shared: 2
 ---

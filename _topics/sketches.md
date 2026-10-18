@@ -25,6 +25,12 @@ apis:
   description: Amazon Redshift supports approximate query processing using HyperLogLog sketch functions (HLL_CREATE_SKETCH, HLL_COMBINE, HLL_CARDINALITY) for fast cardinality estimation on large datasets. These native SQL functions enable analytics teams…
   url: https://docs.aws.amazon.com/redshift/latest/dg/r_HLL_function.html
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/sketches/blob/main/plans/sketches-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/sketches/blob/main/rate-limits/sketches-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/sketches/blob/main/finops/sketches-finops.yml
 - type: VulnerabilityDisclosure
   url: https://github.com/api-evangelist/sketches/blob/main/security/sketches-vulnerability-disclosure.yml
 - type: DomainSecurity
@@ -42,27 +48,27 @@ providers:
   description: Amazon Managed Service for Apache Flink is the easiest way to transform and analyze streaming data in real time with Apache Flink. It enables you to build sophisticated streaming analytics applications using Apache Flink with fully managed…
   api_count: 1
   score_band: developing
-  score_composite: 54.0
+  score_composite: 52.5
   shared: 2
 - slug: altinity
   name: Altinity
   description: Altinity is the enterprise provider for open-source ClickHouse, the real-time analytical database. It builds and operates Altinity.Cloud, a fully managed ClickHouse service available on AWS, GCP, Azure and Hetzner, plus a bring-your-own-cl…
   api_count: 1
   score_band: developing
-  score_composite: 40.8
+  score_composite: 40.9
   shared: 2
 - slug: apache-flink
   name: Apache Flink
   description: Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It provides a REST API for job management, cluster operations, metrics collection, and checkpoint management f…
   api_count: 1
   score_band: thin
-  score_composite: 29.5
+  score_composite: 28.2
   shared: 2
 - slug: flink
   name: Apache Flink
   description: Apache Flink is an open-source framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is designed to run in all common cluster environments and to perform computations at in-memory…
   api_count: 1
   score_band: emerging
-  score_composite: 22.9
+  score_composite: 21.6
   shared: 2
 ---

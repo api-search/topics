@@ -59,6 +59,12 @@ apis:
   description: The Report Flight Store API from Automated Sorting Systems — 2 operation(s) for report flight store.
   url: https://www.dematic.com/en-us/software/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/plans/automated-sorting-systems-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/rate-limits/automated-sorting-systems-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/finops/automated-sorting-systems-finops.yml
 - type: Website
   url: https://www.vanderlande.com/software-and-services/fleet/
 - type: Website
@@ -91,14 +97,21 @@ links:
   url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/llms/automated-sorting-systems-llms.txt
 - type: AgentSkill
   url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/skills/_index.yml
-provider_count: 79
+provider_count: 84
 providers:
+- slug: tutor-intelligence
+  name: Tutor Intelligence
+  description: Tutor Intelligence builds AI-powered robotic workers for industrial and logistics operations, delivered as robots-as-a-service. Its flagship Cassie palletizing robot handles material-handling tasks — palletizing, depalletizing, and case pi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 17.5
+  shared: 3
 - slug: ambi-robotics
   name: Ambi Robotics
   description: Ambi Robotics is a Berkeley, California AI robotics company building parcel-sortation and induction robots for ecommerce, postal, and logistics workflows. Founded in 2018 as Ambidextrous Laboratories — a spin-out of UC Berkeley's Dex-Net P…
   api_count: 0
   score_band: emerging
-  score_composite: 12.9
+  score_composite: 12.6
   shared: 3
 - slug: berkshire-grey
   name: Berkshire Grey
@@ -107,33 +120,26 @@ providers:
   score_band: emerging
   score_composite: 11.2
   shared: 3
-- slug: tutor-intelligence
-  name: Tutor Intelligence
-  description: Tutor Intelligence builds AI-powered robotic workers for industrial and logistics operations, delivered as robots-as-a-service. Its flagship Cassie palletizing robot handles material-handling tasks — palletizing, depalletizing, and case pi…
-  api_count: 0
-  score_band: emerging
-  score_composite: 11.1
-  shared: 3
 - slug: robustai
   name: Robust.AI
   description: Robust.AI is a robotics company building Carter, an AI-powered collaborative mobile robot for warehouse fulfillment and manufacturing environments. Founded by Rodney Brooks (co-founder of iRobot and Rethink Robotics) and colleagues, the co…
   api_count: 0
   score_band: minimal
-  score_composite: 10.0
+  score_composite: 10.1
   shared: 3
 - slug: dexory
   name: Dexory
   description: Dexory is a UK-based warehouse intelligence and robotics company whose DexoryView platform pairs fleets of autonomous mobile scanning robots with physical AI to deliver real-time "ground truth" visibility across warehouses and distribution…
   api_count: 0
   score_band: minimal
-  score_composite: 9.3
+  score_composite: 9.4
   shared: 3
 - slug: symbotic
   name: Symbotic
   description: Symbotic is an AI-powered warehouse automation company that designs, manufactures, and operates end-to-end robotic distribution and micro-fulfillment systems for food and beverage, retail grocery, healthcare, apparel, retail general mercha…
   api_count: 0
   score_band: minimal
-  score_composite: 8.2
+  score_composite: 8.3
   shared: 3
 - slug: thirdwave
   name: Thirdwave
@@ -147,21 +153,28 @@ providers:
   description: Slip Robotics is an Atlanta, Georgia-based robotics company that builds SlipBots, autonomous omnidirectional Automated Loading Robots (ALRs) that load and unload any truck trailer in about five minutes without a forklift ever entering the…
   api_count: 0
   score_band: minimal
-  score_composite: 5.6
+  score_composite: 6.2
   shared: 3
 - slug: boxbot
   name: Boxbot
   description: Boxbot builds next-generation supply chain automation, making logistics operations more productive, intelligent, and resilient through automated, high-density dynamic storage that unlocks new AI-driven capabilities. Its platform is designe…
   api_count: 0
   score_band: minimal
-  score_composite: 5.0
+  score_composite: 5.1
+  shared: 3
+- slug: contoro-robotics
+  name: Contoro Robotics
+  description: Contoro Robotics, founded in 2022 and based in Austin, Texas, develops AI‑powered autonomous robots that unload non‑palletized boxes from trailers and shipping containers. Their human‑in‑the‑loop platform combines teleoperation, AI trainin…
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.0
   shared: 3
 - slug: leaflink
   name: LeafLink
   description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
   api_count: 2
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.5
   shared: 2
 - slug: la-poste-groupe
   name: La Poste Groupe
@@ -175,7 +188,7 @@ providers:
   description: Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace…
   api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 59.0
   shared: 2
 - slug: veho
   name: Veho
@@ -184,12 +197,19 @@ providers:
   score_band: strong
   score_composite: 56.1
   shared: 2
+- slug: kargo-ai
+  name: Kargo
+  description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
+  api_count: 3
+  score_band: developing
+  score_composite: 54.0
+  shared: 2
 - slug: karrio
   name: Karrio
   description: Karrio is an open-source, headless multi-carrier shipping platform for developers and logistics teams. Its unified REST API and GraphQL management API abstract more than thirty carrier integrations behind one resource-oriented interface co…
   api_count: 1
   score_band: developing
-  score_composite: 53.9
+  score_composite: 52.3
   shared: 2
 - slug: nabis
   name: Nabis
@@ -201,79 +221,79 @@ providers:
 - slug: packagex
   name: PackageX
   description: PackageX provides vision-AI powered logistics execution — software that turns any camera or device into an intelligent scanning agent to automate receiving, inventory management, fulfillment and dispatch across warehouses, retail and build…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.6
+  shared: 2
+- slug: shipsy
+  name: Shipsy
+  description: Shipsy provides an AI‑native logistics platform offering Transportation Management System (TMS) and Warehouse Management System (WMS) capabilities. The cloud‑based solution automates shipment planning, carrier selection, real‑time tracking…
   api_count: 1
   score_band: developing
-  score_composite: 47.5
+  score_composite: 44.1
   shared: 2
 - slug: dexterity
   name: Dexterity
   description: Dexterity is a Redwood City, California Physical AI company founded in 2017 by Samir Menon and a group of Stanford roboticists. It builds a full-stack industrial robotics platform that combines the Mech — a roving, dual-arm superhumanoid r…
   api_count: 1
-  score_band: developing
-  score_composite: 44.1
-  shared: 2
-- slug: kargo-ai
-  name: Kargo
-  description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.0
-  shared: 2
-- slug: loadsmart
-  name: Loadsmart
-  description: Loadsmart is a digital freight technology company and 4PL that connects shippers, carriers, warehouses, and dock operations on a single platform. Founded in 2014 by Felipe Capella and Ricardo Salgado and headquartered in Chicago (with sign…
-  api_count: 2
-  score_band: developing
-  score_composite: 40.5
-  shared: 2
-- slug: 17track
-  name: 17TRACK
-  description: Package tracking REST API supporting 3,300+ global carriers for real-time shipment tracking, status updates, and delivery notifications via webhook push mechanism.
-  api_count: 1
   score_band: thin
   score_composite: 37.2
   shared: 2
-- slug: parcelsapp
-  name: Parcels App
-  description: Parcels App (parcelsapp.com) is a universal parcel tracking service that tracks packages, air cargo (AWB), road freight (LTL/FTL), and sea freight across 1,540 postal operators, couriers, and logistics carriers worldwide - USPS, UPS, FedEx…
-  api_count: 1
+- slug: brokergenius
+  name: Brokergenius
+  description: Broker Genius provides AI‑powered customs brokerage automation for brokers, freight forwarders, and trade teams. The platform reads invoices, classifies line items, assigns HS codes, and generates ASYCUDA‑compatible declarations, reducing…
+  api_count: 3
   score_band: thin
-  score_composite: 37.0
+  score_composite: 36.9
   shared: 2
 - slug: instock
   name: Instock
   description: Instock is a robotics company delivering a goods-to-person automated storage and retrieval system (ASRS) as a fulfillment robotics-as-a-service (RaaS) offering. The system pairs a static "Grid" racking framework, stackable "Bins", and auto…
   api_count: 1
   score_band: thin
-  score_composite: 35.7
+  score_composite: 35.8
+  shared: 2
+- slug: loadsmart
+  name: Loadsmart
+  description: Loadsmart is a digital freight technology company and 4PL that connects shippers, carriers, warehouses, and dock operations on a single platform. Founded in 2014 by Felipe Capella and Ricardo Salgado and headquartered in Chicago (with sign…
+  api_count: 3
+  score_band: thin
+  score_composite: 35.3
+  shared: 2
+- slug: usps
+  name: United States Postal Service
+  description: The United States Postal Service (USPS) provides a modern REST API platform at developers.usps.com that gives ecommerce websites, shipping software, and logistics systems access to postal data and services. APIs cover address validation, p…
+  api_count: 4
+  score_band: thin
+  score_composite: 33.8
+  shared: 2
+- slug: 17track
+  name: 17TRACK
+  description: Package tracking REST API supporting 3,300+ global carriers for real-time shipment tracking, status updates, and delivery notifications via webhook push mechanism.
+  api_count: 1
+  score_band: thin
+  score_composite: 32.0
   shared: 2
 - slug: transload
   name: Transload
   description: Transload (YC Spring 2026) measures freight with security cameras, turning the CCTV already installed in logistics warehouses into a 3D dimensioner for the loading dock. Its computer vision captures the true size of every pallet, couch, or…
   api_count: 1
   score_band: thin
-  score_composite: 30.5
+  score_composite: 30.6
   shared: 2
-- slug: usps
-  name: United States Postal Service
-  description: The United States Postal Service (USPS) provides a modern REST API platform at developers.usps.com that gives ecommerce websites, shipping software, and logistics systems access to postal data and services. APIs cover address validation, p…
-  api_count: 4
-  score_band: emerging
-  score_composite: 24.6
+- slug: parcelsapp
+  name: Parcels App
+  description: Parcels App (parcelsapp.com) is a universal parcel tracking service that tracks packages, air cargo (AWB), road freight (LTL/FTL), and sea freight across 1,540 postal operators, couriers, and logistics carriers worldwide - USPS, UPS, FedEx…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.6
   shared: 2
 - slug: graybar-electric
   name: Graybar Electric
   description: Graybar Electric Company is an employee-owned Fortune 500 distributor of electrical, communications, and data networking products and a provider of related supply chain management and logistics services. Graybar serves contractors, industr…
   api_count: 1
   score_band: emerging
-  score_composite: 22.9
-  shared: 2
-- slug: crane-worldwide
-  name: Crane Worldwide Logistics
-  description: Crane Worldwide Logistics is a global third-party logistics provider delivering air freight, ocean freight, customs brokerage, warehousing, trucking, and supply chain solutions across more than 30 countries. Crane exposes a developer API p…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.7
+  score_composite: 25.1
   shared: 2
 - slug: locus-robotics
   name: Locus Robotics
@@ -287,20 +307,6 @@ providers:
   description: American Tire Distributors (ATD) is one of the largest independent suppliers of replacement tires in North America, distributing passenger, light truck, medium truck, and specialty tires from more than 110 distribution centers. ATD deliver…
   api_count: 0
   score_band: emerging
-  score_composite: 19.4
-  shared: 2
-- slug: vecna-robotics
-  name: Vecna Robotics
-  description: Vecna Robotics is a Waltham, Massachusetts material-handling automation company, spun out of Vecna Technologies in 2018, that builds autonomous mobile robots (AMRs) — autonomous forklifts, pallet trucks, tuggers, conveyor and lifter platfo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.4
-  shared: 2
-- slug: exotec
-  name: Exotec
-  description: Exotec is a French warehouse automation manufacturer and integrator, founded in 2015 and headquartered in Croix, France, that builds the Skypod robotic automated storage and retrieval system (AS/RS) and the Deepsky warehouse execution syst…
-  api_count: 0
-  score_band: emerging
-  score_composite: 18.1
+  score_composite: 19.5
   shared: 2
 ---

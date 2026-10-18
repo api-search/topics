@@ -16,7 +16,7 @@ tags:
 - Demand Response
 - DERMS
 - EV Charging
-- ISO RTO
+- ISO/RTO
 - Renewable Energy
 - Solar
 - Wind
@@ -109,21 +109,21 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/vocabulary/energy-utilities-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/examples/
-provider_count: 396
+provider_count: 423
 providers:
 - slug: con-edison
   name: Con Edison
   description: Consolidated Edison Company of New York, Inc. (CECONY, trading as Con Edison) is the investor-owned electric, gas and steam utility that serves New York City and Westchester County, and together with its sibling Orange & Rockland Utilities…
   api_count: 1
-  score_band: developing
-  score_composite: 45.2
+  score_band: strong
+  score_composite: 54.4
   shared: 8
 - slug: southern-california-edison
   name: Southern California Edison
   description: Southern California Edison (SCE) is the regulated electric utility subsidiary of Edison International, delivering power to roughly 15 million people across a 50,000 square-mile service territory in central, coastal, and southern California…
   api_count: 1
   score_band: thin
-  score_composite: 28.0
+  score_composite: 28.1
   shared: 8
 - slug: energyhub
   name: EnergyHub
@@ -156,9 +156,9 @@ providers:
 - slug: uk-power-networks
   name: UK Power Networks
   description: UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern P…
-  api_count: 2
+  api_count: 4
   score_band: strong
-  score_composite: 61.7
+  score_composite: 62.3
   shared: 6
 - slug: pge
   name: Pacific Gas and Electric
@@ -177,44 +177,44 @@ providers:
 - slug: hydro-quebec
   name: Hydro-Québec
   description: Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelec…
-  api_count: 2
+  api_count: 4
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.3
+  shared: 6
+- slug: endeavour-energy
+  name: Endeavour Energy
+  description: Endeavour Energy is the regulated electricity distribution network service provider (DNSP) for Greater Western Sydney, the Blue Mountains, the Illawarra, the Southern Highlands, the South Coast and Central West of New South Wales, Australi…
+  api_count: 4
+  score_band: developing
+  score_composite: 49.9
+  shared: 6
+- slug: miso
+  name: MISO
+  description: MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Mani…
+  api_count: 9
+  score_band: developing
+  score_composite: 49.3
   shared: 6
 - slug: octopus-energy
   name: Octopus Energy
   description: Octopus Energy is a UK-founded retail energy supplier and the parent of Kraken Technologies, the AI-powered energy operating system that runs both Octopus and many of the world's largest utilities. Octopus operates a free, open REST API at…
   api_count: 1
   score_band: developing
-  score_composite: 51.6
-  shared: 6
-- slug: endeavour-energy
-  name: Endeavour Energy
-  description: Endeavour Energy is the regulated electricity distribution network service provider (DNSP) for Greater Western Sydney, the Blue Mountains, the Illawarra, the Southern Highlands, the South Coast and Central West of New South Wales, Australi…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.3
-  shared: 6
-- slug: miso
-  name: MISO
-  description: MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Mani…
-  api_count: 7
-  score_band: developing
-  score_composite: 48.7
+  score_composite: 44.6
   shared: 6
 - slug: reposit-power
   name: Reposit Power
   description: Reposit Power is an Australian home-energy technology company founded in 2012 and headquartered in Canberra, ACT, that builds the Reposit Controller — a local control device and cloud platform that sits on top of a household's solar, batte…
-  api_count: 2
+  api_count: 3
   score_band: developing
-  score_composite: 44.1
+  score_composite: 44.6
   shared: 6
 - slug: ontario-energy-board
   name: Ontario Energy Board
   description: The Ontario Energy Board (OEB) is the independent regulator of Ontario's electricity and natural gas sectors, licensing and rate-regulating roughly 60 electricity distributors, the province's transmitters, storage and generation licensees,…
   api_count: 2
   score_band: developing
-  score_composite: 43.2
+  score_composite: 43.8
   shared: 6
 - slug: energy-queensland
   name: Energy Queensland
@@ -228,7 +228,7 @@ providers:
   description: EPCOR Utilities Inc. is a municipally owned Canadian utility headquartered in Edmonton, Alberta, wholly owned by the City of Edmonton, that builds and operates electricity distribution and transmission, water and wastewater, and natural ga…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 32.9
   shared: 6
 - slug: essential-energy
   name: Essential Energy
@@ -249,7 +249,7 @@ providers:
   description: 'ATCO Ltd. (TSX: ACO.X) is a Calgary, Alberta diversified global corporation and the controlling shareholder of Canadian Utilities Limited, through which it runs the regulated energy businesses that make it one of western Canada''s largest u…'
   api_count: 2
   score_band: thin
-  score_composite: 26.5
+  score_composite: 26.6
   shared: 6
 - slug: hawaiian-electric-industries
   name: Hawaiian Electric Industries
@@ -263,7 +263,7 @@ providers:
   description: Ausgrid is the largest electricity distribution network service provider on Australia's east coast, operating the poles, wires, substations and underground cables that deliver power to more than 1.8 million customers across Sydney, the Cen…
   api_count: 0
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 24.3
   shared: 6
 - slug: sa-power-networks
   name: SA Power Networks
@@ -312,7 +312,7 @@ providers:
   description: AutoGrid Systems is a United States grid-technology company founded in 2011 by Amit Narayan in Redwood City, California, that built AI and machine-learning software for distributed energy resource management (DERMS), virtual power plants,…
   api_count: 0
   score_band: minimal
-  score_composite: 9.3
+  score_composite: 9.6
   shared: 6
 - slug: rabotenergy
   name: rabot.energy

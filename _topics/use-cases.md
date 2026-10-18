@@ -33,13 +33,13 @@ providers:
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 25.7
+  score_composite: 24.2
   shared: 2
 - slug: design-patterns
   name: Design Patterns
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 11.0
   shared: 2
 ---

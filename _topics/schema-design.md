@@ -33,6 +33,14 @@ apis:
   description: Protocol Buffers is Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. Proto schemas (.proto files) define messages and services, and are used heavily in gRPC APIs.
   url: https://protobuf.dev/programming-guides/proto3/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/schema-design/blob/main/plans/schema-design-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/schema-design/blob/main/rate-limits/schema-design-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/schema-design/blob/main/finops/schema-design-finops.yml
+- type: Blog
+  url: https://json-schema.org/blog
 - type: DomainSecurity
   url: https://github.com/api-evangelist/schema-design/blob/main/security/schema-design-domain-security.yml
 - type: Website
@@ -50,63 +58,63 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 21
+  api_count: 22
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 78.0
   shared: 3
 - slug: ogen
   name: Ogen
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 38.1
+  score_composite: 36.7
   shared: 3
 - slug: spectral
   name: Spectral
   description: Spectral is an open-source API style guide enforcer and linter from Stoplight, providing a flexible JSON/YAML linting engine with built-in support for OpenAPI (v3.1, v3.0, v2.0), Arazzo v1.0, and AsyncAPI v2.x. Teams use Spectral to define…
   api_count: 1
   score_band: emerging
-  score_composite: 22.0
-  shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 18.4
+  score_composite: 20.5
   shared: 3
 - slug: speclynx
   name: SpecLynx
   description: SpecLynx provides enterprise-ready API tooling for authors and maintainers of OpenAPI, AsyncAPI, and Arazzo specifications. Built by veterans with 15+ years of Swagger and OpenAPI development experience, SpecLynx products prioritize securi…
   api_count: 6
   score_band: emerging
-  score_composite: 15.2
+  score_composite: 15.3
+  shared: 3
+- slug: spotlight-rules
+  name: Spotlight Rules
+  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
+  api_count: 0
+  score_band: emerging
+  score_composite: 14.2
   shared: 3
 - slug: jargon
   name: Jargon
   description: Jargon is a platform for Domain Driven Design for APIs and Enterprise Data Modelling. It provides text-based modelling, template-based API design, real-time validation, version control with breaking change detection, and generation of arti…
   api_count: 1
-  score_band: emerging
-  score_composite: 11.5
+  score_band: minimal
+  score_composite: 9.9
   shared: 3
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 2
   score_band: exemplar
-  score_composite: 71.8
+  score_composite: 74.8
   shared: 2
 - slug: conga
   name: Conga
   description: Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author aut…
   api_count: 31
   score_band: exemplar
-  score_composite: 68.0
+  score_composite: 68.6
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 64.3
   shared: 2
@@ -115,125 +123,125 @@ providers:
   description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
   api_count: 1
   score_band: strong
-  score_composite: 60.8
+  score_composite: 60.9
   shared: 2
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 53.9
+  score_composite: 52.4
   shared: 2
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
   api_count: 2
   score_band: developing
-  score_composite: 50.0
+  score_composite: 48.5
+  shared: 2
+- slug: btc-war-live-market-data-api
+  name: BTC War Live Market Data API
+  description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
+  api_count: 6
+  score_band: developing
+  score_composite: 46.2
   shared: 2
 - slug: kiota
   name: Kiota
   description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the…'
   api_count: 1
   score_band: developing
-  score_composite: 46.3
-  shared: 2
-- slug: btc-war-live-market-data-api
-  name: BTC War Live Market Data API
-  description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
-  api_count: 3
-  score_band: developing
-  score_composite: 44.1
+  score_composite: 45.0
   shared: 2
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 42.8
+  score_composite: 41.5
   shared: 2
 - slug: zally
   name: Zally
   description: Zally is an open source API linter from Zalando that validates OpenAPI 2 and 3 specifications against configurable rule sets for API design consistency. It exposes a REST API, command-line interface, and web UI for checking API designs aga…
   api_count: 1
   score_band: developing
-  score_composite: 41.0
+  score_composite: 39.5
   shared: 2
 - slug: caseys-general-stores
   name: Casey's General Stores
   description: 'Casey''s General Stores (NASDAQ: CASY) is one of the largest convenience-store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food and convenience items, primarily in small midw…'
   api_count: 21
   score_band: thin
-  score_composite: 37.5
+  score_composite: 38.1
+  shared: 2
+- slug: apis-guru
+  name: APIs.guru
+  description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
+  api_count: 2
+  score_band: thin
+  score_composite: 31.3
   shared: 2
 - slug: apicurio
   name: Apicurio
   description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
   api_count: 1
   score_band: thin
-  score_composite: 32.3
+  score_composite: 30.8
   shared: 2
 - slug: typespec
   name: TypeSpec
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 31.1
+  score_composite: 29.7
   shared: 2
 - slug: api-fiddle
   name: API-Fiddle
   description: API-Fiddle is an interactive, collaborative API design platform for creating professional APIs based on OpenAPI. It provides first-class support for OpenAPI 3.x, data transfer objects, API versioning, suggested response codes, parameter se…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
-  shared: 2
-- slug: apis-guru
-  name: APIs.guru
-  description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
-  api_count: 1
-  score_band: thin
-  score_composite: 29.7
+  score_composite: 29.3
   shared: 2
 - slug: nswag
   name: NSwag
   description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from A…'
   api_count: 1
   score_band: emerging
-  score_composite: 25.9
+  score_composite: 24.5
   shared: 2
 - slug: vacuum
   name: Vacuum
   description: Vacuum is the world's fastest and most versatile OpenAPI linter and toolkit, built in Go for validating and linting API specifications at scale. It is 100% compatible with Spectral rulesets and supports OpenAPI 3.0, 3.1, and 3.2.
   api_count: 1
   score_band: emerging
-  score_composite: 22.5
+  score_composite: 21.6
   shared: 2
 - slug: dredd
   name: Dredd
   description: Dredd is a language-agnostic, MIT-licensed open source command-line tool that validates a running HTTP API against its own API description document. It compiles every request/response pair documented in an API Blueprint, OpenAPI 2.0 or (ex…
   api_count: 1
   score_band: emerging
-  score_composite: 19.2
+  score_composite: 17.7
   shared: 2
 - slug: connexion
   name: Connexion
   description: Connexion is an open source Python framework that automatically handles HTTP requests based on OpenAPI specifications. Connexion 3 provides AsyncApp, FlaskApp, and ConnexionMiddleware as primary entry points, with built-in routing, request…
   api_count: 2
   score_band: emerging
-  score_composite: 14.6
+  score_composite: 13.1
   shared: 2
 - slug: api-insights
   name: API Insights
   description: API Insights is a free online tool powered by Treblle that provides advanced API analysis and monitoring by evaluating OpenAPI specifications across multiple dimensions including AI readiness, design quality, performance, and security. It…
   api_count: 1
-  score_band: emerging
-  score_composite: 11.3
+  score_band: minimal
+  score_composite: 9.8
   shared: 2
 - slug: island-is
   name: island.is (Digital Iceland)
   description: island.is (Stafrænt Ísland / Digital Iceland) is Iceland's national digital-services and government API platform, operated by the Ministry of Finance and Economic Affairs / Digital Iceland. It provides a GraphQL gateway at api.island.is (a…
   api_count: 2
   score_band: minimal
-  score_composite: 7.4
+  score_composite: 7.6
   shared: 2
 ---

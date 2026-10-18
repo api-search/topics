@@ -23,6 +23,12 @@ apis:
   description: ONOS (Open Network Operating System) is an open-source SDN controller that provides REST APIs for network management including topology discovery, flow rule management, host tracking, and device management.
   url: https://wiki.onosproject.org/display/ONOS/REST+API
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/software-defined-networking/blob/main/plans/software-defined-networking-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/software-defined-networking/blob/main/rate-limits/software-defined-networking-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/software-defined-networking/blob/main/finops/software-defined-networking-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/software-defined-networking/blob/main/security/software-defined-networking-domain-security.yml
 - type: Website
@@ -48,7 +54,7 @@ providers:
   description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Mana…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.8
+  score_composite: 71.3
   shared: 2
 - slug: zerotier
   name: ZeroTier
@@ -60,114 +66,114 @@ providers:
 - slug: microsoft-azure-private-link
   name: Microsoft Azure Private Link
   description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
-  api_count: 2
+  api_count: 3
   score_band: strong
-  score_composite: 64.3
+  score_composite: 63.3
   shared: 2
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes ser…
-  api_count: 11
+  api_count: 22
   score_band: strong
-  score_composite: 59.7
+  score_composite: 60.3
   shared: 2
 - slug: juniper
   name: Juniper Networks
   description: Juniper Networks (an HPE company since 2025) builds AI-native networking, routing, switching and security for service providers, enterprises and public-sector organizations. Its programmable surface spans the Mist cloud API (1,059 REST ope…
   api_count: 6
   score_band: strong
-  score_composite: 59.7
+  score_composite: 58.7
   shared: 2
 - slug: cisco-aci
   name: Cisco ACI
   description: Cisco Application Centric Infrastructure (ACI) is Cisco's data-center SDN fabric, programmed through the Application Policy Infrastructure Controller (APIC) and its object model, the Management Information Tree (MIT). Every APIC GUI, CLI a…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
-  shared: 2
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.5
+  score_composite: 55.7
   shared: 2
 - slug: oxide-computer
   name: Oxide
   description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
   api_count: 1
   score_band: developing
-  score_composite: 46.1
+  score_composite: 46.2
+  shared: 2
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data…
+  api_count: 3
+  score_band: developing
+  score_composite: 46.0
   shared: 2
 - slug: citrix
   name: Citrix
   description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix…
   api_count: 6
   score_band: developing
-  score_composite: 41.3
+  score_composite: 40.3
   shared: 2
 - slug: cisco-nexus
   name: Cisco Nexus Dashboard
   description: APIs for managing and monitoring Cisco Nexus data center switches and network infrastructure.
   api_count: 1
-  score_band: developing
-  score_composite: 40.7
+  score_band: thin
+  score_composite: 39.2
   shared: 2
 - slug: equinix
   name: Equinix
   description: Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs…
   api_count: 10
   score_band: thin
-  score_composite: 36.6
+  score_composite: 35.7
   shared: 2
 - slug: parallels-swsoft
   name: Parallels (SWSoft)
   description: Parallels is a virtualization and remote-access software company, originally founded as SWSoft in 1999 and renamed Parallels in 2008 (now part of Alludo/Corel). Its flagship enterprise product, Parallels Remote Application Server (RAS), de…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
+  score_composite: 31.4
   shared: 2
 - slug: simplivity
   name: SimpliVity
   description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in dedu…
   api_count: 1
   score_band: thin
-  score_composite: 31.1
+  score_composite: 31.2
   shared: 2
 - slug: nanovms
   name: NanoVMs
   description: NanoVMs builds unikernel infrastructure that lets developers run a single application as its own lightweight, secure virtual machine with no operating system and no devops. Its open-source toolchain centers on OPS (the ops CLI, ops.city) f…
   api_count: 0
   score_band: emerging
-  score_composite: 24.8
+  score_composite: 24.9
   shared: 2
 - slug: lf-broadband
   name: LF Broadband
   description: LF Broadband is a Linux Foundation Directed Fund established in late 2023 that supports open source broadband networking projects, including reference designs and virtualization tools for broadband access networks. Its flagship projects, S…
   api_count: 2
   score_band: emerging
-  score_composite: 13.4
+  score_composite: 11.9
   shared: 2
 - slug: bti-systems-juniper
   name: BTI Systems (Juniper)
   description: BTI Systems was an Ottawa, Ontario based supplier of cloud and metro packet-optical networking systems and software, best known for the BTI 7800 Series Packet Optical Transport platform, the BTI 800 Series, and the proNX family of manageme…
   api_count: 0
   score_band: minimal
-  score_composite: 8.6
+  score_composite: 8.5
   shared: 2
 - slug: nicira-networks
   name: Nicira Networks
   description: Nicira Networks was a software-defined networking (SDN) and network virtualization pioneer founded in 2007 out of research by Martin Casado, Nick McKeown, and Scott Shenker on OpenFlow. Its Network Virtualization Platform (NVP) decoupled v…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 2
 - slug: plexxi
   name: Plexxi *
   description: Plexxi was a software-defined networking (SDN) startup building data-center fabric and network orchestration, backed by GV and Lightspeed Venture Partners. It was acquired by Hewlett Packard Enterprise (HPE) and folded into the Aruba Netwo…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 2
 - slug: barefoot-networks
   name: Barefoot Networks

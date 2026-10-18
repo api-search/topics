@@ -22,6 +22,12 @@ apis:
   description: The LIMRA Data Exchange (LDEx) Standards are free, collaboratively developed standards for exchanging employee workplace benefits data between carriers and benefits administration platforms. LDEx provides REST API endpoints compliant with…
   url: https://www.limra.com/en/solutions-and-services/data-exchange-standards/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/underwriting-standards/blob/main/plans/underwriting-standards-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/underwriting-standards/blob/main/rate-limits/underwriting-standards-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/underwriting-standards/blob/main/finops/underwriting-standards-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/underwriting-standards/blob/main/security/underwriting-standards-domain-security.yml
 - type: Website
@@ -38,14 +44,14 @@ links:
   url: https://github.com/api-evangelist/underwriting-standards/blob/main/vocabulary/underwriting-standards-vocabulary.yml
 - type: JSONSchema
   url: https://github.com/api-evangelist/underwriting-standards/blob/main/json-schema/underwriting-standards-submission-schema.json
-provider_count: 313
+provider_count: 315
 providers:
 - slug: whitespace-london
   name: Whitespace
   description: Whitespace Software Limited is a London-based digital placing platform for the Lloyd's and London (re)insurance market, and one of only two electronic placing systems given fully recognised status by Lloyd's. Acquired by Verisk (via Sequel…
   api_count: 1
   score_band: developing
-  score_composite: 45.2
+  score_composite: 45.7
   shared: 4
 - slug: lloyds-of-london
   name: Lloyd's of London
@@ -89,13 +95,6 @@ providers:
   score_band: minimal
   score_composite: 6.2
   shared: 4
-- slug: acord
-  name: ACORD
-  description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
-  api_count: 6
-  score_band: developing
-  score_composite: 51.7
-  shared: 3
 - slug: origami-risk
   name: Origami Risk
   description: Origami Risk is a Chicago-headquartered risk, safety and insurance SaaS company founded in 2009 that began as a single-version cloud RMIS (risk management information system) and grew into a core-systems platform for the United States prop…
@@ -110,26 +109,33 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 3
+- slug: acord
+  name: ACORD
+  description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
+  api_count: 6
+  score_band: developing
+  score_composite: 50.2
+  shared: 3
 - slug: evari
   name: Evari
   description: Evari is an insurance technology company founded in Sydney by Daniel Fogarty (former CEO of Zurich Australia and New Zealand), Robert Jeffery and Brack Norris, and now operating as Evari Services UK Ltd. It launched as a digital small-busi…
   api_count: 1
   score_band: developing
-  score_composite: 47.5
+  score_composite: 47.6
   shared: 3
 - slug: ppl-london-market
   name: PPL
   description: PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the…
   api_count: 5
   score_band: developing
-  score_composite: 44.7
+  score_composite: 45.3
   shared: 3
 - slug: zinnia
   name: Zinnia
   description: Zinnia is an Eldridge-backed insurance technology and third-party administration company that provides the policy administration, new business, order entry, illustration, document and in-force servicing infrastructure behind a large share…
   api_count: 20
   score_band: developing
-  score_composite: 44.1
+  score_composite: 44.7
   shared: 3
 - slug: open-insurance
   name: Open
@@ -150,7 +156,7 @@ providers:
   description: Majesco is a global provider of cloud-native insurance software for Property & Casualty and Life, Annuity & Health carriers, serving 130+ insurers worldwide from its Morristown, New Jersey headquarters. Founded in 1989, it unifies Policy,…
   api_count: 1
   score_band: thin
-  score_composite: 38.6
+  score_composite: 37.0
   shared: 3
 - slug: hiscox
   name: Hiscox
@@ -185,7 +191,14 @@ providers:
   description: Cytora is a London-headquartered insurtech, founded in 2012 as a University of Cambridge spinout, that sells a digital risk processing platform to commercial insurers, wholesale brokers, MGAs and reinsurers. Its software ingests inbound su…
   api_count: 2
   score_band: emerging
-  score_composite: 24.7
+  score_composite: 25.0
+  shared: 3
+- slug: weav
+  name: Weav
+  description: Weav.ai is an AI-native decisioning platform for property & casualty (P&C) insurance, applying agentic AI and document intelligence across underwriting, premium audit, and claims. The platform pairs pre-configured, line-of-business knowled…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.6
   shared: 3
 - slug: accelerant
   name: Accelerant
@@ -193,13 +206,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 24.3
-  shared: 3
-- slug: wynsure
-  name: Wynsure
-  description: Wynsure is an end-to-end insurance policy administration platform from Mphasis Wyde that delivers Quote-to-Claims capabilities across Group, Individual, Life, Annuities, Health, Disability, Accident, Dental, and Vision lines. The multi-lan…
-  api_count: 6
-  score_band: emerging
-  score_composite: 22.2
   shared: 3
 - slug: definity-financial
   name: Definity Financial
@@ -220,7 +226,14 @@ providers:
   description: Honey Insurance is an Australian direct-to-consumer insurtech selling smart home, contents, renters and landlord insurance, founded by Richard Joffe and headquartered in Sydney. Honey Insurance Pty Ltd (ABN 52 643 672 628, AFSL 528244) dis…
   api_count: 0
   score_band: emerging
-  score_composite: 20.7
+  score_composite: 20.8
+  shared: 3
+- slug: wynsure
+  name: Wynsure
+  description: Wynsure is an end-to-end insurance policy administration platform from Mphasis Wyde that delivers Quote-to-Claims capabilities across Group, Individual, Life, Annuities, Health, Disability, Accident, Dental, and Vision lines. The multi-lan…
+  api_count: 6
+  score_band: emerging
+  score_composite: 20.6
   shared: 3
 - slug: certificial
   name: Certificial
@@ -229,25 +242,18 @@ providers:
   score_band: emerging
   score_composite: 20.4
   shared: 3
+- slug: risklytics
+  name: Risklytics
+  description: Risklytics is an AI-native property and catastrophe risk company (Y Combinator Summer 2026, based in San Francisco, founded 2026 by Samuel Gold and Alexander Risio). It builds hyper-localized disaster risk models that simulate specific nat…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.0
+  shared: 3
 - slug: open-gi
   name: Open GI
   description: Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. It…
   api_count: 1
   score_band: emerging
   score_composite: 19.7
-  shared: 3
-- slug: risklytics
-  name: Risklytics
-  description: Risklytics is an AI-native property and catastrophe risk company (Y Combinator Summer 2026, based in San Francisco, founded 2026 by Samuel Gold and Alexander Risio). It builds hyper-localized disaster risk models that simulate specific nat…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.5
-  shared: 3
-- slug: resilience-cyber
-  name: Resilience
-  description: Resilience is a United States cyber-risk company that underwrites cyber insurance and technology errors-and-omissions coverage while running the security analytics and claims service around it. Founded in 2016 by operators out of US milita…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.2
   shared: 3
 ---

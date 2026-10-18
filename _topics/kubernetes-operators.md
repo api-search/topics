@@ -48,6 +48,12 @@ apis:
   description: Subscription resources expressing intent to install an operator from a channel, with automatic or manual update approval.
   url: https://kubernetes.io/docs/concepts/extend-kubernetes/operator/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/plans/kubernetes-operators-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/rate-limits/kubernetes-operators-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/finops/kubernetes-operators-finops.yml
 - type: IssueTracker
   url: https://github.com/operator-framework/operator-sdk/issues
 - type: Releases
@@ -84,28 +90,28 @@ links:
   url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-schema/kubernetes-operator-schema.json
 - type: JSONLD
   url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-ld/kubernetes-operators-context.jsonld
-provider_count: 215
+provider_count: 223
 providers:
 - slug: spectro-cloud
   name: Spectro Cloud
   description: Spectro Cloud provides Palette, an enterprise platform for managing the full lifecycle of Kubernetes clusters and cloud-native and AI infrastructure across data centers, public clouds, bare metal, and the edge. Palette uses declarative clu…
   api_count: 3
-  score_band: exemplar
-  score_composite: 66.6
+  score_band: strong
+  score_composite: 65.9
   shared: 4
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
   api_count: 2
   score_band: strong
-  score_composite: 61.5
+  score_composite: 60.5
   shared: 4
 - slug: coreos
   name: CoreOS
   description: CoreOS was a San Francisco-based container infrastructure company founded in 2013 that built a lightweight, automatically-updating Linux distribution (Container Linux, originally CoreOS Linux) and a family of now-foundational cloud-native…
   api_count: 0
   score_band: minimal
-  score_composite: 2.8
+  score_composite: 2.9
   shared: 4
 - slug: heptio
   name: Heptio
@@ -119,19 +125,19 @@ providers:
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery,…'
   api_count: 8
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.0
   shared: 3
 - slug: nuon
   name: Nuon
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into thei…
   api_count: 2
   score_band: strong
-  score_composite: 55.8
+  score_composite: 55.9
   shared: 3
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 3
+  api_count: 5
   score_band: developing
   score_composite: 52.9
   shared: 3
@@ -140,35 +146,35 @@ providers:
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-clo…
   api_count: 3
   score_band: developing
-  score_composite: 50.3
+  score_composite: 48.8
   shared: 3
 - slug: runwhen
   name: RunWhen
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into age…
   api_count: 1
   score_band: developing
-  score_composite: 46.1
+  score_composite: 46.2
   shared: 3
 - slug: porter
   name: Porter
   description: A package manager for Kubernetes that uses Cloud Native Application Bundles (CNAB) to package and deploy applications along with their dependencies and configuration.
   api_count: 1
   score_band: developing
-  score_composite: 42.4
+  score_composite: 41.0
   shared: 3
 - slug: helm
   name: Helm
   description: Package manager for Kubernetes that helps you define, install, and upgrade complex Kubernetes applications using charts. Helm uses a packaging format called charts, which are collections of files that describe a related set of Kubernetes r…
   api_count: 1
   score_band: developing
-  score_composite: 40.7
+  score_composite: 39.3
   shared: 3
 - slug: argocd
   name: Argo CD
   description: Argo CD is a declarative GitOps continuous-delivery tool for Kubernetes, part of the CNCF Graduated Argo project. The argocd-server component exposes a gRPC and REST API used by the Web UI, the argocd CLI, and CI/CD systems. APIs cover app…
   api_count: 1
   score_band: thin
-  score_composite: 38.1
+  score_composite: 36.6
   shared: 3
 - slug: sensu
   name: Sensu
@@ -182,7 +188,7 @@ providers:
   description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams creat…
   api_count: 1
   score_band: thin
-  score_composite: 35.8
+  score_composite: 35.9
   shared: 3
 - slug: duplo-cloud
   name: Duplo Cloud
@@ -196,42 +202,35 @@ providers:
   description: 'Kubeark is an enterprise orchestration and AI automation platform that standardizes system integration across hybrid estates. It combines three surfaces: workflow automation, where technical teams and end users build language-agnostic work…'
   api_count: 0
   score_band: thin
-  score_composite: 32.7
+  score_composite: 32.8
   shared: 3
 - slug: kasten
   name: Kasten
   description: Veeam Kasten (formerly Kasten K10) is an enterprise-grade, Kubernetes-native data protection platform. It delivers backup and recovery, disaster recovery, application mobility, ransomware resilience, and virtual-machine (KubeVirt) protecti…
   api_count: 0
   score_band: thin
-  score_composite: 27.5
+  score_composite: 27.6
   shared: 3
 - slug: niteshift
   name: Niteshift
   description: Niteshift is the full-stack cloud for coding agents. Engineering teams define their dev environment, tools, and policies once, then run frontier or open-source coding agents (Claude Code, Codex, Cursor, OpenCode, Pi) inside fully configure…
   api_count: 0
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 25.9
   shared: 3
 - slug: tintri
   name: Tintri
   description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC…'
   api_count: 1
   score_band: emerging
-  score_composite: 23.5
+  score_composite: 23.6
   shared: 3
 - slug: kagent
   name: kagent
   description: kagent is an open-source framework for running AI agents in Kubernetes, automating complex DevOps operations and troubleshooting tasks with intelligent workflows. It is a Cloud Native Computing Foundation sandbox project that brings agenti…
   api_count: 1
   score_band: emerging
-  score_composite: 23.0
-  shared: 3
-- slug: k3s
-  name: K3s
-  description: K3s is a lightweight Kubernetes distribution designed for resource-constrained environments, edge computing, IoT devices, and CI/CD pipelines. K3s is a fully compliant Kubernetes distribution with a reduced memory footprint and simplified…
-  api_count: 1
-  score_band: emerging
-  score_composite: 13.1
+  score_composite: 21.6
   shared: 3
 - slug: lablabee
   name: LabLabee
@@ -240,26 +239,33 @@ providers:
   score_band: emerging
   score_composite: 12.4
   shared: 3
+- slug: k3s
+  name: K3s
+  description: K3s is a lightweight Kubernetes distribution designed for resource-constrained environments, edge computing, IoT devices, and CI/CD pipelines. K3s is a fully compliant Kubernetes distribution with a reduced memory footprint and simplified…
+  api_count: 1
+  score_band: emerging
+  score_composite: 12.0
+  shared: 3
 - slug: metal3-io
   name: Metal3
   description: Metal3 (Metal Kubed) is a CNCF incubating project that provides bare metal host provisioning for Kubernetes. It leverages Ironic for hardware management and integrates with the Cluster API to enable Kubernetes-native lifecycle management o…
   api_count: 1
-  score_band: emerging
-  score_composite: 12.2
-  shared: 3
-- slug: operator-framework
-  name: Operator Framework
-  description: The Operator Framework is a CNCF incubating toolkit for building and managing Kubernetes Operators. It includes the Operator SDK for scaffolding and building operators using Go, Ansible, or Helm, the Operator Lifecycle Manager (OLM) for in…
-  api_count: 2
-  score_band: emerging
-  score_composite: 11.8
+  score_band: minimal
+  score_composite: 10.7
   shared: 3
 - slug: komodor
   name: Komodor
   description: Komodor is an autonomous AI SRE platform for Kubernetes observability, troubleshooting, and operations across multiple clusters. The platform surfaces cluster events, deployment timelines, dependency maps, and remediation runbooks to help…
   api_count: 1
   score_band: minimal
-  score_composite: 10.4
+  score_composite: 10.5
+  shared: 3
+- slug: operator-framework
+  name: Operator Framework
+  description: The Operator Framework is a CNCF incubating toolkit for building and managing Kubernetes Operators. It includes the Operator SDK for scaffolding and building operators using Go, Ansible, or Helm, the Operator Lifecycle Manager (OLM) for in…
+  api_count: 2
+  score_band: minimal
+  score_composite: 10.2
   shared: 3
 - slug: diamanti
   name: Diamanti
@@ -287,13 +293,13 @@ providers:
   description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll r…
   api_count: 1
   score_band: exemplar
-  score_composite: 82.8
+  score_composite: 81.3
   shared: 2
 - slug: amazon-lightsail
   name: Amazon Lightsail
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
   api_count: 3
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 73.8
   shared: 2
 ---

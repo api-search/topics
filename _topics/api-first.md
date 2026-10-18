@@ -27,6 +27,12 @@ apis:
   description: Nordic APIs is a leading API education and conference organization providing resources, guides, and community for API-first practitioners.
   url: https://nordicapis.com
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/api-first/blob/main/plans/api-first-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/api-first/blob/main/rate-limits/api-first-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/api-first/blob/main/finops/api-first-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/api-first/blob/main/security/api-first-domain-security.yml
 - type: LLMsTxt
@@ -38,71 +44,71 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 21
+  api_count: 22
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 78.0
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 2
   score_band: exemplar
-  score_composite: 71.8
+  score_composite: 74.8
   shared: 2
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer…
   api_count: 5
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 66.9
   shared: 2
 - slug: apiwiz
   name: APIwiz
   description: APIwiz is a federated API management platform that streamlines the complete API lifecycle from design through monetization. The low-code platform provides centralized control for organizations managing APIs across multiple cloud environmen…
   api_count: 1
   score_band: emerging
-  score_composite: 26.1
+  score_composite: 24.6
   shared: 2
 - slug: apigovernance-dev
   name: APIGovernance.Dev
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 25.7
+  score_composite: 24.2
   shared: 2
 - slug: soa
   name: SOA
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 19.0
   shared: 2
 - slug: spotlight-rules
   name: Spotlight Rules
   description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
   api_count: 0
   score_band: emerging
-  score_composite: 18.4
+  score_composite: 14.2
   shared: 2
 - slug: design-patterns
   name: Design Patterns
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 11.0
   shared: 2
 - slug: integration-patterns
   name: Integration Patterns
   description: Integration Patterns are design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Enterprise Integration Patterns (EIP),…
   api_count: 0
   score_band: minimal
-  score_composite: 3.9
+  score_composite: 4.0
   shared: 2
 - slug: microservice-design
   name: Microservice Design
   description: Architectural approach for building applications as a collection of loosely coupled, independently deployable services that are organized around business capabilities. Covers principles, patterns, and best practices for designing effective…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 2
 ---

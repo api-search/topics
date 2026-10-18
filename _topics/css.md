@@ -23,6 +23,8 @@ apis:
   description: The W3C's public CSS validator, exposed as a web service. A single safe operation checks a stylesheet — supplied either as a URL or as inline text — against a chosen CSS profile and returns the errors and warnings found, in XHTML, plain te…
   url: https://jigsaw.w3.org/css-validator/
 links:
+- type: RateLimits
+  url: https://github.com/api-evangelist/css/blob/main/rate-limits/css-rate-limits.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/css/blob/main/security/css-domain-security.yml
 - type: Website
@@ -87,21 +89,21 @@ providers:
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 27.7
   shared: 2
 - slug: html
   name: HTML
   description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.9
   shared: 2
 - slug: html5
   name: HTML5
   description: HTML5 is the fifth major version of the HyperText Markup Language used for structuring and presenting content on the web. Standardized by the W3C in 2014 and now maintained by WHATWG as the HTML Living Standard, HTML5 introduced semantic e…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.9
   shared: 2
 ---

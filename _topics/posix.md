@@ -16,6 +16,8 @@ repo: https://github.com/api-evangelist/posix
 api_count: 0
 apis: []
 links:
+- type: BlogRSS
+  url: https://blog.opengroup.org/feed/
 - type: Website
   url: https://www.opengroup.org/
 - type: Standards
@@ -33,14 +35,14 @@ providers:
   description: Core UNIX/POSIX system calls providing low-level operating system interfaces for process management, file operations, interprocess communication, and system control.
   api_count: 11
   score_band: emerging
-  score_composite: 15.8
+  score_composite: 14.8
   shared: 4
 - slug: linux
   name: Linux
   description: Linux is an open-source Unix-like operating system kernel originally created by Linus Torvalds. This index catalogs the userspace and kernel programming interfaces exposed by Linux, including system calls, eBPF, ioctl, netlink, procfs, sys…
   api_count: 10
-  score_band: emerging
-  score_composite: 12.3
+  score_band: minimal
+  score_composite: 10.8
   shared: 2
 - slug: santa-cruz-operation
   name: Santa Cruz Operation

@@ -15,6 +15,12 @@ apis:
   description: The Fashion API from Fashion AI — 1 operation(s) for fashion.
   url: https://www.segmind.com/models/fashion-ai
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/fashion-ai/blob/main/plans/fashion-ai-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/fashion-ai/blob/main/rate-limits/fashion-ai-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/fashion-ai/blob/main/finops/fashion-ai-finops.yml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/fashion-ai/blob/main/agentic-access/fashion-ai-agentic-access.yml
 - type: DomainSecurity
@@ -23,20 +29,27 @@ links:
   url: https://github.com/api-evangelist/fashion-ai/blob/main/authentication/fashion-ai-authentication.yml
 - type: Blog
   url: https://blog.segmind.com/feed/
-provider_count: 2
+provider_count: 3
 providers:
 - slug: fashn
   name: FASHN AI
   description: FASHN AI is an AI-first company specializing in human-centric generative image models tailored for fashion applications. The public API offers an asynchronous prediction workflow against a catalog of models including Try-On Max, Product to…
   api_count: 1
   score_band: thin
-  score_composite: 29.5
+  score_composite: 28.0
   shared: 2
 - slug: bode
   name: Bode
   description: Bode is a fashion and lifestyle brand offering clothing, accessories, and home goods. The company operates an e‑commerce site at https://bode.com, but no public API documentation or endpoints were discovered during profiling. This entry re…
   api_count: 0
   score_band: minimal
-  score_composite: 9.5
+  score_composite: 9.6
+  shared: 2
+- slug: laws-of-motion
+  name: Laws of Motion
+  description: Laws of Motion is a fashion technology company offering AI‑sized clothing. Their online store provides a range of apparel including pants, shorts, dresses, jumpsuits, blazers, blouses, matching sets, bridal gowns, and robes. The brand emph…
+  api_count: 1
+  score_band: minimal
+  score_composite: 5.4
   shared: 2
 ---

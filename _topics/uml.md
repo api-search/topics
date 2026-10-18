@@ -8,7 +8,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uml.png
 tags:
 - UML
 - Modeling
-- Diagrams
+- Diagramming
 - Software Architecture
 - Design
 - Standards
@@ -25,6 +25,14 @@ apis:
   description: Validate PlantUML source syntax
   url: https://plantuml.com/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/uml/blob/main/plans/uml-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/uml/blob/main/rate-limits/uml-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/uml/blob/main/finops/uml-finops.yml
+- type: Blog
+  url: https://www.omg.org/insights/
 - type: AgenticAccess
   url: https://github.com/api-evangelist/uml/blob/main/agentic-access/uml-agentic-access.yml
 - type: DomainSecurity
@@ -55,34 +63,41 @@ links:
   url: https://github.com/api-evangelist/uml/blob/main/json-schema/uml-diagram-schema.json
 - type: SpectralRules
   url: https://github.com/api-evangelist/uml/blob/main/rules/uml-rules.yml
-provider_count: 4
+provider_count: 5
 providers:
 - slug: napkin
   name: Napkin
   description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Vis…'
   api_count: 1
   score_band: developing
-  score_composite: 44.6
+  score_composite: 51.0
   shared: 2
 - slug: sparx-enterprise-architect
   name: Sparx Enterprise Architect
   description: Sparx Enterprise Architect is a comprehensive modeling, design, and management platform for enterprise architecture, software engineering, and systems engineering. It provides automation APIs including a COM Automation Interface, Add-In Fr…
   api_count: 4
   score_band: thin
-  score_composite: 39.1
+  score_composite: 37.6
+  shared: 2
+- slug: terrastruct
+  name: Terrastruct
+  description: Terrastruct builds diagramming tools crafted to visualize software architecture. Its flagship product is D2, a modern, open-source (MPL-2.0) diagram scripting language that turns text into diagrams (SVG, PNG, PDF, PPTX, GIF, and ASCII). Te…
+  api_count: 0
+  score_band: thin
+  score_composite: 28.0
   shared: 2
 - slug: flowcharts
   name: Flowcharts
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are…
   api_count: 0
   score_band: minimal
-  score_composite: 4.4
+  score_composite: 4.5
   shared: 2
 - slug: domain-driven-design
   name: Domain-Driven Design
   description: A software development approach that focuses on modeling software to match a domain according to input from domain experts, emphasizing collaboration between technical and domain experts to create a shared understanding through ubiquitous…
   api_count: 0
   score_band: minimal
-  score_composite: 3.2
+  score_composite: 3.3
   shared: 2
 ---

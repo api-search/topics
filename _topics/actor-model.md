@@ -23,6 +23,12 @@ apis:
 - name: Actor Model Supervisors API
   description: Supervision hierarchy
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/actor-model/blob/main/plans/actor-model-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/actor-model/blob/main/rate-limits/actor-model-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/actor-model/blob/main/finops/actor-model-finops.yml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/actor-model/blob/main/agentic-access/actor-model-agentic-access.yml
 - type: VulnerabilityDisclosure
@@ -57,13 +63,13 @@ providers:
   description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of librari…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 31.4
   shared: 2
 - slug: tla-plus-foundation
   name: TLA Plus Foundation
   description: The TLA+ Foundation is an independent nonprofit hosted by the Linux Foundation, dedicated to fostering the adoption of the TLA+ specification language in industry, academia, and education. Created by Leslie Lamport, TLA+ is a high-level fo…
   api_count: 6
   score_band: emerging
-  score_composite: 19.2
+  score_composite: 17.8
   shared: 2
 ---

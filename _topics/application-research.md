@@ -124,6 +124,12 @@ apis:
   description: Resource group operations
   url: https://score.dev
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/application-research/blob/main/plans/application-research-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/application-research/blob/main/rate-limits/application-research-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/application-research/blob/main/finops/application-research-finops.yml
 - type: CapabilityMap
   url: https://github.com/api-evangelist/application-research/blob/main/capabilities/application-research-capability-edges.yml
 - type: AgenticAccess
@@ -149,13 +155,13 @@ providers:
   description: CloudEvents is a CNCF graduated specification for describing event data in a common way. It provides a consistent format for event metadata across services, platforms, and systems, enabling interoperability between event producers and cons…
   api_count: 1
   score_band: thin
-  score_composite: 37.6
+  score_composite: 36.2
   shared: 2
 - slug: openfeature
   name: OpenFeature
   description: OpenFeature is a CNCF incubating open specification for feature flag management. It provides a vendor-agnostic API for evaluating feature flags, enabling developers to use a consistent interface regardless of the underlying feature flag pr…
   api_count: 1
   score_band: thin
-  score_composite: 28.0
+  score_composite: 28.3
   shared: 2
 ---

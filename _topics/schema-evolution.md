@@ -45,6 +45,12 @@ apis:
   description: The Subjects API from Schema Evolution — 4 operation(s) for subjects.
   url: https://docs.confluent.io/platform/current/schema-registry/develop/api.html
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/schema-evolution/blob/main/plans/schema-evolution-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/schema-evolution/blob/main/rate-limits/schema-evolution-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/schema-evolution/blob/main/finops/schema-evolution-finops.yml
 - type: IssueTracker
   url: https://github.com/Apicurio/apicurio-registry/issues
 - type: Releases
@@ -73,20 +79,27 @@ links:
   url: https://github.com/api-evangelist/schema-evolution/blob/main/json-ld/schema-evolution-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/schema-evolution/blob/main/vocabulary/schema-evolution-vocabulary.yml
-provider_count: 2
+provider_count: 3
 providers:
+- slug: versioning
+  name: Versioning
+  description: An index and topic collection covering API versioning patterns, schema evolution, and breaking-change detection across the API lifecycle. API versioning communicates change to consumers, while schema versioning and diff tooling makes those…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.6
+  shared: 3
 - slug: buf
   name: Buf
   description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-b…'
   api_count: 2
   score_band: strong
-  score_composite: 65.3
+  score_composite: 63.9
   shared: 2
 - slug: confluent-schema-registry
   name: Confluent Schema Registry
   description: Confluent Schema Registry is the open-source serving layer for schema metadata used in Apache Kafka data pipelines. It exposes a RESTful interface for storing and retrieving Avro, JSON Schema, and Protobuf schemas, manages schema evolution…
   api_count: 1
   score_band: thin
-  score_composite: 33.4
+  score_composite: 31.9
   shared: 2
 ---

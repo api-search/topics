@@ -25,6 +25,12 @@ apis:
   description: Repository copilot-instructions.md is one layer in a stack of GitHub Copilot customization options. Personal custom instructions apply to a single user across all repositories. Organization custom instructions apply to every repository in…
   url: https://docs.github.com/en/copilot/customizing-copilot
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/copilot-instructions-md/blob/main/plans/copilot-instructions-md-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/copilot-instructions-md/blob/main/rate-limits/copilot-instructions-md-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/copilot-instructions-md/blob/main/finops/copilot-instructions-md-finops.yml
 - type: Documentation
   url: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot
 - type: Documentation

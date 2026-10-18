@@ -27,14 +27,14 @@ providers:
   description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
   api_count: 0
   score_band: minimal
-  score_composite: 3.9
+  score_composite: 4.0
   shared: 3
 - slug: microservices-design-patterns
   name: Microservices Design Patterns
   description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
   api_count: 0
   score_band: minimal
-  score_composite: 1.6
+  score_composite: 1.7
   shared: 3
 - slug: services-patterns
   name: Services Patterns
@@ -48,13 +48,13 @@ providers:
   description: Monolithic Architecture is a software design approach in which an application is built as a single, unified unit where all components, business logic, data access, and user interface are tightly coupled and deployed together. It contrasts…
   api_count: 0
   score_band: minimal
-  score_composite: 1.6
+  score_composite: 1.7
   shared: 2
 - slug: partitioning
   name: Partitioning
   description: Partitioning is a data and systems concept used to divide databases, tables, storage, or workloads into smaller, more manageable pieces for performance, scalability, and operational reasons.
   api_count: 0
   score_band: minimal
-  score_composite: 0.7
+  score_composite: 0.8
   shared: 2
 ---

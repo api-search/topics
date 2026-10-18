@@ -33,6 +33,14 @@ apis:
   description: The Documents API from Schema Free — 9 operation(s) for documents.
   url: https://www.mongodb.com/developer/products/atlas/atlas-data-api/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/schema-free/blob/main/plans/schema-free-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/schema-free/blob/main/rate-limits/schema-free-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/schema-free/blob/main/finops/schema-free-finops.yml
+- type: Blog
+  url: https://www.mongodb.com/company/blog
 - type: AgenticAccess
   url: https://github.com/api-evangelist/schema-free/blob/main/agentic-access/schema-free-agentic-access.yml
 - type: TrustCenter
@@ -62,35 +70,35 @@ providers:
   description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-valu…
   api_count: 1
   score_band: exemplar
-  score_composite: 80.3
+  score_composite: 78.8
   shared: 2
 - slug: mongodb
   name: MongoDB
   description: MongoDB provides a document‑model database platform that can be deployed on any cloud or on‑premises infrastructure. It offers services such as MongoDB Atlas for multi‑cloud data management, vector search, real‑time operational workloads,…
   api_count: 2
   score_band: exemplar
-  score_composite: 78.4
+  score_composite: 76.9
   shared: 2
 - slug: amazon-documentdb
   name: Amazon DocumentDB
   description: Amazon DocumentDB is a fully managed, MongoDB-compatible document database service that makes it easy to set up, operate, and scale MongoDB-compatible databases in the cloud. DocumentDB is designed from the ground up to give you the perfor…
   api_count: 1
   score_band: strong
-  score_composite: 60.1
+  score_composite: 58.6
   shared: 2
 - slug: apache-couchdb
   name: Apache CouchDB
   description: Apache CouchDB is an open-source distributed document-oriented NoSQL database governed by the Apache Software Foundation. It uses JSON for data storage, a RESTful HTTP/JSON API for all database operations, and the Couch Replication Protoco…
   api_count: 9
   score_band: developing
-  score_composite: 40.5
+  score_composite: 39.7
   shared: 2
 - slug: mongodb-atlas
   name: MongoDB Atlas
   description: MongoDB Atlas is a fully managed cloud database service for MongoDB, available on AWS, Google Cloud, and Microsoft Azure, with global clusters, automated backups, security, and integrated search, vector, and stream processing capabilities.…
   api_count: 1
   score_band: thin
-  score_composite: 34.3
+  score_composite: 34.4
   shared: 2
 - slug: compose
   name: Compose

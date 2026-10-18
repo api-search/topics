@@ -50,35 +50,35 @@ providers:
   description: U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illega…
   api_count: 5
   score_band: emerging
-  score_composite: 21.1
+  score_composite: 19.5
   shared: 6
 - slug: cbp
   name: CBP
   description: U.S. Customs and Border Protection (CBP) is the nation's largest law enforcement agency and a major revenue-collecting authority, responsible for facilitating legitimate international trade and travel while enforcing trade laws, collecting…
   api_count: 4
-  score_band: thin
-  score_composite: 26.7
+  score_band: emerging
+  score_composite: 21.0
   shared: 3
 - slug: dsv
   name: DSV
   description: DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from…
   api_count: 29
   score_band: thin
-  score_composite: 38.3
-  shared: 2
-- slug: un-comtrade
-  name: UN Comtrade
-  description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.9
+  score_composite: 38.9
   shared: 2
 - slug: international-trade-administration
   name: International Trade Administration
   description: The International Trade Administration (ITA) creates prosperity by strengthening the international competitiveness of U.S. industry, promoting trade and investment, and ensuring fair trade and compliance with trade laws and agreements. ITA…
   api_count: 1
   score_band: thin
-  score_composite: 34.8
+  score_composite: 33.2
+  shared: 2
+- slug: un-comtrade
+  name: UN Comtrade
+  description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.3
   shared: 2
 - slug: export-import-bank-of-the-united-states
   name: Export-Import Bank of the United States
@@ -99,13 +99,13 @@ providers:
   description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
   api_count: 5
   score_band: minimal
-  score_composite: 10.4
+  score_composite: 10.9
   shared: 2
 - slug: donkey
   name: Donkey
   description: Donkey is an AI-native trading company (Y Combinator, Summer 2026) that buys directly from Chinese factories and sells delivered duty-paid to US importers. Donkey mines public US customs records to identify the factory that actually makes…
   api_count: 0
   score_band: minimal
-  score_composite: 7.7
+  score_composite: 7.8
   shared: 2
 ---

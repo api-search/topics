@@ -30,35 +30,35 @@ links:
   url: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
 - type: Reference
   url: https://www.nist.gov/cyberframework
-provider_count: 192
+provider_count: 197
 providers:
 - slug: zero-networks
   name: Zero Networks
   description: Zero Networks is an Israeli-American network security company whose Segment platform delivers automated, agentless microsegmentation and identity segmentation for enterprise networks. It builds a host-based firewall "bubble" around every a…
   api_count: 1
   score_band: developing
-  score_composite: 45.2
+  score_composite: 45.3
   shared: 4
 - slug: zero-trust-security-model
   name: Zero-Trust Security Model
   description: The Zero Trust security model is a strategic cybersecurity approach that eliminates implicit trust and requires continuous verification of every user, device, workload, and request attempting to access resources, regardless of network loca…
   api_count: 5
   score_band: emerging
-  score_composite: 25.4
+  score_composite: 23.8
   shared: 4
 - slug: zero-trust-architecture
   name: Zero Trust Architecture
   description: Zero Trust Architecture (ZTA) is a security framework defined by NIST SP 800-207 that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardle…
   api_count: 5
   score_band: emerging
-  score_composite: 23.2
+  score_composite: 21.7
   shared: 4
 - slug: sonicwall
   name: SonicWall
   description: SonicWall is a Milpitas, California cybersecurity company that has been defending small and medium-sized businesses, enterprises, and managed service providers from cyber crime for more than 25 years. The company builds network security fi…
   api_count: 0
   score_band: emerging
-  score_composite: 17.8
+  score_composite: 17.9
   shared: 4
 - slug: elisity
   name: Elisity
@@ -72,35 +72,35 @@ providers:
   description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
   api_count: 1
   score_band: strong
-  score_composite: 58.5
+  score_composite: 57.0
   shared: 3
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and No…
   api_count: 7
   score_band: strong
-  score_composite: 56.4
+  score_composite: 56.9
   shared: 3
 - slug: kolide
   name: Kolide
   description: Kolide is a device trust and endpoint security platform, now part of 1Password Extended Access Management. It enforces Zero Trust access by blocking non-compliant devices from authenticating into corporate applications through Okta, Google…
   api_count: 2
   score_band: strong
-  score_composite: 56.2
+  score_composite: 56.3
   shared: 3
 - slug: threatlocker
   name: ThreatLocker
   description: ThreatLocker is a Zero Trust endpoint and cloud security platform used by enterprises and managed service providers to enforce least privilege across endpoints, networks, and cloud workloads. Its capabilities include Application Control (a…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
+  score_composite: 51.3
   shared: 3
 - slug: tufin
   name: Tufin
   description: Tufin provides security policy orchestration solutions for managing network security policies across hybrid cloud environments, including firewalls, SDN, and cloud security controls. The Tufin Orchestration Suite (TOS) includes SecureTrack…
   api_count: 2
   score_band: developing
-  score_composite: 44.0
+  score_composite: 42.5
   shared: 3
 - slug: coronet
   name: CoroNet
@@ -114,56 +114,56 @@ providers:
   description: Wandera was a zero-trust mobile security company (backed by Bessemer Venture Partners and Sapphire Ventures) that Jamf acquired in July 2021 for approximately $400M. Its technology is now sold as Jamf Security Cloud (RADAR), providing mobi…
   api_count: 2
   score_band: thin
-  score_composite: 37.9
+  score_composite: 38.0
   shared: 3
 - slug: watchguard
   name: WatchGuard
   description: WatchGuard provides cloud-managed network and endpoint security solutions including Firebox next-generation firewalls, WatchGuard Endpoint Security (WES), AuthPoint multi-factor authentication, and WatchGuard Wi-Fi. WatchGuard Cloud is the…
   api_count: 2
   score_band: thin
-  score_composite: 37.3
+  score_composite: 35.8
   shared: 3
 - slug: checkpoint
   name: Check Point
   description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud, endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families. Check Point exposes a wide range of REST APIs…
   api_count: 5
   score_band: thin
-  score_composite: 35.9
+  score_composite: 34.4
   shared: 3
 - slug: zero-trust-network-access
   name: Zero Trust Network Access
   description: Zero Trust Network Access (ZTNA) is a security framework and product category that grants access to private applications and resources based on identity, device posture, and context, rather than network location. ZTNA replaces the implicit…
   api_count: 1
   score_band: thin
-  score_composite: 35.9
+  score_composite: 34.4
   shared: 3
 - slug: virsec
   name: Virsec
   description: Virsec Systems is a San Jose, California cybersecurity company that builds the Virsec Security Platform (VSP), a deny-by-default, allow-on-trust zero trust runtime defense for cloud and legacy server workloads. VSP combines host protection…
   api_count: 2
   score_band: thin
-  score_composite: 32.3
+  score_composite: 32.4
   shared: 3
 - slug: illumio
   name: Illumio
   description: Illumio is a Zero Trust Segmentation (microsegmentation) cybersecurity company whose platform stops the lateral spread of ransomware and breaches across data centers, cloud, and endpoints. Its Policy Compute Engine (PCE) exposes a REST API…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 30.9
   shared: 3
 - slug: iboss
   name: iboss
   description: iboss, Inc. is a Boston-headquartered cybersecurity company founded in 2003 that operates an AI-powered, cloud-native Zero Trust SASE (Secure Access Service Edge) platform used by more than 4,000 enterprise, US federal, state and local gov…
   api_count: 1
   score_band: thin
-  score_composite: 29.5
+  score_composite: 29.6
   shared: 3
 - slug: securew2
   name: SecureW2
   description: SecureW2 is a cloud-native, certificate-based network security platform whose JoinNow suite delivers passwordless authentication through Dynamic PKI, managed device onboarding, and a multi-tenant Cloud RADIUS service for 802.1X Wi-Fi and w…
   api_count: 1
   score_band: emerging
-  score_composite: 25.9
+  score_composite: 26.0
   shared: 3
 - slug: silverfort
   name: Silverfort
@@ -179,12 +179,12 @@ providers:
   score_band: emerging
   score_composite: 25.7
   shared: 3
-- slug: unisys
-  name: Unisys
-  description: Unisys is a global information technology company that provides specialized solutions integrated with leading-edge security. Unisys delivers digital workplace services, cloud and infrastructure services, and enterprise computing solutions…
-  api_count: 4
+- slug: txone-networks
+  name: TXOne Networks
+  description: TXOne Networks is an operations-first OT (operational technology) cybersecurity company headquartered in Taipei, Taiwan, founded in 2019 as a joint venture between Trend Micro and Moxa and now operating independently. It protects industria…
+  api_count: 0
   score_band: emerging
-  score_composite: 23.9
+  score_composite: 24.1
   shared: 3
 - slug: forescout
   name: Forescout
@@ -193,12 +193,19 @@ providers:
   score_band: emerging
   score_composite: 23.6
   shared: 3
+- slug: unisys
+  name: Unisys
+  description: Unisys is a global information technology company that provides specialized solutions integrated with leading-edge security. Unisys delivers digital workplace services, cloud and infrastructure services, and enterprise computing solutions…
+  api_count: 4
+  score_band: emerging
+  score_composite: 22.4
+  shared: 3
 - slug: qi-anxin
   name: Qi Anxin
   description: Qi An Xin Technology Group (QAX, 奇安信) is a Beijing-headquartered cybersecurity vendor founded in 2014 and listed on the Shanghai Stock Exchange STAR Market (688561), with more than 10,000 employees across 65 branches. It builds enterprise-…
   api_count: 2
   score_band: emerging
-  score_composite: 19.7
+  score_composite: 19.8
   shared: 3
 - slug: elpha-secure
   name: Elpha Secure
@@ -212,14 +219,14 @@ providers:
   description: Attivo Networks was a pioneer in identity threat detection and response (ITDR), cyber deception, and Active Directory attack protection. SentinelOne acquired Attivo Networks in 2022 and folded its technology into SentinelOne Singularity Id…
   api_count: 0
   score_band: emerging
-  score_composite: 17.0
+  score_composite: 17.1
   shared: 3
 - slug: zip-security
   name: Zip Security
   description: Zip Security is a cloud-based security, IT, and compliance platform that automates identity management, device management (MDM for macOS, Windows, iOS, and Android), and endpoint threat detection for small and mid-sized businesses. It unif…
   api_count: 0
   score_band: emerging
-  score_composite: 16.1
+  score_composite: 16.2
   shared: 3
 - slug: openvpn
   name: OpenVPN
@@ -234,12 +241,5 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 10.5
-  shared: 3
-- slug: cyemptive
-  name: Cyemptive
-  description: Cyemptive Technologies is a cybersecurity vendor founded in 2014 by Rob Pike, headquartered in Washington State with additional offices in North Carolina, the United Kingdom, France and India. It sells preemptive, detection-independent sec…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.4
   shared: 3
 ---

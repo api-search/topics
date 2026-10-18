@@ -48,6 +48,12 @@ apis:
   description: The Users API from Visioconference — 2 operation(s) for users.
   url: https://developers.zoom.us/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/visioconference/blob/main/plans/visioconference-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/visioconference/blob/main/rate-limits/visioconference-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/visioconference/blob/main/finops/visioconference-finops.yml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/visioconference/blob/main/agentic-access/visioconference-agentic-access.yml
 - type: VulnerabilityDisclosure
@@ -66,56 +72,35 @@ links:
   url: https://github.com/api-evangelist/visioconference/blob/main/json-ld/visioconference-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/visioconference/blob/main/vocabulary/visioconference-vocabulary.yml
-provider_count: 195
+provider_count: 201
 providers:
 - slug: dolby
   name: Dolby
   description: Dolby Laboratories is an audio and video technology company whose developer platform, Dolby OptiView, is the merged surface of the original dolby.io platform, THEO Technologies (THEOplayer, THEOlive, THEOads) and Millicast. It ships public…
   api_count: 13
-  score_band: exemplar
-  score_composite: 66.5
+  score_band: strong
+  score_composite: 65.5
   shared: 5
 - slug: whereby
   name: Whereby
   description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api…
   api_count: 1
   score_band: developing
-  score_composite: 51.4
+  score_composite: 45.4
   shared: 5
 - slug: red5
   name: Red5
   description: Red5 provides real-time streaming infrastructure for live video and audio delivery at scale. The Red5 Pro platform includes a media server, Stream Manager 2.0 for autoscaling cloud deployments, the Brew Mixer for composite stream productio…
   api_count: 3
   score_band: strong
-  score_composite: 65.1
+  score_composite: 63.6
   shared: 4
 - slug: zoom
   name: Zoom
   description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
   api_count: 12
   score_band: strong
-  score_composite: 55.8
-  shared: 4
-- slug: getstream
-  name: Stream
-  description: Stream (GetStream.io) provides scalable, API-first infrastructure for in-app chat messaging, activity feeds, audio/video calling and livestreaming, and AI moderation. The server-side platform is a documented REST API (base https://chat.str…
-  api_count: 6
-  score_band: developing
-  score_composite: 51.2
-  shared: 4
-- slug: daily-co
-  name: Daily
-  description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native a…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.5
-  shared: 4
-- slug: discord
-  name: Discord
-  description: Discord is a voice, video and text communication service used by hundreds of millions of people to hang out and talk with their communities and friends.
-  api_count: 3
-  score_band: developing
-  score_composite: 47.4
+  score_composite: 54.8
   shared: 4
 - slug: lightstream
   name: Lightstream
@@ -124,61 +109,82 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 4
+- slug: discord
+  name: Discord
+  description: Discord is a voice, video and text communication service used by hundreds of millions of people to hang out and talk with their communities and friends.
+  api_count: 3
+  score_band: developing
+  score_composite: 46.1
+  shared: 4
+- slug: daily-co
+  name: Daily
+  description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native a…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.7
+  shared: 4
 - slug: kumospace
   name: Kumospace
   description: Kumospace is a virtual office platform for remote and distributed teams, providing a persistent spatial workspace where colleagues move between rooms and floors, with proximity-based spatial audio and video, team chat channels, scheduled a…
   api_count: 1
   score_band: developing
-  score_composite: 45.2
+  score_composite: 45.3
   shared: 4
-- slug: videosdk
-  name: VideoSDK
-  description: Real-time voice, video, and AI agent platform for developers. VideoSDK provides REST and WebSocket APIs for building video conferencing, live streaming, interactive broadcast applications, and real-time AI agent integrations with SDKs for…
-  api_count: 1
+- slug: getstream
+  name: Stream
+  description: Stream (GetStream.io) provides scalable, API-first infrastructure for in-app chat messaging, activity feeds, audio/video calling and livestreaming, and AI moderation. The server-side platform is a documented REST API (base https://chat.str…
+  api_count: 6
   score_band: developing
-  score_composite: 39.6
-  shared: 4
-- slug: superviz
-  name: SuperViz
-  description: SuperViz provides real-time collaboration and data-synchronization infrastructure for web applications - presence, realtime data channels, video huddle/meetings, contextual comments, and mouse pointers. The product is SDK-first (@superviz/…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.9
+  score_composite: 42.9
   shared: 4
 - slug: rainbow
   name: Rainbow
   description: Rainbow is a CPaaS platform from Alcatel-Lucent Enterprise (ALE) that lets developers enrich applications with chat, group chat, voice, video, file sharing, and telephony PBX features through more than 200 APIs, REST interfaces, and multi-…
   api_count: 3
   score_band: thin
-  score_composite: 36.8
+  score_composite: 35.2
   shared: 4
-- slug: dyte
-  name: Dyte
-  description: Dyte is a live video and voice developer platform offering client SDKs plus a v2 REST API for programmatically creating meetings, adding participants and issuing their auth tokens, querying completed sessions, and managing recordings, live…
+- slug: videosdk
+  name: VideoSDK
+  description: Real-time voice, video, and AI agent platform for developers. VideoSDK provides REST and WebSocket APIs for building video conferencing, live streaming, interactive broadcast applications, and real-time AI agent integrations with SDKs for…
   api_count: 1
   score_band: thin
-  score_composite: 35.0
+  score_composite: 34.0
   shared: 4
-- slug: livekit
-  name: LiveKit
-  description: LiveKit is an open-source WebRTC platform with a managed Cloud offering. APIs cover Rooms, Participants, Tracks, Egress (recording, RTMP), Ingress (RTMP/SRT), SIP (telephony), and Agents (LLM voice agents). The server APIs use Twirp (HTTP+…
-  api_count: 6
+- slug: superviz
+  name: SuperViz
+  description: SuperViz provides real-time collaboration and data-synchronization infrastructure for web applications - presence, realtime data channels, video huddle/meetings, contextual comments, and mouse pointers. The product is SDK-first (@superviz/…
+  api_count: 1
   score_band: thin
-  score_composite: 31.5
+  score_composite: 30.6
   shared: 4
 - slug: agora-io
   name: Agora
   description: Agora is a real-time engagement platform providing ultra-low latency voice, video, signaling, chat, interactive whiteboard, cloud recording, real-time speech-to-text, and conversational AI infrastructure for human-to-human and human-to-AI…
   api_count: 11
   score_band: thin
-  score_composite: 30.6
+  score_composite: 30.3
+  shared: 4
+- slug: livekit
+  name: LiveKit
+  description: LiveKit is an open-source WebRTC platform with a managed Cloud offering. APIs cover Rooms, Participants, Tracks, Egress (recording, RTMP), Ingress (RTMP/SRT), SIP (telephony), and Agents (LLM voice agents). The server APIs use Twirp (HTTP+…
+  api_count: 6
+  score_band: thin
+  score_composite: 30.2
+  shared: 4
+- slug: dyte
+  name: Dyte
+  description: Dyte is a live video and voice developer platform offering client SDKs plus a v2 REST API for programmatically creating meetings, adding participants and issuing their auth tokens, querying completed sessions, and managing recordings, live…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.7
   shared: 4
 - slug: voxeet
   name: Voxeet
   description: Voxeet was a San Francisco-based startup that built spatial-audio voice and video conferencing APIs and SDKs for web and mobile applications, backed by 500 Global. Dolby Laboratories acquired Voxeet in 2019 and rebranded its technology as…
   api_count: 0
   score_band: minimal
-  score_composite: 5.8
+  score_composite: 5.9
   shared: 4
 - slug: around
   name: Around
@@ -190,55 +196,55 @@ providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by…
-  api_count: 40
+  api_count: 89
   score_band: exemplar
-  score_composite: 77.8
+  score_composite: 91.6
   shared: 3
 - slug: slack
   name: Slack
   description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
   api_count: 32
   score_band: exemplar
-  score_composite: 67.9
+  score_composite: 66.9
   shared: 3
 - slug: signalwire
   name: SignalWire
   description: SignalWire is a Programmable Unified Communications (PUC) platform for voice, messaging, video, fax, SIP and AI voice agents, built by the team behind FreeSWITCH. It publishes two first-party OpenAPI 3.1 contracts from its public documenta…
   api_count: 4
   score_band: strong
-  score_composite: 65.4
+  score_composite: 65.9
   shared: 3
 - slug: ringcentral
   name: RingCentral
   description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytic…
   api_count: 1
   score_band: strong
-  score_composite: 61.0
+  score_composite: 59.9
   shared: 3
 - slug: ant-media
   name: Ant Media
   description: Ant Media Server is a scalable, open-source media server for ultra-low latency live streaming and WebRTC-based video applications. It supports WebRTC, RTMP, RTSP, SRT, HLS, and CMAF protocols, enabling developers to build real-time video a…
-  api_count: 2
+  api_count: 3
   score_band: strong
-  score_composite: 59.8
+  score_composite: 58.8
+  shared: 3
+- slug: wowza
+  name: Wowza
+  description: Wowza is a Denver, Colorado-based video streaming infrastructure provider that has been simplifying live and on-demand streaming since 2007. The platform spans three flagship products — Wowza Streaming Engine (a self-hosted, on-prem/cloud/…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.5
   shared: 3
 - slug: microsoft-teams
   name: Microsoft Teams
   description: Microsoft Teams is a collaboration platform that combines workplace chat, meetings, file storage, and application integration. It provides APIs for building custom integrations, managing teams and channels, sending messages, scheduling mee…
   api_count: 11
   score_band: strong
-  score_composite: 56.4
+  score_composite: 54.9
   shared: 3
 - slug: decart
   name: Decart
   description: Decart is an AI research lab and API platform building real-time world models — foundation models that generate and transform video frame-by-frame as they are watched. Its Decart API Platform (platform.decart.ai) exposes the Lucy family of…
-  api_count: 2
-  score_band: strong
-  score_composite: 54.8
-  shared: 3
-- slug: wowza
-  name: Wowza
-  description: Wowza is a Denver, Colorado-based video streaming infrastructure provider that has been simplifying live and on-demand streaming since 2007. The platform spans three flagship products — Wowza Streaming Engine (a self-hosted, on-prem/cloud/…
   api_count: 2
   score_band: strong
   score_composite: 54.4
@@ -248,21 +254,28 @@ providers:
   description: Amazon Interactive Video Service (Amazon IVS) is a managed live streaming solution designed to provide interactive video experiences. It handles the operational complexity of live streaming so you can focus on building engaging application…
   api_count: 1
   score_band: developing
-  score_composite: 53.5
+  score_composite: 52.0
   shared: 3
 - slug: twitch
   name: Twitch
   description: Twitch is a live streaming platform for gamers, content creators, and communities.
   api_count: 6
   score_band: developing
-  score_composite: 51.5
+  score_composite: 50.5
+  shared: 3
+- slug: krisp
+  name: Krisp
+  description: 'Krisp is a Voice AI platform whose real-time speech-enhancement models run on over 200 million devices, licensed by Discord, Twilio, and VMware among others. Beyond its consumer AI Note Taker, Krisp ships a developer surface: the AI Voice…'
+  api_count: 1
+  score_band: developing
+  score_composite: 48.2
   shared: 3
 - slug: reactor
   name: Reactor
   description: Reactor is a real-time video AI platform that streams generative video from GPU-hosted models to web and mobile applications over WebRTC, with sub-second round-trip latency and no infrastructure to manage. Developers connect through a Java…
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 46.0
   shared: 3
 - slug: beeper
   name: Beeper
@@ -270,12 +283,5 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 45.8
-  shared: 3
-- slug: streamelements
-  name: StreamElements
-  description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and co…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.8
   shared: 3
 ---

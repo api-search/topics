@@ -70,35 +70,28 @@ links:
   url: https://github.com/api-evangelist/cloud-storage/blob/main/json-ld/cloud-storage-context.jsonld
 - type: Spectral
   url: https://github.com/api-evangelist/cloud-storage/blob/main/rules/cloud-storage-rules.yml
-provider_count: 70
+provider_count: 80
 providers:
 - slug: pure-storage
   name: Pure Storage
   description: Pure Storage is an American publicly traded technology company specializing in all-flash data storage hardware and software products. The company provides enterprise data storage platforms including FlashArray, FlashBlade, and Pure1 fleet…
-  api_count: 3
+  api_count: 4
   score_band: developing
-  score_composite: 52.6
+  score_composite: 46.6
   shared: 5
 - slug: gcp-cloud-storage
   name: Google Cloud Storage
   description: Object storage service offering high durability, availability, and scalability for storing and accessing data on Google Cloud Platform.
   api_count: 1
   score_band: strong
-  score_composite: 65.0
+  score_composite: 63.5
   shared: 4
 - slug: rook
   name: Rook
   description: Rook is a CNCF graduated cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for Ceph distributed storage systems to natively integrate with cloud-native environments. It automates the deploymen…
   api_count: 1
   score_band: developing
-  score_composite: 42.7
-  shared: 4
-- slug: cloudflare-r2
-  name: Cloudflare R2
-  description: Cloudflare R2 is S3-compatible object storage with zero egress fees. It provides both an S3-compatible REST API and a Cloudflare API for managing buckets, objects, and storage policies at global scale. R2 offers a generous free tier includ…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.5
+  score_composite: 41.3
   shared: 4
 - slug: cubbit
   name: Cubbit
@@ -107,12 +100,12 @@ providers:
   score_band: thin
   score_composite: 39.0
   shared: 4
-- slug: filebase
-  name: Filebase
-  description: Filebase is an S3-compatible object storage and IPFS pinning platform that combines familiar cloud storage APIs with decentralized, blockchain-backed infrastructure. Developers can store, manage, and pin files to IPFS using standard S3 too…
-  api_count: 4
+- slug: cloudflare-r2
+  name: Cloudflare R2
+  description: Cloudflare R2 is S3-compatible object storage with zero egress fees. It provides both an S3-compatible REST API and a Cloudflare API for managing buckets, objects, and storage policies at global scale. R2 offers a generous free tier includ…
+  api_count: 2
   score_band: thin
-  score_composite: 38.3
+  score_composite: 35.0
   shared: 4
 - slug: storone
   name: StorONE
@@ -121,89 +114,110 @@ providers:
   score_band: thin
   score_composite: 34.0
   shared: 4
+- slug: filebase
+  name: Filebase
+  description: Filebase is an S3-compatible object storage and IPFS pinning platform that combines familiar cloud storage APIs with decentralized, blockchain-backed infrastructure. Developers can store, manage, and pin files to IPFS using standard S3 too…
+  api_count: 4
+  score_band: thin
+  score_composite: 32.7
+  shared: 4
 - slug: xsky
   name: XSKY
   description: XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based software-defined storage vendor serving nearly 2,000 large government and enterprise institutions, ranked first in China's object-storage software market. Its distributed storage product…
   api_count: 1
   score_band: thin
-  score_composite: 31.5
-  shared: 4
-- slug: wasabi
-  name: Wasabi
-  description: Wasabi Hot Cloud Storage is an S3-compatible object storage service offering a REST API that mirrors the Amazon S3 API for storing, retrieving, and managing objects and buckets. Wasabi provides always-consistent storage at lower cost than…
-  api_count: 4
-  score_band: thin
-  score_composite: 30.9
+  score_composite: 32.1
   shared: 4
 - slug: ceph
   name: Ceph
   description: Ceph is an open source, distributed storage platform that provides unified object, block, and file storage on commodity hardware with no single point of failure. The Ceph Manager (ceph-mgr) ships with a RESTful API that exposes the same op…
   api_count: 1
   score_band: emerging
-  score_composite: 25.1
+  score_composite: 25.2
+  shared: 4
+- slug: wasabi
+  name: Wasabi
+  description: Wasabi Hot Cloud Storage is an S3-compatible object storage service offering a REST API that mirrors the Amazon S3 API for storing, retrieving, and managing objects and buckets. Wasabi provides always-consistent storage at lower cost than…
+  api_count: 4
+  score_band: emerging
+  score_composite: 24.0
   shared: 4
 - slug: storj
   name: Storj
   description: Decentralized Open-Source Cloud Storage
   api_count: 1
   score_band: minimal
-  score_composite: 6.0
+  score_composite: 6.5
   shared: 4
 - slug: amazon-s3
   name: Amazon S3
   description: Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
   api_count: 2
   score_band: exemplar
-  score_composite: 69.7
+  score_composite: 68.7
   shared: 3
 - slug: microsoft-azure-blob-storage
   name: Azure Blob Storage
   description: Microsoft Azure Blob Storage is a service for storing large amounts of unstructured object data, such as text or binary data, that can be accessed from anywhere in the world via HTTP or HTTPS.
   api_count: 1
   score_band: strong
-  score_composite: 58.3
+  score_composite: 56.9
   shared: 3
 - slug: minio
   name: MinIO
   description: MinIO is a high-performance, S3-compatible object storage system built for large-scale AI, analytics, and cloud-native data infrastructure. Its API is a drop-in implementation of the Amazon S3 REST API (bucket and object operations, multip…
   api_count: 2
   score_band: developing
-  score_composite: 50.9
+  score_composite: 51.0
   shared: 3
 - slug: azure-storage-accounts
   name: Azure Storage Accounts
   description: Azure Storage is Microsoft's cloud storage solution for modern data storage scenarios offering highly available, massively scalable, durable, and secure storage for blobs, files, queues, tables, and disks.
+  api_count: 3
+  score_band: developing
+  score_composite: 48.6
+  shared: 3
+- slug: idrive
+  name: IDrive
+  description: IDrive Inc. provides cloud backup and IDrive e2, an S3-compatible object storage service. For developers it publishes the IDrive e2 Reseller API (a REST/JSON API at api.idrivee2.com for managing users, regions, access keys, CNAME whitelabe…
   api_count: 2
   score_band: developing
-  score_composite: 49.5
+  score_composite: 48.0
+  shared: 3
+- slug: impossible-cloud
+  name: Impossible Cloud
+  description: Impossible Cloud is a European sovereign cloud platform headquartered in Hamburg, Germany, providing S3-compatible object storage (11 nines durability, Object Lock/WORM, no egress or API-call fees), bare metal NVIDIA GPU servers, and manag…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.3
   shared: 3
 - slug: backblaze
   name: Backblaze
   description: Backblaze is a cloud storage and data backup provider offering B2 Cloud Storage - a low-cost, S3-compatible object storage service. Backblaze provides both a native B2 API and an S3-compatible API, enabling developers to build applications…
   api_count: 7
   score_band: developing
-  score_composite: 48.2
+  score_composite: 46.6
   shared: 3
-- slug: impossible-cloud
-  name: Impossible Cloud
-  description: Impossible Cloud is a European sovereign cloud platform headquartered in Hamburg, Germany, providing S3-compatible object storage (11 nines durability, Object Lock/WORM, no egress or API-call fees), bare metal NVIDIA GPU servers, and manag…
-  api_count: 1
+- slug: zadara
+  name: Zadara
+  description: Zadara is an edge cloud and storage-as-a-service provider offering zStorage (VPSA Storage Array and Flash Array block/file storage, VPSA Object Storage) and zCompute, delivered fully managed in its own and partner data centers. Its public…
+  api_count: 8
   score_band: developing
-  score_composite: 47.2
+  score_composite: 43.3
   shared: 3
 - slug: cubefs
   name: CubeFS
   description: CubeFS is a CNCF graduated cloud-native distributed file system supporting POSIX, HDFS, and S3-compatible object storage protocols. It provides multi-tenancy, multi-AZ deployment, cross-region replication, and erasure coding for both hot a…
   api_count: 2
   score_band: developing
-  score_composite: 43.8
+  score_composite: 42.9
   shared: 3
 - slug: qumulo
   name: Qumulo
   description: Qumulo is an enterprise data platform company that delivers a single, unified file and object storage system spanning on-premises data centers, the edge, and the public cloud (AWS, Azure, GCP) at exabyte scale. Every Qumulo cluster exposes…
   api_count: 1
   score_band: developing
-  score_composite: 39.8
+  score_composite: 39.9
   shared: 3
 - slug: azure-file-storage
   name: Azure Files
@@ -212,74 +226,60 @@ providers:
   score_band: thin
   score_composite: 38.0
   shared: 3
-- slug: tigris-data
-  name: Tigris
-  description: Tigris is a globally distributed, multi-cloud, S3-compatible object storage service. Data is automatically placed close to where it is read for low latency worldwide, with no egress fees. The storage API speaks the AWS S3 protocol at https…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.4
-  shared: 3
 - slug: inspur-cloud
   name: Inspur Cloud
   description: Inspur Cloud (浪潮云) is the public-cloud arm of the Chinese IT conglomerate Inspur Group, operating from cloud.inspur.com across the cn-north-3 (华北三), cn-south-1 (华南一) and cn-east-1 (华东一) regions. It publishes a broad IaaS/PaaS catalog — 94…
   api_count: 18
   score_band: thin
-  score_composite: 34.0
+  score_composite: 34.1
+  shared: 3
+- slug: akave
+  name: Akave
+  description: Akave is a decentralized, S3-compatible object storage company. Akave Cloud and the Akave O3 gateway expose an S3-compatible API usable with AWS SDKs and CLI tools, backed by the Akave (Oasis) protocol with encryption, erasure coding and o…
+  api_count: 3
+  score_band: thin
+  score_composite: 31.8
   shared: 3
 - slug: emc
   name: EMC
   description: EMC Corporation, acquired by Dell Technologies in 2016 and now operating as Dell EMC, builds enterprise storage, data management and data protection platforms — ECS/ObjectScale object storage, Unity, VNX, PowerMax (VMAX lineage), PowerScal…
   api_count: 2
   score_band: thin
-  score_composite: 31.9
+  score_composite: 30.4
   shared: 3
 - slug: ctera
   name: CTERA
   description: CTERA operates the CTERA Intelligent Data Platform, a unified edge-to-cloud global file system and data fabric for managing unstructured file data across distributed enterprises. The platform combines secure file collaboration, cyber prote…
   api_count: 1
   score_band: thin
-  score_composite: 28.5
+  score_composite: 28.6
+  shared: 3
+- slug: tigris-data
+  name: Tigris
+  description: Tigris is a globally distributed, multi-cloud, S3-compatible object storage service. Data is automatically placed close to where it is read for low latency worldwide, with no egress fees. The storage API speaks the AWS S3 protocol at https…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.1
+  shared: 3
+- slug: seaweedfs
+  name: SeaweedFS
+  description: SeaweedFS is a distributed file system and S3-compatible object store, open source at github.com/seaweedfs/seaweedfs with an Enterprise edition sold at seaweedfs.com (data recovery, self-healing storage, erasure coding automation, point-in…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.0
   shared: 3
 - slug: openio
   name: OpenIO
   description: OpenIO SDS is an open-source, software-defined object storage platform for building hyper-scalable, high-performance storage infrastructures. It stores data across commodity hardware and exposes it through an Amazon S3-compatible gateway a…
   api_count: 1
   score_band: emerging
-  score_composite: 17.2
+  score_composite: 17.3
   shared: 3
 - slug: elastifile
   name: Elastifile
   description: Elastifile was an enterprise cloud file-storage company founded in 2013 in Tel Aviv, Israel. It built a software-defined, scale-out distributed file system (the Elastifile Cloud File System / ECFS) that delivered elastic, high-performance…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 3
-- slug: avere-systems
-  name: Avere Systems
-  description: Avere Systems was a Pittsburgh-based enterprise storage company building hybrid cloud NAS technology, best known for its FXT Series Edge filers and the vFXT virtual appliance that accelerated and tiered file workloads across on-premises NA…
-  api_count: 0
-  score_band: null
-  score_composite: 0
-  shared: 3
-- slug: bitcasa
-  name: Bitcasa
-  description: Bitcasa, Inc. was an American cloud storage company (founded 2011 in St. Louis, Missouri; later based in Mountain View, California) known for its converged/infinite storage model and, for developers, the CloudFS API — a white-label cloud-s…
-  api_count: 0
-  score_band: minimal
-  score_composite: 0
-  shared: 3
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 25
-  score_band: exemplar
-  score_composite: 80.6
-  shared: 2
-- slug: amazon-lightsail
-  name: Amazon Lightsail
-  description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 75.3
-  shared: 2
 ---

@@ -26,6 +26,12 @@ apis:
   description: Architecture relationship management
   url: https://www.opengroup.org/archimate-forum/archimate-overview
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/archimate/blob/main/plans/archimate-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/archimate/blob/main/rate-limits/archimate-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/archimate/blob/main/finops/archimate-finops.yml
 - type: Website
   url: https://www.opengroup.org/
 - type: AgenticAccess

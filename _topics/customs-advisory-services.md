@@ -68,63 +68,63 @@ providers:
   description: Trabex is a trade compliance platform that provides automated export compliance, shipment management, restricted party screening, and Automated Export System (AES) filing services. Trabex offers APIs for integrating trade compliance workfl…
   api_count: 1
   score_band: thin
-  score_composite: 34.0
+  score_composite: 32.5
   shared: 3
 - slug: aeb
   name: AEB
   description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
-  api_count: 11
+  api_count: 13
   score_band: thin
-  score_composite: 30.7
+  score_composite: 31.2
   shared: 3
 - slug: bite-data
   name: BITE Data
   description: BITE Data is an AI-native trade compliance platform for global commerce, built by regulatory and national-security data veterans and backed by Techstars and Refashiond Ventures (Leesburg, Virginia). BITE helps import/export teams, brokers,…
   api_count: 0
   score_band: emerging
-  score_composite: 19.2
+  score_composite: 25.6
   shared: 3
 - slug: markit
   name: MarkIt
   description: MarkIt is a Y Combinator (Fall 2025) startup based in Atlanta, GA building AI agents that automate international trade compliance workflows. The platform performs defensible HS and HTS tariff-code classification, OCR processing of shipping…
   api_count: 0
   score_band: minimal
-  score_composite: 3.3
+  score_composite: 3.4
   shared: 3
 - slug: tradeverifyd
   name: Tradeverifyd
   description: Tradeverifyd is a supply chain intelligence platform, formed by the combination of Transmute and mesur.io and backed by Techstars, that screens suppliers against 200+ global data sources, maps multi-tier supplier relationship graphs, monit…
   api_count: 2
   score_band: developing
-  score_composite: 40.3
+  score_composite: 40.4
   shared: 2
 - slug: dsv
   name: DSV
   description: DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from…
   api_count: 29
   score_band: thin
-  score_composite: 38.3
+  score_composite: 38.9
   shared: 2
 - slug: zonos
   name: Zonos
   description: Zonos is a cross-border trade technology company headquartered in St. George, Utah, United States, that sells customs and trade compliance as an API. Its products calculate landed cost (duty, tax, brokerage and carrier fees), classify good…
   api_count: 6
   score_band: emerging
-  score_composite: 23.4
-  shared: 2
-- slug: customs-and-border-protection
-  name: Customs and Border Protection
-  description: U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illega…
-  api_count: 5
-  score_band: emerging
-  score_composite: 21.1
+  score_composite: 23.5
   shared: 2
 - slug: kuehne-nagel
   name: Kuehne+Nagel
   description: Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and c…
   api_count: 17
   score_band: emerging
-  score_composite: 20.2
+  score_composite: 21.3
+  shared: 2
+- slug: customs-and-border-protection
+  name: Customs and Border Protection
+  description: U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illega…
+  api_count: 5
+  score_band: emerging
+  score_composite: 19.5
   shared: 2
 - slug: nabu
   name: Nabu
@@ -138,14 +138,14 @@ providers:
   description: Pax (Pax AI) is a San Francisco-based artificial intelligence company that automates U.S. duty drawback claims, letting importers, retailers, and manufacturers reclaim overpaid tariffs and import duties. Branding itself the "AI Broker for…
   api_count: 1
   score_band: minimal
-  score_composite: 6.3
+  score_composite: 6.4
   shared: 2
 - slug: alchemize
   name: Alchemize
   description: Alchemize is an AI-enabled customs brokerage that automates import compliance workflows for importers. The Y Combinator (Spring 2026) company pairs licensed customs expertise with artificial intelligence to answer regulatory and tariff que…
   api_count: 1
   score_band: minimal
-  score_composite: 5.1
+  score_composite: 5.6
   shared: 2
 - slug: vastera
   name: Vastera

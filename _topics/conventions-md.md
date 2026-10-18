@@ -25,6 +25,12 @@ apis:
   description: CONVENTIONS.md sits alongside several closely related AI coding conventions. CLAUDE.md is used by Claude Code for repository memory. .cursor/rules and .cursorrules are used by Cursor. .github/copilot- instructions.md is used by GitHub Copi…
   url: https://docs.anthropic.com/en/docs/claude-code/memory
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/conventions-md/blob/main/plans/conventions-md-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/conventions-md/blob/main/rate-limits/conventions-md-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/conventions-md/blob/main/finops/conventions-md-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/conventions-md/blob/main/security/conventions-md-domain-security.yml
 - type: Documentation
@@ -58,7 +64,7 @@ providers:
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
   api_count: 1
   score_band: developing
-  score_composite: 54.0
+  score_composite: 52.9
   shared: 2
 - slug: hackmd
   name: HackMD
@@ -71,43 +77,43 @@ providers:
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
-  score_band: developing
-  score_composite: 39.6
+  score_band: thin
+  score_composite: 38.1
   shared: 2
 - slug: slate
   name: Slate
   description: Slate is an open-source tool for creating beautiful, three-panel API documentation from Markdown. Built on Ruby and Middleman, Slate renders a left-side navigation menu, a center documentation panel, and a right-side code sample panel. It…
   api_count: 1
   score_band: emerging
-  score_composite: 25.6
+  score_composite: 24.1
   shared: 2
 - slug: vitepress
   name: VitePress
   description: VitePress is a Vite and Vue powered static site generator widely used for developer documentation. It converts Markdown content into fast, beautiful documentation sites with support for Vue components embedded directly in Markdown pages. V…
   api_count: 2
   score_band: emerging
-  score_composite: 18.4
+  score_composite: 16.9
   shared: 2
 - slug: changelog-md
   name: CHANGELOG.md (Keep a Changelog)
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a…
   api_count: 0
   score_band: emerging
-  score_composite: 13.3
+  score_composite: 13.4
   shared: 2
 - slug: mkdocs
   name: MkDocs
   description: MkDocs is a fast, simple, and beautiful static site generator designed for building project documentation from Markdown source files. Written in Python, it reads a single YAML configuration file (mkdocs.yml) and converts a directory of Mar…
   api_count: 0
   score_band: emerging
-  score_composite: 11.9
+  score_composite: 12.0
   shared: 2
 - slug: markup-language
   name: Markup Language
   description: A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. Examples include HTML, XML, Markdown, LaTeX, and others that add semantic meaning or formatting instructions to text cont…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 2
 - slug: clinerules
   name: .clinerules

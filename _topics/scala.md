@@ -51,6 +51,12 @@ apis:
   description: sbt (Simple Build Tool) is the dominant build tool in the Scala ecosystem (90% adoption). Its Server API enables IDE integration via the Build Server Protocol (BSP). sbt 2.0 release candidates show up to 41% faster startup.
   url: https://www.scala-sbt.org/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/scala/blob/main/plans/scala-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/scala/blob/main/rate-limits/scala-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/scala/blob/main/finops/scala-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/scala/blob/main/security/scala-domain-security.yml
 - type: Website
@@ -102,42 +108,42 @@ providers:
   description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of librari…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 31.4
   shared: 2
 - slug: vineyard
   name: Vineyard
   description: Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyar…
   api_count: 1
   score_band: thin
-  score_composite: 29.7
+  score_composite: 28.2
   shared: 2
 - slug: redplanetlabs
   name: Redplanetlabs
   description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while p…
   api_count: 1
   score_band: emerging
-  score_composite: 25.6
+  score_composite: 25.7
   shared: 2
 - slug: groovy
   name: Apache Groovy
   description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syn…
   api_count: 3
   score_band: emerging
-  score_composite: 16.3
+  score_composite: 14.8
   shared: 2
 - slug: java
   name: Java
   description: Java is a high-level, class-based, object-oriented programming language developed by Sun Microsystems and now stewarded by Oracle. The Java Standard Edition (SE) platform provides a comprehensive set of APIs and class libraries for buildin…
   api_count: 9
   score_band: emerging
-  score_composite: 16.3
+  score_composite: 14.8
   shared: 2
 - slug: kotlin
   name: Kotlin
   description: Kotlin is a modern, concise, and safe programming language for the JVM, Android, and multiplatform development. It is developed by JetBrains and provides full interoperability with Java. Kotlin's standard library and ecosystem offer rich A…
   api_count: 2
   score_band: emerging
-  score_composite: 14.0
+  score_composite: 12.5
   shared: 2
 - slug: concord-systems
   name: Concord Systems

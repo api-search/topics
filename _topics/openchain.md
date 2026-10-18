@@ -17,6 +17,12 @@ apis:
   description: API for accessing OpenChain open source license compliance resources, standards documentation, and organizational benchmarking tools for software supply chain trust.
   url: https://www.openchainproject.org/resources
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/openchain/blob/main/plans/openchain-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/openchain/blob/main/rate-limits/openchain-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/openchain/blob/main/finops/openchain-finops.yml
 - type: Website
   url: https://www.openchainproject.org/
 - type: DomainSecurity
@@ -38,37 +44,37 @@ providers:
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations…
-  api_count: 1
+  api_count: 2
   score_band: thin
-  score_composite: 35.5
+  score_composite: 34.0
   shared: 3
 - slug: spdx
   name: SPDX
   description: The Software Package Data Exchange (SPDX) is an open standard under the Linux Foundation for communicating software bill of materials information including components, licenses, copyrights, and security references. It is an ISO/IEC standar…
   api_count: 1
   score_band: minimal
-  score_composite: 10.6
+  score_composite: 9.1
   shared: 3
 - slug: academy-software-foundation
   name: Academy Software Foundation
   description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source p…
   api_count: 14
   score_band: strong
-  score_composite: 56.8
+  score_composite: 55.4
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 50.4
+  score_composite: 48.9
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 45.7
+  score_composite: 44.2
   shared: 2
 - slug: agentsync
   name: Agentsync
@@ -82,28 +88,28 @@ providers:
   description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 36.3
+  shared: 2
+- slug: camara-project
+  name: CAMARA Project
+  description: CAMARA is the Telco Global API Alliance — an open-source project hosted by the Linux Foundation that defines, builds, and tests a unified set of network APIs across the world's mobile operators. Working alongside the GSMA Open Gateway comm…
+  api_count: 24
+  score_band: thin
+  score_composite: 30.4
   shared: 2
 - slug: aousd
   name: Alliance for OpenUSD
   description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
   api_count: 2
   score_band: thin
-  score_composite: 29.8
+  score_composite: 28.3
   shared: 2
 - slug: apigovernance-dev
   name: APIGovernance.Dev
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 25.7
-  shared: 2
-- slug: camara-project
-  name: CAMARA Project
-  description: CAMARA is the Telco Global API Alliance — an open-source project hosted by the Linux Foundation that defines, builds, and tests a unified set of network APIs across the world's mobile operators. Working alongside the GSMA Open Gateway comm…
-  api_count: 24
-  score_band: emerging
-  score_composite: 24.5
+  score_composite: 24.2
   shared: 2
 - slug: medallion
   name: Medallion
@@ -117,28 +123,28 @@ providers:
   description: Certivity is a Munich-based RegTech company, founded in 2021, that operates an AI-native regulatory intelligence platform for regulated industries such as automotive, aerospace, and connected vehicles. Its product, Certivity Core, turns co…
   api_count: 0
   score_band: emerging
-  score_composite: 11.5
-  shared: 2
-- slug: open-voice-network
-  name: Open Voice Network
-  description: The Open Voice Network is a Linux Foundation project advancing open standards for AI-enabled voice assistance systems. Its core initiatives around TrustMark and interoperability promote ethical, accessible, and interoperable voice technolo…
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.1
-  shared: 2
-- slug: openapi-initiative
-  name: OpenAPI Initiative
-  description: The OpenAPI Initiative is a Linux Foundation project that promotes the OpenAPI Specification for defining standard, language-agnostic interfaces to RESTful APIs. It provides governance, tooling ecosystem support, and community collaboratio…
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.1
+  score_composite: 12.0
   shared: 2
 - slug: payna
   name: Payna
   description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements…
   api_count: 0
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.2
+  shared: 2
+- slug: open-voice-network
+  name: Open Voice Network
+  description: The Open Voice Network is a Linux Foundation project advancing open standards for AI-enabled voice assistance systems. Its core initiatives around TrustMark and interoperability promote ethical, accessible, and interoperable voice technolo…
+  api_count: 1
+  score_band: minimal
+  score_composite: 8.6
+  shared: 2
+- slug: openapi-initiative
+  name: OpenAPI Initiative
+  description: The OpenAPI Initiative is a Linux Foundation project that promotes the OpenAPI Specification for defining standard, language-agnostic interfaces to RESTful APIs. It provides governance, tooling ecosystem support, and community collaboratio…
+  api_count: 1
+  score_band: minimal
+  score_composite: 8.6
   shared: 2
 - slug: ul-solutions
   name: UL Solutions

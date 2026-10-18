@@ -36,6 +36,12 @@ apis:
   description: ACT Rules Format 1.1 (W3C Recommendation, February 2026) establishes a standardized format for documenting accessibility conformance testing rules. The framework supports automated, semi-automated, and manual testing and is used to create…
   url: https://www.w3.org/WAI/standards-guidelines/act/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/accessibility-standards/blob/main/plans/accessibility-standards-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/accessibility-standards/blob/main/rate-limits/accessibility-standards-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/accessibility-standards/blob/main/finops/accessibility-standards-finops.yml
 - type: IssueTracker
   url: https://github.com/w3c/wcag/issues
 - type: CodeOfConduct
@@ -63,16 +69,16 @@ providers:
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 45.7
+  score_composite: 52.1
   shared: 3
 - slug: stark
   name: Stark
   description: Stark is a digital accessibility compliance platform used by more than 50,000 companies as their accessibility infrastructure across the entire software product lifecycle, from issue detection and remediation to insights and governance. St…
   api_count: 0
   score_band: emerging
-  score_composite: 20.7
+  score_composite: 20.8
   shared: 3
 - slug: user1st
   name: User1st
@@ -85,22 +91,22 @@ providers:
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 27.7
   shared: 2
 - slug: u-s-access-board
   name: U.S. Access Board
   description: The U.S. Access Board is an independent federal agency that promotes equality for people with disabilities through the development of accessibility guidelines and standards. The Board develops criteria for accessibility in the built enviro…
   api_count: 0
   score_band: emerging
-  score_composite: 19.9
+  score_composite: 18.2
   shared: 2
 - slug: design-standards
   name: Design Standards
   description: Design Standards encompasses the frameworks, guidelines, and best practices used in product, interface, and system design to ensure consistency, usability, and accessibility. Includes API design guidelines, naming and format conventions, a…
   api_count: 1
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 11.0
   shared: 2
 - slug: echo-labs
   name: Echo Labs

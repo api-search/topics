@@ -33,6 +33,12 @@ apis:
   description: Atomikos provides ACID transaction management middleware for distributed microservices, supporting XA transactions across REST services using the Try-Confirm/Cancel (TCC) pattern. It enables ACID guarantees spanning multiple databases and…
   url: https://www.atomikos.com/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/acid/blob/main/plans/acid-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/acid/blob/main/rate-limits/acid-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/acid/blob/main/finops/acid-finops.yml
 - type: SecurityPolicy
   url: https://github.com/postgres/postgres/blob/master/.github/SECURITY.md
 - type: CodeOfConduct
@@ -57,36 +63,36 @@ providers:
   name: TiKV
   description: TiKV is a CNCF-graduated distributed transactional key-value database built in Rust with Raft consensus. Originally created to complement TiDB, it provides horizontal scalability, strong consistency, and high availability with ACID transac…
   api_count: 1
-  score_band: developing
-  score_composite: 39.6
+  score_band: thin
+  score_composite: 38.2
   shared: 3
 - slug: vitess
   name: Vitess
   description: Vitess is a CNCF graduated database clustering system for horizontal scaling of MySQL through generalized sharding. It provides MySQL protocol compatibility, automated resharding, query routing, and connection pooling, making it suitable f…
   api_count: 4
   score_band: thin
-  score_composite: 37.8
+  score_composite: 36.4
   shared: 2
 - slug: redplanetlabs
   name: Redplanetlabs
   description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while p…
   api_count: 1
   score_band: emerging
-  score_composite: 25.6
+  score_composite: 25.7
   shared: 2
 - slug: riak
   name: Riak KV
   description: 'Riak KV is a distributed NoSQL key-value database originally developed by Basho Technologies, designed for high availability, fault tolerance, and horizontal scalability across commodity hardware. Riak exposes two client-facing APIs: a RES…'
   api_count: 1
   score_band: emerging
-  score_composite: 24.4
+  score_composite: 25.0
   shared: 2
 - slug: tigerbeetle
   name: TigerBeetle
   description: TigerBeetle is an open-source (Apache 2.0) distributed financial accounting and transactions database, purpose-built for high-throughput, mission-critical double-entry bookkeeping and online transaction processing (OLTP). It is NOT an HTTP…
   api_count: 4
-  score_band: emerging
-  score_composite: 14.3
+  score_band: minimal
+  score_composite: 10.1
   shared: 2
 - slug: fauna
   name: Fauna

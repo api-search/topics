@@ -23,6 +23,12 @@ apis:
   description: Static dataset files served from the project's main branch.
   url: https://github.com/TechForPalestine/boycott-israeli-consumer-goods-dataset
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/plans/boycott-israeli-consumer-goods-dataset-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/rate-limits/boycott-israeli-consumer-goods-dataset-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/finops/boycott-israeli-consumer-goods-dataset-finops.yml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/agentic-access/boycott-israeli-consumer-goods-dataset-agentic-access.yml
 - type: Website
@@ -36,35 +42,35 @@ providers:
   description: Zenodo is a free, open research data repository operated by CERN and co-developed under the European OpenAIRE program. It enables researchers to deposit, share, and preserve any research output — including datasets, software, papers, prepr…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 40.1
   shared: 2
 - slug: opendatasoft
   name: Opendatasoft
   description: Open data platform with REST APIs for accessing public datasets from 1,000+ cities and organizations, providing standard OData and JSON query interfaces. Now operating as Huwise, the platform powers 3,000+ data marketplaces and provides ca…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.5
+  api_count: 2
+  score_band: thin
+  score_composite: 35.1
   shared: 2
 - slug: curatorsearch
   name: CuratorSearch
   description: An independent, daily-refreshed record of museum/gallery/curatorial vacancies and advertised salaries, aggregated from 400+ institutions' careers pages. Exposes a keyless REST/JSON API, an OpenAPI 3.1 contract, a hosted MCP server, llms.tx…
-  api_count: 1
+  api_count: 2
   score_band: thin
   score_composite: 32.2
+  shared: 2
+- slug: nutrientsdb
+  name: NutrientsDB
+  description: A curated global food-composition dataset of roughly 2.9 million food entries across 86 normalized nutrient fields, deduplicated across 180+ countries and sold under a one-time license as a downloadable file for local use rather than as a…
+  api_count: 4
+  score_band: thin
+  score_composite: 30.8
   shared: 2
 - slug: new-york-public-library-whats-on-the-menu
   name: New York Public Library What's On The Menu
   description: The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. T…
   api_count: 1
   score_band: thin
-  score_composite: 32.1
-  shared: 2
-- slug: nutrientsdb
-  name: NutrientsDB
-  description: A curated global food-composition dataset of roughly 2.9 million food entries across 86 normalized nutrient fields, deduplicated across 180+ countries and sold under a one-time license as a downloadable file for local use rather than as a…
-  api_count: 2
-  score_band: thin
-  score_composite: 30.3
+  score_composite: 30.5
   shared: 2
 - slug: free-exercise-db
   name: Free Exercise DB

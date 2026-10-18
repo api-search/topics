@@ -44,6 +44,12 @@ apis:
   description: Project revisions on the main branch.
   url: https://sqldbm.com/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/plans/relational-data-modeling-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/rate-limits/relational-data-modeling-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/finops/relational-data-modeling-finops.yml
 - type: CapabilityMap
   url: https://github.com/api-evangelist/relational-data-modeling/blob/main/capabilities/relational-data-modeling-capability-edges.yml
 - type: AgenticAccess

@@ -23,6 +23,12 @@ apis:
   description: RFC 9745 defines the Deprecation HTTP response header field, which signals to clients that a resource has been or will be deprecated. It complements the Sunset header by marking the start of the deprecation lifecycle. The header value is a…
   url: https://www.rfc-editor.org/rfc/rfc9745.html
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/sunset-header/blob/main/plans/sunset-header-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/sunset-header/blob/main/rate-limits/sunset-header-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/sunset-header/blob/main/finops/sunset-header-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/sunset-header/blob/main/security/sunset-header-domain-security.yml
 - type: Website

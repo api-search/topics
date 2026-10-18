@@ -39,6 +39,12 @@ apis:
   description: Low-level JavaScript API for client-side storage of significant amounts of structured data, including files and blobs.
   url: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/javascript/blob/main/plans/javascript-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/javascript/blob/main/rate-limits/javascript-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/javascript/blob/main/finops/javascript-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/javascript/blob/main/security/javascript-domain-security.yml
 - type: Website
@@ -56,6 +62,6 @@ providers:
   description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for l…
   api_count: 3
   score_band: developing
-  score_composite: 43.4
+  score_composite: 42.1
   shared: 2
 ---

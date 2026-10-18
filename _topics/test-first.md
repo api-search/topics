@@ -31,6 +31,16 @@ apis:
   description: Command-line HTTP API testing framework that validates API implementations against API Blueprint or OpenAPI descriptions, enabling test-first API development.
   url: https://dredd.org
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/test-first/blob/main/plans/test-first-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/test-first/blob/main/rate-limits/test-first-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/test-first/blob/main/finops/test-first-finops.yml
+- type: Blog
+  url: https://cucumber.io/blog/
+- type: BlogRSS
+  url: https://cucumber.io/blog/rss.xml
 - type: IssueTracker
   url: https://github.com/cucumber/cucumber-js/issues
 - type: Releases
@@ -64,7 +74,7 @@ providers:
   description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing execu…
   api_count: 5
   score_band: thin
-  score_composite: 28.2
+  score_composite: 26.8
   shared: 2
 - slug: approxima
   name: Approxima
@@ -78,7 +88,7 @@ providers:
   description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
   api_count: 0
   score_band: minimal
-  score_composite: 3.0
+  score_composite: 3.1
   shared: 2
 - slug: secure-by-default
   name: Secure-By-Default
@@ -99,6 +109,6 @@ providers:
   description: Methodology is a concept entry covering systematic approaches and processes used in technology, software development, and computing to address specific technical challenges and improve outcomes.
   api_count: 0
   score_band: minimal
-  score_composite: 0.7
+  score_composite: 0.8
   shared: 2
 ---

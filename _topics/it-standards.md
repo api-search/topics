@@ -21,21 +21,21 @@ providers:
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
   score_band: strong
-  score_composite: 63.6
-  shared: 2
-- slug: ieee
-  name: IEEE Xplore
-  description: IEEE Xplore is the authoritative technical library operated by the Institute of Electrical and Electronics Engineers (IEEE), providing access to over 6 million documents spanning engineering, computer science, electronics, and technology.…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.4
+  score_composite: 62.6
   shared: 2
 - slug: legalon
   name: LegalOn
   description: LegalOn Technologies is a legal-technology company building AI software for in-house legal teams, corporate legal operations, and law firms. Its platform covers AI contract review and redlining, contract playbooks, matter management, a con…
   api_count: 1
   score_band: thin
-  score_composite: 31.4
+  score_composite: 37.8
+  shared: 2
+- slug: ieee
+  name: IEEE Xplore
+  description: IEEE Xplore is the authoritative technical library operated by the Institute of Electrical and Electronics Engineers (IEEE), providing access to over 6 million documents spanning engineering, computer science, electronics, and technology.…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.2
   shared: 2
 - slug: artificial-intelligence-underwriting-company
   name: Artificial Intelligence Underwriting Company
@@ -49,7 +49,7 @@ providers:
   description: Wivity Inc. is a Web3 governance consultancy that helps organizations form blockchain consortia and infrastructure DAOs, design Web3 infrastructure, and optimize decentralized governance through its Wivity Governance framework, drawing on…
   api_count: 0
   score_band: minimal
-  score_composite: 4.4
+  score_composite: 4.5
   shared: 2
 - slug: codeowners
   name: CODEOWNERS

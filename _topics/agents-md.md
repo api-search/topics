@@ -19,6 +19,12 @@ apis:
   description: The AGENTS.md specification defines a standard Markdown file format for providing project context, build instructions, coding standards, and testing procedures to AI coding agents. The file is version-controlled with the project and discov…
   url: https://agents.md/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/agents-md/blob/main/plans/agents-md-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/agents-md/blob/main/rate-limits/agents-md-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/agents-md/blob/main/finops/agents-md-finops.yml
 - type: Website
   url: https://www.agents.md/
 - type: IssueTracker
@@ -96,35 +102,35 @@ providers:
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
   api_count: 11
   score_band: exemplar
-  score_composite: 70.9
-  shared: 2
-- slug: assembled
-  name: Assembled
-  description: Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled l…
-  api_count: 4
-  score_band: strong
-  score_composite: 57.5
+  score_composite: 68.2
   shared: 2
 - slug: sweep
   name: Sweep
   description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes…
   api_count: 2
   score_band: developing
-  score_composite: 52.2
+  score_composite: 52.8
+  shared: 2
+- slug: assembled
+  name: Assembled
+  description: Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled l…
+  api_count: 4
+  score_band: developing
+  score_composite: 51.7
   shared: 2
 - slug: aisera
   name: Aisera
   description: Aisera is an enterprise agentic AI platform that builds, deploys, and orchestrates AI agents and assistants for IT service management, HR, finance, procurement, and customer service. The AiseraGPT platform combines domain-specific LLMs, co…
   api_count: 4
   score_band: developing
-  score_composite: 45.1
+  score_composite: 44.7
   shared: 2
 - slug: corestory
   name: CoreStory
   description: CoreStory is an AI code intelligence platform that ingests large brownfield and legacy codebases and reverse-engineers a persistent understanding of how they work — generating product requirements (PRDs), technical specifications, dependen…
   api_count: 1
   score_band: developing
-  score_composite: 40.6
+  score_composite: 40.7
   shared: 2
 - slug: supernova
   name: Supernova

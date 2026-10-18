@@ -16,7 +16,7 @@ repo: https://github.com/api-evangelist/informatics
 api_count: 0
 apis: []
 links: []
-provider_count: 54
+provider_count: 61
 providers:
 - slug: seven-bridges
   name: Seven Bridges
@@ -28,37 +28,37 @@ providers:
 - slug: dyno
   name: Dyno
   description: Dyno Therapeutics is an AI and biotechnology company building high-performance gene delivery technologies to unlock the potential of next-generation genetic medicine. Using its CapsidMap platform, which combines machine learning with high-…
-  api_count: 2
+  api_count: 4
   score_band: developing
-  score_composite: 45.7
+  score_composite: 46.3
   shared: 3
 - slug: amazon-healthomics
   name: Amazon HealthOmics
   description: AWS HealthOmics is a purpose-built service for healthcare and life sciences organizations that helps store, query, and analyze genomic, transcriptomic, and other omics data to generate insights and accelerate scientific discoveries and imp…
   api_count: 1
   score_band: strong
-  score_composite: 57.7
+  score_composite: 56.2
   shared: 2
 - slug: one-codex
   name: One Codex
   description: One Codex is a microbial genomics data platform for fast, reproducible microbiome sequencing and analysis. Its cloud platform pairs the "world's largest microbial reference database" with automated shotgun and amplicon pipelines, sample ma…
-  api_count: 1
+  api_count: 2
   score_band: strong
-  score_composite: 55.8
+  score_composite: 55.9
   shared: 2
 - slug: aignostics
   name: Aignostics
   description: Aignostics GmbH is a Berlin-based computational pathology company, spun out of Charite Universitaetsmedizin Berlin, that builds AI foundation models and analysis applications for whole slide images (WSI). Its commercial surface is the Aign…
   api_count: 1
   score_band: developing
-  score_composite: 50.0
+  score_composite: 50.1
   shared: 2
 - slug: cancer-gov
   name: Cancer.gov
   description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
-  api_count: 17
+  api_count: 19
   score_band: developing
-  score_composite: 50.0
+  score_composite: 48.9
   shared: 2
 - slug: dnanexus
   name: DNAnexus
@@ -72,7 +72,7 @@ providers:
   description: Genialis is a precision oncology company that builds AI models of cancer biology to find and validate biomarkers for drug developers. Its commercial platform, Genialis Expressions, is a multiomics and clinical data infrastructure for RNA-s…
   api_count: 1
   score_band: developing
-  score_composite: 43.0
+  score_composite: 43.1
   shared: 2
 - slug: myome
   name: MyOme
@@ -81,68 +81,61 @@ providers:
   score_band: developing
   score_composite: 41.7
   shared: 2
-- slug: evolutionaryscale
-  name: EvolutionaryScale
-  description: EvolutionaryScale is a New York-based biology foundation model lab spun out of Meta AI's ESM team that develops AI to deepen scientific understanding of biology. Its flagship ESM3 model is a multimodal generative protein language model tha…
-  api_count: 3
-  score_band: developing
-  score_composite: 41.1
-  shared: 2
-- slug: castoredc
-  name: Castor
-  description: Castor (Castor EDC / CDMS) is a cloud electronic data capture (EDC) and clinical data management platform for clinical trials and real-world research. Its RESTful API at https://data.castoredc.com/api exposes study configuration and collec…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.4
-  shared: 2
 - slug: flywheel
   name: Flywheel
   description: Flywheel is a medical imaging data management and AI development platform for biomedical research, clinical trials, and medical device R&D. It securely ingests, organizes, de-identifies, processes, and analyzes imaging data (DICOM, NIfTI,…
   api_count: 1
   score_band: thin
-  score_composite: 36.0
+  score_composite: 36.1
   shared: 2
 - slug: strand-ai
   name: Strand AI
   description: Strand AI (YC W26) builds multimodal foundation models for spatial biology that predict missing patient bio-data from the data a patient already has. Its Lattice model turns a single H&E-stained whole-slide image into per-pixel predictions…
   api_count: 1
   score_band: thin
-  score_composite: 36.0
+  score_composite: 36.1
   shared: 2
-- slug: string-db
-  name: STRING
-  description: STRING is a protein-protein interaction network database providing scored associations between proteins across thousands of organisms. The REST API enables programmatic access to interaction scores, network visualizations, functional enric…
-  api_count: 1
+- slug: evolutionaryscale
+  name: EvolutionaryScale
+  description: EvolutionaryScale is a New York-based biology foundation model lab spun out of Meta AI's ESM team that develops AI to deepen scientific understanding of biology. Its flagship ESM3 model is a multimodal generative protein language model tha…
+  api_count: 3
   score_band: thin
-  score_composite: 32.9
+  score_composite: 34.4
   shared: 2
 - slug: ocean-health-systems
   name: Ocean Health Systems
   description: Ocean Health Systems (legally Ocean Informatics Pty Ltd, founded 1998, with offices in Bundall QLD, Chatswood NSW and London) is the Australian clinical-informatics company whose founders commercialised the first openEHR clinical data repo…
+  api_count: 2
+  score_band: thin
+  score_composite: 32.4
+  shared: 2
+- slug: castoredc
+  name: Castor
+  description: Castor (Castor EDC / CDMS) is a cloud electronic data capture (EDC) and clinical data management platform for clinical trials and real-world research. Its RESTful API at https://data.castoredc.com/api exposes study configuration and collec…
   api_count: 1
   score_band: thin
-  score_composite: 32.3
-  shared: 2
-- slug: pdb
-  name: RCSB PDB
-  description: RCSB Protein Data Bank (RCSB PDB) is a scientific data resource providing free, open access to the 3D structural data of biological macromolecules including proteins, nucleic acids, and complex assemblies. It serves researchers worldwide t…
-  api_count: 3
-  score_band: thin
-  score_composite: 31.4
+  score_composite: 29.1
   shared: 2
 - slug: ucsc-genomic-data
   name: UCSC Genomic Data
   description: The UCSC Genome Browser is a widely-used bioinformatics tool providing access to genomic data, sequence information, and annotation tracks for hundreds of organisms. The REST API provides programmatic access to genome assemblies, DNA seque…
   api_count: 1
   score_band: thin
-  score_composite: 27.4
+  score_composite: 29.0
   shared: 2
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 13
+  api_count: 15
   score_band: thin
-  score_composite: 27.0
+  score_composite: 28.1
+  shared: 2
+- slug: string-db
+  name: STRING
+  description: STRING is a protein-protein interaction network database providing scored associations between proteins across thousands of organisms. The REST API enables programmatic access to interaction scores, network visualizations, functional enric…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.3
   shared: 2
 - slug: life-sciences
   name: Life Sciences
@@ -151,19 +144,26 @@ providers:
   score_band: emerging
   score_composite: 26.0
   shared: 2
+- slug: pdb
+  name: RCSB PDB
+  description: RCSB Protein Data Bank (RCSB PDB) is a scientific data resource providing free, open access to the 3D structural data of biological macromolecules including proteins, nucleic acids, and complex assemblies. It serves researchers worldwide t…
+  api_count: 3
+  score_band: emerging
+  score_composite: 25.0
+  shared: 2
 - slug: chromacode
   name: ChromaCode
   description: ChromaCode, Inc. is a Carlsbad, California molecular diagnostics company that applies digital signal processing and data science to standard PCR chemistry. Its High-Definition PCR (HDPCR) platform multiplexes more than four times the targe…
   api_count: 1
   score_band: emerging
-  score_composite: 23.9
+  score_composite: 24.0
   shared: 2
 - slug: arctop
   name: Arctop
   description: Arctop develops brain‑computer interface technology to decode and understand brain activity. The company builds APIs that expose neural data, enabling developers to create applications that interpret human thoughts, emotions, and intention…
   api_count: 2
   score_band: emerging
-  score_composite: 22.0
+  score_composite: 22.1
   shared: 2
 - slug: milaboratories
   name: Milaboratories
@@ -177,21 +177,21 @@ providers:
   description: Behind every new scientific discovery, every new device, every new drug and new policy guideline, there are literature reviews. DistillerSR's software enables customers to securely automate the management of evidence-based research and the…
   api_count: 1
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 19.0
   shared: 2
 - slug: admera-health
   name: Admera Health
   description: Admera Health is a CLIA-certified and CAP-accredited genomics service provider and contract research organization headquartered in South Plainfield, New Jersey, established in 2014 as a spinout of GENEWIZ. It runs 100% US-based next-genera…
   api_count: 0
   score_band: emerging
-  score_composite: 18.5
+  score_composite: 18.6
   shared: 2
 - slug: cutiss
   name: CUTISS
   description: CUTISS AG is a Swiss late-stage clinical TechBio company headquartered at the Bio-Technopark in Schlieren, Zurich, founded in 2017 as a spin-off of the Tissue Biology Research Unit (TBRU) at the University of Zurich and the University Chil…
   api_count: 1
   score_band: emerging
-  score_composite: 17.7
+  score_composite: 17.8
   shared: 2
 - slug: champions-oncology
   name: Champions Oncology
@@ -226,6 +226,6 @@ providers:
   description: Pillar Biosciences is a Natick, Massachusetts molecular diagnostics company, founded in 2014, that develops targeted next-generation sequencing (NGS) solutions for precision oncology. Its proprietary SLIMamp (Stem-Loop Inhibition Mediated…
   api_count: 0
   score_band: emerging
-  score_composite: 15.4
+  score_composite: 15.5
   shared: 2
 ---

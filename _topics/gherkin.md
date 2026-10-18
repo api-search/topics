@@ -44,13 +44,13 @@ providers:
   description: SpecFlow was an open-source BDD (Behavior-Driven Development) testing framework for .NET that allowed teams to write executable specifications in natural language using the Gherkin syntax. Originally developed by TechTalk, it was acquired…
   api_count: 2
   score_band: emerging
-  score_composite: 16.1
+  score_composite: 14.6
   shared: 4
 - slug: cucumber
   name: Cucumber
   description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing execu…
   api_count: 5
   score_band: thin
-  score_composite: 28.2
+  score_composite: 26.8
   shared: 3
 ---

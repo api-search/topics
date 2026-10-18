@@ -26,6 +26,12 @@ apis:
   description: iSixSigma is the leading online community and resource hub for Six Sigma practitioners, providing training content, project templates, DMAIC guides, and community forums. The platform serves quality professionals with knowledge resources,…
   url: https://www.isixsigma.com
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/six-sigma/blob/main/plans/six-sigma-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/six-sigma/blob/main/rate-limits/six-sigma-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/six-sigma/blob/main/finops/six-sigma-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/six-sigma/blob/main/security/six-sigma-domain-security.yml
 - type: Website
@@ -41,20 +47,20 @@ providers:
   description: Lean Six Sigma Black Belt is an advanced certification in Lean Six Sigma methodology focused on leading complex improvement projects, statistical analysis, and change management to reduce defects and variability in business processes.
   api_count: 0
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 7.3
   shared: 4
 - slug: lean-six-sigma
   name: Lean Six Sigma
   description: Lean Six Sigma is a methodology that combines Lean manufacturing principles and Six Sigma quality management techniques to improve business processes by eliminating waste and reducing variation, focusing on data-driven decision making and…
   api_count: 0
   score_band: minimal
-  score_composite: 8.0
+  score_composite: 8.1
   shared: 2
 - slug: lean-manufacturing
   name: Lean Manufacturing
   description: Lean Manufacturing is a manufacturing philosophy that focuses on minimizing waste within manufacturing systems while simultaneously maximizing productivity. It leverages automation, precision engineering, and digital controls to improve qu…
   api_count: 0
   score_band: minimal
-  score_composite: 1.6
+  score_composite: 1.7
   shared: 2
 ---

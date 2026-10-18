@@ -14,6 +14,10 @@ repo: https://github.com/api-evangelist/http
 api_count: 0
 apis: []
 links:
+- type: Blog
+  url: https://developer.mozilla.org/en-US/blog/
+- type: BlogRSS
+  url: https://developer.mozilla.org/en-US/blog/rss.xml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/http/blob/main/security/http-domain-security.yml
 - type: GitHubOrganization
@@ -32,41 +36,48 @@ links:
   url: https://github.com/api-evangelist/http/blob/main/json-schema/http-problem-details.json
 - type: Rules
   url: https://github.com/api-evangelist/http/blob/main/rules/http-rules.yml
-provider_count: 5
+provider_count: 6
 providers:
+- slug: w3c
+  name: W3C
+  description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.7
+  shared: 2
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
   score_band: thin
-  score_composite: 28.4
-  shared: 2
-- slug: w3c
-  name: W3C
-  description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
-  api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_composite: 26.9
   shared: 2
 - slug: internet-assigned-numbers-authority
   name: Internet Assigned Numbers Authority
   description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
   api_count: 3
   score_band: emerging
-  score_composite: 12.7
+  score_composite: 11.2
   shared: 2
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
   score_band: minimal
-  score_composite: 4.2
+  score_composite: 4.3
   shared: 2
 - slug: messaging-protocol
   name: Messaging Protocol
   description: Messaging Protocol is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. Examples include AMQP, MQTT, STOMP, and other protocols that enable reliable, effic…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
+  shared: 2
+- slug: dns
+  name: DNS
+  description: DNS (Domain Name System) is the distributed naming system that translates human-readable domain names (like example.com) into the numerical IP addresses computers use to communicate. It functions as the internet's phone book, enabling user…
+  api_count: 0
+  score_band: minimal
+  score_composite: 2.4
   shared: 2
 ---

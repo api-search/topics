@@ -25,6 +25,12 @@ apis:
   description: Patterns.dev is a free online resource covering modern design, rendering, and performance patterns for building web applications. It covers JavaScript and React patterns including Singleton, Observer, Module, Mixin, Mediator, Prototype, Co…
   url: https://www.patterns.dev/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/software-design-patterns/blob/main/plans/software-design-patterns-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/software-design-patterns/blob/main/rate-limits/software-design-patterns-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/software-design-patterns/blob/main/finops/software-design-patterns-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/software-design-patterns/blob/main/security/software-design-patterns-domain-security.yml
 - type: Reference
@@ -48,35 +54,35 @@ providers:
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 11.0
   shared: 3
 - slug: microservice-architecture-patterns
   name: Micro-Service Architecture Patterns
   description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
   api_count: 0
   score_band: minimal
-  score_composite: 3.9
+  score_composite: 4.0
   shared: 3
 - slug: microservices-design-patterns
   name: Microservices Design Patterns
   description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
   api_count: 0
   score_band: minimal
-  score_composite: 1.6
+  score_composite: 1.7
   shared: 3
 - slug: amazon-well-architected-tool
   name: Amazon Well-Architected Tool
   description: The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural best practices. It provides a consistent process for evaluating architectures and implementing designs that scale over time acro…
   api_count: 1
   score_band: strong
-  score_composite: 57.9
+  score_composite: 56.4
   shared: 2
 - slug: secure-by-design
   name: Secure-By-Design
   description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
   api_count: 0
   score_band: minimal
-  score_composite: 3.0
+  score_composite: 3.1
   shared: 2
 - slug: services-patterns
   name: Services Patterns
@@ -90,6 +96,6 @@ providers:
   description: Monolithic Architecture is a software design approach in which an application is built as a single, unified unit where all components, business logic, data access, and user interface are tightly coupled and deployed together. It contrasts…
   api_count: 0
   score_band: minimal
-  score_composite: 1.6
+  score_composite: 1.7
   shared: 2
 ---

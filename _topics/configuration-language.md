@@ -44,6 +44,12 @@ apis:
   description: KDL is a node-oriented document language combining the readability of YAML and TOML with a unique tree-shaped grammar. KDL is used by Zellij, Helix, and other tools.
   url: https://kdl.dev/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/configuration-language/blob/main/plans/configuration-language-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/configuration-language/blob/main/rate-limits/configuration-language-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/configuration-language/blob/main/finops/configuration-language-finops.yml
 - type: IssueTracker
   url: https://github.com/toml-lang/toml/issues
 - type: Releases
@@ -66,28 +72,28 @@ providers:
   name: Cribl
   description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, an…
   api_count: 6
-  score_band: strong
-  score_composite: 54.4
+  score_band: developing
+  score_composite: 49.2
   shared: 2
 - slug: carvel
   name: Carvel
   description: Carvel is a set of reliable, single-purpose, composable command-line tools that help build, configure, and deploy applications to Kubernetes. The toolset includes ytt for YAML templating, kapp for application lifecycle management, kbld for…
   api_count: 7
   score_band: thin
-  score_composite: 38.5
+  score_composite: 37.2
   shared: 2
 - slug: capn-proto
   name: Cap'n Proto
   description: Cap'n Proto is an open-source binary data interchange format and capability-based RPC protocol specification originally created by Kenton Varda. Unlike Protocol Buffers, Cap'n Proto's in-memory representation is identical to its wire forma…
   api_count: 5
   score_band: emerging
-  score_composite: 14.1
+  score_composite: 12.6
   shared: 2
 - slug: kustomize
   name: Kustomize
   description: Kustomize is a Kubernetes-native configuration management tool that lets you customize untemplated YAML files for multiple purposes, leaving the original YAML intact and usable as-is, using a template-free approach to configuration customi…
   api_count: 1
   score_band: emerging
-  score_composite: 13.1
+  score_composite: 11.6
   shared: 2
 ---

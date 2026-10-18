@@ -98,13 +98,20 @@ links:
   url: https://github.com/microsoft
 - type: GitHubOrganization
   url: https://github.com/raml-org
-provider_count: 1
+provider_count: 2
 providers:
 - slug: apigovernance-dev
   name: APIGovernance.Dev
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 25.7
+  score_composite: 24.2
+  shared: 2
+- slug: design
+  name: Design
+  description: A curated index of services, tooling, and open source solutions for API design, specification editing, linting, and governance. This collection covers visual API designers, specification languages, linting and style guide tools, schema reg…
+  api_count: 0
+  score_band: minimal
+  score_composite: 1.7
   shared: 2
 ---

@@ -41,6 +41,14 @@ apis:
   description: Partition values for datasets.
   url: https://developer.finra.org/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/regulatory/blob/main/plans/regulatory-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/regulatory/blob/main/rate-limits/regulatory-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/regulatory/blob/main/finops/regulatory-finops.yml
+- type: BlogRSS
+  url: https://developer.finra.org/rss.xml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/regulatory/blob/main/agentic-access/regulatory-agentic-access.yml
 - type: DomainSecurity
@@ -69,28 +77,28 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/vocabulary/regulatory-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/examples/regulatory-compliance-check-finra-example.json
-provider_count: 233
+provider_count: 238
 providers:
 - slug: greenboard
   name: Greenboard
   description: Greenboard is an AI-native compliance software platform for SEC- and FINRA-regulated financial institutions, consolidating communications archiving, employee compliance monitoring, marketing/advertising review, firm-wide compliance managem…
   api_count: 0
   score_band: emerging
-  score_composite: 12.0
+  score_composite: 12.1
   shared: 5
 - slug: fenergo
   name: Fenergo
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 62.3
+  score_composite: 61.3
   shared: 4
 - slug: metricstream
   name: MetricStream
   description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
   api_count: 8
   score_band: thin
-  score_composite: 31.7
+  score_composite: 31.8
   shared: 4
 - slug: emtech
   name: EMTECH
@@ -111,49 +119,49 @@ providers:
   description: Hadrius is an AI-native compliance platform for SEC- and FINRA-regulated financial firms, including broker-dealers, registered investment advisors (RIAs), private funds, and compliance consultants. The platform consolidates multiple compli…
   api_count: 0
   score_band: emerging
-  score_composite: 14.4
+  score_composite: 14.5
   shared: 4
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
   api_count: 3
-  score_band: strong
-  score_composite: 64.0
+  score_band: exemplar
+  score_composite: 68.3
   shared: 3
 - slug: spektr
   name: Spektr
   description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring usi…
   api_count: 1
   score_band: developing
-  score_composite: 50.7
-  shared: 3
-- slug: vanta
-  name: Vanta
-  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.8
-  shared: 3
-- slug: openpages
-  name: OpenPages
-  description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.7
+  score_composite: 50.8
   shared: 3
 - slug: wegalvanize
   name: Wegalvanize
   description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
   api_count: 1
   score_band: developing
-  score_composite: 47.5
+  score_composite: 48.1
+  shared: 3
+- slug: openpages
+  name: OpenPages
+  description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.8
+  shared: 3
+- slug: vanta
+  name: Vanta
+  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.3
   shared: 3
 - slug: venminder-digital-comply
   name: Venminder (Digital Comply)
   description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitori…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 45.5
+  score_composite: 45.6
   shared: 3
 - slug: green-check-verified
   name: Green Check Verified
@@ -167,7 +175,14 @@ providers:
   description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
   api_count: 1
   score_band: developing
-  score_composite: 41.1
+  score_composite: 41.2
+  shared: 3
+- slug: regulation
+  name: Regulation
+  description: Regulation encompasses the rules, laws, and standards established by governments, agencies, and standards bodies that govern how businesses and individuals must operate. In the context of APIs and digital technology, regulation drives comp…
+  api_count: 3
+  score_band: thin
+  score_composite: 28.7
   shared: 3
 - slug: anitian
   name: Anitian
@@ -188,7 +203,14 @@ providers:
   description: Hummingbird RegTech, Inc. is a financial-crime compliance (RegTech) platform that unifies risk and compliance operations for banks, fintechs, and financial institutions. The product spans customer screening (sanctions, PEP, and adverse-med…
   api_count: 1
   score_band: emerging
-  score_composite: 22.3
+  score_composite: 22.4
+  shared: 3
+- slug: behavox
+  name: Behavox
+  description: Behavox is an AI-native compliance and conduct-surveillance software company serving the world's leading financial institutions and regulated enterprises. Its Unified AI Controls Platform spans directive, preventive, detective, and correct…
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.8
   shared: 3
 - slug: risk-ledger
   name: Risk Ledger
@@ -216,21 +238,14 @@ providers:
   description: Azimuth GRC provides automated compliance management software that transforms complex regulatory requirements into clear, actionable guidance. Their platform, VALIDATOR, offers real‑time monitoring, audit automation, and curated legal cont…
   api_count: 1
   score_band: emerging
-  score_composite: 20.1
-  shared: 3
-- slug: behavox
-  name: Behavox
-  description: Behavox is an AI-native compliance and conduct-surveillance software company serving the world's leading financial institutions and regulated enterprises. Its Unified AI Controls Platform spans directive, preventive, detective, and correct…
-  api_count: 0
-  score_band: emerging
-  score_composite: 19.2
+  score_composite: 20.2
   shared: 3
 - slug: hummingbird
   name: Hummingbird
   description: Hummingbird is an AI-powered compliance operations platform for financial institutions and fintechs. It automates customer screening (sanctions, PEP, and adverse-media checks), transaction monitoring for financial crime, investigations and…
   api_count: 0
   score_band: emerging
-  score_composite: 19.0
+  score_composite: 19.1
   shared: 3
 - slug: complybridge-inc
   name: ComplyBridge
@@ -244,7 +259,7 @@ providers:
   description: Wordsmith is an Edinburgh-based legal AI platform built for in-house legal teams, marketed as a Slack-native legal copilot that lets non-legal staff self-serve compliant answers, templates, and contract reviews directly in the tools they a…
   api_count: 2
   score_band: emerging
-  score_composite: 15.4
+  score_composite: 15.1
   shared: 3
 - slug: themis
   name: Themis
@@ -258,27 +273,20 @@ providers:
   description: Scytale is an AI-powered Governance, Risk, and Compliance (GRC) platform that automates security compliance for cloud and SaaS companies. It combines AI agents with in-house compliance experts to automate evidence collection, continuous co…
   api_count: 0
   score_band: emerging
-  score_composite: 14.0
-  shared: 3
-- slug: norm-ai
-  name: Norm Ai
-  description: Norm Ai (legal name Nomos AI, Inc.) is a legal and compliance AI company that embeds law and regulation directly into autonomous AI agents. Its platform spans Norm Law (an AI-native law firm), Norm Technology (domain-expert-built complianc…
-  api_count: 0
-  score_band: emerging
-  score_composite: 13.1
+  score_composite: 14.1
   shared: 3
 - slug: diligent-boards
   name: Diligent
   description: Diligent Corporation is a governance, risk, and compliance (GRC) software company best known for its board management portal (Diligent Boards / Boardbooks) and the broader Diligent One Platform, which unifies board management, enterprise r…
   api_count: 4
   score_band: emerging
-  score_composite: 13.0
+  score_composite: 13.5
   shared: 3
-- slug: umony
-  name: Umony
-  description: Umony is a London-based communications compliance platform, founded in 2017 and backed by Seedcamp, that captures, records, and archives employee voice calls, SMS, WhatsApp, and Microsoft Teams conversations at the telecom-network level fo…
+- slug: norm-ai
+  name: Norm Ai
+  description: Norm Ai (legal name Nomos AI, Inc.) is a legal and compliance AI company that embeds law and regulation directly into autonomous AI agents. Its platform spans Norm Law (an AI-native law firm), Norm Technology (domain-expert-built complianc…
   api_count: 0
   score_band: emerging
-  score_composite: 13.0
+  score_composite: 13.2
   shared: 3
 ---

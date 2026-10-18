@@ -15,6 +15,12 @@ apis:
   description: Placing and managing of orders placed for products.
   url: https://example.com/apis.yml
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/orders-api/blob/main/plans/orders-api-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/orders-api/blob/main/rate-limits/orders-api-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/orders-api/blob/main/finops/orders-api-finops.yml
 - type: AgenticAccess
   url: https://github.com/api-evangelist/orders-api/blob/main/agentic-access/orders-api-agentic-access.yml
 - type: Authentication

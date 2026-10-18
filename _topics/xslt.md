@@ -25,6 +25,12 @@ apis:
   description: XSLT 1.0 is the foundational W3C Recommendation for XSL Transformations, published November 16, 1999. It established the template-based transformation model using XPath 1.0 for node selection. XSLT 1.0 is still widely supported by all majo…
   url: https://www.w3.org/TR/xslt-10/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/xslt/blob/main/plans/xslt-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/xslt/blob/main/rate-limits/xslt-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/xslt/blob/main/finops/xslt-finops.yml
 - type: IssueTracker
   url: https://github.com/Saxonica/Saxon-HE/issues
 - type: Releases
@@ -64,21 +70,21 @@ providers:
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 51.7
+  score_composite: 50.2
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.6
+  score_composite: 45.7
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 27.7
   shared: 2
 - slug: mismo
   name: MISMO

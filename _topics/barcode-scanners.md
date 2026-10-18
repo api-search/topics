@@ -26,6 +26,12 @@ apis:
   description: Search and validate EAN-13, UPC-A, and ISBN codes with product information lookup and barcode validation services.
   url: https://www.ean-search.org/
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/barcode-scanners/blob/main/plans/barcode-scanners-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/barcode-scanners/blob/main/rate-limits/barcode-scanners-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/barcode-scanners/blob/main/finops/barcode-scanners-finops.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/barcode-scanners/blob/main/security/barcode-scanners-domain-security.yml
 - type: Website
@@ -38,42 +44,42 @@ links:
   url: https://github.com/api-evangelist/barcode-scanners/blob/main/vocabulary/barcode-scanners-vocabulary.yaml
 - type: JSONLD
   url: https://github.com/api-evangelist/barcode-scanners/blob/main/json-ld/barcode-scanners-context.jsonld
-provider_count: 138
+provider_count: 142
 providers:
 - slug: optoro
   name: Optoro
   description: Optoro is a returns management and reverse-logistics software company (Washington, DC; acquired by Blue Yonder in August 2025) whose OptiTurn platform powers the full returns lifecycle for retailers, brands and 3PLs — a shopper-facing retu…
-  api_count: 34
+  api_count: 38
   score_band: strong
-  score_composite: 61.8
+  score_composite: 61.9
   shared: 3
 - slug: leaflink
   name: LeafLink
   description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
   api_count: 2
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.5
   shared: 3
 - slug: walmart
   name: Walmart
   description: Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers fro…
   api_count: 27
   score_band: strong
-  score_composite: 60.9
+  score_composite: 59.4
   shared: 3
 - slug: tailor
   name: Tailor
   description: Tailor Technologies builds Tailor Platform, a headless, API-first ERP for retail, e-commerce and manufacturing operators. Its control plane is exposed as a single 254-RPC ConnectRPC service published as Protocol Buffers, and every applicat…
   api_count: 3
   score_band: strong
-  score_composite: 54.8
+  score_composite: 54.9
   shared: 3
 - slug: relex
   name: RELEX Solutions
   description: RELEX Solutions is a Helsinki-headquartered supply chain and retail planning software company whose unified platform covers demand forecasting, inventory and replenishment, space and assortment, pricing and promotions, workforce and store…
   api_count: 2
   score_band: developing
-  score_composite: 53.3
+  score_composite: 53.4
   shared: 3
 - slug: nabis
   name: Nabis
@@ -87,14 +93,14 @@ providers:
   description: Happy Cabbage Analytics is a cannabis retail software company founded in 2019 and headquartered in San Francisco, California, whose Happy Buyers platform gives dispensary buyers AI-assisted inventory management, demand forecasting, repleni…
   api_count: 2
   score_band: thin
-  score_composite: 35.1
+  score_composite: 35.2
   shared: 3
 - slug: prediko
   name: Prediko
   description: Prediko is an AI-powered inventory management and planning platform for Shopify D2C and B2B brands, covering demand forecasting, supply and replenishment planning, purchase-order management, raw-materials and bill-of-materials tracking, an…
   api_count: 1
   score_band: thin
-  score_composite: 30.3
+  score_composite: 34.6
   shared: 3
 - slug: warego
   name: WareGo
@@ -124,54 +130,54 @@ providers:
   score_band: emerging
   score_composite: 12.9
   shared: 3
+- slug: ailumia
+  name: Ailumia
+  description: Ailumia is an AI-driven retail operations platform that helps brands and sellers grow on the world's most valuable marketplaces, with a focus on Amazon. The platform applies artificial intelligence across the retail workflow to manage mark…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.3
+  shared: 3
 - slug: stockly
   name: Stockly
   description: Stockly (Stockly SAS, headquartered in Vitry-sur-Seine, France) operates a global inventory network for e-commerce, positioning itself as "the first global inventory for Retail." It connects online retailers that are missing stock (Demande…
   api_count: 0
   score_band: emerging
-  score_composite: 11.2
+  score_composite: 11.3
   shared: 3
 - slug: autone
   name: autone
   description: autone is an AI-powered inventory management platform for retail brands, blending machine-driven recommendations with merchandising expertise and a brand's own data to optimize stock decisions across buying, reordering, replenishment, and…
   api_count: 0
   score_band: minimal
-  score_composite: 10.0
+  score_composite: 10.1
   shared: 3
 - slug: another
   name: Another
   description: Another is an AI-native software platform that modernizes off-channel and off-price inventory operations for fashion, beauty, and retail brands. Founded in 2024 by Corina Marshall, the platform connects to a retailer's existing systems - i…
   api_count: 0
   score_band: minimal
-  score_composite: 9.9
+  score_composite: 10.0
   shared: 3
 - slug: afresh-technologies
   name: Afresh Technologies
   description: Afresh Technologies builds an AI platform for grocery retail that helps supermarkets and distributors manage fresh food, reducing shrink, improving in-stock rates, and cutting food waste across store ordering, inventory management, product…
   api_count: 0
   score_band: minimal
-  score_composite: 9.4
-  shared: 3
-- slug: ailumia
-  name: Ailumia
-  description: Ailumia is an AI-driven retail operations platform that helps brands and sellers grow on the world's most valuable marketplaces, with a focus on Amazon. The platform applies artificial intelligence across the retail workflow to manage mark…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.3
+  score_composite: 9.5
   shared: 3
 - slug: shelf-engine
   name: Shelf Engine
   description: Shelf Engine was a Seattle-based technology company that used machine learning and AI-driven demand forecasting to help grocery retailers reduce food waste and optimize ordering of perishable and fresh food items. It offered a guaranteed-o…
   api_count: 0
   score_band: minimal
-  score_composite: 3.3
+  score_composite: 3.4
   shared: 3
 - slug: syrup
   name: Syrup
   description: Syrup (Syrup Tech) is an AI-powered inventory optimization and demand-forecasting platform for retail and apparel brands. Its machine-learning decision-support engine combines transactional, marketing, and inventory data with external sign…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 3
 - slug: vue
   name: Vue
@@ -183,16 +189,16 @@ providers:
 - slug: lightspeed
   name: Lightspeed Commerce
   description: Omnichannel commerce platform with REST APIs for retail and restaurant POS, inventory management, loyalty programs, and e-commerce integrations. Lightspeed serves retailers and restaurateurs with cloud-based point-of-sale systems, enabling…
-  api_count: 2
+  api_count: 3
   score_band: exemplar
-  score_composite: 78.8
+  score_composite: 83.8
   shared: 2
 - slug: square
   name: Square
   description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
   api_count: 1
   score_band: exemplar
-  score_composite: 75.4
+  score_composite: 78.1
   shared: 2
 - slug: katana
   name: Katana
@@ -201,33 +207,47 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 2
+- slug: crunchtime
+  name: Crunchtime
+  description: Crunchtime (CrunchTime! Information Systems) is an AI-powered restaurant operations management platform used by 850+ multi-unit restaurant brands across 150,000+ locations to run inventory and food-cost control, labor and scheduling, opera…
+  api_count: 4
+  score_band: strong
+  score_composite: 59.6
+  shared: 2
 - slug: erply
   name: Erply
   description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more st…
   api_count: 4
   score_band: strong
-  score_composite: 58.8
+  score_composite: 59.5
+  shared: 2
+- slug: sps-commerce
+  name: SPS Commerce
+  description: SPS Commerce (Minneapolis, MN) is a retail supply-chain network and cloud services company offering EDI, sales and item data solutions that connect suppliers, retailers, distributors, 3PLs and logistics providers across 300,000+ trading re…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.5
   shared: 2
 - slug: depop
   name: depop
   description: 'Depop is a peer-to-peer fashion marketplace where people buy, sell and discover secondhand and unique clothing. Its Selling API is an enterprise partner API that lets approved partners automate the seller experience on Depop: create and ma…'
   api_count: 1
   score_band: strong
-  score_composite: 57.6
+  score_composite: 57.7
+  shared: 2
+- slug: crunchtime-information-systems
+  name: Crunchtime Information Systems
+  description: Crunchtime (Crunchtime Information Systems) is a Boston-based provider of AI-powered operations-management software for multi-unit restaurants, founded in 1995 and serving 850+ restaurant brands across 150,000+ locations. Its platform unif…
+  api_count: 4
+  score_band: strong
+  score_composite: 56.3
   shared: 2
 - slug: inspectorio
   name: Inspectorio
   description: Inspectorio is a supply-chain management software platform that helps brands, retailers, suppliers, and laboratories digitize and optimize production across quality risk management, responsible sourcing & compliance, production management,…
   api_count: 3
   score_band: strong
-  score_composite: 55.7
-  shared: 2
-- slug: bringg
-  name: Bringg
-  description: Bringg is a last-mile delivery and fulfillment orchestration platform headquartered in Tel Aviv (founded 2013, CEO Guy Bloch). The Bringg platform combines modular software (Shopping Experience, Plan, Dispatch, Drive, Delivery Experience,…
-  api_count: 3
-  score_band: strong
-  score_composite: 55.0
+  score_composite: 55.8
   shared: 2
 - slug: channelengine
   name: ChannelEngine
@@ -235,19 +255,5 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 54.7
-  shared: 2
-- slug: liquidonate
-  name: LiquiDonate
-  description: LiquiDonate is a San Francisco based reverse-logistics and donation-disposition platform that turns retail returns, excess inventory and unsellable goods into local nonprofit donations instead of landfill or liquidation. Its matching engin…
-  api_count: 2
-  score_band: developing
-  score_composite: 54.2
-  shared: 2
-- slug: shipmonk
-  name: ShipMonk
-  description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order manage…
-  api_count: 6
-  score_band: developing
-  score_composite: 53.8
   shared: 2
 ---

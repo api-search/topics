@@ -24,6 +24,12 @@ apis:
   description: The All Contributors specification defines a JSON schema (in .all-contributorsrc) plus a Markdown rendering convention that captures every contributor name, GitHub login, avatar URL, profile URL, and the list of contribution types using a…
   url: https://allcontributors.org/docs/en/specification
 links:
+- type: Plans
+  url: https://github.com/api-evangelist/contributors-md/blob/main/plans/contributors-md-plans-pricing.yml
+- type: RateLimits
+  url: https://github.com/api-evangelist/contributors-md/blob/main/rate-limits/contributors-md-rate-limits.yml
+- type: FinOps
+  url: https://github.com/api-evangelist/contributors-md/blob/main/finops/contributors-md-finops.yml
 - type: Website
   url: https://www.allcontributors.org/
 - type: IssueTracker
@@ -46,7 +52,7 @@ links:
   url: https://allcontributors.org/docs/en/emoji-key
 - type: Repository
   url: https://github.com/all-contributors/all-contributors
-provider_count: 37
+provider_count: 48
 providers:
 - slug: contributing-md
   name: CONTRIBUTING.md
@@ -59,29 +65,29 @@ providers:
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
-  score_band: developing
-  score_composite: 39.6
+  score_band: thin
+  score_composite: 38.1
   shared: 3
 - slug: vitepress
   name: VitePress
   description: VitePress is a Vite and Vue powered static site generator widely used for developer documentation. It converts Markdown content into fast, beautiful documentation sites with support for Vue components embedded directly in Markdown pages. V…
   api_count: 2
   score_band: emerging
-  score_composite: 18.4
+  score_composite: 16.9
   shared: 3
 - slug: changelog-md
   name: CHANGELOG.md (Keep a Changelog)
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a…
   api_count: 0
   score_band: emerging
-  score_composite: 13.3
+  score_composite: 13.4
   shared: 3
 - slug: mkdocs
   name: MkDocs
   description: MkDocs is a fast, simple, and beautiful static site generator designed for building project documentation from Markdown source files. Written in Python, it reads a single YAML configuration file (mkdocs.yml) and converts a directory of Mar…
   api_count: 0
   score_band: emerging
-  score_composite: 11.9
+  score_composite: 12.0
   shared: 3
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
@@ -94,22 +100,22 @@ providers:
   name: Common Room
   description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST…
   api_count: 3
-  score_band: exemplar
-  score_composite: 67.2
-  shared: 2
-- slug: customeros
-  name: CustomerOS
-  description: CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, a…
-  api_count: 10
   score_band: strong
-  score_composite: 54.9
+  score_composite: 65.7
   shared: 2
 - slug: crowddev
   name: Crowd.dev
   description: Crowd.dev is an open-source developer data platform that centralizes community, product, and commercial data to unify contributor identities, resolve who is engaging with an open-source project, and activate that data for developer relatio…
   api_count: 7
+  score_band: strong
+  score_composite: 56.4
+  shared: 2
+- slug: customeros
+  name: CustomerOS
+  description: CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, a…
+  api_count: 10
   score_band: developing
-  score_composite: 54.2
+  score_composite: 53.4
   shared: 2
 - slug: hackmd
   name: HackMD
@@ -118,13 +124,6 @@ providers:
   score_band: developing
   score_composite: 50.0
   shared: 2
-- slug: radio-browser
-  name: Radio Browser
-  description: Radio Browser is a free, community-driven directory of internet radio stations. The project publishes a public REST API exposing the full catalog of stations along with category aggregates (countries, states, languages, tags, codecs), clic…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.5
-  shared: 2
 - slug: pokeapi
   name: PokéAPI
   description: PokéAPI (pokeapi.co) is a free, open-source RESTful and GraphQL API serving comprehensive Pokémon data — including Pokémon species, abilities, moves, items, types, locations, evolution chains, encounters, berries, contests, games, and mach…
@@ -132,130 +131,137 @@ providers:
   score_band: developing
   score_composite: 42.4
   shared: 2
+- slug: crowdsec
+  name: Crowdsec
+  description: CrowdSec provides curated threat intelligence and a collaborative security platform that leverages community‑driven data to block malicious IPs, detect attacks, and automate response. Their solutions include open‑source agents, a SaaS cons…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.3
+  shared: 2
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 41.9
+  score_composite: 40.5
+  shared: 2
+- slug: radio-browser
+  name: Radio Browser
+  description: Radio Browser is a free, community-driven directory of internet radio stations. The project publishes a public REST API exposing the full catalog of stations along with category aggregates (countries, states, languages, tags, codecs), clic…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.6
   shared: 2
 - slug: lemmy
   name: Lemmy
   description: Lemmy is a free, open-source, self-hostable federated link aggregator and discussion platform built as a Reddit alternative. It exposes a versioned REST API at /api/v4/ for creating posts, commenting, managing communities, voting, searchin…
   api_count: 1
-  score_band: developing
-  score_composite: 41.8
-  shared: 2
-- slug: spacex
-  name: SpaceX (Community API)
-  description: Community-maintained, open-source REST and GraphQL API for SpaceX data — launches, rockets, capsules, cores, crew, dragons, payloads, ships, landpads, launchpads, Starlink satellites, the Tesla Roadster ephemeris, company info, and histori…
-  api_count: 15
   score_band: thin
-  score_composite: 36.6
-  shared: 2
-- slug: apigen
-  name: APIGen
-  description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and in…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.6
-  shared: 2
-- slug: discourse
-  name: Discourse
-  description: At Discourse, our mission is to democratize online community and teamwork by raising the standard of civilized discourse on the Internet. We achieve this through delivering the best community and forum software. The Discourse API exposes a…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.6
-  shared: 2
-- slug: ikea
-  name: IKEA
-  description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
-  api_count: 4
-  score_band: thin
-  score_composite: 32.7
-  shared: 2
-- slug: todo-group
-  name: TODO Group
-  description: The TODO Group is an open community of practitioners under the Linux Foundation who collaborate on best practices, tools, and guidance for running successful Open Source Program Offices (OSPOs). It provides open source tooling including Re…
-  api_count: 5
-  score_band: thin
-  score_composite: 31.3
-  shared: 2
-- slug: tinacms
-  name: TinaCMS
-  description: TinaCMS is an open-source, Git-backed headless CMS that provides a GraphQL Content API for managing Markdown, MDX, and JSON content stored in Git repositories. It enables real-time visual editing for Next.js, Astro, and other frameworks, w…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.7
-  shared: 2
-- slug: travis-ci
-  name: Travis CI
-  description: 'Travis CI is a hosted continuous integration service supporting GitHub, GitLab and Bitbucket. Two REST APIs are available: the legacy v2/v2.1 API (deprecated) and the current v3 API used by the web UI. Travis CI is also available as Enterp…'
-  api_count: 1
-  score_band: thin
-  score_composite: 30.4
-  shared: 2
-- slug: apis-guru
-  name: APIs.guru
-  description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
-  api_count: 1
-  score_band: thin
-  score_composite: 29.7
-  shared: 2
-- slug: bored
-  name: Bored API
-  description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew T…
-  api_count: 2
-  score_band: thin
-  score_composite: 28.5
-  shared: 2
-- slug: evidence-dev
-  name: Evidence
-  description: Evidence is an open-source (MIT) business-intelligence-as-code framework that turns SQL queries plus Markdown into fast, version-controlled static data apps and dashboards. It is built on Svelte/Vite, runs queries through a DuckDB-WASM "Un…
-  api_count: 1
-  score_band: thin
-  score_composite: 27.9
+  score_composite: 34.3
   shared: 2
 - slug: fern-api
   name: Fern
   description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
   api_count: 1
   score_band: thin
-  score_composite: 26.6
+  score_composite: 34.2
+  shared: 2
+- slug: apigen
+  name: APIGen
+  description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and in…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.1
+  shared: 2
+- slug: discourse
+  name: Discourse
+  description: At Discourse, our mission is to democratize online community and teamwork by raising the standard of civilized discourse on the Internet. We achieve this through delivering the best community and forum software. The Discourse API exposes a…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.1
+  shared: 2
+- slug: ikea
+  name: IKEA
+  description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
+  api_count: 4
+  score_band: thin
+  score_composite: 32.8
+  shared: 2
+- slug: spacex
+  name: SpaceX (Community API)
+  description: Community-maintained, open-source REST and GraphQL API for SpaceX data — launches, rockets, capsules, cores, crew, dragons, payloads, ships, landpads, launchpads, Starlink satellites, the Tesla Roadster ephemeris, company info, and histori…
+  api_count: 15
+  score_band: thin
+  score_composite: 31.8
+  shared: 2
+- slug: apis-guru
+  name: APIs.guru
+  description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
+  api_count: 2
+  score_band: thin
+  score_composite: 31.3
+  shared: 2
+- slug: apiaddicts
+  name: apIAddicts
+  description: Fundación apIAddicts (API Addicts) is a Spain-based non-profit foundation and community of API and AI practitioners that has been connecting people and companies around APIs, MCP and AI since 2013. It runs the apIAddictsDay events (Spain a…
+  api_count: 4
+  score_band: thin
+  score_composite: 29.9
+  shared: 2
+- slug: travis-ci
+  name: Travis CI
+  description: 'Travis CI is a hosted continuous integration service supporting GitHub, GitLab and Bitbucket. Two REST APIs are available: the legacy v2/v2.1 API (deprecated) and the current v3 API used by the web UI. Travis CI is also available as Enterp…'
+  api_count: 1
+  score_band: thin
+  score_composite: 28.9
+  shared: 2
+- slug: bored
+  name: Bored API
+  description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew T…
+  api_count: 2
+  score_band: thin
+  score_composite: 28.6
+  shared: 2
+- slug: project-nessie
+  name: Project Nessie
+  description: Project Nessie is an open-source project providing a transactional catalog for data lakes, offering Git‑like semantics for versioned data. It enables users to manage and query data across multiple storage systems, supports branching, taggi…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.7
+  shared: 2
+- slug: ckan
+  name: CKAN
+  description: CKAN is an open-source data management system that powers data portals and hubs worldwide. It enables organizations to publish, share, and use data efficiently, supporting governments, enterprises, and communities across the globe. CKAN pr…
+  api_count: 4
+  score_band: thin
+  score_composite: 27.3
+  shared: 2
+- slug: todo-group
+  name: TODO Group
+  description: The TODO Group is an open community of practitioners under the Linux Foundation who collaborate on best practices, tools, and guidance for running successful Open Source Program Offices (OSPOs). It provides open source tooling including Re…
+  api_count: 5
+  score_band: thin
+  score_composite: 26.2
   shared: 2
 - slug: slate
   name: Slate
   description: Slate is an open-source tool for creating beautiful, three-panel API documentation from Markdown. Built on Ruby and Middleman, Slate renders a left-side navigation menu, a center documentation panel, and a right-side code sample panel. It…
   api_count: 1
   score_band: emerging
-  score_composite: 25.6
+  score_composite: 24.1
   shared: 2
-- slug: bookstack
-  name: BookStack
-  description: BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments,…
+- slug: tinacms
+  name: TinaCMS
+  description: TinaCMS is an open-source, Git-backed headless CMS that provides a GraphQL Content API for managing Markdown, MDX, and JSON content stored in Git repositories. It enables real-time visual editing for Next.js, Astro, and other frameworks, w…
   api_count: 1
-  score_band: emerging
-  score_composite: 24.3
-  shared: 2
-- slug: nextra
-  name: Nextra
-  description: Nextra is an open-source, Next.js-based documentation framework for building fast, modern, and beautifully styled documentation sites. It extends Next.js with MDX support, file-system routing, built-in search powered by Pagefind, syntax hi…
-  api_count: 3
   score_band: emerging
   score_composite: 22.4
   shared: 2
-- slug: docusaurus
-  name: Docusaurus
-  description: Docusaurus is an open-source static site generator built by Meta for creating documentation websites. Powered by React, it supports MDX, versioning, internationalization, search, and a plugin ecosystem, making it a popular choice for open-…
+- slug: seeed-studio
+  name: Seeed Studio
+  description: Seeed Studio is a global IoT hardware enabler offering a wide range of open‑source hardware, development boards, sensors, and modules. Founded in 2010, it supports makers, startups, and enterprises with products like the Wio Terminal, Grov…
   api_count: 1
   score_band: emerging
-  score_composite: 22.1
-  shared: 2
-- slug: logseq
-  name: Logseq
-  description: Logseq is a privacy-first, open-source platform for knowledge management and collaboration, built around a local-first outliner that stores notes as plain Markdown and Org-mode files linked into a personal knowledge graph. Its developer su…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.3
+  score_composite: 21.8
   shared: 2
 ---
