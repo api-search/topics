@@ -228,13 +228,6 @@ providers:
   score_band: thin
   score_composite: 39.1
   shared: 2
-- slug: empatica
-  name: Empatica
-  description: Empatica Inc. is an MIT Media Lab spinoff, founded in Cambridge, Massachusetts, that builds FDA-cleared medical wearables — EmbracePlus, EmbraceMini and the EpiMonitor epilepsy monitoring system — together with the Empatica Health Monitori…
-  api_count: 3
-  score_band: thin
-  score_composite: 38.6
-  shared: 2
 - slug: eko-health
   name: Eko Health
   description: Eko Health Inc. is an Oakland, California digital health company that builds FDA-cleared digital stethoscopes (CORE 500, CORE Digital Attachment, DUO, and the 3M Littmann CORE) together with cloud software and AI algorithms for the detecti…
