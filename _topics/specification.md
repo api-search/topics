@@ -52,15 +52,8 @@ links:
   url: https://openapi.tools/
 - type: Specification
   url: https://spec.openapis.org/oas/latest.html
-provider_count: 50
+provider_count: 49
 providers:
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 6
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…

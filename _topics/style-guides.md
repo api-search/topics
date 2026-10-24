@@ -82,7 +82,7 @@ links:
   url: https://github.com/api-evangelist/rules
 - type: RelatedTopic
   url: https://github.com/api-evangelist/policies
-provider_count: 119
+provider_count: 118
 providers:
 - slug: stoplight
   name: Stoplight
@@ -132,13 +132,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 21.6
-  shared: 4
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 4
 - slug: postman
   name: Postman

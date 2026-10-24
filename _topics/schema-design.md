@@ -53,7 +53,7 @@ links:
   url: https://github.com/api-evangelist/schema-design/blob/main/json-ld/schema-design-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/schema-design/blob/main/vocabulary/schema-design-vocabulary.yml
-provider_count: 27
+provider_count: 26
 providers:
 - slug: postman
   name: Postman
@@ -82,13 +82,6 @@ providers:
   api_count: 6
   score_band: emerging
   score_composite: 15.3
-  shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 3
 - slug: jargon
   name: Jargon

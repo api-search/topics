@@ -61,7 +61,7 @@ links:
   url: https://github.com/api-evangelist/templates/blob/main/json-schema/templates-template-schema.json
 - type: Vocabulary
   url: https://github.com/api-evangelist/templates/blob/main/vocabulary/templates-vocabulary.yml
-provider_count: 111
+provider_count: 110
 providers:
 - slug: stoplight
   name: Stoplight
@@ -139,13 +139,6 @@ providers:
   api_count: 6
   score_band: emerging
   score_composite: 15.3
-  shared: 4
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 4
 - slug: scalar
   name: Scalar

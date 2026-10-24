@@ -75,8 +75,6 @@ links:
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/linting/refs/heads/main/vocabulary/linting-vocabulary.yml
 - type: RelatedRepository
-  url: https://github.com/api-evangelist/spotlight-rules
-- type: RelatedRepository
   url: https://github.com/api-evangelist/spectral
 - type: RelatedRepository
   url: https://github.com/api-evangelist/vacuum
@@ -86,7 +84,7 @@ links:
   url: https://github.com/api-evangelist/optic
 - type: RelatedRepository
   url: https://github.com/api-evangelist/stoplight
-provider_count: 36
+provider_count: 35
 providers:
 - slug: spectral
   name: Spectral
@@ -95,13 +93,6 @@ providers:
   score_band: emerging
   score_composite: 20.5
   shared: 7
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 6
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…

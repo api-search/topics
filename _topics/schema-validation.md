@@ -69,7 +69,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/vocabulary/schema-validation-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/examples/schema-validation-ajv-example.json
-provider_count: 19
+provider_count: 18
 providers:
 - slug: optic
   name: Optic
@@ -84,13 +84,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 17.7
-  shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 3
 - slug: apis-io
   name: APIs.io

@@ -83,7 +83,7 @@ links:
   url: https://github.com/api-evangelist/agent-readiness/blob/main/json-ld/agent-readiness-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/agent-readiness/blob/main/vocabulary/agent-readiness-vocabulary.yaml
-provider_count: 420
+provider_count: 419
 providers:
 - slug: apis-io
   name: APIs.io
@@ -238,13 +238,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 17.6
-  shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 3
 - slug: tray-ai
   name: Tray.ai

@@ -39,7 +39,7 @@ links:
   url: https://github.com/api-evangelist/api-first/blob/main/llms/api-first-llms.txt
 - type: Documentation
   url: https://nordicapis.com/a-software-architects-guide-to-api-first-strategy/
-provider_count: 10
+provider_count: 9
 providers:
 - slug: postman
   name: Postman
@@ -82,13 +82,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 19.0
-  shared: 2
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 2
 - slug: design-patterns
   name: Design Patterns

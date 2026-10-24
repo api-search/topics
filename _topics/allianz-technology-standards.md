@@ -68,7 +68,7 @@ links:
   url: https://github.com/api-evangelist/allianz-technology-standards/blob/main/errors/allianz-technology-standards-problem-types.yml
 - type: Lifecycle
   url: https://github.com/api-evangelist/allianz-technology-standards/blob/main/lifecycle/allianz-technology-standards-lifecycle.yml
-provider_count: 23
+provider_count: 22
 providers:
 - slug: apigovernance-dev
   name: APIGovernance.Dev
@@ -181,13 +181,6 @@ providers:
   api_count: 6
   score_band: emerging
   score_composite: 15.3
-  shared: 2
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 2
 - slug: connexion
   name: Connexion

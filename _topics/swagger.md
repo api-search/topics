@@ -72,7 +72,7 @@ links:
   url: https://community.smartbear.com/
 - type: Twitter
   url: https://twitter.com/SwaggerApi
-provider_count: 120
+provider_count: 119
 providers:
 - slug: openapi-generator
   name: OpenAPI Generator
@@ -206,13 +206,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 14.9
-  shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
   shared: 3
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
