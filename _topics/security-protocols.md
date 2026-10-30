@@ -14,7 +14,7 @@ repo: https://github.com/api-evangelist/security-protocols
 api_count: 0
 apis: []
 links: []
-provider_count: 132
+provider_count: 135
 providers:
 - slug: via-science
   name: Via Science
@@ -23,19 +23,19 @@ providers:
   score_band: thin
   score_composite: 35.9
   shared: 3
+- slug: vpn
+  name: VPN
+  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corpor…
+  api_count: 6
+  score_band: thin
+  score_composite: 31.8
+  shared: 3
 - slug: virgil-security
   name: Virgil Security
   description: Virgil Security is an end-to-end encryption and key-management platform for developers. It ships client SDKs and JWT-authenticated cloud services that let applications add end-to-end encryption for messaging and files (E3Kit), breach-proof…
   api_count: 1
   score_band: thin
   score_composite: 31.5
-  shared: 3
-- slug: vpn
-  name: VPN
-  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corpor…
-  api_count: 6
-  score_band: thin
-  score_composite: 30.4
   shared: 3
 - slug: paubox
   name: Paubox
@@ -49,7 +49,7 @@ providers:
   description: 'AWS VPN solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS offers two types of private connectivity: AWS Site-to-Site VPN and AWS Client VPN, enabling encryp…'
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 73.3
   shared: 2
 - slug: aembit
   name: Aembit
@@ -63,19 +63,19 @@ providers:
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign…
   api_count: 7
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 70.5
   shared: 2
 - slug: auth0
   name: Auth0
   description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 70.4
   shared: 2
 - slug: strivacity
   name: Strivacity
   description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers regi…
-  api_count: 12
+  api_count: 8
   score_band: exemplar
   score_composite: 68.5
   shared: 2
@@ -110,9 +110,9 @@ providers:
 - slug: microsoft-azure-private-link
   name: Microsoft Azure Private Link
   description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 63.3
+  score_composite: 62.8
   shared: 2
 - slug: cisco-umbrella
   name: Cisco Umbrella
@@ -126,12 +126,12 @@ providers:
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 62.0
   shared: 2
 - slug: stytch
   name: Stytch
   description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 60.4
   shared: 2
@@ -142,10 +142,24 @@ providers:
   score_band: strong
   score_composite: 58.7
   shared: 2
+- slug: evervault
+  name: Evervault
+  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption k…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
+  shared: 2
+- slug: microsoft-entra
+  name: Microsoft Entra
+  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
+  shared: 2
 - slug: cisco-psirt
   name: Cisco PSIRT openVuln API
   description: The Cisco Product Security Incident Response Team (PSIRT) openVuln API is Cisco's machine-readable vulnerability disclosure service. It lets security teams query Cisco security advisories by CVE, advisory ID, severity, publication date, af…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.9
   shared: 2
@@ -156,24 +170,17 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 2
-- slug: evervault
-  name: Evervault
-  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption k…
+- slug: amazon-iam
+  name: Amazon IAM
+  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
   api_count: 1
   score_band: strong
-  score_composite: 57.4
+  score_composite: 57.3
   shared: 2
 - slug: cisco-secure-firewall
   name: Cisco Secure Firewall
   description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
-  api_count: 18
-  score_band: strong
-  score_composite: 57.0
-  shared: 2
-- slug: microsoft-entra
-  name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
-  api_count: 1
+  api_count: 14
   score_band: strong
   score_composite: 57.0
   shared: 2
@@ -182,21 +189,14 @@ providers:
   description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via…
   api_count: 1
   score_band: strong
-  score_composite: 56.5
+  score_composite: 56.7
   shared: 2
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
   description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles c…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
-  shared: 2
-- slug: amazon-iam
-  name: Amazon IAM
-  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.9
+  score_composite: 56.5
   shared: 2
 - slug: barndoor
   name: Barndoor
@@ -208,16 +208,9 @@ providers:
 - slug: typingdna
   name: TypingDNA
   description: TypingDNA provides AI-based typing biometrics authentication, recognizing people by how they type on desktop and mobile keyboards. Its RESTful Authentication API enrolls and verifies typing patterns for fraud prevention, account-sharing de…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 54.7
-  shared: 2
-- slug: neutrino-api
-  name: Neutrino API
-  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
-  api_count: 4
-  score_band: strong
-  score_composite: 54.6
   shared: 2
 - slug: cisco
   name: Cisco
@@ -225,5 +218,12 @@ providers:
   api_count: 9
   score_band: strong
   score_composite: 54.3
+  shared: 2
+- slug: neutrino-api
+  name: Neutrino API
+  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
+  api_count: 2
+  score_band: developing
+  score_composite: 54.1
   shared: 2
 ---

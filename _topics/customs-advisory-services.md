@@ -7,7 +7,7 @@ description: Customs advisory services help importers, exporters, and trade prof
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/customs-advisory-services.png
 tags:
 - Advisory Services
-- Country of Origin
+- Country Of Origin
 - Customs
 - Customs Brokers
 - Customs Rulings
@@ -73,7 +73,7 @@ providers:
 - slug: aeb
   name: AEB
   description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
-  api_count: 13
+  api_count: 11
   score_band: thin
   score_composite: 31.2
   shared: 3

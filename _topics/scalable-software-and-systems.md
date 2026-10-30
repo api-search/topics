@@ -83,14 +83,14 @@ links:
   url: https://github.com/api-evangelist/scalable-software-and-systems/blob/main/examples/scalable-software-and-systems-order-placed-event-example.json
 - type: Examples
   url: https://github.com/api-evangelist/scalable-software-and-systems/blob/main/examples/scalable-software-and-systems-temporal-workflow-example.json
-provider_count: 32
+provider_count: 33
 providers:
 - slug: axon-framework
   name: Axon Framework
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 33.1
   shared: 3
 - slug: eventuate
   name: Eventuate
@@ -125,7 +125,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 2
 - slug: apigee
   name: Apigee
@@ -141,19 +141,19 @@ providers:
   score_band: strong
   score_composite: 57.2
   shared: 2
+- slug: zeebe
+  name: Zeebe
+  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.4
+  shared: 2
 - slug: microsoft-azure-integration-services
   name: Microsoft Azure Integration Services
   description: Microsoft Azure Integration Services is a collection of cloud-based integration capabilities that connect applications, data, and processes across cloud and on-premises environments. It includes API Management, Logic Apps, Service Bus, Eve…
   api_count: 6
   score_band: developing
   score_composite: 47.8
-  shared: 2
-- slug: zeebe
-  name: Zeebe
-  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.1
   shared: 2
 - slug: apollo-config
   name: Apollo Config
@@ -169,6 +169,13 @@ providers:
   score_band: developing
   score_composite: 42.7
   shared: 2
+- slug: spring
+  name: Spring Framework
+  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, mes…
+  api_count: 3
+  score_band: developing
+  score_composite: 40.0
+  shared: 2
 - slug: dapr
   name: Dapr
   description: Dapr (Distributed Application Runtime) is a portable, event-driven runtime that makes it easy for developers to build resilient, stateless, and stateful applications that run on the cloud and edge. It provides building block APIs for state…
@@ -176,19 +183,12 @@ providers:
   score_band: thin
   score_composite: 39.1
   shared: 2
-- slug: spring
-  name: Spring Framework
-  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, mes…
-  api_count: 3
-  score_band: thin
-  score_composite: 38.7
-  shared: 2
 - slug: spring-cloud-config
   name: Spring Cloud Config
   description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN,…
   api_count: 1
   score_band: thin
-  score_composite: 36.5
+  score_composite: 38.1
   shared: 2
 - slug: restate
   name: Restate
@@ -196,6 +196,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 36.4
+  shared: 2
+- slug: service-fabric
+  name: Service Fabric
+  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
   shared: 2
 - slug: diagrid
   name: Diagrid
@@ -211,19 +218,19 @@ providers:
   score_band: thin
   score_composite: 34.8
   shared: 2
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.0
-  shared: 2
 - slug: conductor-oss
   name: Conductor OSS
   description: Conductor OSS is the Netflix-founded, Orkes-stewarded open source workflow and agentic AI orchestration platform. It provides a durable, event-driven workflow engine for coordinating microservices, long-running tasks, human approvals, and…
   api_count: 1
   score_band: thin
   score_composite: 32.7
+  shared: 2
+- slug: vert-x
+  name: Vert.x
+  description: Eclipse Vert.x is a toolkit for building reactive applications on the JVM, providing support for multiple languages including Java, JavaScript, Groovy, Ruby, and Kotlin with an event-driven, non-blocking architecture. Part of the Eclipse F…
+  api_count: 7
+  score_band: thin
+  score_composite: 31.9
   shared: 2
 - slug: akka
   name: Akka
@@ -232,33 +239,26 @@ providers:
   score_band: thin
   score_composite: 31.4
   shared: 2
-- slug: vert-x
-  name: Vert.x
-  description: Eclipse Vert.x is a toolkit for building reactive applications on the JVM, providing support for multiple languages including Java, JavaScript, Groovy, Ruby, and Kotlin with an event-driven, non-blocking architecture. Part of the Eclipse F…
-  api_count: 7
-  score_band: thin
-  score_composite: 30.5
-  shared: 2
 - slug: spring-cloud-stream
   name: Spring Cloud Stream
   description: Spring Cloud Stream is a framework for building event-driven microservices connected with shared messaging systems. It provides a flexible programming model built on established Spring idioms and best practices, including support for persi…
   api_count: 3
   score_band: thin
-  score_composite: 28.7
+  score_composite: 30.0
   shared: 2
 - slug: poolside-ai
   name: Poolside
   description: Poolside is an AI foundation model lab (founded 2023 by former GitHub CTO Jason Warner and Eiso Kant) building open-weight foundation models - the Laguna family - purpose-built for agentic software engineering. Poolside does not run a shar…
   api_count: 1
-  score_band: emerging
-  score_composite: 25.3
+  score_band: thin
+  score_composite: 26.7
   shared: 2
 - slug: jboss
   name: JBoss
   description: JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The JBoss product portfolio includes JBoss EAP (Enterprise Application Platform), the WildFly community appl…
   api_count: 5
   score_band: emerging
-  score_composite: 24.6
+  score_composite: 26.0
   shared: 2
 - slug: netflix-conductor
   name: Netflix Conductor
@@ -281,18 +281,18 @@ providers:
   score_band: emerging
   score_composite: 11.0
   shared: 2
+- slug: lunchbadger
+  name: LunchBadger
+  description: LunchBadger is a technology company focused on providing a visual platform for designing, building, and managing microservice architectures and APIs. It offers tools for API modeling, documentation, and governance, aiming to streamline the…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.2
+  shared: 2
 - slug: event-driven-architecture
   name: Event-Driven Architecture
   description: Event-driven architecture (EDA) is a software architecture pattern promoting the production, detection, consumption of, and reaction to events. In this pattern, systems are designed to respond to state changes asynchronously through event…
   api_count: 0
   score_band: minimal
   score_composite: 4.0
-  shared: 2
-- slug: microservice-architecture
-  name: Microservice Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services organized around business capabilities. Widely used by developers to build, maintain, and scale software applicatio…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
   shared: 2
 ---

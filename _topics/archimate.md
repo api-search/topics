@@ -26,6 +26,8 @@ apis:
   description: Architecture relationship management
   url: https://www.opengroup.org/archimate-forum/archimate-overview
 links:
+- type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/archimate/overview
 - type: Plans
   url: https://github.com/api-evangelist/archimate/blob/main/plans/archimate-plans-pricing.yml
 - type: RateLimits

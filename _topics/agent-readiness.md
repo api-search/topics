@@ -90,33 +90,33 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 93.6
+  score_composite: 93.8
   shared: 4
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 4
 - slug: farmdash
   name: FarmDash Agent Hub
   description: FarmDash is a zero-custody intelligence and control layer for DeFi agents and airdrop farmers, combining Trail Heat opportunity scoring, Signal Architect swap routing, wallet and Sybil-risk intelligence, and Hyperliquid futures research ac…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 61.3
+  score_composite: 60.8
   shared: 4
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 56.0
   shared: 4
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 3
@@ -126,6 +126,13 @@ providers:
   api_count: 11
   score_band: exemplar
   score_composite: 68.2
+  shared: 3
+- slug: improvado
+  name: Improvado
+  description: Improvado is a marketing intelligence and AI-agent platform that connects, extracts, transforms, and loads data from 876+ marketing, advertising, sales, and analytics sources into governed data pipelines, warehouses, and BI tools. Its Embe…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.0
   shared: 3
 - slug: apigee
   name: Apigee
@@ -141,20 +148,6 @@ providers:
   score_band: exemplar
   score_composite: 66.8
   shared: 3
-- slug: improvado
-  name: Improvado
-  description: Improvado is a marketing intelligence and AI-agent platform that connects, extracts, transforms, and loads data from 876+ marketing, advertising, sales, and analytics sources into governed data pipelines, warehouses, and BI tools. Its Embe…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.5
-  shared: 3
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
-  api_count: 8
-  score_band: strong
-  score_composite: 65.3
-  shared: 3
 - slug: explorium
   name: Explorium
   description: Explorium is the B2B data layer for AI agents and go-to-market systems. Its AgentSource platform is one external-data and enrichment API plus a hosted MCP server, resolving, fetching, enriching and monitoring a company dataset and a people…
@@ -162,24 +155,31 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 3
+- slug: taskfolk
+  name: Taskfolk
+  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.8
+  shared: 3
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 3
 - slug: assetfare
   name: AssetFare
   description: A non-custodial routing API for AI agents that returns fee-inclusive cross-chain and same-chain quotes and bounded unsigned actions; the caller's own wallet verifies, signs and submits every transaction, and AssetFare never holds keys, sig…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 59.3
   shared: 3
 - slug: reachdesk
   name: Reachdesk
   description: Reachdesk is a global B2B corporate gifting and direct mail platform that enables sales, marketing, and customer success teams to send physical gifts, branded merchandise, and digital rewards at scale. The Reachdesk REST API allows program…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 56.7
   shared: 3
@@ -195,7 +195,7 @@ providers:
   description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.2
   shared: 3
 - slug: orthogonal
   name: Orthogonal
@@ -214,7 +214,7 @@ providers:
 - slug: agntcy
   name: AGNTCY
   description: AGNTCY is the open collective for agent interoperability, initiated by Outshift — Cisco's incubation group — and governed under the Linux Foundation (LF Projects, LLC), developed in the open across 52 public repositories. It publishes spec…
-  api_count: 5
+  api_count: 4
   score_band: developing
   score_composite: 49.0
   shared: 3
@@ -239,17 +239,10 @@ providers:
   score_band: emerging
   score_composite: 17.6
   shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 3
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with…
-  api_count: 6
+  api_count: 4
   score_band: exemplar
   score_composite: 87.8
   shared: 2
@@ -270,29 +263,36 @@ providers:
 - slug: relevance-ai
   name: Relevance AI
   description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 77.0
+  shared: 2
+- slug: thecolony-ai
+  name: The Colony
+  description: The Colony (thecolony.ai, also served at thecolony.cc) is an AI-agent forum, social network, marketplace and messaging platform operated by Starsol Ltd (Norwich, England) where agents register themselves over the API with no human verifica…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 74.8
   shared: 2
 - slug: mandateshield-com
   name: MandateShield
   description: MandateShield is a fail-closed authority-verification and execution-evidence boundary for autonomous AI-agent purchases, operated from Bern, Switzerland. It binds a signed purchase approval (AP2, TAP, UCP, x402, MPP, ACP or a custom envelo…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 75.2
-  shared: 2
-- slug: forcedream-ai
-  name: ForceDream
-  description: 'ForceDream Ltd (UK Company No. 17057770, London) operates a paid, verifiable AI-agent marketplace it calls the ForceDream Intelligence OS: specialist agents for summarisation, structured-data extraction, code generation, security scanning,…'
   api_count: 1
   score_band: exemplar
-  score_composite: 74.5
+  score_composite: 74.7
+  shared: 2
+- slug: parallel-ai
+  name: Parallel
+  description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for n…'
+  api_count: 10
+  score_band: exemplar
+  score_composite: 74.2
   shared: 2
 - slug: okta
   name: Okta
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 73.8
   shared: 2
 ---

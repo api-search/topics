@@ -31,7 +31,7 @@ links:
   url: https://cemanet.org/technical-resources/
 - type: Documentation
   url: https://cemanet.org/ansi-standards/
-provider_count: 142
+provider_count: 143
 providers:
 - slug: tractian
   name: Tractian
@@ -44,29 +44,43 @@ providers:
   name: Guidewheel
   description: Guidewheel is a FactoryOps platform for manufacturing. Non-invasive, clip-on current sensors attach to any machine's power leads — regardless of age, make or model — and stream a real-time heartbeat of machine state (running, idle, down) o…
   api_count: 1
-  score_band: thin
-  score_composite: 38.6
-  shared: 4
-- slug: weidmueller
-  name: Weidmüller
-  description: 'Weidmüller (Weidmueller Interface GmbH & Co. KG, headquartered in Detmold, Germany) is a provider of smart industrial connectivity and automation: terminal blocks, PCB connectors, electronics, I/O systems, controls and industrial Ethernet.…'
-  api_count: 4
   score_band: developing
-  score_composite: 44.2
+  score_composite: 40.0
+  shared: 4
+- slug: rockwell-automation
+  name: Rockwell Automation
+  description: Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and servic…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.7
   shared: 3
 - slug: inductive-automation
   name: Inductive Automation
   description: Inductive Automation is the developer of Ignition, an industrial application platform used for SCADA, HMI, MES, and IIoT deployments across manufacturing, utilities, and infrastructure. Ignition 8.3 exposes an OpenAPI-compliant REST API th…
   api_count: 1
   score_band: developing
-  score_composite: 42.5
+  score_composite: 43.9
+  shared: 3
+- slug: weidmueller
+  name: Weidmüller
+  description: 'Weidmüller (Weidmueller Interface GmbH & Co. KG, headquartered in Detmold, Germany) is a provider of smart industrial connectivity and automation: terminal blocks, PCB connectors, electronics, I/O systems, controls and industrial Ethernet.…'
+  api_count: 2
+  score_band: developing
+  score_composite: 43.6
   shared: 3
 - slug: steute-technologies-gmbh-and-co-kg
   name: steute Technologies
   description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified…'
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 36.6
+  shared: 3
+- slug: aveva
+  name: AVEVA
+  description: AVEVA is an industrial software company (a subsidiary of Schneider Electric) providing engineering, operations, and data management software for energy, utilities, marine, and manufacturing industries. AVEVA's product portfolio includes Sy…
+  api_count: 2
+  score_band: thin
+  score_composite: 34.4
   shared: 3
 - slug: aidinrobotics
   name: AIDIN ROBOTICS
@@ -75,19 +89,12 @@ providers:
   score_band: thin
   score_composite: 28.4
   shared: 3
-- slug: rockwell-automation
-  name: Rockwell Automation
-  description: Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and servic…
-  api_count: 5
+- slug: augury
+  name: Augury
+  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose…
+  api_count: 0
   score_band: emerging
-  score_composite: 24.2
-  shared: 3
-- slug: aveva
-  name: AVEVA
-  description: AVEVA is an industrial software company (a subsidiary of Schneider Electric) providing engineering, operations, and data management software for energy, utilities, marine, and manufacturing industries. AVEVA's product portfolio includes Sy…
-  api_count: 2
-  score_band: emerging
-  score_composite: 19.0
+  score_composite: 24.7
   shared: 3
 - slug: industrial
   name: Industrial
@@ -95,13 +102,6 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 9.7
-  shared: 3
-- slug: augury
-  name: Augury
-  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
   shared: 3
 - slug: humatics
   name: Humatics
@@ -134,30 +134,44 @@ providers:
 - slug: hexagon
   name: Hexagon
   description: Hexagon is a global leader in digital reality solutions, combining sensor, software and autonomous technologies. Through the Nexus platform and product APIs, Hexagon delivers manufacturing intelligence capabilities spanning metrology, qual…
-  api_count: 5
+  api_count: 1
   score_band: strong
-  score_composite: 54.6
-  shared: 2
-- slug: tttech
-  name: TTTech
-  description: TTTech Computertechnik AG is a Vienna-based supplier of deterministic networking and safety-critical embedded platforms — TTP, TTEthernet and IEEE 802.1 Time-Sensitive Networking — for aerospace, space, automotive, energy and industrial au…
-  api_count: 4
-  score_band: developing
-  score_composite: 54.2
+  score_composite: 56.4
   shared: 2
 - slug: amazon-lookout-for-equipment
   name: Amazon Lookout for Equipment
   description: Amazon Lookout for Equipment uses machine learning to analyze sensor data from your industrial equipment and detect abnormal patterns that signal potential failures. It helps you avoid unplanned equipment downtime by identifying potential…
   api_count: 1
+  score_band: strong
+  score_composite: 55.3
+  shared: 2
+- slug: tttech
+  name: TTTech
+  description: TTTech Computertechnik AG is a Vienna-based supplier of deterministic networking and safety-critical embedded platforms — TTP, TTEthernet and IEEE 802.1 Time-Sensitive Networking — for aerospace, space, automotive, energy and industrial au…
+  api_count: 2
   score_band: developing
-  score_composite: 53.9
+  score_composite: 53.7
+  shared: 2
+- slug: aquant
+  name: Aquant
+  description: Aquant is an agentic AI platform built for organizations that manufacture, sell, and service complex equipment. It turns a company's own service content — manuals, service histories, parts and warranty data, case notes — and the tacit expe…
+  api_count: 2
+  score_band: developing
+  score_composite: 50.1
   shared: 2
 - slug: amazon-monitron
   name: Amazon Monitron
   description: Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal behavior in industrial machinery. It includes sensors, a gateway, and the Monitron mobile app to enable predictive maintenance and reduce unplanned downt…
   api_count: 3
   score_band: developing
-  score_composite: 47.6
+  score_composite: 48.9
+  shared: 2
+- slug: viridi-parente
+  name: Viridi
+  description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.9
   shared: 2
 - slug: elemental-machines
   name: Elemental Machines
@@ -169,7 +183,7 @@ providers:
 - slug: nortech
   name: Nortech
   description: Nortech AI is an industrial IoT and operational-data infrastructure company (Bergen, Norway and Lisbon, Portugal) serving the maritime market and other asset-heavy industries. Its edge-plus-cloud platform extracts high-frequency data direc…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.5
   shared: 2
@@ -187,19 +201,26 @@ providers:
   score_band: developing
   score_composite: 45.2
   shared: 2
-- slug: aquant
-  name: Aquant
-  description: Aquant is an agentic AI platform built for organizations that manufacture, sell, and service complex equipment. It turns a company's own service content — manuals, service histories, parts and warranty data, case notes — and the tacit expe…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.0
-  shared: 2
 - slug: sepasoft
   name: Sepasoft
   description: Sepasoft builds Manufacturing Execution System (MES) software delivered as modules for the Inductive Automation Ignition platform, used to control, track and document the transformation of raw materials into finished goods in real time. Th…
   api_count: 1
   score_band: developing
   score_composite: 44.9
+  shared: 2
+- slug: xylem
+  name: Xylem
+  description: 'Xylem Inc. (NYSE: XYL) is a global water technology company that moves, treats, analyzes, monitors and returns water to the environment across the full water cycle. Its brands include Sensus smart metering and AMI networks, Xylem Vue utili…'
+  api_count: 1
+  score_band: developing
+  score_composite: 44.7
+  shared: 2
+- slug: cognite
+  name: Cognite
+  description: Cognite is an industrial AI and data platform provider whose core product, Cognite Data Fusion (CDF), contextualizes and integrates data from OT, IT, and ET systems across oil and gas, energy, manufacturing, and mining industries. CDF expo…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.5
   shared: 2
 - slug: oden-technologies
   name: Oden Technologies
@@ -215,32 +236,11 @@ providers:
   score_band: developing
   score_composite: 42.9
   shared: 2
-- slug: cognite
-  name: Cognite
-  description: Cognite is an industrial AI and data platform provider whose core product, Cognite Data Fusion (CDF), contextualizes and integrates data from OT, IT, and ET systems across oil and gas, energy, manufacturing, and mining industries. CDF expo…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.1
-  shared: 2
-- slug: viridi-parente
-  name: Viridi
-  description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
-  api_count: 4
-  score_band: developing
-  score_composite: 40.9
-  shared: 2
 - slug: quanergy
   name: Quanergy
   description: Quanergy Solutions, Inc. is a San Jose, California company that builds 3D LiDAR sensors and perception software for physical security, crowd management and industrial automation. Its Q-Track, Q-Shield, Q-Vision F540 and M-Series sensors fe…
   api_count: 1
   score_band: developing
   score_composite: 39.9
-  shared: 2
-- slug: sight-machine
-  name: Sight Machine
-  description: Sight Machine is an industrial AI company (founded 2011, San Francisco and Ann Arbor) whose Manufacturing Data Platform connects to plant OT and IT systems — historians, MES, ERP, PLCs, OPC UA servers and MQTT brokers — and builds a semant…
-  api_count: 2
-  score_band: thin
-  score_composite: 38.8
   shared: 2
 ---

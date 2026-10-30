@@ -35,12 +35,12 @@ links:
   url: https://github.com/api-evangelist/inbox/blob/main/llms/inbox-llms.txt
 - type: Website
   url: https://apievangelist.com/
-provider_count: 73
+provider_count: 74
 providers:
 - slug: postmark
   name: Postmark
   description: Postmark is an email delivery service that helps businesses send and track transactional and broadcast email reliably, replacing SMTP with a scalable service that surfaces detailed delivery analytics, bounce tracking, open and click tracki…
-  api_count: 5
+  api_count: 3
   score_band: exemplar
   score_composite: 68.7
   shared: 4
@@ -61,9 +61,9 @@ providers:
 - slug: commsharbor
   name: CommsHarbor
   description: Transactional email and permission-based marketing infrastructure with tenant isolation, deliverability tracking, CRM, and multi-tenant governance. Self-describes as an agent-first HTTP API with a hosted MCP server.
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 48.7
+  score_composite: 48.5
   shared: 4
 - slug: sendgrid
   name: SendGrid
@@ -75,7 +75,7 @@ providers:
 - slug: customer-io
   name: Customer.io
   description: Customer.io is a customer engagement platform that combines a customer data platform, marketing automation, and messaging delivery to send behavior-triggered email, push, SMS, and in-app messages. Its API surface includes the Track API for…
-  api_count: 7
+  api_count: 5
   score_band: exemplar
   score_composite: 84.0
   shared: 3
@@ -103,23 +103,23 @@ providers:
 - slug: sendpulse
   name: SendPulse
   description: SendPulse is a multichannel marketing automation platform covering bulk email, SMTP transactional email, SMS, web push, website pop-ups, a CRM, an online course builder, and chatbots across WhatsApp, Telegram, Facebook Messenger, Instagram…
-  api_count: 35
+  api_count: 20
   score_band: exemplar
   score_composite: 68.4
   shared: 3
 - slug: novu
   name: Novu
   description: Novu is the open-source notification infrastructure for developers. A single REST API and workflow engine route a triggered event across in-app inbox, email, SMS, push, chat (Slack / Discord / MS Teams / WhatsApp) and custom channels — wit…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 63.2
+  score_composite: 63.4
   shared: 3
 - slug: agentmail
   name: AgentMail
   description: AgentMail is an API-first email platform that gives AI agents their own email inboxes to autonomously send, receive, reply to, and act on email. Unlike traditional transactional email APIs built for one-way notifications, AgentMail is desi…
   api_count: 1
   score_band: strong
-  score_composite: 60.3
+  score_composite: 60.4
   shared: 3
 - slug: mailgun
   name: Mailgun
@@ -145,21 +145,21 @@ providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by…
-  api_count: 89
+  api_count: 55
   score_band: exemplar
   score_composite: 91.6
   shared: 2
 - slug: nylas
   name: Nylas
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Micro…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 88.0
+  score_composite: 87.4
   shared: 2
 - slug: infobip
   name: Infobip
   description: Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan, Croatia, and is Croatia's largest technology company. It sells programmable messaging, voice, video, email and customer engagement APIs on…
-  api_count: 51
+  api_count: 50
   score_band: exemplar
   score_composite: 84.9
   shared: 2
@@ -180,16 +180,16 @@ providers:
 - slug: mailchimp
   name: Mailchimp
   description: Mailchimp is an Intuit company providing a marketing automation platform and email marketing service for managing mailing lists, creating email marketing campaigns, and automating marketing workflows. It exposes two distinct developer surf…
-  api_count: 5
+  api_count: 4
   score_band: exemplar
   score_composite: 76.7
   shared: 2
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 73.6
   shared: 2
 - slug: braze
   name: Braze
@@ -203,21 +203,21 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 2
 - slug: mailerlite
   name: MailerLite
   description: MailerLite is an email marketing and automation platform used by creators, e-commerce sellers and small businesses to build lists, send campaigns and run behavioural automations. The current REST API at connect.mailerlite.com exposes subsc…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.1
+  score_composite: 71.4
   shared: 2
 - slug: loops
   name: Loops
   description: Loops is an email platform built for software companies, combining marketing campaigns, product and lifecycle automation, and transactional email on one contact model. Its REST API v1 exposes 64 operations across contacts, contact properti…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
-  score_composite: 69.8
+  score_composite: 70.1
   shared: 2
 - slug: mailboxlayer
   name: Mailboxlayer
@@ -236,9 +236,9 @@ providers:
 - slug: benchmark-email
   name: Benchmark Email
   description: Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 64.0
+  score_composite: 63.5
   shared: 2
 - slug: mailmodo
   name: Mailmodo

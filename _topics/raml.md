@@ -56,12 +56,12 @@ links:
   url: https://github.com/api-evangelist/raml/blob/main/json-ld/raml-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/raml/blob/main/vocabulary/raml-vocabulary.yml
-provider_count: 43
+provider_count: 42
 providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 3
@@ -96,7 +96,7 @@ providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 2
@@ -140,14 +140,14 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 2
 - slug: mediacaption-api
   name: MediaCaption API
   description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.4
   shared: 2
 - slug: swaggerhub
   name: SwaggerHub
@@ -189,7 +189,7 @@ providers:
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.2
   shared: 2
 - slug: the-guild-dev
   name: The Guild
@@ -203,12 +203,12 @@ providers:
   description: Crowdin is a localization management platform for software, mobile, games, and documentation. It offers a REST API v2 covering projects, files, strings, translations, screenshots, glossaries, MT engines, and webhooks, plus a single GraphQL…
   api_count: 1
   score_band: thin
-  score_composite: 33.2
+  score_composite: 34.6
   shared: 2
 - slug: playground
   name: Playground API — Free Stateful Mock REST & GraphQL Service
   description: A free, zero-configuration, stateful mock REST and GraphQL API sandbox by Nilesh Kumar / Niles Labs. Unlike static mock APIs, it provides stateful per-session virtual mutation overlays where POST/PUT/PATCH/DELETE mutations persist across G…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 32.0
   shared: 2
@@ -252,7 +252,7 @@ providers:
   description: Lokalise is a translation management system (TMS) for software, mobile, web, games, and documentation. It pairs collaborative localization workflows with AI machine translation and a full-coverage REST API (APIv2) that exposes projects, ke…
   api_count: 1
   score_band: thin
-  score_composite: 27.2
+  score_composite: 27.8
   shared: 2
 - slug: apiops-cycles-canvas
   name: APIOps Cycles Canvas

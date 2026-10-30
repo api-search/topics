@@ -47,7 +47,7 @@ providers:
 - slug: acceldata
   name: Acceldata
   description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively det…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 63.5
   shared: 3
@@ -70,7 +70,7 @@ providers:
   description: Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra Data Intelligence Platform helps enterprises discover, understand, govern, and trus…
   api_count: 7
   score_band: emerging
-  score_composite: 12.3
+  score_composite: 13.7
   shared: 3
 - slug: governata
   name: Governata
@@ -103,7 +103,7 @@ providers:
 - slug: nasuni
   name: Nasuni
   description: Nasuni is an enterprise hybrid-cloud file data platform that consolidates distributed NAS and file servers into UniFS, a cloud-native global file system backed by customer-owned object storage (Azure Blob, Amazon S3, Google Cloud Storage a…
-  api_count: 14
+  api_count: 7
   score_band: strong
   score_composite: 64.9
   shared: 2
@@ -119,7 +119,7 @@ providers:
   description: Amazon DataZone is a data management service that helps you catalog, discover, govern, share, and analyze your data across your organization and beyond. It enables data producers and consumers to collaborate, with built-in governance, data…
   api_count: 1
   score_band: strong
-  score_composite: 55.4
+  score_composite: 56.8
   shared: 2
 - slug: lightup
   name: Lightup
@@ -138,7 +138,7 @@ providers:
 - slug: bigeye
   name: Bigeye
   description: Bigeye is an enterprise data observability and AI trust platform that monitors data quality, detects schema changes and anomalies, classifies sensitive data, and maps column-level lineage across warehouses, lakes, BI tools and ETL pipeline…
-  api_count: 4
+  api_count: 3
   score_band: developing
   score_composite: 53.0
   shared: 2
@@ -148,6 +148,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.5
+  shared: 2
+- slug: collate
+  name: Collate
+  description: Collate is the commercial company behind OpenMetadata, the open-source unified metadata platform and data catalog for data and AI. OpenMetadata provides a single place to discover, govern, observe, and collaborate on data assets — database…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.0
   shared: 2
 - slug: informatica
   name: Informatica
@@ -162,13 +169,6 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 48.2
-  shared: 2
-- slug: collate
-  name: Collate
-  description: Collate is the commercial company behind OpenMetadata, the open-source unified metadata platform and data catalog for data and AI. OpenMetadata provides a single place to discover, govern, observe, and collaborate on data assets — database…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.2
   shared: 2
 - slug: validio
   name: Validio
@@ -188,8 +188,8 @@ providers:
   name: Alation
   description: Alation is a data intelligence platform that helps organizations harness the power of their data by providing a centralized platform for data cataloging, governance, and collaboration. By enabling users to easily search, understand, and tr…
   api_count: 4
-  score_band: thin
-  score_composite: 39.2
+  score_band: developing
+  score_composite: 40.6
   shared: 2
 - slug: dataedo
   name: Dataedo

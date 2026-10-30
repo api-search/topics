@@ -14,21 +14,21 @@ repo: https://github.com/api-evangelist/secure-tunneling-protocols
 api_count: 0
 apis: []
 links: []
-provider_count: 78
+provider_count: 83
 providers:
 - slug: vpn
   name: VPN
   description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corpor…
   api_count: 6
   score_band: thin
-  score_composite: 30.4
+  score_composite: 31.8
   shared: 4
 - slug: amazon-vpn
   name: Amazon VPN
   description: 'AWS VPN solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS offers two types of private connectivity: AWS Site-to-Site VPN and AWS Client VPN, enabling encryp…'
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 73.3
   shared: 3
 - slug: zerotier
   name: ZeroTier
@@ -40,9 +40,9 @@ providers:
 - slug: nym-technologies
   name: Nym Technologies
   description: Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 52.0
+  score_composite: 51.4
   shared: 3
 - slug: netbird
   name: NetBird
@@ -110,9 +110,9 @@ providers:
 - slug: microsoft-azure-private-link
   name: Microsoft Azure Private Link
   description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 63.3
+  score_composite: 62.8
   shared: 2
 - slug: cisco-umbrella
   name: Cisco Umbrella
@@ -126,7 +126,7 @@ providers:
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 62.0
   shared: 2
 - slug: juniper
   name: Juniper Networks
@@ -135,24 +135,24 @@ providers:
   score_band: strong
   score_composite: 58.7
   shared: 2
-- slug: cisco-psirt
-  name: Cisco PSIRT openVuln API
-  description: The Cisco Product Security Incident Response Team (PSIRT) openVuln API is Cisco's machine-readable vulnerability disclosure service. It lets security teams query Cisco security advisories by CVE, advisory ID, severity, publication date, af…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.9
-  shared: 2
 - slug: evervault
   name: Evervault
   description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption k…
   api_count: 1
   score_band: strong
-  score_composite: 57.4
+  score_composite: 58.4
+  shared: 2
+- slug: cisco-psirt
+  name: Cisco PSIRT openVuln API
+  description: The Cisco Product Security Incident Response Team (PSIRT) openVuln API is Cisco's machine-readable vulnerability disclosure service. It lets security teams query Cisco security advisories by CVE, advisory ID, severity, publication date, af…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.9
   shared: 2
 - slug: cisco-secure-firewall
   name: Cisco Secure Firewall
   description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
-  api_count: 18
+  api_count: 14
   score_band: strong
   score_composite: 57.0
   shared: 2
@@ -161,14 +161,7 @@ providers:
   description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles c…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
-  shared: 2
-- slug: neutrino-api
-  name: Neutrino API
-  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
-  api_count: 4
-  score_band: strong
-  score_composite: 54.6
+  score_composite: 56.5
   shared: 2
 - slug: cisco
   name: Cisco
@@ -177,19 +170,33 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 2
+- slug: neutrino-api
+  name: Neutrino API
+  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
+  api_count: 2
+  score_band: developing
+  score_composite: 54.1
+  shared: 2
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 52.7
+  score_composite: 52.9
   shared: 2
 - slug: macadress
   name: 'MAC Address Lookup: Find Vendor, OUI & Device Type'
   description: REST/JSON API, hosted MCP server, and reference data for MAC address / OUI lookup — resolving vendor, IEEE registration block, device category, and randomization confidence. Data synced twice daily from IEEE MA-L/MA-M/MA-S/IAB/CID registri…
   api_count: 1
   score_band: developing
-  score_composite: 52.5
+  score_composite: 52.8
+  shared: 2
+- slug: amazon-shield
+  name: Amazon Shield
+  description: AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. It provides always-on detection and automatic inline mitigations that minimize application downtime and latency, w…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.0
   shared: 2
 - slug: openbao
   name: OpenBao
@@ -205,12 +212,12 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 2
-- slug: amazon-shield
-  name: Amazon Shield
-  description: AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. It provides always-on detection and automatic inline mitigations that minimize application downtime and latency, w…
+- slug: google-cloud-kms
+  name: Google Cloud KMS
+  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symm…
   api_count: 1
   score_band: developing
-  score_composite: 50.7
+  score_composite: 46.8
   shared: 2
 - slug: border0
   name: Border0
@@ -218,12 +225,5 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 46.0
-  shared: 2
-- slug: google-cloud-kms
-  name: Google Cloud KMS
-  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symm…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.5
   shared: 2
 ---

@@ -52,7 +52,7 @@ links:
   url: https://allcontributors.org/docs/en/emoji-key
 - type: Repository
   url: https://github.com/all-contributors/all-contributors
-provider_count: 48
+provider_count: 65
 providers:
 - slug: contributing-md
   name: CONTRIBUTING.md
@@ -113,7 +113,7 @@ providers:
 - slug: customeros
   name: CustomerOS
   description: CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, a…
-  api_count: 10
+  api_count: 9
   score_band: developing
   score_composite: 53.4
   shared: 2
@@ -122,7 +122,21 @@ providers:
   description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide d…
   api_count: 1
   score_band: developing
-  score_composite: 50.0
+  score_composite: 51.0
+  shared: 2
+- slug: promptessor
+  name: PrompTessor
+  description: PrompTessor provides an AI prompt generation, optimization, and library platform. It offers tools to create, analyze, refine, and reverse‑engineer prompts for various AI models, supporting text, image, video, and code prompts. Users can or…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.6
+  shared: 2
+- slug: mojeek
+  name: Mojeek
+  description: Mojeek is an independent search engine company offering alternative web search services. It provides a Web Search API, Site Search API, and customizable search boxes for developers and businesses. Mojeek emphasizes privacy, community suppo…
+  api_count: 2
+  score_band: developing
+  score_composite: 44.7
   shared: 2
 - slug: pokeapi
   name: PokéAPI
@@ -141,7 +155,7 @@ providers:
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 2
@@ -151,6 +165,20 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 37.6
+  shared: 2
+- slug: discourse
+  name: Discourse
+  description: At Discourse, our mission is to democratize online community and teamwork by raising the standard of civilized discourse on the Internet. We achieve this through delivering the best community and forum software. The Discourse API exposes a…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.5
+  shared: 2
+- slug: gpodder
+  name: gpodder.net
+  description: gpodder.net is a free, open-source podcast syncing service that lets users discover, subscribe to, and track podcasts across devices. It provides a web interface and API for managing podcast subscriptions, fetching episode metadata, and sh…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.5
   shared: 2
 - slug: lemmy
   name: Lemmy
@@ -166,6 +194,13 @@ providers:
   score_band: thin
   score_composite: 34.2
   shared: 2
+- slug: jellyfin
+  name: Jellyfin
+  description: Jellyfin is a free, open-source media system that lets you collect, manage, and stream your media files. It is community‑built, runs on your own server, and offers no‑strings‑attached streaming to any device, with full control over your li…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.2
+  shared: 2
 - slug: apigen
   name: APIGen
   description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and in…
@@ -173,19 +208,12 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 2
-- slug: discourse
-  name: Discourse
-  description: At Discourse, our mission is to democratize online community and teamwork by raising the standard of civilized discourse on the Internet. We achieve this through delivering the best community and forum software. The Discourse API exposes a…
-  api_count: 2
-  score_band: thin
-  score_composite: 33.1
-  shared: 2
 - slug: ikea
   name: IKEA
   description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
   api_count: 4
   score_band: thin
-  score_composite: 32.8
+  score_composite: 34.1
   shared: 2
 - slug: spacex
   name: SpaceX (Community API)
@@ -197,14 +225,14 @@ providers:
 - slug: apis-guru
   name: APIs.guru
   description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 31.3
   shared: 2
 - slug: apiaddicts
   name: apIAddicts
   description: Fundación apIAddicts (API Addicts) is a Spain-based non-profit foundation and community of API and AI practitioners that has been connecting people and companies around APIs, MCP and AI since 2013. It runs the apIAddictsDay events (Spain a…
-  api_count: 4
+  api_count: 3
   score_band: thin
   score_composite: 29.9
   shared: 2
@@ -234,34 +262,6 @@ providers:
   description: CKAN is an open-source data management system that powers data portals and hubs worldwide. It enables organizations to publish, share, and use data efficiently, supporting governments, enterprises, and communities across the globe. CKAN pr…
   api_count: 4
   score_band: thin
-  score_composite: 27.3
-  shared: 2
-- slug: todo-group
-  name: TODO Group
-  description: The TODO Group is an open community of practitioners under the Linux Foundation who collaborate on best practices, tools, and guidance for running successful Open Source Program Offices (OSPOs). It provides open source tooling including Re…
-  api_count: 5
-  score_band: thin
-  score_composite: 26.2
-  shared: 2
-- slug: slate
-  name: Slate
-  description: Slate is an open-source tool for creating beautiful, three-panel API documentation from Markdown. Built on Ruby and Middleman, Slate renders a left-side navigation menu, a center documentation panel, and a right-side code sample panel. It…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.1
-  shared: 2
-- slug: tinacms
-  name: TinaCMS
-  description: TinaCMS is an open-source, Git-backed headless CMS that provides a GraphQL Content API for managing Markdown, MDX, and JSON content stored in Git repositories. It enables real-time visual editing for Next.js, Astro, and other frameworks, w…
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.4
-  shared: 2
-- slug: seeed-studio
-  name: Seeed Studio
-  description: Seeed Studio is a global IoT hardware enabler offering a wide range of open‑source hardware, development boards, sensors, and modules. Founded in 2010, it supports makers, startups, and enterprises with products like the Wio Terminal, Grov…
-  api_count: 1
-  score_band: emerging
-  score_composite: 21.8
+  score_composite: 27.2
   shared: 2
 ---

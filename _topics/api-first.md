@@ -44,14 +44,14 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 2
@@ -81,14 +81,7 @@ providers:
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 19.0
-  shared: 2
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
+  score_composite: 20.4
   shared: 2
 - slug: design-patterns
   name: Design Patterns
@@ -96,6 +89,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 11.0
+  shared: 2
+- slug: lunchbadger
+  name: LunchBadger
+  description: LunchBadger is a technology company focused on providing a visual platform for designing, building, and managing microservice architectures and APIs. It offers tools for API modeling, documentation, and governance, aiming to streamline the…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.2
   shared: 2
 - slug: integration-patterns
   name: Integration Patterns

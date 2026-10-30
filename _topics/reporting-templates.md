@@ -19,7 +19,7 @@ links:
   url: https://github.com/api-evangelist/reporting-templates/blob/main/security/reporting-templates-vulnerability-disclosure.yml
 - type: DomainSecurity
   url: https://github.com/api-evangelist/reporting-templates/blob/main/security/reporting-templates-domain-security.yml
-provider_count: 61
+provider_count: 62
 providers:
 - slug: power-bi
   name: Power BI
@@ -33,14 +33,14 @@ providers:
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.6
   shared: 3
 - slug: sap-bi-tools
   name: SAP BI Tools
   description: Collection of SAP Business Intelligence tools and APIs for analytics, reporting, and data visualization.
   api_count: 4
   score_band: developing
-  score_composite: 51.2
+  score_composite: 52.6
   shared: 3
 - slug: pyramid-analytics
   name: Pyramid Analytics
@@ -54,14 +54,14 @@ providers:
   description: A collection of APIs for Google Looker, a modern business intelligence and analytics platform.
   api_count: 1
   score_band: developing
-  score_composite: 44.1
+  score_composite: 45.7
   shared: 3
 - slug: sap-bi
   name: SAP Business Intelligence
   description: Collection of APIs for SAP Business Intelligence (BI) platform, including analytics, reporting, and data visualization services.
   api_count: 4
   score_band: developing
-  score_composite: 40.3
+  score_composite: 41.6
   shared: 3
 - slug: qlikview
   name: QlikView
@@ -101,7 +101,7 @@ providers:
 - slug: sigma-computing
   name: Sigma Computing
   description: Sigma Computing is a warehouse-first analytics and business-application platform. Instead of extracting data into its own store, Sigma queries the customer's cloud data warehouse live — Snowflake, Databricks, BigQuery, Redshift, Amazon Ath…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 72.4
   shared: 2
@@ -129,7 +129,7 @@ providers:
 - slug: datarails
   name: Datarails
   description: Datarails is an Excel-native financial planning and analysis (FP&A) platform for the office of the CFO, marketed as FinanceOS. It consolidates data from ERP, CRM, HRIS, billing and operational systems into a single finance data model, then…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.3
   shared: 2
@@ -168,6 +168,13 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 2
+- slug: google-data-studio
+  name: Google Data Studio
+  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sourc…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.6
+  shared: 2
 - slug: looker
   name: Looker
   description: Looker is a business intelligence and data analytics platform that enables organizations to explore, analyze, and share real-time business analytics.
@@ -175,17 +182,10 @@ providers:
   score_band: developing
   score_composite: 48.5
   shared: 2
-- slug: google-data-studio
-  name: Google Data Studio
-  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sourc…
-  api_count: 2
-  score_band: developing
-  score_composite: 47.3
-  shared: 2
 - slug: minubo
   name: Minubo
   description: Minubo is a German business-intelligence platform for e-commerce and retail that integrates, models, and contextualizes commerce data — orders, products, customers, and suppliers — into AI Insights, Profit Management, reporting, and a supp…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 46.1
   shared: 2

@@ -35,14 +35,21 @@ links:
   url: https://github.com/api-evangelist/basel-compliance/blob/main/vocabulary/basel-compliance-vocabulary.yaml
 - type: JSONLD
   url: https://github.com/api-evangelist/basel-compliance/blob/main/json-ld/basel-compliance-context.jsonld
-provider_count: 153
+provider_count: 155
 providers:
 - slug: fenergo
   name: Fenergo
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.7
+  shared: 3
+- slug: thomson-reuters
+  name: Thomson Reuters
+  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
+  api_count: 134
+  score_band: strong
+  score_composite: 55.5
   shared: 3
 - slug: merkle-science
   name: Merkle Science
@@ -56,7 +63,7 @@ providers:
   description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
   api_count: 8
   score_band: thin
-  score_composite: 31.8
+  score_composite: 35.5
   shared: 3
 - slug: acin
   name: Acin
@@ -86,17 +93,10 @@ providers:
   score_band: emerging
   score_composite: 12.1
   shared: 3
-- slug: thomson-reuters
-  name: Thomson Reuters
-  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
-  api_count: 6
-  score_band: emerging
-  score_composite: 11.9
-  shared: 3
 - slug: ibanforge
   name: IBANforge
   description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.0
   shared: 2
@@ -110,7 +110,7 @@ providers:
 - slug: tooloracle-io
   name: FeedOracle Technologies
   description: FeedOracle Technologies (Herford, Germany) operates two agent-facing brands on one shared OAuth 2.1 identity layer. ToolOracle / OracleNet at tooloracle.io is a capability router and hosted mesh of about ninety Model Context Protocol serve…
-  api_count: 10
+  api_count: 3
   score_band: exemplar
   score_composite: 70.1
   shared: 2
@@ -119,21 +119,21 @@ providers:
   description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.2
+  score_composite: 69.0
   shared: 2
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
   shared: 2
 - slug: idenfy
   name: iDenfy
   description: iDenfy is an identity verification platform providing KYC, KYB, and AML compliance solutions. The iDenfy API enables businesses to verify identities, check for fraud, and comply with regulatory requirements through automated document verif…
-  api_count: 28
+  api_count: 7
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 67.2
   shared: 2
 - slug: solidus-labs
   name: Solidus Labs
@@ -155,6 +155,13 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 62.5
+  shared: 2
+- slug: avetta
+  name: Avetta
+  description: Avetta operates a cloud-based supply chain risk management (SCRM) and contractor compliance platform, Avetta One, used by more than 360,000 businesses across 120+ countries to prequalify, audit, and continuously monitor contractors and sup…
+  api_count: 6
+  score_band: strong
+  score_composite: 62.3
   shared: 2
 - slug: dun-and-bradstreet
   name: Dun & Bradstreet
@@ -184,13 +191,6 @@ providers:
   score_band: strong
   score_composite: 55.9
   shared: 2
-- slug: credo-ai
-  name: Credo AI
-  description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pair…
-  api_count: 4
-  score_band: strong
-  score_composite: 55.3
-  shared: 2
 - slug: cipherowl
   name: CipherOwl
   description: 'CipherOwl provides AI-powered security and compliance for institutional stablecoins and digital assets. Its Screening, Risk & Reporting (SRR) API turns a blockchain address into a compliance decision: real-time sanctions and risk screening…'
@@ -198,24 +198,38 @@ providers:
   score_band: strong
   score_composite: 54.9
   shared: 2
+- slug: credo-ai
+  name: Credo AI
+  description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pair…
+  api_count: 2
+  score_band: strong
+  score_composite: 54.8
+  shared: 2
 - slug: globaldatabase-com
   name: Global Database
   description: Global Database (GLOBAL DATA INTELLIGENCE Ltd, UK) is a B2B company-intelligence provider that sources company records directly from 400+ official government registries across 200+ countries — 600M+ company profiles with registry data, off…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
   shared: 2
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 53.6
+  score_composite: 53.1
   shared: 2
 - slug: fraud-net
   name: Fraud.net
   description: 'Fraud.net (FraudNet) is an enterprise fraud, risk and compliance platform used by payment processors, acquirers, PSPs, fintechs, banks and digital commerce platforms. Its Public API is a risk-decisioning surface: Check operations submit a…'
   api_count: 2
+  score_band: developing
+  score_composite: 52.6
+  shared: 2
+- slug: signzy
+  name: Signzy
+  description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
+  api_count: 1
   score_band: developing
   score_composite: 52.6
   shared: 2
@@ -229,22 +243,8 @@ providers:
 - slug: dotfile
   name: Dotfile
   description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
-  api_count: 28
+  api_count: 27
   score_band: developing
   score_composite: 51.2
-  shared: 2
-- slug: signzy
-  name: Signzy
-  description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.2
-  shared: 2
-- slug: spektr
-  name: Spektr
-  description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring usi…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.8
   shared: 2
 ---

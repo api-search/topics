@@ -60,7 +60,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/regulatory-templates/refs/heads/main/examples/regulatory-templates-soc2-control-example.json
 - type: Integrations
   url: https://usercentrics.com/integrations/
-provider_count: 109
+provider_count: 111
 providers:
 - slug: comp-ai
   name: Comp AI
@@ -74,21 +74,21 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 4
 - slug: google-cloud-assured-workloads
   name: Google Cloud Assured Workloads
   description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
   api_count: 1
   score_band: developing
-  score_composite: 44.0
+  score_composite: 45.4
   shared: 4
 - slug: heidi-health
   name: Heidi Health
   description: Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability su…
   api_count: 1
-  score_band: thin
-  score_composite: 39.0
+  score_band: developing
+  score_composite: 40.3
   shared: 4
 - slug: carbide
   name: Carbide
@@ -109,7 +109,7 @@ providers:
   description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.2
+  score_composite: 69.0
   shared: 3
 - slug: secureframe
   name: Secureframe
@@ -184,9 +184,9 @@ providers:
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
   shared: 2
 - slug: spruce-health
   name: Spruce Health
@@ -202,40 +202,47 @@ providers:
   score_band: strong
   score_composite: 58.5
   shared: 2
-- slug: synthflow
-  name: Synthflow
-  description: Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses c…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.1
-  shared: 2
 - slug: amazon-config
   name: Amazon Config
   description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
+  score_composite: 58.1
+  shared: 2
+- slug: synthflow
+  name: Synthflow
+  description: Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses c…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.1
   shared: 2
 - slug: amazon-cloudtrail
   name: Amazon CloudTrail
   description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
   api_count: 1
   score_band: strong
-  score_composite: 54.5
+  score_composite: 56.1
   shared: 2
 - slug: osano
   name: Osano
   description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  api_count: 2
+  score_band: developing
+  score_composite: 53.9
+  shared: 2
+- slug: kosli
+  name: Kosli
+  description: Kosli provides governance infrastructure for AI-driven software development lifecycle (SDLC). It offers an append‑only evidence store, automated compliance checks, AI‑powered insights, and integrations with CI pipelines to ensure secure, a…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.6
   shared: 2
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 53.6
+  score_composite: 53.1
   shared: 2
 - slug: singlefile
   name: SingleFile
@@ -247,9 +254,16 @@ providers:
 - slug: 123formbuilder
   name: 123FormBuilder
   description: 123FormBuilder is an online form, survey, and workflow builder used to collect, route, and integrate submission data across websites, customer portals, and back-office systems with no-code design and HIPAA-ready configurations. The 123Form…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.5
+  shared: 2
+- slug: inth
+  name: Inth
+  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.6
   shared: 2
 - slug: qualio
   name: Qualio
@@ -257,19 +271,5 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 50.0
-  shared: 2
-- slug: inth
-  name: Inth
-  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
-  shared: 2
-- slug: torii
-  name: Torii
-  description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.6
   shared: 2
 ---

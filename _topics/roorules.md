@@ -66,7 +66,7 @@ links:
   url: https://discord.gg/roocode
 - type: X
   url: https://twitter.com/roo_code
-provider_count: 456
+provider_count: 457
 providers:
 - slug: cursorrules
   name: .cursorrules
@@ -122,7 +122,7 @@ providers:
   description: A REST API and agent-native platform for relevance-scored, ticker-linked financial news, built for trading bots, agent backends, and dashboards. Every article is enriched at ingest with a 1-10 relevance score, one of fourteen categories, v…
   api_count: 1
   score_band: exemplar
-  score_composite: 66.7
+  score_composite: 66.8
   shared: 3
 - slug: webcrawlerapi-com
   name: WebCrawlerAPI
@@ -150,7 +150,7 @@ providers:
   description: gpt55-token-gateway is the self-chosen service name of an unnamed operator running two OpenAI-compatible AI API gateways on the 558686.xyz domain. GPT55 Model Gateway (gpt55.558686.xyz) sells single GPT-5.6 Luna, GPT-5.5 and GPT-5.3-codex…
   api_count: 3
   score_band: strong
-  score_composite: 57.7
+  score_composite: 57.6
   shared: 3
 - slug: tarx-com
   name: TARXAN
@@ -162,9 +162,9 @@ providers:
 - slug: scrapingant
   name: ScrapingAnt
   description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 50.2
+  score_composite: 49.7
   shared: 3
 - slug: aisera
   name: Aisera
@@ -176,9 +176,9 @@ providers:
 - slug: smithery
   name: Smithery
   description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources,…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 43.0
+  score_composite: 42.5
   shared: 3
 - slug: dome-systems
   name: Dome Systems
@@ -239,14 +239,14 @@ providers:
 - slug: anthropic
   name: Anthropic
   description: Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropi…
-  api_count: 6
+  api_count: 5
   score_band: exemplar
-  score_composite: 88.8
+  score_composite: 89.0
   shared: 2
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with…
-  api_count: 6
+  api_count: 4
   score_band: exemplar
   score_composite: 87.8
   shared: 2
@@ -260,22 +260,22 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: relevance-ai
   name: Relevance AI
   description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 77.0
   shared: 2
-- slug: mandateshield-com
-  name: MandateShield
-  description: MandateShield is a fail-closed authority-verification and execution-evidence boundary for autonomous AI-agent purchases, operated from Bern, Switzerland. It binds a signed purchase approval (AP2, TAP, UCP, x402, MPP, ACP or a custom envelo…
-  api_count: 4
+- slug: thecolony-ai
+  name: The Colony
+  description: The Colony (thecolony.ai, also served at thecolony.cc) is an AI-agent forum, social network, marketplace and messaging platform operated by Starsol Ltd (Norwich, England) where agents register themselves over the API with no human verifica…
+  api_count: 2
   score_band: exemplar
-  score_composite: 75.2
+  score_composite: 74.8
   shared: 2
 ---

@@ -67,7 +67,7 @@ links:
   url: https://github.com/api-evangelist/test-driven-development/blob/main/json-ld/test-driven-development-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/test-driven-development/blob/main/vocabulary/test-driven-development-vocabulary.yml
-provider_count: 95
+provider_count: 96
 providers:
 - slug: github-actions
   name: GitHub Actions
@@ -79,7 +79,7 @@ providers:
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.2
   shared: 3
@@ -100,7 +100,7 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 3
@@ -116,7 +116,7 @@ providers:
   description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing pr…
   api_count: 1
   score_band: developing
-  score_composite: 44.3
+  score_composite: 45.6
   shared: 3
 - slug: codspeed
   name: CodSpeed
@@ -172,7 +172,7 @@ providers:
   description: The GitHub REST API allows developers to programmatically interact with GitHub resources including repositories, users, organizations, pull requests, issues, and more.
   api_count: 38
   score_band: exemplar
-  score_composite: 78.8
+  score_composite: 79.0
   shared: 2
 - slug: microsoft-azure-devops
   name: Azure DevOps
@@ -184,9 +184,9 @@ providers:
 - slug: cloudbees
   name: CloudBees
   description: CloudBees provides software delivery automation across continuous integration, continuous deployment, release orchestration, and feature management. Their developer surface includes the CloudBees CI REST API (an extension of the Jenkins RE…
-  api_count: 5
+  api_count: 2
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 66.7
   shared: 2
 - slug: circleci
   name: CircleCI
@@ -198,16 +198,16 @@ providers:
 - slug: taskfolk
   name: Taskfolk
   description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
-  api_count: 8
+  api_count: 2
   score_band: strong
-  score_composite: 65.3
+  score_composite: 64.8
   shared: 2
 - slug: tempmailgrab
   name: TempMailGrab API
   description: Privacy-first disposable/temporary email service with private 24-hour inboxes, real-time WebSocket delivery, automatic OTP and verification-link extraction, attachments, webhooks, custom domains, and a versioned REST API for QA, test autom…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.2
   shared: 2
 - slug: scorecard
   name: Scorecard
@@ -219,14 +219,14 @@ providers:
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle E…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.3
   shared: 2
 - slug: keploy
   name: Keploy
   description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.1
   shared: 2
@@ -263,12 +263,12 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 2

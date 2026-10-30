@@ -47,8 +47,8 @@ providers:
   name: Amazon Managed Service for Apache Flink
   description: Amazon Managed Service for Apache Flink is the easiest way to transform and analyze streaming data in real time with Apache Flink. It enables you to build sophisticated streaming analytics applications using Apache Flink with fully managed…
   api_count: 1
-  score_band: developing
-  score_composite: 52.5
+  score_band: strong
+  score_composite: 54.5
   shared: 2
 - slug: altinity
   name: Altinity
@@ -60,15 +60,15 @@ providers:
 - slug: apache-flink
   name: Apache Flink
   description: Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It provides a REST API for job management, cluster operations, metrics collection, and checkpoint management f…
-  api_count: 1
+  api_count: 10
   score_band: thin
-  score_composite: 28.2
+  score_composite: 29.3
   shared: 2
 - slug: flink
   name: Apache Flink
   description: Apache Flink is an open-source framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is designed to run in all common cluster environments and to perform computations at in-memory…
-  api_count: 1
+  api_count: 7
   score_band: emerging
-  score_composite: 21.6
+  score_composite: 20.6
   shared: 2
 ---

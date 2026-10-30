@@ -58,7 +58,7 @@ providers:
 - slug: ocient
   name: Ocient
   description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.1
   shared: 3
@@ -74,7 +74,7 @@ providers:
   description: Google BigQuery is a fully managed, serverless data warehouse that enables scalable analysis over petabytes of data using SQL.
   api_count: 1
   score_band: developing
-  score_composite: 42.0
+  score_composite: 43.3
   shared: 3
 - slug: microsoft-azure-data-lake
   name: Azure Data Lake Storage
@@ -135,14 +135,14 @@ providers:
 - slug: sigma-computing
   name: Sigma Computing
   description: Sigma Computing is a warehouse-first analytics and business-application platform. Instead of extracting data into its own store, Sigma queries the customer's cloud data warehouse live — Snowflake, Databricks, BigQuery, Redshift, Amazon Ath…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 72.4
   shared: 2
 - slug: textql
   name: TextQL
   description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gV…
-  api_count: 15
+  api_count: 8
   score_band: exemplar
   score_composite: 70.1
   shared: 2
@@ -160,19 +160,19 @@ providers:
   score_band: exemplar
   score_composite: 66.8
   shared: 2
+- slug: amazon-lake-formation
+  name: Amazon Lake Formation
+  description: AWS Lake Formation is a service that makes it easy to set up a secure data lake in days, providing centralized governance and security for data stored in Amazon S3 and other AWS data stores with fine-grained access control.
+  api_count: 1
+  score_band: strong
+  score_composite: 60.2
+  shared: 2
 - slug: definite
   name: Definite
   description: Definite is an all-in-one, AI-native data platform that consolidates data integration, warehouse storage, a semantic layer, BI dashboards, and AI agents into a single product. It ships 500+ managed data connectors, a DuckDB / DuckLake lake…
   api_count: 1
   score_band: strong
   score_composite: 59.2
-  shared: 2
-- slug: amazon-lake-formation
-  name: Amazon Lake Formation
-  description: AWS Lake Formation is a service that makes it easy to set up a secure data lake in days, providing centralized governance and security for data stored in Amazon S3 and other AWS data stores with fine-grained access control.
-  api_count: 1
-  score_band: strong
-  score_composite: 58.8
   shared: 2
 - slug: funnel
   name: Funnel
@@ -200,7 +200,7 @@ providers:
   description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.1
   shared: 2
 - slug: beaconstac
   name: Beaconstac
@@ -226,9 +226,9 @@ providers:
 - slug: apache-iceberg
   name: Apache Iceberg
   description: Apache Iceberg is an open table format for large analytic datasets that provides ACID transactions, schema evolution, hidden partitioning, and time travel. It works with Spark, Flink, Hive, Presto, Trino, DuckDB, ClickHouse, and many more…
-  api_count: 1
+  api_count: 5
   score_band: developing
-  score_composite: 45.5
+  score_composite: 44.0
   shared: 2
 - slug: chaossearch
   name: ChaosSearch

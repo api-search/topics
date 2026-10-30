@@ -40,7 +40,7 @@ providers:
 - slug: howler
   name: Howler
   description: Howler is a South African event technology platform that consolidates ticketing, RFID cashless payments, and vendor and access-control management into a single system for event organisers and attendees. Founded out of the Barclays Accelera…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 36.7
   shared: 2
@@ -56,7 +56,7 @@ providers:
   description: Billfold provides a cashless and contactless point‑of‑sale operating system for live events. Built by operators for operators, it unifies payments, devices, POS terminals, and workflow data into a single platform, offering real‑time revenu…
   api_count: 1
   score_band: emerging
-  score_composite: 23.3
+  score_composite: 24.6
   shared: 2
 - slug: pragmatic
   name: Pragmatic

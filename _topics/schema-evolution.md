@@ -79,7 +79,7 @@ links:
   url: https://github.com/api-evangelist/schema-evolution/blob/main/json-ld/schema-evolution-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/schema-evolution/blob/main/vocabulary/schema-evolution-vocabulary.yml
-provider_count: 3
+provider_count: 4
 providers:
 - slug: versioning
   name: Versioning
@@ -95,11 +95,18 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 2
+- slug: the-guild-dev
+  name: The Guild
+  description: The Guild is an open-source software group building much of the GraphQL ecosystem's tooling, published together at the-guild.dev. Its portfolio spans GraphQL Hive (schema registry, usage observability and breaking-change detection), GraphQ…
+  api_count: 10
+  score_band: thin
+  score_composite: 35.3
+  shared: 2
 - slug: confluent-schema-registry
   name: Confluent Schema Registry
   description: Confluent Schema Registry is the open-source serving layer for schema metadata used in Apache Kafka data pipelines. It exposes a RESTful interface for storing and retrieving Avro, JSON Schema, and Protobuf schemas, manages schema evolution…
   api_count: 1
   score_band: thin
-  score_composite: 31.9
+  score_composite: 33.3
   shared: 2
 ---

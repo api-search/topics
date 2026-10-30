@@ -68,7 +68,7 @@ links:
   url: https://www.kernel.org/doc/html/latest/
 - type: Reference
   url: https://man7.org/linux/man-pages/
-provider_count: 52
+provider_count: 53
 providers:
 - slug: coreos
   name: CoreOS
@@ -108,16 +108,16 @@ providers:
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.5
   shared: 2
 - slug: platform.sh
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster o…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 58.4
+  score_composite: 57.9
   shared: 2
 - slug: nuon
   name: Nuon
@@ -136,16 +136,9 @@ providers:
 - slug: upcloud
   name: UpCloud
   description: UpCloud is a Finnish cloud infrastructure provider offering cloud servers, block and object storage, managed databases, managed Kubernetes (UKS), load balancers and private networking from data centres in Europe, North America, Asia and Au…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.4
-  shared: 2
-- slug: gameye
-  name: Gameye
-  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single RES…
   api_count: 1
   score_band: developing
-  score_composite: 51.7
+  score_composite: 53.8
   shared: 2
 - slug: openbao
   name: OpenBao
@@ -154,17 +147,24 @@ providers:
   score_band: developing
   score_composite: 51.7
   shared: 2
+- slug: gameye
+  name: Gameye
+  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single RES…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.4
+  shared: 2
 - slug: render
   name: Render
   description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, Postgre…
   api_count: 1
   score_band: developing
-  score_composite: 49.5
+  score_composite: 50.9
   shared: 2
 - slug: termius
   name: Termius
   description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 49.4
   shared: 2
@@ -173,7 +173,14 @@ providers:
   description: DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in New York City, New York, US, with 15 globally distributed data centers. DigitalOcean provides developer…
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 47.6
+  shared: 2
+- slug: docker
+  name: Docker
+  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+  api_count: 1
+  score_band: developing
+  score_composite: 44.6
   shared: 2
 - slug: strongdm
   name: StrongDM
@@ -196,12 +203,12 @@ providers:
   score_band: developing
   score_composite: 43.6
   shared: 2
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+- slug: dell-servers
+  name: Dell Servers
+  description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, t…
   api_count: 2
   score_band: developing
-  score_composite: 43.2
+  score_composite: 42.9
   shared: 2
 - slug: hashicorp-vault
   name: HashiCorp Vault
@@ -210,12 +217,12 @@ providers:
   score_band: developing
   score_composite: 42.4
   shared: 2
-- slug: dell-servers
-  name: Dell Servers
-  description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, t…
+- slug: komo-do
+  name: Komodo
+  description: Komodo provides an open-source build and deployment system for managing servers, containers, and clusters. It offers a web-based interface to monitor CPU, memory, and disk usage, set alerts, and open shell sessions directly from the browse…
   api_count: 2
   score_band: developing
-  score_composite: 41.7
+  score_composite: 40.9
   shared: 2
 - slug: nomad
   name: HashiCorp Nomad
@@ -231,6 +238,13 @@ providers:
   score_band: thin
   score_composite: 38.8
   shared: 2
+- slug: hetzner
+  name: Hetzner
+  description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and record…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.0
+  shared: 2
 - slug: aviatrix
   name: Aviatrix
   description: Aviatrix is a cloud network security company whose Cloud Native Security Fabric (CNSF) delivers zero-trust, workload-level network security and runtime protection across AWS, Azure, GCP, OCI, and hybrid/edge environments. The platform - bu…
@@ -245,13 +259,6 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 2
-- slug: hetzner
-  name: Hetzner
-  description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and record…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.7
-  shared: 2
 - slug: sensu
   name: Sensu
   description: Sensu (Sensu by Sumo Logic) is an observability pipeline that delivers monitoring as code across multi-cloud and hybrid environments. Sensu Go codifies monitoring workflows into declarative, versionable configuration and exposes a backend…
@@ -264,20 +271,13 @@ providers:
   description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams creat…
   api_count: 1
   score_band: thin
-  score_composite: 35.9
+  score_composite: 35.7
   shared: 2
-- slug: civil-infrastructure-platform
-  name: Civil Infrastructure Platform
-  description: The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building…
-  api_count: 3
+- slug: rackspace-technology
+  name: Rackspace Technology
+  description: Rackspace Technology is a multicloud solutions provider offering managed services, professional services, and consulting across cloud infrastructure, applications, data, AI, and cybersecurity. The company operates as a trusted operator of…
+  api_count: 26
   score_band: thin
-  score_composite: 34.8
-  shared: 2
-- slug: dell-technologies
-  name: Dell Technologies
-  description: Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishe…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
+  score_composite: 35.1
   shared: 2
 ---

@@ -84,7 +84,7 @@ providers:
 - slug: sapien
   name: Sapien
   description: Sapien is the company behind Proof of Quality (PoQ), an open protocol and consensus/attestation system for verifiable quality signals on AI data and subjective expert outputs. A panel of independent, collateral-backed validators reviews ea…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 39.3
   shared: 2

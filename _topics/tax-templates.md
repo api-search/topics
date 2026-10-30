@@ -50,26 +50,26 @@ links:
   url: https://github.com/api-evangelist/tax-templates/blob/main/json-ld/tax-templates-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/tax-templates/blob/main/vocabulary/tax-templates-vocabulary.yml
-provider_count: 45
+provider_count: 47
 providers:
+- slug: thomson-reuters
+  name: Thomson Reuters
+  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
+  api_count: 134
+  score_band: strong
+  score_composite: 55.5
+  shared: 3
 - slug: vatstack
   name: Vatstack
   description: VAT number validation and EU tax rates REST API for validating European business VAT IDs via VIES and accessing current VAT rates for all EU member states. Vatstack provides automated VAT compliance for digital businesses including real-ti…
   api_count: 1
   score_band: thin
-  score_composite: 33.1
-  shared: 3
-- slug: thomson-reuters
-  name: Thomson Reuters
-  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
-  api_count: 6
-  score_band: emerging
-  score_composite: 11.9
+  score_composite: 34.5
   shared: 3
 - slug: ibanforge
   name: IBANforge
   description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.0
   shared: 2
@@ -90,23 +90,16 @@ providers:
 - slug: globaldatabase-com
   name: Global Database
   description: Global Database (GLOBAL DATA INTELLIGENCE Ltd, UK) is a B2B company-intelligence provider that sources company records directly from 400+ official government registries across 200+ countries — 600M+ company profiles with registry data, off…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
   shared: 2
 - slug: cadana
   name: Cadana
   description: Cadana is a white-label global payment and payroll infrastructure provider for talent platforms, staffing companies, and HR providers. Its APIs let partners onboard and pay employees and contractors in 100+ countries, run multi-currency pa…
-  api_count: 9
+  api_count: 5
   score_band: developing
   score_composite: 48.2
-  shared: 2
-- slug: london-stock-exchange-group
-  name: London Stock Exchange Group
-  description: London Stock Exchange Group plc is a United Kingdom-based stock exchange and financial information company headquartered in the City of London, England. LSEG provides capital markets, data and analytics, risk management, and post-trade ser…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.8
   shared: 2
 - slug: taxley
   name: Taxley (UK Corporation Tax API)
@@ -118,7 +111,7 @@ providers:
 - slug: dealogic
   name: Dealogic
   description: Dealogic is a global provider of content and software for the capital markets — deal management, analytics, league tables and compliance — used by investment banks, syndicate and sales/trading desks, investment managers and corporates, and…
-  api_count: 16
+  api_count: 8
   score_band: developing
   score_composite: 40.5
   shared: 2
@@ -128,6 +121,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 40.1
+  shared: 2
+- slug: lseg
+  name: LSEG
+  description: LSEG (London Stock Exchange Group) is a leading global financial markets infrastructure and data provider, offering a broad range of services including data & analytics, FTSE Russell indices, trading venues, FX, post‑trade solutions and ri…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.6
   shared: 2
 - slug: inkit
   name: Inkit
@@ -141,12 +141,12 @@ providers:
   description: Zoho Sign is a cloud-based electronic signature platform that provides a REST API for sending documents for signature, managing templates, tracking signing status, and automating signature workflows. The API supports OAuth 2.0 authenticati…
   api_count: 1
   score_band: thin
-  score_composite: 37.6
+  score_composite: 39.0
   shared: 2
 - slug: boldsign
   name: BoldSign
   description: BoldSign is an e-signature platform built by Syncfusion that provides a REST API for sending documents for electronic signature, managing reusable templates, tracking envelope status, and embedding signing and requesting workflows directly…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 36.7
   shared: 2
@@ -156,6 +156,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 36.1
+  shared: 2
+- slug: vistra
+  name: Vistra
+  description: Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.1
   shared: 2
 - slug: mosey
   name: Mosey
@@ -178,13 +185,6 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 2
-- slug: vistra
-  name: Vistra
-  description: Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.8
-  shared: 2
 - slug: cleartax
   name: Cleartax
   description: Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suit…
@@ -204,7 +204,14 @@ providers:
   description: Vertex Inc. provides tax technology software and solutions that help businesses automate global tax compliance, calculate taxes, and manage tax data across multiple jurisdictions. Their platform integrates with ERP, e‑commerce, and financi…
   api_count: 8
   score_band: thin
-  score_composite: 30.1
+  score_composite: 31.4
+  shared: 2
+- slug: coinledger
+  name: CoinLedger
+  description: CoinLedger provides free crypto tax software that helps individuals and professionals generate tax reports for cryptocurrency transactions. Founded in 2018, the platform offers tools for portfolio tracking, NFT and DeFi tax calculations, a…
+  api_count: 0
+  score_band: thin
+  score_composite: 27.3
   shared: 2
 - slug: sphere-tax
   name: Sphere
@@ -213,19 +220,12 @@ providers:
   score_band: thin
   score_composite: 26.7
   shared: 2
-- slug: coinledger
-  name: CoinLedger
-  description: CoinLedger provides free crypto tax software that helps individuals and professionals generate tax reports for cryptocurrency transactions. Founded in 2018, the platform offers tools for portfolio tracking, NFT and DeFi tax calculations, a…
-  api_count: 0
-  score_band: emerging
-  score_composite: 26.0
-  shared: 2
 - slug: sovos
   name: Sovos
   description: Sovos provides a global, cloud‑based platform for tax compliance, regulatory reporting, and e‑invoicing. It helps enterprises automate indirect tax calculations, filing, and information reporting across more than 200 jurisdictions. The pla…
   api_count: 6
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 25.7
   shared: 2
 - slug: blue-j
   name: Blue J

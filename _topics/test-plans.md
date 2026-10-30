@@ -82,14 +82,14 @@ providers:
 - slug: tricentis
   name: Tricentis
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, To…
-  api_count: 9
+  api_count: 8
   score_band: exemplar
   score_composite: 68.6
   shared: 2
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 66.3
   shared: 2
@@ -131,14 +131,14 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 2
@@ -152,16 +152,16 @@ providers:
 - slug: automation-preflight-api
   name: Automation Preflight API
   description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 49.8
+  score_composite: 49.3
   shared: 2
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.8
   shared: 2
 - slug: assertible
   name: Assertible
@@ -173,7 +173,7 @@ providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 2

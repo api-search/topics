@@ -72,19 +72,19 @@ links:
   url: https://community.smartbear.com/
 - type: Twitter
   url: https://twitter.com/SwaggerApi
-provider_count: 120
+provider_count: 122
 providers:
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 4
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 3
@@ -100,7 +100,7 @@ providers:
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
   score_band: developing
-  score_composite: 50.6
+  score_composite: 53.7
   shared: 3
 - slug: swaggerhub
   name: SwaggerHub
@@ -142,7 +142,7 @@ providers:
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.2
   shared: 3
 - slug: fern-api
   name: Fern
@@ -207,13 +207,6 @@ providers:
   score_band: emerging
   score_composite: 14.9
   shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 3
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
   description: ACKNOWLEDGMENTS.md is a standardized file convention used in open source repositories to credit third-party software, libraries, inspirations, and other works that a project builds upon or is indebted to. It is a common practice for docume…
@@ -224,21 +217,21 @@ providers:
 - slug: wso2
   name: WSO2
   description: WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and clo…
-  api_count: 9
+  api_count: 7
   score_band: exemplar
   score_composite: 83.0
   shared: 2
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 2
@@ -247,12 +240,12 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 2
 - slug: 0xarchive
   name: 0xArchive
   description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.7
   shared: 2
@@ -266,9 +259,9 @@ providers:
 - slug: scalar
   name: Scalar
   description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rule…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 70.3
   shared: 2
 - slug: canvas
   name: Canvas
@@ -283,5 +276,12 @@ providers:
   api_count: 11
   score_band: exemplar
   score_composite: 68.2
+  shared: 2
+- slug: speakeasy
+  name: Speakeasy
+  description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.3
   shared: 2
 ---

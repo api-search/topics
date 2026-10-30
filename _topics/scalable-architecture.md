@@ -56,14 +56,21 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/scalable-architecture/main/json-ld/scalable-architecture-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/scalable-architecture/main/vocabulary/scalable-architecture-vocabulary.yml
-provider_count: 75
+provider_count: 77
 providers:
 - slug: zeebe
   name: Zeebe
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 48.4
+  shared: 3
+- slug: service-fabric
+  name: Service Fabric
+  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
   shared: 3
 - slug: diagrid
   name: Diagrid
@@ -78,13 +85,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 34.9
-  shared: 3
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.0
   shared: 3
 - slug: service-mesh
   name: Service Mesh
@@ -138,9 +138,9 @@ providers:
 - slug: synadia-communications
   name: Synadia Communications
   description: Synadia Communications, Inc. is the creator and primary maintainer of NATS.io, the CNCF connectivity and messaging system, and sells the commercial platform built on it. Its products are Synadia Cloud (fully managed, globally distributed N…
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 67.6
   shared: 2
 - slug: spectro-cloud
   name: Spectro Cloud
@@ -159,9 +159,16 @@ providers:
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 61.6
+  shared: 2
+- slug: websphere
+  name: IBM WebSphere
+  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
+  api_count: 7
+  score_band: strong
+  score_composite: 58.4
   shared: 2
 - slug: amazon-sqs
   name: Amazon SQS
@@ -170,17 +177,10 @@ providers:
   score_band: strong
   score_composite: 57.2
   shared: 2
-- slug: websphere
-  name: IBM WebSphere
-  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
-  api_count: 7
-  score_band: strong
-  score_composite: 57.0
-  shared: 2
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 56.3
   shared: 2
@@ -188,15 +188,15 @@ providers:
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2,…
   api_count: 1
-  score_band: developing
-  score_composite: 53.6
+  score_band: strong
+  score_composite: 55.0
   shared: 2
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
   description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that…
   api_count: 73
   score_band: developing
-  score_composite: 49.4
+  score_composite: 50.7
   shared: 2
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -205,6 +205,13 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 2
+- slug: unikraft
+  name: Unikraft
+  description: Unikraft is an open-source unikernel library operating system (LibOS) that enables developers to build ultra‑lightweight, high‑performance virtual machines called unikernels. It provides a fast, secure, and customizable platform for cloud‑…
+  api_count: 5
+  score_band: developing
+  score_composite: 48.6
+  shared: 2
 - slug: etcd
   name: Etcd
   description: etcd is a CNCF graduated distributed, reliable key-value store used as the backing store for all Kubernetes cluster data. It provides strong consistency guarantees using the Raft consensus algorithm, supporting watch operations, lease-base…
@@ -212,19 +219,19 @@ providers:
   score_band: developing
   score_composite: 48.5
   shared: 2
+- slug: docker
+  name: Docker
+  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+  api_count: 1
+  score_band: developing
+  score_composite: 44.6
+  shared: 2
 - slug: apollo-config
   name: Apollo Config
   description: Apollo is a reliable, open-source configuration management system suitable for microservice configuration management scenarios, providing centralized configuration management, real-time updates, versioning, and multi-environment support. O…
   api_count: 1
   score_band: developing
   score_composite: 44.4
-  shared: 2
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 2
-  score_band: developing
-  score_composite: 43.2
   shared: 2
 - slug: microsoft-azure-service-fabric
   name: Azure Service Fabric
@@ -253,13 +260,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 42.2
-  shared: 2
-- slug: apache-dubbo
-  name: Apache Dubbo
-  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols includ…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.5
   shared: 2
 - slug: isovalent
   name: Isovalent

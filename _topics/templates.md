@@ -61,12 +61,12 @@ links:
   url: https://github.com/api-evangelist/templates/blob/main/json-schema/templates-template-schema.json
 - type: Vocabulary
   url: https://github.com/api-evangelist/templates/blob/main/vocabulary/templates-vocabulary.yml
-provider_count: 111
+provider_count: 112
 providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 4
@@ -82,7 +82,7 @@ providers:
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 56.0
   shared: 4
 - slug: swaggerhub
   name: SwaggerHub
@@ -101,7 +101,7 @@ providers:
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 4
@@ -110,7 +110,7 @@ providers:
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.2
   shared: 4
 - slug: typespec
   name: TypeSpec
@@ -140,19 +140,12 @@ providers:
   score_band: emerging
   score_composite: 15.3
   shared: 4
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 4
 - slug: scalar
   name: Scalar
   description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rule…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 70.3
   shared: 3
 - slug: archbee
   name: Archbee
@@ -164,7 +157,7 @@ providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 3
@@ -180,14 +173,14 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 3
 - slug: stainless
   name: Stainless
   description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic,…
-  api_count: 7
+  api_count: 2
   score_band: developing
-  score_composite: 50.1
+  score_composite: 49.5
   shared: 3
 - slug: liblab
   name: Liblab
@@ -272,5 +265,12 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 24.5
+  shared: 3
+- slug: apigit
+  name: APIGit
+  description: APIGit is a Git-native platform for full lifecycle API development that combines version control, API design, documentation generation, governance, testing, and dynamic mock servers in a single integrated environment. Teams can build, publ…
+  api_count: 4
+  score_band: emerging
+  score_composite: 24.4
   shared: 3
 ---

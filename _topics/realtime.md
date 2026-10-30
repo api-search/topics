@@ -130,16 +130,16 @@ providers:
 - slug: ably
   name: Ably
   description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 41.1
+  score_composite: 42.0
   shared: 4
 - slug: pusher
   name: Pusher
   description: Pusher is a realtime communication platform owned by MessageBird/Bird. Its primary product Channels provides pub/sub messaging over WebSocket and HTTP; Beams provides device push notifications. Authentication uses an app key + secret per P…
   api_count: 1
   score_band: thin
-  score_composite: 37.2
+  score_composite: 38.6
   shared: 4
 - slug: pubnub
   name: PubNub
@@ -152,8 +152,8 @@ providers:
   name: Liveblocks
   description: Liveblocks is a real-time collaboration platform that provides ready-made building blocks for multiplayer experiences, including presence, broadcast events, shared storage (LiveObject/LiveList/LiveMap), comments and threads, notifications,…
   api_count: 1
-  score_band: developing
-  score_composite: 53.4
+  score_band: strong
+  score_composite: 55.5
   shared: 3
 - slug: microsoft-azure-web-pubsub
   name: Azure Web PubSub
@@ -193,14 +193,14 @@ providers:
 - slug: cumulocity
   name: Cumulocity
   description: Cumulocity is an enterprise AIoT (Artificial Intelligence of Things) platform that connects, manages, and analyzes industrial assets from cloud to edge. Founded inside Software AG and divested via a 2025 management buyout into an independe…
-  api_count: 17
+  api_count: 4
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 68.1
   shared: 2
 - slug: gemini-trust
   name: Gemini Trust Company
   description: Gemini Trust Company, LLC is a United States cryptocurrency exchange and custodian, founded in 2014 and headquartered in New York, regulated as a New York State Department of Financial Services trust company. It operates the Gemini Exchang…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 67.6
   shared: 2
@@ -214,23 +214,30 @@ providers:
 - slug: dolby
   name: Dolby
   description: Dolby Laboratories is an audio and video technology company whose developer platform, Dolby OptiView, is the merged surface of the original dolby.io platform, THEO Technologies (THEOplayer, THEOlive, THEOads) and Millicast. It ships public…
-  api_count: 13
+  api_count: 8
   score_band: strong
   score_composite: 65.5
-  shared: 2
-- slug: aedifion
-  name: Aedifion
-  description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building tra…
-  api_count: 4
-  score_band: strong
-  score_composite: 65.2
   shared: 2
 - slug: massive-com
   name: Massive (formerly Polygon.io)
   description: Polygon (Polygon.io, rebranded as Massive in early 2026) provides real-time and historical market data APIs across US stocks, options, indices, forex, cryptocurrencies, and futures. Coverage is delivered through REST endpoints and WebSocke…
   api_count: 70
   score_band: strong
-  score_composite: 64.3
+  score_composite: 64.9
+  shared: 2
+- slug: aedifion
+  name: Aedifion
+  description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building tra…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.6
+  shared: 2
+- slug: kraken
+  name: Kraken
+  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, O…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.4
   shared: 2
 - slug: red5
   name: Red5
@@ -242,14 +249,14 @@ providers:
 - slug: novu
   name: Novu
   description: Novu is the open-source notification infrastructure for developers. A single REST API and workflow engine route a triggered event across in-app inbox, email, SMS, push, chat (Slack / Discord / MS Teams / WhatsApp) and custom channels — wit…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 63.2
+  score_composite: 63.4
   shared: 2
 - slug: siftingio
   name: SiftingIO
   description: Cross-asset market data APIs covering US equities, forex, cryptocurrency, DeFi/on-chain, commodities, and SEC/EDGAR fundamentals, aggregated across venues and normalized into one JSON schema so every asset class shares the same fields, aut…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.1
   shared: 2
@@ -258,19 +265,12 @@ providers:
   description: AgentMail is an API-first email platform that gives AI agents their own email inboxes to autonomously send, receive, reply to, and act on email. Unlike traditional transactional email APIs built for one-way notifications, AgentMail is desi…
   api_count: 1
   score_band: strong
-  score_composite: 60.3
-  shared: 2
-- slug: kraken
-  name: Kraken
-  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, O…
-  api_count: 24
-  score_band: strong
-  score_composite: 59.7
+  score_composite: 60.4
   shared: 2
 - slug: odds-api
   name: Odds API
   description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, l…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 58.9
   shared: 2
@@ -300,21 +300,14 @@ providers:
   description: Decart is an AI research lab and API platform building real-time world models — foundation models that generate and transform video frame-by-frame as they are watched. Its Decart API Platform (platform.decart.ai) exposes the Lucy family of…
   api_count: 2
   score_band: strong
-  score_composite: 54.4
+  score_composite: 54.5
   shared: 2
 - slug: open-poker
   name: Open Poker
   description: A free competitive arena where AI bots play 6-max No-Limit Texas Hold'em against each other over WebSocket in 14-day seasons, tracked on a public leaderboard. Bots connect via WebSocket, receive game state as JSON, and send actions back —…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.2
-  shared: 2
-- slug: lighter
-  name: Lighter
-  description: Lighter is a decentralized perpetual futures exchange built on zkLighter, a zero-knowledge rollup that produces verifiable proofs of order matching and liquidations while targeting the latency of a centralized venue. Traders register a Lig…
   api_count: 1
   score_band: developing
-  score_composite: 51.4
+  score_composite: 53.2
   shared: 2
 - slug: qfex
   name: Qfex
@@ -322,6 +315,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.3
+  shared: 2
+- slug: lighter
+  name: Lighter
+  description: Lighter is a decentralized perpetual futures exchange built on zkLighter, a zero-knowledge rollup that produces verifiable proofs of order matching and liquidations while targeting the latency of a centralized venue. Traders register a Lig…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.0
   shared: 2
 - slug: thingspeak
   name: ThingSpeak

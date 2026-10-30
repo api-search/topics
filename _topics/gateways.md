@@ -29,7 +29,7 @@ providers:
   description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at sca…
   api_count: 1
   score_band: strong
-  score_composite: 59.3
+  score_composite: 59.4
   shared: 2
 - slug: vercel
   name: Vercel
@@ -57,7 +57,7 @@ providers:
   description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge in…
   api_count: 1
   score_band: developing
-  score_composite: 45.6
+  score_composite: 46.8
   shared: 2
 - slug: litellm
   name: LiteLLM

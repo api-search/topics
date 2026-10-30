@@ -28,7 +28,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/rest-api/refs/heads/main/vocabulary/rest-api-vocabulary.yml
 - type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/rest-api/refs/heads/main/json-ld/rest-api-context.jsonld
-provider_count: 56
+provider_count: 55
 providers:
 - slug: rest
   name: REST
@@ -54,7 +54,7 @@ providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 3
@@ -63,7 +63,7 @@ providers:
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 19.0
+  score_composite: 20.4
   shared: 3
 - slug: restful
   name: RESTful
@@ -75,14 +75,14 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 2
@@ -112,14 +112,14 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 2
 - slug: mediacaption-api
   name: MediaCaption API
   description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.4
   shared: 2
 - slug: swaggerhub
   name: SwaggerHub
@@ -175,7 +175,7 @@ providers:
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.2
   shared: 2
 - slug: eraser
   name: Eraser
@@ -191,6 +191,13 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 2
+- slug: crowdin
+  name: Crowdin
+  description: Crowdin is a localization management platform for software, mobile, games, and documentation. It offers a REST API v2 covering projects, files, strings, translations, screenshots, glossaries, MT engines, and webhooks, plus a single GraphQL…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.6
+  shared: 2
 - slug: apache-cxf
   name: Apache CXF
   description: Apache CXF is an open-source Java services framework governed by the Apache Software Foundation that helps build and develop web services using JAX-WS (SOAP) and JAX-RS (REST) frontend APIs. It supports contract-first (WSDL) and code-first…
@@ -198,17 +205,10 @@ providers:
   score_band: thin
   score_composite: 33.6
   shared: 2
-- slug: crowdin
-  name: Crowdin
-  description: Crowdin is a localization management platform for software, mobile, games, and documentation. It offers a REST API v2 covering projects, files, strings, translations, screenshots, glossaries, MT engines, and webhooks, plus a single GraphQL…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.2
-  shared: 2
 - slug: playground
   name: Playground API — Free Stateful Mock REST & GraphQL Service
   description: A free, zero-configuration, stateful mock REST and GraphQL API sandbox by Nilesh Kumar / Niles Labs. Unlike static mock APIs, it provides stateful per-session virtual mutation overlays where POST/PUT/PATCH/DELETE mutations persist across G…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 32.0
   shared: 2

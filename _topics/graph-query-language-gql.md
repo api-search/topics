@@ -77,7 +77,7 @@ providers:
   description: SurrealDB is a multi-model database that unifies documents, graphs, vectors, time-series, full-text search, and relational data within a single ACID transaction framework. It exposes a native HTTP REST API and supports SurrealQL, a powerfu…
   api_count: 2
   score_band: thin
-  score_composite: 28.2
+  score_composite: 29.6
   shared: 2
 - slug: edgedb
   name: EdgeDB

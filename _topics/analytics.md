@@ -34,7 +34,7 @@ links:
   url: https://github.com/api-evangelist/analytics/blob/main/llms/analytics-llms.txt
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
-provider_count: 235
+provider_count: 236
 providers:
 - slug: rakam
   name: rakam
@@ -57,6 +57,13 @@ providers:
   score_band: exemplar
   score_composite: 75.5
   shared: 3
+- slug: umami
+  name: Umami
+  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full pro…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 71.7
+  shared: 3
 - slug: adobe-analytics
   name: Adobe Analytics
   description: Adobe Analytics provides real-time analytics and detailed segmentation capabilities across all marketing channels, enabling organizations to discover high-value audiences and power customer intelligence.
@@ -70,13 +77,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 66.7
-  shared: 3
-- slug: umami
-  name: Umami
-  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full pro…
-  api_count: 7
-  score_band: strong
-  score_composite: 62.0
   shared: 3
 - slug: plausible
   name: Plausible
@@ -95,7 +95,7 @@ providers:
 - slug: mparticle
   name: mParticle
   description: mParticle is a customer data platform (CDP) that helps brands collect, unify, and activate customer data across mobile, web, OTT, and server sources, then forward it in real time to hundreds of analytics, marketing, and warehouse destinati…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 56.9
   shared: 3
@@ -137,7 +137,7 @@ providers:
 - slug: sensors-data
   name: Sensors Data
   description: Sensors Data (神策数据) is a customer data analytics and CDP (Customer Data Platform) company. Its platform unifies customer data across channels into real-time customer profiles and provides product analytics, user profiling, marketing and ad…
-  api_count: 58
+  api_count: 30
   score_band: developing
   score_composite: 43.3
   shared: 3
@@ -148,19 +148,19 @@ providers:
   score_band: developing
   score_composite: 41.2
   shared: 3
+- slug: june
+  name: June
+  description: June is a product analytics platform purpose-built for B2B SaaS companies, providing company-level and user-level analytics focused on key SaaS metrics such as activation, retention, and feature adoption. The platform offers a REST-based T…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.5
+  shared: 3
 - slug: elementl
   name: Elementl
   description: Elementl, Inc. is the company behind Dagster, rebranded as Dagster Labs in August 2023. Founded in 2018 by Nick Schrock (creator of GraphQL) and led by CEO Pete Hunt, the San Francisco company builds Dagster, an open-source, Apache-2.0 lic…
   api_count: 0
   score_band: thin
   score_composite: 37.2
-  shared: 3
-- slug: june
-  name: June
-  description: June is a product analytics platform purpose-built for B2B SaaS companies, providing company-level and user-level analytics focused on key SaaS metrics such as activation, retention, and feature adoption. The platform offers a REST-based T…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.1
   shared: 3
 - slug: jitsu
   name: Jitsu
@@ -181,7 +181,7 @@ providers:
   description: OpenPanel is an open source product analytics platform that provides event tracking, user journey analysis, real-time dashboards, and funnel analysis, offering a privacy-friendly alternative to tools like Mixpanel and Amplitude.
   api_count: 1
   score_band: emerging
-  score_composite: 24.3
+  score_composite: 25.6
   shared: 3
 - slug: scuba
   name: Scuba
@@ -209,12 +209,12 @@ providers:
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
   api_count: 6
   score_band: exemplar
-  score_composite: 84.8
+  score_composite: 84.5
   shared: 2
 - slug: customer-io
   name: Customer.io
   description: Customer.io is a customer engagement platform that combines a customer data platform, marketing automation, and messaging delivery to send behavior-triggered email, push, SMS, and in-app messages. Its API surface includes the Track API for…
-  api_count: 7
+  api_count: 5
   score_band: exemplar
   score_composite: 84.0
   shared: 2
@@ -228,9 +228,9 @@ providers:
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching,…
-  api_count: 19
+  api_count: 10
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 76.9
   shared: 2
 - slug: treasure-data
   name: Treasure Data
@@ -242,7 +242,7 @@ providers:
 - slug: sigma-computing
   name: Sigma Computing
   description: Sigma Computing is a warehouse-first analytics and business-application platform. Instead of extracting data into its own store, Sigma queries the customer's cloud data warehouse live — Snowflake, Databricks, BigQuery, Redshift, Amazon Ath…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 72.4
   shared: 2

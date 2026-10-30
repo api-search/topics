@@ -29,7 +29,7 @@ providers:
 - slug: dotcms
   name: dotCMS
   description: dotCMS is a Java-based visual headless content management system aimed at compliance-led enterprises, deployable as SaaS (dotCMS Cloud), on premise, or as a managed service. It covers content modelling, authoring, workflow, multi-site mana…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 70.9
   shared: 2
@@ -45,7 +45,7 @@ providers:
   description: Apache Sling is a RESTful web framework built on top of the Java Content Repository (JCR) standard. It maps HTTP requests to content resources using a resource-oriented URL decomposition model and uses scripts or servlets to render respons…
   api_count: 3
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 22.8
   shared: 2
 - slug: jakarta-ee
   name: Jakarta EE

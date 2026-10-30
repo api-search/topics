@@ -69,15 +69,15 @@ providers:
   name: Particle
   description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud expo…
   api_count: 2
-  score_band: developing
-  score_composite: 53.9
+  score_band: strong
+  score_composite: 55.3
   shared: 3
 - slug: allegion
   name: Allegion
   description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Porta…
   api_count: 2
   score_band: developing
-  score_composite: 51.5
+  score_composite: 52.9
   shared: 3
 - slug: bouffalolab
   name: Bouffalo Lab
@@ -93,17 +93,10 @@ providers:
   score_band: minimal
   score_composite: 2.9
   shared: 3
-- slug: losant
-  name: Losant
-  description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (th…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 81.6
-  shared: 2
 - slug: kontaktio
   name: Kontakt.io
   description: Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with s…
-  api_count: 8
+  api_count: 4
   score_band: exemplar
   score_composite: 71.4
   shared: 2
@@ -113,6 +106,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 70.5
+  shared: 2
+- slug: losant
+  name: Losant
+  description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (th…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.0
   shared: 2
 - slug: viam
   name: Viam
@@ -126,19 +126,19 @@ providers:
   description: Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management…
   api_count: 18
   score_band: strong
-  score_composite: 56.7
+  score_composite: 56.9
   shared: 2
 - slug: etsi
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
   score_band: developing
-  score_composite: 50.6
+  score_composite: 53.7
   shared: 2
 - slug: reliance-jio
   name: Reliance Jio
   description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance Industries, is India's largest mobile network operator, serving roughly half a billion subscribers on an all-IP 4G/5G network from its home market of India, along…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 50.5
   shared: 2
@@ -148,6 +148,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 46.8
+  shared: 2
+- slug: 1nce
+  name: 1NCE
+  description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management…
+  api_count: 7
+  score_band: developing
+  score_composite: 46.1
   shared: 2
 - slug: celona
   name: Celona
@@ -159,16 +166,9 @@ providers:
 - slug: golioth
   name: Golioth
   description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.5
-  shared: 2
-- slug: 1nce
-  name: 1NCE
-  description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management…
-  api_count: 15
-  score_band: developing
-  score_composite: 44.7
   shared: 2
 - slug: swift-navigation
   name: Swift Navigation
@@ -205,13 +205,6 @@ providers:
   score_band: thin
   score_composite: 34.9
   shared: 2
-- slug: got-its
-  name: Reelables
-  description: Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attach…
-  api_count: 3
-  score_band: thin
-  score_composite: 34.4
-  shared: 2
 - slug: estimote
   name: Estimote
   description: Estimote is a proximity and indoor-location company founded in 2012 that designs Bluetooth Low Energy, Ultra-Wideband (UWB) and LTE-M/NB-IoT beacons together with the Estimote Cloud platform for managing them at fleet scale. The Estimote C…
@@ -225,6 +218,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.1
+  shared: 2
+- slug: got-its
+  name: Reelables
+  description: Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attach…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.9
   shared: 2
 - slug: flic
   name: Flic
@@ -243,7 +243,7 @@ providers:
 - slug: cisco-meraki
   name: Cisco Meraki
   description: Cisco Meraki is a cloud-managed networking platform that provides wireless access points, switches, security appliances, cameras, sensors, and mobile device management from a single dashboard. The Meraki Dashboard API is a RESTful interfac…
-  api_count: 7
+  api_count: 6
   score_band: thin
   score_composite: 27.9
   shared: 2
@@ -261,11 +261,11 @@ providers:
   score_band: thin
   score_composite: 26.9
   shared: 2
-- slug: wiliot
-  name: Wiliot
-  description: Wiliot operates an ambient IoT platform built on battery-free "IoT Pixels" - postage-stamp-sized Bluetooth sensor tags - and a cloud that turns everyday physical items into a continuous, real-time data source for supply-chain visibility ("…
-  api_count: 3
+- slug: cypress-semiconductor
+  name: Cypress Semiconductor
+  description: Cypress Semiconductor was a US-based semiconductor company known for its PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and Bluetooth connectivity stacks, NOR Flash memory, CapSense capacitive touch sensing, and Traveo auto…
+  api_count: 6
   score_band: emerging
-  score_composite: 24.9
+  score_composite: 25.2
   shared: 2
 ---

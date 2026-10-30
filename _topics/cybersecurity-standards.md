@@ -93,7 +93,7 @@ links:
   url: https://www.fedramp.gov/
 - type: HITRUST
   url: https://hitrustalliance.net/
-provider_count: 203
+provider_count: 206
 providers:
 - slug: secureframe
   name: Secureframe
@@ -107,7 +107,7 @@ providers:
   description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.2
+  score_composite: 69.0
   shared: 4
 - slug: comp-ai
   name: Comp AI
@@ -156,14 +156,14 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 3
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
   shared: 3
 - slug: security-scorecard
   name: SecurityScorecard
@@ -184,14 +184,21 @@ providers:
   description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
   api_count: 2
   score_band: developing
-  score_composite: 47.3
+  score_composite: 48.6
   shared: 3
 - slug: google-cloud-assured-workloads
   name: Google Cloud Assured Workloads
   description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
   api_count: 1
   score_band: developing
-  score_composite: 44.0
+  score_composite: 45.4
+  shared: 3
+- slug: heidi-health
+  name: Heidi Health
+  description: Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability su…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.3
   shared: 3
 - slug: formassembly
   name: FormAssembly
@@ -200,19 +207,19 @@ providers:
   score_band: developing
   score_composite: 40.1
   shared: 3
-- slug: heidi-health
-  name: Heidi Health
-  description: Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability su…
-  api_count: 1
-  score_band: thin
-  score_composite: 39.0
-  shared: 3
 - slug: nucleus-security
   name: Nucleus Security
   description: Nucleus Security is a risk-based vulnerability and exposure management platform that unifies findings from across an organization's scanning estate - network, application, cloud, container and penetration-test tooling - into a single norma…
   api_count: 2
   score_band: thin
   score_composite: 35.1
+  shared: 3
+- slug: cyrisma
+  name: CYRISMA
+  description: CYRISMA provides a cyber risk management platform that helps managed service providers and enterprises identify, remediate, and monitor vulnerabilities and compliance controls. Their solutions include vulnerability management, data discove…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.2
   shared: 3
 - slug: cynomi
   name: Cynomi
@@ -284,25 +291,18 @@ providers:
   score_band: exemplar
   score_composite: 71.7
   shared: 2
+- slug: fenergo
+  name: Fenergo
+  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
+  api_count: 145
+  score_band: strong
+  score_composite: 62.7
+  shared: 2
 - slug: fama
   name: Fama
   description: Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web cont…
   api_count: 3
   score_band: strong
   score_composite: 62.5
-  shared: 2
-- slug: fenergo
-  name: Fenergo
-  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
-  api_count: 145
-  score_band: strong
-  score_composite: 61.3
-  shared: 2
-- slug: xcures
-  name: xCures
-  description: xCures operates the Clinical Clarity Engine, an AI platform that retrieves, organizes and structures fragmented patient medical records into decision-ready clinical data. Founded in 2018 and headquartered in Oakland, California, the compan…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.8
   shared: 2
 ---

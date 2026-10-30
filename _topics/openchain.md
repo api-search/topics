@@ -44,7 +44,7 @@ providers:
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 34.0
   shared: 3
@@ -65,7 +65,7 @@ providers:
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.9
   shared: 2
@@ -125,6 +125,13 @@ providers:
   score_band: emerging
   score_composite: 12.0
   shared: 2
+- slug: ul-solutions
+  name: UL Solutions
+  description: UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.9
+  shared: 2
 - slug: payna
   name: Payna
   description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements…
@@ -145,13 +152,6 @@ providers:
   api_count: 1
   score_band: minimal
   score_composite: 8.6
-  shared: 2
-- slug: ul-solutions
-  name: UL Solutions
-  description: UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.3
   shared: 2
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md

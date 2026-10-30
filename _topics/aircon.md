@@ -48,7 +48,7 @@ links:
   url: https://github.com/api-evangelist/aircon/blob/main/security/aircon-domain-security.yml
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/aircon/refs/heads/main/vocabulary/aircon-vocabulary.yaml
-provider_count: 112
+provider_count: 124
 providers:
 - slug: sensibo
   name: Sensibo
@@ -62,7 +62,7 @@ providers:
   description: Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HV…
   api_count: 3
   score_band: emerging
-  score_composite: 11.0
+  score_composite: 19.7
   shared: 5
 - slug: boldr
   name: Boldr
@@ -74,9 +74,9 @@ providers:
 - slug: aedifion
   name: Aedifion
   description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building tra…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 65.2
+  score_composite: 64.6
   shared: 4
 - slug: 75f
   name: 75F
@@ -111,14 +111,14 @@ providers:
   description: The Smart Device Management (SDM) API is a REST API that allows developers to manage Google Nest devices including thermostats, cameras, doorbells, and displays. It provides access to device traits and commands using a trait-based model, e…
   api_count: 1
   score_band: developing
-  score_composite: 40.0
+  score_composite: 41.4
   shared: 3
 - slug: passivelogic
   name: PassiveLogic
   description: PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Crea…
-  api_count: 4
+  api_count: 1
   score_band: thin
-  score_composite: 37.3
+  score_composite: 36.8
   shared: 3
 - slug: verdigris-technologies
   name: Verdigris Technologies
@@ -146,7 +146,7 @@ providers:
   description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of R…
   api_count: 1
   score_band: thin
-  score_composite: 32.2
+  score_composite: 30.1
   shared: 3
 - slug: gridpoint
   name: GridPoint
@@ -211,10 +211,17 @@ providers:
   score_band: minimal
   score_composite: 4.3
   shared: 3
+- slug: daikin
+  name: Daikin
+  description: Daikin is a global leader in air conditioning, heating, ventilation and refrigeration technologies. Founded in 1924 in Osaka, Japan, Daikin develops innovative climate‑control solutions for residential, commercial and industrial applicatio…
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.1
+  shared: 3
 - slug: gridx-ai
   name: gridX
   description: 'gridX (gridX GmbH, Aachen, Germany) provides XENON, a white-label connectivity and flexibility platform for distributed energy resources. It covers home energy management systems (HEMS) and EV charging infrastructure: connecting PV, batter…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 59.7
   shared: 2
@@ -230,34 +237,27 @@ providers:
   description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Porta…
   api_count: 2
   score_band: developing
-  score_composite: 51.5
+  score_composite: 52.9
   shared: 2
 - slug: clevergy
   name: Clevergy
   description: Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform inges…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 51.0
   shared: 2
-- slug: ring
-  name: Ring
-  description: Ring is an Amazon home-security company (doorbells, cameras, alarm systems, and the Ring Protect subscription) that in 2026 launched the Ring Developer platform and Ring Appstore. Third-party developers can build video-powered apps against…
+- slug: johnson-controls
+  name: Johnson Controls
+  description: Johnson Controls is a global diversified technology and multi-industrial leader serving customers in over 150 countries, providing products, services, and solutions for buildings (HVAC, fire, security, building automation), energy storage,…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
-  shared: 2
-- slug: butterflymx
-  name: ButterflyMX
-  description: ButterflyMX is a property-access technology company whose smart video intercoms, keypads, smart locks, elevator controls, vehicle-access readers, package rooms and front-desk stations are installed in more than 20,000 multifamily, commerci…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.9
+  score_composite: 50.1
   shared: 2
 - slug: viridi-parente
   name: Viridi
   description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 45.9
   shared: 2
 ---

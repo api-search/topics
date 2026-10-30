@@ -73,6 +73,6 @@ providers:
   description: The Federal Reserve Economic Data (FRED) API is a public web service operated by the Research Division of the Federal Reserve Bank of St. Louis. It provides programmatic access to more than 800,000 economic time series drawn from 100+ data…
   api_count: 10
   score_band: thin
-  score_composite: 31.2
+  score_composite: 31.5
   shared: 2
 ---

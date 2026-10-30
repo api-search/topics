@@ -69,7 +69,7 @@ providers:
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 3

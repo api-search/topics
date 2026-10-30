@@ -23,14 +23,14 @@ links:
   url: https://agilemanifesto.org/
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
-provider_count: 14
+provider_count: 15
 providers:
 - slug: taiga
   name: Taiga
   description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
   api_count: 1
   score_band: emerging
-  score_composite: 16.4
+  score_composite: 17.8
   shared: 3
 - slug: scrum
   name: Scrum
@@ -42,23 +42,30 @@ providers:
 - slug: trello
   name: Trello
   description: Trello is a web-based, kanban-style, list-making application from Atlassian that lets teams organize tasks, projects and workflows as boards, lists and cards. Its public REST API v1 at https://api.trello.com/1 exposes 261 operations across…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.9
+  score_composite: 73.3
   shared: 2
 - slug: leankit
   name: LeanKit
   description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hier…
   api_count: 2
   score_band: strong
-  score_composite: 61.4
+  score_composite: 62.8
   shared: 2
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.2
+  shared: 2
+- slug: planka
+  name: PLANKA
+  description: PLANKA is a self‑hosted Kanban board solution for agile teams, offering on‑premise project management with privacy‑focused data control. The software provides a web‑based interface for creating boards, cards, and workflows, supporting mult…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.3
   shared: 2
 - slug: hansoft
   name: Hansoft

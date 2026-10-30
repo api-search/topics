@@ -62,7 +62,7 @@ links:
   url: https://www.gs1.org/standards/epcis
 - type: Standards
   url: https://www.gs1.org/standards/epc-rfid-epcis-id-keys/epc-rfid-tds/1-12
-provider_count: 86
+provider_count: 88
 providers:
 - slug: wiliot
   name: Wiliot
@@ -81,16 +81,16 @@ providers:
 - slug: invendor
   name: Invendor
   description: Invendor is a smart industrial vending and vendor-managed inventory (VMI) platform for industrial distributors and manufacturers, combining weight-sensing (Gravity) and scan-based (Capture) smart cabinets, a Storeroom mobile app, and cloud…
-  api_count: 4
+  api_count: 2
   score_band: thin
-  score_composite: 37.9
+  score_composite: 37.4
   shared: 3
 - slug: got-its
   name: Reelables
   description: Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attach…
-  api_count: 3
+  api_count: 2
   score_band: thin
-  score_composite: 34.4
+  score_composite: 33.9
   shared: 3
 - slug: avery-dennison
   name: Avery Dennison
@@ -144,7 +144,7 @@ providers:
 - slug: kontaktio
   name: Kontakt.io
   description: Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with s…
-  api_count: 8
+  api_count: 4
   score_band: exemplar
   score_composite: 71.4
   shared: 2
@@ -158,7 +158,7 @@ providers:
 - slug: optoro
   name: Optoro
   description: Optoro is a returns management and reverse-logistics software company (Washington, DC; acquired by Blue Yonder in August 2025) whose OptiTurn platform powers the full returns lifecycle for retailers, brands and 3PLs — a shopper-facing retu…
-  api_count: 38
+  api_count: 17
   score_band: strong
   score_composite: 61.9
   shared: 2
@@ -204,6 +204,13 @@ providers:
   score_band: strong
   score_composite: 54.9
   shared: 2
+- slug: shipmonk
+  name: ShipMonk
+  description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order manage…
+  api_count: 6
+  score_band: strong
+  score_composite: 54.4
+  shared: 2
 - slug: kargo-ai
   name: Kargo
   description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
@@ -218,13 +225,6 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 2
-- slug: shipmonk
-  name: ShipMonk
-  description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order manage…
-  api_count: 6
-  score_band: developing
-  score_composite: 53.8
-  shared: 2
 - slug: relex
   name: RELEX Solutions
   description: RELEX Solutions is a Helsinki-headquartered supply chain and retail planning software company whose unified platform covers demand forecasting, inventory and replenishment, space and assortment, pricing and promotions, workforce and store…
@@ -238,6 +238,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 53.1
+  shared: 2
+- slug: digi-key
+  name: Digi-Key
+  description: DigiKey is a global distributor of electronic components. Its developer portal (developer.digikey.com) publishes OAuth 2.0 REST APIs on api.digikey.com for product search, pricing and inventory (Product Information V4), product change noti…
+  api_count: 22
+  score_band: developing
+  score_composite: 51.7
   shared: 2
 - slug: nabis
   name: Nabis
@@ -263,15 +270,8 @@ providers:
 - slug: dust-identity
   name: Dust Identity
   description: DUST Identity (Newton, Massachusetts; founded 2018 as an MIT spinout) binds physical objects to trusted digital records using the Diamond Unclonable Security Tag — an applied coating of engineered nano-diamonds in a polymer matrix that for…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.7
-  shared: 2
-- slug: canix
-  name: Canix
-  description: Canix is a cannabis enterprise resource planning (ERP) and seed-to-sale platform used by licensed cultivators, manufacturers and distributors to run cultivation, processing, inventory, sales and compliance operations. The product covers pl…
   api_count: 1
   score_band: developing
-  score_composite: 41.4
+  score_composite: 45.8
   shared: 2
 ---

@@ -55,7 +55,7 @@ providers:
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 33.1
   shared: 3
 - slug: eventuate
   name: Eventuate
@@ -90,14 +90,14 @@ providers:
   description: Eclipse Vert.x is a toolkit for building reactive applications on the JVM, providing support for multiple languages including Java, JavaScript, Groovy, Ruby, and Kotlin with an event-driven, non-blocking architecture. Part of the Eclipse F…
   api_count: 7
   score_band: thin
-  score_composite: 30.5
+  score_composite: 31.9
   shared: 2
 - slug: spring-cloud-stream
   name: Spring Cloud Stream
   description: Spring Cloud Stream is a framework for building event-driven microservices connected with shared messaging systems. It provides a flexible programming model built on established Spring idioms and best practices, including support for persi…
   api_count: 3
   score_band: thin
-  score_composite: 28.7
+  score_composite: 30.0
   shared: 2
 - slug: netflix-conductor
   name: Netflix Conductor

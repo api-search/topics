@@ -75,7 +75,7 @@ providers:
   description: The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural best practices. It provides a consistent process for evaluating architectures and implementing designs that scale over time acro…
   api_count: 1
   score_band: strong
-  score_composite: 56.4
+  score_composite: 57.8
   shared: 2
 - slug: secure-by-design
   name: Secure-By-Design

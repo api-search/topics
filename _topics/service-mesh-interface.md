@@ -93,7 +93,7 @@ links:
   url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./vocabulary/service-mesh-interface-vocabulary.yml
 - type: Examples
   url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./examples/
-provider_count: 64
+provider_count: 65
 providers:
 - slug: crossplane
   name: Crossplane
@@ -114,7 +114,7 @@ providers:
   description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
   api_count: 3
   score_band: thin
-  score_composite: 35.7
+  score_composite: 35.9
   shared: 3
 - slug: istio
   name: Istio
@@ -161,14 +161,14 @@ providers:
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 61.6
   shared: 2
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 56.3
   shared: 2
@@ -198,7 +198,7 @@ providers:
   description: Apache APISIX is a dynamic, real-time, high-performance cloud-native API gateway built on NGINX and etcd, developed by the Apache Software Foundation. It supports Lua and multi-language plugins for traffic management, authentication, obser…
   api_count: 2
   score_band: developing
-  score_composite: 47.0
+  score_composite: 47.2
   shared: 2
 - slug: argo
   name: Argo
@@ -231,7 +231,7 @@ providers:
 - slug: argo-workflows
   name: Argo Workflows
   description: Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. It is a CNCF graduated project that allows you to define workflows where each step is a container, model multi-step workflows…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 43.7
   shared: 2
@@ -259,7 +259,7 @@ providers:
 - slug: hami
   name: HAMi
   description: HAMi (Heterogeneous AI Computing Virtualization Middleware) is a CNCF incubating open-source project that brings device sharing, memory and core isolation, and topology-aware scheduling to heterogeneous AI accelerators on Kubernetes. It le…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.8
   shared: 2
@@ -291,18 +291,18 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 2
+- slug: google-anthos
+  name: Google Anthos
+  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premis…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.8
+  shared: 2
 - slug: argocd
   name: Argo CD
   description: Argo CD is a declarative GitOps continuous-delivery tool for Kubernetes, part of the CNCF Graduated Argo project. The argocd-server component exposes a gRPC and REST API used by the Web UI, the argocd CLI, and CI/CD systems. APIs cover app…
   api_count: 1
   score_band: thin
   score_composite: 36.6
-  shared: 2
-- slug: youki
-  name: Youki
-  description: youki is an open source container runtime written in Rust that implements the OCI runtime specification as a memory-safe alternative to runc, with rootless container support, cgroups v1 and v2, seccomp filtering, and systemd integration. M…
-  api_count: 2
-  score_band: thin
-  score_composite: 35.5
   shared: 2
 ---

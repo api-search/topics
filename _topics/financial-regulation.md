@@ -47,16 +47,16 @@ providers:
 - slug: opensanctions
   name: OpenSanctions
   description: OpenSanctions is an open database of international sanctions, watchlists, criminal designations and politically exposed persons (PEPs), published as a screening API, bulk data downloads and MIT-licensed open-source software from Berlin. It…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 67.9
   shared: 3
 - slug: idenfy
   name: iDenfy
   description: iDenfy is an identity verification platform providing KYC, KYB, and AML compliance solutions. The iDenfy API enables businesses to verify identities, check for fraud, and comply with regulatory requirements through automated document verif…
-  api_count: 28
+  api_count: 7
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 67.2
   shared: 3
 - slug: complyadvantage
   name: ComplyAdvantage
@@ -65,19 +65,19 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 3
+- slug: fenergo
+  name: Fenergo
+  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
+  api_count: 145
+  score_band: strong
+  score_composite: 62.7
+  shared: 3
 - slug: didit
   name: Didit
   description: Didit is a developer-first identity verification and fraud-prevention platform that exposes one unified API for KYC (ID verification, passive/active liveness, face match and search, age estimation, proof of address, NFC), KYB business veri…
   api_count: 1
   score_band: strong
   score_composite: 62.6
-  shared: 3
-- slug: fenergo
-  name: Fenergo
-  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
-  api_count: 145
-  score_band: strong
-  score_composite: 61.3
   shared: 3
 - slug: trulioo
   name: Trulioo
@@ -93,6 +93,13 @@ providers:
   score_band: developing
   score_composite: 52.9
   shared: 3
+- slug: signzy
+  name: Signzy
+  description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.6
+  shared: 3
 - slug: metamap
   name: MetaMap
   description: MetaMap (formerly Mati) is an identity verification platform founded in 2017 in San Francisco and headquartered there, serving 600+ companies across 50+ countries with a focus on Latin America, Africa, and other emerging markets. The platf…
@@ -103,14 +110,7 @@ providers:
 - slug: dotfile
   name: Dotfile
   description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
-  api_count: 28
-  score_band: developing
-  score_composite: 51.2
-  shared: 3
-- slug: signzy
-  name: Signzy
-  description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
-  api_count: 1
+  api_count: 27
   score_band: developing
   score_composite: 51.2
   shared: 3
@@ -138,9 +138,9 @@ providers:
 - slug: sigma-ratings
   name: Sigma360
   description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 46.4
   shared: 3
 - slug: parallel-markets
   name: Parallel Markets
@@ -173,7 +173,7 @@ providers:
 - slug: ubble
   name: Ubble
   description: Ubble is a Paris-founded identity verification company, now part of Checkout.com and operated as the Checkout.com Identity Verification (Identities) solution. Its API at api.ubble.ai powers video-based identity verification, ID document ve…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 3
@@ -245,7 +245,7 @@ providers:
   description: Sardine is a San Francisco-based fraud prevention, AML compliance, and risk management platform for fintechs, banks, marketplaces, and crypto VASPs. It unifies onboarding (KYC, KYB, document and bank verification), device intelligence and…
   api_count: 6
   score_band: emerging
-  score_composite: 20.0
+  score_composite: 21.4
   shared: 3
 - slug: duna
   name: Duna

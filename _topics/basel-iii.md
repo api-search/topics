@@ -40,19 +40,19 @@ links:
   url: https://github.com/api-evangelist/basel-iii/blob/main/vocabulary/basel-iii-vocabulary.yaml
 - type: JSONLD
   url: https://github.com/api-evangelist/basel-iii/blob/main/json-ld/basel-iii-context.jsonld
-provider_count: 114
+provider_count: 116
 providers:
 - slug: thomson-reuters
   name: Thomson Reuters
   description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
-  api_count: 6
-  score_band: emerging
-  score_composite: 11.9
+  api_count: 134
+  score_band: strong
+  score_composite: 55.5
   shared: 3
 - slug: ibanforge
   name: IBANforge
   description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.0
   shared: 2
@@ -68,14 +68,21 @@ providers:
   description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.2
+  score_composite: 69.0
   shared: 2
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
+  shared: 2
+- slug: fenergo
+  name: Fenergo
+  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
+  api_count: 145
+  score_band: strong
+  score_composite: 62.7
   shared: 2
 - slug: fama
   name: Fama
@@ -84,12 +91,12 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 2
-- slug: fenergo
-  name: Fenergo
-  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
-  api_count: 145
+- slug: avetta
+  name: Avetta
+  description: Avetta operates a cloud-based supply chain risk management (SCRM) and contractor compliance platform, Avetta One, used by more than 360,000 businesses across 120+ countries to prequalify, audit, and continuously monitor contractors and sup…
+  api_count: 6
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.3
   shared: 2
 - slug: dun-and-bradstreet
   name: Dun & Bradstreet
@@ -129,16 +136,16 @@ providers:
 - slug: zero-hash
   name: Zero Hash
   description: Zero Hash is a regulated digital-asset infrastructure provider that lets banks, brokerages, fintechs, payroll platforms and payment service providers embed crypto, stablecoin and tokenized-asset capability without holding licenses or runni…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.8
+  api_count: 2
+  score_band: developing
+  score_composite: 54.2
   shared: 2
 - slug: globaldatabase-com
   name: Global Database
   description: Global Database (GLOBAL DATA INTELLIGENCE Ltd, UK) is a B2B company-intelligence provider that sources company records directly from 400+ official government registries across 200+ countries — 600M+ company profiles with registry data, off…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
   shared: 2
 - slug: fraud-net
   name: Fraud.net
@@ -168,6 +175,13 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 2
+- slug: vanta
+  name: Vanta
+  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.6
+  shared: 2
 - slug: trustlayer
   name: TrustLayer
   description: TrustLayer is a vendor risk management and certificate of insurance (COI) tracking platform that automates the collection, verification, and ongoing monitoring of compliance documents. It uses AI-powered OCR field extraction, real-time car…
@@ -181,6 +195,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.1
+  shared: 2
+- slug: google-cloud-security-command-center
+  name: Google Cloud Security Command Center
+  description: Google Cloud Security Command Center (SCC) is a security and risk management platform for Google Cloud that helps organizations identify misconfigurations, vulnerabilities, and threats across their cloud assets. It provides centralized vis…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
   shared: 2
 - slug: openpages
   name: OpenPages
@@ -203,19 +224,12 @@ providers:
   score_band: developing
   score_composite: 47.7
   shared: 2
-- slug: vanta
-  name: Vanta
-  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
+- slug: mitratech
+  name: Mitratech
+  description: Mitratech is an Austin, Texas based enterprise software company supplying legal operations, governance, risk and compliance, and HR compliance software to corporate legal departments, compliance teams and human resources organizations. Its…
   api_count: 2
   score_band: developing
-  score_composite: 47.3
-  shared: 2
-- slug: google-cloud-security-command-center
-  name: Google Cloud Security Command Center
-  description: Google Cloud Security Command Center (SCC) is a security and risk management platform for Google Cloud that helps organizations identify misconfigurations, vulnerabilities, and threats across their cloud assets. It provides centralized vis…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.6
+  score_composite: 46.9
   shared: 2
 - slug: regscale
   name: RegScale
@@ -223,13 +237,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 46.5
-  shared: 2
-- slug: london-stock-exchange-group
-  name: London Stock Exchange Group
-  description: London Stock Exchange Group plc is a United Kingdom-based stock exchange and financial information company headquartered in the City of London, England. LSEG provides capital markets, data and analytics, risk management, and post-trade ser…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.8
   shared: 2
 - slug: osfi
   name: OSFI
@@ -241,15 +248,8 @@ providers:
 - slug: venminder-digital-comply
   name: Venminder (Digital Comply)
   description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitori…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.6
-  shared: 2
-- slug: mitratech
-  name: Mitratech
-  description: Mitratech is an Austin, Texas based enterprise software company supplying legal operations, governance, risk and compliance, and HR compliance software to corporate legal departments, compliance teams and human resources organizations. Its…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.5
   shared: 2
 ---

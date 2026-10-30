@@ -48,14 +48,14 @@ links:
   url: https://oauth.net/2/
 - type: Reference
   url: https://datatracker.ietf.org/doc/html/rfc6749
-provider_count: 138
+provider_count: 140
 providers:
 - slug: zero-trust-architecture
   name: Zero Trust Architecture
   description: Zero Trust Architecture (ZTA) is a security framework defined by NIST SP 800-207 that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardle…
   api_count: 5
   score_band: emerging
-  score_composite: 21.7
+  score_composite: 23.1
   shared: 4
 - slug: aembit
   name: Aembit
@@ -69,19 +69,19 @@ providers:
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign…
   api_count: 7
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 70.5
   shared: 3
 - slug: auth0
   name: Auth0
   description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 70.4
   shared: 3
 - slug: strivacity
   name: Strivacity
   description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers regi…
-  api_count: 12
+  api_count: 8
   score_band: exemplar
   score_composite: 68.5
   shared: 3
@@ -90,14 +90,21 @@ providers:
   description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 57.3
   shared: 3
 - slug: c1
   name: C1
   description: C1 (ConductorOne) is an identity and access management platform engineered for the AI era. It provides unified access governance across human identities, AI agents, and services — agentic identity management, policy-driven access controls,…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.7
+  shared: 3
+- slug: allegion
+  name: Allegion
+  description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Porta…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.9
   shared: 3
 - slug: indykite
   name: Indykite
@@ -106,13 +113,6 @@ providers:
   score_band: developing
   score_composite: 52.7
   shared: 3
-- slug: allegion
-  name: Allegion
-  description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Porta…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.5
-  shared: 3
 - slug: clawvisor
   name: Clawvisor
   description: Clawvisor is the authorization layer for AI agents — a Y Combinator (Spring 2026) security gateway that sits between an AI agent and the tools it acts on (Gmail, Calendar, Drive, Contacts, GitHub, Slack, Notion, Linear, Stripe, Twilio, iMe…
@@ -120,19 +120,19 @@ providers:
   score_band: developing
   score_composite: 46.2
   shared: 3
+- slug: permit-io
+  name: Permit.io
+  description: Permit.io is an authorization-as-a-service platform that helps developers build, manage, and enforce fine-grained access control in their applications. It provides a Policy Decision Point (PDP), management API, REST API, and permission que…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.7
+  shared: 3
 - slug: workday-security
   name: Workday Security
   description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
   api_count: 4
   score_band: developing
   score_composite: 42.6
-  shared: 3
-- slug: permit-io
-  name: Permit.io
-  description: Permit.io is an authorization-as-a-service platform that helps developers build, manage, and enforce fine-grained access control in their applications. It provides a Policy Decision Point (PDP), management API, REST API, and permission que…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.3
   shared: 3
 - slug: cakewalk
   name: Cakewalk
@@ -160,21 +160,28 @@ providers:
   description: Spring Security is a powerful and highly customizable authentication and access-control framework for Java applications. It is the de-facto standard for securing Spring-based applications, providing comprehensive security services includin…
   api_count: 2
   score_band: thin
-  score_composite: 36.4
+  score_composite: 37.7
   shared: 3
 - slug: keycloak
   name: Keycloak
   description: Keycloak is an open source identity and access management solution for modern applications and services, providing single sign-on, identity brokering, user federation, and fine-grained authorization using OAuth 2.0 and OpenID Connect.
   api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 35.7
   shared: 3
 - slug: oso
   name: Oso Cloud
   description: Oso Cloud is an authorization-as-a-service platform that provides a REST API for defining and enforcing relationship-based access control policies. It enables developers to model RBAC, ReBAC, and ABAC authorization patterns, manage authori…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 34.4
+  shared: 3
+- slug: apache-ranger
+  name: Apache Ranger
+  description: Apache Ranger is a framework to enable, monitor, and manage comprehensive data security across the Hadoop platform. It provides centralized security administration for fine-grained authorization policies across Hadoop ecosystem components.
+  api_count: 1
+  score_band: thin
+  score_composite: 32.0
   shared: 3
 - slug: authress
   name: Authress
@@ -190,19 +197,12 @@ providers:
   score_band: thin
   score_composite: 30.8
   shared: 3
-- slug: apache-ranger
-  name: Apache Ranger
-  description: Apache Ranger is a framework to enable, monitor, and manage comprehensive data security across the Hadoop platform. It provides centralized security administration for fine-grained authorization policies across Hadoop ecosystem components.
-  api_count: 1
-  score_band: thin
-  score_composite: 30.6
-  shared: 3
 - slug: apache-shiro
   name: Apache Shiro
   description: Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management. It provides a clean API for securing applications from the smallest mobile applications t…
-  api_count: 1
+  api_count: 5
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 25.4
   shared: 3
 - slug: rbac
   name: RBAC
@@ -228,9 +228,9 @@ providers:
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature fla…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 82.9
+  score_composite: 82.4
   shared: 2
 - slug: azure-ad
   name: Microsoft Entra ID (formerly Azure AD)
@@ -242,14 +242,14 @@ providers:
 - slug: okta
   name: Okta
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 73.8
   shared: 2
 - slug: authentik
   name: Authentik
   description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, t…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 70.1
   shared: 2

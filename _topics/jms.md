@@ -53,7 +53,7 @@ providers:
   description: Spring Integration extends the Spring programming model to support enterprise integration patterns (EIP), providing lightweight messaging within Spring-based applications and integration with external systems via declarative adapters. It s…
   api_count: 2
   score_band: thin
-  score_composite: 32.0
+  score_composite: 33.3
   shared: 3
 - slug: jakarta-ee
   name: Jakarta EE
@@ -72,7 +72,7 @@ providers:
 - slug: reliance-jio
   name: Reliance Jio
   description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance Industries, is India's largest mobile network operator, serving roughly half a billion subscribers on an all-IP 4G/5G network from its home market of India, along…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 50.5
   shared: 2
@@ -109,7 +109,7 @@ providers:
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 33.1
   shared: 2
 - slug: apache-camel
   name: Apache Camel
@@ -123,7 +123,7 @@ providers:
   description: Spring Cloud Stream is a framework for building event-driven microservices connected with shared messaging systems. It provides a flexible programming model built on established Spring idioms and best practices, including support for persi…
   api_count: 3
   score_band: thin
-  score_composite: 28.7
+  score_composite: 30.0
   shared: 2
 - slug: open-liberty
   name: Open Liberty
@@ -136,8 +136,8 @@ providers:
   name: Apache ServiceMix
   description: Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime for building enterprise integration solutions.
   api_count: 1
-  score_band: emerging
-  score_composite: 25.3
+  score_band: thin
+  score_composite: 26.7
   shared: 2
 - slug: bean-validation
   name: Bean Validation

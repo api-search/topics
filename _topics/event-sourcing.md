@@ -32,7 +32,7 @@ providers:
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 33.1
   shared: 2
 - slug: eventuate
   name: Eventuate

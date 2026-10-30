@@ -43,7 +43,7 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 2
 - slug: bruno-api
   name: Bruno
@@ -55,7 +55,7 @@ providers:
 - slug: termius
   name: Termius
   description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 49.4
   shared: 2
@@ -111,7 +111,7 @@ providers:
 - slug: terminal-use
   name: Terminal Use
   description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versi…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 41.5
   shared: 2
@@ -157,6 +157,13 @@ providers:
   score_band: thin
   score_composite: 36.3
   shared: 2
+- slug: amazon-cloudshell
+  name: Amazon CloudShell
+  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per re…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.9
+  shared: 2
 - slug: ranger
   name: Ranger
   description: Ranger is an AI-powered quality-assurance platform that lets coding agents verify their own work in a real browser. Its CLI (@ranger-testing/ranger-cli) sets up a project so an AI coding agent — Claude Code, OpenCode, Cursor, Codex, or any…
@@ -170,13 +177,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 34.6
-  shared: 2
-- slug: amazon-cloudshell
-  name: Amazon CloudShell
-  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per re…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.5
   shared: 2
 - slug: fern-api
   name: Fern

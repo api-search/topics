@@ -36,7 +36,7 @@ providers:
   description: FASHN AI is an AI-first company specializing in human-centric generative image models tailored for fashion applications. The public API offers an asynchronous prediction workflow against a catalog of models including Try-On Max, Product to…
   api_count: 1
   score_band: thin
-  score_composite: 28.0
+  score_composite: 29.1
   shared: 2
 - slug: bode
   name: Bode

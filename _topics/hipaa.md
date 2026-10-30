@@ -20,7 +20,7 @@ links:
   url: https://www.hhs.gov/hipaa/index.html
 - type: Reference
   url: https://www.hhs.gov/hipaa/for-professionals/index.html
-provider_count: 242
+provider_count: 252
 providers:
 - slug: paubox
   name: Paubox
@@ -60,7 +60,7 @@ providers:
 - slug: blindinsight
   name: BlindInsight
   description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever expo…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 35.1
   shared: 3
@@ -104,7 +104,7 @@ providers:
   description: Lightbeam is an AI data security and guardrails platform that discovers and classifies sensitive data across cloud, SaaS and on-premises systems, ties that data to identity and access context through its Data Identity Graph, and enforces g…
   api_count: 0
   score_band: emerging
-  score_composite: 14.2
+  score_composite: 15.5
   shared: 3
 - slug: ohalo
   name: Ohalo
@@ -132,21 +132,21 @@ providers:
   description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.2
+  score_composite: 69.0
   shared: 2
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
   shared: 2
 - slug: amazon-guardduty
   name: Amazon GuardDuty
   description: Amazon GuardDuty is an intelligent threat detection service that continuously monitors your AWS accounts, workloads, and data for malicious activity. It uses machine learning, anomaly detection, and integrated threat intelligence to identi…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 62.3
   shared: 2
 - slug: spruce-health
   name: Spruce Health
@@ -158,9 +158,16 @@ providers:
 - slug: altr
   name: ALTR
   description: ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines autom…
-  api_count: 42
+  api_count: 21
   score_band: strong
   score_composite: 59.3
+  shared: 2
+- slug: amazon-macie
+  name: Amazon Macie
+  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
+  api_count: 2
+  score_band: strong
+  score_composite: 59.2
   shared: 2
 - slug: chef-software
   name: Chef Software
@@ -169,6 +176,13 @@ providers:
   score_band: strong
   score_composite: 58.7
   shared: 2
+- slug: amazon-iot-device-defender
+  name: Amazon IoT Device Defender
+  description: AWS IoT Device Defender is a security service that lets you continuously audit your IoT configurations to detect deviations from security best practices. It also lets you detect abnormal device behavior through ML-based anomaly detection a…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.5
+  shared: 2
 - slug: aptible
   name: Aptible
   description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workload…
@@ -176,60 +190,46 @@ providers:
   score_band: strong
   score_composite: 58.5
   shared: 2
-- slug: atomadic-tech
-  name: Atomadic Tech
-  description: 'Atomadic Tech operates AAAA-Nexus, an "agent control plane" for autonomous AI agents: a 149-operation REST API on atomadic.tech covering security and threat scoring, trust and reputation oracles, agent-to-agent escrow, SLA enforcement, EU…'
-  api_count: 4
-  score_band: strong
-  score_composite: 57.9
-  shared: 2
-- slug: cisco-psirt
-  name: Cisco PSIRT openVuln API
-  description: The Cisco Product Security Incident Response Team (PSIRT) openVuln API is Cisco's machine-readable vulnerability disclosure service. It lets security teams query Cisco security advisories by CVE, advisory ID, severity, publication date, af…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.9
-  shared: 2
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.8
-  shared: 2
-- slug: amazon-iot-device-defender
-  name: Amazon IoT Device Defender
-  description: AWS IoT Device Defender is a security service that lets you continuously audit your IoT configurations to detect deviations from security best practices. It also lets you detect abnormal device behavior through ML-based anomaly detection a…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.1
-  shared: 2
-- slug: datavant
-  name: Datavant
-  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,0…
-  api_count: 4
-  score_band: strong
-  score_composite: 57.1
-  shared: 2
 - slug: amazon-config
   name: Amazon Config
   description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
+  score_composite: 58.1
   shared: 2
-- slug: kolide
-  name: Kolide
-  description: Kolide is a device trust and endpoint security platform, now part of 1Password Extended Access Management. It enforces Zero Trust access by blocking non-compliant devices from authenticating into corporate applications through Okta, Google…
-  api_count: 2
+- slug: cisco-psirt
+  name: Cisco PSIRT openVuln API
+  description: The Cisco Product Security Incident Response Team (PSIRT) openVuln API is Cisco's machine-readable vulnerability disclosure service. It lets security teams query Cisco security advisories by CVE, advisory ID, severity, publication date, af…
+  api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.9
   shared: 2
 - slug: amazon-firewall-manager
   name: Amazon Firewall Manager
   description: AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations. It makes it easier to bring new applications and resources i…
   api_count: 1
   score_band: strong
-  score_composite: 56.1
+  score_composite: 57.5
+  shared: 2
+- slug: atomadic-tech
+  name: Atomadic Tech
+  description: 'Atomadic Tech operates AAAA-Nexus, an "agent control plane" for autonomous AI agents: a 149-operation REST API on atomadic.tech covering security and threat scoring, trust and reputation oracles, agent-to-agent escrow, SLA enforcement, EU…'
+  api_count: 1
+  score_band: strong
+  score_composite: 57.4
+  shared: 2
+- slug: datavant
+  name: Datavant
+  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,0…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.5
+  shared: 2
+- slug: kolide
+  name: Kolide
+  description: Kolide is a device trust and endpoint security platform, now part of 1Password Extended Access Management. It enforces Zero Trust access by blocking non-compliant devices from authenticating into corporate applications through Okta, Google…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.5
   shared: 2
 ---

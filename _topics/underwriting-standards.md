@@ -133,7 +133,7 @@ providers:
 - slug: zinnia
   name: Zinnia
   description: Zinnia is an Eldridge-backed insurance technology and third-party administration company that provides the policy administration, new business, order entry, illustration, document and in-force servicing infrastructure behind a large share…
-  api_count: 20
+  api_count: 10
   score_band: developing
   score_composite: 44.7
   shared: 3
@@ -207,6 +207,13 @@ providers:
   score_band: emerging
   score_composite: 24.3
   shared: 3
+- slug: wynsure
+  name: Wynsure
+  description: Wynsure is an end-to-end insurance policy administration platform from Mphasis Wyde that delivers Quote-to-Claims capabilities across Group, Individual, Life, Annuities, Health, Disability, Accident, Dental, and Vision lines. The multi-lan…
+  api_count: 6
+  score_band: emerging
+  score_composite: 22.0
+  shared: 3
 - slug: definity-financial
   name: Definity Financial
   description: Definity Financial Corporation is a Canadian property and casualty insurance group headquartered in Waterloo, Ontario and listed on the Toronto Stock Exchange (DFY). It is the demutualized successor to Economical Mutual Insurance Company,…
@@ -227,13 +234,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 20.8
-  shared: 3
-- slug: wynsure
-  name: Wynsure
-  description: Wynsure is an end-to-end insurance policy administration platform from Mphasis Wyde that delivers Quote-to-Claims capabilities across Group, Individual, Life, Annuities, Health, Disability, Accident, Dental, and Vision lines. The multi-lan…
-  api_count: 6
-  score_band: emerging
-  score_composite: 20.6
   shared: 3
 - slug: certificial
   name: Certificial

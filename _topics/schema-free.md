@@ -91,14 +91,14 @@ providers:
   description: Apache CouchDB is an open-source distributed document-oriented NoSQL database governed by the Apache Software Foundation. It uses JSON for data storage, a RESTful HTTP/JSON API for all database operations, and the Couch Replication Protoco…
   api_count: 9
   score_band: developing
-  score_composite: 39.7
+  score_composite: 40.9
   shared: 2
 - slug: mongodb-atlas
   name: MongoDB Atlas
   description: MongoDB Atlas is a fully managed cloud database service for MongoDB, available on AWS, Google Cloud, and Microsoft Azure, with global clusters, automated backups, security, and integrated search, vector, and stream processing capabilities.…
   api_count: 1
   score_band: thin
-  score_composite: 34.4
+  score_composite: 35.8
   shared: 2
 - slug: compose
   name: Compose

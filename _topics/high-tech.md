@@ -20,7 +20,7 @@ tags:
 - Electronics
 - Footprints
 - Hardware
-- High Tech
+- HighTech
 - IoT
 - Lifecycle
 - Manufacturer Part Number
@@ -91,7 +91,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/vocabulary/high-tech-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/examples/
-provider_count: 312
+provider_count: 316
 providers:
 - slug: snapmagic
   name: SnapMagic
@@ -114,6 +114,13 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 3
+- slug: digi-key
+  name: Digi-Key
+  description: DigiKey is a global distributor of electronic components. Its developer portal (developer.digikey.com) publishes OAuth 2.0 REST APIs on api.digikey.com for product search, pricing and inventory (Product Information V4), product change noti…
+  api_count: 22
+  score_band: developing
+  score_composite: 51.7
+  shared: 3
 - slug: renesas
   name: Renesas
   description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products…'
@@ -133,7 +140,7 @@ providers:
   description: Texas Instruments is an American technology company that designs and manufactures semiconductors and various integrated circuits for industrial, automotive, personal electronics, communications equipment, and enterprise systems markets. TI…
   api_count: 2
   score_band: thin
-  score_composite: 37.2
+  score_composite: 37.4
   shared: 3
 - slug: atmosic
   name: Atmosic
@@ -147,7 +154,7 @@ providers:
   description: Cypress Semiconductor was a US-based semiconductor company known for its PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and Bluetooth connectivity stacks, NOR Flash memory, CapSense capacitive touch sensing, and Traveo auto…
   api_count: 6
   score_band: emerging
-  score_composite: 23.8
+  score_composite: 25.2
   shared: 3
 - slug: fabric8labs
   name: Fabric8Labs
@@ -292,13 +299,6 @@ providers:
 - slug: airtouch
   name: Airtouch
   description: AirTouch (Shanghai) Intelligent Technology Co., Ltd. (隔空科技) is a Shanghai-based fabless semiconductor company founded in November 2017 that designs microwave and millimeter-wave radar sensor chips — 5.8 GHz, 10.525 GHz, 24 GHz, 60 GHz and…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.2
-  shared: 3
-- slug: nve
-  name: NVE
-  description: 'NVE Corporation (nve.com, NASDAQ: NVEC) is a leader in the practical commercialization of spintronics, a nanotechnology that relies on electron spin rather than electron charge to acquire, store, and transmit information. NVE designs and m…'
   api_count: 0
   score_band: minimal
   score_composite: 3.2

@@ -61,16 +61,16 @@ providers:
 - slug: nexla
   name: Nexla
   description: Nexla is an enterprise data integration and AI-data platform, founded in 2016 and headquartered in San Mateo, California. Its core abstraction is the Nexset — a logical, schema-aware, bi-directionally usable data product that Nexla generat…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 64.7
+  score_composite: 64.3
   shared: 3
 - slug: artie
   name: Artie
   description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, M…
   api_count: 1
   score_band: developing
-  score_composite: 48.0
+  score_composite: 48.4
   shared: 3
 - slug: popsink
   name: Popsink
@@ -96,7 +96,7 @@ providers:
 - slug: microsoft-azure-data-factory
   name: Azure Data Factory
   description: Azure Data Factory is Microsoft's cloud-based data integration service, orchestrating and automating the movement and transformation of data across ETL and ELT workloads that span cloud and on-premises stores. Its public interface is the M…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 70.5
   shared: 2
@@ -128,6 +128,13 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 2
+- slug: feldera
+  name: Feldera
+  description: Feldera is an incremental compute engine for running complex SQL data pipelines in real time. Rather than reprocessing entire datasets, it updates materialized views proportionally to the changes in the input data, delivering low-latency,…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.5
+  shared: 2
 - slug: lucidlink
   name: LucidLink
   description: LucidLink Corp. is a cloud file-streaming company whose product is a "filespace" — a shared, cloud-native filesystem that mounts on macOS, Windows, Linux, iOS and Android and streams only the bytes an application actually asks for, so dist…
@@ -135,17 +142,10 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 2
-- slug: feldera
-  name: Feldera
-  description: Feldera is an incremental compute engine for running complex SQL data pipelines in real time. Rather than reprocessing entire datasets, it updates materialized views proportionally to the changes in the input data, delivering low-latency,…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.3
-  shared: 2
 - slug: talend
   name: Talend
   description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestratin…
-  api_count: 17
+  api_count: 16
   score_band: strong
   score_composite: 57.2
   shared: 2
@@ -156,6 +156,13 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 2
+- slug: google-cloud-datastream
+  name: Google Cloud Datastream
+  description: Google Cloud Datastream is a serverless change data capture (CDC) and replication service that allows you to synchronize data across heterogeneous databases, storage systems, and applications reliably and with minimal latency.
+  api_count: 1
+  score_band: developing
+  score_composite: 49.2
+  shared: 2
 - slug: idrive
   name: IDrive
   description: IDrive Inc. provides cloud backup and IDrive e2, an S3-compatible object storage service. For developers it publishes the IDrive e2 Reseller API (a REST/JSON API at api.idrivee2.com for managing users, regions, access keys, CNAME whitelabe…
@@ -163,17 +170,17 @@ providers:
   score_band: developing
   score_composite: 48.0
   shared: 2
-- slug: google-cloud-datastream
-  name: Google Cloud Datastream
-  description: Google Cloud Datastream is a serverless change data capture (CDC) and replication service that allows you to synchronize data across heterogeneous databases, storage systems, and applications reliably and with minimal latency.
-  api_count: 1
+- slug: pure-storage
+  name: Pure Storage
+  description: Pure Storage is an American publicly traded technology company specializing in all-flash data storage hardware and software products. The company provides enterprise data storage platforms including FlashArray, FlashBlade, and Pure1 fleet…
+  api_count: 3
   score_band: developing
-  score_composite: 47.8
+  score_composite: 48.0
   shared: 2
 - slug: striim
   name: Striim
   description: Unified data integration and streaming platform offering change data capture (CDC), real-time streaming analytics, and data validation. Exposes a token-authenticated REST API (WActionStore queries, system health, Application Management) co…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 47.5
   shared: 2
@@ -188,13 +195,6 @@ providers:
   name: Delta Lake
   description: Delta Lake is a graduated project of the Linux Foundation AI & Data Foundation providing an open source storage framework for building Lakehouse architectures. Originally contributed by Databricks, it adds reliability, quality, and perform…
   api_count: 1
-  score_band: developing
-  score_composite: 46.6
-  shared: 2
-- slug: pure-storage
-  name: Pure Storage
-  description: Pure Storage is an American publicly traded technology company specializing in all-flash data storage hardware and software products. The company provides enterprise data storage platforms including FlashArray, FlashBlade, and Pure1 fleet…
-  api_count: 4
   score_band: developing
   score_composite: 46.6
   shared: 2
@@ -222,14 +222,14 @@ providers:
 - slug: flatfile
   name: Flatfile
   description: Flatfile is a data exchange platform that helps teams import, transform, validate, and collaborate on file-based data. The Flatfile API provides programmatic access to spaces, workbooks, sheets, records, files, documents, jobs, events, age…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 42.7
   shared: 2
 - slug: automq
   name: AutoMQ
   description: AutoMQ is a cloud-native, Kafka-compatible streaming platform that replaces Kafka broker local disks with shared S3-compatible object storage, offered as open source and as AutoMQ Cloud (BYOC). Developers use the Kafka protocol directly; A…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 2
@@ -252,7 +252,7 @@ providers:
   description: Apache NiFi is a dataflow management system designed to automate the flow of data between systems. It provides a web-based user interface for designing, controlling, and monitoring data flows with real-time operational control, data proven…
   api_count: 1
   score_band: thin
-  score_composite: 38.6
+  score_composite: 38.3
   shared: 2
 - slug: warpstream
   name: WarpStream
@@ -264,8 +264,8 @@ providers:
 - slug: cloudflare-r2
   name: Cloudflare R2
   description: Cloudflare R2 is S3-compatible object storage with zero egress fees. It provides both an S3-compatible REST API and a Cloudflare API for managing buckets, objects, and storage policies at global scale. R2 offers a generous free tier includ…
-  api_count: 2
+  api_count: 1
   score_band: thin
-  score_composite: 35.0
+  score_composite: 35.8
   shared: 2
 ---

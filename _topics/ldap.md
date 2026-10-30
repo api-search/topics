@@ -39,7 +39,7 @@ links:
   url: https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
 - type: Blog
   url: https://ldap.com/feed/
-provider_count: 88
+provider_count: 89
 providers:
 - slug: casdoor
   name: Casdoor
@@ -51,23 +51,23 @@ providers:
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature fla…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 82.9
+  score_composite: 82.4
   shared: 4
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign…
   api_count: 7
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 70.5
   shared: 4
 - slug: active-directory
   name: Microsoft Active Directory
   description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Acti…
   api_count: 3
   score_band: strong
-  score_composite: 60.5
+  score_composite: 61.8
   shared: 4
 - slug: frontegg
   name: Frontegg
@@ -95,14 +95,14 @@ providers:
   description: Keycloak is an open source identity and access management solution for modern applications and services, providing single sign-on, identity brokering, user federation, and fine-grained authorization using OAuth 2.0 and OpenID Connect.
   api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 35.7
   shared: 4
 - slug: pingone
   name: PingOne
   description: PingOne is Ping Identity's cloud-based identity and access management platform providing authentication, authorization, single sign-on, MFA, identity verification, risk evaluation, and user lifecycle management for workforce and customer i…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 35.0
   shared: 4
 - slug: azure-ad
   name: Microsoft Entra ID (formerly Azure AD)
@@ -114,9 +114,9 @@ providers:
 - slug: okta
   name: Okta
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 73.8
   shared: 3
 - slug: aembit
   name: Aembit
@@ -125,24 +125,24 @@ providers:
   score_band: exemplar
   score_composite: 72.6
   shared: 3
-- slug: authentik
-  name: Authentik
-  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, t…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 70.1
-  shared: 3
 - slug: auth0
   name: Auth0
   description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 70.4
+  shared: 3
+- slug: authentik
+  name: Authentik
+  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, t…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.1
   shared: 3
 - slug: gluu
   name: Gluu
   description: Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applic…
-  api_count: 23
+  api_count: 12
   score_band: strong
   score_composite: 62.9
   shared: 3
@@ -151,7 +151,7 @@ providers:
   description: WorkOS is the "Enterprise Ready" identity platform for B2B SaaS — providing AuthKit user management, enterprise SSO (SAML/OIDC), Directory Sync (SCIM 2.0), Multi-Factor Authentication, Audit Logs, Admin Portal, Fine-Grained Authorization (…
   api_count: 1
   score_band: strong
-  score_composite: 58.7
+  score_composite: 59.9
   shared: 3
 - slug: centrify
   name: Centrify
@@ -159,6 +159,20 @@ providers:
   api_count: 15
   score_band: strong
   score_composite: 57.6
+  shared: 3
+- slug: amazon-iam
+  name: Amazon IAM
+  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.3
+  shared: 3
+- slug: forgerock
+  name: ForgeRock
+  description: ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.
+  api_count: 7
+  score_band: strong
+  score_composite: 57.1
   shared: 3
 - slug: descope
   name: Descope
@@ -174,40 +188,26 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 3
-- slug: amazon-iam
-  name: Amazon IAM
-  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.9
-  shared: 3
-- slug: forgerock
-  name: ForgeRock
-  description: ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.
-  api_count: 7
-  score_band: strong
-  score_composite: 55.7
-  shared: 3
 - slug: amazon-iam-identity-center
   name: Amazon IAM Identity Center
   description: AWS IAM Identity Center (successor to AWS Single Sign-On) is where you create, or connect, your workforce identities in AWS once and manage access centrally across your AWS organization. You can create user identities directly in IAM Ident…
   api_count: 2
-  score_band: developing
-  score_composite: 52.7
-  shared: 3
-- slug: fusionauth
-  name: FusionAuth
-  description: FusionAuth is a developer-focused customer identity and access management (CIAM) platform that delivers authentication, authorization, registration, multi-factor authentication, single sign-on, OAuth2 and OpenID Connect, and user managemen…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.8
+  score_band: strong
+  score_composite: 54.7
   shared: 3
 - slug: amazon-directory-service
   name: Amazon Directory Service
   description: AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in AWS. It provides a fully managed, highly available Mi…
   api_count: 1
   score_band: developing
-  score_composite: 50.5
+  score_composite: 52.5
+  shared: 3
+- slug: fusionauth
+  name: FusionAuth
+  description: FusionAuth is a developer-focused customer identity and access management (CIAM) platform that delivers authentication, authorization, registration, multi-factor authentication, single sign-on, OAuth2 and OpenID Connect, and user managemen…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.1
   shared: 3
 - slug: ping-identity
   name: Ping Identity
@@ -223,19 +223,19 @@ providers:
   score_band: developing
   score_composite: 49.0
   shared: 3
+- slug: eve-online
+  name: EVE Online
+  description: EVE Online is a massively multiplayer online (MMO) space game published by CCP Games. The EVE Online third-party developer ecosystem is built around the EVE Swagger Interface (ESI), a RESTful HTTP API hosted at esi.evetech.net that exposes…
+  api_count: 7
+  score_band: developing
+  score_composite: 45.4
+  shared: 3
 - slug: cirrus-identity
   name: Cirrus Identity
   description: Cirrus Identity provides managed identity and access management for higher education, connecting modern identity providers, federations, and legacy systems to standardize authentication across campus environments without replacing existing…
   api_count: 1
   score_band: developing
   score_composite: 44.5
-  shared: 3
-- slug: eve-online
-  name: EVE Online
-  description: EVE Online is a massively multiplayer online (MMO) space game published by CCP Games. The EVE Online third-party developer ecosystem is built around the EVE Swagger Interface (ESI), a RESTful HTTP API hosted at esi.evetech.net that exposes…
-  api_count: 7
-  score_band: developing
-  score_composite: 44.1
   shared: 3
 - slug: workday-security
   name: Workday Security

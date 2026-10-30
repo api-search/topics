@@ -28,23 +28,30 @@ providers:
 - slug: dyno
   name: Dyno
   description: Dyno Therapeutics is an AI and biotechnology company building high-performance gene delivery technologies to unlock the potential of next-generation genetic medicine. Using its CapsidMap platform, which combines machine learning with high-…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 45.8
   shared: 3
 - slug: amazon-healthomics
   name: Amazon HealthOmics
   description: AWS HealthOmics is a purpose-built service for healthcare and life sciences organizations that helps store, query, and analyze genomic, transcriptomic, and other omics data to generate insights and accelerate scientific discoveries and imp…
   api_count: 1
   score_band: strong
-  score_composite: 56.2
+  score_composite: 57.5
   shared: 2
 - slug: one-codex
   name: One Codex
   description: One Codex is a microbial genomics data platform for fast, reproducible microbiome sequencing and analysis. Its cloud platform pairs the "world's largest microbial reference database" with automated shotgun and amplicon pipelines, sample ma…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.9
+  shared: 2
+- slug: genialis
+  name: Genialis
+  description: Genialis is a precision oncology company that builds AI models of cancer biology to find and validate biomarkers for drug developers. Its commercial platform, Genialis Expressions, is a multiomics and clinical data infrastructure for RNA-s…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.9
   shared: 2
 - slug: aignostics
   name: Aignostics
@@ -56,7 +63,7 @@ providers:
 - slug: cancer-gov
   name: Cancer.gov
   description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
-  api_count: 19
+  api_count: 17
   score_band: developing
   score_composite: 48.9
   shared: 2
@@ -67,17 +74,10 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 2
-- slug: genialis
-  name: Genialis
-  description: Genialis is a precision oncology company that builds AI models of cancer biology to find and validate biomarkers for drug developers. Its commercial platform, Genialis Expressions, is a multiomics and clinical data infrastructure for RNA-s…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.1
-  shared: 2
 - slug: myome
   name: MyOme
   description: MyOme is a CLIA-certified and CAP-accredited clinical laboratory in Menlo Park, California that builds a whole-genome analysis platform for inherited disease risk. A single patient sample is sequenced once and re-interpreted over time to p…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 41.7
   shared: 2
@@ -105,7 +105,7 @@ providers:
 - slug: ocean-health-systems
   name: Ocean Health Systems
   description: Ocean Health Systems (legally Ocean Informatics Pty Ltd, founded 1998, with offices in Bundall QLD, Chatswood NSW and London) is the Australian clinical-informatics company whose founders commercialised the first openEHR clinical data repo…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 32.4
   shared: 2
@@ -114,19 +114,19 @@ providers:
   description: Castor (Castor EDC / CDMS) is a cloud electronic data capture (EDC) and clinical data management platform for clinical trials and real-world research. Its RESTful API at https://data.castoredc.com/api exposes study configuration and collec…
   api_count: 1
   score_band: thin
-  score_composite: 29.1
+  score_composite: 30.7
   shared: 2
 - slug: ucsc-genomic-data
   name: UCSC Genomic Data
   description: The UCSC Genome Browser is a widely-used bioinformatics tool providing access to genomic data, sequence information, and annotation tracks for hundreds of organisms. The REST API provides programmatic access to genome assemblies, DNA seque…
   api_count: 1
   score_band: thin
-  score_composite: 29.0
+  score_composite: 30.4
   shared: 2
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 15
+  api_count: 7
   score_band: thin
   score_composite: 28.1
   shared: 2

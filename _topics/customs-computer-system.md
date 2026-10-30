@@ -73,6 +73,13 @@ providers:
   score_band: thin
   score_composite: 33.2
   shared: 2
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
+  score_band: thin
+  score_composite: 31.0
+  shared: 2
 - slug: un-comtrade
   name: UN Comtrade
   description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
@@ -93,13 +100,6 @@ providers:
   api_count: 4
   score_band: emerging
   score_composite: 21.5
-  shared: 2
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: minimal
-  score_composite: 10.9
   shared: 2
 - slug: donkey
   name: Donkey

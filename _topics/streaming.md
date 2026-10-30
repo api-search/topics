@@ -116,14 +116,14 @@ links:
   url: https://github.com/api-evangelist/streaming/blob/main/examples/streaming-stream-record-example.json
 - type: Examples
   url: https://github.com/api-evangelist/streaming/blob/main/examples/streaming-stream-platform-example.json
-provider_count: 140
+provider_count: 141
 providers:
 - slug: redpanda
   name: Redpanda
   description: Redpanda is a Kafka API-compatible streaming data platform written in C++ with no JVM and no ZooKeeper, optimized for low latency and operational simplicity. The core broker (redpanda) is open source and available under the Business Source…
   api_count: 10
   score_band: thin
-  score_composite: 31.8
+  score_composite: 33.2
   shared: 5
 - slug: streamkap
   name: Streamkap
@@ -149,9 +149,9 @@ providers:
 - slug: s2-dev
   name: S2 Dev
   description: S2 ("Stream Store") is the API for unlimited, durable, real-time streams. Where object storage deals with blobs, S2 provides append-able, ordered record streams that can be tailed in real time and replayed from any retained point. Core dat…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 60.8
+  score_composite: 61.1
   shared: 3
 - slug: heroiclabs
   name: Heroic Labs
@@ -160,24 +160,24 @@ providers:
   score_band: strong
   score_composite: 58.8
   shared: 3
-- slug: laserdata
-  name: LaserData
-  description: LaserData is a hyper-efficient data streaming platform built in Rust for AI-native, real-time, and latency-sensitive workloads. Founded by the creators of Apache Iggy, LaserData packages the Iggy message-streaming engine — io_uring, thread…
-  api_count: 6
-  score_band: strong
-  score_composite: 58.1
-  shared: 3
 - slug: amazon-msk
   name: Amazon MSK
   description: Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data, with the infrastructure management handled by AWS.
   api_count: 2
   score_band: strong
-  score_composite: 57.0
+  score_composite: 58.4
+  shared: 3
+- slug: laserdata
+  name: LaserData
+  description: LaserData is a hyper-efficient data streaming platform built in Rust for AI-native, real-time, and latency-sensitive workloads. Founded by the creators of Apache Iggy, LaserData packages the Iggy message-streaming engine — io_uring, thread…
+  api_count: 3
+  score_band: strong
+  score_composite: 58.3
   shared: 3
 - slug: striim
   name: Striim
   description: Unified data integration and streaming platform offering change data capture (CDC), real-time streaming analytics, and data validation. Exposes a token-authenticated REST API (WActionStore queries, system health, Application Management) co…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 47.5
   shared: 3
@@ -191,14 +191,14 @@ providers:
 - slug: ably
   name: Ably
   description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 41.1
+  score_composite: 42.0
   shared: 3
 - slug: automq
   name: AutoMQ
   description: AutoMQ is a cloud-native, Kafka-compatible streaming platform that replaces Kafka broker local disks with shared S3-compatible object storage, offered as open source and as AutoMQ Cloud (BYOC). Developers use the Kafka protocol directly; A…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 3
@@ -216,19 +216,19 @@ providers:
   score_band: thin
   score_composite: 35.6
   shared: 3
+- slug: capital-com-public-api
+  name: Capital.com Public API
+  description: Capital.com is a European trading platform offering CFDs across shares, indices, commodities, forex, and cryptocurrencies. The Capital.com Public API provides direct access to the trading engine for automated strategies, giving programmati…
+  api_count: 8
+  score_band: thin
+  score_composite: 31.3
+  shared: 3
 - slug: risingwave
   name: RisingWave
   description: RisingWave is a distributed SQL streaming platform that continuously ingests event streams from Kafka, Kinesis, and other sources, transforms them using PostgreSQL-compatible SQL, and serves low-latency results through incrementally mainta…
   api_count: 6
   score_band: thin
   score_composite: 31.3
-  shared: 3
-- slug: capital-com-public-api
-  name: Capital.com Public API
-  description: Capital.com is a European trading platform offering CFDs across shares, indices, commodities, forex, and cryptocurrencies. The Capital.com Public API provides direct access to the trading engine for automated strategies, giving programmati…
-  api_count: 8
-  score_band: thin
-  score_composite: 29.9
   shared: 3
 - slug: estuary-flow
   name: Estuary Flow
@@ -258,19 +258,19 @@ providers:
   score_band: thin
   score_composite: 26.2
   shared: 3
-- slug: apache-samza
-  name: Apache Samza
-  description: Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream processing applications. It integrates with Apache Kafka for messaging and supports both stream and batch processing.
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.8
-  shared: 3
 - slug: pulsoid
   name: Pulsoid
   description: Pulsoid enables real-time heart rate data transmission from peripherals (BLE heart rate monitors, smartwatches, etc.) to clients. The Pulsoid API allows reading and writing real-time heart rate data, accessing statistics, and managing widg…
   api_count: 1
   score_band: emerging
   score_composite: 25.6
+  shared: 3
+- slug: apache-samza
+  name: Apache Samza
+  description: Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream processing applications. It integrates with Apache Kafka for messaging and supports both stream and batch processing.
+  api_count: 3
+  score_band: emerging
+  score_composite: 25.4
   shared: 3
 - slug: concord-systems
   name: Concord Systems
@@ -282,28 +282,28 @@ providers:
 - slug: confluent
   name: Confluent
   description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible and usable data products with the market l…
-  api_count: 10
+  api_count: 7
   score_band: exemplar
   score_composite: 85.3
   shared: 2
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: confluent-the-data-streaming-platform
   name: Confluent | the Data Streaming Platform
   description: Confluent is a fully managed data streaming platform built by the original creators of Apache Kafka. It lets organizations stream, connect, process, and govern data in motion through a cloud-native service (Confluent Cloud) and the on-prem…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 76.8
+  score_composite: 76.3
   shared: 2
 - slug: 0xarchive
   name: 0xArchive
   description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.7
   shared: 2
@@ -324,7 +324,7 @@ providers:
 - slug: gemini-trust
   name: Gemini Trust Company
   description: Gemini Trust Company, LLC is a United States cryptocurrency exchange and custodian, founded in 2014 and headquartered in New York, regulated as a New York State Department of Financial Services trust company. It operates the Gemini Exchang…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 67.6
   shared: 2

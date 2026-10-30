@@ -66,7 +66,7 @@ links:
   url: https://github.com/containers
 - type: GitHubRepository
   url: https://github.com/containers/buildah
-provider_count: 56
+provider_count: 57
 providers:
 - slug: dagger
   name: Dagger
@@ -92,21 +92,21 @@ providers:
 - slug: docker
   name: Docker
   description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 43.2
+  score_composite: 44.6
   shared: 3
 - slug: docker-hub
   name: Docker Hub
   description: Docker Hub is the world's largest container image registry, providing a cloud-based service for finding, storing, sharing, and managing container images. It offers public and private repositories, automated builds, webhooks, and integratio…
   api_count: 1
   score_band: developing
-  score_composite: 42.1
+  score_composite: 39.8
   shared: 3
 - slug: podman
   name: Podman
   description: Podman is a daemonless, open-source container engine for developing, managing, and running OCI containers on Linux, supporting both rootful and rootless operation as a drop-in replacement for Docker. The Podman REST API exposes a Docker-co…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 34.3
   shared: 3
@@ -197,7 +197,7 @@ providers:
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.6
   shared: 2
@@ -211,9 +211,9 @@ providers:
 - slug: platform.sh
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster o…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 58.4
+  score_composite: 57.9
   shared: 2
 - slug: amazon-ecs
   name: Amazon ECS
@@ -234,14 +234,14 @@ providers:
   description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single RES…
   api_count: 1
   score_band: developing
-  score_composite: 51.7
+  score_composite: 51.4
   shared: 2
 - slug: azure-container-registry
   name: Azure Container Registry
   description: Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry for storing and managing private container images and artifacts. It supports automated container image builds, geo-replication, and inte…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 49.4
+  score_composite: 50.7
   shared: 2
 - slug: buildpacks
   name: Cloud Native Buildpacks
@@ -264,18 +264,18 @@ providers:
   score_band: developing
   score_composite: 43.7
   shared: 2
+- slug: postal-server
+  name: Postal
+  description: Postal provides a suite of installation tools and documentation for setting up and running the Postal email delivery platform. The repository includes scripts for quick deployment, detailed prerequisites, and guides covering getting starte…
+  api_count: 2
+  score_band: developing
+  score_composite: 43.5
+  shared: 2
 - slug: woodpecker-ci
   name: Woodpecker CI
   description: 'Woodpecker CI is a free, open-source (Apache-2.0) continuous integration and delivery engine, forked from Drone and maintained by a community organization on GitHub. It is self-hosted: an operator runs a Woodpecker server plus one or more…'
   api_count: 1
   score_band: developing
   score_composite: 41.9
-  shared: 2
-- slug: cosign
-  name: Cosign
-  description: Cosign is the command-line client of the Sigstore project for signing, verifying, and storing container images, OCI artifacts, blobs, and in-toto attestations. Cosign supports keyless signing using OpenID Connect identity providers (Google…
-  api_count: 3
-  score_band: developing
-  score_composite: 41.1
   shared: 2
 ---

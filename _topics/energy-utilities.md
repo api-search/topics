@@ -109,7 +109,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/vocabulary/energy-utilities-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/examples/
-provider_count: 423
+provider_count: 431
 providers:
 - slug: con-edison
   name: Con Edison
@@ -156,9 +156,9 @@ providers:
 - slug: uk-power-networks
   name: UK Power Networks
   description: UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern P…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 62.3
+  score_composite: 61.7
   shared: 6
 - slug: pge
   name: Pacific Gas and Electric
@@ -172,26 +172,26 @@ providers:
   description: The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate…
   api_count: 4
   score_band: strong
-  score_composite: 54.5
-  shared: 6
-- slug: hydro-quebec
-  name: Hydro-Québec
-  description: Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelec…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.3
+  score_composite: 55.3
   shared: 6
 - slug: endeavour-energy
   name: Endeavour Energy
   description: Endeavour Energy is the regulated electricity distribution network service provider (DNSP) for Greater Western Sydney, the Blue Mountains, the Illawarra, the Southern Highlands, the South Coast and Central West of New South Wales, Australi…
-  api_count: 4
+  api_count: 2
+  score_band: strong
+  score_composite: 54.9
+  shared: 6
+- slug: hydro-quebec
+  name: Hydro-Québec
+  description: Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelec…
+  api_count: 2
   score_band: developing
-  score_composite: 49.9
+  score_composite: 51.8
   shared: 6
 - slug: miso
   name: MISO
   description: MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Mani…
-  api_count: 9
+  api_count: 5
   score_band: developing
   score_composite: 49.3
   shared: 6
@@ -200,14 +200,14 @@ providers:
   description: Octopus Energy is a UK-founded retail energy supplier and the parent of Kraken Technologies, the AI-powered energy operating system that runs both Octopus and many of the world's largest utilities. Octopus operates a free, open REST API at…
   api_count: 1
   score_band: developing
-  score_composite: 44.6
+  score_composite: 44.9
   shared: 6
 - slug: reposit-power
   name: Reposit Power
   description: Reposit Power is an Australian home-energy technology company founded in 2012 and headquartered in Canberra, ACT, that builds the Reposit Controller — a local control device and cloud platform that sits on top of a household's solar, batte…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 44.6
+  score_composite: 44.1
   shared: 6
 - slug: ontario-energy-board
   name: Ontario Energy Board
@@ -244,6 +244,13 @@ providers:
   score_band: thin
   score_composite: 28.1
   shared: 6
+- slug: ausgrid
+  name: Ausgrid
+  description: Ausgrid is the largest electricity distribution network service provider on Australia's east coast, operating the poles, wires, substations and underground cables that deliver power to more than 1.8 million customers across Sydney, the Cen…
+  api_count: 0
+  score_band: thin
+  score_composite: 26.9
+  shared: 6
 - slug: atco
   name: ATCO
   description: 'ATCO Ltd. (TSX: ACO.X) is a Calgary, Alberta diversified global corporation and the controlling shareholder of Canadian Utilities Limited, through which it runs the regulated energy businesses that make it one of western Canada''s largest u…'
@@ -257,13 +264,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 25.2
-  shared: 6
-- slug: ausgrid
-  name: Ausgrid
-  description: Ausgrid is the largest electricity distribution network service provider on Australia's east coast, operating the poles, wires, substations and underground cables that deliver power to more than 1.8 million customers across Sydney, the Cen…
-  api_count: 0
-  score_band: emerging
-  score_composite: 24.3
   shared: 6
 - slug: sa-power-networks
   name: SA Power Networks

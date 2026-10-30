@@ -55,15 +55,22 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/accounting-standards/refs/heads/main/json-ld/accounting-standards-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/accounting-standards/refs/heads/main/vocabulary/accounting-standards-vocabulary.yaml
-provider_count: 2
+provider_count: 3
 providers:
 - slug: sec
   name: SEC EDGAR
   description: The U.S. Securities and Exchange Commission (SEC) EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides free public access to corporate financial filings submitted to the SEC. The EDGAR REST API at data.sec.gov deliver…
-  api_count: 4
+  api_count: 3
   score_band: thin
   score_composite: 35.8
   shared: 3
+- slug: filingsift
+  name: FilingSift
+  description: FilingSift provides source‑cited SEC filing data through a REST API and client libraries. It enables analysts and software teams to search indexed SEC filings, compare financing disclosures, and retrieve primary‑source rates, bank and cred…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.3
+  shared: 2
 - slug: inscopehq
   name: Inscope
   description: Inscope is an AI-powered financial reporting and automation platform for accounting firms and enterprise finance teams. It drafts accurate, GAAP-compliant financial statements, cash flow statements, and audit workpapers in minutes, keeping…

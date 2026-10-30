@@ -117,7 +117,7 @@ providers:
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 19.0
+  score_composite: 20.4
   shared: 2
 - slug: json-processing
   name: JSON Processing

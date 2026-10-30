@@ -88,16 +88,9 @@ providers:
 - slug: bargo-congress-trades-api
   name: Bargo Congress Trades API
   description: A free JSON REST API and hosted MCP server from Bargo that normalizes U.S. House and Senate STOCK Act securities transaction disclosures into a queryable dataset — currently 42,000+ disclosed trades across 415 members and 4,100+ tickers. S…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.7
-  shared: 2
-- slug: department-of-justice
-  name: Department of Justice
-  description: The U.S. Department of Justice (DOJ) is the federal executive department responsible for enforcing the law and defending the interests of the United States. DOJ exposes a portfolio of public APIs and data feeds including the DOJ News API f…
   api_count: 1
   score_band: developing
-  score_composite: 45.8
+  score_composite: 48.2
   shared: 2
 - slug: us-census-bureau
   name: US Census Bureau
@@ -105,6 +98,13 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 45.3
+  shared: 2
+- slug: department-of-justice
+  name: Department of Justice
+  description: The U.S. Department of Justice (DOJ) is the federal executive department responsible for enforcing the law and defending the interests of the United States. DOJ exposes a portfolio of public APIs and data feeds including the DOJ News API f…
+  api_count: 13
+  score_band: developing
+  score_composite: 43.3
   shared: 2
 - slug: economic-research-service
   name: Economic Research Service
@@ -123,16 +123,16 @@ providers:
 - slug: wikipedia
   name: Wikipedia / MediaWiki
   description: 'Wikipedia is the free, multilingual online encyclopedia operated by the non-profit Wikimedia Foundation. The platform exposes its content and structured data through several public APIs: the original MediaWiki Action API (action=query|edit…'
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 39.3
+  score_composite: 40.1
   shared: 2
 - slug: opendatasoft
   name: Opendatasoft
   description: Open data platform with REST APIs for accessing public datasets from 1,000+ cities and organizations, providing standard OData and JSON query interfaces. Now operating as Huwise, the platform powers 3,000+ data marketplaces and provides ca…
-  api_count: 2
+  api_count: 1
   score_band: thin
-  score_composite: 35.1
+  score_composite: 36.5
   shared: 2
 - slug: the-bureau-of-economic-analysis
   name: The Bureau of Economic Analysis
@@ -158,16 +158,16 @@ providers:
 - slug: eurostat
   name: Eurostat
   description: Eurostat is the statistical office of the European Union, providing free and open REST APIs for programmatic access to European statistical data covering demographics, economy, trade, agriculture, transport, environment, and dozens of othe…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 29.2
   shared: 2
 - slug: unicef-data
   name: UNICEF Data
   description: UNICEF Data is the official open data platform of the United Nations Children's Fund, providing programmatic access to global child welfare statistics, health and nutrition indicators, education data, child protection metrics, MICS (Multip…
-  api_count: 3
+  api_count: 2
   score_band: thin
-  score_composite: 29.1
+  score_composite: 28.6
   shared: 2
 - slug: conceptnet
   name: ConceptNet
@@ -186,7 +186,7 @@ providers:
 - slug: dbnomics
   name: DBnomics
   description: DBnomics is the world's economic database - a free, open-source aggregator run by Cepremap that harvests macroeconomic time series from more than 90 national and international providers (IMF, ECB, Eurostat, World Bank, OECD, BLS, BEA, Banq…
-  api_count: 2
+  api_count: 1
   score_band: emerging
   score_composite: 22.8
   shared: 2

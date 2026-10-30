@@ -79,6 +79,13 @@ providers:
   score_band: thin
   score_composite: 38.9
   shared: 3
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
+  score_band: thin
+  score_composite: 31.0
+  shared: 3
 - slug: un-comtrade
   name: UN Comtrade
   description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
@@ -99,13 +106,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.3
-  shared: 3
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: minimal
-  score_composite: 10.9
   shared: 3
 - slug: agraga
   name: Agraga
@@ -145,7 +145,7 @@ providers:
 - slug: aeb
   name: AEB
   description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
-  api_count: 13
+  api_count: 11
   score_band: thin
   score_composite: 31.2
   shared: 2
@@ -189,7 +189,7 @@ providers:
   description: Forto is a digital freight forwarder and supply chain platform that combines technology with logistics expertise to provide sea, air, and rail freight services across 100+ countries. The platform offers a public REST API for booking manage…
   api_count: 1
   score_band: emerging
-  score_composite: 18.0
+  score_composite: 19.4
   shared: 2
 - slug: nowlun-holding-corp
   name: Nowlun

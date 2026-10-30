@@ -64,7 +64,7 @@ links:
   url: https://github.com/api-evangelist/knowledge/blob/main/json-ld/knowledge-context.jsonld
 - type: JSONSchema
   url: https://github.com/api-evangelist/knowledge/blob/main/json-schema/knowledge-record-schema.json
-provider_count: 117
+provider_count: 118
 providers:
 - slug: webcrawlerapi-com
   name: WebCrawlerAPI
@@ -85,7 +85,7 @@ providers:
   description: Cognee is an open-source AI memory and knowledge graph platform that enables developers to build persistent, structured memory for AI agents and LLM applications. The platform provides a REST API and Python/TypeScript SDKs for ingesting do…
   api_count: 1
   score_band: developing
-  score_composite: 42.8
+  score_composite: 42.6
   shared: 3
 - slug: docling
   name: Docling
@@ -148,21 +148,21 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 93.6
+  score_composite: 93.8
   shared: 2
 - slug: alphaai
   name: AlphaAI
   description: A REST API and agent-native platform for relevance-scored, ticker-linked financial news, built for trading bots, agent backends, and dashboards. Every article is enriched at ingest with a 1-10 relevance score, one of fourteen categories, v…
   api_count: 1
   score_band: exemplar
-  score_composite: 66.7
+  score_composite: 66.8
   shared: 2
 - slug: dust-tt
   name: Dust
   description: Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for "AI Operators" — the people w…
-  api_count: 9
+  api_count: 1
   score_band: strong
-  score_composite: 66.1
+  score_composite: 64.9
   shared: 2
 - slug: airia
   name: Airia
@@ -174,16 +174,16 @@ providers:
 - slug: seekr
   name: Seekr
   description: Seekr Technologies builds explainable, auditable, sovereign AI for regulated industries and high-stakes government missions. Its platform, SeekrFlow, is an end-to-end AI operating system that covers document ingestion and AI-ready data pre…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 63.4
   shared: 2
 - slug: machinelibrary-ai
   name: Space Frontiers
   description: Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus the provide…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 62.8
+  score_composite: 63.4
   shared: 2
 - slug: gumloop
   name: Gumloop
@@ -197,7 +197,7 @@ providers:
   description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — few…
   api_count: 1
   score_band: strong
-  score_composite: 59.5
+  score_composite: 59.7
   shared: 2
 - slug: arcade-dev
   name: Arcade.dev
@@ -211,7 +211,7 @@ providers:
   description: gpt55-token-gateway is the self-chosen service name of an unnamed operator running two OpenAI-compatible AI API gateways on the 558686.xyz domain. GPT55 Model Gateway (gpt55.558686.xyz) sells single GPT-5.6 Luna, GPT-5.5 and GPT-5.3-codex…
   api_count: 3
   score_band: strong
-  score_composite: 57.7
+  score_composite: 57.6
   shared: 2
 - slug: coval
   name: Coval
@@ -223,13 +223,6 @@ providers:
 - slug: google-gemini
   name: Google Gemini
   description: Google's multimodal AI model APIs for text, image, audio, and video understanding.
-  api_count: 1
-  score_band: developing
-  score_composite: 53.5
-  shared: 2
-- slug: llamaparse
-  name: LlamaParse
-  description: LlamaParse is an enterprise document parsing and AI pipeline platform from LlamaIndex that converts complex PDFs, Office files, and 130+ document formats into LLM-ready structured outputs. The platform offers six composable products under…
   api_count: 1
   score_band: developing
   score_composite: 53.5
@@ -248,12 +241,26 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 2
+- slug: chroma
+  name: Chroma
+  description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal ret…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.4
+  shared: 2
 - slug: cognition-labs
   name: Cognition Labs
   description: Cognition Labs is the applied AI lab behind Devin, the autonomous AI software engineer that plans, writes, tests, and ships code inside its own shell, code editor, and browser. The Devin API lets teams create and drive Devin sessions progr…
   api_count: 2
   score_band: developing
   score_composite: 52.3
+  shared: 2
+- slug: llamaparse
+  name: LlamaParse
+  description: LlamaParse is an enterprise document parsing and AI pipeline platform from LlamaIndex that converts complex PDFs, Office files, and 130+ document formats into LLM-ready structured outputs. The platform offers six composable products under…
+  api_count: 33
+  score_band: developing
+  score_composite: 52.1
   shared: 2
 - slug: wikidata
   name: Wikidata
@@ -268,12 +275,5 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 51.6
-  shared: 2
-- slug: chroma
-  name: Chroma
-  description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal ret…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.5
   shared: 2
 ---

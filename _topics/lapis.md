@@ -73,26 +73,26 @@ links:
   url: https://github.com/api-evangelist/lapis/blob/main/examples/lapis-limits-section-example.lapis
 - type: Examples
   url: https://github.com/api-evangelist/lapis/blob/main/examples/lapis-flows-section-example.lapis
-provider_count: 97
+provider_count: 96
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 3
 - slug: agntcy
   name: AGNTCY
   description: AGNTCY is the open collective for agent interoperability, initiated by Outshift — Cisco's incubation group — and governed under the Linux Foundation (LF Projects, LLC), developed in the open across 52 public repositories. It publishes spec…
-  api_count: 5
+  api_count: 4
   score_band: developing
   score_composite: 49.0
   shared: 3
 - slug: reasonblocks
   name: ReasonBlocks
   description: ReasonBlocks is a Y Combinator (Spring 2026) startup building a drop-in runtime layer that makes production AI agents observable, self-correcting, and cheaper to run. The platform detects failing agent trajectories (loops and redundant wor…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 32.8
   shared: 3
@@ -115,14 +115,14 @@ providers:
   description: A REST API and agent-native platform for relevance-scored, ticker-linked financial news, built for trading bots, agent backends, and dashboards. Every article is enriched at ingest with a 1-10 relevance score, one of fourteen categories, v…
   api_count: 1
   score_band: exemplar
-  score_composite: 66.7
+  score_composite: 66.8
   shared: 2
 - slug: taskfolk
   name: Taskfolk
   description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
-  api_count: 8
+  api_count: 2
   score_band: strong
-  score_composite: 65.3
+  score_composite: 64.8
   shared: 2
 - slug: webcrawlerapi-com
   name: WebCrawlerAPI
@@ -134,7 +134,7 @@ providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 2
@@ -155,21 +155,21 @@ providers:
 - slug: farmdash
   name: FarmDash Agent Hub
   description: FarmDash is a zero-custody intelligence and control layer for DeFi agents and airdrop farmers, combining Trail Heat opportunity scoring, Signal Architect swap routing, wallet and Sybil-risk intelligence, and Hyperliquid futures research ac…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 61.3
+  score_composite: 60.8
   shared: 2
 - slug: adanos-market-sentiment-api
   name: Adanos Market Sentiment API
   description: Key-authenticated REST/JSON API for financial market sentiment analytics across Reddit, X.com, news, and Polymarket, plus stock news and crypto sentiment. Provides Buzz Score, Trend Detection, and directional Sentiment signals for traders,…
-  api_count: 8
+  api_count: 7
   score_band: strong
   score_composite: 59.8
   shared: 2
 - slug: assetfare
   name: AssetFare
   description: A non-custodial routing API for AI agents that returns fee-inclusive cross-chain and same-chain quotes and bounded unsigned actions; the caller's own wallet verifies, signs and submits every transaction, and AssetFare never holds keys, sig…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 59.3
   shared: 2
@@ -192,7 +192,7 @@ providers:
   description: gpt55-token-gateway is the self-chosen service name of an unnamed operator running two OpenAI-compatible AI API gateways on the 558686.xyz domain. GPT55 Model Gateway (gpt55.558686.xyz) sells single GPT-5.6 Luna, GPT-5.5 and GPT-5.3-codex…
   api_count: 3
   score_band: strong
-  score_composite: 57.7
+  score_composite: 57.6
   shared: 2
 - slug: coval
   name: Coval
@@ -204,14 +204,14 @@ providers:
 - slug: dreamthreads
   name: DreamThreads
   description: DreamThreads exposes the DreamGraph API, a context-first dream interpretation and structured parsing platform. It offers a keyless public dream parser, gated partner interpretation endpoints, a hosted MCP server, and full machine-readable…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.4
   shared: 2
 - slug: reachdesk
   name: Reachdesk
   description: Reachdesk is a global B2B corporate gifting and direct mail platform that enables sales, marketing, and customer success teams to send physical gifts, branded merchandise, and digital rewards at scale. The Reachdesk REST API allows program…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 56.7
   shared: 2
@@ -225,7 +225,7 @@ providers:
 - slug: observeai
   name: Observe.AI
   description: Observe.AI is an agentic AI platform for the contact center, providing purpose-built AI agents that handle customer support end-to-end across voice and chat, real-time AI Copilot guidance that assists frontline agents during live interacti…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 54.5
   shared: 2
@@ -235,6 +235,13 @@ providers:
   api_count: 37
   score_band: strong
   score_composite: 54.3
+  shared: 2
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: developing
+  score_composite: 53.7
   shared: 2
 - slug: google-gemini
   name: Google Gemini
@@ -257,13 +264,6 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 2
-- slug: jentic
-  name: Jentic
-  description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
-  shared: 2
 - slug: cognition-labs
   name: Cognition Labs
   description: Cognition Labs is the applied AI lab behind Devin, the autonomous AI software engineer that plans, writes, tests, and ships code inside its own shell, code editor, and browser. The Devin API lets teams create and drive Devin sessions progr…
@@ -271,12 +271,12 @@ providers:
   score_band: developing
   score_composite: 52.3
   shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
+- slug: jentic
+  name: Jentic
+  description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in…
+  api_count: 1
   score_band: developing
-  score_composite: 50.6
+  score_composite: 52.2
   shared: 2
 - slug: tarx-com
   name: TARXAN

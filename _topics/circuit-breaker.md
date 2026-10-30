@@ -80,7 +80,7 @@ providers:
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 48.4
   shared: 2
 - slug: apollo-config
   name: Apollo Config
@@ -108,7 +108,7 @@ providers:
   description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN,…
   api_count: 1
   score_band: thin
-  score_composite: 36.5
+  score_composite: 38.1
   shared: 2
 - slug: restate
   name: Restate
@@ -117,19 +117,19 @@ providers:
   score_band: thin
   score_composite: 36.4
   shared: 2
+- slug: service-fabric
+  name: Service Fabric
+  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
+  shared: 2
 - slug: diagrid
   name: Diagrid
   description: Diagrid is the execution layer for production AI, built by the creators of the open source Dapr and KEDA projects. Its managed platform, Diagrid Catalyst, gives AI agents, workflows, and MCP servers durable execution (applications resume f…
   api_count: 0
   score_band: thin
   score_composite: 35.0
-  shared: 2
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.0
   shared: 2
 - slug: spring-cloud-gateway
   name: Spring Cloud Gateway

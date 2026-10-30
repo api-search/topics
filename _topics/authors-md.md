@@ -45,7 +45,7 @@ links:
   url: https://github.com/api-evangelist/authors-md
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/authors-md/refs/heads/main/vocabulary/authors-md-vocabulary.yaml
-provider_count: 34
+provider_count: 35
 providers:
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
@@ -89,10 +89,17 @@ providers:
   score_band: strong
   score_composite: 55.4
   shared: 2
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: developing
+  score_composite: 53.7
+  shared: 2
 - slug: customeros
   name: CustomerOS
   description: CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, a…
-  api_count: 10
+  api_count: 9
   score_band: developing
   score_composite: 53.4
   shared: 2
@@ -102,13 +109,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.1
-  shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
-  score_band: developing
-  score_composite: 50.6
   shared: 2
 - slug: fossa
   name: Fossa
@@ -120,14 +120,14 @@ providers:
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.9
   shared: 2
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 2
@@ -141,7 +141,7 @@ providers:
 - slug: tidelift
   name: Tidelift
   description: Tidelift provides open-source software supply-chain management for enterprises. Its platform combines package intelligence (maintenance, quality, end-of-life, and vulnerability signals) with catalogs of approved dependencies, policy and li…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 38.1
   shared: 2
@@ -213,21 +213,28 @@ providers:
   description: Apache ORC is a self-describing, type-aware columnar file format designed for Hadoop workloads. It provides high compression ratios and fast read performance for large-scale data processing with support for complex data types.
   api_count: 3
   score_band: emerging
-  score_composite: 19.2
+  score_composite: 20.6
+  shared: 2
+- slug: slurpit
+  name: Slurp'it
+  description: Slurp'it provides open-source network inventory and automation tools, offering plugins for NetBox and Nautobot, a sandbox environment, and extensive documentation. It helps organizations build a single source of truth for IT infrastructure…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.2
   shared: 2
 - slug: bookstack
   name: BookStack
   description: BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments,…
   api_count: 1
   score_band: emerging
-  score_composite: 18.3
+  score_composite: 19.7
   shared: 2
 - slug: owasp
   name: OWASP
   description: The Open Worldwide Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software through community-led open source projects, hundreds of chapters worldwide, and educational resources. OWASP d…
   api_count: 1
   score_band: emerging
-  score_composite: 17.0
+  score_composite: 18.3
   shared: 2
 - slug: vitepress
   name: VitePress
@@ -249,12 +256,5 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 14.9
-  shared: 2
-- slug: changelog-md
-  name: CHANGELOG.md (Keep a Changelog)
-  description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a…
-  api_count: 0
-  score_band: emerging
-  score_composite: 13.4
   shared: 2
 ---

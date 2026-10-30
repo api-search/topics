@@ -58,7 +58,7 @@ providers:
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 15
+  api_count: 7
   score_band: thin
   score_composite: 28.1
   shared: 2
@@ -72,7 +72,7 @@ providers:
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked s…
-  api_count: 2
+  api_count: 1
   score_band: emerging
   score_composite: 23.6
   shared: 2
@@ -81,12 +81,12 @@ providers:
   description: Apache Sling is a RESTful web framework built on top of the Java Content Repository (JCR) standard. It maps HTTP requests to content resources using a resource-oriented URL decomposition model and uses scripts or servlets to render respons…
   api_count: 3
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 22.8
   shared: 2
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
-  api_count: 24
+  api_count: 23
   score_band: emerging
   score_composite: 18.3
   shared: 2

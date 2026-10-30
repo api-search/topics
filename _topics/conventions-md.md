@@ -71,7 +71,7 @@ providers:
   description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide d…
   api_count: 1
   score_band: developing
-  score_composite: 50.0
+  score_composite: 51.0
   shared: 2
 - slug: api-blueprint
   name: API Blueprint

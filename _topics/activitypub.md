@@ -35,6 +35,32 @@ apis:
 - name: ActivityPub Outbox API
   description: The outbox is an OrderedCollection endpoint that stores activities published by an actor. Clients POST activities to an actor's outbox to create, update, delete, follow, like, and perform other social interactions. The server then federate…
 links:
+- type: Spectral
+  url: https://github.com/api-evangelist/activitypub/blob/main/rules/activitypub-rules.yml
+- type: Spectral
+  url: https://github.com/api-evangelist/activitypub/blob/main/rules/activitypub-jsonschema-spectral-rules.yml
+- type: JSONLD
+  url: https://github.com/api-evangelist/activitypub/blob/main/json-ld/activitypub-context.jsonld
+- type: Vocabulary
+  url: https://github.com/api-evangelist/activitypub/blob/main/vocabulary/activitystreams-vocabulary.yml
+- type: Vocabulary
+  url: https://github.com/api-evangelist/activitypub/blob/main/vocabulary/activitypub-vocabulary.yml
+- type: AgentSkill
+  url: https://github.com/api-evangelist/activitypub/blob/main/skills/_index.yml
+- type: DataModel
+  url: https://github.com/api-evangelist/activitypub/blob/main/data-model/activitypub-data-model.yml
+- type: ErrorCatalog
+  url: https://github.com/api-evangelist/activitypub/blob/main/errors/activitypub-problem-types.yml
+- type: Conformance
+  url: https://github.com/api-evangelist/activitypub/blob/main/conformance/activitypub-conformance.yml
+- type: Hosts
+  url: https://github.com/api-evangelist/activitypub/blob/main/hosts/activitypub-hosts.yml
+- type: Vendors
+  url: https://github.com/api-evangelist/activitypub/blob/main/vendors/activitypub-vendors.yml
+- type: SDKs
+  url: https://github.com/api-evangelist/activitypub/blob/main/packages/activitypub-packages.yml
+- type: Packages
+  url: https://github.com/api-evangelist/activitypub/blob/main/packages/activitypub-packages.yml
 - type: BlogRSS
   url: https://activitypub.rocks/feed.xml
 - type: AgenticAccess

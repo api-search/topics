@@ -49,7 +49,7 @@ providers:
   description: 'AWS VPN solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS offers two types of private connectivity: AWS Site-to-Site VPN and AWS Client VPN, enabling encryp…'
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 73.3
   shared: 2
 - slug: ibm
   name: IBM
@@ -57,6 +57,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 66.4
+  shared: 2
+- slug: graphiant
+  name: Graphiant
+  description: Graphiant is a Network-as-a-Service (NaaS) provider that replaces fragmented SD-WAN, MPLS and cloud-networking stacks with a single cloud-native subscription service built on a stateless core architecture. Founded by former Viptela CTO Kha…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.2
   shared: 2
 - slug: zerotier
   name: ZeroTier
@@ -68,9 +75,9 @@ providers:
 - slug: azure-networking-services
   name: Azure Networking Services
   description: A comprehensive collection of Azure networking APIs for managing virtual networks, load balancers, application gateways, VPN gateways, DNS, and other networking resources in the Microsoft Azure cloud.
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 61.7
+  score_composite: 61.1
   shared: 2
 - slug: netbox-labs
   name: NetBox Labs
@@ -82,14 +89,7 @@ providers:
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes ser…
-  api_count: 22
-  score_band: strong
-  score_composite: 60.3
-  shared: 2
-- slug: graphiant
-  name: Graphiant
-  description: Graphiant is a Network-as-a-Service (NaaS) provider that replaces fragmented SD-WAN, MPLS and cloud-networking stacks with a single cloud-native subscription service built on a stateless core architecture. Founded by former Viptela CTO Kha…
-  api_count: 1
+  api_count: 11
   score_band: strong
   score_composite: 60.3
   shared: 2
@@ -103,23 +103,23 @@ providers:
 - slug: neutrino-api
   name: Neutrino API
   description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
-  api_count: 4
-  score_band: strong
-  score_composite: 54.6
+  api_count: 2
+  score_band: developing
+  score_composite: 54.1
   shared: 2
 - slug: upcloud
   name: UpCloud
   description: UpCloud is a Finnish cloud infrastructure provider offering cloud servers, block and object storage, managed databases, managed Kubernetes (UKS), load balancers and private networking from data centres in Europe, North America, Asia and Au…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 53.8
   shared: 2
 - slug: google-cloud-load-balancing
   name: Google Cloud Load Balancing
   description: Google Cloud Load Balancing provides high-performance, scalable load balancing for Google Cloud Platform services, distributing traffic across multiple instances, regions, and backends to ensure reliability and low latency.
   api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 50.5
   shared: 2
 - slug: oxide-computer
   name: Oxide
@@ -128,19 +128,19 @@ providers:
   score_band: developing
   score_composite: 46.2
   shared: 2
+- slug: cisco-hardware
+  name: Cisco Hardware
+  description: Cisco Hardware is an aggregated index of programmable interfaces for managing Cisco network and data center hardware, including routers, switches, wireless access points, data center fabric, and unified computing systems. The index covers…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.4
+  shared: 2
 - slug: zayo
   name: Zayo
   description: Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprise…
   api_count: 1
   score_band: developing
   score_composite: 43.8
-  shared: 2
-- slug: cisco-hardware
-  name: Cisco Hardware
-  description: Cisco Hardware is an aggregated index of programmable interfaces for managing Cisco network and data center hardware, including routers, switches, wireless access points, data center fabric, and unified computing systems. The index covers…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.5
   shared: 2
 - slug: haproxy
   name: HAProxy
@@ -180,9 +180,9 @@ providers:
 - slug: fly-io
   name: Fly Io
   description: Documentation and guides from the team at Fly.io.
-  api_count: 9
+  api_count: 1
   score_band: thin
-  score_composite: 34.3
+  score_composite: 34.5
   shared: 2
 - slug: inspur-cloud
   name: Inspur Cloud

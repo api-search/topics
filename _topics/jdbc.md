@@ -31,12 +31,12 @@ providers:
   description: Apache Derby is an open-source relational database implemented entirely in Java, formerly governed by the Apache Software Foundation (retired October 2025). It provides a small-footprint (~3.5MB) database engine with full SQL support, JDBC…
   api_count: 1
   score_band: thin
-  score_composite: 26.9
+  score_composite: 28.3
   shared: 4
 - slug: cdata
   name: CData
   description: CData Software is a leading provider of data access and connectivity solutions. Our standards-based connectors streamline data access and insulate customers from the complexities of integrating with on-premise or cloud databases, SaaS, API…
-  api_count: 9
+  api_count: 7
   score_band: exemplar
   score_composite: 82.9
   shared: 2
@@ -50,7 +50,7 @@ providers:
 - slug: cockroach-labs
   name: Cockroach Labs
   description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Adv…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 71.5
   shared: 2
@@ -75,19 +75,19 @@ providers:
   score_band: strong
   score_composite: 59.7
   shared: 2
-- slug: amuncore
-  name: AmunCore
-  description: AmunCore turns a database into a secure REST API without writing a backend. You connect a database, pick tables, and endpoints go live with routing, authentication, validation, pagination, joins, errors, logs and docs already handled — the…
-  api_count: 4
-  score_band: strong
-  score_composite: 55.4
-  shared: 2
 - slug: ocient
   name: Ocient
   description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.1
+  shared: 2
+- slug: amuncore
+  name: AmunCore
+  description: AmunCore turns a database into a secure REST API without writing a backend. You connect a database, pick tables, and endpoints go live with routing, authentication, validation, pagination, joins, errors, logs and docs already handled — the…
+  api_count: 2
+  score_band: strong
+  score_composite: 54.9
   shared: 2
 - slug: vividcortex
   name: VividCortex
@@ -103,6 +103,13 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 2
+- slug: teradata
+  name: Teradata
+  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
+  shared: 2
 - slug: oracle-database
   name: Oracle Database
   description: APIs and interfaces for Oracle Database management, querying, and administration.
@@ -110,33 +117,26 @@ providers:
   score_band: developing
   score_composite: 49.8
   shared: 2
-- slug: teradata
-  name: Teradata
-  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.7
-  shared: 2
 - slug: google-cloud-sql
   name: Google Cloud SQL
   description: Google Cloud SQL is a fully managed relational database service that supports MySQL, PostgreSQL, and SQL Server. It handles routine database tasks such as provisioning, replication, backups, and failover, allowing developers to focus on ap…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 48.4
   shared: 2
 - slug: google-cloud-spanner
   name: Google Cloud Spanner
   description: Google Cloud Spanner is a fully managed, mission-critical relational database service that offers transactional consistency at global scale, automatic synchronous replication, and schemas with SQL support. It combines the benefits of relat…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 48.4
   shared: 2
 - slug: singlestore
   name: SingleStore
   description: SingleStore is a cloud-native distributed SQL database designed for real-time analytics and mixed workloads. It offers a management API for provisioning and managing cloud workspaces, and a data API for executing SQL statements over HTTP w…
   api_count: 2
   score_band: developing
-  score_composite: 44.4
+  score_composite: 45.7
   shared: 2
 - slug: cockroachdb
   name: CockroachDB
@@ -144,6 +144,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 42.5
+  shared: 2
+- slug: sybase
+  name: Sybase
+  description: A collection of APIs and resources for Sybase database systems.
+  api_count: 1
+  score_band: developing
+  score_composite: 42.3
   shared: 2
 - slug: kinetica
   name: Kinetica
@@ -159,13 +166,6 @@ providers:
   score_band: developing
   score_composite: 41.0
   shared: 2
-- slug: sybase
-  name: Sybase
-  description: A collection of APIs and resources for Sybase database systems.
-  api_count: 1
-  score_band: developing
-  score_composite: 40.9
-  shared: 2
 - slug: crate-io
   name: Crate Io
   description: Crate.io is the company behind CrateDB, a distributed SQL database engineered for real-time analytics on large volumes of operational data. CrateDB unifies time-series, JSON/document, full-text search, vector, geospatial, and relational da…
@@ -180,12 +180,12 @@ providers:
   score_band: developing
   score_composite: 39.7
   shared: 2
-- slug: cloudflare-d1
-  name: Cloudflare D1
-  description: Cloudflare D1 is a managed, serverless SQLite database service with a REST API for querying D1 databases, executing SQL statements, listing databases, and managing database instances at the edge. D1 offers SQLite semantics, built-in Time T…
+- slug: apache-druid
+  name: Apache Druid
+  description: Apache Druid is a high-performance, real-time analytics database governed by the Apache Software Foundation, designed for fast slice-and-dice OLAP queries on event-time data. It features a distributed, column-oriented storage engine with a…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 37.9
   shared: 2
 - slug: smartmind
   name: SmartMind
@@ -194,12 +194,12 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 2
-- slug: apache-druid
-  name: Apache Druid
-  description: Apache Druid is a high-performance, real-time analytics database governed by the Apache Software Foundation, designed for fast slice-and-dice OLAP queries on event-time data. It features a distributed, column-oriented storage engine with a…
+- slug: cloudflare-d1
+  name: Cloudflare D1
+  description: Cloudflare D1 is a managed, serverless SQLite database service with a REST API for querying D1 databases, executing SQL statements, listing databases, and managing database instances at the edge. D1 offers SQLite semantics, built-in Time T…
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 34.9
   shared: 2
 - slug: mindsdb
   name: MindsDB

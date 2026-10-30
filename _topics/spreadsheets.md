@@ -71,12 +71,12 @@ links:
   url: https://github.com/api-evangelist/spreadsheets/blob/main/rules/spreadsheets-rules.yml
 - type: Vocabulary
   url: https://github.com/api-evangelist/spreadsheets/blob/main/vocabulary/spreadsheets-vocabulary.yml
-provider_count: 51
+provider_count: 55
 providers:
 - slug: fundamental-research-labs
   name: Fundamental Research Labs
   description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowi…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.6
   shared: 4
@@ -92,12 +92,12 @@ providers:
   description: Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.
   api_count: 3
   score_band: strong
-  score_composite: 61.5
+  score_composite: 62.9
   shared: 3
 - slug: quadratic
   name: Quadratic
   description: Quadratic is an AI-native infinite spreadsheet that combines Python, SQL, JavaScript, formulas, and AI agents on a single canvas, with live connections to databases like PostgreSQL, MySQL, BigQuery, and Snowflake. Its token-authenticated D…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 54.3
   shared: 3
@@ -106,14 +106,14 @@ providers:
   description: Online spreadsheet application with a REST API for reading, writing, and manipulating spreadsheet data, cells, formulas, and exporting to various formats. The Zoho Sheet Data API v2 supports workbook management, worksheet operations, cell…
   api_count: 1
   score_band: thin
-  score_composite: 33.5
+  score_composite: 34.9
   shared: 3
 - slug: microsoft-excel-macros
   name: Microsoft Excel Macros
   description: A collection of APIs and resources for working with Microsoft Excel Macros, VBA automation, and Excel extensibility including the Office JavaScript API and COM automation.
   api_count: 3
-  score_band: emerging
-  score_composite: 26.1
+  score_band: thin
+  score_composite: 27.4
   shared: 3
 - slug: crunched
   name: Crunched
@@ -122,6 +122,13 @@ providers:
   score_band: minimal
   score_composite: 8.7
   shared: 3
+- slug: timely
+  name: Timely (Memory AS)
+  description: Timely provides AI‑powered automatic time‑tracking software for consultancies, agencies and SaaS businesses. Its platform captures work automatically, offers a Memory tracker for private activity capture, and integrates with tools like Jir…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 72.3
+  shared: 2
 - slug: coda-project
   name: Coda Project
   description: Coda Project, Inc. is the maker of Coda (now branded Superhuman Docs), an all-in-one collaborative workspace that blends the flexibility of a document, the structure of a spreadsheet, the power of applications, and the intelligence of AI i…
@@ -132,7 +139,7 @@ providers:
 - slug: lucid
   name: Lucid
   description: Lucid Software Inc. is the visual collaboration company behind the Lucid Suite — Lucidchart (intelligent diagramming), Lucidspark (virtual whiteboarding) and Lucidscale (cloud visualization) — plus the Lucid Cloud, Process and Enterprise S…
-  api_count: 6
+  api_count: 4
   score_band: exemplar
   score_composite: 68.5
   shared: 2
@@ -155,12 +162,12 @@ providers:
   description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 56.5
   shared: 2
 - slug: avoma
   name: Avoma
   description: Avoma is an AI-powered meeting assistant platform that automates note‑taking, scheduling, and coaching for sales and revenue teams. It records and transcribes meetings in real time, generates structured summaries, pushes data to CRMs, and…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 56.0
   shared: 2
@@ -168,15 +175,15 @@ providers:
   name: Google Sheets
   description: API for reading, writing, and formatting data in Google Sheets.
   api_count: 1
-  score_band: developing
-  score_composite: 53.0
+  score_band: strong
+  score_composite: 54.4
   shared: 2
 - slug: microsoft-excel
   name: Microsoft Excel
   description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
   api_count: 11
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.9
   shared: 2
 - slug: equals
   name: Equals
@@ -206,6 +213,20 @@ providers:
   score_band: developing
   score_composite: 44.3
   shared: 2
+- slug: stilla
+  name: Stilla
+  description: Stilla is an AI teammate for the whole company — an AI agent that connects to a team's tools (Slack, Microsoft Teams, GitHub, Linear, Notion, Google Workspace and 3,000+ more) and turns chats, meetings, and conversations into finished work…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.3
+  shared: 2
+- slug: microsoft-excel-advanced
+  name: Microsoft Excel (Advanced)
+  description: Advanced automation and integration APIs for Microsoft Excel, enabling programmatic access to spreadsheet data, formulas, charts, and automation capabilities through Microsoft Graph, Office Scripts, JavaScript add-ins, custom functions, On…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.8
+  shared: 2
 - slug: memory
   name: Memory
   description: Memory AS (operating as Timely, timely.com) is an Oslo, Norway based software company behind Timely, an AI-powered automatic time tracking and timesheet platform for consultancies, agencies, professional-services firms and SaaS teams. Its…
@@ -213,26 +234,12 @@ providers:
   score_band: developing
   score_composite: 40.6
   shared: 2
-- slug: stilla
-  name: Stilla
-  description: Stilla is an AI teammate for the whole company — an AI agent that connects to a team's tools (Slack, Microsoft Teams, GitHub, Linear, Notion, Google Workspace and 3,000+ more) and turns chats, meetings, and conversations into finished work…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.0
-  shared: 2
-- slug: microsoft-excel-advanced
-  name: Microsoft Excel (Advanced)
-  description: Advanced automation and integration APIs for Microsoft Excel, enabling programmatic access to spreadsheet data, formulas, charts, and automation capabilities through Microsoft Graph, Office Scripts, JavaScript add-ins, custom functions, On…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.4
-  shared: 2
 - slug: smartsheet
   name: Smartsheet
   description: Smartsheet is a SaaS work management and collaboration platform that combines spreadsheet-style sheets, project plans, Gantt charts, dashboards, forms, and workflow automation for teams and enterprises. The Smartsheet REST API provides pro…
   api_count: 1
-  score_band: thin
-  score_composite: 38.6
+  score_band: developing
+  score_composite: 40.0
   shared: 2
 - slug: the-interaction-company-of-california
   name: The Interaction Company Of California
@@ -269,18 +276,11 @@ providers:
   score_band: emerging
   score_composite: 25.9
   shared: 2
-- slug: openblock-labs
-  name: OpenBlock Labs
-  description: OpenBlock Labs builds OB-1, a self-improving autonomous coding agent that automates the software development lifecycle from PM to PR. OB-1 runs as a native terminal CLI and inside VS Code and JetBrains IDEs, consumes MCP (Model Context Pro…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.7
-  shared: 2
 - slug: excel-macros
   name: Excel Macros
   description: Excel Macros refer to automated sequences of actions in Microsoft Excel, primarily written using VBA (Visual Basic for Applications). Excel also supports Office Scripts (TypeScript) for cloud-based automation and the Excel JavaScript API f…
   api_count: 3
   score_band: emerging
-  score_composite: 22.4
+  score_composite: 23.8
   shared: 2
 ---

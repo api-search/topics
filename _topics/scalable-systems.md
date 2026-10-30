@@ -92,16 +92,16 @@ providers:
 - slug: microsoft-azure-cdn
   name: Microsoft Azure Cdn
   description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Mana…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.3
   shared: 2
 - slug: synadia-communications
   name: Synadia Communications
   description: Synadia Communications, Inc. is the creator and primary maintainer of NATS.io, the CNCF connectivity and messaging system, and sells the commercial platform built on it. Its products are Synadia Cloud (fully managed, globally distributed N…
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 67.6
   shared: 2
 - slug: amazon-elastic-load-balancing
   name: Amazon Elastic Load Balancing
@@ -115,12 +115,12 @@ providers:
   description: Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. You can use fleet management features to maintain the health and availability of…
   api_count: 1
   score_band: strong
-  score_composite: 62.0
+  score_composite: 62.6
   shared: 2
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.5
   shared: 2
@@ -143,7 +143,7 @@ providers:
   description: Google Cloud Load Balancing provides high-performance, scalable load balancing for Google Cloud Platform services, distributing traffic across multiple instances, regions, and backends to ensure reliability and low latency.
   api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 50.5
   shared: 2
 - slug: ironio
   name: Iron.io
@@ -169,9 +169,9 @@ providers:
 - slug: kubernetes-services
   name: Kubernetes Services
   description: Kubernetes Services provide an abstract way to expose an application running on a set of Pods as a network service. They provide stable networking endpoints and load balancing across pod replicas in a Kubernetes cluster.
-  api_count: 5
+  api_count: 1
   score_band: developing
-  score_composite: 42.1
+  score_composite: 41.6
   shared: 2
 - slug: celery
   name: Celery
@@ -185,14 +185,14 @@ providers:
   description: CloudQuery is a cloud infrastructure data platform that gives platform engineering and cloud operations teams a queryable SQL data layer for visibility, governance, and automation. It syncs configuration data from AWS, GCP, Azure, and 70+…
   api_count: 1
   score_band: thin
-  score_composite: 35.9
+  score_composite: 37.3
   shared: 2
 - slug: flexera
   name: Spot by Flexera
   description: Spot by Flexera provides cloud infrastructure automation and optimization solutions. The platform includes Elastigroup for compute workload management across spot, reserved, and on-demand instances, Ocean for Kubernetes and container infra…
   api_count: 5
   score_band: thin
-  score_composite: 34.0
+  score_composite: 35.4
   shared: 2
 - slug: upbound
   name: Upbound
@@ -206,14 +206,14 @@ providers:
   description: Apache Curator is a Java/JVM client library for Apache ZooKeeper, governed by the Apache Software Foundation, that provides a high-level API framework, fluent builders, and pre-built distributed coordination recipes including leader electi…
   api_count: 1
   score_band: thin
-  score_composite: 32.3
+  score_composite: 33.5
   shared: 2
 - slug: apache-geode
   name: Apache Geode
   description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk stor…
-  api_count: 1
+  api_count: 5
   score_band: thin
-  score_composite: 32.3
+  score_composite: 33.2
   shared: 2
 - slug: moleculer
   name: Moleculer

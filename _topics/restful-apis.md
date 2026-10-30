@@ -65,14 +65,14 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: 0xarchive
   name: 0xArchive
   description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.7
   shared: 2
@@ -93,14 +93,14 @@ providers:
 - slug: stayingapi
   name: StayingAPI
   description: Unified accommodation-data API returning live search, availability, price, cross-OTA price comparison, and normalized reviews across Airbnb, Booking.com, Vrbo, and Google Hotels via a single normalized JSON schema, so one integration cover…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.9
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 2
@@ -123,12 +123,12 @@ providers:
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, aut…
   api_count: 12
   score_band: strong
-  score_composite: 58.9
+  score_composite: 60.3
   shared: 2
 - slug: odds-api
   name: Odds API
   description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, l…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 58.9
   shared: 2
@@ -139,38 +139,38 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 2
-- slug: mediacaption-api
-  name: MediaCaption API
-  description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.8
-  shared: 2
 - slug: etsi
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
   score_band: developing
-  score_composite: 50.6
+  score_composite: 53.7
+  shared: 2
+- slug: mediacaption-api
+  name: MediaCaption API
+  description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.4
   shared: 2
 - slug: blng
   name: Blng
   description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos,…
-  api_count: 4
+  api_count: 3
   score_band: developing
-  score_composite: 50.4
-  shared: 2
-- slug: 3gpp
-  name: 3GPP
-  description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
-  api_count: 116
-  score_band: developing
-  score_composite: 46.3
+  score_composite: 50.5
   shared: 2
 - slug: autocad
   name: AutoCAD
   description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET,…
   api_count: 6
+  score_band: developing
+  score_composite: 47.7
+  shared: 2
+- slug: 3gpp
+  name: 3GPP
+  description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
+  api_count: 116
   score_band: developing
   score_composite: 46.3
   shared: 2
@@ -237,18 +237,18 @@ providers:
   score_band: emerging
   score_composite: 22.7
   shared: 2
+- slug: nmfta
+  name: NMFTA
+  description: The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that indust…
+  api_count: 6
+  score_band: emerging
+  score_composite: 19.4
+  shared: 2
 - slug: curl
   name: cURL
   description: cURL is a command-line tool and library for transferring data with URLs. Originally released in 1997 by Daniel Stenberg, cURL is the de facto standard tool used by developers for testing, automating, and scripting interactions with HTTP, H…
   api_count: 2
   score_band: emerging
   score_composite: 19.3
-  shared: 2
-- slug: nmfta
-  name: NMFTA
-  description: The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that indust…
-  api_count: 6
-  score_band: emerging
-  score_composite: 18.9
   shared: 2
 ---

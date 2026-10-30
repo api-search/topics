@@ -25,7 +25,7 @@ providers:
   description: AgentMail is an API-first email platform that gives AI agents their own email inboxes to autonomously send, receive, reply to, and act on email. Unlike traditional transactional email APIs built for one-way notifications, AgentMail is desi…
   api_count: 1
   score_band: strong
-  score_composite: 60.3
+  score_composite: 60.4
   shared: 3
 - slug: smtp
   name: SMTP
@@ -37,28 +37,28 @@ providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by…
-  api_count: 89
+  api_count: 55
   score_band: exemplar
   score_composite: 91.6
   shared: 2
 - slug: nylas
   name: Nylas
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Micro…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 88.0
+  score_composite: 87.4
   shared: 2
 - slug: infobip
   name: Infobip
   description: Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan, Croatia, and is Croatia's largest technology company. It sells programmable messaging, voice, video, email and customer engagement APIs on…
-  api_count: 51
+  api_count: 50
   score_band: exemplar
   score_composite: 84.9
   shared: 2
 - slug: customer-io
   name: Customer.io
   description: Customer.io is a customer engagement platform that combines a customer data platform, marketing automation, and messaging delivery to send behavior-triggered email, push, SMS, and in-app messages. Its API surface includes the Track API for…
-  api_count: 7
+  api_count: 5
   score_band: exemplar
   score_composite: 84.0
   shared: 2
@@ -100,14 +100,14 @@ providers:
 - slug: postmark
   name: Postmark
   description: Postmark is an email delivery service that helps businesses send and track transactional and broadcast email reliably, replacing SMTP with a scalable service that surfaces detailed delivery analytics, bounce tracking, open and click tracki…
-  api_count: 5
+  api_count: 3
   score_band: exemplar
   score_composite: 68.7
   shared: 2
 - slug: sendpulse
   name: SendPulse
   description: SendPulse is a multichannel marketing automation platform covering bulk email, SMTP transactional email, SMS, web push, website pop-ups, a CRM, an online course builder, and chatbots across WhatsApp, Telegram, Facebook Messenger, Instagram…
-  api_count: 35
+  api_count: 20
   score_band: exemplar
   score_composite: 68.4
   shared: 2
@@ -121,9 +121,9 @@ providers:
 - slug: novu
   name: Novu
   description: Novu is the open-source notification infrastructure for developers. A single REST API and workflow engine route a triggered event across in-app inbox, email, SMS, push, chat (Slack / Discord / MS Teams / WhatsApp) and custom channels — wit…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 63.2
+  score_composite: 63.4
   shared: 2
 - slug: frontapp
   name: FrontApp
@@ -135,9 +135,9 @@ providers:
 - slug: knock-app
   name: Knock
   description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Dis…
-  api_count: 13
+  api_count: 2
   score_band: strong
-  score_composite: 61.8
+  score_composite: 61.2
   shared: 2
 - slug: zavu
   name: Zavu
@@ -151,7 +151,7 @@ providers:
   description: Dyspatch is an email template management and production platform that lets marketing, design, and engineering teams build, collaborate on, approve, localize, and publish transactional and marketing messages without hand-coding HTML. Conten…
   api_count: 1
   score_band: strong
-  score_composite: 58.3
+  score_composite: 58.5
   shared: 2
 - slug: cordial
   name: Cordial
@@ -159,6 +159,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 58.1
+  shared: 2
+- slug: bluecore
+  name: Bluecore
+  description: Bluecore is a retail marketing technology platform that unifies shopper identity, behavior, and product data into a customer data platform with 20+ predictive AI models, cross-channel experience orchestration (email, SMS, site, paid media)…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.7
   shared: 2
 - slug: amazon-sns
   name: Amazon SNS
@@ -195,39 +202,32 @@ providers:
   score_band: developing
   score_composite: 50.2
   shared: 2
-- slug: bluecore
-  name: Bluecore
-  description: Bluecore is a retail marketing technology platform that unifies shopper identity, behavior, and product data into a customer data platform with 20+ predictive AI models, cross-channel experience orchestration (email, SMS, site, paid media)…
-  api_count: 5
-  score_band: developing
-  score_composite: 48.8
-  shared: 2
-- slug: commsharbor
-  name: CommsHarbor
-  description: Transactional email and permission-based marketing infrastructure with tenant isolation, deliverability tracking, CRM, and multi-tenant governance. Self-describes as an agent-first HTTP API with a hosted MCP server.
-  api_count: 2
-  score_band: developing
-  score_composite: 48.7
-  shared: 2
 - slug: bird
   name: Bird
   description: Bird (formerly MessageBird) is an omnichannel customer communications platform offering REST APIs for email, SMS, WhatsApp, RCS, push notifications, voice, and data management. Trusted by more than 450,000 developers, Bird provides enterpr…
   api_count: 23
   score_band: developing
-  score_composite: 47.2
+  score_composite: 48.6
+  shared: 2
+- slug: commsharbor
+  name: CommsHarbor
+  description: Transactional email and permission-based marketing infrastructure with tenant isolation, deliverability tracking, CRM, and multi-tenant governance. Self-describes as an agent-first HTTP API with a hosted MCP server.
+  api_count: 1
+  score_band: developing
+  score_composite: 48.5
   shared: 2
 - slug: missive
   name: Missive
   description: Missive is a team inbox and collaboration platform that brings email, SMS, WhatsApp, Instagram, Facebook Messenger, and live chat into one unified workspace. It provides a REST API for managing conversations, messages, contacts, labels, dr…
   api_count: 1
   score_band: developing
-  score_composite: 45.0
+  score_composite: 46.4
   shared: 2
 - slug: google-gmail
   name: Google Gmail
   description: The Gmail API lets you view and manage Gmail mailbox data like threads, messages, and labels. It provides RESTful access to Gmail mailboxes, supporting message sending, drafting, organizing with labels, managing settings, and push notifica…
   api_count: 1
   score_band: developing
-  score_composite: 42.7
+  score_composite: 44.1
   shared: 2
 ---

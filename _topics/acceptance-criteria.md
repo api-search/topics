@@ -127,14 +127,14 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 2
@@ -145,13 +145,6 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 2
-- slug: automation-preflight-api
-  name: Automation Preflight API
-  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 4
-  score_band: developing
-  score_composite: 49.8
-  shared: 2
 - slug: panaya
   name: Panaya
   description: Panaya is an enterprise change-intelligence and agentic-testing platform for business applications, helping organizations de-risk changes to SAP (including S/4HANA migrations and upgrades), Oracle (EBS, Cloud, NetSuite), Salesforce, Workda…
@@ -159,12 +152,19 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 2
+- slug: automation-preflight-api
+  name: Automation Preflight API
+  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.3
+  shared: 2
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.8
   shared: 2
 - slug: assertible
   name: Assertible
@@ -183,7 +183,7 @@ providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 2
@@ -250,6 +250,13 @@ providers:
   score_band: emerging
   score_composite: 18.7
   shared: 2
+- slug: taiga
+  name: Taiga
+  description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.8
+  shared: 2
 - slug: step-ci
   name: Step CI
   description: Step CI is an open source API testing and monitoring framework that uses YAML-based workflows to define and run automated API test scenarios. It supports REST, GraphQL, gRPC, tRPC, and SOAP protocols in a single unified testing framework.…
@@ -261,13 +268,6 @@ providers:
   name: Muuktest
   description: MuukTest (MuukLabs) is an AI-powered test automation and managed QA services company founded in 2019 that helps software teams reach high end-to-end test coverage in weeks rather than months. It blends an AI-driven automation platform with…
   api_count: 0
-  score_band: emerging
-  score_composite: 16.4
-  shared: 2
-- slug: taiga
-  name: Taiga
-  description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
-  api_count: 1
   score_band: emerging
   score_composite: 16.4
   shared: 2
@@ -290,7 +290,7 @@ providers:
   description: A curated collection of API user stories following agile methodology formats. User stories capture software requirements from the end-user perspective using the format "As a [user], I want [goal], so that [benefit]". This repository indexe…
   api_count: 0
   score_band: emerging
-  score_composite: 12.4
+  score_composite: 13.7
   shared: 2
 - slug: canary
   name: Canary

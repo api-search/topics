@@ -95,9 +95,16 @@ providers:
 - slug: gray-swan
   name: Gray Swan
   description: Gray Swan AI is an AI security company that helps enterprises deploy AI with confidence. Its Cygnal product is a real-time, drop-in secure proxy that fronts LLM providers (OpenAI, Anthropic, and Gemini request formats) with input/output fi…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 41.8
+  shared: 4
+- slug: lakera
+  name: Lakera
+  description: Lakera is an AI security company building runtime defenses for generative AI applications. Its flagship Lakera Guard API screens prompts and responses for prompt injection, jailbreaks, PII leakage, unsafe content, and policy violations, wh…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.0
   shared: 4
 - slug: silmaril
   name: Silmaril
@@ -106,17 +113,10 @@ providers:
   score_band: thin
   score_composite: 34.4
   shared: 4
-- slug: lakera
-  name: Lakera
-  description: Lakera is an AI security company building runtime defenses for generative AI applications. Its flagship Lakera Guard API screens prompts and responses for prompt injection, jailbreaks, PII leakage, unsafe content, and policy violations, wh…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.7
-  shared: 4
 - slug: vijil
   name: Vijil
   description: 'Vijil is an AI agent trust platform (Mayfield-backed, ~$23M raised) that helps enterprises make AI agents reliable, secure, and safe for production. Its Console API and CLI span four products across the agent lifecycle: Diamond (pre-deploy…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 56.5
   shared: 3
@@ -179,23 +179,23 @@ providers:
 - slug: patronus-protect
   name: Patronus Protect
   description: Patronus Protect, from Casdo Labs GmbH, is an on-device AI firewall that detects prompt injection, PII/DLP, sensitive documents and agentic tool risk in text, public HTTPS webpages, documents and MCP servers before they are used by AI agen…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 51.7
+  score_composite: 51.2
   shared: 2
 - slug: trustboost-dev
   name: TrustBoost PII Sanitizer
   description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 50.2
   shared: 2
 - slug: agentcheck-care
   name: AgentCheck
   description: 'AgentCheck is an AI-agent diagnostic service at agentcheck.care: give it the URL of a bot - an A2A agent or an OpenAI-compatible chat endpoint - and it runs synthetic-persona conversations, OWASP LLM Top 10 prompt-injection tests, PII-leak…'
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 41.6
+  score_composite: 41.1
   shared: 2
 - slug: promptfoo
   name: Promptfoo
@@ -203,13 +203,6 @@ providers:
   api_count: 6
   score_band: thin
   score_composite: 36.3
-  shared: 2
-- slug: lasso-security
-  name: Lasso Security
-  description: Lasso Security is a GenAI security platform that protects every LLM and AI agent touchpoint. Its Deputy gateway inspects LLM and MCP traffic in real time, and the Classify / Threat Detection API scores prompts and completions for prompt in…
-  api_count: 1
-  score_band: thin
-  score_composite: 27.3
   shared: 2
 - slug: impart-security
   name: Impart Security
@@ -231,6 +224,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 22.2
+  shared: 2
+- slug: lasso-security
+  name: Lasso Security
+  description: Lasso Security is a GenAI security platform that protects every LLM and AI agent touchpoint. Its Deputy gateway inspects LLM and MCP traffic in real time, and the Classify / Threat Detection API scores prompts and completions for prompt in…
+  api_count: 1
+  score_band: emerging
+  score_composite: 21.5
   shared: 2
 - slug: straiker
   name: Straiker

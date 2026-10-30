@@ -34,7 +34,7 @@ links:
   url: https://github.com/api-evangelist/banking-regulation/blob/main/vocabulary/banking-regulation-vocabulary.yaml
 - type: JSONLD
   url: https://github.com/api-evangelist/banking-regulation/blob/main/json-ld/banking-regulation-context.jsonld
-provider_count: 197
+provider_count: 200
 providers:
 - slug: thetaray
   name: ThetaRay
@@ -53,9 +53,9 @@ providers:
 - slug: idenfy
   name: iDenfy
   description: iDenfy is an identity verification platform providing KYC, KYB, and AML compliance solutions. The iDenfy API enables businesses to verify identities, check for fraud, and comply with regulatory requirements through automated document verif…
-  api_count: 28
+  api_count: 7
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 67.2
   shared: 4
 - slug: complyadvantage
   name: ComplyAdvantage
@@ -69,19 +69,19 @@ providers:
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 61.3
-  shared: 4
-- slug: dotfile
-  name: Dotfile
-  description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
-  api_count: 28
-  score_band: developing
-  score_composite: 51.2
+  score_composite: 62.7
   shared: 4
 - slug: signzy
   name: Signzy
   description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
   api_count: 1
+  score_band: developing
+  score_composite: 52.6
+  shared: 4
+- slug: dotfile
+  name: Dotfile
+  description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
+  api_count: 27
   score_band: developing
   score_composite: 51.2
   shared: 4
@@ -91,6 +91,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.7
+  shared: 4
+- slug: green-check-verified
+  name: Green Check Verified
+  description: Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.9
   shared: 4
 - slug: strise
   name: Strise
@@ -102,23 +109,16 @@ providers:
 - slug: sigma-ratings
   name: Sigma360
   description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 46.4
   shared: 4
 - slug: cable
   name: Cable
   description: Cable is an automated compliance and financial-crime assurance platform for banks, fintechs, and crypto companies. Based on transaction, customer, screening, risk-assessment, and onboarding data you send it, Cable continuously tests 100% o…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 43.4
-  shared: 4
-- slug: green-check-verified
-  name: Green Check Verified
-  description: Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.4
   shared: 4
 - slug: merkle-science
   name: Merkle Science
@@ -165,21 +165,21 @@ providers:
 - slug: uphold
   name: Uphold
   description: Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its…
-  api_count: 9
+  api_count: 5
   score_band: exemplar
-  score_composite: 79.2
+  score_composite: 79.6
   shared: 3
 - slug: ibanforge
   name: IBANforge
   description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.0
   shared: 3
 - slug: opensanctions
   name: OpenSanctions
   description: OpenSanctions is an open database of international sanctions, watchlists, criminal designations and politically exposed persons (PEPs), published as a screening API, bulk data downloads and MIT-licensed open-source software from Berlin. It…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 67.9
   shared: 3

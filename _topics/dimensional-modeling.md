@@ -19,7 +19,7 @@ providers:
 - slug: sigma-computing
   name: Sigma Computing
   description: Sigma Computing is a warehouse-first analytics and business-application platform. Instead of extracting data into its own store, Sigma queries the customer's cloud data warehouse live — Snowflake, Databricks, BigQuery, Redshift, Amazon Ath…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 72.4
   shared: 3
@@ -40,7 +40,7 @@ providers:
 - slug: textql
   name: TextQL
   description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gV…
-  api_count: 15
+  api_count: 8
   score_band: exemplar
   score_composite: 70.1
   shared: 2
@@ -61,7 +61,7 @@ providers:
 - slug: visier
   name: Visier
   description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering…
-  api_count: 13
+  api_count: 9
   score_band: strong
   score_composite: 65.0
   shared: 2
@@ -77,7 +77,7 @@ providers:
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.6
   shared: 2
 - slug: hex
   name: Hex
@@ -89,9 +89,9 @@ providers:
 - slug: aifordatabase
   name: AI for Database
   description: AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 60.8
+  score_composite: 60.3
   shared: 2
 - slug: omni
   name: Omni
@@ -140,7 +140,7 @@ providers:
   description: Collection of SAP Business Intelligence tools and APIs for analytics, reporting, and data visualization.
   api_count: 4
   score_band: developing
-  score_composite: 51.2
+  score_composite: 52.6
   shared: 2
 - slug: tellius
   name: Tellius
@@ -156,6 +156,13 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 2
+- slug: teradata
+  name: Teradata
+  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
+  shared: 2
 - slug: cube-dev
   name: Cube Dev
   description: Cube Dev provides an agentic analytics platform built on a semantic layer, delivering AI‑native business intelligence and embedded analytics. It offers a governed data model for both human users and AI agents, enabling natural‑language que…
@@ -169,13 +176,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.9
-  shared: 2
-- slug: teradata
-  name: Teradata
-  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.7
   shared: 2
 - slug: equals
   name: Equals
@@ -191,6 +191,13 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 2
+- slug: google-data-studio
+  name: Google Data Studio
+  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sourc…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.6
+  shared: 2
 - slug: looker
   name: Looker
   description: Looker is a business intelligence and data analytics platform that enables organizations to explore, analyze, and share real-time business analytics.
@@ -205,13 +212,6 @@ providers:
   score_band: developing
   score_composite: 48.1
   shared: 2
-- slug: google-data-studio
-  name: Google Data Studio
-  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sourc…
-  api_count: 2
-  score_band: developing
-  score_composite: 47.3
-  shared: 2
 - slug: pyramid-analytics
   name: Pyramid Analytics
   description: Pyramid Analytics is a decision intelligence software company whose platform unifies data preparation, business analytics and AI-assisted insight generation in a single environment, deployed either onto the customer's own infrastructure ("…
@@ -222,7 +222,7 @@ providers:
 - slug: minubo
   name: Minubo
   description: Minubo is a German business-intelligence platform for e-commerce and retail that integrates, models, and contextualizes commerce data — orders, products, customers, and suppliers — into AI Insights, Profit Management, reporting, and a supp…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 46.1
   shared: 2

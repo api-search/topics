@@ -70,7 +70,7 @@ links:
   url: https://github.com/api-evangelist/test-rate-limit-check/blob/main/json-ld/test-rate-limit-check-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/test-rate-limit-check/blob/main/vocabulary/test-rate-limit-check-vocabulary.yml
-provider_count: 107
+provider_count: 108
 providers:
 - slug: elva
   name: Elva
@@ -82,7 +82,7 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 3
@@ -96,7 +96,7 @@ providers:
 - slug: keploy
   name: Keploy
   description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.1
   shared: 3
@@ -135,19 +135,19 @@ providers:
   score_band: developing
   score_composite: 43.2
   shared: 3
+- slug: reqkey
+  name: ReqKey
+  description: 'ReqKey is out-of-band API key authentication, usage credits, rate limiting and request analytics as a service for teams that sell or expose an API. It never sits in front of customer traffic: your own middleware makes one call to POST /key…'
+  api_count: 1
+  score_band: developing
+  score_composite: 42.2
+  shared: 3
 - slug: apitoolkit
   name: APIToolkit (Monoscope)
   description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay…
   api_count: 1
   score_band: developing
   score_composite: 41.3
-  shared: 3
-- slug: reqkey
-  name: ReqKey
-  description: 'ReqKey is out-of-band API key authentication, usage credits, rate limiting and request analytics as a service for teams that sell or expose an API. It never sits in front of customer traffic: your own middleware makes one call to POST /key…'
-  api_count: 1
-  score_band: developing
-  score_composite: 40.8
   shared: 3
 - slug: rapidapi
   name: RapidAPI
@@ -159,7 +159,7 @@ providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 3
@@ -196,7 +196,7 @@ providers:
   description: Stellate is a GraphQL edge caching and API management platform that caches GraphQL query results at 60 data centers worldwide, reducing origin traffic by up to 95% and delivering responses in milliseconds. The platform provides edge cachin…
   api_count: 1
   score_band: emerging
-  score_composite: 23.1
+  score_composite: 24.4
   shared: 3
 - slug: muuktest
   name: Muuktest
@@ -222,14 +222,14 @@ providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 2
 - slug: tricentis
   name: Tricentis
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, To…
-  api_count: 9
+  api_count: 8
   score_band: exemplar
   score_composite: 68.6
   shared: 2
@@ -243,16 +243,16 @@ providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 2
 - slug: tempmailgrab
   name: TempMailGrab API
   description: Privacy-first disposable/temporary email service with private 24-hour inboxes, real-time WebSocket delivery, automatic OTP and verification-link extraction, attachments, webhooks, custom domains, and a versioned REST API for QA, test autom…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.2
   shared: 2
 - slug: scorecard
   name: Scorecard
@@ -264,9 +264,9 @@ providers:
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle E…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.3
   shared: 2
 - slug: artillery
   name: Artillery
@@ -280,6 +280,6 @@ providers:
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 56.0
   shared: 2
 ---

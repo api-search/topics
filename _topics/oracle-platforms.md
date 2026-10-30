@@ -132,7 +132,7 @@ links:
   url: https://developer.oracle.com/community/
 - type: GitHubOrganization
   url: https://github.com/oracle
-provider_count: 326
+provider_count: 360
 providers:
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
@@ -144,9 +144,9 @@ providers:
 - slug: microsoft-azure
   name: Microsoft Azure
   description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
-  api_count: 870
+  api_count: 697
   score_band: exemplar
-  score_composite: 75.2
+  score_composite: 76.5
   shared: 3
 - slug: ibm
   name: IBM
@@ -158,16 +158,16 @@ providers:
 - slug: crusoe
   name: Crusoe
   description: Crusoe is a vertically integrated "AI factory" company that designs, builds, and operates energy-first AI infrastructure, and sells it as Crusoe Cloud — a GPU cloud for training, fine-tuning, and inference. The public developer surface is…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 57.9
+  score_composite: 57.4
   shared: 3
 - slug: databricks
   name: Databricks
   description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.1
   shared: 3
 - slug: workday
   name: Workday
@@ -179,14 +179,14 @@ providers:
 - slug: ocient
   name: Ocient
   description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.1
   shared: 3
 - slug: tiledb
   name: TileDB
   description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 55.1
   shared: 3
@@ -195,14 +195,14 @@ providers:
   description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
   api_count: 1
   score_band: developing
-  score_composite: 49.7
+  score_composite: 50.5
   shared: 3
 - slug: tibco
   name: TIBCO
   description: APIs and services provided by TIBCO Software Inc., a global leader in integration, API management, and analytics software.
   api_count: 4
   score_band: developing
-  score_composite: 43.5
+  score_composite: 43.7
   shared: 3
 - slug: smartmind
   name: SmartMind
@@ -211,19 +211,19 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 3
-- slug: clientsuccess
-  name: ClientSuccess
-  description: ClientSuccess provides a comprehensive customer success platform that helps businesses reduce churn, increase revenue, and deliver world‑class customer experiences. The SaaS solution combines AI‑driven insights, automation, and a unified p…
-  api_count: 0
-  score_band: thin
-  score_composite: 29.6
-  shared: 3
 - slug: aible
   name: Aible
   description: Aible is an enterprise AI company founded in 2018 and headquartered in Pleasanton, California, that lets business users build and run AI agents, AutoML models and generative-AI analytics against data that stays inside the customer's own AW…
   api_count: 1
   score_band: thin
-  score_composite: 29.1
+  score_composite: 31.2
+  shared: 3
+- slug: clientsuccess
+  name: ClientSuccess
+  description: ClientSuccess provides a comprehensive customer success platform that helps businesses reduce churn, increase revenue, and deliver world‑class customer experiences. The SaaS solution combines AI‑driven insights, automation, and a unified p…
+  api_count: 0
+  score_band: thin
+  score_composite: 31.0
   shared: 3
 - slug: sqream-technologies
   name: SQream Technologies
@@ -252,6 +252,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.1
+  shared: 3
+- slug: syncler
+  name: Sellmore
+  description: Sellmore provides integration software for data synchronization, enabling businesses to connect and automate their systems across platforms. The solution offers process automation, data quality management, and a unified interface for manag…
+  api_count: 0
+  score_band: emerging
+  score_composite: 15.6
   shared: 3
 - slug: abinitio
   name: Ab Initio
@@ -312,9 +319,9 @@ providers:
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching,…
-  api_count: 19
+  api_count: 10
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 76.9
   shared: 2
 - slug: outsystems
   name: OutSystems
@@ -328,7 +335,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 2
 - slug: google-analytics
   name: Google Analytics
@@ -336,12 +343,5 @@ providers:
   api_count: 6
   score_band: exemplar
   score_composite: 72.1
-  shared: 2
-- slug: clickhouse
-  name: ClickHouse
-  description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 72.0
   shared: 2
 ---

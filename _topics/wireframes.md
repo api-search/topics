@@ -151,7 +151,7 @@ providers:
   description: Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) sup…
   api_count: 1
   score_band: emerging
-  score_composite: 15.7
+  score_composite: 17.1
   shared: 2
 - slug: avocode
   name: Avocode

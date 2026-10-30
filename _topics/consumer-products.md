@@ -122,16 +122,16 @@ providers:
 - slug: 1worldsync
   name: 1WorldSync
   description: 1WorldSync is the leading product content network and a GS1-certified GDSN data pool, helping consumer goods brands, manufacturers, and retailers create, manage, syndicate, and verify trusted product content across the digital shelf and th…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 50.3
   shared: 3
 - slug: powerreviews
   name: PowerReviews
   description: PowerReviews provides ratings and reviews software and APIs for collecting, syndicating, and displaying user-generated reviews, questions, and answers so shoppers can make better purchase decisions and retailers and brands can drive e-comm…
-  api_count: 6
+  api_count: 2
   score_band: developing
-  score_composite: 46.0
+  score_composite: 45.5
   shared: 3
 - slug: alkemics
   name: Alkemics
@@ -145,7 +145,7 @@ providers:
   description: Akeneo is a Product Information Management (PIM) platform that centralizes, enriches, and distributes product data across digital commerce channels, enabling brands, retailers, and manufacturers to deliver consistent product experiences. T…
   api_count: 1
   score_band: thin
-  score_composite: 33.5
+  score_composite: 37.6
   shared: 3
 - slug: colgate-palmolive
   name: Colgate-Palmolive
@@ -178,14 +178,14 @@ providers:
 - slug: open-food-facts
   name: Open Food Facts
   description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Da…
-  api_count: 11
+  api_count: 8
   score_band: strong
   score_composite: 64.5
   shared: 2
 - slug: bazaarvoice
   name: Bazaarvoice
   description: Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of br…
-  api_count: 23
+  api_count: 12
   score_band: strong
   score_composite: 62.8
   shared: 2
@@ -199,28 +199,28 @@ providers:
 - slug: back-market
   name: Back Market
   description: Back Market is a French-founded global online marketplace dedicated exclusively to refurbished consumer electronics — smartphones, laptops, tablets, consoles, watches, audio and home appliances — operating across 17 countries on three regi…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 50.2
   shared: 2
 - slug: channable
   name: Channable
   description: Channable is a feed management and marketplace integration platform that helps online retailers, brands, and agencies optimize, distribute, and advertise their product data across more than 2,500 marketing channels, price comparison sites,…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 49.5
   shared: 2
 - slug: smarter-sorting
   name: Smarter Sorting
   description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. I…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 46.3
   shared: 2
 - slug: treez
   name: Treez
   description: Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its publ…
-  api_count: 13
+  api_count: 7
   score_band: developing
   score_composite: 44.7
   shared: 2
@@ -238,10 +238,17 @@ providers:
   score_band: developing
   score_composite: 40.1
   shared: 2
+- slug: trax
+  name: Trax
+  description: Trax (Trax Retail) is a cloud-based retail intelligence platform that uses computer vision and image recognition to turn shelf photographs into real-time, actionable in-store insights for consumer packaged goods (CPG) brands and retailers.…
+  api_count: 2
+  score_band: developing
+  score_composite: 39.3
+  shared: 2
 - slug: fabric-com
   name: fabric
   description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appe…
-  api_count: 20
+  api_count: 16
   score_band: thin
   score_composite: 39.0
   shared: 2
@@ -294,6 +301,13 @@ providers:
   score_band: thin
   score_composite: 34.2
   shared: 2
+- slug: ikea
+  name: IKEA
+  description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
+  api_count: 4
+  score_band: thin
+  score_composite: 34.1
+  shared: 2
 - slug: beekeepers-naturals
   name: Beekeeper's Naturals
   description: Beekeeper's Naturals is a direct-to-consumer bee-derived wellness and supplement brand founded in 2017 by Carly Stein Kremer, selling propolis throat sprays, B.LXR royal-jelly brain fuel, superfood honey, bee pollen and kids' immunity prod…
@@ -304,22 +318,8 @@ providers:
 - slug: bybe
   name: BYBE
   description: BYBE, Inc. is a promotion platform for the beer, wine, and spirits industry, connecting alcohol beverage brands, retailers, and consumers through digital cash-back rebates. Brands fund offers in the BYBE dashboard; retailers embed those of…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 33.3
-  shared: 2
-- slug: circana
-  name: Circana
-  description: Circana (formerly IRI and The NPD Group) is the leading advisor on the complexity of consumer behavior, providing data-driven insights, analytics, and technology solutions that help almost 7,000 brands and retailers understand and predict…
-  api_count: 20
-  score_band: thin
-  score_composite: 32.8
-  shared: 2
-- slug: ikea
-  name: IKEA
-  description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
-  api_count: 4
-  score_band: thin
-  score_composite: 32.8
   shared: 2
 ---

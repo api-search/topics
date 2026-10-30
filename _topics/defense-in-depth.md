@@ -30,7 +30,7 @@ links:
   url: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
 - type: Reference
   url: https://www.nist.gov/cyberframework
-provider_count: 197
+provider_count: 199
 providers:
 - slug: zero-networks
   name: Zero Networks
@@ -44,14 +44,14 @@ providers:
   description: The Zero Trust security model is a strategic cybersecurity approach that eliminates implicit trust and requires continuous verification of every user, device, workload, and request attempting to access resources, regardless of network loca…
   api_count: 5
   score_band: emerging
-  score_composite: 23.8
+  score_composite: 25.2
   shared: 4
 - slug: zero-trust-architecture
   name: Zero Trust Architecture
   description: Zero Trust Architecture (ZTA) is a security framework defined by NIST SP 800-207 that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardle…
   api_count: 5
   score_band: emerging
-  score_composite: 21.7
+  score_composite: 23.1
   shared: 4
 - slug: sonicwall
   name: SonicWall
@@ -72,7 +72,7 @@ providers:
   description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
   api_count: 1
   score_band: strong
-  score_composite: 57.0
+  score_composite: 58.4
   shared: 3
 - slug: nord-security
   name: Nord Security
@@ -86,7 +86,7 @@ providers:
   description: Kolide is a device trust and endpoint security platform, now part of 1Password Extended Access Management. It enforces Zero Trust access by blocking non-compliant devices from authenticating into corporate applications through Okta, Google…
   api_count: 2
   score_band: strong
-  score_composite: 56.3
+  score_composite: 56.5
   shared: 3
 - slug: threatlocker
   name: ThreatLocker
@@ -121,19 +121,19 @@ providers:
   description: WatchGuard provides cloud-managed network and endpoint security solutions including Firebox next-generation firewalls, WatchGuard Endpoint Security (WES), AuthPoint multi-factor authentication, and WatchGuard Wi-Fi. WatchGuard Cloud is the…
   api_count: 2
   score_band: thin
+  score_composite: 37.4
+  shared: 3
+- slug: zero-trust-network-access
+  name: Zero Trust Network Access
+  description: Zero Trust Network Access (ZTNA) is a security framework and product category that grants access to private applications and resources based on identity, device posture, and context, rather than network location. ZTNA replaces the implicit…
+  api_count: 1
+  score_band: thin
   score_composite: 35.8
   shared: 3
 - slug: checkpoint
   name: Check Point
   description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud, endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families. Check Point exposes a wide range of REST APIs…
   api_count: 5
-  score_band: thin
-  score_composite: 34.4
-  shared: 3
-- slug: zero-trust-network-access
-  name: Zero Trust Network Access
-  description: Zero Trust Network Access (ZTNA) is a security framework and product category that grants access to private applications and resources based on identity, device posture, and context, rather than network location. ZTNA replaces the implicit…
-  api_count: 1
   score_band: thin
   score_composite: 34.4
   shared: 3
@@ -186,19 +186,19 @@ providers:
   score_band: emerging
   score_composite: 24.1
   shared: 3
+- slug: unisys
+  name: Unisys
+  description: Unisys is a global information technology company that provides specialized solutions integrated with leading-edge security. Unisys delivers digital workplace services, cloud and infrastructure services, and enterprise computing solutions…
+  api_count: 4
+  score_band: emerging
+  score_composite: 23.8
+  shared: 3
 - slug: forescout
   name: Forescout
   description: Forescout Technologies is a cybersecurity company specializing in automated cybersecurity for device visibility, control, and compliance across IT, OT/ICS, IoT, and IoMT environments. The Forescout Platform (eyeSight, eyeControl, eyeInspec…
   api_count: 3
   score_band: emerging
   score_composite: 23.6
-  shared: 3
-- slug: unisys
-  name: Unisys
-  description: Unisys is a global information technology company that provides specialized solutions integrated with leading-edge security. Unisys delivers digital workplace services, cloud and infrastructure services, and enterprise computing solutions…
-  api_count: 4
-  score_band: emerging
-  score_composite: 22.4
   shared: 3
 - slug: qi-anxin
   name: Qi Anxin
@@ -212,7 +212,7 @@ providers:
   description: Elpha Secure is a New York-based cyber insurance managing general agent (MGA) for small and midsize businesses that bundles a first-party cybersecurity software agent with the insurance policy itself. The Elpha Agent ships endpoint detecti…
   api_count: 0
   score_band: emerging
-  score_composite: 17.3
+  score_composite: 18.7
   shared: 3
 - slug: attivo-networks-sentinelone
   name: Attivo Networks (SentinelOne)

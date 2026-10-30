@@ -109,28 +109,28 @@ links:
   url: https://github.com/api-evangelist/zero-trust/blob/main/examples/zero-trust-access-decision-example.json
 - type: Resources
   url: https://github.com/api-evangelist/zero-trust/blob/main/vocabulary/zero-trust-vocabulary.yaml
-provider_count: 420
+provider_count: 423
 providers:
 - slug: zero-trust-network-access
   name: Zero Trust Network Access
   description: Zero Trust Network Access (ZTNA) is a security framework and product category that grants access to private applications and resources based on identity, device posture, and context, rather than network location. ZTNA replaces the implicit…
   api_count: 1
   score_band: thin
-  score_composite: 34.4
+  score_composite: 35.8
   shared: 7
 - slug: zero-trust-security-model
   name: Zero-Trust Security Model
   description: The Zero Trust security model is a strategic cybersecurity approach that eliminates implicit trust and requires continuous verification of every user, device, workload, and request attempting to access resources, regardless of network loca…
   api_count: 5
   score_band: emerging
-  score_composite: 23.8
+  score_composite: 25.2
   shared: 7
 - slug: zero-trust-architecture
   name: Zero Trust Architecture
   description: Zero Trust Architecture (ZTA) is a security framework defined by NIST SP 800-207 that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardle…
   api_count: 5
   score_band: emerging
-  score_composite: 21.7
+  score_composite: 23.1
   shared: 6
 - slug: iboss
   name: iboss
@@ -151,7 +151,7 @@ providers:
   description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
   api_count: 1
   score_band: strong
-  score_composite: 57.0
+  score_composite: 58.4
   shared: 4
 - slug: zero-networks
   name: Zero Networks
@@ -214,7 +214,7 @@ providers:
   description: Unisys is a global information technology company that provides specialized solutions integrated with leading-edge security. Unisys delivers digital workplace services, cloud and infrastructure services, and enterprise computing solutions…
   api_count: 4
   score_band: emerging
-  score_composite: 22.4
+  score_composite: 23.8
   shared: 4
 - slug: venice
   name: Venice
@@ -310,7 +310,7 @@ providers:
 - slug: cisco-secure-firewall
   name: Cisco Secure Firewall
   description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
-  api_count: 18
+  api_count: 14
   score_band: strong
   score_composite: 57.0
   shared: 3

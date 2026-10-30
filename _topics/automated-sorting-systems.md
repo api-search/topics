@@ -97,7 +97,7 @@ links:
   url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/llms/automated-sorting-systems-llms.txt
 - type: AgentSkill
   url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/skills/_index.yml
-provider_count: 84
+provider_count: 86
 providers:
 - slug: tutor-intelligence
   name: Tutor Intelligence
@@ -188,7 +188,7 @@ providers:
   description: Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace…
   api_count: 1
   score_band: strong
-  score_composite: 59.0
+  score_composite: 59.1
   shared: 2
 - slug: veho
   name: Veho
@@ -209,7 +209,7 @@ providers:
   description: Karrio is an open-source, headless multi-carrier shipping platform for developers and logistics teams. Its unified REST API and GraphQL management API abstract more than thirty carrier integrations behind one resource-oriented interface co…
   api_count: 1
   score_band: developing
-  score_composite: 52.3
+  score_composite: 52.2
   shared: 2
 - slug: nabis
   name: Nabis
@@ -221,7 +221,7 @@ providers:
 - slug: packagex
   name: PackageX
   description: PackageX provides vision-AI powered logistics execution — software that turns any camera or device into an intelligent scanning agent to automate receiving, inventory management, fulfillment and dispatch across warehouses, retail and build…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 47.6
   shared: 2
@@ -256,9 +256,9 @@ providers:
 - slug: loadsmart
   name: Loadsmart
   description: Loadsmart is a digital freight technology company and 4PL that connects shippers, carriers, warehouses, and dock operations on a single platform. Founded in 2014 by Felipe Capella and Ricardo Salgado and headquartered in Chicago (with sign…
-  api_count: 3
+  api_count: 2
   score_band: thin
-  score_composite: 35.3
+  score_composite: 34.8
   shared: 2
 - slug: usps
   name: United States Postal Service
@@ -281,6 +281,13 @@ providers:
   score_band: thin
   score_composite: 30.6
   shared: 2
+- slug: spark-shipping
+  name: Spark Shipping
+  description: Spark Shipping provides an eCommerce dropshipping automation platform that enables merchants to import products with one click, synchronize inventory across multiple vendors, automate pricing, route orders intelligently, and receive tracki…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.9
+  shared: 2
 - slug: parcelsapp
   name: Parcels App
   description: Parcels App (parcelsapp.com) is a universal parcel tracking service that tracks packages, air cargo (AWB), road freight (LTL/FTL), and sea freight across 1,540 postal operators, couriers, and logistics carriers worldwide - USPS, UPS, FedEx…
@@ -301,12 +308,5 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 19.7
-  shared: 2
-- slug: american-tire-distributors-holdings
-  name: American Tire Distributors Holdings
-  description: American Tire Distributors (ATD) is one of the largest independent suppliers of replacement tires in North America, distributing passenger, light truck, medium truck, and specialty tires from more than 110 distribution centers. ATD deliver…
-  api_count: 0
-  score_band: emerging
-  score_composite: 19.5
   shared: 2
 ---

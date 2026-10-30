@@ -79,7 +79,7 @@ links:
   url: https://github.com/api-evangelist/fda-regulations/blob/main/mcp/fda-regulations-mcp.yml
 - type: X-WellKnownProbe
   url: https://github.com/api-evangelist/fda-regulations/blob/main/well-known/fda-regulations-well-known.yml
-provider_count: 610
+provider_count: 614
 providers:
 - slug: food-and-drug-administration
   name: Food and Drug Administration
@@ -168,9 +168,9 @@ providers:
 - slug: autoderm-ai-dermatology-api
   name: Autoderm – AI Dermatology API
   description: Autoderm is a white-label REST API for AI-assisted analysis of dermatological images, operated as a regulated medical device. A client POSTs a single skin photograph as multipart/form-data and receives the top five most probable conditions…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 61.1
+  score_composite: 60.5
   shared: 2
 - slug: tracelink
   name: TraceLink
@@ -182,7 +182,7 @@ providers:
 - slug: cancer-gov
   name: Cancer.gov
   description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
-  api_count: 19
+  api_count: 17
   score_band: developing
   score_composite: 48.9
   shared: 2
@@ -191,7 +191,7 @@ providers:
   description: Athelas (Commure d/b/a Athelas) is a healthcare technology company building AI-powered infrastructure for provider organizations, spanning remote patient monitoring (RPM), an AI-native EHR ("Air"), ambient AI scribing, and revenue cycle ma…
   api_count: 1
   score_band: developing
-  score_composite: 47.5
+  score_composite: 47.7
   shared: 2
 - slug: cms-gov
   name: CMS — Centers for Medicare & Medicaid Services
@@ -203,9 +203,9 @@ providers:
 - slug: va-gov
   name: Department of Veterans Affairs (VA Lighthouse)
   description: VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake…
-  api_count: 24
+  api_count: 22
   score_band: developing
-  score_composite: 40.5
+  score_composite: 41.8
   shared: 2
 - slug: rhizome-ai
   name: Rhizome Ai
@@ -252,7 +252,7 @@ providers:
 - slug: mytomorrows
   name: myTomorrows
   description: myTomorrows is a healthcare technology platform that helps patients and healthcare professionals discover and access clinical trials and expanded-access (pre-approval) treatment options, and helps biopharma companies run and manage expande…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 34.9
   shared: 2
@@ -260,13 +260,6 @@ providers:
   name: Ketryx
   description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation,…
   api_count: 1
-  score_band: thin
-  score_composite: 33.7
-  shared: 2
-- slug: xrhealth
-  name: XRHealth
-  description: XRHealth is an extended-reality (XR) therapeutics and virtual-clinic company, founded in 2016 with offices in Boston, Massachusetts and Tel Aviv, Israel, that delivers FDA-registered and CE-marked virtual and augmented reality treatment fo…
-  api_count: 4
   score_band: thin
   score_composite: 33.7
   shared: 2
@@ -283,5 +276,19 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.2
+  shared: 2
+- slug: xrhealth
+  name: XRHealth
+  description: XRHealth is an extended-reality (XR) therapeutics and virtual-clinic company, founded in 2016 with offices in Boston, Massachusetts and Tel Aviv, Israel, that delivers FDA-registered and CE-marked virtual and augmented reality treatment fo…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.2
+  shared: 2
+- slug: usda
+  name: USDA
+  description: The US Department of Agriculture provides a suite of free public REST APIs covering agricultural statistics, food and nutrition data, market news, food safety inspection records, crop and vegetation monitoring, and geospatial services. API…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.4
   shared: 2
 ---

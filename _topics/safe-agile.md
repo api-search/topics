@@ -56,7 +56,7 @@ links:
   url: https://github.com/api-evangelist/safe-agile/blob/main/json-ld/safe-agile-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/safe-agile/blob/main/vocabulary/safe-agile-vocabulary.yml
-provider_count: 34
+provider_count: 36
 providers:
 - slug: scaled-agile
   name: Scaled Agile
@@ -89,7 +89,7 @@ providers:
 - slug: jira
   name: Jira
   description: APIs for Atlassian Jira project management and issue tracking platform.
-  api_count: 5
+  api_count: 4
   score_band: exemplar
   score_composite: 75.3
   shared: 2
@@ -100,13 +100,6 @@ providers:
   score_band: strong
   score_composite: 66.4
   shared: 2
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
-  api_count: 8
-  score_band: strong
-  score_composite: 65.3
-  shared: 2
 - slug: red-hat-ansible-automation-platform
   name: Red Hat Ansible Automation Platform
   description: Red Hat Ansible Automation Platform is an enterprise automation solution that provides a framework for building and operating IT automation at scale. It includes the Automation Controller, Automation Hub, Event-Driven Ansible, and Ansible…
@@ -114,19 +107,40 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 2
+- slug: taskfolk
+  name: Taskfolk
+  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.8
+  shared: 2
 - slug: leankit
   name: LeanKit
   description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hier…
   api_count: 2
   score_band: strong
-  score_composite: 61.4
+  score_composite: 62.8
   shared: 2
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.2
+  shared: 2
+- slug: planka
+  name: PLANKA
+  description: PLANKA is a self‑hosted Kanban board solution for agile teams, offering on‑premise project management with privacy‑focused data control. The software provides a web‑based interface for creating boards, cards, and workflows, supporting mult…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.3
+  shared: 2
+- slug: amazon-codestar
+  name: Amazon CodeStar
+  description: AWS CodeStar provides a unified user interface enabling you to easily manage your software development activities in one place. With AWS CodeStar, you can set up your entire continuous delivery toolchain in minutes, allowing you to create…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.7
   shared: 2
 - slug: axiom-zen
   name: ZenHub
@@ -149,13 +163,6 @@ providers:
   score_band: developing
   score_composite: 46.8
   shared: 2
-- slug: amazon-codestar
-  name: Amazon CodeStar
-  description: AWS CodeStar provides a unified user interface enabling you to easily manage your software development activities in one place. With AWS CodeStar, you can set up your entire continuous delivery toolchain in minutes, allowing you to create…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.5
-  shared: 2
 - slug: oracle-fusion
   name: Oracle Fusion Cloud Applications
   description: Oracle Fusion Cloud Applications represent a comprehensive suite of cloud-based enterprise resource planning (ERP), human capital management (HCM), customer experience (CX), supply chain management (SCM), and enterprise performance managem…
@@ -174,15 +181,15 @@ providers:
   name: OpenProject
   description: OpenProject is an open source project management platform offering work package tracking, Gantt charts, agile boards, time tracking, BIM, and enterprise project portfolio management. The OpenProject APIv3 is a hypermedia (HAL+JSON) REST AP…
   api_count: 1
-  score_band: thin
-  score_composite: 39.1
+  score_band: developing
+  score_composite: 40.5
   shared: 2
 - slug: spring
   name: Spring Framework
   description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, mes…
   api_count: 3
-  score_band: thin
-  score_composite: 38.7
+  score_band: developing
+  score_composite: 40.0
   shared: 2
 - slug: ubuntu
   name: Ubuntu
@@ -191,19 +198,26 @@ providers:
   score_band: thin
   score_composite: 32.8
   shared: 2
-- slug: assembla
-  name: Assembla
-  description: Assembla provides managed cloud hosting for Perforce, Subversion (SVN) and Git repositories, along with integrated project management tools. Their platform offers enterprise‑grade security, SOC 2 Type II compliance, GDPR adherence, and AI‑…
+- slug: opshub
+  name: OpsHub
+  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data…
   api_count: 1
   score_band: thin
-  score_composite: 30.3
+  score_composite: 32.6
   shared: 2
 - slug: puppet
   name: Puppet
   description: Puppet provides infrastructure automation and configuration management for hybrid and cloud environments. Puppet Enterprise exposes a collection of service APIs (Orchestrator, RBAC, Node Classifier, Code Manager, Activity, Status, Inventor…
   api_count: 1
   score_band: thin
-  score_composite: 29.8
+  score_composite: 31.1
+  shared: 2
+- slug: assembla
+  name: Assembla
+  description: Assembla provides managed cloud hosting for Perforce, Subversion (SVN) and Git repositories, along with integrated project management tools. Their platform offers enterprise‑grade security, SOC 2 Type II compliance, GDPR adherence, and AI‑…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.3
   shared: 2
 - slug: kanban
   name: Kanban Tool
@@ -226,19 +240,19 @@ providers:
   score_band: emerging
   score_composite: 26.0
   shared: 2
+- slug: software-development-lifecycle
+  name: Software Development Lifecycle
+  description: The Software Development Lifecycle (SDLC) encompasses all processes, tools, and methodologies involved in planning, developing, testing, and delivering software from inception to retirement. Modern SDLC platforms integrate project planning…
+  api_count: 7
+  score_band: emerging
+  score_composite: 24.1
+  shared: 2
 - slug: tintri
   name: Tintri
   description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC…'
   api_count: 1
   score_band: emerging
   score_composite: 23.6
-  shared: 2
-- slug: software-development-lifecycle
-  name: Software Development Lifecycle
-  description: The Software Development Lifecycle (SDLC) encompasses all processes, tools, and methodologies involved in planning, developing, testing, and delivering software from inception to retirement. Modern SDLC platforms integrate project planning…
-  api_count: 7
-  score_band: emerging
-  score_composite: 22.7
   shared: 2
 - slug: kagent
   name: kagent
@@ -253,19 +267,5 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.6
-  shared: 2
-- slug: apiiroltd
-  name: Apiiroltd
-  description: Apiiroltd, operating as Apiiro, provides an AI‑driven application security platform that secures the entire software development lifecycle. Their solution offers continuous code analysis, runtime protection, and automated remediation for v…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.4
-  shared: 2
-- slug: taiga
-  name: Taiga
-  description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.4
   shared: 2
 ---

@@ -108,19 +108,19 @@ links:
   url: https://privacy.ca.gov/drop-for-data-brokers/technical-specifications/api-operations/
 - type: GettingStarted
   url: https://privacy.ca.gov/drop-for-data-brokers/technical-specifications/getting-started/
-provider_count: 111
+provider_count: 113
 providers:
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 53.6
+  score_composite: 53.1
   shared: 4
 - slug: vaquill-ai
   name: Vaquill AI
   description: 'Vaquill AI is US primary law data infrastructure: a credit-metered Legal Data API over the US Code, the CFR, every state and territory statutory code, regulations, constitutions, court rules, session laws, agency guidance and executive ord…'
-  api_count: 6
+  api_count: 3
   score_band: exemplar
   score_composite: 71.6
   shared: 3
@@ -129,19 +129,19 @@ providers:
   description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen…
   api_count: 1
   score_band: strong
-  score_composite: 55.5
+  score_composite: 56.3
   shared: 3
 - slug: trustboost-dev
   name: TrustBoost PII Sanitizer
   description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 50.2
   shared: 3
 - slug: i6eal-open-ai-data-api
   name: i6eal Open AI Data API
   description: A free, no-authentication open-data REST API from i6eal (a German AI studio operated by Syka Ventures UG) exposing 16 AI-related datasets and monitors for Germany and the EU as static JSON/CSV/JSON-LD/Atom files served over HTTPS from Clou…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 42.7
   shared: 3
@@ -155,7 +155,7 @@ providers:
 - slug: openlaws
   name: OpenLaws
   description: OpenLaws is a Public Benefit Corporation that provides programmatic access to U.S. law text — federal and state statutes, regulations, constitutions, and case law — through a unified Legal Data API. The platform exposes keyword and citatio…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 31.4
   shared: 3
@@ -190,7 +190,7 @@ providers:
 - slug: altr
   name: ALTR
   description: ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines autom…
-  api_count: 42
+  api_count: 21
   score_band: strong
   score_composite: 59.3
   shared: 2
@@ -199,28 +199,35 @@ providers:
   description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
   api_count: 2
   score_band: strong
-  score_composite: 57.8
+  score_composite: 59.2
   shared: 2
 - slug: california-privacy-protection-agency
   name: California Privacy Protection Agency
   description: The California Privacy Protection Agency (CPPA, branded CalPrivacy) is the state regulator that administers and enforces the California Consumer Privacy Act and the Delete Act. Under the Delete Act it operates DROP, the Delete Request and…
   api_count: 1
   score_band: strong
-  score_composite: 54.9
+  score_composite: 56.3
   shared: 2
-- slug: osano
-  name: Osano
-  description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
-  api_count: 4
+- slug: thomson-reuters
+  name: Thomson Reuters
+  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
+  api_count: 134
   score_band: strong
-  score_composite: 54.5
+  score_composite: 55.5
   shared: 2
 - slug: immuta
   name: Immuta
   description: Immuta is a data security and access-governance platform that lets organizations register their cloud data platforms — Snowflake, Databricks (Unity Catalog, Lakebase, Spark), Amazon Redshift and Redshift Spectrum, Amazon S3, AWS Lake Forma…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 54.3
+  shared: 2
+- slug: osano
+  name: Osano
+  description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.9
   shared: 2
 - slug: singlefile
   name: SingleFile
@@ -229,19 +236,19 @@ providers:
   score_band: developing
   score_composite: 52.6
   shared: 2
+- slug: bigid
+  name: BigID
+  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data &…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.0
+  shared: 2
 - slug: certifaction
   name: Certifaction
   description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their…'
   api_count: 2
   score_band: developing
   score_composite: 51.6
-  shared: 2
-- slug: bigid
-  name: BigID
-  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data &…
-  api_count: 3
-  score_band: developing
-  score_composite: 50.7
   shared: 2
 - slug: mine
   name: MINE
@@ -250,19 +257,19 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 2
+- slug: inth
+  name: Inth
+  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.6
+  shared: 2
 - slug: nabis
   name: Nabis
   description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace…
   api_count: 3
   score_band: developing
   score_composite: 50.0
-  shared: 2
-- slug: inth
-  name: Inth
-  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
   shared: 2
 - slug: confido-legal
   name: Confido Legal
@@ -276,19 +283,19 @@ providers:
   description: Mitratech is an Austin, Texas based enterprise software company supplying legal operations, governance, risk and compliance, and HR compliance software to corporate legal departments, compliance teams and human resources organizations. Its…
   api_count: 2
   score_band: developing
-  score_composite: 45.5
+  score_composite: 46.9
+  shared: 2
+- slug: relativity
+  name: Relativity
+  description: Relativity is an eDiscovery and legal review platform offering RelativityOne, a cloud-based SaaS solution for managing the full legal data lifecycle. Its REST API enables programmatic access to workspaces, document import and export, proce…
+  api_count: 32
+  score_band: developing
+  score_composite: 46.5
   shared: 2
 - slug: luminance
   name: Luminance
   description: Luminance Technologies Ltd. is a UK-headquartered legal-AI company, founded in 2015 out of Cambridge mathematics research, that builds what it markets as Legal-Grade AI for the full contract lifecycle — drafting, negotiation, analysis, com…
   api_count: 3
-  score_band: developing
-  score_composite: 45.1
-  shared: 2
-- slug: relativity
-  name: Relativity
-  description: Relativity is an eDiscovery and legal review platform offering RelativityOne, a cloud-based SaaS solution for managing the full legal data lifecycle. Its REST API enables programmatic access to workspaces, document import and export, proce…
-  api_count: 42
   score_band: developing
   score_composite: 45.1
   shared: 2
@@ -304,20 +311,13 @@ providers:
   description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, cons…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 44.3
   shared: 2
-- slug: k-id
-  name: k-ID
-  description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes li…
+- slug: spin-ai
+  name: Spin.AI
+  description: Spin.AI is a SaaS security platform providing data protection, ransomware detection, and compliance management for cloud applications including Google Workspace, Microsoft 365, Salesforce, and Slack. The SpinOne Public API enables programm…
   api_count: 1
   score_band: developing
   score_composite: 43.9
-  shared: 2
-- slug: workday-security
-  name: Workday Security
-  description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
-  api_count: 4
-  score_band: developing
-  score_composite: 42.6
   shared: 2
 ---

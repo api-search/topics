@@ -66,12 +66,12 @@ links:
   url: https://github.com/OfficeDev
 - type: Integrations
   url: https://www.microsoft.com/en-us/marketplace
-provider_count: 20
+provider_count: 21
 providers:
 - slug: fundamental-research-labs
   name: Fundamental Research Labs
   description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowi…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.6
   shared: 4
@@ -80,21 +80,21 @@ providers:
   description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
   api_count: 11
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.9
   shared: 4
 - slug: microsoft-excel-advanced
   name: Microsoft Excel (Advanced)
   description: Advanced automation and integration APIs for Microsoft Excel, enabling programmatic access to spreadsheet data, formulas, charts, and automation capabilities through Microsoft Graph, Office Scripts, JavaScript add-ins, custom functions, On…
   api_count: 1
   score_band: developing
-  score_composite: 39.4
+  score_composite: 40.8
   shared: 4
 - slug: microsoft-excel-macros
   name: Microsoft Excel Macros
   description: A collection of APIs and resources for working with Microsoft Excel Macros, VBA automation, and Excel extensibility including the Office JavaScript API and COM automation.
   api_count: 3
-  score_band: emerging
-  score_composite: 26.1
+  score_band: thin
+  score_composite: 27.4
   shared: 4
 - slug: rows
   name: Rows
@@ -113,7 +113,7 @@ providers:
 - slug: sigma-computing
   name: Sigma Computing
   description: Sigma Computing is a warehouse-first analytics and business-application platform. Instead of extracting data into its own store, Sigma queries the customer's cloud data warehouse live — Snowflake, Databricks, BigQuery, Redshift, Amazon Ath…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 72.4
   shared: 2
@@ -134,7 +134,7 @@ providers:
 - slug: datarails
   name: Datarails
   description: Datarails is an Excel-native financial planning and analysis (FP&A) platform for the office of the CFO, marketed as FinanceOS. It consolidates data from ERP, CRM, HRIS, billing and operational systems into a single finance data model, then…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.3
   shared: 2
@@ -143,19 +143,19 @@ providers:
   description: AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly acc…
   api_count: 1
   score_band: developing
+  score_composite: 52.0
+  shared: 2
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automat…
+  api_count: 10
+  score_band: developing
   score_composite: 50.7
   shared: 2
 - slug: equals
   name: Equals
   description: Equals is an AI analytics platform that builds trusted spreadsheets and dashboards for revenue operations and go-to-market teams. It connects directly to databases and SaaS tools — PostgreSQL, MySQL, BigQuery, Snowflake, Redshift, Azure SQ…
   api_count: 1
-  score_band: developing
-  score_composite: 49.3
-  shared: 2
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automat…
-  api_count: 10
   score_band: developing
   score_composite: 49.3
   shared: 2
@@ -173,6 +173,13 @@ providers:
   score_band: thin
   score_composite: 31.7
   shared: 2
+- slug: yuma-ai
+  name: Yuma AI
+  description: Yuma AI provides AI-powered solutions for businesses, offering tools for data analysis, automation, and decision support. The company focuses on integrating advanced machine learning models into enterprise workflows, enabling scalable insi…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.2
+  shared: 2
 - slug: savant-labs
   name: Savant Labs
   description: Savant Labs is an agentic AI platform for business analytics, finance, and data automation. It turns AI conversations into governed, audit-ready agents that automate regulated finance workflows such as month-end close, reconciliations, tax…
@@ -185,7 +192,7 @@ providers:
   description: Excel Macros refer to automated sequences of actions in Microsoft Excel, primarily written using VBA (Visual Basic for Applications). Excel also supports Office Scripts (TypeScript) for cloud-based automation and the Excel JavaScript API f…
   api_count: 3
   score_band: emerging
-  score_composite: 22.4
+  score_composite: 23.8
   shared: 2
 - slug: bloomberg-excel-plug-ins
   name: Bloomberg Excel Plug-ins

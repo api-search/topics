@@ -76,28 +76,28 @@ links:
   url: https://github.com/api-evangelist/test-cases/blob/main/json-ld/test-cases-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/test-cases/blob/main/vocabulary/test-cases-vocabulary.yml
-provider_count: 155
+provider_count: 159
 providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 5
 - slug: automation-preflight-api
   name: Automation Preflight API
   description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 49.8
+  score_composite: 49.3
   shared: 4
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.8
   shared: 4
 - slug: assertible
   name: Assertible
@@ -151,14 +151,14 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 3
 - slug: keploy
   name: Keploy
   description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.1
   shared: 3
@@ -193,14 +193,14 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 3
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 3

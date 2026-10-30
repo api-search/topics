@@ -97,7 +97,7 @@ links:
   url: https://github.com/api-evangelist
 - type: DeveloperPortal
   url: https://developer.apievangelist.com/
-provider_count: 79
+provider_count: 80
 providers:
 - slug: redocly
   name: Redocly
@@ -109,7 +109,7 @@ providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 3
@@ -120,26 +120,19 @@ providers:
   score_band: emerging
   score_composite: 21.6
   shared: 3
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 3
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
   shared: 2
 - slug: netcracker
   name: Netcracker
@@ -160,21 +153,42 @@ providers:
   description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
-  shared: 2
-- slug: bump-sh
-  name: Bump.sh
-  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.6
+  score_composite: 58.1
   shared: 2
 - slug: amazon-cloudtrail
   name: Amazon CloudTrail
   description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
   api_count: 1
   score_band: strong
-  score_composite: 54.5
+  score_composite: 56.1
+  shared: 2
+- slug: bump-sh
+  name: Bump.sh
+  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.0
+  shared: 2
+- slug: amazon-organizations
+  name: Amazon Organizations
+  description: AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
+  api_count: 1
+  score_band: developing
+  score_composite: 54.1
+  shared: 2
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: developing
+  score_composite: 53.7
+  shared: 2
+- slug: kosli
+  name: Kosli
+  description: Kosli provides governance infrastructure for AI-driven software development lifecycle (SDLC). It offers an append‑only evidence store, automated compliance checks, AI‑powered insights, and integrations with CI pipelines to ensure secure, a…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.6
   shared: 2
 - slug: sweep
   name: Sweep
@@ -183,24 +197,17 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 2
-- slug: amazon-organizations
-  name: Amazon Organizations
-  description: AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
-  api_count: 1
-  score_band: developing
-  score_composite: 52.7
-  shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
-  score_band: developing
-  score_composite: 50.6
-  shared: 2
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide…
   api_count: 1
+  score_band: developing
+  score_composite: 48.6
+  shared: 2
+- slug: vanta
+  name: Vanta
+  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
+  api_count: 2
   score_band: developing
   score_composite: 48.6
   shared: 2
@@ -218,13 +225,6 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 2
-- slug: vanta
-  name: Vanta
-  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
-  api_count: 2
-  score_band: developing
-  score_composite: 47.3
-  shared: 2
 - slug: 3gpp
   name: 3GPP
   description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
@@ -232,26 +232,26 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 2
-- slug: goethena
-  name: Goethena
-  description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.3
-  shared: 2
 - slug: amazon-control-tower
   name: Amazon Control Tower
   description: AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment based on best practices. It establishes a landing zone with pre-configured governance and guardrails, enabling organizations to maintai…
   api_count: 4
   score_band: developing
-  score_composite: 44.6
+  score_composite: 46.0
   shared: 2
 - slug: google-cloud-assured-workloads
   name: Google Cloud Assured Workloads
   description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
   api_count: 1
   score_band: developing
-  score_composite: 44.0
+  score_composite: 45.4
+  shared: 2
+- slug: goethena
+  name: Goethena
+  description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.3
   shared: 2
 - slug: microsoft-azure-policy
   name: Azure Policy
@@ -302,11 +302,11 @@ providers:
   score_band: thin
   score_composite: 35.9
   shared: 2
-- slug: ketryx
-  name: Ketryx
-  description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation,…
-  api_count: 1
+- slug: metricstream
+  name: MetricStream
+  description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
+  api_count: 8
   score_band: thin
-  score_composite: 33.7
+  score_composite: 35.5
   shared: 2
 ---

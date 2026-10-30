@@ -77,7 +77,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/vocabulary/regulatory-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/examples/regulatory-compliance-check-finra-example.json
-provider_count: 238
+provider_count: 241
 providers:
 - slug: greenboard
   name: Greenboard
@@ -91,14 +91,14 @@ providers:
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.7
   shared: 4
 - slug: metricstream
   name: MetricStream
   description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
   api_count: 8
   score_band: thin
-  score_composite: 31.8
+  score_composite: 35.5
   shared: 4
 - slug: emtech
   name: EMTECH
@@ -124,9 +124,9 @@ providers:
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 67.8
   shared: 3
 - slug: spektr
   name: Spektr
@@ -134,6 +134,20 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 50.8
+  shared: 3
+- slug: green-check-verified
+  name: Green Check Verified
+  description: Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.9
+  shared: 3
+- slug: vanta
+  name: Vanta
+  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.6
   shared: 3
 - slug: wegalvanize
   name: Wegalvanize
@@ -149,26 +163,12 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 3
-- slug: vanta
-  name: Vanta
-  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
-  api_count: 2
-  score_band: developing
-  score_composite: 47.3
-  shared: 3
 - slug: venminder-digital-comply
   name: Venminder (Digital Comply)
   description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitori…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.6
-  shared: 3
-- slug: green-check-verified
-  name: Green Check Verified
-  description: Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit…
   api_count: 1
   score_band: developing
-  score_composite: 42.4
+  score_composite: 45.6
   shared: 3
 - slug: merkle-science
   name: Merkle Science
@@ -261,6 +261,13 @@ providers:
   score_band: emerging
   score_composite: 15.1
   shared: 3
+- slug: diligent-boards
+  name: Diligent
+  description: Diligent Corporation is a governance, risk, and compliance (GRC) software company best known for its board management portal (Diligent Boards / Boardbooks) and the broader Diligent One Platform, which unifies board management, enterprise r…
+  api_count: 4
+  score_band: emerging
+  score_composite: 14.9
+  shared: 3
 - slug: themis
   name: Themis
   description: Themis (askthemis.com) is a governance, risk, and compliance (GRC) SaaS platform positioned as a "compliance collaboration" tool that streamlines partnerships between companies and their vendors, banks, credit unions, and fintechs by accel…
@@ -274,13 +281,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 14.1
-  shared: 3
-- slug: diligent-boards
-  name: Diligent
-  description: Diligent Corporation is a governance, risk, and compliance (GRC) software company best known for its board management portal (Diligent Boards / Boardbooks) and the broader Diligent One Platform, which unifies board management, enterprise r…
-  api_count: 4
-  score_band: emerging
-  score_composite: 13.5
   shared: 3
 - slug: norm-ai
   name: Norm Ai

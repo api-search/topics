@@ -22,7 +22,7 @@ providers:
 - slug: acceldata
   name: Acceldata
   description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively det…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 63.5
   shared: 2
@@ -36,7 +36,7 @@ providers:
 - slug: tiledb
   name: TileDB
   description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 55.1
   shared: 2
@@ -45,7 +45,7 @@ providers:
   description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
   api_count: 1
   score_band: developing
-  score_composite: 49.7
+  score_composite: 50.5
   shared: 2
 - slug: delphix
   name: Delphix
@@ -59,7 +59,7 @@ providers:
   description: Grist is a collaborative spreadsheet and relational database platform that combines the flexibility of spreadsheets with the power of a structured database. It provides a REST API for reading and writing table records, managing organizatio…
   api_count: 1
   score_band: thin
-  score_composite: 36.4
+  score_composite: 36.6
   shared: 2
 - slug: one-data
   name: One Data
@@ -73,6 +73,13 @@ providers:
   description: IBM Db2 is a family of data management products from IBM that includes relational and hybrid database servers running on cloud, distributed, and z/OS platforms, supporting transactional, analytical, and AI workloads. Db2 exposes RESTful se…
   api_count: 2
   score_band: emerging
+  score_composite: 15.1
+  shared: 2
+- slug: collibra
+  name: Collibra
+  description: Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra Data Intelligence Platform helps enterprises discover, understand, govern, and trus…
+  api_count: 7
+  score_band: emerging
   score_composite: 13.7
   shared: 2
 - slug: sql
@@ -81,13 +88,6 @@ providers:
   api_count: 2
   score_band: emerging
   score_composite: 13.5
-  shared: 2
-- slug: collibra
-  name: Collibra
-  description: Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra Data Intelligence Platform helps enterprises discover, understand, govern, and trus…
-  api_count: 7
-  score_band: emerging
-  score_composite: 12.3
   shared: 2
 - slug: governata
   name: Governata

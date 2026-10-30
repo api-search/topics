@@ -22,12 +22,12 @@ links:
   url: https://www.iso.org/standard/45338.html
 - type: Regulatory Guidance
   url: https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/standard-operating-procedures-sops
-provider_count: 19
+provider_count: 20
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
@@ -36,12 +36,12 @@ providers:
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 56.0
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 2
@@ -55,14 +55,14 @@ providers:
 - slug: process-street
   name: Process Street
   description: Process Street is a no-code workflow and process management platform for building, running, and automating recurring team processes as workflows (reusable templates) and workflow runs (checklists). Its REST Public API is organized around r…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 46.0
   shared: 2
 - slug: goethena
   name: Goethena
   description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.3
   shared: 2
@@ -121,6 +121,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 12.9
+  shared: 2
+- slug: deverus
+  name: Deverus
+  description: Deverus helps background screening companies modernize operations with Workflow AS and Verocity 2.0, offering practical automation solutions for CRA processes. The platform provides tools to streamline background checks, improve efficiency…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.3
   shared: 2
 - slug: sware-fka-btr
   name: Sware (fka BTR)

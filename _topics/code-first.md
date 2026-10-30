@@ -41,7 +41,7 @@ providers:
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.2
   shared: 2
 - slug: the-guild-dev
   name: The Guild

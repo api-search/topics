@@ -76,6 +76,13 @@ providers:
   score_band: strong
   score_composite: 55.4
   shared: 2
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: developing
+  score_composite: 53.7
+  shared: 2
 - slug: ballerina
   name: Ballerina
   description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language…'
@@ -90,17 +97,10 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
-  score_band: developing
-  score_composite: 50.6
-  shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.9
   shared: 2
@@ -116,7 +116,7 @@ providers:
   description: Redpanda is a Kafka API-compatible streaming data platform written in C++ with no JVM and no ZooKeeper, optimized for low latency and operational simplicity. The core broker (redpanda) is open source and available under the Business Source…
   api_count: 10
   score_band: thin
-  score_composite: 31.8
+  score_composite: 33.2
   shared: 2
 - slug: camara-project
   name: CAMARA Project
@@ -137,7 +137,7 @@ providers:
   description: Godot Engine is a free and open-source community-driven 2D and 3D game engine released under the MIT License and stewarded by the Godot Foundation. Godot ships an integrated editor plus a deep scripting and extension surface across three p…
   api_count: 5
   score_band: emerging
-  score_composite: 23.6
+  score_composite: 24.9
   shared: 2
 - slug: open-container-initiative
   name: Open Container Initiative
@@ -158,7 +158,7 @@ providers:
   description: The Open Worldwide Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software through community-led open source projects, hundreds of chapters worldwide, and educational resources. OWASP d…
   api_count: 1
   score_band: emerging
-  score_composite: 17.0
+  score_composite: 18.3
   shared: 2
 - slug: wing-cloud
   name: Wing Cloud
@@ -193,7 +193,7 @@ providers:
   description: PHP is a widely-used server-side scripting language especially suited for web development and embedded in HTML. It powers a large portion of the web including platforms like WordPress and Drupal, and provides extensive database support, fr…
   api_count: 0
   score_band: minimal
-  score_composite: 7.9
+  score_composite: 9.2
   shared: 2
 - slug: perl
   name: Perl

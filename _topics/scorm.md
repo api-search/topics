@@ -36,7 +36,7 @@ links:
   url: https://github.com/api-evangelist/scorm/blob/main/security/scorm-domain-security.yml
 - type: Blog
   url: https://scorm.com/blog/
-provider_count: 197
+provider_count: 198
 providers:
 - slug: go1
   name: Go1
@@ -52,19 +52,19 @@ providers:
   score_band: developing
   score_composite: 48.6
   shared: 3
+- slug: adobe-captivate
+  name: Adobe Captivate
+  description: Adobe Captivate is an eLearning authoring tool used to create responsive eLearning content, software demonstrations, and interactive training modules.
+  api_count: 1
+  score_band: developing
+  score_composite: 48.3
+  shared: 3
 - slug: epignosis-talentlms-efront-talentcards
   name: Epignosis (TalentLMS, eFront, TalentCards)
   description: 'Epignosis is a learning-technology company serving more than 70,000 organizations worldwide with a family of cloud training products: TalentLMS (an all-in-one LMS for growing businesses), eFront (a flexible enterprise LMS), TalentCards (mo…'
   api_count: 1
   score_band: developing
   score_composite: 47.8
-  shared: 3
-- slug: adobe-captivate
-  name: Adobe Captivate
-  description: Adobe Captivate is an eLearning authoring tool used to create responsive eLearning content, software demonstrations, and interactive training modules.
-  api_count: 1
-  score_band: developing
-  score_composite: 47.0
   shared: 3
 - slug: cloud-academy
   name: Cloud Academy
@@ -183,7 +183,7 @@ providers:
   description: 360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automa…
   api_count: 5
   score_band: strong
-  score_composite: 62.6
+  score_composite: 63.8
   shared: 2
 - slug: ehrbase
   name: EHRbase
@@ -202,37 +202,37 @@ providers:
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.9
   shared: 2
 - slug: skilljar
   name: Skilljar
   description: Skilljar is a customer education and external learning management (LMS) platform, now part of Gainsight, used to build, publish, and measure training academies, courses, learning paths, and certification programs for customers and partners…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.2
-  shared: 2
-- slug: coorpacademy
-  name: Coorpacademy
-  description: Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as "Coorpacademy by Go1". It sells a B2B SaaS learning experience platform built on inver…
-  api_count: 17
-  score_band: developing
-  score_composite: 43.4
   shared: 2
 - slug: teachable
   name: Teachable
   description: Teachable is an online course and coaching platform that empowers creators to build and sell educational content without technical expertise. The Teachable REST API provides programmatic access to school management capabilities including c…
   api_count: 2
   score_band: developing
-  score_composite: 42.3
+  score_composite: 43.6
+  shared: 2
+- slug: coorpacademy
+  name: Coorpacademy
+  description: Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as "Coorpacademy by Go1". It sells a B2B SaaS learning experience platform built on inver…
+  api_count: 14
+  score_band: developing
+  score_composite: 43.4
   shared: 2
 - slug: renaissance
   name: Renaissance
   description: Renaissance Learning, Inc. is a pre-K–12 education technology company whose assessment, practice and analytics products — Star Assessments, Accelerated Reader, Freckle, myON, Lalilo, Flocabulary, Nearpod, FastBridge, DnA, eduCLIMBER, eScho…
-  api_count: 10
+  api_count: 3
   score_band: developing
-  score_composite: 41.9
+  score_composite: 43.3
   shared: 2
 - slug: itslearning
   name: itslearning
@@ -241,11 +241,11 @@ providers:
   score_band: developing
   score_composite: 40.7
   shared: 2
-- slug: open-education-api
-  name: Open Education API
-  description: The Open Education API (OEAPI, formerly OOAPI) is an open REST API standard for exchanging education data — institutions, programmes, courses, offerings, persons and results — between educational institutions, students and suppliers. It wa…
-  api_count: 3
+- slug: clever
+  name: Clever
+  description: Clever is a K-12 EdTech identity platform that provides a unified single sign-on portal and roster synchronization service used by over 111,000 US schools, including 95 of the largest 100 districts. The Clever REST API enables application…
+  api_count: 2
   score_band: developing
-  score_composite: 40.3
+  score_composite: 40.4
   shared: 2
 ---

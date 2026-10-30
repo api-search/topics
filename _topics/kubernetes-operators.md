@@ -90,7 +90,7 @@ links:
   url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-schema/kubernetes-operator-schema.json
 - type: JSONLD
   url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-ld/kubernetes-operators-context.jsonld
-provider_count: 223
+provider_count: 232
 providers:
 - slug: spectro-cloud
   name: Spectro Cloud
@@ -102,7 +102,7 @@ providers:
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.5
   shared: 4
@@ -137,7 +137,7 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 3
@@ -146,7 +146,7 @@ providers:
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-clo…
   api_count: 3
   score_band: developing
-  score_composite: 48.8
+  score_composite: 50.2
   shared: 3
 - slug: runwhen
   name: RunWhen
@@ -161,6 +161,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.0
+  shared: 3
+- slug: komo-do
+  name: Komodo
+  description: Komodo provides an open-source build and deployment system for managing servers, containers, and clusters. It offers a web-based interface to monitor CPU, memory, and disk usage, set alerts, and open shell sessions directly from the browse…
+  api_count: 2
+  score_band: developing
+  score_composite: 40.9
   shared: 3
 - slug: helm
   name: Helm
@@ -188,7 +195,7 @@ providers:
   description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams creat…
   api_count: 1
   score_band: thin
-  score_composite: 35.9
+  score_composite: 35.7
   shared: 3
 - slug: duplo-cloud
   name: Duplo Cloud
@@ -294,12 +301,5 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 81.3
-  shared: 2
-- slug: amazon-lightsail
-  name: Amazon Lightsail
-  description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 73.8
   shared: 2
 ---

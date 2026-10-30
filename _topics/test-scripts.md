@@ -78,7 +78,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/test-scripts/main/json-ld/test-scripts-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/test-scripts/main/vocabulary/test-scripts-vocabulary.yml
-provider_count: 207
+provider_count: 211
 providers:
 - slug: sauce-labs
   name: Sauce Labs
@@ -97,23 +97,23 @@ providers:
 - slug: keploy
   name: Keploy
   description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.1
   shared: 4
 - slug: automation-preflight-api
   name: Automation Preflight API
   description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 49.8
+  score_composite: 49.3
   shared: 4
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.8
   shared: 4
 - slug: assertible
   name: Assertible
@@ -125,7 +125,7 @@ providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 4
@@ -160,7 +160,7 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 3
@@ -174,16 +174,16 @@ providers:
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle E…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.3
   shared: 3
 - slug: gitar
   name: Gitar
   description: Gitar is an AI code review platform that goes beyond commenting on pull and merge requests — it automatically fixes broken builds, failing tests, linting errors, and code-review findings, and validates every change against your CI pipeline…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 56.0
   shared: 3
 - slug: smartbear
   name: SmartBear
@@ -209,14 +209,14 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 3
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 3
@@ -225,7 +225,7 @@ providers:
   description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
   api_count: 1
   score_band: developing
-  score_composite: 51.3
+  score_composite: 51.8
   shared: 3
 - slug: replay
   name: Replay
@@ -246,7 +246,7 @@ providers:
   description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing pr…
   api_count: 1
   score_band: developing
-  score_composite: 44.3
+  score_composite: 45.6
   shared: 3
 - slug: qa-wolf
   name: QA Wolf
@@ -255,19 +255,19 @@ providers:
   score_band: developing
   score_composite: 44.0
   shared: 3
-- slug: ardent
-  name: Ardent
-  description: Ardent is a database branching platform for Postgres that lets developers and AI coding agents clone any production or development database in seconds into fully isolated, disposable branches. Each branch is isolated at both the compute an…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.0
-  shared: 3
 - slug: reflect
   name: Reflect
   description: Reflect is an AI-powered automated end-to-end testing platform that enables teams to effortlessly create, execute, and troubleshoot automated browser tests. Reflect provides a no-code test recorder for capturing user workflows and a REST A…
   api_count: 1
   score_band: developing
-  score_composite: 41.3
+  score_composite: 41.5
+  shared: 3
+- slug: ardent
+  name: Ardent
+  description: Ardent is a database branching platform for Postgres that lets developers and AI coding agents clone any production or development database in seconds into fully isolated, disposable branches. Each branch is isolated at both the compute an…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.2
   shared: 3
 - slug: testsprite
   name: TestSprite

@@ -26,7 +26,7 @@ links:
   url: https://gdpr.eu/checklist/
 - type: GDPR FAQ
   url: https://gdpr.eu/faq/
-provider_count: 73
+provider_count: 75
 providers:
 - slug: cookieyes
   name: Cookieyes
@@ -40,42 +40,42 @@ providers:
   description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen…
   api_count: 1
   score_band: strong
-  score_composite: 55.5
+  score_composite: 56.3
   shared: 3
 - slug: osano
   name: Osano
   description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  api_count: 2
+  score_band: developing
+  score_composite: 53.9
   shared: 3
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 53.6
-  shared: 3
-- slug: trustboost-dev
-  name: TrustBoost PII Sanitizer
-  description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.2
+  score_composite: 53.1
   shared: 3
 - slug: inth
   name: Inth
   description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
   api_count: 1
   score_band: developing
-  score_composite: 49.8
+  score_composite: 50.6
+  shared: 3
+- slug: trustboost-dev
+  name: TrustBoost PII Sanitizer
+  description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.2
   shared: 3
 - slug: transcend-io
   name: Transcend
   description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, cons…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 44.3
   shared: 3
 - slug: incountry
   name: InCountry
@@ -115,7 +115,7 @@ providers:
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. T…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 80.0
   shared: 2
@@ -123,6 +123,13 @@ providers:
   name: OneTrust
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP…
   api_count: 37
+  score_band: exemplar
+  score_composite: 71.7
+  shared: 2
+- slug: umami
+  name: Umami
+  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full pro…
+  api_count: 2
   score_band: exemplar
   score_composite: 71.7
   shared: 2
@@ -147,13 +154,6 @@ providers:
   score_band: strong
   score_composite: 66.4
   shared: 2
-- slug: umami
-  name: Umami
-  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full pro…
-  api_count: 7
-  score_band: strong
-  score_composite: 62.0
-  shared: 2
 - slug: plausible
   name: Plausible
   description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it comp…
@@ -171,7 +171,7 @@ providers:
 - slug: altr
   name: ALTR
   description: ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines autom…
-  api_count: 42
+  api_count: 21
   score_band: strong
   score_composite: 59.3
   shared: 2
@@ -180,12 +180,12 @@ providers:
   description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
   api_count: 2
   score_band: strong
-  score_composite: 57.8
+  score_composite: 59.2
   shared: 2
 - slug: sourcepoint
   name: Sourcepoint
   description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a…
-  api_count: 14
+  api_count: 7
   score_band: strong
   score_composite: 57.6
   shared: 2
@@ -199,9 +199,16 @@ providers:
 - slug: immuta
   name: Immuta
   description: Immuta is a data security and access-governance platform that lets organizations register their cloud data platforms — Snowflake, Databricks (Unity Catalog, Lakebase, Spark), Amazon Redshift and Redshift Spectrum, Amazon S3, AWS Lake Forma…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 54.3
+  shared: 2
+- slug: bigid
+  name: BigID
+  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data &…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.0
   shared: 2
 - slug: certifaction
   name: Certifaction
@@ -209,13 +216,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 51.6
-  shared: 2
-- slug: bigid
-  name: BigID
-  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data &…
-  api_count: 3
-  score_band: developing
-  score_composite: 50.7
   shared: 2
 - slug: mine
   name: MINE
@@ -231,9 +231,9 @@ providers:
   score_band: developing
   score_composite: 47.2
   shared: 2
-- slug: k-id
-  name: k-ID
-  description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes li…
+- slug: spin-ai
+  name: Spin.AI
+  description: Spin.AI is a SaaS security platform providing data protection, ransomware detection, and compliance management for cloud applications including Google Workspace, Microsoft 365, Salesforce, and Slack. The SpinOne Public API enables programm…
   api_count: 1
   score_band: developing
   score_composite: 43.9

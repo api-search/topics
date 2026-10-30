@@ -95,14 +95,14 @@ providers:
   description: Red Hat Enterprise Linux 8 (RHEL 8) is an enterprise-grade Linux distribution that provides a stable, secure, and high-performance operating system platform for modern IT environments. RHEL 8 is managed and accessed programmatically throug…
   api_count: 1
   score_band: developing
-  score_composite: 45.4
+  score_composite: 45.6
   shared: 2
 - slug: rhel
   name: Red Hat Enterprise Linux
   description: Red Hat Enterprise Linux (RHEL) is the world's leading enterprise Linux platform, providing APIs and services for subscription management, security insights, compliance monitoring, vulnerability assessment, patch management, content delive…
   api_count: 2
   score_band: developing
-  score_composite: 43.3
+  score_composite: 44.8
   shared: 2
 - slug: flatcar-container-linux
   name: Flatcar Container Linux
@@ -111,19 +111,19 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 2
+- slug: debian
+  name: Debian
+  description: Debian is a free operating system distribution maintained by the Debian Project, a community of more than a thousand volunteers worldwide. Debian provides a number of developer-facing services including a source-code browsing API at source…
+  api_count: 2
+  score_band: thin
+  score_composite: 31.4
+  shared: 2
 - slug: systemd
   name: systemd
   description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and…
   api_count: 7
   score_band: thin
   score_composite: 30.2
-  shared: 2
-- slug: debian
-  name: Debian
-  description: Debian is a free operating system distribution maintained by the Debian Project, a community of more than a thousand volunteers worldwide. Debian provides a number of developer-facing services including a source-code browsing API at source…
-  api_count: 2
-  score_band: thin
-  score_composite: 30.1
   shared: 2
 - slug: gvisor
   name: gVisor

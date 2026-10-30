@@ -67,7 +67,7 @@ providers:
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 66.3
   shared: 3
@@ -88,7 +88,7 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
@@ -118,7 +118,7 @@ providers:
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive A…
   api_count: 2
   score_band: strong
-  score_composite: 60.3
+  score_composite: 61.6
   shared: 2
 - slug: coval
   name: Coval
@@ -130,9 +130,16 @@ providers:
 - slug: keploy
   name: Keploy
   description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.1
+  shared: 2
+- slug: bump-sh
+  name: Bump.sh
+  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.0
   shared: 2
 - slug: developerhub
   name: DeveloperHub
@@ -148,13 +155,6 @@ providers:
   score_band: strong
   score_composite: 55.9
   shared: 2
-- slug: bump-sh
-  name: Bump.sh
-  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.6
-  shared: 2
 - slug: opkey
   name: Opkey
   description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
@@ -165,7 +165,7 @@ providers:
 - slug: observeai
   name: Observe.AI
   description: Observe.AI is an agentic AI platform for the contact center, providing purpose-built AI agents that handle customer support end-to-end across voice and chat, real-time AI Copilot guidance that assists frontline agents during live interacti…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 54.5
   shared: 2
@@ -186,7 +186,7 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 2
@@ -202,12 +202,12 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 2
@@ -221,16 +221,9 @@ providers:
 - slug: stainless
   name: Stainless
   description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic,…
-  api_count: 7
+  api_count: 2
   score_band: developing
-  score_composite: 50.1
-  shared: 2
-- slug: automation-preflight-api
-  name: Automation Preflight API
-  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 4
-  score_band: developing
-  score_composite: 49.8
+  score_composite: 49.5
   shared: 2
 - slug: panaya
   name: Panaya
@@ -239,12 +232,19 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 2
+- slug: automation-preflight-api
+  name: Automation Preflight API
+  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.3
+  shared: 2
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.8
   shared: 2
 - slug: swaggerhub
   name: SwaggerHub
@@ -263,14 +263,14 @@ providers:
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 2
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 2

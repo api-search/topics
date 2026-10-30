@@ -44,12 +44,12 @@ links:
   url: https://github.com/api-evangelist/barcode-scanners/blob/main/vocabulary/barcode-scanners-vocabulary.yaml
 - type: JSONLD
   url: https://github.com/api-evangelist/barcode-scanners/blob/main/json-ld/barcode-scanners-context.jsonld
-provider_count: 142
+provider_count: 144
 providers:
 - slug: optoro
   name: Optoro
   description: Optoro is a returns management and reverse-logistics software company (Washington, DC; acquired by Blue Yonder in August 2025) whose OptiTurn platform powers the full returns lifecycle for retailers, brands and 3PLs — a shopper-facing retu…
-  api_count: 38
+  api_count: 17
   score_band: strong
   score_composite: 61.9
   shared: 3
@@ -91,7 +91,7 @@ providers:
 - slug: happy-cabbage-analytics
   name: Happy Cabbage Analytics
   description: Happy Cabbage Analytics is a cannabis retail software company founded in 2019 and headquartered in San Francisco, California, whose Happy Buyers platform gives dispensary buyers AI-assisted inventory management, demand forecasting, repleni…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 35.2
   shared: 3
@@ -191,7 +191,7 @@ providers:
   description: Omnichannel commerce platform with REST APIs for retail and restaurant POS, inventory management, loyalty programs, and e-commerce integrations. Lightspeed serves retailers and restaurateurs with cloud-based point-of-sale systems, enabling…
   api_count: 3
   score_band: exemplar
-  score_composite: 83.8
+  score_composite: 83.9
   shared: 2
 - slug: square
   name: Square
@@ -207,6 +207,13 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 2
+- slug: sps-commerce
+  name: SPS Commerce
+  description: SPS Commerce (Minneapolis, MN) is a retail supply-chain network and cloud services company offering EDI, sales and item data solutions that connect suppliers, retailers, distributors, 3PLs and logistics providers across 300,000+ trading re…
+  api_count: 2
+  score_band: strong
+  score_composite: 59.8
+  shared: 2
 - slug: crunchtime
   name: Crunchtime
   description: Crunchtime (CrunchTime! Information Systems) is an AI-powered restaurant operations management platform used by 850+ multi-unit restaurant brands across 150,000+ locations to run inventory and food-cost control, labor and scheduling, opera…
@@ -221,19 +228,12 @@ providers:
   score_band: strong
   score_composite: 59.5
   shared: 2
-- slug: sps-commerce
-  name: SPS Commerce
-  description: SPS Commerce (Minneapolis, MN) is a retail supply-chain network and cloud services company offering EDI, sales and item data solutions that connect suppliers, retailers, distributors, 3PLs and logistics providers across 300,000+ trading re…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.5
-  shared: 2
 - slug: depop
   name: depop
   description: 'Depop is a peer-to-peer fashion marketplace where people buy, sell and discover secondhand and unique clothing. Its Selling API is an enterprise partner API that lets approved partners automate the seller experience on Depop: create and ma…'
   api_count: 1
   score_band: strong
-  score_composite: 57.7
+  score_composite: 58.0
   shared: 2
 - slug: crunchtime-information-systems
   name: Crunchtime Information Systems
@@ -247,13 +247,13 @@ providers:
   description: Inspectorio is a supply-chain management software platform that helps brands, retailers, suppliers, and laboratories digitize and optimize production across quality risk management, responsible sourcing & compliance, production management,…
   api_count: 3
   score_band: strong
-  score_composite: 55.8
+  score_composite: 56.0
   shared: 2
-- slug: channelengine
-  name: ChannelEngine
-  description: ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once an…
-  api_count: 3
+- slug: liquidonate
+  name: LiquiDonate
+  description: LiquiDonate is a San Francisco based reverse-logistics and donation-disposition platform that turns retail returns, excess inventory and unsellable goods into local nonprofit donations instead of landfill or liquidation. Its matching engin…
+  api_count: 2
   score_band: strong
-  score_composite: 54.7
+  score_composite: 55.0
   shared: 2
 ---

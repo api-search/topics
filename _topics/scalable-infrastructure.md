@@ -52,7 +52,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/main/json-ld/scalable-infrastructure-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/main/vocabulary/scalable-infrastructure-vocabulary.yml
-provider_count: 159
+provider_count: 161
 providers:
 - slug: amazon-lightsail
   name: Amazon Lightsail
@@ -64,7 +64,7 @@ providers:
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes ser…
-  api_count: 22
+  api_count: 11
   score_band: strong
   score_composite: 60.3
   shared: 4
@@ -85,7 +85,7 @@ providers:
 - slug: nexgen-cloud
   name: NexGen Cloud
   description: NexGen Cloud Limited is a UK-headquartered AI cloud and GPU infrastructure provider. Its on-demand platform, Hyperstack, sells NVIDIA GPU and CPU virtual machines, managed Kubernetes clusters, block storage volumes, S3-compatible object st…
-  api_count: 5
+  api_count: 3
   score_band: exemplar
   score_composite: 66.5
   shared: 3
@@ -96,10 +96,17 @@ providers:
   score_band: strong
   score_composite: 66.4
   shared: 3
+- slug: outscale
+  name: 3DS OUTSCALE
+  description: 3DS OUTSCALE is a European cloud computing provider offering a full-featured Infrastructure-as-a-Service (IaaS) platform that is API‑compatible with Amazon Web Services. It delivers compute, storage, networking, and security services to en…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.5
+  shared: 3
 - slug: antimetal
   name: Antimetal
   description: Antimetal is a New York based software company building an autonomous production-management platform for engineering teams — "everything that happens after you deploy". It maintains a continuously updated world model of a customer's produc…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.5
   shared: 3
@@ -117,26 +124,26 @@ providers:
   score_band: developing
   score_composite: 45.0
   shared: 3
-- slug: exoscale
-  name: Exoscale
-  description: Exoscale is a Swiss cloud infrastructure provider offering secure, reliable, and scalable cloud solutions to businesses of all sizes. Their services include virtual machines, object storage, networking, security, Kubernetes (SKS), Database…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.1
-  shared: 3
 - slug: terraform
   name: Terraform
   description: HashiCorp Terraform is an open-source infrastructure-as-code tool that enables teams to define, provision, and manage cloud infrastructure using a declarative configuration language (HCL). HCP Terraform and Terraform Enterprise expose a co…
   api_count: 2
   score_band: developing
-  score_composite: 41.9
+  score_composite: 43.6
+  shared: 3
+- slug: exoscale
+  name: Exoscale
+  description: Exoscale is a Swiss cloud infrastructure provider offering secure, reliable, and scalable cloud solutions to businesses of all sizes. Their services include virtual machines, object storage, networking, security, Kubernetes (SKS), Database…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.5
   shared: 3
 - slug: hpe
   name: Hewlett Packard Enterprise
   description: Hewlett Packard Enterprise (HPE) is a global edge-to-cloud technology company providing servers, storage, networking, and hybrid cloud services, with HPE GreenLake serving as the unified edge-to-cloud platform delivering infrastructure as…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 41.3
+  score_composite: 40.8
   shared: 3
 - slug: inspur-cloud
   name: Inspur Cloud
@@ -159,19 +166,19 @@ providers:
   score_band: thin
   score_composite: 29.9
   shared: 3
+- slug: nebius
+  name: Nebius
+  description: Nebius is an AI-focused cloud platform spun out of Yandex, offering NVIDIA GPU virtual machines and clusters (GB300, GB200, B300, B200, H200, H100) connected over InfiniBand, managed Kubernetes and Slurm (Soperator), S3-compatible storage,…
+  api_count: 6
+  score_band: emerging
+  score_composite: 24.7
+  shared: 3
 - slug: tintri
   name: Tintri
   description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC…'
   api_count: 1
   score_band: emerging
   score_composite: 23.6
-  shared: 3
-- slug: nebius
-  name: Nebius
-  description: Nebius is an AI-focused cloud platform spun out of Yandex, offering NVIDIA GPU virtual machines and clusters (GB300, GB200, B300, B200, H200, H100) connected over InfiniBand, managed Kubernetes and Slurm (Soperator), S3-compatible storage,…
-  api_count: 6
-  score_band: emerging
-  score_composite: 23.3
   shared: 3
 - slug: diamanti
   name: Diamanti
@@ -197,7 +204,7 @@ providers:
 - slug: microsoft-azure-cdn
   name: Microsoft Azure Cdn
   description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Mana…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.3
   shared: 2
@@ -243,13 +250,6 @@ providers:
   score_band: strong
   score_composite: 63.8
   shared: 2
-- slug: microsoft-azure-private-link
-  name: Microsoft Azure Private Link
-  description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
-  api_count: 3
-  score_band: strong
-  score_composite: 63.3
-  shared: 2
 - slug: env0
   name: Env0
   description: env0 -- now trading as "env zero" -- is an infrastructure-as-code automation and cloud governance platform for Terraform, OpenTofu, Terragrunt, Pulumi, CloudFormation, Kubernetes and Helm. It provisions and manages cloud environments from…
@@ -257,11 +257,11 @@ providers:
   score_band: strong
   score_composite: 63.1
   shared: 2
-- slug: goharbor
-  name: GoHarbor
-  description: 'Harbor is an open source, CNCF-hosted registry that stores, signs and scans OCI artifacts, adding the policy and identity layer a plain container registry lacks: projects, RBAC and robot accounts, vulnerability scanning and SBOM generation…'
+- slug: microsoft-azure-private-link
+  name: Microsoft Azure Private Link
+  description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
   api_count: 2
   score_band: strong
-  score_composite: 62.1
+  score_composite: 62.8
   shared: 2
 ---

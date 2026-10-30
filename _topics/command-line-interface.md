@@ -52,7 +52,7 @@ links:
   url: https://devcenter.heroku.com/articles/cli-style-guide
 - type: Resources
   url: https://github.com/agarrharr/awesome-cli-apps
-provider_count: 131
+provider_count: 132
 providers:
 - slug: shell-scripting
   name: Shell Scripting
@@ -155,23 +155,30 @@ providers:
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 73.6
   shared: 2
 - slug: tembo
   name: Tembo
   description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 69.6
+  shared: 2
+- slug: apiable
+  name: Apiable
+  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, us…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.2
   shared: 2
 - slug: buttondown
   name: Buttondown
   description: Buttondown is an independent, bootstrapped email newsletter platform for writers, creators and developers, offering a Markdown and rich-text editor, subscriber management with tags, segments and metadata, automations, RSS-to-email, surveys…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 62.8
+  score_composite: 62.9
   shared: 2
 - slug: gumloop
   name: Gumloop
@@ -199,12 +206,12 @@ providers:
   description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work…
   api_count: 1
   score_band: strong
-  score_composite: 59.4
+  score_composite: 59.6
   shared: 2
 - slug: h-company
   name: H Company
   description: H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel and Creandum, that builds the Holo family of vision-language models and a Computer-Use Agents platform for automating work on browsers and desktops. It ships two public APIs:…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.7
   shared: 2
@@ -227,14 +234,7 @@ providers:
   description: Gitar is an AI code review platform that goes beyond commenting on pull and merge requests — it automatically fixes broken builds, failing tests, linting errors, and code-review findings, and validates every change against your CI pipeline…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
-  shared: 2
-- slug: capy
-  name: Capy
-  description: Capy is an AI software-engineering platform that orchestrates a fleet of cloud coding agents inside the apps a team already uses (Slack, Linear, GitHub). Each task runs in its own isolated Ubuntu VM where a captain agent plans and build ag…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.8
+  score_composite: 56.0
   shared: 2
 - slug: signadot
   name: Signadot
@@ -243,25 +243,25 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 2
+- slug: capy
+  name: Capy
+  description: Capy is an AI software-engineering platform that orchestrates a fleet of cloud coding agents inside the apps a team already uses (Slack, Linear, GitHub). Each task runs in its own isolated Ubuntu VM where a captain agent plans and build ag…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.7
+  shared: 2
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
-  shared: 2
-- slug: apiable
-  name: Apiable
-  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, us…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.1
+  score_composite: 52.6
   shared: 2
 - slug: amika
   name: Amika
   description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
   api_count: 1
   score_band: developing
-  score_composite: 51.3
+  score_composite: 51.8
   shared: 2
 ---

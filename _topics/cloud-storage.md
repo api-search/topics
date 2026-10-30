@@ -70,14 +70,14 @@ links:
   url: https://github.com/api-evangelist/cloud-storage/blob/main/json-ld/cloud-storage-context.jsonld
 - type: Spectral
   url: https://github.com/api-evangelist/cloud-storage/blob/main/rules/cloud-storage-rules.yml
-provider_count: 80
+provider_count: 84
 providers:
 - slug: pure-storage
   name: Pure Storage
   description: Pure Storage is an American publicly traded technology company specializing in all-flash data storage hardware and software products. The company provides enterprise data storage platforms including FlashArray, FlashBlade, and Pure1 fleet…
-  api_count: 4
+  api_count: 3
   score_band: developing
-  score_composite: 46.6
+  score_composite: 48.0
   shared: 5
 - slug: gcp-cloud-storage
   name: Google Cloud Storage
@@ -103,9 +103,9 @@ providers:
 - slug: cloudflare-r2
   name: Cloudflare R2
   description: Cloudflare R2 is S3-compatible object storage with zero egress fees. It provides both an S3-compatible REST API and a Cloudflare API for managing buckets, objects, and storage policies at global scale. R2 offers a generous free tier includ…
-  api_count: 2
+  api_count: 1
   score_band: thin
-  score_composite: 35.0
+  score_composite: 35.8
   shared: 4
 - slug: storone
   name: StorONE
@@ -132,8 +132,8 @@ providers:
   name: Ceph
   description: Ceph is an open source, distributed storage platform that provides unified object, block, and file storage on commodity hardware with no single point of failure. The Ceph Manager (ceph-mgr) ships with a RESTful API that exposes the same op…
   api_count: 1
-  score_band: emerging
-  score_composite: 25.2
+  score_band: thin
+  score_composite: 26.6
   shared: 4
 - slug: wasabi
   name: Wasabi
@@ -173,9 +173,9 @@ providers:
 - slug: azure-storage-accounts
   name: Azure Storage Accounts
   description: Azure Storage is Microsoft's cloud storage solution for modern data storage scenarios offering highly available, massively scalable, durable, and secure storage for blobs, files, queues, tables, and disks.
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 48.6
+  score_composite: 48.0
   shared: 3
 - slug: idrive
   name: IDrive
@@ -187,7 +187,7 @@ providers:
 - slug: impossible-cloud
   name: Impossible Cloud
   description: Impossible Cloud is a European sovereign cloud platform headquartered in Hamburg, Germany, providing S3-compatible object storage (11 nines durability, Object Lock/WORM, no egress or API-call fees), bare metal NVIDIA GPU servers, and manag…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 47.3
   shared: 3
@@ -201,7 +201,7 @@ providers:
 - slug: zadara
   name: Zadara
   description: Zadara is an edge cloud and storage-as-a-service provider offering zStorage (VPSA Storage Array and Flash Array block/file storage, VPSA Object Storage) and zCompute, delivered fully managed in its own and partner data centers. Its public…
-  api_count: 8
+  api_count: 4
   score_band: developing
   score_composite: 43.3
   shared: 3
@@ -223,8 +223,8 @@ providers:
   name: Azure Files
   description: Azure Files is a fully managed cloud file share service from Microsoft Azure that provides hosted SMB and NFS file shares accessible from cloud and on-premises clients using standard file system protocols and the FileREST HTTPS API. It sup…
   api_count: 1
-  score_band: thin
-  score_composite: 38.0
+  score_band: developing
+  score_composite: 39.4
   shared: 3
 - slug: inspur-cloud
   name: Inspur Cloud

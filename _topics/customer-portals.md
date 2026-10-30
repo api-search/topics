@@ -39,7 +39,7 @@ links:
   url: https://www.freshworks.com/freshdesk/
 - type: Zuora
   url: https://www.zuora.com
-provider_count: 131
+provider_count: 133
 providers:
 - slug: blink-identity
   name: Blink Identity
@@ -51,9 +51,9 @@ providers:
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature fla…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 82.9
+  score_composite: 82.4
   shared: 2
 - slug: azure-ad
   name: Microsoft Entra ID (formerly Azure AD)
@@ -62,26 +62,26 @@ providers:
   score_band: exemplar
   score_composite: 81.8
   shared: 2
-- slug: drchrono
-  name: drchrono
-  description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary RE…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 77.5
-  shared: 2
 - slug: cvent-registration
   name: Cvent Registration
   description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and bad…
   api_count: 2
   score_band: exemplar
-  score_composite: 75.9
+  score_composite: 77.2
+  shared: 2
+- slug: drchrono
+  name: drchrono
+  description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary RE…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 77.0
   shared: 2
 - slug: okta
   name: Okta
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 73.8
   shared: 2
 - slug: aembit
   name: Aembit
@@ -109,12 +109,12 @@ providers:
   description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook…
   api_count: 4
   score_band: exemplar
-  score_composite: 70.2
+  score_composite: 70.9
   shared: 2
 - slug: strivacity
   name: Strivacity
   description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers regi…
-  api_count: 12
+  api_count: 8
   score_band: exemplar
   score_composite: 68.5
   shared: 2
@@ -123,7 +123,7 @@ providers:
   description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user dir…
   api_count: 2
   score_band: strong
-  score_composite: 63.7
+  score_composite: 65.7
   shared: 2
 - slug: microsoft-graph
   name: Microsoft Graph
@@ -135,16 +135,23 @@ providers:
 - slug: entergram
   name: Entergram
   description: Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a C…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.1
   shared: 2
 - slug: stytch
   name: Stytch
   description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 60.4
+  shared: 2
+- slug: microsoft-entra
+  name: Microsoft Entra
+  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
   shared: 2
 - slug: appdirect
   name: AppDirect
@@ -160,6 +167,13 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 2
+- slug: amazon-iam
+  name: Amazon IAM
+  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.3
+  shared: 2
 - slug: unico
   name: Unico
   description: Unico (unico IDtech) is a Brazilian identity-technology company whose IDCloud platform performs facial-biometric identity verification, liveness detection, document capture and OCR, and fraud-risk decisioning for customer onboarding, step-…
@@ -167,12 +181,12 @@ providers:
   score_band: strong
   score_composite: 57.1
   shared: 2
-- slug: microsoft-entra
-  name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+- slug: yubico
+  name: Yubico
+  description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via…
   api_count: 1
   score_band: strong
-  score_composite: 57.0
+  score_composite: 56.7
   shared: 2
 - slug: descope
   name: Descope
@@ -188,26 +202,12 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 2
-- slug: yubico
-  name: Yubico
-  description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.5
-  shared: 2
 - slug: snap
   name: Snap
   description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Pub…'
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 56.4
-  shared: 2
-- slug: amazon-iam
-  name: Amazon IAM
-  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.9
+  score_composite: 55.8
   shared: 2
 - slug: barndoor
   name: Barndoor
@@ -219,16 +219,16 @@ providers:
 - slug: typingdna
   name: TypingDNA
   description: TypingDNA provides AI-based typing biometrics authentication, recognizing people by how they type on desktop and mobile keyboards. Its RESTful Authentication API enrolls and verifies typing patterns for fraud prevention, account-sharing de…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 54.7
   shared: 2
 - slug: greenhelix-net
   name: Green Helix
   description: 'Green Helix Consulting, LLC builds infrastructure for autonomous AI-agent commerce. Its A2A Commerce Gateway (api.greenhelix.net, v1.4.10) is a single REST API of 137 tools across 16 services: per-agent wallets and metered billing, authori…'
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
   shared: 2
 - slug: onecli
   name: Onecli
@@ -240,9 +240,9 @@ providers:
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 53.6
+  score_composite: 53.1
   shared: 2
 - slug: ezoic
   name: ezoic

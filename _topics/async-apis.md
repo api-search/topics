@@ -122,7 +122,7 @@ providers:
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kube…
   api_count: 2
   score_band: strong
-  score_composite: 63.8
+  score_composite: 65.1
   shared: 2
 - slug: hivemq
   name: HiveMQ

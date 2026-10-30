@@ -57,7 +57,7 @@ links:
   url: https://cucumber.io/docs/
 - type: GitHubOrganization
   url: https://github.com/cucumber
-provider_count: 43
+provider_count: 45
 providers:
 - slug: cucumber
   name: Cucumber
@@ -69,9 +69,9 @@ providers:
 - slug: automation-preflight-api
   name: Automation Preflight API
   description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 49.8
+  score_composite: 49.3
   shared: 3
 - slug: sauce-labs
   name: Sauce Labs
@@ -118,9 +118,16 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
+  shared: 2
+- slug: uipath
+  name: UiPath
+  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for devel…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 66.6
   shared: 2
 - slug: browserstack
   name: BrowserStack
@@ -128,13 +135,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 66.3
-  shared: 2
-- slug: uipath
-  name: UiPath
-  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for devel…
-  api_count: 6
-  score_band: strong
-  score_composite: 65.2
   shared: 2
 - slug: coval
   name: Coval
@@ -160,14 +160,14 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.1
   shared: 2
@@ -190,7 +190,7 @@ providers:
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.8
   shared: 2
 - slug: assertible
   name: Assertible
@@ -209,7 +209,7 @@ providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 2
@@ -226,6 +226,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 37.4
+  shared: 2
+- slug: diffblue
+  name: Diffblue
+  description: Diffblue provides AI-driven testing agents that automatically generate unit tests for enterprise Java codebases. Their platform orchestrates AI coding tools to deliver high‑coverage, verified tests at scale, reducing developer toil and imp…
+  api_count: 2
+  score_band: thin
+  score_composite: 36.3
   shared: 2
 - slug: beeceptor
   name: Beeceptor
@@ -261,12 +268,5 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 27.6
-  shared: 2
-- slug: qase
-  name: Qase
-  description: Qase is a cloud test management platform (TestOps) for QA and engineering teams to author test cases, organize them into suites and plans, launch and complete test runs, publish automated results from CI pipelines, and track defects. The Q…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.0
   shared: 2
 ---

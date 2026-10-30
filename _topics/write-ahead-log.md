@@ -20,7 +20,7 @@ providers:
   description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, M…
   api_count: 1
   score_band: developing
-  score_composite: 48.0
+  score_composite: 48.4
   shared: 2
 - slug: yunqi
   name: Yunqi (ClickZetta / Singdata Lakehouse)

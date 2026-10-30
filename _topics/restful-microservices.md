@@ -43,21 +43,21 @@ links:
   url: https://spring.io/cloud
 - type: Open Liberty RESTful Microservices
   url: https://openliberty.io/docs/latest/rest-microservices.html
-provider_count: 142
+provider_count: 143
 providers:
+- slug: service-fabric
+  name: Service Fabric
+  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
+  shared: 4
 - slug: istio
   name: Istio
   description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing,…
   api_count: 3
   score_band: thin
   score_composite: 34.9
-  shared: 4
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.0
   shared: 4
 - slug: service-mesh
   name: Service Mesh
@@ -90,14 +90,14 @@ providers:
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 61.6
   shared: 3
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 56.3
   shared: 3
@@ -113,7 +113,7 @@ providers:
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 48.4
   shared: 3
 - slug: isovalent
   name: Isovalent
@@ -140,8 +140,8 @@ providers:
   name: Spring Framework
   description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, mes…
   api_count: 3
-  score_band: thin
-  score_composite: 38.7
+  score_band: developing
+  score_composite: 40.0
   shared: 3
 - slug: google-cloud-service-mesh
   name: Google Cloud Service Mesh
@@ -155,7 +155,7 @@ providers:
   description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
   api_count: 3
   score_band: thin
-  score_composite: 35.7
+  score_composite: 35.9
   shared: 3
 - slug: diagrid
   name: Diagrid
@@ -196,8 +196,15 @@ providers:
   name: Quarkus
   description: Quarkus is a Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, designed to build cloud-native microservices and serverless applications with fast startup times and low memory footprint.
   api_count: 1
+  score_band: thin
+  score_composite: 27.3
+  shared: 3
+- slug: getenroute
+  name: Saaras
+  description: Saaras provides cloud‑native API gateway and service‑mesh solutions built on Kubernetes. Their EnRoute Gateway offers high‑performance traffic management, security, observability, and dynamic routing for modern cloud applications. Saaras a…
+  api_count: 4
   score_band: emerging
-  score_composite: 25.9
+  score_composite: 19.9
   shared: 3
 - slug: restful-services
   name: RESTful Services
@@ -247,12 +254,5 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 65.9
-  shared: 2
-- slug: calico
-  name: Calico
-  description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and secu…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.9
   shared: 2
 ---

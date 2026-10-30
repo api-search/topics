@@ -91,21 +91,21 @@ links:
   url: https://github.com/api-evangelist/cloud-storage
 - type: Related Topic
   url: https://github.com/api-evangelist/cloud-native
-provider_count: 175
+provider_count: 180
 providers:
+- slug: microsoft-azure
+  name: Microsoft Azure
+  description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
+  api_count: 697
+  score_band: exemplar
+  score_composite: 76.5
+  shared: 4
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kube…
   api_count: 9
   score_band: exemplar
   score_composite: 75.3
-  shared: 4
-- slug: microsoft-azure
-  name: Microsoft Azure
-  description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
-  api_count: 870
-  score_band: exemplar
-  score_composite: 75.2
   shared: 4
 - slug: amazon-ec2
   name: Amazon EC2
@@ -117,9 +117,9 @@ providers:
 - slug: microsoft-azure-virtual-machines
   name: Azure Virtual Machines
   description: Azure Virtual Machines (VMs) is one of several types of on-demand, scalable computing resources that Azure offers. VMs give you the flexibility of virtualization without having to buy and maintain physical hardware.
-  api_count: 1
+  api_count: 10
   score_band: developing
-  score_composite: 53.3
+  score_composite: 49.9
   shared: 4
 - slug: codesphere
   name: Codesphere
@@ -152,7 +152,7 @@ providers:
 - slug: nexgen-cloud
   name: NexGen Cloud
   description: NexGen Cloud Limited is a UK-headquartered AI cloud and GPU infrastructure provider. Its on-demand platform, Hyperstack, sells NVIDIA GPU and CPU virtual machines, managed Kubernetes clusters, block storage volumes, S3-compatible object st…
-  api_count: 5
+  api_count: 3
   score_band: exemplar
   score_composite: 66.5
   shared: 3
@@ -161,7 +161,14 @@ providers:
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
   api_count: 161
   score_band: strong
-  score_composite: 64.5
+  score_composite: 65.9
+  shared: 3
+- slug: google-cloud-platform
+  name: Google Cloud Platform
+  description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure.
+  api_count: 1
+  score_band: strong
+  score_composite: 62.3
   shared: 3
 - slug: microsoft-azure-batch
   name: Microsoft Azure Batch
@@ -170,26 +177,19 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 3
-- slug: google-cloud-platform
-  name: Google Cloud Platform
-  description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure.
-  api_count: 1
-  score_band: strong
-  score_composite: 61.9
-  shared: 3
 - slug: google-cloud-compute-engine
   name: Google Cloud Compute Engine
   description: Google Cloud Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. Compute Engine VMs boot quickly, come with persistent disk storage, and deliver consistent performance. It offer…
   api_count: 1
   score_band: developing
-  score_composite: 46.4
+  score_composite: 47.8
   shared: 3
 - slug: digital-ocean
   name: Digital Ocean
   description: DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in New York City, New York, US, with 15 globally distributed data centers. DigitalOcean provides developer…
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 47.6
   shared: 3
 - slug: oxide-computer
   name: Oxide
@@ -201,7 +201,7 @@ providers:
 - slug: vultr
   name: Vultr
   description: Vultr is a global cloud infrastructure provider offering Cloud Compute, Bare Metal, GPU, Kubernetes (VKE), Managed Databases, S3-compatible Object Storage, Block Storage, networking (VPC, load balancers, DNS, firewalls) and Serverless Infe…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 44.7
   shared: 3
@@ -210,14 +210,7 @@ providers:
   description: Exoscale is a Swiss cloud infrastructure provider offering secure, reliable, and scalable cloud solutions to businesses of all sizes. Their services include virtual machines, object storage, networking, security, Kubernetes (SKS), Database…
   api_count: 1
   score_band: developing
-  score_composite: 42.1
-  shared: 3
-- slug: hpe
-  name: Hewlett Packard Enterprise
-  description: Hewlett Packard Enterprise (HPE) is a global edge-to-cloud technology company providing servers, storage, networking, and hybrid cloud services, with HPE GreenLake serving as the unified edge-to-cloud platform delivering infrastructure as…
-  api_count: 3
-  score_band: developing
-  score_composite: 41.3
+  score_composite: 43.5
   shared: 3
 - slug: horizoniq
   name: HorizonIQ
@@ -226,6 +219,13 @@ providers:
   score_band: developing
   score_composite: 41.0
   shared: 3
+- slug: hpe
+  name: Hewlett Packard Enterprise
+  description: Hewlett Packard Enterprise (HPE) is a global edge-to-cloud technology company providing servers, storage, networking, and hybrid cloud services, with HPE GreenLake serving as the unified edge-to-cloud platform delivering infrastructure as…
+  api_count: 2
+  score_band: developing
+  score_composite: 40.8
+  shared: 3
 - slug: apache-cloudstack
   name: Apache CloudStack
   description: Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hyp…
@@ -233,19 +233,19 @@ providers:
   score_band: thin
   score_composite: 38.0
   shared: 3
+- slug: shadow
+  name: Shadow
+  description: Shadow is a French cloud computing company founded in 2015, launched commercially in 2016, and chaired by OVHcloud founder Octave Klaba. It streams complete high-end Windows desktops (Shadow PC, Shadow PC Pro), sells Nextcloud-based storag…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.7
+  shared: 3
 - slug: jarvislabs
   name: JarvisLabs
   description: JarvisLabs.ai is a GPU cloud for AI development that lets you launch on-demand GPU and CPU instances (H100, H200, A100, RTX Pro 6000, A6000, A5000, L4, A30) from the terminal. Its Python SDK (jarvislabs / legacy jlclient) and jl CLI wrap a…
   api_count: 1
   score_band: thin
   score_composite: 35.0
-  shared: 3
-- slug: shadow
-  name: Shadow
-  description: Shadow is a French cloud computing company founded in 2015, launched commercially in 2016, and chaired by OVHcloud founder Octave Klaba. It streams complete high-end Windows desktops (Shadow PC, Shadow PC Pro), sells Nextcloud-based storag…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.3
   shared: 3
 - slug: inspur-cloud
   name: Inspur Cloud

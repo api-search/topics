@@ -52,7 +52,7 @@ providers:
 - slug: microsoft-azure-cdn
   name: Microsoft Azure Cdn
   description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Mana…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.3
   shared: 2
@@ -66,14 +66,14 @@ providers:
 - slug: microsoft-azure-private-link
   name: Microsoft Azure Private Link
   description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 63.3
+  score_composite: 62.8
   shared: 2
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes ser…
-  api_count: 22
+  api_count: 11
   score_band: strong
   score_composite: 60.3
   shared: 2
@@ -108,9 +108,9 @@ providers:
 - slug: citrix
   name: Citrix
   description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix…
-  api_count: 6
+  api_count: 7
   score_band: developing
-  score_composite: 40.3
+  score_composite: 39.7
   shared: 2
 - slug: cisco-nexus
   name: Cisco Nexus Dashboard

@@ -75,7 +75,7 @@ providers:
 - slug: tembo
   name: Tembo
   description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 69.6
   shared: 2
@@ -86,6 +86,13 @@ providers:
   score_band: developing
   score_composite: 54.0
   shared: 2
+- slug: amika
+  name: Amika
+  description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.8
+  shared: 2
 - slug: assembled
   name: Assembled
   description: Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled l…
@@ -93,26 +100,12 @@ providers:
   score_band: developing
   score_composite: 51.7
   shared: 2
-- slug: amika
-  name: Amika
-  description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 2
 - slug: standard-compute
   name: Standard Compute
   description: An independent, flat-rate LLM inference API for AI coding agents. Standard Compute runs a single OpenAI-compatible (and Anthropic Messages-compatible) inference endpoint that smart-routes each request to the best-fit model across closed fr…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 47.0
-  shared: 2
-- slug: kimetsu-dev
-  name: Kimetsu
-  description: Kimetsu (kimetsu.dev) is Rodrigo Córdoba's open-source infrastructure for coding agents. Kimetsu itself is a local, model-free memory sidecar — one Rust binary and one SQLite brain per project — that Claude Code, Codex, Cursor, Pi and Open…
-  api_count: 4
-  score_band: developing
-  score_composite: 45.0
   shared: 2
 - slug: aisera
   name: Aisera
@@ -120,6 +113,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 44.7
+  shared: 2
+- slug: kimetsu-dev
+  name: Kimetsu
+  description: Kimetsu (kimetsu.dev) is Rodrigo Córdoba's open-source infrastructure for coding agents. Kimetsu itself is a local, model-free memory sidecar — one Rust binary and one SQLite brain per project — that Claude Code, Codex, Cursor, Pi and Open…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.5
   shared: 2
 - slug: ellipsis
   name: Ellipsis

@@ -52,26 +52,19 @@ links:
   url: https://openapi.tools/
 - type: Specification
   url: https://spec.openapis.org/oas/latest.html
-provider_count: 50
+provider_count: 49
 providers:
-- slug: spotlight-rules
-  name: Spotlight Rules
-  description: Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organizatio…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.2
-  shared: 6
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 4
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 4
@@ -94,7 +87,7 @@ providers:
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 56.0
   shared: 3
 - slug: hey-api
   name: Hey API
@@ -108,7 +101,7 @@ providers:
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.2
   shared: 3
 - slug: apicurio
   name: Apicurio
@@ -157,12 +150,12 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 93.6
+  score_composite: 93.8
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 2
@@ -187,19 +180,19 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 2
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
-  shared: 2
 - slug: etsi
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
   score_band: developing
-  score_composite: 50.6
+  score_composite: 53.7
+  shared: 2
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.6
   shared: 2
 - slug: elva
   name: Elva
@@ -211,7 +204,7 @@ providers:
 - slug: agntcy
   name: AGNTCY
   description: AGNTCY is the open collective for agent interoperability, initiated by Outshift — Cisco's incubation group — and governed under the Linux Foundation (LF Projects, LLC), developed in the open across 52 public repositories. It publishes spec…
-  api_count: 5
+  api_count: 4
   score_band: developing
   score_composite: 49.0
   shared: 2
@@ -232,9 +225,9 @@ providers:
 - slug: btc-war-live-market-data-api
   name: BTC War Live Market Data API
   description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
-  api_count: 6
+  api_count: 2
   score_band: developing
-  score_composite: 46.2
+  score_composite: 45.7
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
@@ -263,5 +256,12 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 39.5
+  shared: 2
+- slug: camara-project
+  name: CAMARA Project
+  description: CAMARA is the Telco Global API Alliance — an open-source project hosted by the Linux Foundation that defines, builds, and tests a unified set of network APIs across the world's mobile operators. Working alongside the GSMA Open Gateway comm…
+  api_count: 24
+  score_band: thin
+  score_composite: 30.4
   shared: 2
 ---

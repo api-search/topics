@@ -28,7 +28,7 @@ providers:
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.2
   shared: 2
@@ -51,7 +51,7 @@ providers:
   description: The Software Development Lifecycle (SDLC) encompasses all processes, tools, and methodologies involved in planning, developing, testing, and delivering software from inception to retirement. Modern SDLC platforms integrate project planning…
   api_count: 7
   score_band: emerging
-  score_composite: 22.7
+  score_composite: 24.1
   shared: 2
 - slug: rezonant
   name: Rezonant

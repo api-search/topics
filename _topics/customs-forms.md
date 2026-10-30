@@ -44,7 +44,7 @@ links:
   url: https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs-nomenclature-2022-edition.aspx
 - type: USHTS
   url: https://hts.usitc.gov/
-provider_count: 210
+provider_count: 216
 providers:
 - slug: convelio
   name: Convelio
@@ -56,7 +56,7 @@ providers:
 - slug: icontainers
   name: iContainers
   description: iContainers is a digital freight forwarder founded in 2007 in Barcelona and now part of Agility Logistics, following its 2019/2022 merger with Shipa Freight. The platform lets SMEs, importers/exporters, moving companies, freight agents and…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 41.1
   shared: 3
@@ -70,9 +70,16 @@ providers:
 - slug: boxc
   name: Boxc
   description: BoxC (BoxC Logistics, Inc.) is an international e-commerce logistics management platform. Its single RESTful API drives cross-border ecommerce by integrating dozens of carriers, customs clearance, duties and taxes, warehousing and fulfillm…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 33.0
+  shared: 3
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
+  score_band: thin
+  score_composite: 31.0
   shared: 3
 - slug: wavebl
   name: WaveBL
@@ -123,13 +130,6 @@ providers:
   score_band: emerging
   score_composite: 13.8
   shared: 3
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: minimal
-  score_composite: 10.9
-  shared: 3
 - slug: nabu
   name: Nabu
   description: Nabu is an AI-powered customs clearance platform that automates international trade compliance end to end. It collects shipment data from emails, PDFs, Excel files, databases, and TMS records via API, EDI, SFTP, or email, prepares complete…
@@ -168,9 +168,9 @@ providers:
 - slug: smklog-com
   name: SMKlog
   description: 'SMKlog (SMKLOG-2022 LLC, Berkeley Heights, New Jersey) is an independent US parcel shipping calculator and label seller: describe an item in plain words, get live USPS, UPS, FedEx and DHL Express rates from a US origin to the US, Canada, t…'
-  api_count: 4
+  api_count: 1
   score_band: exemplar
-  score_composite: 86.1
+  score_composite: 94.0
   shared: 2
 - slug: aftership
   name: AfterShip
@@ -182,9 +182,16 @@ providers:
 - slug: sendcloud
   name: Sendcloud
   description: Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and…
-  api_count: 30
+  api_count: 20
+  score_band: exemplar
+  score_composite: 66.7
+  shared: 2
+- slug: australia-post
+  name: Australia Post
+  description: Australia Post is Australia's primary postal operator, offering a developer platform with REST APIs for e-commerce merchants, logistics providers, and delivery partners. APIs cover shipping label creation, parcel tracking, postage calculat…
+  api_count: 12
   score_band: strong
-  score_composite: 66.4
+  score_composite: 61.7
   shared: 2
 - slug: leaflink
   name: LeafLink
@@ -210,16 +217,23 @@ providers:
 - slug: mvmnt
   name: MVMNT
   description: 'MVMNT is a freight-brokerage transportation management system (TMS) for midmarket and small freight brokers and shippers. Its REST API (OpenAPI 3.1) and real-time webhooks let teams automate freight workflows end to end: managing customers…'
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 59.9
+  score_composite: 60.1
   shared: 2
 - slug: mycarrier
   name: MyCarrier
   description: MyCarrier is a transportation management system (TMS) for less-than-truckload (LTL) and full-truckload freight, founded in 2018 by Michael Bookout and Chris Scheid. The platform lets shippers quote, book, dispatch, track, audit and pay fre…
-  api_count: 8
+  api_count: 6
   score_band: strong
   score_composite: 57.8
+  shared: 2
+- slug: parcellab
+  name: parcelLab
+  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the cus…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.9
   shared: 2
 - slug: shipstation
   name: ShipStation
@@ -235,25 +249,11 @@ providers:
   score_band: strong
   score_composite: 56.1
   shared: 2
-- slug: parcellab
-  name: parcelLab
-  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the cus…
-  api_count: 1
+- slug: ch-robinson-worldwide
+  name: C.H. Robinson
+  description: C.H. Robinson is one of the world's largest third-party logistics (3PL) providers, offering global freight transportation, supply chain management, customs brokerage, and sourcing of fresh produce. Its Navisphere transportation management…
+  api_count: 2
   score_band: strong
-  score_composite: 55.6
-  shared: 2
-- slug: kargo-ai
-  name: Kargo
-  description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
-  api_count: 3
-  score_band: developing
-  score_composite: 54.0
-  shared: 2
-- slug: shiprocket
-  name: Shiprocket
-  description: 'Shiprocket (BigFoot Retail Solutions Pvt Ltd, formerly KartRocket) is India''s largest eCommerce shipping and enablement platform, aggregating 25+ courier partners into one panel for D2C brands, SMEs and enterprise sellers: domestic and hyp…'
-  api_count: 1
-  score_band: developing
-  score_composite: 54.0
+  score_composite: 55.3
   shared: 2
 ---

@@ -146,7 +146,7 @@ providers:
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.9
   shared: 2
@@ -160,9 +160,9 @@ providers:
 - slug: canada-health-infoway
   name: Canada Health Infoway
   description: Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway…
-  api_count: 3
-  score_band: developing
-  score_composite: 39.7
+  api_count: 2
+  score_band: thin
+  score_composite: 39.1
   shared: 2
 - slug: cabolabs
   name: CaboLabs
@@ -181,7 +181,7 @@ providers:
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 15
+  api_count: 7
   score_band: thin
   score_composite: 28.1
   shared: 2
@@ -223,7 +223,7 @@ providers:
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
-  api_count: 24
+  api_count: 23
   score_band: emerging
   score_composite: 18.3
   shared: 2
@@ -239,7 +239,7 @@ providers:
   description: Ember.js is a productive, battle-tested JavaScript framework for building modern web applications. It includes Ember CLI for scaffolding and builds, a best-in-class router with async data loading, the Ember Data layer, a three-level testin…
   api_count: 0
   score_band: emerging
-  score_composite: 11.6
+  score_composite: 13.0
   shared: 2
 - slug: react
   name: React

@@ -70,21 +70,21 @@ providers:
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 7
   score_band: strong
-  score_composite: 57.0
+  score_composite: 58.4
   shared: 2
 - slug: zeebe
   name: Zeebe
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 47.1
+  score_composite: 48.4
   shared: 2
 - slug: spring
   name: Spring Framework
   description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, mes…
   api_count: 3
-  score_band: thin
-  score_composite: 38.7
+  score_band: developing
+  score_composite: 40.0
   shared: 2
 - slug: nats
   name: NATS
@@ -92,6 +92,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 38.3
+  shared: 2
+- slug: service-fabric
+  name: Service Fabric
+  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
   shared: 2
 - slug: diagrid
   name: Diagrid
@@ -106,13 +113,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 34.9
-  shared: 2
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.0
   shared: 2
 - slug: spin
   name: Spin
@@ -135,6 +135,13 @@ providers:
   score_band: thin
   score_composite: 27.9
   shared: 2
+- slug: quarkus
+  name: Quarkus
+  description: Quarkus is a Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, designed to build cloud-native microservices and serverless applications with fast startup times and low memory footprint.
+  api_count: 1
+  score_band: thin
+  score_composite: 27.3
+  shared: 2
 - slug: open-liberty
   name: Open Liberty
   description: Open Liberty is a lightweight, open source Java application server from IBM for building cloud-native microservices and applications with full support for Jakarta EE and MicroProfile.
@@ -149,19 +156,12 @@ providers:
   score_band: thin
   score_composite: 27.0
   shared: 2
-- slug: quarkus
-  name: Quarkus
-  description: Quarkus is a Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, designed to build cloud-native microservices and serverless applications with fast startup times and low memory footprint.
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.9
-  shared: 2
 - slug: jboss
   name: JBoss
   description: JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The JBoss product portfolio includes JBoss EAP (Enterprise Application Platform), the WildFly community appl…
   api_count: 5
   score_band: emerging
-  score_composite: 24.6
+  score_composite: 26.0
   shared: 2
 - slug: alibaba-sentinel
   name: Alibaba Sentinel

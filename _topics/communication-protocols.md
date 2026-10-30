@@ -69,7 +69,7 @@ providers:
   description: The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate…
   api_count: 4
   score_band: strong
-  score_composite: 54.5
+  score_composite: 55.3
   shared: 2
 - slug: firebase
   name: Firebase
@@ -130,7 +130,7 @@ providers:
 - slug: subspace
   name: Subspace
   description: Subspace was a real-time network-as-a-service platform delivering a dedicated, performance-optimized global network for latency-sensitive applications — WebRTC, VoIP/SIP calling, video conferencing, multiplayer gaming, and fintech. Its Pro…
-  api_count: 2
+  api_count: 1
   score_band: minimal
   score_composite: 0
   shared: 2
