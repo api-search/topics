@@ -82,7 +82,7 @@ links:
   url: https://github.com/api-evangelist/rules
 - type: RelatedTopic
   url: https://github.com/api-evangelist/policies
-provider_count: 121
+provider_count: 118
 providers:
 - slug: stoplight
   name: Stoplight

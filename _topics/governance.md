@@ -97,7 +97,7 @@ links:
   url: https://github.com/api-evangelist
 - type: DeveloperPortal
   url: https://developer.apievangelist.com/
-provider_count: 80
+provider_count: 78
 providers:
 - slug: redocly
   name: Redocly

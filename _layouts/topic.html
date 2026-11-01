@@ -86,6 +86,11 @@ layout: default
 <p class="empty-note">No provider on APIs.io shares enough of this topic's tags to list here yet.</p>
 {% endif %}
 
+{%- comment -%} roadmap#881: a concept is a term of one area. {%- endcomment -%}
+{% if page.area %}
+<p class="mt-3">A term in the <a href="https://apis.io/areas/{{ page.area }}/">{{ page.area | replace: '-', ' ' | capitalize }}</a> area.</p>
+{% endif %}
+
 {% if page.tags and page.tags.size > 0 %}
 <h2 class="section-title">Tags</h2>
 <div>{% for t in page.tags %}<span class="tag-pill">{{ t }}</span>{% endfor %}</div>

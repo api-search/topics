@@ -72,7 +72,7 @@ links:
   url: https://community.smartbear.com/
 - type: Twitter
   url: https://twitter.com/SwaggerApi
-provider_count: 122
+provider_count: 119
 providers:
 - slug: openapi-generator
   name: OpenAPI Generator

@@ -75,8 +75,6 @@ links:
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/linting/refs/heads/main/vocabulary/linting-vocabulary.yml
 - type: RelatedRepository
-  url: https://github.com/api-evangelist/spotlight-rules
-- type: RelatedRepository
   url: https://github.com/api-evangelist/spectral
 - type: RelatedRepository
   url: https://github.com/api-evangelist/vacuum

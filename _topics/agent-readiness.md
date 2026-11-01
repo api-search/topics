@@ -83,7 +83,7 @@ links:
   url: https://github.com/api-evangelist/agent-readiness/blob/main/json-ld/agent-readiness-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/agent-readiness/blob/main/vocabulary/agent-readiness-vocabulary.yaml
-provider_count: 420
+provider_count: 419
 providers:
 - slug: apis-io
   name: APIs.io

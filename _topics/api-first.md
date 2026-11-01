@@ -39,7 +39,7 @@ links:
   url: https://github.com/api-evangelist/api-first/blob/main/llms/api-first-llms.txt
 - type: Documentation
   url: https://nordicapis.com/a-software-architects-guide-to-api-first-strategy/
-provider_count: 10
+provider_count: 9
 providers:
 - slug: postman
   name: Postman
@@ -81,7 +81,7 @@ providers:
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 20.4
+  score_composite: 19.0
   shared: 2
 - slug: design-patterns
   name: Design Patterns

@@ -61,7 +61,7 @@ links:
   url: https://github.com/api-evangelist/templates/blob/main/json-schema/templates-template-schema.json
 - type: Vocabulary
   url: https://github.com/api-evangelist/templates/blob/main/vocabulary/templates-vocabulary.yml
-provider_count: 112
+provider_count: 110
 providers:
 - slug: stoplight
   name: Stoplight
