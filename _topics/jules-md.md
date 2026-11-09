@@ -72,40 +72,40 @@ providers:
   score_band: null
   score_composite: 0
   shared: 3
-- slug: tembo
-  name: Tembo
-  description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
+- slug: amika
+  name: Amika
+  description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
   api_count: 1
-  score_band: exemplar
-  score_composite: 69.6
+  score_band: strong
+  score_composite: 61.1
   shared: 2
 - slug: runloop-ai
   name: Runloop
   description: Runloop is the AI Agent Accelerator — secure code sandboxes (Devboxes), evaluation infrastructure (Benchmarks, Scenarios), and production-grade orchestration for AI coding agents at enterprise scale. The platform provides a single REST API…
   api_count: 14
-  score_band: developing
-  score_composite: 54.0
+  score_band: strong
+  score_composite: 60.3
   shared: 2
-- slug: amika
-  name: Amika
-  description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
+- slug: tembo
+  name: Tembo
+  description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
   api_count: 1
-  score_band: developing
-  score_composite: 51.8
+  score_band: strong
+  score_composite: 58.0
   shared: 2
 - slug: assembled
   name: Assembled
   description: Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled l…
   api_count: 4
-  score_band: developing
-  score_composite: 51.7
+  score_band: strong
+  score_composite: 56.4
   shared: 2
 - slug: standard-compute
   name: Standard Compute
   description: An independent, flat-rate LLM inference API for AI coding agents. Standard Compute runs a single OpenAI-compatible (and Anthropic Messages-compatible) inference endpoint that smart-routes each request to the best-fit model across closed fr…
   api_count: 1
   score_band: developing
-  score_composite: 47.0
+  score_composite: 51.1
   shared: 2
 - slug: aisera
   name: Aisera
@@ -119,7 +119,7 @@ providers:
   description: Kimetsu (kimetsu.dev) is Rodrigo Córdoba's open-source infrastructure for coding agents. Kimetsu itself is a local, model-free memory sidecar — one Rust binary and one SQLite brain per project — that Claude Code, Codex, Cursor, Pi and Open…
   api_count: 1
   score_band: developing
-  score_composite: 44.5
+  score_composite: 41.0
   shared: 2
 - slug: ellipsis
   name: Ellipsis
@@ -146,8 +146,8 @@ providers:
   name: Niteshift
   description: Niteshift is the full-stack cloud for coding agents. Engineering teams define their dev environment, tools, and policies once, then run frontier or open-source coding agents (Claude Code, Codex, Cursor, OpenCode, Pi) inside fully configure…
   api_count: 0
-  score_band: emerging
-  score_composite: 25.9
+  score_band: thin
+  score_composite: 26.9
   shared: 2
 - slug: openblock-labs
   name: OpenBlock Labs

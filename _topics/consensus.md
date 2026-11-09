@@ -65,15 +65,8 @@ links:
   url: https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf
 - type: Resources
   url: https://raft.github.io/
-provider_count: 7
+provider_count: 6
 providers:
-- slug: raft
-  name: Raft
-  description: Raft is a consensus algorithm for distributed systems designed to be understandable and provide the same guarantees as Paxos, used for distributed log replication and leader election in fault-tolerant systems.
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.1
-  shared: 4
 - slug: etcd
   name: Etcd
   description: etcd is a CNCF graduated distributed, reliable key-value store used as the backing store for all Kubernetes cluster data. It provides strong consistency guarantees using the Raft consensus algorithm, supporting watch operations, lease-base…
@@ -86,14 +79,14 @@ providers:
   description: Sapien is the company behind Proof of Quality (PoQ), an open protocol and consensus/attestation system for verifiable quality signals on AI data and subjective expert outputs. A panel of independent, collateral-backed validators reviews ea…
   api_count: 1
   score_band: developing
-  score_composite: 39.3
+  score_composite: 42.1
   shared: 2
 - slug: tendermint
   name: Tendermint
   description: Tendermint is a core contributor to the Cosmos Network and the original developer of Tendermint Core, a best-in-class Byzantine Fault Tolerant (BFT) consensus engine for state-machine replication, alongside the Cosmos SDK blockchain applic…
   api_count: 1
-  score_band: thin
-  score_composite: 38.9
+  score_band: developing
+  score_composite: 40.5
   shared: 2
 - slug: apache-helix
   name: Apache Helix

@@ -72,21 +72,28 @@ links:
   url: https://community.smartbear.com/
 - type: Twitter
   url: https://twitter.com/SwaggerApi
-provider_count: 119
+provider_count: 134
 providers:
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 43.0
   shared: 4
+- slug: stoplight
+  name: Stoplight
+  description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 76.3
+  shared: 3
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_band: exemplar
+  score_composite: 69.0
   shared: 3
 - slug: netcracker
   name: Netcracker
@@ -99,22 +106,29 @@ providers:
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
-  score_band: developing
-  score_composite: 53.7
+  score_band: strong
+  score_composite: 61.6
   shared: 3
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
   api_count: 2
   score_band: developing
-  score_composite: 48.5
+  score_composite: 46.8
   shared: 3
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
+  shared: 3
+- slug: api-blueprint
+  name: API Blueprint
+  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.7
   shared: 3
 - slug: zally
   name: Zally
@@ -122,13 +136,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 39.5
-  shared: 3
-- slug: api-blueprint
-  name: API Blueprint
-  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.1
   shared: 3
 - slug: orval
   name: Orval
@@ -144,19 +151,12 @@ providers:
   score_band: thin
   score_composite: 36.2
   shared: 3
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
-  shared: 3
 - slug: apicurio
   name: Apicurio
   description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 32.5
   shared: 3
 - slug: camara-project
   name: CAMARA Project
@@ -172,12 +172,19 @@ providers:
   score_band: thin
   score_composite: 29.3
   shared: 3
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.2
+  shared: 3
 - slug: openapi-typescript-codegen
   name: OpenAPI TypeScript Codegen
   description: OpenAPI TypeScript Codegen is an MIT-licensed Node.js library and CLI by Ferdi Koomen that reads an OpenAPI 2.0 or 3.0 specification — JSON or YAML, from a path, URL, or string — and generates a lightweight, fully typed TypeScript client.…
   api_count: 1
   score_band: thin
-  score_composite: 27.5
+  score_composite: 26.5
   shared: 3
 - slug: nswag
   name: NSwag
@@ -214,74 +221,67 @@ providers:
   score_band: null
   score_composite: 0
   shared: 3
-- slug: wso2
-  name: WSO2
-  description: WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and clo…
-  api_count: 7
-  score_band: exemplar
-  score_composite: 83.0
-  shared: 2
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 2
-- slug: stoplight
-  name: Stoplight
-  description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
-  api_count: 1
+- slug: wso2
+  name: WSO2
+  description: WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and clo…
+  api_count: 7
   score_band: exemplar
-  score_composite: 74.8
-  shared: 2
-- slug: svix
-  name: Svix
-  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 73.1
+  score_composite: 82.9
   shared: 2
 - slug: 0xarchive
   name: 0xArchive
   description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
   api_count: 1
   score_band: exemplar
-  score_composite: 71.7
+  score_composite: 75.7
+  shared: 2
+- slug: svix
+  name: Svix
+  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 74.5
+  shared: 2
+- slug: eclipse
+  name: Eclipse Foundation
+  description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 72.2
+  shared: 2
+- slug: speakeasy
+  name: Speakeasy
+  description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.7
   shared: 2
 - slug: cvent-event-cloud
   name: Cvent Event Cloud
   description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hyb…'
   api_count: 2
   score_band: exemplar
-  score_composite: 70.9
-  shared: 2
-- slug: scalar
-  name: Scalar
-  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rule…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 70.3
+  score_composite: 70.5
   shared: 2
 - slug: canvas
   name: Canvas
   description: Canvas is Instructure's open-source learning management system (LMS) used by K-12, higher education, and corporate training organizations to deliver courses, assessments, and learner communication. Canvas exposes a comprehensive REST API a…
   api_count: 146
   score_band: exemplar
-  score_composite: 68.9
+  score_composite: 70.3
   shared: 2
 - slug: archbee
   name: Archbee
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
   api_count: 11
   score_band: exemplar
-  score_composite: 68.2
-  shared: 2
-- slug: speakeasy
-  name: Speakeasy
-  description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.3
+  score_composite: 69.8
   shared: 2
 ---

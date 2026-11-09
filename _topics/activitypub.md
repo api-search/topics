@@ -115,14 +115,14 @@ providers:
   description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operate…
   api_count: 1
   score_band: developing
-  score_composite: 42.3
+  score_composite: 43.9
   shared: 2
 - slug: pixelfed
   name: Pixelfed
   description: Pixelfed is a decentralized, federated photo-sharing platform and open-source alternative to Instagram. Built on the ActivityPub protocol, it connects with the broader Fediverse — including Mastodon, PeerTube, and other federated networks…
   api_count: 1
   score_band: thin
-  score_composite: 37.2
+  score_composite: 38.7
   shared: 2
 - slug: atproto
   name: AT Protocol
@@ -150,7 +150,7 @@ providers:
   description: A decentralized communication protocol and platform for federated social networking, enabling secure and private content sharing across distributed servers.
   api_count: 1
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 14.1
   shared: 2
 - slug: salduu-profe-social
   name: Salduu (Profe Social)

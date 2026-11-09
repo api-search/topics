@@ -78,8 +78,8 @@ providers:
   name: SOAP
   description: SOAP (Simple Object Access Protocol) is an XML-based messaging protocol for exchanging structured information in web services, standardized by W3C as SOAP 1.2 (2003). It provides a platform-independent, language-neutral framework for web s…
   api_count: 1
-  score_band: emerging
-  score_composite: 19.0
+  score_band: null
+  score_composite: 0
   shared: 3
 - slug: acord
   name: ACORD
@@ -93,7 +93,7 @@ providers:
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.3
   shared: 2
 - slug: apache-cxf
   name: Apache CXF

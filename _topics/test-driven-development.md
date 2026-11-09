@@ -67,42 +67,49 @@ links:
   url: https://github.com/api-evangelist/test-driven-development/blob/main/json-ld/test-driven-development-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/test-driven-development/blob/main/vocabulary/test-driven-development-vocabulary.yml
-provider_count: 96
+provider_count: 95
 providers:
 - slug: github-actions
   name: GitHub Actions
   description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll r…
   api_count: 1
   score_band: exemplar
-  score_composite: 81.3
+  score_composite: 82.9
   shared: 3
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
   api_count: 1
-  score_band: strong
-  score_composite: 61.2
+  score_band: exemplar
+  score_composite: 72.0
   shared: 3
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up…'
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 65.2
+  shared: 3
+- slug: kubeshop
+  name: Kubeshop
+  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.8
   shared: 3
 - slug: opkey
   name: Opkey
   description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
   api_count: 1
   score_band: strong
-  score_composite: 55.3
+  score_composite: 60.6
   shared: 3
-- slug: kubeshop
-  name: Kubeshop
-  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 3
+- slug: teamcity
+  name: TeamCity
+  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing pr…
+  api_count: 1
   score_band: developing
-  score_composite: 52.9
+  score_composite: 47.0
   shared: 3
 - slug: launchable
   name: Launchable
@@ -111,26 +118,19 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 3
-- slug: teamcity
-  name: TeamCity
-  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing pr…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.6
-  shared: 3
 - slug: codspeed
   name: CodSpeed
   description: CodSpeed is a continuous performance testing and optimization platform that automatically detects performance regressions in pull requests and proposes autonomous optimizations. It runs benchmarks with sub-1% variance inside CI (GitHub Act…
   api_count: 0
   score_band: developing
-  score_composite: 41.9
+  score_composite: 43.4
   shared: 3
 - slug: limrun
   name: Limrun
   description: Limrun (Limrun, Inc.) is a Y Combinator-backed cloud infrastructure company for mobile development, built so cloud coding agents and Linux CI runners can build, run, and test iOS and Android apps without a Mac. Limrun exposes three composa…
   api_count: 1
-  score_band: thin
-  score_composite: 38.2
+  score_band: developing
+  score_composite: 39.9
   shared: 3
 - slug: atomicjar
   name: AtomicJar
@@ -139,6 +139,13 @@ providers:
   score_band: emerging
   score_composite: 17.9
   shared: 3
+- slug: simantic
+  name: Simantic
+  description: Simantic builds simulated hardware for embedded QA, modernizing embedded firmware development through hardware simulation designed for AI adoption in hardware engineering. Its platform emulates microcontroller (MCU) systems so engineers ca…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.9
+  shared: 3
 - slug: approxima
   name: Approxima
   description: 'Approxima is a Y Combinator (Winter 2026) startup building AI agents that test every pull request. Approxima plugs into your CI/CD pipeline and runs autonomous agents on each PR: the agents build your application in an isolated sandbox, ex…'
@@ -146,137 +153,130 @@ providers:
   score_band: minimal
   score_composite: 10.1
   shared: 3
-- slug: simantic
-  name: Simantic
-  description: Simantic builds simulated hardware for embedded QA, modernizing embedded firmware development through hardware simulation designed for AI adoption in hardware engineering. Its platform emulates microcontroller (MCU) systems so engineers ca…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.8
-  shared: 3
-- slug: extreme-programming
-  name: Extreme Programming
-  description: Extreme Programming (XP) is an agile software development methodology that aims to produce higher quality software and improve quality of life for the development team. XP emphasizes customer satisfaction through frequent releases, continu…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.3
-  shared: 3
-- slug: gitlab
-  name: GitLab
-  description: GitLab Inc. is an open-core company that develops GitLab, a DevOps software platform for building, securing, and managing applications. Created by Ukrainian developer Dmytro Zaporozhets and Dutch developer Sytse Sijbrandij, GitLab became t…
-  api_count: 13
-  score_band: exemplar
-  score_composite: 81.0
-  shared: 2
 - slug: github
   name: GitHub
   description: The GitHub REST API allows developers to programmatically interact with GitHub resources including repositories, users, organizations, pull requests, issues, and more.
-  api_count: 38
+  api_count: 39
   score_band: exemplar
-  score_composite: 79.0
+  score_composite: 85.4
+  shared: 2
+- slug: gitlab
+  name: GitLab
+  description: GitLab Inc. is an open-core company that develops GitLab, a DevOps software platform for building, securing, and managing applications. Created by Ukrainian developer Dmytro Zaporozhets and Dutch developer Sytse Sijbrandij, GitLab became t…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 79.6
   shared: 2
 - slug: microsoft-azure-devops
   name: Azure DevOps
   description: Azure DevOps provides developer services for support teams to plan work, collaborate on code development, and build and deploy applications.
   api_count: 11
   score_band: exemplar
-  score_composite: 75.4
+  score_composite: 76.8
   shared: 2
 - slug: cloudbees
   name: CloudBees
   description: CloudBees provides software delivery automation across continuous integration, continuous deployment, release orchestration, and feature management. Their developer surface includes the CloudBees CI REST API (an extension of the Jenkins RE…
   api_count: 2
   score_band: exemplar
-  score_composite: 66.7
-  shared: 2
-- slug: circleci
-  name: CircleCI
-  description: CircleCI is a continuous integration and continuous delivery (CI/CD) platform that automates software build, test, and deployment pipelines. Their developer surface includes the REST API v2 (the recommended modern interface), the legacy v1…
-  api_count: 2
-  score_band: strong
-  score_composite: 66.1
-  shared: 2
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
-  api_count: 2
-  score_band: strong
-  score_composite: 64.8
+  score_composite: 71.2
   shared: 2
 - slug: tempmailgrab
   name: TempMailGrab API
   description: Privacy-first disposable/temporary email service with private 24-hour inboxes, real-time WebSocket delivery, automatic OTP and verification-link extraction, attachments, webhooks, custom domains, and a versioned REST API for QA, test autom…
   api_count: 1
-  score_band: strong
-  score_composite: 63.2
+  score_band: exemplar
+  score_composite: 69.6
+  shared: 2
+- slug: taskfolk
+  name: Taskfolk
+  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.3
+  shared: 2
+- slug: circleci
+  name: CircleCI
+  description: CircleCI is a continuous integration and continuous delivery (CI/CD) platform that automates software build, test, and deployment pipelines. Their developer surface includes the REST API v2 (the recommended modern interface), the legacy v1…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 69.1
   shared: 2
 - slug: scorecard
   name: Scorecard
   description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, a…
   api_count: 1
   score_band: strong
-  score_composite: 59.4
-  shared: 2
-- slug: gradle
-  name: Gradle
-  description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle E…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.3
-  shared: 2
-- slug: keploy
-  name: Keploy
-  description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.1
-  shared: 2
-- slug: smartbear
-  name: SmartBear
-  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI fo…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.9
+  score_composite: 62.7
   shared: 2
 - slug: testfairy
   name: TestFairy
   description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs,…
   api_count: 1
   score_band: strong
-  score_composite: 54.3
+  score_composite: 62.2
   shared: 2
-- slug: jetbrains
-  name: JetBrains
-  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, You…
-  api_count: 5
-  score_band: developing
-  score_composite: 53.5
+- slug: keploy
+  name: Keploy
+  description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.7
+  shared: 2
+- slug: gradle
+  name: Gradle
+  description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle E…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.3
+  shared: 2
+- slug: emerge-tools
+  name: Emerge Tools
+  description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR aler…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.9
+  shared: 2
+- slug: parabol
+  name: Parabol
+  description: Parabol is an open-source collaborative workspace that helps teams run more effective, inclusive, and engaging meetings — retrospectives, sprint poker estimation, check-ins/standups, and collaborative Pages documents — all in real time. Pa…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.1
   shared: 2
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
   api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 58.0
   shared: 2
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
+- slug: nevercode
+  name: Nevercode
+  description: Codemagic (built by Nevercode, founded in Estonia) is a continuous integration and delivery (CI/CD) platform purpose-built for mobile app teams. It automates building, testing, code signing, and releasing apps across Flutter, React Native,…
   api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_band: strong
+  score_composite: 56.9
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
   api_count: 1
-  score_band: developing
-  score_composite: 52.1
+  score_band: strong
+  score_composite: 56.7
   shared: 2
-- slug: replay
-  name: Replay
-  description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause…
+- slug: hansoft
+  name: Hansoft
+  description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban,…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.6
+  shared: 2
+- slug: google-cloud-build
+  name: Google Cloud Build
+  description: Google Cloud Build is a fully managed continuous integration and continuous delivery (CI/CD) platform that lets you build, test, and deploy software quickly across all languages and frameworks. It executes builds on Google Cloud infrastruc…
   api_count: 1
-  score_band: developing
-  score_composite: 51.2
+  score_band: strong
+  score_composite: 55.1
   shared: 2
 ---

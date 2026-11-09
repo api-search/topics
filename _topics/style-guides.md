@@ -82,35 +82,35 @@ links:
   url: https://github.com/api-evangelist/rules
 - type: RelatedTopic
   url: https://github.com/api-evangelist/policies
-provider_count: 118
+provider_count: 129
 providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
-  shared: 4
+  score_composite: 76.3
+  shared: 5
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_band: exemplar
+  score_composite: 69.0
   shared: 4
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 60.1
   shared: 4
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
   api_count: 2
   score_band: developing
-  score_composite: 48.5
+  score_composite: 46.8
   shared: 4
 - slug: api-fiddle
   name: API-Fiddle
@@ -138,77 +138,77 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 3
 - slug: archbee
   name: Archbee
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
   api_count: 11
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 69.8
   shared: 3
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification fo…
   api_count: 5
   score_band: strong
-  score_composite: 61.6
+  score_composite: 63.2
   shared: 3
-- slug: apiverve
-  name: APIVerve
-  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+- slug: mediacaption-api
+  name: MediaCaption API
+  description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 58.1
   shared: 3
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
   api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 58.0
   shared: 3
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
-  shared: 3
-- slug: mediacaption-api
-  name: MediaCaption API
-  description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
+  score_composite: 52.3
   shared: 3
 - slug: elva
   name: Elva
   description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth O…'
   api_count: 1
   score_band: developing
-  score_composite: 50.6
+  score_composite: 52.2
+  shared: 3
+- slug: apiverve
+  name: APIVerve
+  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.3
   shared: 3
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
   shared: 3
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 43.0
   shared: 3
 - slug: api-blueprint
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
-  score_band: thin
-  score_composite: 38.1
+  score_band: developing
+  score_composite: 39.7
   shared: 3
 - slug: ogen
   name: Ogen
@@ -217,19 +217,19 @@ providers:
   score_band: thin
   score_composite: 36.2
   shared: 3
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
-  shared: 3
 - slug: typespec
   name: TypeSpec
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
+  shared: 3
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.2
   shared: 3
 - slug: elements
   name: Stoplight Elements

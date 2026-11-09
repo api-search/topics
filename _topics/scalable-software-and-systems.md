@@ -83,7 +83,7 @@ links:
   url: https://github.com/api-evangelist/scalable-software-and-systems/blob/main/examples/scalable-software-and-systems-order-placed-event-example.json
 - type: Examples
   url: https://github.com/api-evangelist/scalable-software-and-systems/blob/main/examples/scalable-software-and-systems-temporal-workflow-example.json
-provider_count: 33
+provider_count: 27
 providers:
 - slug: axon-framework
   name: Axon Framework
@@ -97,63 +97,49 @@ providers:
   description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, providing frameworks for managing distributed data consistency across services without two-phase commit.
   api_count: 1
   score_band: emerging
-  score_composite: 19.8
-  shared: 3
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 3
-- slug: microservices
-  name: Microservices
-  description: An index of microservices architecture frameworks, service discovery, resilience, messaging, workflow orchestration, and distributed systems tooling repositories.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 3
-- slug: microservices-design-patterns
-  name: Microservices Design Patterns
-  description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
+  score_composite: 21.5
   shared: 3
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 74.5
   shared: 2
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer…
   api_count: 5
   score_band: exemplar
-  score_composite: 66.9
+  score_composite: 69.6
+  shared: 2
+- slug: microsoft-azure-service-fabric
+  name: Azure Service Fabric
+  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
+  api_count: 4
+  score_band: strong
+  score_composite: 65.9
+  shared: 2
+- slug: microsoft-azure-integration-services
+  name: Microsoft Azure Integration Services
+  description: Microsoft Azure Integration Services is a collection of cloud-based integration capabilities that connect applications, data, and processes across cloud and on-premises environments. It includes API Management, Logic Apps, Service Bus, Eve…
+  api_count: 4
+  score_band: strong
+  score_composite: 63.3
   shared: 2
 - slug: amazon-sqs
   name: Amazon SQS
   description: Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
   api_count: 1
   score_band: strong
-  score_composite: 57.2
+  score_composite: 59.8
   shared: 2
 - slug: zeebe
   name: Zeebe
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 48.4
-  shared: 2
-- slug: microsoft-azure-integration-services
-  name: Microsoft Azure Integration Services
-  description: Microsoft Azure Integration Services is a collection of cloud-based integration capabilities that connect applications, data, and processes across cloud and on-premises environments. It includes API Management, Logic Apps, Service Bus, Eve…
-  api_count: 6
-  score_band: developing
-  score_composite: 47.8
+  score_composite: 53.2
   shared: 2
 - slug: apollo-config
   name: Apollo Config
@@ -161,13 +147,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 44.4
-  shared: 2
-- slug: microsoft-azure-service-fabric
-  name: Azure Service Fabric
-  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.7
   shared: 2
 - slug: spring
   name: Spring Framework
@@ -211,19 +190,12 @@ providers:
   score_band: thin
   score_composite: 35.0
   shared: 2
-- slug: kafka
-  name: Apache Kafka
-  description: Apache Kafka is a distributed event streaming platform for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. It provides high-throughput, fault-tolerant, publish-subscribe messaging.
-  api_count: 5
-  score_band: thin
-  score_composite: 34.8
-  shared: 2
 - slug: conductor-oss
   name: Conductor OSS
   description: Conductor OSS is the Netflix-founded, Orkes-stewarded open source workflow and agentic AI orchestration platform. It provides a durable, event-driven workflow engine for coordinating microservices, long-running tasks, human approvals, and…
   api_count: 1
   score_band: thin
-  score_composite: 32.7
+  score_composite: 34.3
   shared: 2
 - slug: vert-x
   name: Vert.x
@@ -251,7 +223,7 @@ providers:
   description: Poolside is an AI foundation model lab (founded 2023 by former GitHub CTO Jason Warner and Eiso Kant) building open-weight foundation models - the Laguna family - purpose-built for agentic software engineering. Poolside does not run a shar…
   api_count: 1
   score_band: thin
-  score_composite: 26.7
+  score_composite: 28.3
   shared: 2
 - slug: jboss
   name: JBoss
@@ -265,7 +237,7 @@ providers:
   description: Conductor is a microservices orchestration platform originally created by Netflix, providing a workflow engine for coordinating and managing complex distributed processes across multiple services with built-in retries, error handling, and…
   api_count: 1
   score_band: emerging
-  score_composite: 19.9
+  score_composite: 21.5
   shared: 2
 - slug: go-kit
   name: Go Kit
@@ -274,6 +246,13 @@ providers:
   score_band: emerging
   score_composite: 13.6
   shared: 2
+- slug: bloomfire
+  name: Bloomfire
+  description: Bloomfire provides an AI‑first, headless platform for enterprise knowledge management. Their Governed Context for Enterprise AI unifies data, content, and AI models, offering modular services like Universal Connector Framework, Ontology Ma…
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.7
+  shared: 2
 - slug: go-micro
   name: Go Micro
   description: Go Micro is a distributed systems framework for building microservices in Go, providing service discovery, load balancing, message encoding, RPC, and async messaging out of the box.
@@ -281,18 +260,18 @@ providers:
   score_band: emerging
   score_composite: 11.0
   shared: 2
+- slug: wave-access
+  name: WaveAccess
+  description: WaveAccess builds enterprise AI solutions and modernizes complex systems, offering senior engineers accountable from pilot to production. The company provides AI‑first enterprise software engineering, custom development, rapid prototyping,…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.4
+  shared: 2
 - slug: lunchbadger
   name: LunchBadger
   description: LunchBadger is a technology company focused on providing a visual platform for designing, building, and managing microservice architectures and APIs. It offers tools for API modeling, documentation, and governance, aiming to streamline the…
   api_count: 0
   score_band: minimal
-  score_composite: 5.2
-  shared: 2
-- slug: event-driven-architecture
-  name: Event-Driven Architecture
-  description: Event-driven architecture (EDA) is a software architecture pattern promoting the production, detection, consumption of, and reaction to events. In this pattern, systems are designed to respond to state changes asynchronously through event…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
+  score_composite: 4.8
   shared: 2
 ---

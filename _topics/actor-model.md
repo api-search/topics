@@ -56,7 +56,7 @@ providers:
   description: Lightbend, Inc. (dba Akka) is the company behind the Akka agentic systems platform. Founded as Typesafe by the creators of the Scala language and the Akka actor toolkit, the company built the JVM reactive stack — Akka actors, Akka Streams,…
   api_count: 0
   score_band: developing
-  score_composite: 40.6
+  score_composite: 43.3
   shared: 2
 - slug: akka
   name: Akka

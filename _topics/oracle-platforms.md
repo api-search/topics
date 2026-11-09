@@ -132,35 +132,49 @@ links:
   url: https://developer.oracle.com/community/
 - type: GitHubOrganization
   url: https://github.com/oracle
-provider_count: 360
+provider_count: 447
 providers:
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kube…
   api_count: 9
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 76.9
   shared: 4
 - slug: microsoft-azure
   name: Microsoft Azure
   description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
   api_count: 697
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 78.4
   shared: 3
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 66.4
+  score_composite: 64.9
   shared: 3
 - slug: crusoe
   name: Crusoe
   description: Crusoe is a vertically integrated "AI factory" company that designs, builds, and operates energy-first AI infrastructure, and sells it as Crusoe Cloud — a GPU cloud for training, fine-tuning, and inference. The public developer surface is…
   api_count: 2
   score_band: strong
-  score_composite: 57.4
+  score_composite: 61.8
+  shared: 3
+- slug: tiledb
+  name: TileDB
+  description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
+  api_count: 4
+  score_band: strong
+  score_composite: 59.2
+  shared: 3
+- slug: ocient
+  name: Ocient
+  description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.9
   shared: 3
 - slug: databricks
   name: Databricks
@@ -176,26 +190,12 @@ providers:
   score_band: strong
   score_composite: 55.9
   shared: 3
-- slug: ocient
-  name: Ocient
-  description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.1
-  shared: 3
-- slug: tiledb
-  name: TileDB
-  description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
-  api_count: 4
-  score_band: strong
-  score_composite: 55.1
-  shared: 3
 - slug: teradata
   name: Teradata
   description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
   api_count: 1
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.1
   shared: 3
 - slug: tibco
   name: TIBCO
@@ -209,21 +209,14 @@ providers:
   description: SmartMind AI Inc. is a South Korean AI company (Techstars 2020, Seoul) building ontology-based enterprise AI. Its current products are Qurify — a natural-language data analysis platform that answers questions without SQL by combining struc…
   api_count: 1
   score_band: thin
-  score_composite: 37.0
+  score_composite: 39.2
   shared: 3
 - slug: aible
   name: Aible
   description: Aible is an enterprise AI company founded in 2018 and headquartered in Pleasanton, California, that lets business users build and run AI agents, AutoML models and generative-AI analytics against data that stays inside the customer's own AW…
   api_count: 1
   score_band: thin
-  score_composite: 31.2
-  shared: 3
-- slug: clientsuccess
-  name: ClientSuccess
-  description: ClientSuccess provides a comprehensive customer success platform that helps businesses reduce churn, increase revenue, and deliver world‑class customer experiences. The SaaS solution combines AI‑driven insights, automation, and a unified p…
-  api_count: 0
-  score_band: thin
-  score_composite: 31.0
+  score_composite: 30.4
   shared: 3
 - slug: sqream-technologies
   name: SQream Technologies
@@ -238,6 +231,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 24.1
+  shared: 3
+- slug: clientsuccess
+  name: ClientSuccess
+  description: ClientSuccess provides a comprehensive customer success platform that helps businesses reduce churn, increase revenue, and deliver world‑class customer experiences. The SaaS solution combines AI‑driven insights, automation, and a unified p…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.4
   shared: 3
 - slug: decisionnext
   name: DecisionNext
@@ -257,15 +257,8 @@ providers:
   name: Sellmore
   description: Sellmore provides integration software for data synchronization, enabling businesses to connect and automate their systems across platforms. The solution offers process automation, data quality management, and a unified interface for manag…
   api_count: 0
-  score_band: emerging
-  score_composite: 15.6
-  shared: 3
-- slug: abinitio
-  name: Ab Initio
-  description: Ab Initio provides an enterprise data platform that enables large-scale data processing, integration, and analytics across diverse industries. Its software automates data ingestion, transformation, and delivery, supporting batch and real‑t…
-  api_count: 1
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.1
   shared: 3
 - slug: vespucci
   name: Vespucci
@@ -273,6 +266,13 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 9.0
+  shared: 3
+- slug: abinitio
+  name: Ab Initio
+  description: Ab Initio provides an enterprise data platform that enables large-scale data processing, integration, and analytics across diverse industries. Its software automates data ingestion, transformation, and delivery, supporting batch and real‑t…
+  api_count: 1
+  score_band: minimal
+  score_composite: 7.0
   shared: 3
 - slug: aaktelescienceinc
   name: AAK Tele-Science
@@ -319,7 +319,14 @@ providers:
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching,…
-  api_count: 10
+  api_count: 11
+  score_band: exemplar
+  score_composite: 80.2
+  shared: 2
+- slug: clickhouse
+  name: ClickHouse
+  description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL…
+  api_count: 3
   score_band: exemplar
   score_composite: 76.9
   shared: 2
@@ -328,20 +335,13 @@ providers:
   description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11),…
   api_count: 14
   score_band: exemplar
-  score_composite: 75.8
+  score_composite: 75.7
   shared: 2
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
-  shared: 2
-- slug: google-analytics
-  name: Google Analytics
-  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-plat…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 72.1
+  score_composite: 74.5
   shared: 2
 ---

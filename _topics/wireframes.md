@@ -74,7 +74,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/wireframes/refs/heads/main/json-ld/wireframes-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/wireframes/refs/heads/main/vocabulary/wireframes-vocabulary.yml
-provider_count: 16
+provider_count: 15
 providers:
 - slug: uizard-technologies
   name: Uizard Technologies
@@ -86,9 +86,9 @@ providers:
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
-  api_count: 3
+  api_count: 4
   score_band: strong
-  score_composite: 59.6
+  score_composite: 65.6
   shared: 3
 - slug: penpot
   name: Penpot
@@ -111,33 +111,26 @@ providers:
   score_band: emerging
   score_composite: 25.0
   shared: 3
-- slug: mockups
-  name: Mockups
-  description: Mockups are visual representations or prototypes of user interfaces and designs used to demonstrate the look and feel of a product before development. They are used across software, mobile, web, and product design to align stakeholders, va…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 3
 - slug: zeroheight
   name: Zeroheight
   description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small…'
   api_count: 1
   score_band: strong
-  score_composite: 54.8
+  score_composite: 58.1
   shared: 2
 - slug: uxpin
   name: UXPin
   description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto th…
   api_count: 0
   score_band: developing
-  score_composite: 40.5
+  score_composite: 42.0
   shared: 2
 - slug: zeplin
   name: Zeplin
   description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
+  score_composite: 37.3
   shared: 2
 - slug: pulse-labs
   name: Pulse Labs

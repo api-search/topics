@@ -36,14 +36,42 @@ links:
   url: https://github.com/api-evangelist/scorm/blob/main/security/scorm-domain-security.yml
 - type: Blog
   url: https://scorm.com/blog/
-provider_count: 198
+provider_count: 210
 providers:
 - slug: go1
   name: Go1
   description: Go1 is an AI-powered corporate learning and development (L&D) platform that consolidates employee training into a single subscription. Its content library aggregates courses from 250+ providers across 40+ languages, layered with curation,…
   api_count: 1
   score_band: strong
-  score_composite: 63.5
+  score_composite: 65.2
+  shared: 3
+- slug: epignosis-talentlms-efront-talentcards
+  name: Epignosis (TalentLMS, eFront, TalentCards)
+  description: 'Epignosis is a learning-technology company serving more than 70,000 organizations worldwide with a family of cloud training products: TalentLMS (an all-in-one LMS for growing businesses), eFront (a flexible enterprise LMS), TalentCards (mo…'
+  api_count: 1
+  score_band: strong
+  score_composite: 57.3
+  shared: 3
+- slug: cloud-academy
+  name: Cloud Academy
+  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes,…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.3
+  shared: 3
+- slug: thinkific
+  name: Thinkific
+  description: Thinkific is an online course creation and delivery platform that enables creators and businesses to build, market, and sell courses, communities, and digital products. The Thinkific Admin REST API provides programmatic access to site data…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.5
+  shared: 3
+- slug: adobe-captivate
+  name: Adobe Captivate
+  description: Adobe Captivate is an eLearning authoring tool used to create responsive eLearning content, software demonstrations, and interactive training modules.
+  api_count: 1
+  score_band: developing
+  score_composite: 48.8
   shared: 3
 - slug: agilix
   name: Agilix
@@ -51,34 +79,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.6
-  shared: 3
-- slug: adobe-captivate
-  name: Adobe Captivate
-  description: Adobe Captivate is an eLearning authoring tool used to create responsive eLearning content, software demonstrations, and interactive training modules.
-  api_count: 1
-  score_band: developing
-  score_composite: 48.3
-  shared: 3
-- slug: epignosis-talentlms-efront-talentcards
-  name: Epignosis (TalentLMS, eFront, TalentCards)
-  description: 'Epignosis is a learning-technology company serving more than 70,000 organizations worldwide with a family of cloud training products: TalentLMS (an all-in-one LMS for growing businesses), eFront (a flexible enterprise LMS), TalentCards (mo…'
-  api_count: 1
-  score_band: developing
-  score_composite: 47.8
-  shared: 3
-- slug: cloud-academy
-  name: Cloud Academy
-  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes,…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.7
-  shared: 3
-- slug: thinkific
-  name: Thinkific
-  description: Thinkific is an online course creation and delivery platform that enables creators and businesses to build, market, and sell courses, communities, and digital products. The Thinkific Admin REST API provides programmatic access to site data…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.2
   shared: 3
 - slug: thought-industries
   name: Thought Industries
@@ -94,19 +94,19 @@ providers:
   score_band: thin
   score_composite: 35.6
   shared: 3
+- slug: class-fka-classedu
+  name: Class (fka ClassEDU)
+  description: Class (fka ClassEDU) is a virtual classroom platform, founded in 2020 by education-technology leader Michael Chasen, that adds a full teaching and learning layer on top of Zoom and Microsoft Teams for K-12, higher education, government, an…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.2
+  shared: 3
 - slug: uteach-inc
   name: Uteach
   description: Uteach is an all-in-one online teaching platform and LMS that lets educators, coaches, and businesses create a branded website and sell online courses, coaching sessions, live lessons, quizzes with certificates, digital products, and commu…
   api_count: 0
   score_band: thin
   score_composite: 33.8
-  shared: 3
-- slug: class-fka-classedu
-  name: Class (fka ClassEDU)
-  description: Class (fka ClassEDU) is a virtual classroom platform, founded in 2020 by education-technology leader Michael Chasen, that adds a full teaching and learning layer on top of Zoom and Microsoft Teams for K-12, higher education, government, an…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.6
   shared: 3
 - slug: class-technologies
   name: Class Technologies
@@ -120,7 +120,7 @@ providers:
   description: LearnWorlds is an online course and learning management (LMS) platform that lets creators, trainers, and businesses build, sell, and run branded online schools. Its REST API (v2) is served per-school from https://{school}.learnworlds.com/a…
   api_count: 1
   score_band: thin
-  score_composite: 30.5
+  score_composite: 31.1
   shared: 3
 - slug: edools
   name: Edools
@@ -155,7 +155,7 @@ providers:
   description: AbleSky, Inc. (能力天空) is an online-education SaaS company incorporated in 2007 in Mountain View, California, operating in China through its wholly owned subsidiary 能力天空科技（北京）有限公司 in Beijing. Its platform lets a school, training institution…
   api_count: 0
   score_band: emerging
-  score_composite: 14.3
+  score_composite: 13.3
   shared: 3
 - slug: coursebase
   name: Coursebase
@@ -171,81 +171,81 @@ providers:
   score_band: minimal
   score_composite: 4.1
   shared: 3
+- slug: 360learning
+  name: 360Learning
+  description: 360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automa…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 71.9
+  shared: 2
 - slug: canvas
   name: Canvas
   description: Canvas is Instructure's open-source learning management system (LMS) used by K-12, higher education, and corporate training organizations to deliver courses, assessments, and learner communication. Canvas exposes a comprehensive REST API a…
   api_count: 146
   score_band: exemplar
-  score_composite: 68.9
+  score_composite: 70.3
   shared: 2
-- slug: 360learning
-  name: 360Learning
-  description: 360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automa…
-  api_count: 5
+- slug: skilljar
+  name: Skilljar
+  description: Skilljar is a customer education and external learning management (LMS) platform, now part of Gainsight, used to build, publish, and measure training academies, courses, learning paths, and certification programs for customers and partners…
+  api_count: 1
   score_band: strong
-  score_composite: 63.8
+  score_composite: 59.0
   shared: 2
 - slug: ehrbase
   name: EHRbase
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.7
   shared: 2
 - slug: drillster
   name: Drillster
   description: Drillster is a Utrecht-based adaptive learning platform for corporate and vocational training, built on repetition-based drills that schedule practice at the moment a learner is about to forget. Customers in aviation, healthcare, financial…
   api_count: 1
   score_band: developing
-  score_composite: 50.9
+  score_composite: 52.4
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 48.9
-  shared: 2
-- slug: skilljar
-  name: Skilljar
-  description: Skilljar is a customer education and external learning management (LMS) platform, now part of Gainsight, used to build, publish, and measure training academies, courses, learning paths, and certification programs for customers and partners…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.2
+  score_composite: 52.1
   shared: 2
 - slug: teachable
   name: Teachable
   description: Teachable is an online course and coaching platform that empowers creators to build and sell educational content without technical expertise. The Teachable REST API provides programmatic access to school management capabilities including c…
   api_count: 2
   score_band: developing
-  score_composite: 43.6
+  score_composite: 52.1
   shared: 2
-- slug: coorpacademy
-  name: Coorpacademy
-  description: Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as "Coorpacademy by Go1". It sells a B2B SaaS learning experience platform built on inver…
-  api_count: 14
+- slug: cybrary
+  name: Cybrary
+  description: Cybrary is a cybersecurity and IT skills-development platform used by individuals and enterprise teams for hands-on training, certification preparation and workforce upskilling. The catalog spans certification prep paths (Security+, CISSP,…
+  api_count: 1
   score_band: developing
-  score_composite: 43.4
+  score_composite: 49.4
+  shared: 2
+- slug: fhir
+  name: Fast Healthcare Interoperability Resources
+  description: FHIR (Fast Healthcare Interoperability Resources) is a platform specification developed by HL7 that defines a set of capabilities for use across the healthcare process, in all jurisdictions, and in many different clinical and administrativ…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.0
   shared: 2
 - slug: renaissance
   name: Renaissance
   description: Renaissance Learning, Inc. is a pre-K–12 education technology company whose assessment, practice and analytics products — Star Assessments, Accelerated Reader, Freckle, myON, Lalilo, Flocabulary, Nearpod, FastBridge, DnA, eduCLIMBER, eScho…
   api_count: 3
   score_band: developing
-  score_composite: 43.3
+  score_composite: 46.2
   shared: 2
-- slug: itslearning
-  name: itslearning
-  description: itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-le…
-  api_count: 4
+- slug: coorpacademy
+  name: Coorpacademy
+  description: Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as "Coorpacademy by Go1". It sells a B2B SaaS learning experience platform built on inver…
+  api_count: 14
   score_band: developing
-  score_composite: 40.7
-  shared: 2
-- slug: clever
-  name: Clever
-  description: Clever is a K-12 EdTech identity platform that provides a unified single sign-on portal and roster synchronization service used by over 111,000 US schools, including 95 of the largest 100 districts. The Clever REST API enables application…
-  api_count: 2
-  score_band: developing
-  score_composite: 40.4
+  score_composite: 45.3
   shared: 2
 ---

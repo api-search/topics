@@ -31,7 +31,7 @@ links:
   url: https://cemanet.org/technical-resources/
 - type: Documentation
   url: https://cemanet.org/ansi-standards/
-provider_count: 143
+provider_count: 145
 providers:
 - slug: tractian
   name: Tractian
@@ -52,35 +52,35 @@ providers:
   description: Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and servic…
   api_count: 2
   score_band: developing
-  score_composite: 48.7
+  score_composite: 47.9
   shared: 3
 - slug: inductive-automation
   name: Inductive Automation
   description: Inductive Automation is the developer of Ignition, an industrial application platform used for SCADA, HMI, MES, and IIoT deployments across manufacturing, utilities, and infrastructure. Ignition 8.3 exposes an OpenAPI-compliant REST API th…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 45.5
   shared: 3
 - slug: weidmueller
   name: Weidmüller
   description: 'Weidmüller (Weidmueller Interface GmbH & Co. KG, headquartered in Detmold, Germany) is a provider of smart industrial connectivity and automation: terminal blocks, PCB connectors, electronics, I/O systems, controls and industrial Ethernet.…'
   api_count: 2
   score_band: developing
-  score_composite: 43.6
+  score_composite: 39.6
   shared: 3
 - slug: steute-technologies-gmbh-and-co-kg
   name: steute Technologies
   description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified…'
   api_count: 1
-  score_band: thin
-  score_composite: 36.6
+  score_band: developing
+  score_composite: 39.4
   shared: 3
 - slug: aveva
   name: AVEVA
   description: AVEVA is an industrial software company (a subsidiary of Schneider Electric) providing engineering, operations, and data management software for energy, utilities, marine, and manufacturing industries. AVEVA's product portfolio includes Sy…
   api_count: 2
   score_band: thin
-  score_composite: 34.4
+  score_composite: 29.1
   shared: 3
 - slug: aidinrobotics
   name: AIDIN ROBOTICS
@@ -94,14 +94,14 @@ providers:
   description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose…
   api_count: 0
   score_band: emerging
-  score_composite: 24.7
+  score_composite: 18.8
   shared: 3
-- slug: industrial
-  name: Industrial
-  description: An index and topic collection covering industrial APIs across industrial IoT (IIoT), operational technology (OT), SCADA, manufacturing, smart factory, asset management, predictive maintenance, energy management, and building automation. Th…
-  api_count: 0
+- slug: captiatechnology-com
+  name: Captia Technology
+  description: Captia Technology (Captia Technology, S.L., NIF B55399489) is an industrial engineering and system integration company in Valencia, Spain. It connects OT/IT systems, machines, sensors, energy, data, ERP (including Odoo implementation) and…
+  api_count: 1
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.9
   shared: 3
 - slug: humatics
   name: Humatics
@@ -131,26 +131,40 @@ providers:
   score_band: minimal
   score_composite: 0
   shared: 3
-- slug: hexagon
-  name: Hexagon
-  description: Hexagon is a global leader in digital reality solutions, combining sensor, software and autonomous technologies. Through the Nexus platform and product APIs, Hexagon delivers manufacturing intelligence capabilities spanning metrology, qual…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.4
-  shared: 2
 - slug: amazon-lookout-for-equipment
   name: Amazon Lookout for Equipment
   description: Amazon Lookout for Equipment uses machine learning to analyze sensor data from your industrial equipment and detect abnormal patterns that signal potential failures. It helps you avoid unplanned equipment downtime by identifying potential…
   api_count: 1
   score_band: strong
-  score_composite: 55.3
+  score_composite: 59.5
+  shared: 2
+- slug: hexagon
+  name: Hexagon
+  description: Hexagon is a global leader in digital reality solutions, combining sensor, software and autonomous technologies. Through the Nexus platform and product APIs, Hexagon delivers manufacturing intelligence capabilities spanning metrology, qual…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.4
   shared: 2
 - slug: tttech
   name: TTTech
   description: TTTech Computertechnik AG is a Vienna-based supplier of deterministic networking and safety-critical embedded platforms — TTP, TTEthernet and IEEE 802.1 Time-Sensitive Networking — for aerospace, space, automotive, energy and industrial au…
   api_count: 2
+  score_band: strong
+  score_composite: 55.3
+  shared: 2
+- slug: litmus-automation
+  name: Litmus Automation
+  description: Litmus Automation (Litmus) is an industrial data platform company that helps manufacturers connect industrial systems, standardize operational data, and deploy analytics, AI, and automation at scale across plant locations. Its products are…
+  api_count: 3
   score_band: developing
-  score_composite: 53.7
+  score_composite: 51.8
+  shared: 2
+- slug: amazon-monitron
+  name: Amazon Monitron
+  description: Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal behavior in industrial machinery. It includes sensors, a gateway, and the Monitron mobile app to enable predictive maintenance and reduce unplanned downt…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.4
   shared: 2
 - slug: aquant
   name: Aquant
@@ -159,33 +173,33 @@ providers:
   score_band: developing
   score_composite: 50.1
   shared: 2
-- slug: amazon-monitron
-  name: Amazon Monitron
-  description: Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal behavior in industrial machinery. It includes sensors, a gateway, and the Monitron mobile app to enable predictive maintenance and reduce unplanned downt…
-  api_count: 3
-  score_band: developing
-  score_composite: 48.9
-  shared: 2
-- slug: viridi-parente
-  name: Viridi
-  description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
+- slug: nortech
+  name: Nortech
+  description: Nortech AI is an industrial IoT and operational-data infrastructure company (Bergen, Norway and Lisbon, Portugal) serving the maritime market and other asset-heavy industries. Its edge-plus-cloud platform extracts high-frequency data direc…
   api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 48.6
   shared: 2
 - slug: elemental-machines
   name: Elemental Machines
   description: Elemental Machines is a Cambridge, Massachusetts LabOps connectivity company that instruments laboratories and manufacturing floors with IoT sensors and a vendor-agnostic cloud platform for environmental monitoring, cold-storage and freeze…
   api_count: 14
   score_band: developing
-  score_composite: 45.6
+  score_composite: 47.3
   shared: 2
-- slug: nortech
-  name: Nortech
-  description: Nortech AI is an industrial IoT and operational-data infrastructure company (Bergen, Norway and Lisbon, Portugal) serving the maritime market and other asset-heavy industries. Its edge-plus-cloud platform extracts high-frequency data direc…
+- slug: sepasoft
+  name: Sepasoft
+  description: Sepasoft builds Manufacturing Execution System (MES) software delivered as modules for the Inductive Automation Ignition platform, used to control, track and document the transformation of raw materials into finished goods in real time. Th…
   api_count: 1
   score_band: developing
-  score_composite: 45.5
+  score_composite: 46.4
+  shared: 2
+- slug: viridi-parente
+  name: Viridi
+  description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.4
   shared: 2
 - slug: picarro
   name: Picarro
@@ -201,19 +215,19 @@ providers:
   score_band: developing
   score_composite: 45.2
   shared: 2
-- slug: sepasoft
-  name: Sepasoft
-  description: Sepasoft builds Manufacturing Execution System (MES) software delivered as modules for the Inductive Automation Ignition platform, used to control, track and document the transformation of raw materials into finished goods in real time. Th…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.9
-  shared: 2
 - slug: xylem
   name: Xylem
   description: 'Xylem Inc. (NYSE: XYL) is a global water technology company that moves, treats, analyzes, monitors and returns water to the environment across the full water cycle. Its brands include Sensus smart metering and AMI networks, Xylem Vue utili…'
   api_count: 1
   score_band: developing
-  score_composite: 44.7
+  score_composite: 43.9
+  shared: 2
+- slug: oden-technologies
+  name: Oden Technologies
+  description: Oden Technologies provides AI-powered software for manufacturing optimization, delivering real-time, AI-driven recommendations to front-line factory operators to increase output, improve quality, decrease costs, and reduce downtime. Its pl…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.8
   shared: 2
 - slug: cognite
   name: Cognite
@@ -221,20 +235,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 43.5
-  shared: 2
-- slug: oden-technologies
-  name: Oden Technologies
-  description: Oden Technologies provides AI-powered software for manufacturing optimization, delivering real-time, AI-driven recommendations to front-line factory operators to increase output, improve quality, decrease costs, and reduce downtime. Its pl…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.0
-  shared: 2
-- slug: litmus-automation
-  name: Litmus Automation
-  description: Litmus Automation (Litmus) is an industrial data platform company that helps manufacturers connect industrial systems, standardize operational data, and deploy analytics, AI, and automation at scale across plant locations. Its products are…
-  api_count: 3
-  score_band: developing
-  score_composite: 42.9
   shared: 2
 - slug: quanergy
   name: Quanergy

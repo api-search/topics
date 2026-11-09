@@ -46,14 +46,14 @@ links:
   url: https://github.com/jbogard/MediatR
 - type: WikipediaCQRS
   url: https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
-provider_count: 4
+provider_count: 3
 providers:
 - slug: kurrent
   name: Kurrent
   description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites…
   api_count: 1
-  score_band: developing
-  score_composite: 46.8
+  score_band: strong
+  score_composite: 56.3
   shared: 2
 - slug: axon-framework
   name: Axon Framework
@@ -67,13 +67,6 @@ providers:
   description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, providing frameworks for managing distributed data consistency across services without two-phase commit.
   api_count: 1
   score_band: emerging
-  score_composite: 19.8
-  shared: 2
-- slug: serverless-patterns
-  name: Serverless Patterns
-  description: A collection of serverless architectures and patterns for building applications on AWS, featuring ready-to-use templates and best practices for Lambda, API Gateway, EventBridge, and other serverless services. Cloud adoption of this technol…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
+  score_composite: 21.5
   shared: 2
 ---

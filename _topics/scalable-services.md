@@ -101,7 +101,7 @@ links:
   url: https://github.com/api-evangelist/scalable-services/blob/main/examples/scalable-services-kubernetes-hpa-example.json
 - type: Examples
   url: https://github.com/api-evangelist/scalable-services/blob/main/examples/scalable-services-kong-plugin-example.json
-provider_count: 215
+provider_count: 213
 providers:
 - slug: service-fabric
   name: Service Fabric
@@ -115,21 +115,21 @@ providers:
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
   api_count: 5
   score_band: strong
-  score_composite: 61.6
+  score_composite: 60.4
   shared: 4
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing…
   api_count: 1
   score_band: strong
-  score_composite: 61.2
+  score_composite: 59.8
   shared: 4
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
   api_count: 4
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.9
   shared: 4
 - slug: envoy-gateway
   name: Envoy Gateway
@@ -159,13 +159,6 @@ providers:
   score_band: thin
   score_composite: 27.3
   shared: 4
-- slug: service-mesh
-  name: Service Mesh
-  description: Service mesh is a dedicated infrastructure layer for handling service-to-service communication in microservices architectures. It provides traffic management, mutual TLS security, observability, policy enforcement, and resilience features…
-  api_count: 5
-  score_band: thin
-  score_composite: 27.0
-  shared: 4
 - slug: open-service-mesh
   name: Open Service Mesh
   description: Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh built on Envoy and the Service Mesh Interface (SMI) specification. OSM provides traffic shifting, mutual TLS, access control, observability, and automatic side…
@@ -178,42 +171,56 @@ providers:
   description: Saaras provides cloud‑native API gateway and service‑mesh solutions built on Kubernetes. Their EnRoute Gateway offers high‑performance traffic management, security, observability, and dynamic routing for modern cloud applications. Saaras a…
   api_count: 4
   score_band: emerging
-  score_composite: 19.9
+  score_composite: 16.3
   shared: 4
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 25
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 82.8
   shared: 3
 - slug: calico
   name: Calico
   description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and secu…
   api_count: 1
   score_band: strong
-  score_composite: 64.9
+  score_composite: 66.4
+  shared: 3
+- slug: microsoft-azure-service-fabric
+  name: Azure Service Fabric
+  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
+  api_count: 4
+  score_band: strong
+  score_composite: 65.9
   shared: 3
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances t…
   api_count: 16
   score_band: strong
-  score_composite: 55.6
+  score_composite: 61.6
+  shared: 3
+- slug: amazon-fargate
+  name: Amazon Fargate
+  description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves…
+  api_count: 6
+  score_band: strong
+  score_composite: 55.4
   shared: 3
 - slug: scaleway
   name: Scaleway
   description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources includin…
   api_count: 10
   score_band: developing
-  score_composite: 52.0
+  score_composite: 53.8
   shared: 3
-- slug: amazon-fargate
-  name: Amazon Fargate
-  description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves…
-  api_count: 6
+- slug: zeebe
+  name: Zeebe
+  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
+  api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 53.2
   shared: 3
 - slug: etcd
   name: Etcd
@@ -221,13 +228,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.5
-  shared: 3
-- slug: zeebe
-  name: Zeebe
-  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
   shared: 3
 - slug: apache-apisix
   name: Apache APISIX
@@ -243,19 +243,19 @@ providers:
   score_band: developing
   score_composite: 47.1
   shared: 3
-- slug: microsoft-azure-service-fabric
-  name: Azure Service Fabric
-  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.7
-  shared: 3
 - slug: haproxy
   name: HAProxy
   description: HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It exposes a Data Plane API for dynamic configuration management and a stats socket for r…
   api_count: 1
   score_band: developing
-  score_composite: 42.7
+  score_composite: 44.1
+  shared: 3
+- slug: isovalent
+  name: Isovalent
+  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
+  api_count: 2
+  score_band: developing
+  score_composite: 42.8
   shared: 3
 - slug: envoy
   name: Envoy
@@ -263,13 +263,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 42.6
-  shared: 3
-- slug: isovalent
-  name: Isovalent
-  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
-  api_count: 2
-  score_band: developing
-  score_composite: 41.2
   shared: 3
 - slug: aqua-security
   name: Aqua Security
@@ -285,6 +278,20 @@ providers:
   score_band: developing
   score_composite: 40.7
   shared: 3
+- slug: google-kubernetes-engine
+  name: Google Kubernetes Engine
+  description: Google Kubernetes Engine (GKE) is a managed Kubernetes service on Google Cloud that provides a production-ready environment for deploying, managing, and scaling containerized applications. It offers autopilot and standard modes, built-in s…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.3
+  shared: 3
+- slug: google-cloud-service-mesh
+  name: Google Cloud Service Mesh
+  description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
+  api_count: 13
+  score_band: thin
+  score_composite: 38.6
+  shared: 3
 - slug: veritas-cluster
   name: Veritas Cluster Server
   description: APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities across on-premises and containerized environments.
@@ -292,25 +299,18 @@ providers:
   score_band: thin
   score_composite: 38.6
   shared: 3
-- slug: google-kubernetes-engine
-  name: Google Kubernetes Engine
-  description: Google Kubernetes Engine (GKE) is a managed Kubernetes service on Google Cloud that provides a production-ready environment for deploying, managing, and scaling containerized applications. It offers autopilot and standard modes, built-in s…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.7
-  shared: 3
-- slug: google-cloud-service-mesh
-  name: Google Cloud Service Mesh
-  description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
-  api_count: 13
-  score_band: thin
-  score_composite: 37.0
-  shared: 3
 - slug: linkerd
   name: Linkerd
   description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
   api_count: 3
   score_band: thin
   score_composite: 35.9
+  shared: 3
+- slug: youki
+  name: Youki
+  description: youki is an open source container runtime written in Rust that implements the OCI runtime specification as a memory-safe alternative to runc, with rootless container support, cgroups v1 and v2, seccomp filtering, and systemd integration. M…
+  api_count: 2
+  score_band: thin
+  score_composite: 35.5
   shared: 3
 ---

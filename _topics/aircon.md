@@ -48,21 +48,21 @@ links:
   url: https://github.com/api-evangelist/aircon/blob/main/security/aircon-domain-security.yml
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/aircon/refs/heads/main/vocabulary/aircon-vocabulary.yaml
-provider_count: 124
+provider_count: 132
 providers:
 - slug: sensibo
   name: Sensibo
   description: Sensibo builds smart air conditioning controllers and indoor air quality monitors (Sensibo Sky, Air, Air Pro, and Elements) that add app, voice, and API control to existing mini-split, window, and portable AC and heat-pump units. The Sensi…
   api_count: 1
   score_band: thin
-  score_composite: 27.5
+  score_composite: 29.1
   shared: 5
 - slug: lennox-international
   name: Lennox International
   description: Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HV…
   api_count: 3
   score_band: emerging
-  score_composite: 19.7
+  score_composite: 19.6
   shared: 5
 - slug: boldr
   name: Boldr
@@ -76,7 +76,7 @@ providers:
   description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building tra…
   api_count: 1
   score_band: strong
-  score_composite: 64.6
+  score_composite: 60.0
   shared: 4
 - slug: 75f
   name: 75F
@@ -90,21 +90,28 @@ providers:
   description: ecobee makes smart Wi-Fi thermostats, room sensors, cameras, and other connected home devices. The ecobee API is a REST-like JSON interface, based at https://api.ecobee.com/1/, that lets authorized third-party applications read and control…
   api_count: 1
   score_band: thin
-  score_composite: 26.6
+  score_composite: 28.2
   shared: 4
 - slug: carrier-global
   name: Carrier Global
   description: Carrier Global Corporation is a global provider of healthy, safe, sustainable, and intelligent building and cold-chain solutions, spanning HVAC, refrigeration, fire, security, and building automation technologies. Its digital ecosystem inc…
   api_count: 3
-  score_band: developing
-  score_composite: 53.0
+  score_band: strong
+  score_composite: 54.7
   shared: 3
 - slug: nest
   name: Nest
   description: Nest is Google's smart home brand — thermostats, cameras, doorbells, and the Nest Hub — originally founded as Nest Labs (a Lightspeed Venture Partners portfolio company) and acquired by Google. Developers integrate with authorized Nest dev…
   api_count: 1
   score_band: developing
-  score_composite: 47.9
+  score_composite: 53.7
+  shared: 3
+- slug: passivelogic
+  name: PassiveLogic
+  description: PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Crea…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.6
   shared: 3
 - slug: google-nest
   name: Google Nest Smart Device Management
@@ -113,26 +120,19 @@ providers:
   score_band: developing
   score_composite: 41.4
   shared: 3
-- slug: passivelogic
-  name: PassiveLogic
-  description: PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Crea…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.8
-  shared: 3
 - slug: verdigris-technologies
   name: Verdigris Technologies
   description: Verdigris Technologies builds AI-powered building energy intelligence, pairing proprietary current-sensor hardware clamped onto a building's electrical panels with cloud software that monitors every circuit in real time. The Verdigris API…
   api_count: 1
-  score_band: thin
-  score_composite: 36.5
+  score_band: developing
+  score_composite: 41.0
   shared: 3
 - slug: brick
   name: BRICK Schema
   description: BRICK is an open-source community-driven ontology standard for standardizing semantic descriptions of physical, logical, and virtual assets in buildings and the relationships between them. Using Semantic Web (RDF/OWL) technology, BRICK v1.…
   api_count: 2
   score_band: thin
-  score_composite: 35.1
+  score_composite: 36.6
   shared: 3
 - slug: clockworks-analytics
   name: Clockworks Analytics
@@ -146,7 +146,7 @@ providers:
   description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of R…
   api_count: 1
   score_band: thin
-  score_composite: 30.1
+  score_composite: 30.0
   shared: 3
 - slug: gridpoint
   name: GridPoint
@@ -218,19 +218,26 @@ providers:
   score_band: minimal
   score_composite: 3.1
   shared: 3
-- slug: gridx-ai
-  name: gridX
-  description: 'gridX (gridX GmbH, Aachen, Germany) provides XENON, a white-label connectivity and flexibility platform for distributed energy resources. It covers home energy management systems (HEMS) and EV charging infrastructure: connecting PV, batter…'
+- slug: butterflymx
+  name: ButterflyMX
+  description: ButterflyMX is a property-access technology company whose smart video intercoms, keypads, smart locks, elevator controls, vehicle-access readers, package rooms and front-desk stations are installed in more than 20,000 multifamily, commerci…
   api_count: 1
   score_band: strong
-  score_composite: 59.7
+  score_composite: 57.2
   shared: 2
 - slug: rachio
   name: Rachio
   description: Rachio makes smart, WiFi-connected irrigation controllers, Smart Hose Timers and lighting controllers for homes and landscapes. The Rachio Public API lets developers read a person's account, controllers (devices) and irrigation zones, star…
   api_count: 10
   score_band: strong
-  score_composite: 57.8
+  score_composite: 56.7
+  shared: 2
+- slug: clevergy
+  name: Clevergy
+  description: Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform inges…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.9
   shared: 2
 - slug: allegion
   name: Allegion
@@ -239,25 +246,18 @@ providers:
   score_band: developing
   score_composite: 52.9
   shared: 2
-- slug: clevergy
-  name: Clevergy
-  description: Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform inges…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.0
-  shared: 2
-- slug: johnson-controls
-  name: Johnson Controls
-  description: Johnson Controls is a global diversified technology and multi-industrial leader serving customers in over 150 countries, providing products, services, and solutions for buildings (HVAC, fire, security, building automation), energy storage,…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.1
-  shared: 2
 - slug: viridi-parente
   name: Viridi
   description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
   api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 46.4
+  shared: 2
+- slug: door
+  name: Door
+  description: DOOR (formerly Latch) is a multifamily proptech company providing a smart-building access and building-intelligence platform. It unifies smart locks, readers, intercoms, cameras, thermostats and sensors with software (DOOR OS) for property…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.5
   shared: 2
 ---

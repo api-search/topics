@@ -34,7 +34,7 @@ links:
   url: https://github.com/api-evangelist/banking-regulation/blob/main/vocabulary/banking-regulation-vocabulary.yaml
 - type: JSONLD
   url: https://github.com/api-evangelist/banking-regulation/blob/main/json-ld/banking-regulation-context.jsonld
-provider_count: 200
+provider_count: 228
 providers:
 - slug: thetaray
   name: ThetaRay
@@ -50,47 +50,61 @@ providers:
   score_band: minimal
   score_composite: 2.4
   shared: 5
+- slug: complyadvantage
+  name: ComplyAdvantage
+  description: ComplyAdvantage provides AI-driven anti-money laundering (AML) and financial crime risk detection - screening people and companies against sanctions and watchlists, politically exposed persons (PEPs and RCAs), and adverse media, with ongoi…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.6
+  shared: 4
 - slug: idenfy
   name: iDenfy
   description: iDenfy is an identity verification platform providing KYC, KYB, and AML compliance solutions. The iDenfy API enables businesses to verify identities, check for fraud, and comply with regulatory requirements through automated document verif…
   api_count: 7
   score_band: exemplar
-  score_composite: 67.2
-  shared: 4
-- slug: complyadvantage
-  name: ComplyAdvantage
-  description: ComplyAdvantage provides AI-driven anti-money laundering (AML) and financial crime risk detection - screening people and companies against sanctions and watchlists, politically exposed persons (PEPs and RCAs), and adverse media, with ongoi…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.2
+  score_composite: 68.2
   shared: 4
 - slug: fenergo
   name: Fenergo
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 62.7
-  shared: 4
-- slug: signzy
-  name: Signzy
-  description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_composite: 64.3
   shared: 4
 - slug: dotfile
   name: Dotfile
   description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
   api_count: 27
-  score_band: developing
-  score_composite: 51.2
+  score_band: strong
+  score_composite: 57.1
+  shared: 4
+- slug: signzy
+  name: Signzy
+  description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.3
   shared: 4
 - slug: diligent
   name: Diligent
   description: Diligent (Diligent AI, godiligent.ai) builds autonomous AI agents for financial-crime compliance, automating the reasoning-heavy KYC/AML workflows that banks and fintechs run at scale. Its API exposes Customer Due Diligence (CDD) and busin…
   api_count: 2
   score_band: developing
-  score_composite: 49.7
+  score_composite: 51.3
+  shared: 4
+- slug: sigma-ratings
+  name: Sigma360
+  description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.3
+  shared: 4
+- slug: solaris
+  name: Solaris
+  description: 'Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local…'
+  api_count: 2
+  score_band: developing
+  score_composite: 49.0
   shared: 4
 - slug: green-check-verified
   name: Green Check Verified
@@ -106,33 +120,26 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 4
-- slug: sigma-ratings
-  name: Sigma360
-  description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk…
+- slug: merkle-science
+  name: Merkle Science
+  description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
   api_count: 1
   score_band: developing
-  score_composite: 46.4
+  score_composite: 46.7
   shared: 4
 - slug: cable
   name: Cable
   description: Cable is an automated compliance and financial-crime assurance platform for banks, fintechs, and crypto companies. Based on transaction, customer, screening, risk-assessment, and onboarding data you send it, Cable continuously tests 100% o…
   api_count: 3
   score_band: developing
-  score_composite: 43.4
-  shared: 4
-- slug: merkle-science
-  name: Merkle Science
-  description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.2
+  score_composite: 46.1
   shared: 4
 - slug: sanctions-io
   name: sanctions.io
   description: sanctions.io is a sanctions, PEP, and criminal watchlist screening API for AML (anti-money laundering) compliance. The REST API (base https://api.sanctions.io) screens individuals, entities, vessels, and aircraft against 75+ sanctions list…
   api_count: 1
   score_band: thin
-  score_composite: 31.8
+  score_composite: 33.4
   shared: 4
 - slug: bretton
   name: Bretton
@@ -167,56 +174,63 @@ providers:
   description: Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its…
   api_count: 5
   score_band: exemplar
-  score_composite: 79.6
-  shared: 3
-- slug: ibanforge
-  name: IBANforge
-  description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 72.0
+  score_composite: 81.6
   shared: 3
 - slug: opensanctions
   name: OpenSanctions
   description: OpenSanctions is an open database of international sanctions, watchlists, criminal designations and politically exposed persons (PEPs), published as a screening API, bulk data downloads and MIT-licensed open-source software from Berlin. It…
   api_count: 1
   score_band: exemplar
-  score_composite: 67.9
+  score_composite: 72.3
   shared: 3
 - slug: solidus-labs
   name: Solidus Labs
   description: Solidus Labs is a crypto-native market-integrity and compliance technology company founded in 2018 by former Goldman Sachs engineers, headquartered in New York with offices in Tel Aviv and London. Its HALO platform is a unified compliance…
   api_count: 5
-  score_band: strong
-  score_composite: 65.6
+  score_band: exemplar
+  score_composite: 71.5
   shared: 3
 - slug: didit
   name: Didit
   description: Didit is a developer-first identity verification and fraud-prevention platform that exposes one unified API for KYC (ID verification, passive/active liveness, face match and search, age estimation, proof of address, NFC), KYB business veri…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 71.2
+  shared: 3
+- slug: ibanforge
+  name: IBANforge
+  description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
   api_count: 1
   score_band: strong
-  score_composite: 62.6
+  score_composite: 65.1
   shared: 3
 - slug: trulioo
   name: Trulioo
   description: Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 64.1
+  shared: 3
+- slug: parcha
+  name: Parcha
+  description: Parcha is an AI compliance platform that automates customer due diligence, KYB (Know Your Business) and KYC (Know Your Customer) reviews, document verification, and risk screening for banks and fintechs. Its AI agents run configurable chec…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.0
   shared: 3
 - slug: fiat-republic
   name: Fiat Republic
   description: Fiat Republic is a UK- and EU-regulated Banking-as-a-Service provider that gives crypto platforms, exchanges and stablecoin issuers a single API and single liability contract for local fiat rails. Its RESTful API automates end-user onboard…
   api_count: 6
   score_band: strong
-  score_composite: 55.2
+  score_composite: 58.2
   shared: 3
-- slug: parcha
-  name: Parcha
-  description: Parcha is an AI compliance platform that automates customer due diligence, KYB (Know Your Business) and KYC (Know Your Customer) reviews, document verification, and risk screening for banks and fintechs. Its AI agents run configurable chec…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.9
+- slug: spektr
+  name: Spektr
+  description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring usi…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.2
   shared: 3
 - slug: metamap
   name: MetaMap
@@ -225,25 +239,11 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 3
-- slug: spektr
-  name: Spektr
-  description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring usi…
+- slug: cognito
+  name: Cognito
+  description: Cognito (cognitohq.com, operated by BlockScore, Inc.) is an identity verification, KYC, and AML compliance API provider that was backed by Y Combinator and Battery Ventures and acquired by Plaid in 2020. Its API turns a phone number, name,…
   api_count: 1
   score_band: developing
-  score_composite: 50.8
-  shared: 3
-- slug: alloy-com
-  name: Alloy
-  description: Alloy is a New York-based identity decisioning platform that helps banks, credit unions, and fintechs onboard, monitor, and protect customers across KYC, KYB, AML, fraud, credit, and ongoing-monitoring use cases. The Alloy API exposes the…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.4
-  shared: 3
-- slug: smile-identity
-  name: Smile Identity
-  description: Smile Identity (Smile ID) is Africa's leading digital identity verification, fraud detection, AML and KYC/KYB compliance platform. Its V3 REST API and v12 mobile/web SDKs let businesses onboard and authenticate users across all 54 African…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
+  score_composite: 50.9
   shared: 3
 ---

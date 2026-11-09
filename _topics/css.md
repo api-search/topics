@@ -96,14 +96,14 @@ providers:
   name: HTML
   description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.9
+  score_band: null
+  score_composite: 0
   shared: 2
 - slug: html5
   name: HTML5
   description: HTML5 is the fifth major version of the HyperText Markup Language used for structuring and presenting content on the web. Standardized by the W3C in 2014 and now maintained by WHATWG as the HTML Living Standard, HTML5 introduced semantic e…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.9
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

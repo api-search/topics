@@ -47,112 +47,119 @@ links:
   url: https://github.com/api-evangelist/chat/blob/main/json-schema/chat-conversation-schema.json
 - type: JSONSchema
   url: https://github.com/api-evangelist/chat/blob/main/json-schema/chat-message-schema.json
-provider_count: 177
+provider_count: 183
 providers:
 - slug: pypestream
   name: Pypestream
   description: Pypestream is a New York based enterprise conversational and agentic AI company, founded in 2015, whose platform deploys voice and chat AI agents ("Pypes" and microapps) into Fortune 500 contact centers across insurance, health insurance,…
   api_count: 7
   score_band: developing
-  score_composite: 43.1
+  score_composite: 48.6
   shared: 4
 - slug: slack
   name: Slack
   description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
   api_count: 32
   score_band: exemplar
-  score_composite: 66.9
+  score_composite: 74.7
   shared: 3
 - slug: novu
   name: Novu
   description: Novu is the open-source notification infrastructure for developers. A single REST API and workflow engine route a triggered event across in-app inbox, email, SMS, push, chat (Slack / Discord / MS Teams / WhatsApp) and custom channels — wit…
   api_count: 1
-  score_band: strong
-  score_composite: 63.4
-  shared: 3
-- slug: gladly
-  name: Gladly
-  description: Gladly is a San Francisco–based people-centered customer service AI platform. The Gladly Hero agent workspace unifies voice, chat, SMS, email, and social into a single, channel-agnostic conversation per Customer, while Gladly Sidekick AI h…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.0
-  shared: 3
-- slug: intercom
-  name: Intercom
-  description: Intercom is an AI-powered customer service platform that enables businesses to build seamless customized experiences through its Help Desk and Messenger. The Intercom API allows developers to integrate with the Intercom platform using REST…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
+  score_band: exemplar
+  score_composite: 71.0
   shared: 3
 - slug: netomi
   name: Netomi
   description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its "Agentic OS for CX" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a gover…
   api_count: 1
   score_band: developing
-  score_composite: 50.2
+  score_composite: 52.9
   shared: 3
-- slug: discord
-  name: Discord
-  description: Discord is a voice, video and text communication service used by hundreds of millions of people to hang out and talk with their communities and friends.
+- slug: intercom
+  name: Intercom
+  description: Intercom is an AI-powered customer service platform that enables businesses to build seamless customized experiences through its Help Desk and Messenger. The Intercom API allows developers to integrate with the Intercom platform using REST…
   api_count: 1
   score_band: developing
-  score_composite: 46.7
+  score_composite: 52.5
   shared: 3
-- slug: beeper
-  name: Beeper
-  description: Beeper is a universal chat app that brings 12+ messaging networks — WhatsApp, Instagram, Telegram, Signal, Messenger, X, Google Messages, Google Chat, Google Voice, LinkedIn, Discord and Slack — into a single unified inbox across macOS, Wi…
+- slug: gladly
+  name: Gladly
+  description: Gladly is a San Francisco–based people-centered customer service AI platform. The Gladly Hero agent workspace unifies voice, chat, SMS, email, and social into a single, channel-agnostic conversation per Customer, while Gladly Sidekick AI h…
   api_count: 1
   score_band: developing
-  score_composite: 45.8
-  shared: 3
-- slug: dixa
-  name: Dixa
-  description: Dixa is a conversational customer service platform with a REST API for managing conversations, queues, agents, routing, knowledge base articles, and customer satisfaction data. The API enables developers to build automated workflows, integ…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.8
+  score_composite: 50.8
   shared: 3
 - slug: getstream
   name: Stream
   description: Stream (GetStream.io) provides scalable, API-first infrastructure for in-app chat messaging, activity feeds, audio/video calling and livestreaming, and AI moderation. The server-side platform is a documented REST API (base https://chat.str…
   api_count: 6
   score_band: developing
-  score_composite: 44.3
+  score_composite: 50.6
   shared: 3
 - slug: ably
   name: Ably
   description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
   api_count: 2
   score_band: developing
-  score_composite: 42.0
+  score_composite: 48.5
   shared: 3
-- slug: chatwoot
-  name: Chatwoot
-  description: Chatwoot is an open-source customer support and omni-channel messaging platform that provides REST APIs for managing conversations, contacts, agents, teams, labels, and integrating customer communication workflows. It supports live chat, e…
-  api_count: 2
-  score_band: developing
-  score_composite: 41.9
-  shared: 3
-- slug: chatfuel
-  name: Chatfuel
-  description: Chatfuel is a no-code AI-powered chatbot and business-automation platform for conversational commerce across Meta-owned messaging channels — WhatsApp, Instagram, Facebook Messenger, TikTok, and an embeddable website chat widget. An officia…
-  api_count: 3
-  score_band: developing
-  score_composite: 41.8
-  shared: 3
-- slug: conversica
-  name: Conversica
-  description: Conversica is an AI conversation automation company - "The Conversation Company" - whose Revenue Digital Assistants and AI Agents hold two-way, natural-language conversations with leads and customers over email, SMS and website chat to gen…
+- slug: beeper
+  name: Beeper
+  description: Beeper is a universal chat app that brings 12+ messaging networks — WhatsApp, Instagram, Telegram, Signal, Messenger, X, Google Messages, Google Chat, Google Voice, LinkedIn, Discord and Slack — into a single unified inbox across macOS, Wi…
   api_count: 1
   score_band: developing
-  score_composite: 40.8
+  score_composite: 47.5
+  shared: 3
+- slug: discord
+  name: Discord
+  description: Discord is a voice, video and text communication service used by hundreds of millions of people to hang out and talk with their communities and friends.
+  api_count: 1
+  score_band: developing
+  score_composite: 46.9
+  shared: 3
+- slug: dixa
+  name: Dixa
+  description: Dixa is a conversational customer service platform with a REST API for managing conversations, queues, agents, routing, knowledge base articles, and customer satisfaction data. The API enables developers to build automated workflows, integ…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.4
   shared: 3
 - slug: tidio
   name: Tidio
   description: Tidio is a customer service platform used by over 300,000 businesses that combines live chat, AI-powered chatbots (Lyro AI), and email ticketing into a unified support workspace. The platform exposes a REST OpenAPI for managing contacts, c…
   api_count: 1
   score_band: developing
-  score_composite: 39.9
+  score_composite: 46.2
+  shared: 3
+- slug: chatwoot
+  name: Chatwoot
+  description: Chatwoot is an open-source customer support and omni-channel messaging platform that provides REST APIs for managing conversations, contacts, agents, teams, labels, and integrating customer communication workflows. It supports live chat, e…
+  api_count: 3
+  score_band: developing
+  score_composite: 44.8
+  shared: 3
+- slug: chatfuel
+  name: Chatfuel
+  description: Chatfuel is a no-code AI-powered chatbot and business-automation platform for conversational commerce across Meta-owned messaging channels — WhatsApp, Instagram, Facebook Messenger, TikTok, and an embeddable website chat widget. An officia…
+  api_count: 3
+  score_band: developing
+  score_composite: 43.4
+  shared: 3
+- slug: conversica
+  name: Conversica
+  description: Conversica is an AI conversation automation company - "The Conversation Company" - whose Revenue Digital Assistants and AI Agents hold two-way, natural-language conversations with leads and customers over email, SMS and website chat to gen…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.5
+  shared: 3
+- slug: agora-io
+  name: Agora
+  description: Agora is a real-time engagement platform providing ultra-low latency voice, video, signaling, chat, interactive whiteboard, cloud recording, real-time speech-to-text, and conversational AI infrastructure for human-to-human and human-to-AI…
+  api_count: 11
+  score_band: thin
+  score_composite: 38.2
   shared: 3
 - slug: synapse
   name: Synapse
@@ -173,7 +180,7 @@ providers:
   description: CometChat is an in-app messaging platform offering chat, voice, and video SDKs plus a server-side REST Management API. The REST API (v3) manages users, auth tokens, groups, group members, messages, conversations, reactions, roles, and webh…
   api_count: 1
   score_band: thin
-  score_composite: 33.9
+  score_composite: 34.4
   shared: 3
 - slug: quiq
   name: Quiq
@@ -189,26 +196,19 @@ providers:
   score_band: thin
   score_composite: 31.1
   shared: 3
-- slug: agora-io
-  name: Agora
-  description: Agora is a real-time engagement platform providing ultra-low latency voice, video, signaling, chat, interactive whiteboard, cloud recording, real-time speech-to-text, and conversational AI infrastructure for human-to-human and human-to-AI…
-  api_count: 11
-  score_band: thin
-  score_composite: 30.3
-  shared: 3
-- slug: kustomer
-  name: Kustomer
-  description: Kustomer is an AI-powered customer service CRM that unifies conversations, customer data, automation, and reporting across channels.
-  api_count: 1
-  score_band: thin
-  score_composite: 28.8
-  shared: 3
 - slug: meyaai
   name: Meya.ai
   description: Meya is a chatbot and CX-automation platform for building, coding, and launching customer-support conversational apps, digital assistants, and workflow automation. Developers use the Grid platform and Console to script flows in BFML (a YAM…
   api_count: 1
   score_band: thin
-  score_composite: 28.3
+  score_composite: 29.0
+  shared: 3
+- slug: mybotspro
+  name: Mybots.pro
+  description: myBots (operated by Global AI Group, Inc.) builds enterprise AI sales and support agents for messaging channels — WhatsApp, Instagram, Telegram, LinkedIn and web chat, under the Mia AI product name. Each agent qualifies inbound leads, answ…
+  api_count: 3
+  score_band: thin
+  score_composite: 27.6
   shared: 3
 - slug: crisp
   name: Crisp
@@ -217,19 +217,19 @@ providers:
   score_band: thin
   score_composite: 27.1
   shared: 3
+- slug: kustomer
+  name: Kustomer
+  description: Kustomer is an AI-powered customer service CRM that unifies conversations, customer data, automation, and reporting across channels.
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.6
+  shared: 3
 - slug: imbee
   name: imbee
   description: imBee is an AI-powered business omnichannel messaging platform headquartered in Hong Kong that unifies customer conversations across WhatsApp, Instagram, Facebook Messenger, WeChat, LINE, and SMS into a single enterprise-grade inbox. The p…
   api_count: 0
   score_band: emerging
   score_composite: 22.5
-  shared: 3
-- slug: mybotspro
-  name: Mybots.pro
-  description: myBots (operated by Global AI Group, Inc.) builds enterprise AI sales and support agents for messaging channels — WhatsApp, Instagram, Telegram, LinkedIn and web chat, under the Mia AI product name. Each agent qualifies inbound leads, answ…
-  api_count: 3
-  score_band: emerging
-  score_composite: 22.2
   shared: 3
 - slug: liveperson
   name: LivePerson

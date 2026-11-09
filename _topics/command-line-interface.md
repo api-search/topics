@@ -52,7 +52,7 @@ links:
   url: https://devcenter.heroku.com/articles/cli-style-guide
 - type: Resources
   url: https://github.com/agarrharr/awesome-cli-apps
-provider_count: 132
+provider_count: 161
 providers:
 - slug: shell-scripting
   name: Shell Scripting
@@ -72,8 +72,8 @@ providers:
   name: PowerShell
   description: PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. The PowerShell ecosystem exposes APIs through the PowerShell Gallery (an OData-based p…
   api_count: 1
-  score_band: thin
-  score_composite: 37.5
+  score_band: developing
+  score_composite: 50.1
   shared: 4
 - slug: aider
   name: Aider
@@ -89,19 +89,19 @@ providers:
   score_band: thin
   score_composite: 38.9
   shared: 3
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
-  shared: 3
 - slug: httpie
   name: HTTPie
   description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighte…
   api_count: 1
   score_band: thin
   score_composite: 30.0
+  shared: 3
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.2
   shared: 3
 - slug: tabtabtab
   name: TabTabTab
@@ -143,125 +143,125 @@ providers:
   description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll r…
   api_count: 1
   score_band: exemplar
-  score_composite: 81.3
-  shared: 2
-- slug: anysphere-cursor-ai
-  name: Anysphere Cursor Ai
-  description: Anysphere Cursor Ai develops advanced AI‑powered coding assistants that help developers build ambitious software faster. The platform offers a desktop IDE, a powerful CLI, and cloud‑based agents that can understand code, generate implement…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 75.1
+  score_composite: 82.9
   shared: 2
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.6
-  shared: 2
-- slug: tembo
-  name: Tembo
-  description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 69.6
-  shared: 2
-- slug: apiable
-  name: Apiable
-  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, us…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.2
+  score_composite: 77.5
   shared: 2
 - slug: buttondown
   name: Buttondown
   description: Buttondown is an independent, bootstrapped email newsletter platform for writers, creators and developers, offering a Markdown and rich-text editor, subscriber management with tags, segments and metadata, automations, RSS-to-email, surveys…
   api_count: 1
-  score_band: strong
-  score_composite: 62.9
+  score_band: exemplar
+  score_composite: 69.6
   shared: 2
 - slug: gumloop
   name: Gumloop
   description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail…
   api_count: 1
   score_band: strong
-  score_composite: 62.1
-  shared: 2
-- slug: apimatic
-  name: APIMatic
-  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification fo…
-  api_count: 5
-  score_band: strong
-  score_composite: 61.6
-  shared: 2
-- slug: unblocked
-  name: Unblocked
-  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineer…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.0
-  shared: 2
-- slug: coasty
-  name: Coasty
-  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.6
-  shared: 2
-- slug: h-company
-  name: H Company
-  description: H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel and Creandum, that builds the Holo family of vision-language models and a Computer-Use Agents platform for automating work on browsers and desktops. It ships two public APIs:…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.7
-  shared: 2
-- slug: replicas
-  name: Replicas
-  description: Replicas (tryreplicas.com), a Y Combinator (Spring 2026) company, runs end-to-end background coding agents in isolated cloud sandboxes. Teams delegate engineering tasks - from Slack, Linear, GitHub, GitLab, Sentry, the web dashboard, a CLI…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.7
-  shared: 2
-- slug: tesslio
-  name: tessl.io
-  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing,…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.3
-  shared: 2
-- slug: gitar
-  name: Gitar
-  description: Gitar is an AI code review platform that goes beyond commenting on pull and merge requests — it automatically fixes broken builds, failing tests, linting errors, and code-review findings, and validates every change against your CI pipeline…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.0
+  score_composite: 65.3
   shared: 2
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up…'
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 65.2
   shared: 2
-- slug: capy
-  name: Capy
-  description: Capy is an AI software-engineering platform that orchestrates a fleet of cloud coding agents inside the apps a team already uses (Slack, Linear, GitHub). Each task runs in its own isolated Ubuntu VM where a captain agent plans and build ag…
+- slug: coasty
+  name: Coasty
+  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work…
   api_count: 1
   score_band: strong
-  score_composite: 54.7
+  score_composite: 63.4
   shared: 2
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
+- slug: apimatic
+  name: APIMatic
+  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification fo…
+  api_count: 5
+  score_band: strong
+  score_composite: 63.2
+  shared: 2
+- slug: unblocked
+  name: Unblocked
+  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineer…
   api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_band: strong
+  score_composite: 63.2
+  shared: 2
+- slug: h-company
+  name: H Company
+  description: H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel and Creandum, that builds the Holo family of vision-language models and a Computer-Use Agents platform for automating work on browsers and desktops. It ships two public APIs:…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.3
   shared: 2
 - slug: amika
   name: Amika
   description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
   api_count: 1
-  score_band: developing
-  score_composite: 51.8
+  score_band: strong
+  score_composite: 61.1
+  shared: 2
+- slug: anysphere-cursor-ai
+  name: Anysphere Cursor Ai
+  description: Anysphere Cursor Ai develops advanced AI‑powered coding assistants that help developers build ambitious software faster. The platform offers a desktop IDE, a powerful CLI, and cloud‑based agents that can understand code, generate implement…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.1
+  shared: 2
+- slug: replicas
+  name: Replicas
+  description: Replicas (tryreplicas.com), a Y Combinator (Spring 2026) company, runs end-to-end background coding agents in isolated cloud sandboxes. Teams delegate engineering tasks - from Slack, Linear, GitHub, GitLab, Sentry, the web dashboard, a CLI…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.9
+  shared: 2
+- slug: gitar
+  name: Gitar
+  description: Gitar is an AI code review platform that goes beyond commenting on pull and merge requests — it automatically fixes broken builds, failing tests, linting errors, and code-review findings, and validates every change against your CI pipeline…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.9
+  shared: 2
+- slug: tesslio
+  name: tessl.io
+  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing,…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.5
+  shared: 2
+- slug: termius
+  name: Termius
+  description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.9
+  shared: 2
+- slug: tembo
+  name: Tembo
+  description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
+  shared: 2
+- slug: ninjaone
+  name: NinjaOne
+  description: NinjaOne is a unified IT operations and endpoint management platform for enterprise IT teams and managed service providers (MSPs), combining remote monitoring and management (RMM), endpoint management, patch management, remote access, back…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.4
+  shared: 2
+- slug: panther
+  name: Panther
+  description: Panther is a cloud-native, code-driven detection and response platform and AI-powered SOC that ingests and normalizes security logs at petabyte scale into a security data lake (customer-connected AWS/Snowflake/Databricks or Panther-hosted)…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.1
   shared: 2
 ---

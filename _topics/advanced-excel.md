@@ -66,28 +66,28 @@ links:
   url: https://github.com/OfficeDev
 - type: Integrations
   url: https://www.microsoft.com/en-us/marketplace
-provider_count: 21
+provider_count: 24
 providers:
 - slug: fundamental-research-labs
   name: Fundamental Research Labs
   description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowi…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 64.4
   shared: 4
 - slug: microsoft-excel
   name: Microsoft Excel
   description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
-  api_count: 11
+  api_count: 1
   score_band: developing
-  score_composite: 51.9
+  score_composite: 54.2
   shared: 4
 - slug: microsoft-excel-advanced
   name: Microsoft Excel (Advanced)
   description: Advanced automation and integration APIs for Microsoft Excel, enabling programmatic access to spreadsheet data, formulas, charts, and automation capabilities through Microsoft Graph, Office Scripts, JavaScript add-ins, custom functions, On…
   api_count: 1
   score_band: developing
-  score_composite: 40.8
+  score_composite: 42.4
   shared: 4
 - slug: microsoft-excel-macros
   name: Microsoft Excel Macros
@@ -101,70 +101,70 @@ providers:
   description: Rows is an AI-powered spreadsheet that connects to live data from dozens of business tools and lets teams build reports, dashboards and lightweight data apps without leaving a familiar grid. Beyond the app, Rows ships a public REST API (ba…
   api_count: 1
   score_band: developing
-  score_composite: 40.8
+  score_composite: 44.1
   shared: 3
+- slug: power-bi
+  name: Power BI
+  description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to cr…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 78.3
+  shared: 2
 - slug: power-query
   name: Power Query
   description: Power Query is Microsoft's data connectivity and transformation engine, driven by the M formula language. It ships inside Excel, Power BI Desktop, Analysis Services, Azure Data Factory and Microsoft Fabric, and reaches 300+ data sources th…
   api_count: 3
   score_band: exemplar
-  score_composite: 74.4
+  score_composite: 76.2
   shared: 2
 - slug: sigma-computing
   name: Sigma Computing
   description: Sigma Computing is a warehouse-first analytics and business-application platform. Instead of extracting data into its own store, Sigma queries the customer's cloud data warehouse live — Snowflake, Databricks, BigQuery, Redshift, Amazon Ath…
   api_count: 3
   score_band: exemplar
-  score_composite: 72.4
-  shared: 2
-- slug: power-bi
-  name: Power BI
-  description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to cr…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.9
+  score_composite: 75.1
   shared: 2
 - slug: microsoft-graph
   name: Microsoft Graph
   description: Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It provides a unified programmability model that you can use to access data in Microsoft 365, Windows 10, and Enterprise Mobility + Security.
   api_count: 71
+  score_band: exemplar
+  score_composite: 70.1
+  shared: 2
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automat…
+  api_count: 10
   score_band: strong
-  score_composite: 62.6
+  score_composite: 64.2
   shared: 2
 - slug: datarails
   name: Datarails
   description: Datarails is an Excel-native financial planning and analysis (FP&A) platform for the office of the CFO, marketed as FinanceOS. It consolidates data from ERP, CRM, HRIS, billing and operational systems into a single finance data model, then…
   api_count: 1
   score_band: strong
-  score_composite: 55.3
+  score_composite: 57.7
   shared: 2
 - slug: amazon-data-pipeline
   name: Amazon Data Pipeline
   description: AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly acc…
   api_count: 1
   score_band: developing
-  score_composite: 52.0
-  shared: 2
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automat…
-  api_count: 10
-  score_band: developing
-  score_composite: 50.7
+  score_composite: 52.7
   shared: 2
 - slug: equals
   name: Equals
   description: Equals is an AI analytics platform that builds trusted spreadsheets and dashboards for revenue operations and go-to-market teams. It connects directly to databases and SaaS tools — PostgreSQL, MySQL, BigQuery, Snowflake, Redshift, Azure SQ…
   api_count: 1
   score_band: developing
-  score_composite: 49.3
+  score_composite: 52.5
   shared: 2
 - slug: coefficient-works
   name: Coefficient Works
   description: Coefficient Works, Inc. (operating as Coefficient) is a San Mateo, California no-code data platform that connects live business data to Google Sheets and Microsoft Excel. Founded in 2019 by Navneet Loiwal and Tommy Tsai, the company provid…
   api_count: 0
   score_band: developing
-  score_composite: 45.4
+  score_composite: 47.0
   shared: 2
 - slug: observable
   name: Observable
@@ -173,12 +173,12 @@ providers:
   score_band: thin
   score_composite: 31.7
   shared: 2
-- slug: yuma-ai
-  name: Yuma AI
-  description: Yuma AI provides AI-powered solutions for businesses, offering tools for data analysis, automation, and decision support. The company focuses on integrating advanced machine learning models into enterprise workflows, enabling scalable insi…
+- slug: sheetbest-com
+  name: sheetbest-com
+  description: Sheetbest.com provides a powerful API that enables developers to integrate spreadsheet data into their applications seamlessly. The platform offers endpoints for reading, writing, and managing spreadsheet rows, columns, and cells, supporti…
   api_count: 1
   score_band: thin
-  score_composite: 26.2
+  score_composite: 30.5
   shared: 2
 - slug: savant-labs
   name: Savant Labs
@@ -194,12 +194,33 @@ providers:
   score_band: emerging
   score_composite: 23.8
   shared: 2
+- slug: yuma-ai
+  name: Yuma AI
+  description: Yuma AI provides AI-powered solutions for businesses, offering tools for data analysis, automation, and decision support. The company focuses on integrating advanced machine learning models into enterprise workflows, enabling scalable insi…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.6
+  shared: 2
+- slug: recast-software
+  name: Recast Software
+  description: Extend the power of Configuration Manager, Intune, and more to achieve compliance and reclaim efficiency with Recast. Recast provides automation and compliance solutions for modern workplaces, integrating with Microsoft Endpoint Manager an…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.7
+  shared: 2
 - slug: bloomberg-excel-plug-ins
   name: Bloomberg Excel Plug-ins
   description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics, and functions directly into Microsoft Excel. The Bloomberg Add-in for Excel provides the BDH, BDP, BDS, and other Bloomberg formula functions to pull real-time and histor…
   api_count: 2
   score_band: emerging
   score_composite: 17.9
+  shared: 2
+- slug: agenticbi-com
+  name: Agentic BI
+  description: Agentic BI lets users ask a single natural‑language prompt and receive full analytics results, including charts, Slack alerts, and scheduled reports, without their data ever reaching OpenAI or Google. The platform runs on private AI models…
+  api_count: 1
+  score_band: emerging
+  score_composite: 13.3
   shared: 2
 - slug: crunched
   name: Crunched

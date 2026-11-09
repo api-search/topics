@@ -66,15 +66,15 @@ providers:
   name: Eclipse Foundation
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
-  score_band: strong
-  score_composite: 62.6
+  score_band: exemplar
+  score_composite: 72.2
   shared: 2
 - slug: reliance-jio
   name: Reliance Jio
   description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance Industries, is India's largest mobile network operator, serving roughly half a billion subscribers on an all-IP 4G/5G network from its home market of India, along…
   api_count: 3
   score_band: developing
-  score_composite: 50.5
+  score_composite: 52.1
   shared: 2
 - slug: totogi
   name: Totogi
@@ -88,21 +88,21 @@ providers:
   description: Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business.…
   api_count: 1
   score_band: developing
-  score_composite: 46.8
+  score_composite: 48.4
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
+  score_composite: 46.4
   shared: 2
 - slug: mavenir
   name: Mavenir
   description: Mavenir is a US-headquartered (Richardson, Texas) cloud-native telecom network software vendor that builds the software operators run rather than a network or a developer platform of its own. Its portfolio spans Open RAN and vRAN (MAVair),…
   api_count: 2
   score_band: thin
-  score_composite: 36.5
+  score_composite: 38.1
   shared: 2
 - slug: axon-framework
   name: Axon Framework

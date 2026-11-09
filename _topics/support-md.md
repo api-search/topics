@@ -35,7 +35,7 @@ links:
   url: https://github.blog/2017-07-20-support-file-support/
 - type: Specification
   url: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project
-provider_count: 65
+provider_count: 109
 providers:
 - slug: contributing-md
   name: CONTRIBUTING.md
@@ -44,6 +44,20 @@ providers:
   score_band: null
   score_composite: 0
   shared: 4
+- slug: blobpedia-org
+  name: BLOBPEDIA
+  description: BLOBPEDIA is the central knowledge hub for the Celestia ecosystem, providing indexed, searchable CIPs, documentation, whitepapers, discussions and ecosystem activity. It offers a unified full‑text search across the modular data‑availabilit…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.9
+  shared: 3
+- slug: claude-world-com
+  name: ClaudeWorld
+  description: ClaudeWorld provides a comprehensive map of agent‑tool evolution, operating methods, architecture lessons, practical guides, and product capability differences. It empowers developers to master Claude Code through advanced frameworks and m…
+  api_count: 2
+  score_band: emerging
+  score_composite: 20.7
+  shared: 3
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
   description: ACKNOWLEDGMENTS.md is a standardized file convention used in open source repositories to credit third-party software, libraries, inspirations, and other works that a project builds upon or is indebted to. It is a common practice for docume…
@@ -62,69 +76,76 @@ providers:
   name: Common Room
   description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST…
   api_count: 3
-  score_band: strong
-  score_composite: 65.7
+  score_band: exemplar
+  score_composite: 67.3
   shared: 2
 - slug: crowddev
   name: Crowd.dev
   description: Crowd.dev is an open-source developer data platform that centralizes community, product, and commercial data to unify contributor identities, resolve who is engaging with an open-source project, and activate that data for developer relatio…
   api_count: 7
   score_band: strong
-  score_composite: 56.4
-  shared: 2
-- slug: promptessor
-  name: PrompTessor
-  description: PrompTessor provides an AI prompt generation, optimization, and library platform. It offers tools to create, analyze, refine, and reverse‑engineer prompts for various AI models, supporting text, image, video, and code prompts. Users can or…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.6
-  shared: 2
-- slug: mojeek
-  name: Mojeek
-  description: Mojeek is an independent search engine company offering alternative web search services. It provides a Web Search API, Site Search API, and customizable search boxes for developers and businesses. Mojeek emphasizes privacy, community suppo…
-  api_count: 2
-  score_band: developing
-  score_composite: 44.7
-  shared: 2
-- slug: snipe-it
-  name: Snipe-IT
-  description: Snipe-IT provides free, open‑source IT asset management software that helps organizations track, manage, and maintain their hardware, software, and other technology assets. The platform offers a robust REST API for integration, detailed re…
-  api_count: 5
-  score_band: developing
-  score_composite: 44.2
+  score_composite: 58.1
   shared: 2
 - slug: salesforce-knowledge-management
   name: Salesforce Knowledge Management
   description: API for managing knowledge articles, categories, and data in Salesforce Knowledge. Enables creating, reading, updating, publishing, and archiving knowledge articles for customer self-service and agent-assisted support scenarios across mult…
   api_count: 1
   score_band: developing
-  score_composite: 43.3
+  score_composite: 49.6
   shared: 2
 - slug: pokeapi
   name: PokéAPI
   description: PokéAPI (pokeapi.co) is a free, open-source RESTful and GraphQL API serving comprehensive Pokémon data — including Pokémon species, abilities, moves, items, types, locations, evolution chains, encounters, berries, contests, games, and mach…
   api_count: 1
   score_band: developing
-  score_composite: 42.4
+  score_composite: 48.2
   shared: 2
-- slug: crowdsec
-  name: Crowdsec
-  description: CrowdSec provides curated threat intelligence and a collaborative security platform that leverages community‑driven data to block malicious IPs, detect attacks, and automate response. Their solutions include open‑source agents, a SaaS cons…
+- slug: derive-to
+  name: Derive
+  description: Derive is an open‑source, self‑hostable platform where teams and AI agents publish, review, and revise work. It provides a collaborative space for AI artifacts, emphasizing openness, community contribution, and flexible deployment. The ser…
   api_count: 1
   score_band: developing
-  score_composite: 41.3
+  score_composite: 44.1
   shared: 2
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 43.0
+  shared: 2
+- slug: crowdsec
+  name: Crowdsec
+  description: CrowdSec provides curated threat intelligence and a collaborative security platform that leverages community‑driven data to block malicious IPs, detect attacks, and automate response. Their solutions include open‑source agents, a SaaS cons…
+  api_count: 8
+  score_band: developing
+  score_composite: 42.7
   shared: 2
 - slug: api-blueprint
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
+  score_band: developing
+  score_composite: 39.7
+  shared: 2
+- slug: moxiedocs-com
+  name: moxiedocs-com
+  description: Moxie Docs provides source‑backed documentation for GitHub repositories, keeping docs in sync with code changes. It offers an MCP context for AI agents to understand documentation, and automates cleanup of pull requests that affect docs. U…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.1
+  shared: 2
+- slug: promptessor
+  name: PrompTessor
+  description: PrompTessor provides an AI prompt generation, optimization, and library platform. It offers tools to create, analyze, refine, and reverse‑engineer prompts for various AI models, supporting text, image, video, and code prompts. Users can or…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.4
+  shared: 2
+- slug: snipe-it
+  name: Snipe-IT
+  description: Snipe-IT provides free, open‑source IT asset management software that helps organizations track, manage, and maintain their hardware, software, and other technology assets. The platform offers a robust REST API for integration, detailed re…
+  api_count: 5
   score_band: thin
   score_composite: 38.1
   shared: 2
@@ -140,14 +161,21 @@ providers:
   description: At Discourse, our mission is to democratize online community and teamwork by raising the standard of civilized discourse on the Internet. We achieve this through delivering the best community and forum software. The Discourse API exposes a…
   api_count: 1
   score_band: thin
-  score_composite: 34.5
+  score_composite: 37.1
   shared: 2
-- slug: gpodder
-  name: gpodder.net
-  description: gpodder.net is a free, open-source podcast syncing service that lets users discover, subscribe to, and track podcasts across devices. It provides a web interface and API for managing podcast subscriptions, fetching episode metadata, and sh…
+- slug: agentdocs-eu
+  name: agentdocs-eu
+  description: AgentDocs is a collaborative documentation platform designed for AI agents and humans. It offers a markdown editor, shareable links, and a full REST API that enables agents to read, write, search, and manage docs programmatically. The serv…
+  api_count: 2
+  score_band: thin
+  score_composite: 36.6
+  shared: 2
+- slug: github-cli
+  name: GitHub CLI
+  description: GitHub CLI (gh) is GitHub's official, free and open source (MIT) command-line tool that brings pull requests, issues, Actions runs and workflows, releases, codespaces, gists, projects, Copilot and raw REST/GraphQL calls (gh api) to the ter…
   api_count: 1
   score_band: thin
-  score_composite: 34.5
+  score_composite: 34.3
   shared: 2
 - slug: lemmy
   name: Lemmy
@@ -155,20 +183,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.3
-  shared: 2
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
-  shared: 2
-- slug: jellyfin
-  name: Jellyfin
-  description: Jellyfin is a free, open-source media system that lets you collect, manage, and stream your media files. It is community‑built, runs on your own server, and offers no‑strings‑attached streaming to any device, with full control over your li…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
   shared: 2
 - slug: apigen
   name: APIGen
@@ -191,24 +205,38 @@ providers:
   score_band: thin
   score_composite: 33.4
   shared: 2
-- slug: inkeep
-  name: Inkeep
-  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and even…
+- slug: apis-guru
+  name: APIs.guru
+  description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
   api_count: 1
   score_band: thin
-  score_composite: 32.7
+  score_composite: 32.6
+  shared: 2
+- slug: travis-ci
+  name: Travis CI
+  description: 'Travis CI is a hosted continuous integration service supporting GitHub, GitLab and Bitbucket. Two REST APIs are available: the legacy v2/v2.1 API (deprecated) and the current v3 API used by the web UI. Travis CI is also available as Enterp…'
+  api_count: 1
+  score_band: thin
+  score_composite: 32.1
+  shared: 2
+- slug: aiki-wiki
+  name: AIKI
+  description: AIKI is an open‑knowledge collaborative platform where users can create, share, and discuss topics, projects, and assignments. It operates as a living library of pages and conversations, encouraging community contributions and AI‑assisted…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.0
   shared: 2
 - slug: spacex
   name: SpaceX (Community API)
   description: Community-maintained, open-source REST and GraphQL API for SpaceX data — launches, rockets, capsules, cores, crew, dragons, payloads, ships, landpads, launchpads, Starlink satellites, the Tesla Roadster ephemeris, company info, and histori…
   api_count: 15
   score_band: thin
-  score_composite: 31.8
+  score_composite: 32.0
   shared: 2
-- slug: apis-guru
-  name: APIs.guru
-  description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
-  api_count: 1
+- slug: inkeep
+  name: Inkeep
+  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and even…
+  api_count: 2
   score_band: thin
   score_composite: 31.3
   shared: 2
@@ -218,33 +246,5 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 31.1
-  shared: 2
-- slug: papercups
-  name: Papercups
-  description: Papercups is an open-source customer-messaging and live-chat platform built on Elixir/Phoenix, positioned as a self-hosted alternative to Intercom. It exposes a REST API for conversations, messages, and customers, a realtime chat surface o…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.8
-  shared: 2
-- slug: apiaddicts
-  name: apIAddicts
-  description: Fundación apIAddicts (API Addicts) is a Spain-based non-profit foundation and community of API and AI practitioners that has been connecting people and companies around APIs, MCP and AI since 2013. It runs the apIAddictsDay events (Spain a…
-  api_count: 3
-  score_band: thin
-  score_composite: 29.9
-  shared: 2
-- slug: travis-ci
-  name: Travis CI
-  description: 'Travis CI is a hosted continuous integration service supporting GitHub, GitLab and Bitbucket. Two REST APIs are available: the legacy v2/v2.1 API (deprecated) and the current v3 API used by the web UI. Travis CI is also available as Enterp…'
-  api_count: 1
-  score_band: thin
-  score_composite: 28.9
-  shared: 2
-- slug: bored
-  name: Bored API
-  description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew T…
-  api_count: 2
-  score_band: thin
-  score_composite: 28.6
   shared: 2
 ---

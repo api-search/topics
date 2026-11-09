@@ -21,7 +21,7 @@ links:
   url: https://en.wikipedia.org/wiki/Internet_protocol_suite
 - type: Standards
   url: https://www.ietf.org/standards/rfcs/
-provider_count: 58
+provider_count: 62
 providers:
 - slug: sonus
   name: Sonus
@@ -30,33 +30,26 @@ providers:
   score_band: minimal
   score_composite: 6.0
   shared: 3
-- slug: dns
-  name: DNS
-  description: DNS (Domain Name System) is the distributed naming system that translates human-readable domain names (like example.com) into the numerical IP addresses computers use to communicate. It functions as the internet's phone book, enabling user…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.4
-  shared: 3
 - slug: amazon-lightsail
   name: Amazon Lightsail
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
   api_count: 3
   score_band: exemplar
-  score_composite: 73.8
+  score_composite: 75.4
   shared: 2
 - slug: amazon-vpn
   name: Amazon VPN
   description: 'AWS VPN solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS offers two types of private connectivity: AWS Site-to-Site VPN and AWS Client VPN, enabling encryp…'
   api_count: 1
   score_band: exemplar
-  score_composite: 73.3
+  score_composite: 74.9
   shared: 2
-- slug: ibm
-  name: IBM
-  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.4
+- slug: zerotier
+  name: ZeroTier
+  description: ZeroTier, Inc. builds a software-defined networking (SDN) overlay that securely connects devices, servers, clouds, and networks anywhere in the world as if they were on the same local LAN, without the complexity of traditional VPNs, port f…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.1
   shared: 2
 - slug: graphiant
   name: Graphiant
@@ -65,33 +58,40 @@ providers:
   score_band: strong
   score_composite: 65.2
   shared: 2
-- slug: zerotier
-  name: ZeroTier
-  description: ZeroTier, Inc. builds a software-defined networking (SDN) overlay that securely connects devices, servers, clouds, and networks anywhere in the world as if they were on the same local LAN, without the complexity of traditional VPNs, port f…
+- slug: neutrino-api
+  name: Neutrino API
+  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
   api_count: 2
   score_band: strong
-  score_composite: 64.8
+  score_composite: 65.1
   shared: 2
-- slug: azure-networking-services
-  name: Azure Networking Services
-  description: A comprehensive collection of Azure networking APIs for managing virtual networks, load balancers, application gateways, VPN gateways, DNS, and other networking resources in the Microsoft Azure cloud.
-  api_count: 2
-  score_band: strong
-  score_composite: 61.1
-  shared: 2
-- slug: netbox-labs
-  name: NetBox Labs
-  description: NetBox Labs is the commercial company behind NetBox, the open-source network source-of-truth (DCIM and IPAM) used by network and infrastructure teams to model sites, racks, devices, interfaces, IP addresses, prefixes, VLANs, circuits, VPNs…
+- slug: ibm
+  name: IBM
+  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 64.9
   shared: 2
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes ser…
   api_count: 11
   score_band: strong
-  score_composite: 60.3
+  score_composite: 63.2
+  shared: 2
+- slug: netbox-labs
+  name: NetBox Labs
+  description: NetBox Labs is the commercial company behind NetBox, the open-source network source-of-truth (DCIM and IPAM) used by network and infrastructure teams to model sites, racks, devices, interfaces, IP addresses, prefixes, VLANs, circuits, VPNs…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.3
+  shared: 2
+- slug: azure-networking-services
+  name: Azure Networking Services
+  description: A comprehensive collection of Azure networking APIs for managing virtual networks, load balancers, application gateways, VPN gateways, DNS, and other networking resources in the Microsoft Azure cloud.
+  api_count: 2
+  score_band: strong
+  score_composite: 61.9
   shared: 2
 - slug: cisco-aci
   name: Cisco ACI
@@ -100,75 +100,75 @@ providers:
   score_band: strong
   score_composite: 55.7
   shared: 2
-- slug: neutrino-api
-  name: Neutrino API
-  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP…'
-  api_count: 2
-  score_band: developing
-  score_composite: 54.1
-  shared: 2
-- slug: upcloud
-  name: UpCloud
-  description: UpCloud is a Finnish cloud infrastructure provider offering cloud servers, block and object storage, managed databases, managed Kubernetes (UKS), load balancers and private networking from data centres in Europe, North America, Asia and Au…
+- slug: zayo
+  name: Zayo
+  description: Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprise…
   api_count: 1
   score_band: developing
-  score_composite: 53.8
+  score_composite: 52.1
   shared: 2
 - slug: google-cloud-load-balancing
   name: Google Cloud Load Balancing
   description: Google Cloud Load Balancing provides high-performance, scalable load balancing for Google Cloud Platform services, distributing traffic across multiple instances, regions, and backends to ensure reliability and low latency.
   api_count: 1
   score_band: developing
-  score_composite: 50.5
+  score_composite: 52.0
   shared: 2
-- slug: oxide-computer
-  name: Oxide
-  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
+- slug: upcloud
+  name: UpCloud
+  description: UpCloud is a Finnish cloud infrastructure provider offering cloud servers, block and object storage, managed databases, managed Kubernetes (UKS), load balancers and private networking from data centres in Europe, North America, Asia and Au…
   api_count: 1
   score_band: developing
-  score_composite: 46.2
+  score_composite: 51.8
   shared: 2
 - slug: cisco-hardware
   name: Cisco Hardware
   description: Cisco Hardware is an aggregated index of programmable interfaces for managing Cisco network and data center hardware, including routers, switches, wireless access points, data center fabric, and unified computing systems. The index covers…
   api_count: 1
   score_band: developing
-  score_composite: 45.4
+  score_composite: 47.9
   shared: 2
-- slug: zayo
-  name: Zayo
-  description: Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprise…
+- slug: oxide-computer
+  name: Oxide
+  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
   api_count: 1
   score_band: developing
-  score_composite: 43.8
-  shared: 2
-- slug: haproxy
-  name: HAProxy
-  description: HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It exposes a Data Plane API for dynamic configuration management and a stats socket for r…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.7
+  score_composite: 47.8
   shared: 2
 - slug: aruba
   name: Aruba
   description: APIs for HPE Aruba Networking cloud networking, security, and infrastructure solutions including Central, AOS-CX, ClearPass, EdgeConnect SD-WAN, Fabric Composer, and User Experience Insight.
   api_count: 1
   score_band: developing
-  score_composite: 42.5
+  score_composite: 44.2
+  shared: 2
+- slug: haproxy
+  name: HAProxy
+  description: HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It exposes a Data Plane API for dynamic configuration management and a stats socket for r…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.1
   shared: 2
 - slug: datum
   name: Datum
   description: Datum is an open source network cloud built for AI, founded in 2024 and backed by $13.6M from Amplify Partners, CRV, Encoded Ventures, Cervin Ventures, Ex/Ante, Step Function, and Vine Ventures, and founded by Zac Smith and Jacob Smith (ex…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 42.1
+  shared: 2
+- slug: fly-io
+  name: Fly Io
+  description: Documentation and guides from the team at Fly.io.
+  api_count: 1
+  score_band: developing
+  score_composite: 41.2
   shared: 2
 - slug: cisco-nexus
   name: Cisco Nexus Dashboard
   description: APIs for managing and monitoring Cisco Nexus data center switches and network infrastructure.
   api_count: 1
-  score_band: thin
-  score_composite: 39.2
+  score_band: developing
+  score_composite: 40.3
   shared: 2
 - slug: 128-technology
   name: 128 Technology
@@ -177,19 +177,19 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 2
-- slug: fly-io
-  name: Fly Io
-  description: Documentation and guides from the team at Fly.io.
-  api_count: 1
-  score_band: thin
-  score_composite: 34.5
-  shared: 2
 - slug: inspur-cloud
   name: Inspur Cloud
   description: Inspur Cloud (浪潮云) is the public-cloud arm of the Chinese IT conglomerate Inspur Group, operating from cloud.inspur.com across the cn-north-3 (华北三), cn-south-1 (华南一) and cn-east-1 (华东一) regions. It publishes a broad IaaS/PaaS catalog — 94…
   api_count: 18
   score_band: thin
   score_composite: 34.1
+  shared: 2
+- slug: lumen-technologies
+  name: Lumen Technologies
+  description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Cent…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.6
   shared: 2
 - slug: mangoboost
   name: MangoBoost
@@ -212,19 +212,19 @@ providers:
   score_band: thin
   score_composite: 30.1
   shared: 2
-- slug: lumen-technologies
-  name: Lumen Technologies
-  description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Cent…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.0
-  shared: 2
 - slug: a10-networks
   name: A10 Networks
   description: 'A10 Networks (NYSE: ATEN) is a San Jose, California–headquartered application delivery and cybersecurity company founded in 2004 by Lee Chen. A10 builds the ACOS (Application Centric Operating System) software platform that powers its Thun…'
   api_count: 1
   score_band: thin
   score_composite: 27.4
+  shared: 2
+- slug: ipvolt-com
+  name: ipvolt-com
+  description: ipvolt provides a proxy infrastructure platform tailored for developers and data teams. It offers residential, datacenter, ISP (static residential) and mobile proxies that enable reliable web research, site monitoring, and application test…
+  api_count: 2
+  score_band: thin
+  score_composite: 27.1
   shared: 2
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force

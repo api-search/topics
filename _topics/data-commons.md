@@ -69,7 +69,7 @@ links:
   url: https://github.com/api-evangelist/data-commons/blob/main/json-ld/data-commons-context.jsonld
 - type: MCPServer
   url: https://blog.datacommons.org/2025/10/02/announcing-the-data-commons-model-context-protocol-server/
-provider_count: 19
+provider_count: 23
 providers:
 - slug: wikidata
   name: Wikidata
@@ -78,19 +78,26 @@ providers:
   score_band: developing
   score_composite: 52.0
   shared: 2
-- slug: us-dot
-  name: U.S. Department of Transportation
-  description: The U.S. Department of Transportation (DOT) is the federal transportation regulator for the United States, the deepest travel market in the world. In aviation DOT is not a participant in the distribution chain — it is the counterweight to…
-  api_count: 12
-  score_band: developing
-  score_composite: 49.5
-  shared: 2
 - slug: bargo-congress-trades-api
   name: Bargo Congress Trades API
   description: A free JSON REST API and hosted MCP server from Bargo that normalizes U.S. House and Senate STOCK Act securities transaction disclosures into a queryable dataset — currently 42,000+ disclosed trades across 415 members and 4,100+ tickers. S…
   api_count: 1
   score_band: developing
-  score_composite: 48.2
+  score_composite: 51.2
+  shared: 2
+- slug: us-dot
+  name: U.S. Department of Transportation
+  description: The U.S. Department of Transportation (DOT) is the federal transportation regulator for the United States, the deepest travel market in the world. In aviation DOT is not a participant in the distribution chain — it is the counterweight to…
+  api_count: 12
+  score_band: developing
+  score_composite: 51.1
+  shared: 2
+- slug: department-of-justice
+  name: Department of Justice
+  description: The U.S. Department of Justice (DOJ) is the federal executive department responsible for enforcing the law and defending the interests of the United States. DOJ exposes a portfolio of public APIs and data feeds including the DOJ News API f…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.5
   shared: 2
 - slug: us-census-bureau
   name: US Census Bureau
@@ -99,12 +106,26 @@ providers:
   score_band: developing
   score_composite: 45.3
   shared: 2
-- slug: department-of-justice
-  name: Department of Justice
-  description: The U.S. Department of Justice (DOJ) is the federal executive department responsible for enforcing the law and defending the interests of the United States. DOJ exposes a portfolio of public APIs and data feeds including the DOJ News API f…
-  api_count: 13
+- slug: australian-bureau-of-statistics
+  name: Australian Bureau of Statistics
+  description: The Australian Bureau of Statistics (ABS) is Australia's national statistical agency, publishing official statistics on the economy, population, labour, health, industry and the Census. For developers it publishes the Data API, an SDMX 2.1…
+  api_count: 2
   score_band: developing
-  score_composite: 43.3
+  score_composite: 45.0
+  shared: 2
+- slug: wikipedia
+  name: Wikipedia / MediaWiki
+  description: 'Wikipedia is the free, multilingual online encyclopedia operated by the non-profit Wikimedia Foundation. The platform exposes its content and structured data through several public APIs: the original MediaWiki Action API (action=query|edit…'
+  api_count: 2
+  score_band: developing
+  score_composite: 43.0
+  shared: 2
+- slug: bureau-of-transportation-statistics
+  name: Bureau of Transportation Statistics
+  description: The Bureau of Transportation Statistics (BTS), part of the Department of Transportation (DOT) is the preeminent source of statistics on commercial aviation, multimodal freight activity, and transportation economics, and provides context to…
+  api_count: 2
+  score_band: developing
+  score_composite: 42.0
   shared: 2
 - slug: economic-research-service
   name: Economic Research Service
@@ -113,26 +134,19 @@ providers:
   score_band: developing
   score_composite: 41.0
   shared: 2
-- slug: bureau-of-transportation-statistics
-  name: Bureau of Transportation Statistics
-  description: The Bureau of Transportation Statistics (BTS), part of the Department of Transportation (DOT) is the preeminent source of statistics on commercial aviation, multimodal freight activity, and transportation economics, and provides context to…
-  api_count: 2
-  score_band: developing
-  score_composite: 40.4
-  shared: 2
-- slug: wikipedia
-  name: Wikipedia / MediaWiki
-  description: 'Wikipedia is the free, multilingual online encyclopedia operated by the non-profit Wikimedia Foundation. The platform exposes its content and structured data through several public APIs: the original MediaWiki Action API (action=query|edit…'
-  api_count: 2
-  score_band: developing
-  score_composite: 40.1
-  shared: 2
 - slug: opendatasoft
   name: Opendatasoft
   description: Open data platform with REST APIs for accessing public datasets from 1,000+ cities and organizations, providing standard OData and JSON query interfaces. Now operating as Huwise, the platform powers 3,000+ data marketplaces and provides ca…
   api_count: 1
   score_band: thin
-  score_composite: 36.5
+  score_composite: 37.9
+  shared: 2
+- slug: pncp-dev
+  name: pncp-dev
+  description: pncp.dev provides an unblocked proxy to the public API of Brazil's National Procurement Portal (PNCP). It mirrors the routes of pncp.gov.br, allowing developers to replace the base address with api.pncp.dev and include their API key in a r…
+  api_count: 2
+  score_band: thin
+  score_composite: 36.8
   shared: 2
 - slug: the-bureau-of-economic-analysis
   name: The Bureau of Economic Analysis
@@ -148,26 +162,19 @@ providers:
   score_band: thin
   score_composite: 34.6
   shared: 2
-- slug: invokely
-  name: Invokely
-  description: Invokely provides official statistics on population, GDP, inflation, employment, income, housing, AI adoption and related indicators for every country, U.S. state and county, EU region and other jurisdictions. The data are sourced from nat…
-  api_count: 2
-  score_band: thin
-  score_composite: 31.7
-  shared: 2
 - slug: eurostat
   name: Eurostat
   description: Eurostat is the statistical office of the European Union, providing free and open REST APIs for programmatic access to European statistical data covering demographics, economy, trade, agriculture, transport, environment, and dozens of othe…
   api_count: 1
   score_band: thin
-  score_composite: 29.2
+  score_composite: 30.4
   shared: 2
 - slug: unicef-data
   name: UNICEF Data
   description: UNICEF Data is the official open data platform of the United Nations Children's Fund, providing programmatic access to global child welfare statistics, health and nutrition indicators, education data, child protection metrics, MICS (Multip…
   api_count: 2
   score_band: thin
-  score_composite: 28.6
+  score_composite: 29.1
   shared: 2
 - slug: conceptnet
   name: ConceptNet
@@ -176,19 +183,33 @@ providers:
   score_band: thin
   score_composite: 27.2
   shared: 2
+- slug: dbnomics
+  name: DBnomics
+  description: DBnomics is the world's economic database - a free, open-source aggregator run by Cepremap that harvests macroeconomic time series from more than 90 national and international providers (IMF, ECB, Eurostat, World Bank, OECD, BLS, BEA, Banq…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.7
+  shared: 2
+- slug: datosia-net
+  name: DatosIA
+  description: DatosIA provides public data for Central America and the Dominican Republic, covering topics such as banking, poverty, prices, trade, labour, crime, education, health, population, energy, procurement and more. The platform offers an API to…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.3
+  shared: 2
+- slug: invokely
+  name: Invokely
+  description: Invokely provides official statistics on population, GDP, inflation, employment, income, housing, AI adoption and related indicators for every country, U.S. state and county, EU region and other jurisdictions. The data are sourced from nat…
+  api_count: 2
+  score_band: emerging
+  score_composite: 25.0
+  shared: 2
 - slug: unfao
   name: FAO FAOSTAT
   description: The Food and Agriculture Organization (FAO) of the United Nations operates FAOSTAT, the world's largest freely accessible database for food and agriculture statistics. FAOSTAT provides REST APIs for programmatic access to agricultural prod…
   api_count: 2
   score_band: emerging
   score_composite: 24.7
-  shared: 2
-- slug: dbnomics
-  name: DBnomics
-  description: DBnomics is the world's economic database - a free, open-source aggregator run by Cepremap that harvests macroeconomic time series from more than 90 national and international providers (IMF, ECB, Eurostat, World Bank, OECD, BLS, BEA, Banq…
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.8
   shared: 2
 - slug: dol
   name: Department of Labor
@@ -203,5 +224,12 @@ providers:
   api_count: 6
   score_band: emerging
   score_composite: 13.2
+  shared: 2
+- slug: european-central-bank
+  name: ECB Data Portal
+  description: The European Central Bank (ECB) Data Portal provides access to a wide range of statistical data, economic indicators, and financial datasets published by the ECB. It offers APIs and downloadable resources for researchers, analysts, and dev…
+  api_count: 0
+  score_band: minimal
+  score_composite: 7.8
   shared: 2
 ---

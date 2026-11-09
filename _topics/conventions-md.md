@@ -43,7 +43,7 @@ links:
   url: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot
 - type: Blog
   url: https://aider.chat/feed.xml
-provider_count: 17
+provider_count: 18
 providers:
 - slug: claude-md
   name: CLAUDE.md
@@ -59,26 +59,40 @@ providers:
   score_band: null
   score_composite: 0
   shared: 3
-- slug: apidog
-  name: Apidog
-  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
-  api_count: 1
-  score_band: developing
-  score_composite: 52.9
-  shared: 2
 - slug: hackmd
   name: HackMD
   description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide d…
   api_count: 1
-  score_band: developing
-  score_composite: 51.0
+  score_band: strong
+  score_composite: 61.3
+  shared: 2
+- slug: apidog
+  name: Apidog
+  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
   shared: 2
 - slug: api-blueprint
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
+  score_band: developing
+  score_composite: 39.7
+  shared: 2
+- slug: auteng-ai
+  name: auteng-ai
+  description: AutEng provides an AI-native workspace for creating, editing, and sharing technical documentation. It supports Markdown, Mermaid diagrams, and KaTeX math, offering a collaborative platform with AI assistance for generating content, visuali…
+  api_count: 3
   score_band: thin
-  score_composite: 38.1
+  score_composite: 34.6
+  shared: 2
+- slug: docbin-app
+  name: docbin
+  description: Docbin is a markdown pastebin service that offers version history, up to 5 MB free storage per paste, and optional paid plans for larger files and additional features. Users can create, share, and embed markdown or HTML documents, with sup…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.8
   shared: 2
 - slug: slate
   name: Slate
@@ -107,13 +121,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 12.0
-  shared: 2
-- slug: markup-language
-  name: Markup Language
-  description: A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. Examples include HTML, XML, Markdown, LaTeX, and others that add semantic meaning or formatting instructions to text cont…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
   shared: 2
 - slug: clinerules
   name: .clinerules

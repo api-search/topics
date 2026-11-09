@@ -35,6 +35,13 @@ links:
   url: https://datatracker.ietf.org/doc/html/rfc8594
 - type: IETF Specification
   url: https://www.rfc-editor.org/rfc/rfc8594
-provider_count: 0
-providers: []
+provider_count: 1
+providers:
+- slug: headers
+  name: HTTP Headers
+  description: Every HTTP header an API can speak — 302 headers assembled from the IANA HTTP Field Name Registry, 119,030 published specification files across 26,641 providers, and the regulations that reach the wire. What each header is for, how to use…
+  api_count: 1
+  score_band: minimal
+  score_composite: 1.7
+  shared: 2
 ---

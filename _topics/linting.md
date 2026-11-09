@@ -75,6 +75,8 @@ links:
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/linting/refs/heads/main/vocabulary/linting-vocabulary.yml
 - type: RelatedRepository
+  url: https://github.com/api-evangelist/spotlight-rules
+- type: RelatedRepository
   url: https://github.com/api-evangelist/spectral
 - type: RelatedRepository
   url: https://github.com/api-evangelist/vacuum
@@ -84,7 +86,7 @@ links:
   url: https://github.com/api-evangelist/optic
 - type: RelatedRepository
   url: https://github.com/api-evangelist/stoplight
-provider_count: 35
+provider_count: 33
 providers:
 - slug: spectral
   name: Spectral
@@ -98,7 +100,7 @@ providers:
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 76.3
   shared: 5
 - slug: speclynx
   name: SpecLynx
@@ -112,14 +114,14 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 3
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 60.1
   shared: 3
 - slug: zally
   name: Zally
@@ -140,14 +142,14 @@ providers:
   description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 32.5
   shared: 3
 - slug: schwarz-it
   name: Schwarz IT
   description: Schwarz IT (Schwarz IT KG, Neckarsulm, Germany) is the IT service company of the Schwarz Group (Lidl, Kaufland), describing itself on GitHub as "the technological heartbeat of the companies of Schwarz Group". It is listed as an affiliated…
   api_count: 1
   score_band: emerging
-  score_composite: 25.2
+  score_composite: 23.5
   shared: 3
 - slug: vacuum
   name: Vacuum
@@ -175,56 +177,56 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 93.8
+  score_composite: 95.4
   shared: 2
 - slug: redocly
   name: Redocly
   description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel,…
   api_count: 4
   score_band: exemplar
-  score_composite: 81.1
+  score_composite: 82.7
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_band: exemplar
+  score_composite: 69.0
   shared: 2
 - slug: observeai
   name: Observe.AI
   description: Observe.AI is an agentic AI platform for the contact center, providing purpose-built AI agents that handle customer support end-to-end across voice and chat, real-time AI Copilot guidance that assists frontline agents during live interacti…
   api_count: 1
   score_band: strong
-  score_composite: 54.5
+  score_composite: 58.9
   shared: 2
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
+  score_composite: 52.3
   shared: 2
 - slug: elva
   name: Elva
   description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth O…'
   api_count: 1
   score_band: developing
-  score_composite: 50.6
-  shared: 2
-- slug: swaggerhub
-  name: SwaggerHub
-  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.5
+  score_composite: 52.2
   shared: 2
 - slug: btc-war-live-market-data-api
   name: BTC War Live Market Data API
   description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
   api_count: 2
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.6
+  shared: 2
+- slug: swaggerhub
+  name: SwaggerHub
+  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.8
   shared: 2
 - slug: kiota
   name: Kiota
@@ -238,7 +240,7 @@ providers:
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
   shared: 2
 - slug: naftiko
   name: Naftiko
@@ -252,7 +254,7 @@ providers:
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
   shared: 2
 - slug: api-fiddle
   name: API-Fiddle

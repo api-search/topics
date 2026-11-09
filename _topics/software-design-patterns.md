@@ -47,7 +47,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/software-design-patterns/refs/heads/main/json-ld/software-design-patterns-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/software-design-patterns/refs/heads/main/vocabulary/software-design-patterns-vocabulary.yml
-provider_count: 7
+provider_count: 4
 providers:
 - slug: design-patterns
   name: Design Patterns
@@ -56,33 +56,19 @@ providers:
   score_band: emerging
   score_composite: 11.0
   shared: 3
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 3
-- slug: microservices-design-patterns
-  name: Microservices Design Patterns
-  description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 3
 - slug: amazon-well-architected-tool
   name: Amazon Well-Architected Tool
   description: The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural best practices. It provides a consistent process for evaluating architectures and implementing designs that scale over time acro…
   api_count: 1
   score_band: strong
-  score_composite: 57.8
+  score_composite: 61.7
   shared: 2
-- slug: secure-by-design
-  name: Secure-By-Design
-  description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.1
+- slug: arketo-ai
+  name: Arketo
+  description: Arketo is a web‑based developer application that connects AI assistants such as Claude, Code, Cursor, and others to automatically draw your app’s architecture live, flag potential breakages, and generate detailed reports. It helps prompt‑b…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.5
   shared: 2
 - slug: services-patterns
   name: Services Patterns
@@ -90,12 +76,5 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 2.3
-  shared: 2
-- slug: monolithic-architecture
-  name: Monolithic Architecture
-  description: Monolithic Architecture is a software design approach in which an application is built as a single, unified unit where all components, business logic, data access, and user interface are tightly coupled and deployed together. It contrasts…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
   shared: 2
 ---

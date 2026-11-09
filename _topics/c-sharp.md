@@ -83,19 +83,19 @@ providers:
   score_band: emerging
   score_composite: 19.6
   shared: 3
+- slug: microsoft-package
+  name: Microsoft Package
+  description: A collection of Microsoft package management APIs covering NuGet, Windows Package Manager (WinGet), Microsoft Store, and Azure Artifacts for managing and distributing software packages across Microsoft platforms.
+  api_count: 8
+  score_band: thin
+  score_composite: 34.9
+  shared: 2
 - slug: refitter
   name: Refitter
   description: Refitter is a .NET tool and source generator that produces Refit HTTP client interfaces from OpenAPI specifications. It runs at compile time as a source generator or as a standalone CLI tool (dotnet-refitter), enabling type-safe API consum…
   api_count: 2
   score_band: thin
   score_composite: 34.1
-  shared: 2
-- slug: microsoft-package
-  name: Microsoft Package
-  description: A collection of Microsoft package management APIs covering NuGet, Windows Package Manager (WinGet), Microsoft Store, and Azure Artifacts for managing and distributing software packages across Microsoft platforms.
-  api_count: 8
-  score_band: thin
-  score_composite: 33.3
   shared: 2
 - slug: nswag
   name: NSwag

@@ -62,7 +62,7 @@ links:
   url: https://www.gs1.org/standards/epcis
 - type: Standards
   url: https://www.gs1.org/standards/epc-rfid-epcis-id-keys/epc-rfid-tds/1-12
-provider_count: 88
+provider_count: 92
 providers:
 - slug: wiliot
   name: Wiliot
@@ -82,15 +82,15 @@ providers:
   name: Invendor
   description: Invendor is a smart industrial vending and vendor-managed inventory (VMI) platform for industrial distributors and manufacturers, combining weight-sensing (Gravity) and scan-based (Capture) smart cabinets, a Storeroom mobile app, and cloud…
   api_count: 2
-  score_band: thin
-  score_composite: 37.4
+  score_band: developing
+  score_composite: 40.1
   shared: 3
 - slug: got-its
   name: Reelables
   description: Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attach…
   api_count: 2
   score_band: thin
-  score_composite: 33.9
+  score_composite: 36.8
   shared: 3
 - slug: avery-dennison
   name: Avery Dennison
@@ -118,7 +118,7 @@ providers:
   description: Trackonomy is a supply chain visibility company that digitizes real-world operations with barely-there smart label sensors. Its SmartTape and THL Tape products provide item-level tracking, monitoring location, temperature, humidity, and li…
   api_count: 0
   score_band: emerging
-  score_composite: 11.0
+  score_composite: 11.9
   shared: 3
 - slug: sensefinity
   name: Sensefinity
@@ -141,61 +141,103 @@ providers:
   score_band: null
   score_composite: 0
   shared: 3
-- slug: kontaktio
-  name: Kontakt.io
-  description: Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with s…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 71.4
-  shared: 2
 - slug: hubble-network
   name: Hubble Network
   description: Hubble Network is a Seattle-based IoT connectivity company, founded in 2021 by Alex Haro (Life360) and Ben Wild (Amazon Sidewalk), building a dual-stack global network that any standard Bluetooth Low Energy 5.0+ chip can reach with no mode…
   api_count: 2
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 74.5
   shared: 2
-- slug: optoro
-  name: Optoro
-  description: Optoro is a returns management and reverse-logistics software company (Washington, DC; acquired by Blue Yonder in August 2025) whose OptiTurn platform powers the full returns lifecycle for retailers, brands and 3PLs — a shopper-facing retu…
-  api_count: 17
-  score_band: strong
-  score_composite: 61.9
-  shared: 2
-- slug: leaflink
-  name: LeafLink
-  description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
-  api_count: 2
-  score_band: strong
-  score_composite: 61.5
+- slug: kontaktio
+  name: Kontakt.io
+  description: Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with s…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 71.3
   shared: 2
 - slug: katana
   name: Katana
   description: Katana is a cloud manufacturing ERP and inventory management platform for product businesses. It gives makers and small-to-midsize manufacturers real-time inventory control across multiple locations and sales channels, production and manuf…
   api_count: 1
   score_band: strong
-  score_composite: 60.4
-  shared: 2
-- slug: crunchtime
-  name: Crunchtime
-  description: Crunchtime (CrunchTime! Information Systems) is an AI-powered restaurant operations management platform used by 850+ multi-unit restaurant brands across 150,000+ locations to run inventory and food-cost control, labor and scheduling, opera…
-  api_count: 4
-  score_band: strong
-  score_composite: 59.6
+  score_composite: 66.4
   shared: 2
 - slug: walmart
   name: Walmart
   description: Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers fro…
   api_count: 27
   score_band: strong
-  score_composite: 59.4
+  score_composite: 65.0
+  shared: 2
+- slug: optoro
+  name: Optoro
+  description: Optoro is a returns management and reverse-logistics software company (Washington, DC; acquired by Blue Yonder in August 2025) whose OptiTurn platform powers the full returns lifecycle for retailers, brands and 3PLs — a shopper-facing retu…
+  api_count: 17
+  score_band: strong
+  score_composite: 63.6
+  shared: 2
+- slug: byrd
+  name: Byrd
+  description: byrd is a European e-commerce fulfillment and third-party logistics (3PL) provider operating a network of 25+ fulfillment warehouses across Europe and the UK. It offers multichannel order fulfillment with integrations to the major shop and…
+  api_count: 2
+  score_band: strong
+  score_composite: 63.3
+  shared: 2
+- slug: leaflink
+  name: LeafLink
+  description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
+  api_count: 2
+  score_band: strong
+  score_composite: 63.2
+  shared: 2
+- slug: crunchtime
+  name: Crunchtime
+  description: Crunchtime (CrunchTime! Information Systems) is an AI-powered restaurant operations management platform used by 850+ multi-unit restaurant brands across 150,000+ locations to run inventory and food-cost control, labor and scheduling, opera…
+  api_count: 4
+  score_band: strong
+  score_composite: 59.8
   shared: 2
 - slug: crunchtime-information-systems
   name: Crunchtime Information Systems
   description: Crunchtime (Crunchtime Information Systems) is a Boston-based provider of AI-powered operations-management software for multi-unit restaurants, founded in 1995 and serving 850+ restaurant brands across 150,000+ locations. Its platform unif…
   api_count: 4
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.8
+  shared: 2
+- slug: shipmonk
+  name: ShipMonk
+  description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order manage…
+  api_count: 6
+  score_band: strong
+  score_composite: 57.5
+  shared: 2
+- slug: tracelink
+  name: TraceLink
+  description: TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two doz…
+  api_count: 6
+  score_band: strong
+  score_composite: 57.5
+  shared: 2
+- slug: avnet
+  name: Avnet
+  description: 'Avnet is a global technology distributor and solutions provider that delivers electronic components, embedded solutions, and design and supply chain services to industrial and commercial customers. It publishes two API surfaces: the Avnet…'
+  api_count: 23
+  score_band: strong
+  score_composite: 55.5
+  shared: 2
+- slug: kargo-ai
+  name: Kargo
+  description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.3
+  shared: 2
+- slug: relex
+  name: RELEX Solutions
+  description: RELEX Solutions is a Helsinki-headquartered supply chain and retail planning software company whose unified platform covers demand forecasting, inventory and replenishment, space and assortment, pricing and promotions, workforce and store…
+  api_count: 2
+  score_band: strong
+  score_composite: 55.0
   shared: 2
 - slug: tailor
   name: Tailor
@@ -204,74 +246,32 @@ providers:
   score_band: strong
   score_composite: 54.9
   shared: 2
-- slug: shipmonk
-  name: ShipMonk
-  description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order manage…
-  api_count: 6
-  score_band: strong
-  score_composite: 54.4
-  shared: 2
-- slug: kargo-ai
-  name: Kargo
-  description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
-  api_count: 3
-  score_band: developing
-  score_composite: 54.0
-  shared: 2
-- slug: avnet
-  name: Avnet
-  description: 'Avnet is a global technology distributor and solutions provider that delivers electronic components, embedded solutions, and design and supply chain services to industrial and commercial customers. It publishes two API surfaces: the Avnet…'
-  api_count: 23
-  score_band: developing
-  score_composite: 53.9
-  shared: 2
-- slug: relex
-  name: RELEX Solutions
-  description: RELEX Solutions is a Helsinki-headquartered supply chain and retail planning software company whose unified platform covers demand forecasting, inventory and replenishment, space and assortment, pricing and promotions, workforce and store…
+- slug: wholechain
+  name: Wholechain
+  description: Wholechain (Wholechain, Inc.) is a blockchain-based supply chain traceability platform built to enable trust, coordination, and transparency in fragmented supply chains. It helps businesses map and capture supply chain events from origin t…
   api_count: 2
   score_band: developing
-  score_composite: 53.4
-  shared: 2
-- slug: byrd
-  name: Byrd
-  description: byrd is a European e-commerce fulfillment and third-party logistics (3PL) provider operating a network of 25+ fulfillment warehouses across Europe and the UK. It offers multichannel order fulfillment with integrations to the major shop and…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.1
-  shared: 2
-- slug: digi-key
-  name: Digi-Key
-  description: DigiKey is a global distributor of electronic components. Its developer portal (developer.digikey.com) publishes OAuth 2.0 REST APIs on api.digikey.com for product search, pricing and inventory (Product Information V4), product change noti…
-  api_count: 22
-  score_band: developing
-  score_composite: 51.7
+  score_composite: 53.6
   shared: 2
 - slug: nabis
   name: Nabis
   description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace…
   api_count: 3
   score_band: developing
-  score_composite: 50.0
-  shared: 2
-- slug: tracelink
-  name: TraceLink
-  description: TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two doz…
-  api_count: 6
-  score_band: developing
-  score_composite: 49.6
-  shared: 2
-- slug: logiwa
-  name: Logiwa
-  description: Logiwa is a Chicago-based cloud fulfillment software company whose flagship product, Logiwa IO, is a warehouse management and fulfillment management system (WMS/FMS) built for high-volume B2C and DTC brands, wholesalers and third-party log…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.6
+  score_composite: 51.7
   shared: 2
 - slug: dust-identity
   name: Dust Identity
   description: DUST Identity (Newton, Massachusetts; founded 2018 as an MIT spinout) binds physical objects to trusted digital records using the Diamond Unclonable Security Tag — an applied coating of engineered nano-diamonds in a polymer matrix that for…
   api_count: 1
   score_band: developing
-  score_composite: 45.8
+  score_composite: 48.0
+  shared: 2
+- slug: digi-key
+  name: Digi-Key
+  description: DigiKey is a global distributor of electronic components. Its developer portal (developer.digikey.com) publishes OAuth 2.0 REST APIs on api.digikey.com for product search, pricing and inventory (Product Information V4), product change noti…
+  api_count: 22
+  score_band: developing
+  score_composite: 47.2
   shared: 2
 ---

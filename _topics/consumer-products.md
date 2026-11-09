@@ -110,42 +110,42 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-beauty-example.json
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-household-example.json
-provider_count: 144
+provider_count: 147
 providers:
 - slug: salsify
   name: Salsify
   description: Salsify is a product experience management (PXM) and supplier experience management (SXM) platform used by brands, distributors and retailers to centralize product content, digital assets and syndication to the digital shelf. The Salsify p…
   api_count: 3
   score_band: strong
-  score_composite: 59.1
+  score_composite: 64.5
   shared: 3
 - slug: 1worldsync
   name: 1WorldSync
   description: 1WorldSync is the leading product content network and a GS1-certified GDSN data pool, helping consumer goods brands, manufacturers, and retailers create, manage, syndicate, and verify trusted product content across the digital shelf and th…
   api_count: 1
   score_band: developing
-  score_composite: 50.3
+  score_composite: 53.4
   shared: 3
 - slug: powerreviews
   name: PowerReviews
   description: PowerReviews provides ratings and reviews software and APIs for collecting, syndicating, and displaying user-generated reviews, questions, and answers so shoppers can make better purchase decisions and retailers and brands can drive e-comm…
   api_count: 2
   score_band: developing
-  score_composite: 45.5
+  score_composite: 47.3
+  shared: 3
+- slug: akeneo
+  name: Akeneo
+  description: Akeneo is a Product Information Management (PIM) platform that centralizes, enriches, and distributes product data across digital commerce channels, enabling brands, retailers, and manufacturers to deliver consistent product experiences. T…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.4
   shared: 3
 - slug: alkemics
   name: Alkemics
   description: Alkemics was a French SaaS company founded in 2011 in Paris that operated a collaborative commerce platform connecting consumer packaged goods (CPG) brands and retailers to share, enrich, and distribute product content and data across the…
   api_count: 22
   score_band: thin
-  score_composite: 37.9
-  shared: 3
-- slug: akeneo
-  name: Akeneo
-  description: Akeneo is a Product Information Management (PIM) platform that centralizes, enriches, and distributes product data across digital commerce channels, enabling brands, retailers, and manufacturers to deliver consistent product experiences. T…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.6
+  score_composite: 36.0
   shared: 3
 - slug: colgate-palmolive
   name: Colgate-Palmolive
@@ -161,6 +161,13 @@ providers:
   score_band: emerging
   score_composite: 13.5
   shared: 3
+- slug: a2a-passport-ai
+  name: A2A Passport
+  description: 'A passport is a signed document for a product or a retail banner: where its record lives, where it is on the record, who lists it, where the money door is. Issued live from the GSC hubs, stamped every week.'
+  api_count: 1
+  score_band: minimal
+  score_composite: 10.0
+  shared: 3
 - slug: noviconnect
   name: Novi Connect
   description: Novi Connect (Novi) is an AI shopping optimization platform and data infrastructure for CPG and retail brands. It connects brands, certification bodies, and major retailers to verify, standardize, and distribute product data so products ar…
@@ -175,54 +182,68 @@ providers:
   score_band: minimal
   score_composite: 7.5
   shared: 3
-- slug: open-food-facts
-  name: Open Food Facts
-  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Da…
-  api_count: 8
-  score_band: strong
-  score_composite: 64.5
-  shared: 2
 - slug: bazaarvoice
   name: Bazaarvoice
   description: Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of br…
   api_count: 12
   score_band: strong
-  score_composite: 62.8
+  score_composite: 65.9
+  shared: 2
+- slug: open-food-facts
+  name: Open Food Facts
+  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Da…
+  api_count: 8
+  score_band: strong
+  score_composite: 65.1
   shared: 2
 - slug: erply
   name: Erply
   description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more st…
   api_count: 4
   score_band: strong
-  score_composite: 59.5
-  shared: 2
-- slug: back-market
-  name: Back Market
-  description: Back Market is a French-founded global online marketplace dedicated exclusively to refurbished consumer electronics — smartphones, laptops, tablets, consoles, watches, audio and home appliances — operating across 17 countries on three regi…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.2
+  score_composite: 62.7
   shared: 2
 - slug: channable
   name: Channable
   description: Channable is a feed management and marketplace integration platform that helps online retailers, brands, and agencies optimize, distribute, and advertise their product data across more than 2,500 marketing channels, price comparison sites,…
   api_count: 1
   score_band: developing
-  score_composite: 49.5
-  shared: 2
-- slug: smarter-sorting
-  name: Smarter Sorting
-  description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. I…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.3
+  score_composite: 53.9
   shared: 2
 - slug: treez
   name: Treez
   description: Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its publ…
   api_count: 7
   score_band: developing
-  score_composite: 44.7
+  score_composite: 53.4
+  shared: 2
+- slug: back-market
+  name: Back Market
+  description: Back Market is a French-founded global online marketplace dedicated exclusively to refurbished consumer electronics — smartphones, laptops, tablets, consoles, watches, audio and home appliances — operating across 17 countries on three regi…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.6
+  shared: 2
+- slug: smarter-sorting
+  name: Smarter Sorting
+  description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. I…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.0
+  shared: 2
+- slug: wisepim
+  name: WISEPIM Open Data API
+  description: WISEPIM provides AI‑powered product information management for e‑commerce brands. It enriches, translates and validates product data, then syncs it across channels such as Shopify, Magento, WooCommerce and marketplaces. Free plan up to 100…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.1
+  shared: 2
+- slug: lily-ai
+  name: Lily AI
+  description: Lily AI, Inc. is a retail product-intelligence company whose platform, Lily Max, enriches e-commerce product catalogs so that products are legible to advertising platforms, search engines, onsite search, and AI shopping agents. Agents iden…
+  api_count: 2
+  score_band: developing
+  score_composite: 41.7
   shared: 2
 - slug: kroger
   name: Kroger
@@ -231,33 +252,19 @@ providers:
   score_band: developing
   score_composite: 41.4
   shared: 2
-- slug: lily-ai
-  name: Lily AI
-  description: Lily AI, Inc. is a retail product-intelligence company whose platform, Lily Max, enriches e-commerce product catalogs so that products are legible to advertising platforms, search engines, onsite search, and AI shopping agents. Agents iden…
-  api_count: 2
+- slug: maison-safqa-holdings-limited
+  name: Maison Safqa
+  description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Devel…
+  api_count: 1
   score_band: developing
-  score_composite: 40.1
-  shared: 2
-- slug: trax
-  name: Trax
-  description: Trax (Trax Retail) is a cloud-based retail intelligence platform that uses computer vision and image recognition to turn shelf photographs into real-time, actionable in-store insights for consumer packaged goods (CPG) brands and retailers.…
-  api_count: 2
-  score_band: developing
-  score_composite: 39.3
+  score_composite: 40.4
   shared: 2
 - slug: fabric-com
   name: fabric
   description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appe…
   api_count: 16
-  score_band: thin
-  score_composite: 39.0
-  shared: 2
-- slug: maison-safqa-holdings-limited
-  name: Maison Safqa
-  description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Devel…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.7
+  score_band: developing
+  score_composite: 39.3
   shared: 2
 - slug: coldsnap
   name: ColdSnap
@@ -265,6 +272,27 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 37.6
+  shared: 2
+- slug: trax
+  name: Trax
+  description: Trax (Trax Retail) is a cloud-based retail intelligence platform that uses computer vision and image recognition to turn shelf photographs into real-time, actionable in-store insights for consumer packaged goods (CPG) brands and retailers.…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.0
+  shared: 2
+- slug: bybe
+  name: BYBE
+  description: BYBE, Inc. is a promotion platform for the beer, wine, and spirits industry, connecting alcohol beverage brands, retailers, and consumers through digital cash-back rebates. Brands fund offers in the BYBE dashboard; retailers embed those of…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.2
+  shared: 2
+- slug: madeiramadeira
+  name: Madeiramadeira
+  description: MadeiraMadeira (MadeiraMadeira Comercio Eletronico S/A, Curitiba, Parana) is one of Brazil's largest online retailers and marketplaces for home goods - furniture, decor, appliances, building materials, bathroom and kitchen fixtures, and pl…
+  api_count: 7
+  score_band: thin
+  score_composite: 36.2
   shared: 2
 - slug: lemon-perfect
   name: Lemon Perfect
@@ -287,39 +315,11 @@ providers:
   score_band: thin
   score_composite: 34.7
   shared: 2
-- slug: madeiramadeira
-  name: Madeiramadeira
-  description: MadeiraMadeira (MadeiraMadeira Comercio Eletronico S/A, Curitiba, Parana) is one of Brazil's largest online retailers and marketplaces for home goods - furniture, decor, appliances, building materials, bathroom and kitchen fixtures, and pl…
-  api_count: 7
-  score_band: thin
-  score_composite: 34.6
-  shared: 2
-- slug: syndigo
-  name: Syndigo
-  description: Syndigo provides a Product Experience Cloud that helps brands and retailers manage master data, product information, syndication, rich media, and analytics. Their platform enables seamless data exchange across supply chains, supporting ind…
-  api_count: 2
-  score_band: thin
-  score_composite: 34.2
-  shared: 2
-- slug: ikea
-  name: IKEA
-  description: A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping…
-  api_count: 4
-  score_band: thin
-  score_composite: 34.1
-  shared: 2
-- slug: beekeepers-naturals
-  name: Beekeeper's Naturals
-  description: Beekeeper's Naturals is a direct-to-consumer bee-derived wellness and supplement brand founded in 2017 by Carly Stein Kremer, selling propolis throat sprays, B.LXR royal-jelly brain fuel, superfood honey, bee pollen and kids' immunity prod…
-  api_count: 2
-  score_band: thin
-  score_composite: 33.8
-  shared: 2
-- slug: bybe
-  name: BYBE
-  description: BYBE, Inc. is a promotion platform for the beer, wine, and spirits industry, connecting alcohol beverage brands, retailers, and consumers through digital cash-back rebates. Brands fund offers in the BYBE dashboard; retailers embed those of…
+- slug: flipp-wishabi
+  name: Flipp (Wishabi)
+  description: Flipp (operated by Wishabi) is a Toronto-based retail media and digital merchandising company that connects retailers, brands, and consumers through shoppable digital experiences. Its consumer app aggregates weekly digital flyers, coupons,…
   api_count: 1
   score_band: thin
-  score_composite: 33.3
+  score_composite: 34.5
   shared: 2
 ---

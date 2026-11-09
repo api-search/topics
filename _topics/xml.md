@@ -57,7 +57,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/json-ld/xml-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/vocabulary/xml-vocabulary.yml
-provider_count: 8
+provider_count: 7
 providers:
 - slug: acord
   name: ACORD
@@ -71,7 +71,7 @@ providers:
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.3
   shared: 2
 - slug: w3c
   name: W3C
@@ -79,13 +79,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 27.7
-  shared: 2
-- slug: soap
-  name: SOAP
-  description: SOAP (Simple Object Access Protocol) is an XML-based messaging protocol for exchanging structured information in web services, standardized by W3C as SOAP 1.2 (2003). It provides a platform-independent, language-neutral framework for web s…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.0
   shared: 2
 - slug: mismo
   name: MISMO
@@ -98,21 +91,21 @@ providers:
   name: HTML
   description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.9
+  score_band: null
+  score_composite: 0
   shared: 2
 - slug: html5
   name: HTML5
   description: HTML5 is the fifth major version of the HyperText Markup Language used for structuring and presenting content on the web. Standardized by the W3C in 2014 and now maintained by WHATWG as the HTML Living Standard, HTML5 introduced semantic e…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.9
+  score_band: null
+  score_composite: 0
   shared: 2
-- slug: markup-language
-  name: Markup Language
-  description: A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. Examples include HTML, XML, Markdown, LaTeX, and others that add semantic meaning or formatting instructions to text cont…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
+- slug: soap
+  name: SOAP
+  description: SOAP (Simple Object Access Protocol) is an XML-based messaging protocol for exchanging structured information in web services, standardized by W3C as SOAP 1.2 (2003). It provides a platform-independent, language-neutral framework for web s…
+  api_count: 1
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

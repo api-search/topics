@@ -20,13 +20,6 @@ links:
   url: https://github.com/api-evangelist/interface-specifications/blob/main/security/interface-specifications-domain-security.yml
 - type: Website
   url: https://en.wikipedia.org/wiki/Interface_specification
-provider_count: 1
-providers:
-- slug: integration-patterns
-  name: Integration Patterns
-  description: Integration Patterns are design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Enterprise Integration Patterns (EIP),…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
+provider_count: 0
+providers: []
 ---

@@ -51,14 +51,14 @@ links:
   url: https://redis.io/partners/
 - type: LlmsText
   url: https://redis.io/llms.txt
-provider_count: 31
+provider_count: 29
 providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 74.5
   shared: 3
 - slug: google-pub-sub
   name: Google Pub/Sub
@@ -67,47 +67,75 @@ providers:
   score_band: thin
   score_composite: 38.0
   shared: 3
-- slug: kafka
-  name: Apache Kafka
-  description: Apache Kafka is a distributed event streaming platform for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. It provides high-throughput, fault-tolerant, publish-subscribe messaging.
-  api_count: 5
-  score_band: thin
-  score_composite: 34.8
-  shared: 3
-- slug: event-driven-architecture
-  name: Event-Driven Architecture
-  description: Event-driven architecture (EDA) is a software architecture pattern promoting the production, detection, consumption of, and reaction to events. In this pattern, systems are designed to respond to state changes asynchronously through event…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 3
+- slug: amazon-elasticache
+  name: Amazon ElastiCache
+  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 2
 - slug: amazon-eventbridge-pipes
   name: Amazon EventBridge Pipes
   description: Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when bu…
   api_count: 1
-  score_band: strong
-  score_composite: 60.2
+  score_band: exemplar
+  score_composite: 66.5
   shared: 2
 - slug: hookdeck
   name: Hookdeck
   description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at sca…
   api_count: 1
   score_band: strong
-  score_composite: 59.4
-  shared: 2
-- slug: amazon-elasticache
-  name: Amazon ElastiCache
-  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.7
+  score_composite: 63.7
   shared: 2
 - slug: microsoft-azure-integration-services
   name: Microsoft Azure Integration Services
   description: Microsoft Azure Integration Services is a collection of cloud-based integration capabilities that connect applications, data, and processes across cloud and on-premises environments. It includes API Management, Logic Apps, Service Bus, Eve…
-  api_count: 6
+  api_count: 4
+  score_band: strong
+  score_composite: 63.3
+  shared: 2
+- slug: amazon-memorydb
+  name: Amazon MemoryDB
+  description: Amazon MemoryDB for Redis is a durable, in-memory database service that delivers ultra-fast performance. It is Redis-compatible and provides microsecond reads, low single-digit millisecond writes, and enterprise-grade security.
+  api_count: 1
+  score_band: strong
+  score_composite: 57.4
+  shared: 2
+- slug: cloudflare-queues
+  name: Cloudflare Queues
+  description: Cloudflare Queues is a flexible, scalable message queue service built into the Cloudflare Workers ecosystem. It provides guaranteed message delivery with a REST API for creating and managing queues, sending individual or batched messages,…
+  api_count: 1
   score_band: developing
-  score_composite: 47.8
+  score_composite: 53.0
+  shared: 2
+- slug: google-cloud-memorystore
+  name: Google Cloud Memorystore
+  description: Google Cloud Memorystore is a fully managed in-memory data store service for Redis and Memcached. It provides a scalable, secure, and highly available caching layer that helps accelerate application performance. Memorystore automates compl…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.8
+  shared: 2
+- slug: google-cloud-eventarc
+  name: Google Cloud Eventarc
+  description: Google Cloud Eventarc is a fully managed eventing service that allows you to build event-driven architectures by routing events from Google Cloud services, SaaS applications, and custom sources to target destinations. Eventarc supports bot…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.0
+  shared: 2
+- slug: ably
+  name: Ably
+  description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.5
+  shared: 2
+- slug: azure-event-grid
+  name: Azure Event Grid
+  description: Azure Event Grid is a fully managed event routing service from Microsoft Azure that enables event-driven, reactive programming by ingesting events from Azure services, SaaS providers, and custom sources and delivering them to subscribers s…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.6
   shared: 2
 - slug: redis
   name: Redis
@@ -116,54 +144,12 @@ providers:
   score_band: developing
   score_composite: 47.4
   shared: 2
-- slug: amazon-memorydb
-  name: Amazon MemoryDB
-  description: Amazon MemoryDB for Redis is a durable, in-memory database service that delivers ultra-fast performance. It is Redis-compatible and provides microsecond reads, low single-digit millisecond writes, and enterprise-grade security.
-  api_count: 1
-  score_band: developing
-  score_composite: 46.1
-  shared: 2
-- slug: cloudflare-queues
-  name: Cloudflare Queues
-  description: Cloudflare Queues is a flexible, scalable message queue service built into the Cloudflare Workers ecosystem. It provides guaranteed message delivery with a REST API for creating and managing queues, sending individual or batched messages,…
-  api_count: 4
-  score_band: developing
-  score_composite: 45.9
-  shared: 2
-- slug: google-cloud-memorystore
-  name: Google Cloud Memorystore
-  description: Google Cloud Memorystore is a fully managed in-memory data store service for Redis and Memcached. It provides a scalable, secure, and highly available caching layer that helps accelerate application performance. Memorystore automates compl…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.4
-  shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
-  shared: 2
-- slug: google-cloud-eventarc
-  name: Google Cloud Eventarc
-  description: Google Cloud Eventarc is a fully managed eventing service that allows you to build event-driven architectures by routing events from Google Cloud services, SaaS applications, and custom sources to target destinations. Eventarc supports bot…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.6
-  shared: 2
-- slug: ably
-  name: Ably
-  description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.0
-  shared: 2
-- slug: azure-event-grid
-  name: Azure Event Grid
-  description: Azure Event Grid is a fully managed event routing service from Microsoft Azure that enables event-driven, reactive programming by ingesting events from Azure services, SaaS providers, and custom sources and delivering them to subscribers s…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.8
+  score_composite: 46.4
   shared: 2
 - slug: google-cloud-pubsub
   name: Google Cloud Pub/Sub
@@ -177,7 +163,7 @@ providers:
   description: Upstash provides serverless data platforms including managed Redis, Kafka, QStash messaging, and Vector databases optimized for serverless and edge applications with per-request pricing. The platform offers low-latency global replication,…
   api_count: 1
   score_band: thin
-  score_composite: 36.3
+  score_composite: 37.9
   shared: 2
 - slug: spring-integration
   name: Spring Integration
@@ -203,9 +189,9 @@ providers:
 - slug: apache-pulsar
   name: Apache Pulsar
   description: Apache Pulsar is a cloud-native, distributed messaging and streaming platform that provides server-to-server messaging with multi-tenancy, high performance, and geo-replication. It combines messaging and stream processing in a single platf…
-  api_count: 8
+  api_count: 1
   score_band: thin
-  score_composite: 32.4
+  score_composite: 30.9
   shared: 2
 - slug: spring-cloud-stream
   name: Spring Cloud Stream
@@ -213,13 +199,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 30.0
-  shared: 2
-- slug: robomq
-  name: RoboMQ
-  description: RoboMQ offers a cloud‑based workforce lifecycle management and identity governance platform. It automates hiring, onboarding, role changes, and offboarding across HR systems, providing real‑time provisioning, access control, and compliance…
-  api_count: 2
-  score_band: thin
-  score_composite: 29.6
   shared: 2
 - slug: events
   name: Events
@@ -242,6 +221,13 @@ providers:
   score_band: thin
   score_composite: 26.8
   shared: 2
+- slug: robomq
+  name: RoboMQ
+  description: RoboMQ offers a cloud‑based workforce lifecycle management and identity governance platform. It automates hiring, onboarding, role changes, and offboarding across HR systems, providing real‑time provisioning, access control, and compliance…
+  api_count: 2
+  score_band: emerging
+  score_composite: 23.4
+  shared: 2
 - slug: masstransit
   name: MassTransit
   description: MassTransit is a free, open source distributed application framework for .NET that makes it easy to create applications and services that leverage message-based, loosely-coupled asynchronous communication for higher availability, reliabili…
@@ -262,5 +248,12 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 8.5
+  shared: 2
+- slug: appnet
+  name: App.net
+  description: 'App.net (ADN) was a paid, ad-free real-time social networking and microblogging platform launched in 2012 by Dalton Caldwell''s Mixed Media Labs after a public crowdfunding campaign. It was explicitly developer-first: the App.net Stream API…'
+  api_count: 1
+  score_band: minimal
+  score_composite: 0
   shared: 2
 ---

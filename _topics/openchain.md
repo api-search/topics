@@ -46,7 +46,7 @@ providers:
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations…
   api_count: 1
   score_band: thin
-  score_composite: 34.0
+  score_composite: 35.1
   shared: 3
 - slug: spdx
   name: SPDX
@@ -60,21 +60,21 @@ providers:
   description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source p…
   api_count: 14
   score_band: strong
-  score_composite: 55.4
+  score_composite: 62.5
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 48.9
+  score_composite: 52.1
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
+  score_composite: 46.4
   shared: 2
 - slug: agentsync
   name: Agentsync
@@ -88,7 +88,7 @@ providers:
   description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
   api_count: 1
   score_band: thin
-  score_composite: 36.3
+  score_composite: 35.3
   shared: 2
 - slug: camara-project
   name: CAMARA Project
@@ -129,8 +129,8 @@ providers:
   name: UL Solutions
   description: UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.9
+  score_band: emerging
+  score_composite: 11.1
   shared: 2
 - slug: payna
   name: Payna

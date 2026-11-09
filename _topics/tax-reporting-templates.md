@@ -60,21 +60,28 @@ links:
   url: https://github.com/api-evangelist/tax-reporting-templates/blob/main/json-ld/tax-reporting-templates-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/tax-reporting-templates/blob/main/vocabulary/tax-reporting-templates-vocabulary.yml
-provider_count: 60
+provider_count: 92
 providers:
 - slug: thomson-reuters
   name: Thomson Reuters
   description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
   api_count: 134
   score_band: strong
-  score_composite: 55.5
+  score_composite: 58.5
   shared: 3
 - slug: dealogic
   name: Dealogic
   description: Dealogic is a global provider of content and software for the capital markets — deal management, analytics, league tables and compliance — used by investment banks, syndicate and sales/trading desks, investment managers and corporates, and…
   api_count: 8
   score_band: developing
-  score_composite: 40.5
+  score_composite: 42.1
+  shared: 3
+- slug: disclovo-com
+  name: Disclovo
+  description: Disclovo provides regulatory reporting software for small firms, offering free worksheets that size the filing work implied by a set of regulatory returns, track submission hours, and maintain evidence sets. The platform helps firms unders…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.9
   shared: 3
 - slug: vatstack
   name: Vatstack
@@ -83,19 +90,40 @@ providers:
   score_band: thin
   score_composite: 34.5
   shared: 3
-- slug: ibanforge
-  name: IBANforge
-  description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 72.0
-  shared: 2
+- slug: vat-it
+  name: VAT IT
+  description: VAT IT provides global indirect tax solutions, leveraging AI-driven technology to streamline e‑invoicing, VAT compliance, US sales tax, and VAT reclaim for businesses. Their platform offers tools such as VAT potential calculators, e‑invoic…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.0
+  shared: 3
 - slug: flowaccount
   name: FlowAccount
   description: FlowAccount is a Thai cloud accounting platform serving 130,000+ SMEs, 17,000+ accountants and admins, and 5,900+ accounting firms. Its products cover online accounting (quotations, invoices, tax invoices, receipts, expenses), MobilePOS po…
   api_count: 1
+  score_band: exemplar
+  score_composite: 68.8
+  shared: 2
+- slug: ibanforge
+  name: IBANforge
+  description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89…
+  api_count: 1
   score_band: strong
-  score_composite: 59.3
+  score_composite: 65.1
+  shared: 2
+- slug: quickbooks
+  name: QuickBooks
+  description: QuickBooks is Intuit's accounting software platform for small businesses, self-employed, and accountants, available as QuickBooks Online (cloud) and QuickBooks Desktop. The QuickBooks Online Accounting REST API provides programmatic access…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.1
+  shared: 2
+- slug: datarails
+  name: Datarails
+  description: Datarails is an Excel-native financial planning and analysis (FP&A) platform for the office of the CFO, marketed as FinanceOS. It consolidates data from ERP, CRM, HRIS, billing and operational systems into a single finance data model, then…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.7
   shared: 2
 - slug: intuit
   name: Intuit
@@ -104,19 +132,19 @@ providers:
   score_band: strong
   score_composite: 57.7
   shared: 2
-- slug: datarails
-  name: Datarails
-  description: Datarails is an Excel-native financial planning and analysis (FP&A) platform for the office of the CFO, marketed as FinanceOS. It consolidates data from ERP, CRM, HRIS, billing and operational systems into a single finance data model, then…
+- slug: augmentt
+  name: Augmentt
+  description: Augmentt is a Canadian software company (Kanata, Ontario) whose platform gives managed service providers one place to run Microsoft 365 across every client tenant. It combines SaaS and Shadow IT discovery, Microsoft 365 license and spend o…
   api_count: 1
-  score_band: strong
-  score_composite: 55.3
-  shared: 2
-- slug: globaldatabase-com
-  name: Global Database
-  description: Global Database (GLOBAL DATA INTELLIGENCE Ltd, UK) is a B2B company-intelligence provider that sources company records directly from 400+ official government registries across 200+ countries — 600M+ company profiles with registry data, off…
-  api_count: 2
   score_band: developing
-  score_composite: 54.0
+  score_composite: 54.1
+  shared: 2
+- slug: africacompliancedata-com
+  name: africacompliancedata-com
+  description: Africa Compliance Data provides a public API and dataset covering holidays, business days, VAT rates, withholding tax, tax identification formats, filing deadlines, payroll tax and social‑security rates for all 54 African countries, source…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.3
   shared: 2
 - slug: workday-report-writer
   name: Workday Report Writer
@@ -130,35 +158,77 @@ providers:
   description: Cadana is a white-label global payment and payroll infrastructure provider for talent platforms, staffing companies, and HR providers. Its APIs let partners onboard and pay employees and contractors in 100+ countries, run multi-currency pa…
   api_count: 5
   score_band: developing
-  score_composite: 48.2
-  shared: 2
-- slug: silverfin
-  name: Silverfin
-  description: Silverfin is a cloud connected-accounting platform for accountancy firms and finance teams that standardises and automates the financial close. It pulls ledger data from bookkeeping systems, runs working papers, reconciliations and analyti…
-  api_count: 3
-  score_band: developing
-  score_composite: 45.7
+  score_composite: 51.1
   shared: 2
 - slug: adaptive-security
   name: Adaptive Security
   description: Adaptive Security is the human security platform for the AI era, defending organizations against AI-powered social engineering — deepfakes, voice cloning, phishing, smishing and vishing — through interactive security awareness training, hy…
   api_count: 1
   score_band: developing
-  score_composite: 44.5
+  score_composite: 50.3
   shared: 2
-- slug: augmentt
-  name: Augmentt
-  description: Augmentt is a Canadian software company (Kanata, Ontario) whose platform gives managed service providers one place to run Microsoft 365 across every client tenant. It combines SaaS and Shadow IT discovery, Microsoft 365 license and spend o…
+- slug: cryptotaxedge-com
+  name: cryptotaxedge-com
+  description: CryptoTaxEdge provides a digital-asset tax classification API that transforms on-chain transaction data into tax-ready categories and treatments. It offers an AI-driven classification engine with confidence scores and reasoning, supporting…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
+  score_composite: 49.7
   shared: 2
-- slug: taxley
-  name: Taxley (UK Corporation Tax API)
-  description: Taxley provides free UK Corporation Tax calculators and a public JSON API for developers and AI assistants. It offers tools to compute corporation tax, deadlines, penalties, and related calculations without requiring an API key. Results li…
+- slug: silverfin
+  name: Silverfin
+  description: Silverfin is a cloud connected-accounting platform for accountancy firms and finance teams that standardises and automates the financial close. It pulls ledger data from bookkeeping systems, runs working papers, reconciliations and analyti…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.4
+  shared: 2
+- slug: solaris
+  name: Solaris
+  description: 'Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local…'
+  api_count: 2
+  score_band: developing
+  score_composite: 49.0
+  shared: 2
+- slug: invoicexml-com
+  name: invoicexml-com
+  description: InvoiceXML provides a RESTful e‑invoicing service that creates, validates, converts, renders, extracts and validates invoices in multiple European standards (Peppol BIS, XRechnung, Factur‑X, ZUGFeRD, UBL, CII). The platform offers a public…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.6
+  shared: 2
+- slug: arkrel-com
+  name: Conecta Media LLC
+  description: Arkrel, a product of Conecta Media LLC, provides a SaaS solution that turns a year of bank and credit card statements into a tax-ready report for self-employed individuals, freelancers, gig workers and small e-commerce sellers. Users can u…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.6
+  shared: 2
+- slug: withreach
+  name: Reach
+  description: Reach is the premier partner for ambitious, forward‑thinking online brands that want to connect with consumers around the world. Using its unique, local service provider model, Reach helps retailers process global payment transactions wher…
+  api_count: 4
+  score_band: developing
+  score_composite: 44.0
+  shared: 2
+- slug: ai2fin-com
+  name: AI2Fin
+  description: Track and categorise transactions, find tax deductions and estimate what you owe with 2Fin. Intelligent money tools in every country. Start free today. 2Fin is a tax and money app for employees, sole traders and people who are both, availa…
   api_count: 1
   score_band: developing
   score_composite: 42.7
+  shared: 2
+- slug: globaldatabase-com
+  name: Global Database
+  description: Global Database (GLOBAL DATA INTELLIGENCE Ltd, UK) is a B2B company-intelligence provider that sources company records directly from 400+ official government registries across 200+ countries — 600M+ company profiles with registry data, off…
+  api_count: 3
+  score_band: developing
+  score_composite: 42.5
+  shared: 2
+- slug: stackin-io
+  name: stackin-io
+  description: Stackin provides a Brazilian fiscal API platform that enables developers to issue electronic invoices (NF-e) and service invoices (NFS-e) via a simple REST interface. The service handles document generation, tax calculation, and submission…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.4
   shared: 2
 - slug: concur
   name: SAP Concur
@@ -174,19 +244,19 @@ providers:
   score_band: developing
   score_composite: 40.1
   shared: 2
-- slug: lseg
-  name: LSEG
-  description: LSEG (London Stock Exchange Group) is a leading global financial markets infrastructure and data provider, offering a broad range of services including data & analytics, FTSE Russell indices, trading venues, FX, post‑trade solutions and ri…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.6
-  shared: 2
 - slug: inkit
   name: Inkit
   description: Inkit is a Secure Document Generation (SDG) platform that enables organizations to generate, sign, store, and distribute documents in total privacy. The platform provides a REST API for rendering HTML templates into PDFs, automating docume…
   api_count: 1
+  score_band: developing
+  score_composite: 39.3
+  shared: 2
+- slug: lseg
+  name: LSEG
+  description: LSEG (London Stock Exchange Group) is a leading global financial markets infrastructure and data provider, offering a broad range of services including data & analytics, FTSE Russell indices, trading venues, FX, post‑trade solutions and ri…
+  api_count: 16
   score_band: thin
-  score_composite: 39.0
+  score_composite: 39.1
   shared: 2
 - slug: zoho-sign
   name: Zoho Sign
@@ -195,81 +265,11 @@ providers:
   score_band: thin
   score_composite: 39.0
   shared: 2
-- slug: boldsign
-  name: BoldSign
-  description: BoldSign is an e-signature platform built by Syncfusion that provides a REST API for sending documents for electronic signature, managing reusable templates, tracking envelope status, and embedding signing and requesting workflows directly…
+- slug: takehomeapi-com
+  name: takehomeapi-com
+  description: TakeHome API provides UK take‑home pay calculations, including income tax (England, Wales, Northern Ireland and Scotland), National Insurance, student loans, pensions and the High Income Child Benefit Charge. It sources rates from GOV.UK a…
   api_count: 1
   score_band: thin
-  score_composite: 36.7
-  shared: 2
-- slug: planomy-tax-data
-  name: Planomy Tax Data
-  description: 'A free, keyless open-data JSON API publishing the 2026 US retirement and tax figures that drive the Planomy local-first personal-finance planner: federal income-tax brackets and the standard deduction, FICA rates and the Social Security wa…'
-  api_count: 1
-  score_band: thin
-  score_composite: 36.1
-  shared: 2
-- slug: vistra
-  name: Vistra
-  description: Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.1
-  shared: 2
-- slug: mosey
-  name: Mosey
-  description: Mosey is a business compliance platform that helps multi-state companies open and manage state and local tax, HR, payroll, insurance, and registration accounts. The Mosey API is a composable set of OpenAPI 3.1 endpoints that let software p…
-  api_count: 3
-  score_band: thin
-  score_composite: 34.2
-  shared: 2
-- slug: quickbooks
-  name: QuickBooks
-  description: QuickBooks is Intuit's accounting software platform for small businesses, self-employed, and accountants, available as QuickBooks Online (cloud) and QuickBooks Desktop. The QuickBooks Online Accounting REST API provides programmatic access…
-  api_count: 4
-  score_band: thin
-  score_composite: 34.2
-  shared: 2
-- slug: finra
-  name: FINRA
-  description: The Financial Industry Regulatory Authority (FINRA) is a regulatory organization that oversees and regulates the securities industry in the United States. The FINRA Developer Center exposes Query, Notification, and Submission APIs for acce…
-  api_count: 6
-  score_band: thin
-  score_composite: 34.1
-  shared: 2
-- slug: cleartax
-  name: Cleartax
-  description: Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suit…
-  api_count: 5
-  score_band: thin
-  score_composite: 33.7
-  shared: 2
-- slug: mainstreet
-  name: MainStreet
-  description: MainStreet is a US small-business tax-credit and back-office platform that identifies, calculates, and files R&D tax credits alongside a client's CPA. Its service covers qualified research expense (QRE) identification under IRC §41, the IR…
-  api_count: 1
-  score_band: thin
-  score_composite: 31.5
-  shared: 2
-- slug: vertex
-  name: Vertex
-  description: Vertex Inc. provides tax technology software and solutions that help businesses automate global tax compliance, calculate taxes, and manage tax data across multiple jurisdictions. Their platform integrates with ERP, e‑commerce, and financi…
-  api_count: 8
-  score_band: thin
-  score_composite: 31.4
-  shared: 2
-- slug: summation
-  name: Summation
-  description: Summation is an enterprise AI analyst platform that automates recurring business work — financial reviews, forecasts, models, and executive-ready decks — by connecting to a company's data sources (ERPs, data warehouses, and spreadsheets) a…
-  api_count: 0
-  score_band: thin
-  score_composite: 28.5
-  shared: 2
-- slug: coinledger
-  name: CoinLedger
-  description: CoinLedger provides free crypto tax software that helps individuals and professionals generate tax reports for cryptocurrency transactions. Founded in 2018, the platform offers tools for portfolio tracking, NFT and DeFi tax calculations, a…
-  api_count: 0
-  score_band: thin
-  score_composite: 27.3
+  score_composite: 38.7
   shared: 2
 ---

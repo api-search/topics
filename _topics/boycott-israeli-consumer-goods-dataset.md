@@ -49,14 +49,14 @@ providers:
   description: Open data platform with REST APIs for accessing public datasets from 1,000+ cities and organizations, providing standard OData and JSON query interfaces. Now operating as Huwise, the platform powers 3,000+ data marketplaces and provides ca…
   api_count: 1
   score_band: thin
-  score_composite: 36.5
+  score_composite: 37.9
   shared: 2
-- slug: curatorsearch
-  name: CuratorSearch
-  description: An independent, daily-refreshed record of museum/gallery/curatorial vacancies and advertised salaries, aggregated from 400+ institutions' careers pages. Exposes a keyless REST/JSON API, an OpenAPI 3.1 contract, a hosted MCP server, llms.tx…
+- slug: nutrientsdb
+  name: NutrientsDB
+  description: A curated global food-composition dataset of roughly 2.9 million food entries across 86 normalized nutrient fields, deduplicated across 180+ countries and sold under a one-time license as a downloadable file for local use rather than as a…
   api_count: 1
   score_band: thin
-  score_composite: 32.2
+  score_composite: 33.3
   shared: 2
 - slug: new-york-public-library-whats-on-the-menu
   name: New York Public Library What's On The Menu
@@ -65,12 +65,12 @@ providers:
   score_band: thin
   score_composite: 30.5
   shared: 2
-- slug: nutrientsdb
-  name: NutrientsDB
-  description: A curated global food-composition dataset of roughly 2.9 million food entries across 86 normalized nutrient fields, deduplicated across 180+ countries and sold under a one-time license as a downloadable file for local use rather than as a…
+- slug: curatorsearch
+  name: CuratorSearch
+  description: An independent, daily-refreshed record of museum/gallery/curatorial vacancies and advertised salaries, aggregated from 400+ institutions' careers pages. Exposes a keyless REST/JSON API, an OpenAPI 3.1 contract, a hosted MCP server, llms.tx…
   api_count: 1
   score_band: thin
-  score_composite: 30.3
+  score_composite: 29.9
   shared: 2
 - slug: free-exercise-db
   name: Free Exercise DB

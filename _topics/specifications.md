@@ -107,10 +107,10 @@ providers:
   score_band: emerging
   score_composite: 24.2
   shared: 2
-- slug: design
-  name: Design
-  description: A curated index of services, tooling, and open source solutions for API design, specification editing, linting, and governance. This collection covers visual API designers, specification languages, linting and style guide tools, schema reg…
-  api_count: 0
+- slug: headers
+  name: HTTP Headers
+  description: Every HTTP header an API can speak — 302 headers assembled from the IANA HTTP Field Name Registry, 119,030 published specification files across 26,641 providers, and the regulations that reach the wire. What each header is for, how to use…
+  api_count: 1
   score_band: minimal
   score_composite: 1.7
   shared: 2

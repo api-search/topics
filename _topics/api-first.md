@@ -39,28 +39,28 @@ links:
   url: https://github.com/api-evangelist/api-first/blob/main/llms/api-first-llms.txt
 - type: Documentation
   url: https://nordicapis.com/a-software-architects-guide-to-api-first-strategy/
-provider_count: 9
+provider_count: 8
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 76.3
   shared: 2
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer…
   api_count: 5
   score_band: exemplar
-  score_composite: 66.9
+  score_composite: 69.6
   shared: 2
 - slug: apiwiz
   name: APIwiz
@@ -81,7 +81,7 @@ providers:
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 19.0
+  score_composite: 20.4
   shared: 2
 - slug: design-patterns
   name: Design Patterns
@@ -95,20 +95,6 @@ providers:
   description: LunchBadger is a technology company focused on providing a visual platform for designing, building, and managing microservice architectures and APIs. It offers tools for API modeling, documentation, and governance, aiming to streamline the…
   api_count: 0
   score_band: minimal
-  score_composite: 5.2
-  shared: 2
-- slug: integration-patterns
-  name: Integration Patterns
-  description: Integration Patterns are design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Enterprise Integration Patterns (EIP),…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
-- slug: microservice-design
-  name: Microservice Design
-  description: Architectural approach for building applications as a collection of loosely coupled, independently deployable services that are organized around business capabilities. Covers principles, patterns, and best practices for designing effective…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
+  score_composite: 4.8
   shared: 2
 ---

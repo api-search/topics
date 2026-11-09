@@ -49,7 +49,7 @@ links:
   url: https://www.cbp.gov/trade/automated/automated-commercial-environment/document-library
 - type: GTMVendors
   url: https://www.gartner.com/reviews/market/global-trade-management
-provider_count: 24
+provider_count: 27
 providers:
 - slug: customs-and-border-protection
   name: Customs and Border Protection
@@ -76,15 +76,8 @@ providers:
   name: DSV
   description: DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from…
   api_count: 29
-  score_band: thin
-  score_composite: 38.9
-  shared: 3
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: thin
-  score_composite: 31.0
+  score_band: developing
+  score_composite: 40.6
   shared: 3
 - slug: un-comtrade
   name: UN Comtrade
@@ -93,12 +86,19 @@ providers:
   score_band: thin
   score_composite: 30.3
   shared: 3
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
+  score_band: emerging
+  score_composite: 25.1
+  shared: 3
 - slug: db-schenker
   name: DB Schenker
   description: DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,85…
   api_count: 4
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 23.2
   shared: 3
 - slug: tradelanes
   name: TradeLanes
@@ -119,7 +119,7 @@ providers:
   description: 'ShipFinder, operated by Singapore-based ELANE GLOBAL PTE. LTD., publishes a REST/HTTP maritime data API that turns the global AIS feed into queryable vessel intelligence. Forty documented operations are organised into seven datasets: AIS (…'
   api_count: 2
   score_band: developing
-  score_composite: 47.8
+  score_composite: 53.7
   shared: 2
 - slug: swap
   name: Swap
@@ -133,7 +133,14 @@ providers:
   description: The Foreign Agricultural Service (FAS) is the trade and export agency of the United States Department of Agriculture (USDA), working to promote U.S. agricultural exports and expand global markets for American agricultural products. FAS run…
   api_count: 2
   score_band: developing
-  score_composite: 40.7
+  score_composite: 42.4
+  shared: 2
+- slug: aeb
+  name: AEB
+  description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
+  api_count: 11
+  score_band: thin
+  score_composite: 35.1
   shared: 2
 - slug: expeditors-international-of-washington
   name: Expeditors International of Washington
@@ -141,13 +148,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.4
-  shared: 2
-- slug: aeb
-  name: AEB
-  description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
-  api_count: 11
-  score_band: thin
-  score_composite: 31.2
   shared: 2
 - slug: wavebl
   name: WaveBL
@@ -163,33 +163,47 @@ providers:
   score_band: thin
   score_composite: 29.6
   shared: 2
-- slug: bite
-  name: Bite
-  description: Bite provides AI‑native trade compliance and HTS classification software that automates tariff lookups, screening, and post‑entry audits. It integrates with ERP, EDI, and supplier systems to monitor, analyze, and manage risk across the glo…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.6
-  shared: 2
 - slug: magaya
   name: Magaya
   description: Magaya is a logistics and supply chain software company whose cloud Digital Freight Platform runs freight forwarding, warehouse management, customs compliance, rate management, and a digital customer experience portal. Magaya exposes progr…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 29.4
+  shared: 2
+- slug: bite
+  name: Bite
+  description: Bite provides AI‑native trade compliance and HTS classification software that automates tariff lookups, screening, and post‑entry audits. It integrates with ERP, EDI, and supplier systems to monitor, analyze, and manage risk across the glo…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.6
   shared: 2
 - slug: kuehne-nagel
   name: Kuehne+Nagel
   description: Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and c…
   api_count: 17
   score_band: emerging
-  score_composite: 21.3
+  score_composite: 22.9
+  shared: 2
+- slug: atlasverified-ai
+  name: Atlas Verified
+  description: Atlas Verified provides AI-powered supplier verification for global trade, offering rapid checks on organic certification, OFAC, FDA, and import documents to ensure trustworthy partnerships.
+  api_count: 1
+  score_band: emerging
+  score_composite: 22.6
   shared: 2
 - slug: forto
   name: Forto
   description: Forto is a digital freight forwarder and supply chain platform that combines technology with logistics expertise to provide sea, air, and rail freight services across 100+ countries. The platform offers a public REST API for booking manage…
   api_count: 1
   score_band: emerging
-  score_composite: 19.4
+  score_composite: 22.2
+  shared: 2
+- slug: une-education
+  name: une-education
+  description: UNE (Unified Norms Engine) provides deterministic cross‑border computation and compliance infrastructure for autonomous agents. It offers multiple nodes covering customs tariffs, trade regulations, maritime fuel compliance, standards, lega…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.6
   shared: 2
 - slug: nowlun-holding-corp
   name: Nowlun
@@ -211,6 +225,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 13.5
+  shared: 2
+- slug: trimtabist-com
+  name: trimtabist-com
+  description: Trimtabist provides a free, no‑login service that lets users submit customs entries they have already filed and instantly recompute duties line‑by‑line against the tariff schedule as it existed on the entry date and origin. The platform em…
+  api_count: 1
+  score_band: minimal
+  score_composite: 10.2
   shared: 2
 - slug: donkey
   name: Donkey

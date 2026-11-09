@@ -56,7 +56,7 @@ links:
   url: https://github.com/api-evangelist/safe-agile/blob/main/json-ld/safe-agile-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/safe-agile/blob/main/vocabulary/safe-agile-vocabulary.yml
-provider_count: 36
+provider_count: 35
 providers:
 - slug: scaled-agile
   name: Scaled Agile
@@ -70,91 +70,70 @@ providers:
   description: Azure DevOps provides developer services for support teams to plan work, collaborate on code development, and build and deploy applications.
   api_count: 11
   score_band: exemplar
-  score_composite: 75.4
+  score_composite: 76.8
   shared: 3
 - slug: hansoft
   name: Hansoft
   description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban,…
   api_count: 3
-  score_band: developing
-  score_composite: 47.8
-  shared: 3
-- slug: scrum
-  name: Scrum
-  description: Scrum is an agile project management framework that organizes work into fixed-length iterations called sprints, typically lasting two to four weeks. It defines clear roles (Product Owner, Scrum Master, Developers) and ceremonies (sprint pl…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.7
+  score_band: strong
+  score_composite: 55.6
   shared: 3
 - slug: jira
   name: Jira
   description: APIs for Atlassian Jira project management and issue tracking platform.
   api_count: 4
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 82.6
+  shared: 2
+- slug: shortcut-software
+  name: Shortcut Software
+  description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 72.0
+  shared: 2
+- slug: taskfolk
+  name: Taskfolk
+  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.3
+  shared: 2
+- slug: leankit
+  name: LeanKit
+  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hier…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.6
+  shared: 2
+- slug: red-hat-ansible-automation-platform
+  name: Red Hat Ansible Automation Platform
+  description: Red Hat Ansible Automation Platform is an enterprise automation solution that provides a framework for building and operating IT automation at scale. It includes the Automation Controller, Automation Hub, Event-Driven Ansible, and Ansible…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 66.6
   shared: 2
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 66.4
-  shared: 2
-- slug: red-hat-ansible-automation-platform
-  name: Red Hat Ansible Automation Platform
-  description: Red Hat Ansible Automation Platform is an enterprise automation solution that provides a framework for building and operating IT automation at scale. It includes the Automation Controller, Automation Hub, Event-Driven Ansible, and Ansible…
-  api_count: 5
-  score_band: strong
-  score_composite: 65.0
-  shared: 2
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
-  api_count: 2
-  score_band: strong
-  score_composite: 64.8
-  shared: 2
-- slug: leankit
-  name: LeanKit
-  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hier…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.8
-  shared: 2
-- slug: shortcut-software
-  name: Shortcut Software
-  description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.2
-  shared: 2
-- slug: planka
-  name: PLANKA
-  description: PLANKA is a self‑hosted Kanban board solution for agile teams, offering on‑premise project management with privacy‑focused data control. The software provides a web‑based interface for creating boards, cards, and workflows, supporting mult…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.3
-  shared: 2
-- slug: amazon-codestar
-  name: Amazon CodeStar
-  description: AWS CodeStar provides a unified user interface enabling you to easily manage your software development activities in one place. With AWS CodeStar, you can set up your entire continuous delivery toolchain in minutes, allowing you to create…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.7
-  shared: 2
-- slug: axiom-zen
-  name: ZenHub
-  description: ZenHub provides advanced project management tools tightly integrated with GitHub, enabling teams to plan, track, and deliver software efficiently. Features include hierarchical issue management, real-time reporting, AI‑assisted automation,…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.3
+  score_composite: 64.9
   shared: 2
 - slug: favro
   name: Favro
   description: Favro is a cloud planning and collaboration platform for agile teams, combining planning boards, backlogs, sprint/kanban widgets, roadmaps, and OKR/portfolio management in a single organization-scoped workspace. Its public REST API (https:…
   api_count: 1
+  score_band: strong
+  score_composite: 54.9
+  shared: 2
+- slug: github-enterprise
+  name: GitHub Enterprise
+  description: 'GitHub Enterprise is GitHub''s offering for organizations that need advanced security, compliance, identity, and scale on top of the GitHub platform. It ships in two flavors: GitHub Enterprise Cloud, a hosted multi-tenant service on api.git…'
+  api_count: 2
   score_band: developing
-  score_composite: 47.0
+  score_composite: 53.3
   shared: 2
 - slug: perforce
   name: Perforce
@@ -163,6 +142,13 @@ providers:
   score_band: developing
   score_composite: 46.8
   shared: 2
+- slug: plangrid
+  name: PlanGrid
+  description: PlanGrid is a construction productivity platform (now part of Autodesk Construction Cloud) that gives field and office teams access to construction drawings, sheets, documents, photos, RFIs, submittals, field reports, tasks, and punch list…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.1
+  shared: 2
 - slug: oracle-fusion
   name: Oracle Fusion Cloud Applications
   description: Oracle Fusion Cloud Applications represent a comprehensive suite of cloud-based enterprise resource planning (ERP), human capital management (HCM), customer experience (CX), supply chain management (SCM), and enterprise performance managem…
@@ -170,19 +156,19 @@ providers:
   score_band: developing
   score_composite: 43.9
   shared: 2
-- slug: plangrid
-  name: PlanGrid
-  description: PlanGrid is a construction productivity platform (now part of Autodesk Construction Cloud) that gives field and office teams access to construction drawings, sheets, documents, photos, RFIs, submittals, field reports, tasks, and punch list…
-  api_count: 2
+- slug: agilehero-io
+  name: AgileHero
+  description: AgileHero provides an all‑in‑one agile project management tool for teams and AI agents, featuring kanban boards, backlogs, roadmaps, whiteboards, retrospectives, wikis and metrics. The platform offers a free starter tier with no credit‑car…
+  api_count: 1
   score_band: developing
-  score_composite: 40.6
+  score_composite: 42.3
   shared: 2
 - slug: openproject
   name: OpenProject
   description: OpenProject is an open source project management platform offering work package tracking, Gantt charts, agile boards, time tracking, BIM, and enterprise project portfolio management. The OpenProject APIv3 is a hypermedia (HAL+JSON) REST AP…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 42.1
   shared: 2
 - slug: spring
   name: Spring Framework
@@ -191,6 +177,27 @@ providers:
   score_band: developing
   score_composite: 40.0
   shared: 2
+- slug: axiom-zen
+  name: ZenHub
+  description: ZenHub provides advanced project management tools tightly integrated with GitHub, enabling teams to plan, track, and deliver software efficiently. Features include hierarchical issue management, real-time reporting, AI‑assisted automation,…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.4
+  shared: 2
+- slug: aeon-fun
+  name: Aeon
+  description: Aeon provides an autonomous agent framework that enables developers to configure once and let the system execute complex workflows across 87 built‑in skills. Open‑source and MIT‑licensed, it integrates with major AI models and cloud servic…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.2
+  shared: 2
+- slug: planka
+  name: PLANKA
+  description: PLANKA is a self‑hosted Kanban board solution designed for agile teams seeking full control over their project management data. It offers a community edition that can be run on‑premise, as well as Pro and Enterprise editions with advanced…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.6
+  shared: 2
 - slug: ubuntu
   name: Ubuntu
   description: Collection of APIs and services provided by Canonical for Ubuntu and related products. Includes the Snap Store API for package management, Launchpad API for project hosting and bug tracking, Ubuntu Security CVE API for vulnerability intell…
@@ -198,54 +205,33 @@ providers:
   score_band: thin
   score_composite: 32.8
   shared: 2
-- slug: opshub
-  name: OpsHub
-  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.6
-  shared: 2
 - slug: puppet
   name: Puppet
   description: Puppet provides infrastructure automation and configuration management for hybrid and cloud environments. Puppet Enterprise exposes a collection of service APIs (Orchestrator, RBAC, Node Classifier, Code Manager, Activity, Status, Inventor…
   api_count: 1
   score_band: thin
-  score_composite: 31.1
-  shared: 2
-- slug: assembla
-  name: Assembla
-  description: Assembla provides managed cloud hosting for Perforce, Subversion (SVN) and Git repositories, along with integrated project management tools. Their platform offers enterprise‑grade security, SOC 2 Type II compliance, GDPR adherence, and AI‑…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.3
+  score_composite: 32.7
   shared: 2
 - slug: kanban
   name: Kanban Tool
   description: Kanban Tool is a visual project management platform for managing boards, tasks, and workflows using the Kanban methodology. It provides REST APIs (v1 and v3), browser SDK, and DevKit for programmatic access to boards, tasks, columns, comme…
   api_count: 12
   score_band: thin
-  score_composite: 29.7
+  score_composite: 31.3
   shared: 2
 - slug: meetandy-ai
   name: MeetAndy AI
   description: MeetAndy (operated by MeetTomorrow Inc.) is an AI project assistant — an "AI teammate" that lives in Slack, Google Chat, GitHub, GitLab, and Jira and turns plain-language requests into reviewable plans, opens pull requests, runs CI, and re…
   api_count: 0
   score_band: thin
-  score_composite: 28.8
+  score_composite: 27.8
   shared: 2
-- slug: github-enterprise
-  name: GitHub Enterprise
-  description: 'GitHub Enterprise is GitHub''s offering for organizations that need advanced security, compliance, identity, and scale on top of the GitHub platform. It ships in two flavors: GitHub Enterprise Cloud, a hosted multi-tenant service on api.git…'
+- slug: opshub
+  name: OpsHub
+  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data…
   api_count: 1
   score_band: emerging
-  score_composite: 26.0
-  shared: 2
-- slug: software-development-lifecycle
-  name: Software Development Lifecycle
-  description: The Software Development Lifecycle (SDLC) encompasses all processes, tools, and methodologies involved in planning, developing, testing, and delivering software from inception to retirement. Modern SDLC platforms integrate project planning…
-  api_count: 7
-  score_band: emerging
-  score_composite: 24.1
+  score_composite: 24.9
   shared: 2
 - slug: tintri
   name: Tintri
@@ -253,6 +239,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 23.6
+  shared: 2
+- slug: assembla
+  name: Assembla
+  description: Assembla provides managed cloud hosting for Perforce, Subversion (SVN) and Git repositories, along with integrated project management tools. Their platform offers enterprise‑grade security, SOC 2 Type II compliance, GDPR adherence, and AI‑…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.0
   shared: 2
 - slug: kagent
   name: kagent
@@ -267,5 +260,12 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.6
+  shared: 2
+- slug: taiga
+  name: Taiga
+  description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.8
   shared: 2
 ---

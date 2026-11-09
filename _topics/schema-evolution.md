@@ -79,21 +79,14 @@ links:
   url: https://github.com/api-evangelist/schema-evolution/blob/main/json-ld/schema-evolution-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/schema-evolution/blob/main/vocabulary/schema-evolution-vocabulary.yml
-provider_count: 4
+provider_count: 3
 providers:
-- slug: versioning
-  name: Versioning
-  description: An index and topic collection covering API versioning patterns, schema evolution, and breaking-change detection across the API lifecycle. API versioning communicates change to consumers, while schema versioning and diff tooling makes those…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
-  shared: 3
 - slug: buf
   name: Buf
   description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-b…'
   api_count: 2
   score_band: strong
-  score_composite: 63.9
+  score_composite: 65.3
   shared: 2
 - slug: the-guild-dev
   name: The Guild

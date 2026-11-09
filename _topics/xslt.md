@@ -77,7 +77,7 @@ providers:
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.3
   shared: 2
 - slug: w3c
   name: W3C

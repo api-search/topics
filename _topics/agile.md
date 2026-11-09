@@ -23,7 +23,7 @@ links:
   url: https://agilemanifesto.org/
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
-provider_count: 15
+provider_count: 13
 providers:
 - slug: taiga
   name: Taiga
@@ -32,68 +32,75 @@ providers:
   score_band: emerging
   score_composite: 17.8
   shared: 3
-- slug: scrum
-  name: Scrum
-  description: Scrum is an agile project management framework that organizes work into fixed-length iterations called sprints, typically lasting two to four weeks. It defines clear roles (Product Owner, Scrum Master, Developers) and ceremonies (sprint pl…
-  api_count: 0
+- slug: calmboard-ai
+  name: CalmBoard
+  description: CalmBoard provides an AI‑powered project management platform for Scrum and Kanban teams, offering a focused five‑state board, explainable AI delivery insights, reports, and integrations. Users can start a 14‑day free trial with no credit c…
+  api_count: 1
   score_band: minimal
-  score_composite: 2.7
+  score_composite: 9.6
   shared: 3
 - slug: trello
   name: Trello
   description: Trello is a web-based, kanban-style, list-making application from Atlassian that lets teams organize tasks, projects and workflows as boards, lists and cards. Its public REST API v1 at https://api.trello.com/1 exposes 261 operations across…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.3
-  shared: 2
-- slug: leankit
-  name: LeanKit
-  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hier…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.8
+  score_composite: 75.6
   shared: 2
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
   api_count: 1
-  score_band: strong
-  score_composite: 61.2
+  score_band: exemplar
+  score_composite: 72.0
   shared: 2
-- slug: planka
-  name: PLANKA
-  description: PLANKA is a self‑hosted Kanban board solution for agile teams, offering on‑premise project management with privacy‑focused data control. The software provides a web‑based interface for creating boards, cards, and workflows, supporting mult…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.3
+- slug: leankit
+  name: LeanKit
+  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hier…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.6
   shared: 2
 - slug: hansoft
   name: Hansoft
   description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban,…
   api_count: 3
-  score_band: developing
-  score_composite: 47.8
+  score_band: strong
+  score_composite: 55.6
   shared: 2
 - slug: favro
   name: Favro
   description: Favro is a cloud planning and collaboration platform for agile teams, combining planning boards, backlogs, sprint/kanban widgets, roadmaps, and OKR/portfolio management in a single organization-scoped workspace. Its public REST API (https:…
   api_count: 1
-  score_band: developing
-  score_composite: 47.0
+  score_band: strong
+  score_composite: 54.9
   shared: 2
 - slug: lightsprint
   name: Lightsprint
   description: Lightsprint is an AI-native product-development platform where developers, product managers, and designers plan, build, and ship together against a codebase a team already runs, rather than a greenfield prototype. Its three surfaces are Pl…
   api_count: 1
   score_band: developing
-  score_composite: 42.9
+  score_composite: 44.4
+  shared: 2
+- slug: planka
+  name: PLANKA
+  description: PLANKA is a self‑hosted Kanban board solution designed for agile teams seeking full control over their project management data. It offers a community edition that can be run on‑premise, as well as Pro and Enterprise editions with advanced…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.6
+  shared: 2
+- slug: breeze-pm
+  name: breeze-pm
+  description: Breeze provides simple project management software that helps teams organize tasks, plan projects, and collaborate. The platform includes features such as task boards, kanban visualizations, time tracking, project calendars, reporting, and…
+  api_count: 2
+  score_band: thin
+  score_composite: 32.5
   shared: 2
 - slug: kanban
   name: Kanban Tool
   description: Kanban Tool is a visual project management platform for managing boards, tasks, and workflows using the Kanban methodology. It provides REST APIs (v1 and v3), browser SDK, and DevKit for programmatic access to boards, tasks, columns, comme…
   api_count: 12
   score_band: thin
-  score_composite: 29.7
+  score_composite: 31.3
   shared: 2
 - slug: rezonant
   name: Rezonant
@@ -102,32 +109,11 @@ providers:
   score_band: emerging
   score_composite: 19.3
   shared: 2
-- slug: product-backlog
-  name: Product Backlog
-  description: A product backlog is a prioritized list of features, enhancements, and fixes that serves as the single source of requirements for product development. It is most commonly used in Agile and Scrum methodologies, where the product owner is re…
+- slug: agile-today-org
+  name: Agile Today
+  description: Agile Today provides a methodology graph for AI agents to manage projects through a structured set of gates and stages. The platform integrates practices from PMBOK®, PRINCE2®, Scrum, Kanban, and BABOK®, offering reproducible, traceable de…
   api_count: 0
   score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: product-backlog-items
-  name: Product Backlog Items
-  description: Product backlog items (PBIs) are the individual units of work that make up a product backlog, representing features, enhancements, bug fixes, and technical tasks in Agile and Scrum methodologies. Each PBI typically includes a description,…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: project-management-methodology
-  name: Project Management Methodology
-  description: A systematic approach or framework for planning, executing, and controlling projects to achieve specific goals within defined constraints of time, budget, and resources. It helps teams plan, execute, and deliver projects on time and within…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: methodology
-  name: Methodology
-  description: Methodology is a concept entry covering systematic approaches and processes used in technology, software development, and computing to address specific technical challenges and improve outcomes.
-  api_count: 0
-  score_band: minimal
-  score_composite: 0.8
+  score_composite: 9.2
   shared: 2
 ---

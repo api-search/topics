@@ -21,35 +21,35 @@ links:
   url: https://en.wikipedia.org/wiki/PDF
 - type: Specification
   url: https://www.iso.org/standard/75839.html
-provider_count: 10
+provider_count: 11
 providers:
 - slug: gonitro
   name: GoNitro
   description: Nitro Software (GoNitro) is a document productivity company providing PDF editing, electronic signatures, redaction, and intelligent document automation for enterprises, small businesses, and professionals. Nitro exposes two public REST AP…
-  api_count: 2
+  api_count: 3
   score_band: strong
-  score_composite: 56.9
+  score_composite: 65.5
   shared: 2
 - slug: nitro-software
   name: Nitro Software
   description: Nitro Software is a document productivity company (San Francisco, CA; part of the Nitro Productivity Platform) offering PDF editing, eSignature (Nitro Sign), and document intelligence. Nitro publishes a public developer platform of REST AP…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 64.0
   shared: 2
 - slug: convertapi
   name: ConvertAPI
   description: ConvertAPI is a file conversion REST API supporting over 200 file format conversions including PDF, Microsoft Office documents (Word, Excel, PowerPoint), images, audio, video, and e-book formats. The API provides batch processing via Conve…
   api_count: 1
   score_band: developing
-  score_composite: 39.8
+  score_composite: 44.5
   shared: 2
 - slug: signwell
   name: SignWell
   description: E-signature platform with a REST API for sending documents for signature, creating templates, tracking document status, and managing signers programmatically. Supports embedded signing, bulk send, webhooks, and white-label customization wi…
   api_count: 1
-  score_band: thin
-  score_composite: 38.6
+  score_band: developing
+  score_composite: 39.6
   shared: 2
 - slug: docling
   name: Docling
@@ -64,6 +64,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.9
+  shared: 2
+- slug: docverdict-com
+  name: DocVerdict
+  description: DocVerdict provides instant forensic analysis of PDFs, photos, and emails, delivering signature status, change detection, metadata extraction, and document comparison. The service operates without requiring user accounts, never stores uplo…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.5
   shared: 2
 - slug: nutrient-io
   name: Nutrient.io

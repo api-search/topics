@@ -42,63 +42,70 @@ links:
   url: https://www.fatf-gafi.org/
 - type: Reference
   url: https://www.iosco.org/
-provider_count: 103
+provider_count: 112
 providers:
 - slug: opensanctions
   name: OpenSanctions
   description: OpenSanctions is an open database of international sanctions, watchlists, criminal designations and politically exposed persons (PEPs), published as a screening API, bulk data downloads and MIT-licensed open-source software from Berlin. It…
   api_count: 1
   score_band: exemplar
-  score_composite: 67.9
+  score_composite: 72.3
+  shared: 3
+- slug: didit
+  name: Didit
+  description: Didit is a developer-first identity verification and fraud-prevention platform that exposes one unified API for KYC (ID verification, passive/active liveness, face match and search, age estimation, proof of address, NFC), KYB business veri…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 71.2
+  shared: 3
+- slug: complyadvantage
+  name: ComplyAdvantage
+  description: ComplyAdvantage provides AI-driven anti-money laundering (AML) and financial crime risk detection - screening people and companies against sanctions and watchlists, politically exposed persons (PEPs and RCAs), and adverse media, with ongoi…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.6
   shared: 3
 - slug: idenfy
   name: iDenfy
   description: iDenfy is an identity verification platform providing KYC, KYB, and AML compliance solutions. The iDenfy API enables businesses to verify identities, check for fraud, and comply with regulatory requirements through automated document verif…
   api_count: 7
   score_band: exemplar
-  score_composite: 67.2
-  shared: 3
-- slug: complyadvantage
-  name: ComplyAdvantage
-  description: ComplyAdvantage provides AI-driven anti-money laundering (AML) and financial crime risk detection - screening people and companies against sanctions and watchlists, politically exposed persons (PEPs and RCAs), and adverse media, with ongoi…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.2
+  score_composite: 68.2
   shared: 3
 - slug: fenergo
   name: Fenergo
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 62.7
-  shared: 3
-- slug: didit
-  name: Didit
-  description: Didit is a developer-first identity verification and fraud-prevention platform that exposes one unified API for KYC (ID verification, passive/active liveness, face match and search, age estimation, proof of address, NFC), KYB business veri…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.6
+  score_composite: 64.3
   shared: 3
 - slug: trulioo
   name: Trulioo
   description: Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP…
   api_count: 1
   score_band: strong
-  score_composite: 55.6
+  score_composite: 64.1
   shared: 3
 - slug: parcha
   name: Parcha
   description: Parcha is an AI compliance platform that automates customer due diligence, KYB (Know Your Business) and KYC (Know Your Customer) reviews, document verification, and risk screening for banks and fintechs. Its AI agents run configurable chec…
   api_count: 2
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 60.0
+  shared: 3
+- slug: dotfile
+  name: Dotfile
+  description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
+  api_count: 27
+  score_band: strong
+  score_composite: 57.1
   shared: 3
 - slug: signzy
   name: Signzy
   description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake det…
   api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_band: strong
+  score_composite: 54.3
   shared: 3
 - slug: metamap
   name: MetaMap
@@ -107,12 +114,19 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 3
-- slug: dotfile
-  name: Dotfile
-  description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case ho…'
-  api_count: 27
+- slug: diligent
+  name: Diligent
+  description: Diligent (Diligent AI, godiligent.ai) builds autonomous AI agents for financial-crime compliance, automating the reasoning-heavy KYC/AML workflows that banks and fintechs run at scale. Its API exposes Customer Due Diligence (CDD) and busin…
+  api_count: 2
   score_band: developing
-  score_composite: 51.2
+  score_composite: 51.3
+  shared: 3
+- slug: cognito
+  name: Cognito
+  description: Cognito (cognitohq.com, operated by BlockScore, Inc.) is an identity verification, KYC, and AML compliance API provider that was backed by Y Combinator and Battery Ventures and acquired by Plaid in 2020. Its API turns a phone number, name,…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.9
   shared: 3
 - slug: smile-identity
   name: Smile Identity
@@ -121,12 +135,19 @@ providers:
   score_band: developing
   score_composite: 49.8
   shared: 3
-- slug: diligent
-  name: Diligent
-  description: Diligent (Diligent AI, godiligent.ai) builds autonomous AI agents for financial-crime compliance, automating the reasoning-heavy KYC/AML workflows that banks and fintechs run at scale. Its API exposes Customer Due Diligence (CDD) and busin…
-  api_count: 2
+- slug: sigma-ratings
+  name: Sigma360
+  description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk…
+  api_count: 1
   score_band: developing
-  score_composite: 49.7
+  score_composite: 49.3
+  shared: 3
+- slug: ubble
+  name: Ubble
+  description: Ubble is a Paris-founded identity verification company, now part of Checkout.com and operated as the Checkout.com Identity Verification (Identities) solution. Its API at api.ubble.ai powers video-based identity verification, ID document ve…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.1
   shared: 3
 - slug: strise
   name: Strise
@@ -135,12 +156,19 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 3
-- slug: sigma-ratings
-  name: Sigma360
-  description: Sigma360 (formerly Sigma Ratings) is a financial-crime-compliance platform for sanctions and watchlist screening, AML investigations, adverse-media screening, enhanced due diligence, perpetual KYC, third-party risk management, country risk…
+- slug: sumsub
+  name: Sumsub
+  description: Sumsub is a London-headquartered global verification platform offering an integrated full-cycle solution for KYC, KYB, AML screening, transaction monitoring, Travel Rule compliance, and fraud prevention. Founded in 2015 and serving 4,000+…
   api_count: 1
   score_band: developing
-  score_composite: 46.4
+  score_composite: 48.5
+  shared: 3
+- slug: merkle-science
+  name: Merkle Science
+  description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
   shared: 3
 - slug: parallel-markets
   name: Parallel Markets
@@ -149,34 +177,6 @@ providers:
   score_band: developing
   score_composite: 45.5
   shared: 3
-- slug: cognito
-  name: Cognito
-  description: Cognito (cognitohq.com, operated by BlockScore, Inc.) is an identity verification, KYC, and AML compliance API provider that was backed by Y Combinator and Battery Ventures and acquired by Plaid in 2020. Its API turns a phone number, name,…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.6
-  shared: 3
-- slug: sumsub
-  name: Sumsub
-  description: Sumsub is a London-headquartered global verification platform offering an integrated full-cycle solution for KYC, KYB, AML screening, transaction monitoring, Travel Rule compliance, and fraud prevention. Founded in 2015 and serving 4,000+…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.1
-  shared: 3
-- slug: merkle-science
-  name: Merkle Science
-  description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.2
-  shared: 3
-- slug: ubble
-  name: Ubble
-  description: Ubble is a Paris-founded identity verification company, now part of Checkout.com and operated as the Checkout.com Identity Verification (Identities) solution. Its API at api.ubble.ai powers video-based identity verification, ID document ve…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.5
-  shared: 3
 - slug: quadrata
   name: Quadrata
   description: Quadrata is a privacy-preserving on-chain identity network for Web3, issuing a non-transferable (soulbound) NFT "Passport" that binds verified identity, compliance and reputation attributes to a user wallet without storing personal data on…
@@ -184,19 +184,26 @@ providers:
   score_band: thin
   score_composite: 39.0
   shared: 3
+- slug: fideo
+  name: Fideo
+  description: Fideo Intelligence is a Denver-based identity intelligence and fraud-prevention platform, spun out of FullContact in 2024 and backed by Foundry Group, Baird Capital, and Blue Note Ventures. Fideo turns fragmented personal identifiers — ema…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.7
+  shared: 3
 - slug: shufti-pro
   name: Shufti Pro
   description: Shufti Pro is an AI-powered identity verification platform offering a REST API for document verification, face biometrics, AML screening, business verification (KYB), and address verification. The platform supports 10,000+ document types a…
   api_count: 1
   score_band: thin
-  score_composite: 32.0
+  score_composite: 33.7
   shared: 3
 - slug: sanctions-io
   name: sanctions.io
   description: sanctions.io is a sanctions, PEP, and criminal watchlist screening API for AML (anti-money laundering) compliance. The REST API (base https://api.sanctions.io) screens individuals, entities, vessels, and aircraft against 75+ sanctions list…
   api_count: 1
   score_band: thin
-  score_composite: 31.8
+  score_composite: 33.4
   shared: 3
 - slug: frankieone
   name: FrankieOne
@@ -204,13 +211,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 31.1
-  shared: 3
-- slug: fideo
-  name: Fideo
-  description: Fideo Intelligence is a Denver-based identity intelligence and fraud-prevention platform, spun out of FullContact in 2024 and backed by Foundry Group, Baird Capital, and Blue Note Ventures. Fideo turns fragmented personal identifiers — ema…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.8
   shared: 3
 - slug: violet
   name: Violet

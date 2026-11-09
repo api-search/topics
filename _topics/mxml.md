@@ -23,13 +23,6 @@ links:
   url: https://help.adobe.com/en_US/flex/using/index.html
 - type: Reference
   url: https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/index.html
-provider_count: 1
-providers:
-- slug: markup-language
-  name: Markup Language
-  description: A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. Examples include HTML, XML, Markdown, LaTeX, and others that add semantic meaning or formatting instructions to text cont…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
+provider_count: 0
+providers: []
 ---

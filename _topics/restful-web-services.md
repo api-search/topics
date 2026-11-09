@@ -62,8 +62,8 @@ providers:
   name: RESTful Services
   description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
   api_count: 5
-  score_band: emerging
-  score_composite: 15.4
+  score_band: null
+  score_composite: 0
   shared: 4
 - slug: restful
   name: RESTful
@@ -77,7 +77,7 @@ providers:
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, a…
   api_count: 13
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 76.0
   shared: 2
 - slug: ruby
   name: Ruby Programming Language and Popular API Gems

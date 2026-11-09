@@ -31,14 +31,14 @@ providers:
   description: dotCMS is a Java-based visual headless content management system aimed at compliance-led enterprises, deployable as SaaS (dotCMS Cloud), on premise, or as a managed service. It covers content modelling, authoring, workflow, multi-site mana…
   api_count: 1
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 73.4
   shared: 2
 - slug: eclipse
   name: Eclipse Foundation
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
-  score_band: strong
-  score_composite: 62.6
+  score_band: exemplar
+  score_composite: 72.2
   shared: 2
 - slug: apache-sling
   name: Apache Sling

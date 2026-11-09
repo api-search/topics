@@ -34,11 +34,11 @@ links:
   url: https://github.com/api-evangelist/data-flow-diagrams/blob/main/vocabulary/data-flow-diagrams-vocabulary.yml
 provider_count: 1
 providers:
-- slug: flowcharts
-  name: Flowcharts
-  description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are…
-  api_count: 0
+- slug: changebook-app
+  name: ChangeBook
+  description: ChangeBook provides a living map of your codebase designed for AI agents. It offers a platform where developers can visualize, explore, and interact with their code repositories, enabling AI-driven insights, automated documentation, and in…
+  api_count: 1
   score_band: minimal
-  score_composite: 4.5
+  score_composite: 10.2
   shared: 2
 ---

@@ -58,70 +58,77 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/main/json-ld/scalable-platforms-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/main/vocabulary/scalable-platforms-vocabulary.yml
-provider_count: 84
+provider_count: 90
 providers:
 - slug: aptible
   name: Aptible
   description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workload…
   api_count: 3
   score_band: strong
-  score_composite: 58.5
+  score_composite: 61.4
   shared: 4
 - slug: outsystems
   name: OutSystems
   description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11),…
   api_count: 14
   score_band: exemplar
-  score_composite: 75.8
+  score_composite: 75.7
   shared: 3
-- slug: azion
-  name: Azion
-  description: Azion provides an edge computing platform that enables developers to deploy serverless functions, AI inference, and other compute workloads close to users worldwide. Their solutions include edge functions, durable objects, load balancer, A…
-  api_count: 1
+- slug: platform.sh
+  name: Platform.sh
+  description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster o…
+  api_count: 2
   score_band: exemplar
-  score_composite: 67.7
-  shared: 3
-- slug: agentuity
-  name: Agentuity
-  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanSta…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.4
-  shared: 3
-- slug: koyeb
-  name: Koyeb
-  description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.0
+  score_composite: 68.3
   shared: 3
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 66.0
   shared: 3
-- slug: platform.sh
-  name: Platform.sh
-  description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster o…
-  api_count: 2
+- slug: koyeb
+  name: Koyeb
+  description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.2
+  shared: 3
+- slug: agentuity
+  name: Agentuity
+  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanSta…
+  api_count: 1
   score_band: strong
   score_composite: 57.9
+  shared: 3
+- slug: azion
+  name: Azion
+  description: Azion provides an edge computing platform that enables developers to deploy serverless functions, AI inference, and other compute workloads close to users worldwide. Their solutions include edge functions, durable objects, load balancer, A…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.7
   shared: 3
 - slug: render
   name: Render
   description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, Postgre…
   api_count: 1
-  score_band: developing
-  score_composite: 50.9
+  score_band: strong
+  score_composite: 56.5
   shared: 3
 - slug: dokploy
   name: Dokploy
   description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Doc…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.9
+  shared: 3
+- slug: fly-io
+  name: Fly Io
+  description: Documentation and guides from the team at Fly.io.
   api_count: 1
   score_band: developing
-  score_composite: 43.7
+  score_composite: 41.2
   shared: 3
 - slug: spocket
   name: Spocket
@@ -137,12 +144,19 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 3
-- slug: fly-io
-  name: Fly Io
-  description: Documentation and guides from the team at Fly.io.
+- slug: zephyr-cloud
+  name: Zephyr Cloud
+  description: Zephyr Cloud provides a developer‑focused cloud deployment platform that turns any build into a live, previewable URL instantly. By integrating with existing bundlers, it offers continuous deployment, controlled releases, instant rollbacks…
   api_count: 1
   score_band: thin
-  score_composite: 34.5
+  score_composite: 36.9
+  shared: 3
+- slug: flightcontrol
+  name: Flightcontrol
+  description: Flightcontrol deploys applications to your own AWS account with a Heroku-like developer experience. It provisions and manages AWS infrastructure from a flightcontrol.json config-as-code file and exposes an HTTP management API for triggerin…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.4
   shared: 3
 - slug: railway-app
   name: Railway
@@ -150,13 +164,6 @@ providers:
   api_count: 13
   score_band: thin
   score_composite: 28.6
-  shared: 3
-- slug: flightcontrol
-  name: Flightcontrol
-  description: Flightcontrol deploys applications to your own AWS account with a Heroku-like developer experience. It provisions and manages AWS infrastructure from a flightcontrol.json config-as-code file and exposes an HTTP management API for triggerin…
-  api_count: 1
-  score_band: thin
-  score_composite: 26.9
   shared: 3
 - slug: sliplane
   name: Sliplane
@@ -184,90 +191,83 @@ providers:
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 25
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 82.8
   shared: 2
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kube…
   api_count: 9
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 76.9
   shared: 2
 - slug: new-relic
   name: New Relic
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain re…
   api_count: 5
   score_band: exemplar
-  score_composite: 71.0
+  score_composite: 76.5
   shared: 2
 - slug: laravel
   name: Laravel
   description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server pro…'
   api_count: 2
   score_band: exemplar
-  score_composite: 69.6
+  score_composite: 72.8
+  shared: 2
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumer…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 2
+- slug: microsoft-azure-pipelines
+  name: Azure Pipelines
+  description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
+  api_count: 2
+  score_band: strong
+  score_composite: 65.6
   shared: 2
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 66.4
+  score_composite: 64.9
   shared: 2
-- slug: apiable
-  name: Apiable
-  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, us…
-  api_count: 1
+- slug: nuon
+  name: Nuon
+  description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into thei…
+  api_count: 2
   score_band: strong
-  score_composite: 64.2
+  score_composite: 64.4
   shared: 2
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumer…
-  api_count: 1
+- slug: insforge
+  name: Insforge
+  description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking t…
+  api_count: 14
   score_band: strong
-  score_composite: 62.6
+  score_composite: 64.0
   shared: 2
 - slug: deployxa
   name: Deployxa
   description: AI-first autonomous cloud deployment platform for deploying AI-built and containerized web apps to production, featuring a deployment intelligence engine, global edge deployment, managed databases, VPS clusters, and a CLI. Publishes an Ope…
   api_count: 1
   score_band: strong
-  score_composite: 59.5
-  shared: 2
-- slug: amazon-codedeploy
-  name: Amazon CodeDeploy
-  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new fe…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.2
-  shared: 2
-- slug: raygun
-  name: Raygun
-  description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun P…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.6
+  score_composite: 63.8
   shared: 2
 - slug: vercel
   name: Vercel
   description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as oth…
   api_count: 2
   score_band: strong
-  score_composite: 57.5
+  score_composite: 63.8
   shared: 2
-- slug: amazon-proton
-  name: Amazon Proton
-  description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipe…
+- slug: raygun
+  name: Raygun
+  description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun P…
   api_count: 1
   score_band: strong
-  score_composite: 56.5
-  shared: 2
-- slug: configure8
-  name: Configure8
-  description: Configure8 is a commercial Internal Developer Portal (IDP) that gives engineering organizations a unified catalog of services, environments, and resources, with dependency mapping across cloud and on-premises infrastructure. It pairs that…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.2
+  score_composite: 63.5
   shared: 2
 ---

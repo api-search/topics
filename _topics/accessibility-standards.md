@@ -64,14 +64,14 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/accessibility-standards/refs/heads/main/json-ld/accessibility-standards-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/accessibility-standards/refs/heads/main/vocabulary/accessibility-standards-vocabulary.yaml
-provider_count: 7
+provider_count: 9
 providers:
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
   api_count: 1
-  score_band: developing
-  score_composite: 52.1
+  score_band: strong
+  score_composite: 56.7
   shared: 3
 - slug: stark
   name: Stark
@@ -94,6 +94,13 @@ providers:
   score_band: thin
   score_composite: 27.7
   shared: 2
+- slug: easyaccesspdf-com
+  name: EasyAccessPDF
+  description: EasyAccessPDF provides an automated PDF accessibility service that tags PDFs for screen readers and validates them against PDF/UA (ISO 14289) using the open‑source veraPDF validator. It offers a flat‑rate per‑document pricing model, free c…
+  api_count: 1
+  score_band: emerging
+  score_composite: 21.4
+  shared: 2
 - slug: u-s-access-board
   name: U.S. Access Board
   description: The U.S. Access Board is an independent federal agency that promotes equality for people with disabilities through the development of accessibility guidelines and standards. The Board develops criteria for accessibility in the built enviro…
@@ -107,6 +114,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 11.0
+  shared: 2
+- slug: patrol
+  name: Patrol
+  description: Patrol provides an automated accessibility compliance platform for Shopify merchants, offering tools to audit, monitor, and remediate ADA violations in storefronts. Their service includes AI-driven audits, continuous monitoring, dynamic ac…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.9
   shared: 2
 - slug: echo-labs
   name: Echo Labs

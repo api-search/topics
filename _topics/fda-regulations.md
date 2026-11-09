@@ -79,7 +79,7 @@ links:
   url: https://github.com/api-evangelist/fda-regulations/blob/main/mcp/fda-regulations-mcp.yml
 - type: X-WellKnownProbe
   url: https://github.com/api-evangelist/fda-regulations/blob/main/well-known/fda-regulations-well-known.yml
-provider_count: 614
+provider_count: 623
 providers:
 - slug: food-and-drug-administration
   name: Food and Drug Administration
@@ -92,8 +92,8 @@ providers:
   name: Johnson & Johnson
   description: Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such a…
   api_count: 1
-  score_band: emerging
-  score_composite: 25.0
+  score_band: thin
+  score_composite: 26.6
   shared: 3
 - slug: food-safety-and-inspection-service
   name: Food Safety and Inspection Service
@@ -163,35 +163,35 @@ providers:
   description: Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operat…
   api_count: 1
   score_band: exemplar
-  score_composite: 76.1
+  score_composite: 73.6
   shared: 2
 - slug: autoderm-ai-dermatology-api
   name: Autoderm – AI Dermatology API
   description: Autoderm is a white-label REST API for AI-assisted analysis of dermatological images, operated as a regulated medical device. A client POSTs a single skin photograph as multipart/form-data and receives the top five most probable conditions…
   api_count: 1
   score_band: strong
-  score_composite: 60.5
+  score_composite: 65.1
   shared: 2
 - slug: tracelink
   name: TraceLink
   description: TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two doz…
   api_count: 6
-  score_band: developing
-  score_composite: 49.6
-  shared: 2
-- slug: cancer-gov
-  name: Cancer.gov
-  description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
-  api_count: 17
-  score_band: developing
-  score_composite: 48.9
+  score_band: strong
+  score_composite: 57.5
   shared: 2
 - slug: athelas
   name: Athelas
   description: Athelas (Commure d/b/a Athelas) is a healthcare technology company building AI-powered infrastructure for provider organizations, spanning remote patient monitoring (RPM), an AI-native EHR ("Air"), ambient AI scribing, and revenue cycle ma…
   api_count: 1
   score_band: developing
-  score_composite: 47.7
+  score_composite: 53.2
+  shared: 2
+- slug: cancer-gov
+  name: Cancer.gov
+  description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
+  api_count: 17
+  score_band: developing
+  score_composite: 50.8
   shared: 2
 - slug: cms-gov
   name: CMS — Centers for Medicare & Medicaid Services
@@ -205,14 +205,14 @@ providers:
   description: VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake…
   api_count: 22
   score_band: developing
-  score_composite: 41.8
+  score_composite: 44.7
   shared: 2
 - slug: rhizome-ai
   name: Rhizome Ai
   description: Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities…
   api_count: 1
   score_band: developing
-  score_composite: 40.4
+  score_composite: 43.7
   shared: 2
 - slug: biogen
   name: Biogen
@@ -235,6 +235,13 @@ providers:
   score_band: thin
   score_composite: 38.5
   shared: 2
+- slug: mytomorrows
+  name: myTomorrows
+  description: myTomorrows is a healthcare technology platform that helps patients and healthcare professionals discover and access clinical trials and expanded-access (pre-approval) treatment options, and helps biopharma companies run and manage expande…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.5
+  shared: 2
 - slug: doceree
   name: Doceree
   description: Doceree Inc. is a US healthcare marketing technology company (Short Hills, New Jersey) operating a global network of physician-only platforms for programmatic messaging and point-of-care advertising to healthcare professionals. Its platfor…
@@ -249,19 +256,19 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 2
-- slug: mytomorrows
-  name: myTomorrows
-  description: myTomorrows is a healthcare technology platform that helps patients and healthcare professionals discover and access clinical trials and expanded-access (pre-approval) treatment options, and helps biopharma companies run and manage expande…
-  api_count: 1
+- slug: xrhealth
+  name: XRHealth
+  description: XRHealth is an extended-reality (XR) therapeutics and virtual-clinic company, founded in 2016 with offices in Boston, Massachusetts and Tel Aviv, Israel, that delivers FDA-registered and CE-marked virtual and augmented reality treatment fo…
+  api_count: 2
   score_band: thin
-  score_composite: 34.9
+  score_composite: 35.9
   shared: 2
 - slug: ketryx
   name: Ketryx
   description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation,…
   api_count: 1
   score_band: thin
-  score_composite: 33.7
+  score_composite: 35.3
   shared: 2
 - slug: united-states-department-of-agriculture
   name: United States Department of Agriculture
@@ -277,18 +284,11 @@ providers:
   score_band: thin
   score_composite: 33.2
   shared: 2
-- slug: xrhealth
-  name: XRHealth
-  description: XRHealth is an extended-reality (XR) therapeutics and virtual-clinic company, founded in 2016 with offices in Boston, Massachusetts and Tel Aviv, Israel, that delivers FDA-registered and CE-marked virtual and augmented reality treatment fo…
-  api_count: 2
+- slug: cdc-gov
+  name: CDC
+  description: The US Centers for Disease Control and Prevention (CDC) provides a suite of public APIs for accessing disease surveillance data, vaccination rates, health statistics, environmental public health tracking, and public health datasets. Key of…
+  api_count: 12
   score_band: thin
-  score_composite: 33.2
-  shared: 2
-- slug: usda
-  name: USDA
-  description: The US Department of Agriculture provides a suite of free public REST APIs covering agricultural statistics, food and nutrition data, market news, food safety inspection records, crop and vegetation monitoring, and geospatial services. API…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.4
+  score_composite: 32.9
   shared: 2
 ---

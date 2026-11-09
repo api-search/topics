@@ -49,35 +49,21 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/vocabulary/architecture-pattern-vocabulary.yaml
 - type: JSONLD
   url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/json-ld/architecture-pattern-api-context.jsonld
-provider_count: 32
+provider_count: 20
 providers:
-- slug: integration-patterns
-  name: Integration Patterns
-  description: Integration Patterns are design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Enterprise Integration Patterns (EIP),…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 3
-- slug: microservice-design
-  name: Microservice Design
-  description: Architectural approach for building applications as a collection of loosely coupled, independently deployable services that are organized around business capabilities. Covers principles, patterns, and best practices for designing effective…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 3
 - slug: websphere
   name: IBM WebSphere
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 7
   score_band: strong
-  score_composite: 58.4
+  score_composite: 59.9
   shared: 2
 - slug: zeebe
   name: Zeebe
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 48.4
+  score_composite: 53.2
   shared: 2
 - slug: spring
   name: Spring Framework
@@ -90,8 +76,8 @@ providers:
   name: NATS
   description: A high-performance, cloud-native messaging system for microservices, IoT, and edge computing. Provides pub-sub, request-reply, and queue-based messaging patterns with at-most-once and at-least-once delivery guarantees.
   api_count: 2
-  score_band: thin
-  score_composite: 38.3
+  score_band: developing
+  score_composite: 39.9
   shared: 2
 - slug: service-fabric
   name: Service Fabric
@@ -114,19 +100,19 @@ providers:
   score_band: thin
   score_composite: 34.9
   shared: 2
+- slug: nacos
+  name: Nacos
+  description: Nacos is an easy-to-use dynamic service discovery, configuration, and service management platform from Alibaba for building cloud-native applications, supporting Dubbo, gRPC, Spring Cloud RESTful, and Kubernetes services.
+  api_count: 1
+  score_band: thin
+  score_composite: 30.0
+  shared: 2
 - slug: spin
   name: Spin
   description: Spin is an open source framework by Fermyon for building and running fast, secure, and composable cloud microservices with WebAssembly. Spin provides a developer experience for creating event-driven serverless applications that compile to…
   api_count: 5
   score_band: thin
   score_composite: 28.7
-  shared: 2
-- slug: nacos
-  name: Nacos
-  description: Nacos is an easy-to-use dynamic service discovery, configuration, and service management platform from Alibaba for building cloud-native applications, supporting Dubbo, gRPC, Spring Cloud RESTful, and Kubernetes services.
-  api_count: 1
-  score_band: thin
-  score_composite: 28.4
   shared: 2
 - slug: kratos
   name: Kratos
@@ -149,13 +135,6 @@ providers:
   score_band: thin
   score_composite: 27.1
   shared: 2
-- slug: service-mesh
-  name: Service Mesh
-  description: Service mesh is a dedicated infrastructure layer for handling service-to-service communication in microservices architectures. It provides traffic management, mutual TLS security, observability, policy enforcement, and resilience features…
-  api_count: 5
-  score_band: thin
-  score_composite: 27.0
-  shared: 2
 - slug: jboss
   name: JBoss
   description: JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The JBoss product portfolio includes JBoss EAP (Enterprise Application Platform), the WildFly community appl…
@@ -177,6 +156,13 @@ providers:
   score_band: emerging
   score_composite: 22.9
   shared: 2
+- slug: netflix-eureka
+  name: Netflix Eureka
+  description: Netflix Eureka is a RESTful service registry used for service discovery, load balancing, and failover of middle-tier servers in microservice and cloud-native architectures, originally built for the AWS cloud.
+  api_count: 1
+  score_band: emerging
+  score_composite: 22.3
+  shared: 2
 - slug: micronaut
   name: Micronaut
   description: Micronaut is a modern JVM-based framework for building modular, easily testable microservice and serverless applications with ahead-of-time compilation and minimal memory consumption.
@@ -191,20 +177,6 @@ providers:
   score_band: emerging
   score_composite: 21.5
   shared: 2
-- slug: netflix-eureka
-  name: Netflix Eureka
-  description: Netflix Eureka is a RESTful service registry used for service discovery, load balancing, and failover of middle-tier servers in microservice and cloud-native architectures, originally built for the AWS cloud.
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.7
-  shared: 2
-- slug: dependency-injection
-  name: Dependency Injection
-  description: A design pattern in which objects receive their dependencies from external sources rather than creating them internally, promoting loose coupling, easier testing, and clear composition roots. Effective use of this practice reduces bugs in…
-  api_count: 1
-  score_band: emerging
-  score_composite: 11.0
-  shared: 2
 - slug: mia-platform
   name: Mia-Platform
   description: Mia-Platform is an Internal Developer Platform (IDP) that harmonizes infrastructure, applications, and data for intelligent engineering at scale. It provides an API-first platform for building and managing microservices and cloud-native ap…
@@ -212,53 +184,11 @@ providers:
   score_band: minimal
   score_composite: 7.9
   shared: 2
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
-- slug: domain-driven-design
-  name: Domain-Driven Design
-  description: A software development approach that focuses on modeling software to match a domain according to input from domain experts, emphasizing collaboration between technical and domain experts to create a shared understanding through ubiquitous…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.3
-  shared: 2
-- slug: modular-monolith
-  name: Modular Monolith
-  description: An architectural pattern that structures a monolithic application into loosely coupled, well-defined modules with clear boundaries and dependencies, combining the operational simplicity of a monolith with the organizational benefits of mod…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.1
-  shared: 2
-- slug: microservice-architecture
-  name: Microservice Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services organized around business capabilities. Widely used by developers to build, maintain, and scale software applicatio…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
 - slug: services-patterns
   name: Services Patterns
   description: Design patterns and architectural approaches for building microservices and service-oriented applications. Modern distributed architectures rely on it to coordinate workloads across multiple nodes and regions.
   api_count: 0
   score_band: minimal
   score_composite: 2.3
-  shared: 2
-- slug: inversion-of-control
-  name: Inversion of Control
-  description: Inversion of Control (IoC) is a software design principle where the control flow of a program is inverted compared to traditional programming. Instead of application code calling frameworks, frameworks call application code. Common impleme…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 2
-- slug: microservices-architecture
-  name: Microservices Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services, each running in its own process and communicating through lightweight mechanisms like HTTP/REST APIs. Widely used…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
   shared: 2
 ---

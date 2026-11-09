@@ -91,42 +91,42 @@ links:
   url: https://github.com/api-evangelist/cloud-storage
 - type: Related Topic
   url: https://github.com/api-evangelist/cloud-native
-provider_count: 180
+provider_count: 209
 providers:
 - slug: microsoft-azure
   name: Microsoft Azure
   description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
   api_count: 697
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 78.4
   shared: 4
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kube…
   api_count: 9
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 76.9
   shared: 4
 - slug: amazon-ec2
   name: Amazon EC2
   description: Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud, allowing you to launch virtual server instances, manage networking, and configure storage with complete control over your computing resources.
   api_count: 1
   score_band: strong
-  score_composite: 62.2
+  score_composite: 61.8
   shared: 4
 - slug: microsoft-azure-virtual-machines
   name: Azure Virtual Machines
   description: Azure Virtual Machines (VMs) is one of several types of on-demand, scalable computing resources that Azure offers. VMs give you the flexibility of virtualization without having to buy and maintain physical hardware.
-  api_count: 10
+  api_count: 1
   score_band: developing
-  score_composite: 49.9
+  score_composite: 51.8
   shared: 4
 - slug: codesphere
   name: Codesphere
   description: Codesphere is a European-built sovereign cloud platform that lets organizations deploy and operate applications across on-premises, hybrid, and public-cloud infrastructure from a single control layer, without Kubernetes expertise or vendor…
   api_count: 1
   score_band: developing
-  score_composite: 49.4
+  score_composite: 51.0
   shared: 4
 - slug: evroc
   name: evroc
@@ -147,84 +147,84 @@ providers:
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
   api_count: 3
   score_band: exemplar
-  score_composite: 73.8
+  score_composite: 75.4
   shared: 3
 - slug: nexgen-cloud
   name: NexGen Cloud
   description: NexGen Cloud Limited is a UK-headquartered AI cloud and GPU infrastructure provider. Its on-demand platform, Hyperstack, sells NVIDIA GPU and CPU virtual machines, managed Kubernetes clusters, block storage volumes, S3-compatible object st…
   api_count: 3
   score_band: exemplar
-  score_composite: 66.5
+  score_composite: 71.0
   shared: 3
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
   api_count: 161
-  score_band: strong
-  score_composite: 65.9
+  score_band: exemplar
+  score_composite: 68.6
+  shared: 3
+- slug: microsoft-azure-batch
+  name: Microsoft Azure Batch
+  description: Azure Batch is Microsoft’s managed job-scheduling and cluster-management service for large-scale parallel and high-performance computing workloads. You describe pools of virtual machines, jobs and tasks through a REST API; Batch allocates…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 67.9
   shared: 3
 - slug: google-cloud-platform
   name: Google Cloud Platform
   description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure.
   api_count: 1
   score_band: strong
-  score_composite: 62.3
-  shared: 3
-- slug: microsoft-azure-batch
-  name: Microsoft Azure Batch
-  description: Azure Batch is Microsoft’s managed job-scheduling and cluster-management service for large-scale parallel and high-performance computing workloads. You describe pools of virtual machines, jobs and tasks through a REST API; Batch allocates…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.2
-  shared: 3
-- slug: google-cloud-compute-engine
-  name: Google Cloud Compute Engine
-  description: Google Cloud Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. Compute Engine VMs boot quickly, come with persistent disk storage, and deliver consistent performance. It offer…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.8
-  shared: 3
-- slug: digital-ocean
-  name: Digital Ocean
-  description: DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in New York City, New York, US, with 15 globally distributed data centers. DigitalOcean provides developer…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.6
-  shared: 3
-- slug: oxide-computer
-  name: Oxide
-  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
-  api_count: 1
-  score_band: developing
-  score_composite: 46.2
-  shared: 3
-- slug: vultr
-  name: Vultr
-  description: Vultr is a global cloud infrastructure provider offering Cloud Compute, Bare Metal, GPU, Kubernetes (VKE), Managed Databases, S3-compatible Object Storage, Block Storage, networking (VPC, load balancers, DNS, firewalls) and Serverless Infe…
-  api_count: 3
-  score_band: developing
-  score_composite: 44.7
-  shared: 3
-- slug: exoscale
-  name: Exoscale
-  description: Exoscale is a Swiss cloud infrastructure provider offering secure, reliable, and scalable cloud solutions to businesses of all sizes. Their services include virtual machines, object storage, networking, security, Kubernetes (SKS), Database…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.5
+  score_composite: 64.8
   shared: 3
 - slug: horizoniq
   name: HorizonIQ
   description: HorizonIQ (formerly INAP / Internap) is a US infrastructure provider delivering fully managed private cloud, bare metal servers, and GPU dedicated servers, along with block and object storage, backup and recovery, connectivity, load balanc…
   api_count: 1
   score_band: developing
-  score_composite: 41.0
+  score_composite: 53.6
+  shared: 3
+- slug: oxide-computer
+  name: Oxide
+  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
+  api_count: 1
+  score_band: developing
+  score_composite: 47.8
+  shared: 3
+- slug: exoscale
+  name: Exoscale
+  description: Exoscale is a Swiss cloud infrastructure provider offering secure, reliable, and scalable cloud solutions to businesses of all sizes. Their services include virtual machines, object storage, networking, security, Kubernetes (SKS), Database…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.7
+  shared: 3
+- slug: google-cloud-compute-engine
+  name: Google Cloud Compute Engine
+  description: Google Cloud Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. Compute Engine VMs boot quickly, come with persistent disk storage, and deliver consistent performance. It offer…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.2
+  shared: 3
+- slug: digital-ocean
+  name: Digital Ocean
+  description: DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in New York City, New York, US, with 15 globally distributed data centers. DigitalOcean provides developer…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.0
+  shared: 3
+- slug: vultr
+  name: Vultr
+  description: Vultr is a global cloud infrastructure provider offering Cloud Compute, Bare Metal, GPU, Kubernetes (VKE), Managed Databases, S3-compatible Object Storage, Block Storage, networking (VPC, load balancers, DNS, firewalls) and Serverless Infe…
+  api_count: 3
+  score_band: developing
+  score_composite: 40.2
   shared: 3
 - slug: hpe
   name: Hewlett Packard Enterprise
   description: Hewlett Packard Enterprise (HPE) is a global edge-to-cloud technology company providing servers, storage, networking, and hybrid cloud services, with HPE GreenLake serving as the unified edge-to-cloud platform delivering infrastructure as…
   api_count: 2
-  score_band: developing
-  score_composite: 40.8
+  score_band: thin
+  score_composite: 39.1
   shared: 3
 - slug: apache-cloudstack
   name: Apache CloudStack
@@ -232,6 +232,13 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 38.0
+  shared: 3
+- slug: civo
+  name: Civo
+  description: Civo is a sovereign cloud and AI platform ("Civo - Sovereign Cloud and AI Platform") offering public cloud services including managed Kubernetes, compute instances, databases and the Konstruct IDP, private cloud via CivoStack Enterprise an…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.0
   shared: 3
 - slug: shadow
   name: Shadow
@@ -245,7 +252,7 @@ providers:
   description: JarvisLabs.ai is a GPU cloud for AI development that lets you launch on-demand GPU and CPU instances (H100, H200, A100, RTX Pro 6000, A6000, A5000, L4, A30) from the terminal. Its Python SDK (jarvislabs / legacy jlclient) and jl CLI wrap a…
   api_count: 1
   score_band: thin
-  score_composite: 35.0
+  score_composite: 35.6
   shared: 3
 - slug: inspur-cloud
   name: Inspur Cloud
@@ -254,12 +261,33 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 3
+- slug: outscale
+  name: 3DS OUTSCALE
+  description: 3DS OUTSCALE, a subsidiary of Dassault Systèmes, provides a public cloud computing platform offering IaaS services such as virtual servers, storage, networking, and compatible APIs with AWS. The company focuses on European data sovereignty…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.9
+  shared: 3
+- slug: devopness-com
+  name: Devopness
+  description: Devopness offers a self‑service platform that lets developers and teams deploy applications and provision infrastructure directly in their own AWS, Azure, Google Cloud, DigitalOcean, Hetzner, and other accounts. Users connect a cloud provi…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.8
+  shared: 3
 - slug: thundercompute
   name: Thunder Compute
   description: Thunder Compute is a low-cost GPU cloud offering on-demand virtual GPU instances (T4, A6000, A100 80GB, L40, H100 PCIe) billed per minute. Developers provision and manage instances primarily through the tnr CLI, with a documented REST API…
   api_count: 1
   score_band: thin
-  score_composite: 32.0
+  score_composite: 32.6
+  shared: 3
+- slug: shadeform
+  name: Shadeform
+  description: Shadeform is a GPU cloud marketplace that exposes a single REST API for deploying and managing GPU compute across many underlying clouds. One interface lets you compare real-time availability and per-GPU-hour pricing, then launch, inspect,…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.8
   shared: 3
 - slug: railway-app
   name: Railway
@@ -268,39 +296,11 @@ providers:
   score_band: thin
   score_composite: 28.6
   shared: 3
-- slug: shadeform
-  name: Shadeform
-  description: Shadeform is a GPU cloud marketplace that exposes a single REST API for deploying and managing GPU compute across many underlying clouds. One interface lets you compare real-time availability and per-GPU-hour pricing, then launch, inspect,…
-  api_count: 1
-  score_band: thin
-  score_composite: 27.1
-  shared: 3
 - slug: fluidstack
   name: Fluidstack
   description: Fluidstack is an AI cloud platform that builds and operates high-performance, single-tenant GPU clusters for top AI labs, governments, and enterprises. Founded in 2017 out of Oxford University and now headquartered in New York City, Fluids…
   api_count: 1
   score_band: thin
-  score_composite: 26.7
-  shared: 3
-- slug: specific
-  name: Specific
-  description: Specific is an infrastructure-as-code platform built for coding agents, positioned as "AWS for coding agents." Any coding agent (Claude Code, Cursor, Codex) defines its whole system in a single specific.hcl file — services, managed Postgre…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.5
-  shared: 3
-- slug: huaweicloud
-  name: Huawei Cloud
-  description: Huawei Cloud, the public cloud arm of Huawei Technologies, offers a comprehensive suite of cloud services including compute, storage, networking, AI, and big data solutions. It serves enterprises worldwide with flexible pricing, high perfo…
-  api_count: 0
-  score_band: emerging
-  score_composite: 18.2
-  shared: 3
-- slug: cato-digital
-  name: Cato Digital
-  description: Cato Digital is a sustainable bare metal cloud provider that repurposes large-scale, second-life servers from hyperscalers like Meta and NVIDIA to deliver AI & GPU servers (up to 512GB VRAM), ephemeral application servers, and build-your-o…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.6
+  score_composite: 27.5
   shared: 3
 ---

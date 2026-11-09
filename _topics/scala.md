@@ -101,7 +101,7 @@ providers:
   description: Lightbend, Inc. (dba Akka) is the company behind the Akka agentic systems platform. Founded as Typesafe by the creators of the Scala language and the Akka actor toolkit, the company built the JVM reactive stack — Akka actors, Akka Streams,…
   api_count: 0
   score_band: developing
-  score_composite: 40.6
+  score_composite: 43.3
   shared: 2
 - slug: akka
   name: Akka
@@ -131,24 +131,24 @@ providers:
   score_band: emerging
   score_composite: 14.8
   shared: 2
+- slug: concord-systems
+  name: Concord Systems
+  description: Concord Systems was a Brooklyn, New York stream-processing company founded in December 2014 by Alexander Gallego and Emilio Del Tesoro, and backed by Bloomberg Beta. It built a high-performance distributed stream processing framework writt…
+  api_count: 0
+  score_band: null
+  score_composite: 0
+  shared: 2
 - slug: java
   name: Java
   description: Java is a high-level, class-based, object-oriented programming language developed by Sun Microsystems and now stewarded by Oracle. The Java Standard Edition (SE) platform provides a comprehensive set of APIs and class libraries for buildin…
   api_count: 9
-  score_band: emerging
-  score_composite: 14.8
+  score_band: null
+  score_composite: 0
   shared: 2
 - slug: kotlin
   name: Kotlin
   description: Kotlin is a modern, concise, and safe programming language for the JVM, Android, and multiplatform development. It is developed by JetBrains and provides full interoperability with Java. Kotlin's standard library and ecosystem offer rich A…
   api_count: 2
-  score_band: emerging
-  score_composite: 12.5
-  shared: 2
-- slug: concord-systems
-  name: Concord Systems
-  description: Concord Systems was a Brooklyn, New York stream-processing company founded in December 2014 by Alexander Gallego and Emilio Del Tesoro, and backed by Bloomberg Beta. It built a high-performance distributed stream processing framework writt…
-  api_count: 0
   score_band: null
   score_composite: 0
   shared: 2

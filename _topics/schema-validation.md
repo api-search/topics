@@ -90,42 +90,42 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 93.8
+  score_composite: 95.4
   shared: 2
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 76.3
   shared: 2
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 60.1
   shared: 2
 - slug: elva
   name: Elva
   description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth O…'
   api_count: 1
   score_band: developing
-  score_composite: 50.6
+  score_composite: 52.2
   shared: 2
 - slug: btc-war-live-market-data-api
   name: BTC War Live Market Data API
   description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
   api_count: 2
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.6
   shared: 2
 - slug: kiota
   name: Kiota
@@ -155,19 +155,19 @@ providers:
   score_band: thin
   score_composite: 30.4
   shared: 2
-- slug: schwarz-it
-  name: Schwarz IT
-  description: Schwarz IT (Schwarz IT KG, Neckarsulm, Germany) is the IT service company of the Schwarz Group (Lidl, Kaufland), describing itself on GitHub as "the technological heartbeat of the companies of Schwarz Group". It is listed as an affiliated…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.2
-  shared: 2
 - slug: nswag
   name: NSwag
   description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from A…'
   api_count: 1
   score_band: emerging
   score_composite: 24.5
+  shared: 2
+- slug: schwarz-it
+  name: Schwarz IT
+  description: Schwarz IT (Schwarz IT KG, Neckarsulm, Germany) is the IT service company of the Schwarz Group (Lidl, Kaufland), describing itself on GitHub as "the technological heartbeat of the companies of Schwarz Group". It is listed as an affiliated…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.5
   shared: 2
 - slug: spectral
   name: Spectral

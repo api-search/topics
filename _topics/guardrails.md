@@ -83,28 +83,28 @@ links:
   url: https://github.com/api-evangelist/guardrails/blob/main/examples/
 - type: LlmsText
   url: https://docs.lakera.ai/llms.txt
-provider_count: 28
+provider_count: 29
 providers:
 - slug: activefence
   name: ActiveFence
   description: 'ActiveFence — now operating as Alice — is an AI security, safety and trust & safety company headquartered in New York and Tel Aviv. It sells two product families through one REST API at api.alice.io: ActiveFamily (ActiveScore automated det…'
   api_count: 2
   score_band: developing
-  score_composite: 51.7
+  score_composite: 53.4
   shared: 6
 - slug: gray-swan
   name: Gray Swan
   description: Gray Swan AI is an AI security company that helps enterprises deploy AI with confidence. Its Cygnal product is a real-time, drop-in secure proxy that fronts LLM providers (OpenAI, Anthropic, and Gemini request formats) with input/output fi…
   api_count: 1
   score_band: developing
-  score_composite: 41.8
+  score_composite: 44.8
   shared: 4
 - slug: lakera
   name: Lakera
   description: Lakera is an AI security company building runtime defenses for generative AI applications. Its flagship Lakera Guard API screens prompts and responses for prompt injection, jailbreaks, PII leakage, unsafe content, and policy violations, wh…
   api_count: 1
   score_band: thin
-  score_composite: 36.0
+  score_composite: 39.1
   shared: 4
 - slug: silmaril
   name: Silmaril
@@ -118,14 +118,14 @@ providers:
   description: 'Vijil is an AI agent trust platform (Mayfield-backed, ~$23M raised) that helps enterprises make AI agents reliable, secure, and safe for production. Its Console API and CLI span four products across the agent lifecycle: Diamond (pre-deploy…'
   api_count: 1
   score_band: strong
-  score_composite: 56.5
+  score_composite: 58.2
   shared: 3
 - slug: alice
   name: Alice
   description: Alice (formerly ActiveFence) is an enterprise AI security, safety, and trust platform for the GenAI era. Its WonderSuite platform stress-tests, guards, and monitors AI models, applications, and agents against jailbreaks, prompt injection,…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 45.5
   shared: 3
 - slug: trojai
   name: TrojAI
@@ -160,42 +160,42 @@ providers:
   description: 'Airia (Airia LLC, Atlanta) is an enterprise AI orchestration, security and governance platform: a no-code/low-code/pro-code agent builder, a model routing and cost gateway, an MCP Gateway that fronts 1,000+ app connectors and turns hosted…'
   api_count: 1
   score_band: strong
-  score_composite: 64.0
+  score_composite: 65.7
   shared: 2
 - slug: fiddler-labs
   name: Fiddler Labs
   description: Fiddler Labs (Fiddler AI) is an enterprise AI Observability and Security platform that provides unified visibility, context, and control across AI agents, LLM and GenAI applications, and traditional ML models. The Fiddler platform delivers…
   api_count: 1
   score_band: strong
-  score_composite: 54.9
+  score_composite: 62.8
   shared: 2
 - slug: fiddlerai
   name: fiddler.ai
   description: Fiddler AI is an enterprise AI Observability and Security platform — an "AI Control Plane" for AI agents, LLM applications, and traditional ML models. It delivers unified monitoring, real-time guardrails (safety, hallucination/faithfulness…
   api_count: 1
-  score_band: developing
-  score_composite: 53.7
+  score_band: strong
+  score_composite: 55.3
+  shared: 2
+- slug: trustboost-dev
+  name: TrustBoost PII Sanitizer
+  description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.6
   shared: 2
 - slug: patronus-protect
   name: Patronus Protect
   description: Patronus Protect, from Casdo Labs GmbH, is an on-device AI firewall that detects prompt injection, PII/DLP, sensitive documents and agentic tool risk in text, public HTTPS webpages, documents and MCP servers before they are used by AI agen…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
-  shared: 2
-- slug: trustboost-dev
-  name: TrustBoost PII Sanitizer
-  description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.2
+  score_composite: 50.4
   shared: 2
 - slug: agentcheck-care
   name: AgentCheck
   description: 'AgentCheck is an AI-agent diagnostic service at agentcheck.care: give it the URL of a bot - an A2A agent or an OpenAI-compatible chat endpoint - and it runs synthetic-persona conversations, OWASP LLM Top 10 prompt-injection tests, PII-leak…'
   api_count: 2
   score_band: developing
-  score_composite: 41.1
+  score_composite: 45.3
   shared: 2
 - slug: promptfoo
   name: Promptfoo
@@ -203,6 +203,20 @@ providers:
   api_count: 6
   score_band: thin
   score_composite: 36.3
+  shared: 2
+- slug: lasso-security
+  name: Lasso Security
+  description: Lasso Security is a GenAI security platform that protects every LLM and AI agent touchpoint. Its Deputy gateway inspects LLM and MCP traffic in real time, and the Classify / Threat Detection API scores prompts and completions for prompt in…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.9
+  shared: 2
+- slug: aihcc-cloud
+  name: AIHCC
+  description: AIHCC, operated by Shenzhen LianShi Technology Co., Ltd., provides AI safety infrastructure for agents, offering hallucination detection, prompt injection protection, and full‑chain audit tools. Their platform includes products like Halluc…
+  api_count: 2
+  score_band: thin
+  score_composite: 27.1
   shared: 2
 - slug: impart-security
   name: Impart Security
@@ -225,13 +239,6 @@ providers:
   score_band: emerging
   score_composite: 22.2
   shared: 2
-- slug: lasso-security
-  name: Lasso Security
-  description: Lasso Security is a GenAI security platform that protects every LLM and AI agent touchpoint. Its Deputy gateway inspects LLM and MCP traffic in real time, and the Classify / Threat Detection API scores prompts and completions for prompt in…
-  api_count: 1
-  score_band: emerging
-  score_composite: 21.5
-  shared: 2
 - slug: straiker
   name: Straiker
   description: Straiker is an AI-native security company for agentic AI, founded by security veterans from Palo Alto Networks. It protects every layer of AI agent deployments from prompts to infrastructure with a closed-loop system that pairs autonomous…
@@ -243,8 +250,8 @@ providers:
   name: Apex (Apex Security)
   description: Apex Security was an AI security startup founded in 2023 in Tel Aviv by Matan Derman (CEO) and Tomer Avni (CPO), backed by Sequoia Capital, Index Ventures and angel investors including Sam Altman. Its platform gave enterprises visibility i…
   api_count: 0
-  score_band: emerging
-  score_composite: 11.0
+  score_band: minimal
+  score_composite: 9.9
   shared: 2
 - slug: alinia-ai
   name: Alinia Ai

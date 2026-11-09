@@ -36,7 +36,7 @@ links:
   url: https://github.com/api-evangelist/http/blob/main/json-schema/http-problem-details.json
 - type: Rules
   url: https://github.com/api-evangelist/http/blob/main/rules/http-rules.yml
-provider_count: 6
+provider_count: 5
 providers:
 - slug: w3c
   name: W3C
@@ -63,21 +63,14 @@ providers:
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.3
+  score_band: null
+  score_composite: 0
   shared: 2
 - slug: messaging-protocol
   name: Messaging Protocol
   description: Messaging Protocol is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. Examples include AMQP, MQTT, STOMP, and other protocols that enable reliable, effic…
   api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: dns
-  name: DNS
-  description: DNS (Domain Name System) is the distributed naming system that translates human-readable domain names (like example.com) into the numerical IP addresses computers use to communicate. It functions as the internet's phone book, enabling user…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.4
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

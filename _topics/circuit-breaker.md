@@ -31,14 +31,14 @@ links:
   url: https://github.com/api-evangelist/circuit-breaker/blob/main/json-schema/circuit-breaker-state-schema.json
 - type: JSONSchema
   url: https://github.com/api-evangelist/circuit-breaker/blob/main/json-schema/circuit-breaker-config-schema.json
-provider_count: 24
+provider_count: 18
 providers:
 - slug: resilience4j
   name: Resilience4j
   description: Resilience4j is a lightweight fault tolerance library designed for Java 17+ and functional programming, providing higher-order functions to enhance functional interfaces with Circuit Breaker, Rate Limiter, Retry, Bulkhead, TimeLimiter, and…
   api_count: 1
   score_band: emerging
-  score_composite: 20.7
+  score_composite: 22.8
   shared: 4
 - slug: netflix-hystrix
   name: Netflix Hystrix
@@ -61,26 +61,26 @@ providers:
   score_band: emerging
   score_composite: 23.4
   shared: 3
-- slug: microservices
-  name: Microservices
-  description: An index of microservices architecture frameworks, service discovery, resilience, messaging, workflow orchestration, and distributed systems tooling repositories.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 3
+- slug: microsoft-azure-service-fabric
+  name: Azure Service Fabric
+  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
+  api_count: 4
+  score_band: strong
+  score_composite: 65.9
+  shared: 2
 - slug: amazon-sqs
   name: Amazon SQS
   description: Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
   api_count: 1
   score_band: strong
-  score_composite: 57.2
+  score_composite: 59.8
   shared: 2
 - slug: zeebe
   name: Zeebe
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 48.4
+  score_composite: 53.2
   shared: 2
 - slug: apollo-config
   name: Apollo Config
@@ -88,13 +88,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 44.4
-  shared: 2
-- slug: microsoft-azure-service-fabric
-  name: Azure Service Fabric
-  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.7
   shared: 2
 - slug: dapr
   name: Dapr
@@ -165,40 +158,5 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 11.0
-  shared: 2
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
-- slug: microservice-architecture
-  name: Microservice Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services organized around business capabilities. Widely used by developers to build, maintain, and scale software applicatio…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: microservice-design
-  name: Microservice Design
-  description: Architectural approach for building applications as a collection of loosely coupled, independently deployable services that are organized around business capabilities. Covers principles, patterns, and best practices for designing effective…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: microservices-architecture
-  name: Microservices Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services, each running in its own process and communicating through lightweight mechanisms like HTTP/REST APIs. Widely used…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 2
-- slug: microservices-design-patterns
-  name: Microservices Design Patterns
-  description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
   shared: 2
 ---

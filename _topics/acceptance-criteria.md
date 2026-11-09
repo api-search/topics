@@ -94,7 +94,7 @@ links:
   url: https://github.com/api-evangelist/acceptance-criteria/blob/main/examples/acceptance-criteria-management-scenario-example.json
 - type: Examples
   url: https://github.com/api-evangelist/acceptance-criteria/blob/main/examples/acceptance-criteria-management-test-run-example.json
-provider_count: 32
+provider_count: 31
 providers:
 - slug: cucumber
   name: Cucumber
@@ -103,47 +103,75 @@ providers:
   score_band: thin
   score_composite: 26.8
   shared: 4
-- slug: coval
-  name: Coval
-  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Cova…
-  api_count: 20
+- slug: kubeshop
+  name: Kubeshop
+  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
+  api_count: 3
   score_band: strong
-  score_composite: 57.5
-  shared: 2
-- slug: opkey
-  name: Opkey
-  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.3
+  score_composite: 62.8
   shared: 2
 - slug: testfairy
   name: TestFairy
   description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs,…
   api_count: 1
   score_band: strong
-  score_composite: 54.3
+  score_composite: 62.2
   shared: 2
-- slug: kubeshop
-  name: Kubeshop
-  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.9
+- slug: coval
+  name: Coval
+  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Cova…
+  api_count: 20
+  score_band: strong
+  score_composite: 60.8
+  shared: 2
+- slug: opkey
+  name: Opkey
+  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.6
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
   api_count: 1
+  score_band: strong
+  score_composite: 56.7
+  shared: 2
+- slug: rainforest-qa
+  name: Rainforest QA
+  description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
+  api_count: 1
   score_band: developing
-  score_composite: 52.1
+  score_composite: 53.8
   shared: 2
 - slug: replay
   name: Replay
   description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
+  score_composite: 52.8
+  shared: 2
+- slug: automation-preflight-api
+  name: Automation Preflight API
+  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.1
+  shared: 2
+- slug: assertible
+  name: Assertible
+  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body cont…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.9
+  shared: 2
+- slug: testim-io
+  name: Testim
+  description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.6
   shared: 2
 - slug: panaya
   name: Panaya
@@ -152,40 +180,19 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 2
-- slug: automation-preflight-api
-  name: Automation Preflight API
-  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.3
-  shared: 2
-- slug: rainforest-qa
-  name: Rainforest QA
-  description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.8
-  shared: 2
-- slug: assertible
-  name: Assertible
-  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body cont…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.7
-  shared: 2
 - slug: aha
   name: Aha.io
   description: Aha! is a product development suite that combines roadmapping, idea management, requirements specification, whiteboarding, knowledge bases, and development tracking into a single platform for product teams. The suite spans Aha! Roadmaps, A…
   api_count: 1
   score_band: developing
-  score_composite: 40.8
+  score_composite: 44.7
   shared: 2
-- slug: testim-io
-  name: Testim
-  description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
+- slug: selenium
+  name: Selenium
+  description: Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves,…
   api_count: 1
   score_band: developing
-  score_composite: 40.3
+  score_composite: 39.7
   shared: 2
 - slug: sauce-labs
   name: Sauce Labs
@@ -193,13 +200,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 38.4
-  shared: 2
-- slug: selenium
-  name: Selenium
-  description: Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves,…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.1
   shared: 2
 - slug: cypressio
   name: Cypress.io
@@ -220,14 +220,14 @@ providers:
   description: Testiny is a modern test management platform for QA teams that keeps manual and automated test cases, test plans, test runs, and results in a single place, with reporting and integrations for Jira, GitLab, and GitHub. Everything in the pro…
   api_count: 1
   score_band: thin
-  score_composite: 28.0
+  score_composite: 29.6
   shared: 2
 - slug: qase
   name: Qase
   description: Qase is a cloud test management platform (TestOps) for QA and engineering teams to author test cases, organize them into suites and plans, launch and complete test runs, publish automated results from CI pipelines, and track defects. The Q…
   api_count: 1
-  score_band: emerging
-  score_composite: 24.0
+  score_band: thin
+  score_composite: 27.0
   shared: 2
 - slug: headspin
   name: HeadSpin
@@ -264,6 +264,13 @@ providers:
   score_band: emerging
   score_composite: 17.5
   shared: 2
+- slug: simantic
+  name: Simantic
+  description: Simantic builds simulated hardware for embedded QA, modernizing embedded firmware development through hardware simulation designed for AI adoption in hardware engineering. Its platform emulates microcontroller (MCU) systems so engineers ca…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.9
+  shared: 2
 - slug: muuktest
   name: Muuktest
   description: MuukTest (MuukLabs) is an AI-powered test automation and managed QA services company founded in 2019 that helps software teams reach high end-to-end test coverage in weeks rather than months. It blends an AI-driven automation platform with…
@@ -285,13 +292,6 @@ providers:
   score_band: emerging
   score_composite: 14.6
   shared: 2
-- slug: user-stories
-  name: User Stories
-  description: A curated collection of API user stories following agile methodology formats. User stories capture software requirements from the end-user perspective using the format "As a [user], I want [goal], so that [benefit]". This repository indexe…
-  api_count: 0
-  score_band: emerging
-  score_composite: 13.7
-  shared: 2
 - slug: canary
   name: Canary
   description: Canary is an AI QA engineer that reads your source code to understand developer intent. Push a pull request and Canary reads the diff, understands the intent, and runs feature and regression tests against your preview app across real brows…
@@ -299,11 +299,11 @@ providers:
   score_band: minimal
   score_composite: 5.3
   shared: 2
-- slug: simantic
-  name: Simantic
-  description: Simantic builds simulated hardware for embedded QA, modernizing embedded firmware development through hardware simulation designed for AI adoption in hardware engineering. Its platform emulates microcontroller (MCU) systems so engineers ca…
+- slug: appurify
+  name: Appurify
+  description: Appurify was a mobile app and website testing platform that let developers automate testing and optimization of native and web apps on real iOS and Android devices across OS versions and simulated network conditions. Founded and backed by…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 0
   shared: 2
 ---

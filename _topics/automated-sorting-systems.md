@@ -97,7 +97,7 @@ links:
   url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/llms/automated-sorting-systems-llms.txt
 - type: AgentSkill
   url: https://github.com/api-evangelist/automated-sorting-systems/blob/main/skills/_index.yml
-provider_count: 86
+provider_count: 93
 providers:
 - slug: tutor-intelligence
   name: Tutor Intelligence
@@ -174,25 +174,32 @@ providers:
   description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
   api_count: 2
   score_band: strong
-  score_composite: 61.5
+  score_composite: 63.2
   shared: 2
 - slug: la-poste-groupe
   name: La Poste Groupe
   description: 'La Poste Groupe is the French state-owned postal, parcel, banking and digital services group. Its public API programme runs on Okapi, the group''s own API management platform, published at developer.laposte.fr: nine APIs covering shipment t…'
   api_count: 4
   score_band: strong
-  score_composite: 60.5
+  score_composite: 62.1
   shared: 2
 - slug: augment
   name: Augment
   description: Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace…
   api_count: 1
   score_band: strong
-  score_composite: 59.1
+  score_composite: 60.3
   shared: 2
 - slug: veho
   name: Veho
   description: Veho is a US last-mile delivery and returns carrier built for e-commerce brands, pairing a crowdsourced driver network with purpose-built logistics software. The Veho API (Version 2) is a REST/JSON API for shippers and 3PLs to create deliv…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.8
+  shared: 2
+- slug: karrio
+  name: Karrio
+  description: Karrio is an open-source, headless multi-carrier shipping platform for developers and logistics teams. Its unified REST API and GraphQL management API abstract more than thirty carrier integrations behind one resource-oriented interface co…
   api_count: 1
   score_band: strong
   score_composite: 56.1
@@ -201,36 +208,43 @@ providers:
   name: Kargo
   description: Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves th…
   api_count: 3
-  score_band: developing
-  score_composite: 54.0
+  score_band: strong
+  score_composite: 55.3
   shared: 2
-- slug: karrio
-  name: Karrio
-  description: Karrio is an open-source, headless multi-carrier shipping platform for developers and logistics teams. Its unified REST API and GraphQL management API abstract more than thirty carrier integrations behind one resource-oriented interface co…
-  api_count: 1
+- slug: loadsmart
+  name: Loadsmart
+  description: Loadsmart is a digital freight technology company and 4PL that connects shippers, carriers, warehouses, and dock operations on a single platform. Founded in 2014 by Felipe Capella and Ricardo Salgado and headquartered in Chicago (with sign…
+  api_count: 3
   score_band: developing
-  score_composite: 52.2
+  score_composite: 53.0
   shared: 2
 - slug: nabis
   name: Nabis
   description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace…
   api_count: 3
   score_band: developing
-  score_composite: 50.0
+  score_composite: 51.7
   shared: 2
 - slug: packagex
   name: PackageX
   description: PackageX provides vision-AI powered logistics execution — software that turns any camera or device into an intelligent scanning agent to automate receiving, inventory management, fulfillment and dispatch across warehouses, retail and build…
   api_count: 1
   score_band: developing
-  score_composite: 47.6
+  score_composite: 50.6
   shared: 2
-- slug: shipsy
-  name: Shipsy
-  description: Shipsy provides an AI‑native logistics platform offering Transportation Management System (TMS) and Warehouse Management System (WMS) capabilities. The cloud‑based solution automates shipment planning, carrier selection, real‑time tracking…
+- slug: sendar-app
+  name: sendar-app
+  description: Sendar App provides a platform for managing and automating delivery logistics, offering APIs that enable businesses to integrate shipment tracking, route optimization, and real-time notifications into their applications. The service focuse…
+  api_count: 2
+  score_band: developing
+  score_composite: 41.0
+  shared: 2
+- slug: instock
+  name: Instock
+  description: Instock is a robotics company delivering a goods-to-person automated storage and retrieval system (ASRS) as a fulfillment robotics-as-a-service (RaaS) offering. The system pairs a static "Grid" racking framework, stackable "Bins", and auto…
   api_count: 1
   score_band: developing
-  score_composite: 44.1
+  score_composite: 40.1
   shared: 2
 - slug: dexterity
   name: Dexterity
@@ -239,33 +253,26 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 2
-- slug: brokergenius
-  name: Brokergenius
-  description: Broker Genius provides AI‑powered customs brokerage automation for brokers, freight forwarders, and trade teams. The platform reads invoices, classifies line items, assigns HS codes, and generates ASYCUDA‑compatible declarations, reducing…
-  api_count: 3
-  score_band: thin
-  score_composite: 36.9
-  shared: 2
-- slug: instock
-  name: Instock
-  description: Instock is a robotics company delivering a goods-to-person automated storage and retrieval system (ASRS) as a fulfillment robotics-as-a-service (RaaS) offering. The system pairs a static "Grid" racking framework, stackable "Bins", and auto…
+- slug: shipsy
+  name: Shipsy
+  description: Shipsy provides an AI‑native logistics platform offering Transportation Management System (TMS) and Warehouse Management System (WMS) capabilities. The cloud‑based solution automates shipment planning, carrier selection, real‑time tracking…
   api_count: 1
   score_band: thin
   score_composite: 35.8
-  shared: 2
-- slug: loadsmart
-  name: Loadsmart
-  description: Loadsmart is a digital freight technology company and 4PL that connects shippers, carriers, warehouses, and dock operations on a single platform. Founded in 2014 by Felipe Capella and Ricardo Salgado and headquartered in Chicago (with sign…
-  api_count: 2
-  score_band: thin
-  score_composite: 34.8
   shared: 2
 - slug: usps
   name: United States Postal Service
   description: The United States Postal Service (USPS) provides a modern REST API platform at developers.usps.com that gives ecommerce websites, shipping software, and logistics systems access to postal data and services. APIs cover address validation, p…
   api_count: 4
   score_band: thin
-  score_composite: 33.8
+  score_composite: 33.2
+  shared: 2
+- slug: transload
+  name: Transload
+  description: Transload (YC Spring 2026) measures freight with security cameras, turning the CCTV already installed in logistics warehouses into a 3D dimensioner for the loading dock. Its computer vision captures the true size of every pallet, couch, or…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.2
   shared: 2
 - slug: 17track
   name: 17TRACK
@@ -274,39 +281,32 @@ providers:
   score_band: thin
   score_composite: 32.0
   shared: 2
-- slug: transload
-  name: Transload
-  description: Transload (YC Spring 2026) measures freight with security cameras, turning the CCTV already installed in logistics warehouses into a 3D dimensioner for the loading dock. Its computer vision captures the true size of every pallet, couch, or…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.6
-  shared: 2
-- slug: spark-shipping
-  name: Spark Shipping
-  description: Spark Shipping provides an eCommerce dropshipping automation platform that enables merchants to import products with one click, synchronize inventory across multiple vendors, automate pricing, route orders intelligently, and receive tracki…
-  api_count: 1
-  score_band: thin
-  score_composite: 29.9
-  shared: 2
 - slug: parcelsapp
   name: Parcels App
   description: Parcels App (parcelsapp.com) is a universal parcel tracking service that tracks packages, air cargo (AWB), road freight (LTL/FTL), and sea freight across 1,540 postal operators, couriers, and logistics carriers worldwide - USPS, UPS, FedEx…
   api_count: 1
   score_band: thin
-  score_composite: 28.6
+  score_composite: 30.2
+  shared: 2
+- slug: cerebrochain-com
+  name: CerebroChain
+  description: CerebroChain provides an operator‑grade Warehouse Management System (WMS) and logistics platform built on eight operational hubs, Cerebrix AI, and a Claude connector. It offers features like inventory, inbound/outbound, fleet routing, repo…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.9
+  shared: 2
+- slug: brokergenius
+  name: Brokergenius
+  description: Broker Genius provides AI‑powered customs brokerage automation for brokers, freight forwarders, and trade teams. The platform reads invoices, classifies line items, assigns HS codes, and generates ASYCUDA‑compatible declarations, reducing…
+  api_count: 3
+  score_band: thin
+  score_composite: 28.2
   shared: 2
 - slug: graybar-electric
   name: Graybar Electric
   description: Graybar Electric Company is an employee-owned Fortune 500 distributor of electrical, communications, and data networking products and a provider of related supply chain management and logistics services. Graybar serves contractors, industr…
   api_count: 1
   score_band: emerging
-  score_composite: 25.1
-  shared: 2
-- slug: locus-robotics
-  name: Locus Robotics
-  description: Locus Robotics is a warehouse-automation company that pairs autonomous mobile robots (AMRs) with an intelligent orchestration platform. Its robot line — Locus Array (Robots-to-Goods), Locus Origin, and Locus Vector — works alongside the Lo…
-  api_count: 0
-  score_band: emerging
-  score_composite: 19.7
+  score_composite: 24.0
   shared: 2
 ---

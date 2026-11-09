@@ -19,14 +19,14 @@ providers:
   name: Artie
   description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, M…
   api_count: 1
-  score_band: developing
-  score_composite: 48.4
+  score_band: strong
+  score_composite: 59.9
   shared: 2
 - slug: yunqi
   name: Yunqi (ClickZetta / Singdata Lakehouse)
   description: Yunqi (云器科技, English brands ClickZetta and Singdata) is a cloud-native AI Lakehouse company that unifies structured, semi-structured, and unstructured data on Apache Iceberg behind a single vectorized SQL engine. Its proprietary Generic In…
-  api_count: 0
-  score_band: thin
-  score_composite: 32.0
+  api_count: 1
+  score_band: developing
+  score_composite: 45.6
   shared: 2
 ---

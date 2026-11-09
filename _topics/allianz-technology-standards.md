@@ -68,7 +68,7 @@ links:
   url: https://github.com/api-evangelist/allianz-technology-standards/blob/main/errors/allianz-technology-standards-problem-types.yml
 - type: Lifecycle
   url: https://github.com/api-evangelist/allianz-technology-standards/blob/main/lifecycle/allianz-technology-standards-lifecycle.yml
-provider_count: 22
+provider_count: 20
 providers:
 - slug: apigovernance-dev
   name: APIGovernance.Dev
@@ -82,42 +82,42 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 76.3
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_band: exemplar
+  score_composite: 69.0
   shared: 2
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
+  score_composite: 52.3
   shared: 2
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
   api_count: 2
   score_band: developing
-  score_composite: 48.5
+  score_composite: 46.8
   shared: 2
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
   shared: 2
 - slug: zally
   name: Zally
@@ -138,14 +138,14 @@ providers:
   description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 32.5
   shared: 2
 - slug: typespec
   name: TypeSpec
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
   shared: 2
 - slug: api-fiddle
   name: API-Fiddle
@@ -209,19 +209,5 @@ providers:
   api_count: 1
   score_band: minimal
   score_composite: 9.8
-  shared: 2
-- slug: secure-by-design
-  name: Secure-By-Design
-  description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.1
-  shared: 2
-- slug: security-by-design
-  name: Security by Design
-  description: A software development approach that integrates security considerations and practices from the initial design phase through the entire development lifecycle, rather than adding security as an afterthought. It plays a critical role in prote…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.8
   shared: 2
 ---

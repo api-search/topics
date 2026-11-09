@@ -61,49 +61,49 @@ links:
   url: https://github.com/api-evangelist/templates/blob/main/json-schema/templates-template-schema.json
 - type: Vocabulary
   url: https://github.com/api-evangelist/templates/blob/main/vocabulary/templates-vocabulary.yml
-provider_count: 110
+provider_count: 119
 providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
-  shared: 4
+  score_composite: 76.3
+  shared: 5
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification fo…
   api_count: 5
   score_band: strong
-  score_composite: 61.6
+  score_composite: 63.2
   shared: 4
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 60.1
   shared: 4
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
   api_count: 2
   score_band: developing
-  score_composite: 48.5
+  score_composite: 46.8
   shared: 4
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
   shared: 4
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 43.0
   shared: 4
 - slug: ogen
   name: Ogen
@@ -117,7 +117,7 @@ providers:
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
   shared: 4
 - slug: api-fiddle
   name: API-Fiddle
@@ -140,54 +140,54 @@ providers:
   score_band: emerging
   score_composite: 15.3
   shared: 4
-- slug: scalar
-  name: Scalar
-  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rule…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 70.3
-  shared: 3
 - slug: archbee
   name: Archbee
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
   api_count: 11
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 69.8
   shared: 3
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_band: exemplar
+  score_composite: 69.0
+  shared: 3
+- slug: scalar
+  name: Scalar
+  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rule…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.5
   shared: 3
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
   api_count: 1
-  score_band: developing
-  score_composite: 52.9
-  shared: 3
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_band: strong
+  score_composite: 58.0
   shared: 3
 - slug: stainless
   name: Stainless
   description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic,…
   api_count: 2
   score_band: developing
-  score_composite: 49.5
+  score_composite: 53.5
+  shared: 3
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.3
   shared: 3
 - slug: liblab
   name: Liblab
   description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted p…
   api_count: 13
   score_band: developing
-  score_composite: 46.1
+  score_composite: 47.9
   shared: 3
 - slug: kiota
   name: Kiota
@@ -200,8 +200,8 @@ providers:
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
-  score_band: thin
-  score_composite: 38.1
+  score_band: developing
+  score_composite: 39.7
   shared: 3
 - slug: orval
   name: Orval
@@ -217,12 +217,12 @@ providers:
   score_band: thin
   score_composite: 34.7
   shared: 3
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
+- slug: apicurio
+  name: Apicurio
+  description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
   api_count: 1
   score_band: thin
-  score_composite: 34.2
+  score_composite: 32.5
   shared: 3
 - slug: oapi-codegen
   name: Oapi-Codegen
@@ -231,12 +231,12 @@ providers:
   score_band: thin
   score_composite: 31.5
   shared: 3
-- slug: apicurio
-  name: Apicurio
-  description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 29.2
   shared: 3
 - slug: elements
   name: Stoplight Elements
@@ -250,7 +250,7 @@ providers:
   description: OpenAPI TypeScript Codegen is an MIT-licensed Node.js library and CLI by Ferdi Koomen that reads an OpenAPI 2.0 or 3.0 specification — JSON or YAML, from a path, URL, or string — and generates a lightweight, fully typed TypeScript client.…
   api_count: 1
   score_band: thin
-  score_composite: 27.5
+  score_composite: 26.5
   shared: 3
 - slug: redoc
   name: ReDoc

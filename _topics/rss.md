@@ -66,7 +66,7 @@ providers:
   description: The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona.…
   api_count: 37
   score_band: strong
-  score_composite: 54.3
+  score_composite: 56.0
   shared: 2
 - slug: acord
   name: ACORD
@@ -80,14 +80,14 @@ providers:
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.3
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
+  score_composite: 46.4
   shared: 2
 - slug: meredith
   name: Dotdash Meredith / People Inc
@@ -96,26 +96,33 @@ providers:
   score_band: developing
   score_composite: 41.5
   shared: 2
-- slug: rss-app
-  name: RSS.app
-  description: RSS.app provides a no‑code platform that lets users generate RSS feeds from any website or social media source, create embeddable widgets, and automate content distribution via bots to Discord, Slack, Telegram, and email. It offers a suite…
-  api_count: 3
-  score_band: developing
-  score_composite: 39.9
-  shared: 2
 - slug: vice-media
   name: Vice Media
   description: Vice Media is the Brooklyn, New York youth-culture and news media company founded in 1994 in Montreal by Suroosh Alvi, Shane Smith and Gavin McInnes, which grew from the VICE magazine into a global multi-platform publisher, film and televi…
   api_count: 6
   score_band: thin
-  score_composite: 36.6
+  score_composite: 37.3
   shared: 2
 - slug: newsblur
   name: NewsBlur
   description: NewsBlur is a personal news reader that brings people together to talk about the world. It is an RSS/Atom feed aggregator with training-based intelligence (hide or highlight stories per feed), original-site and original-text views, saved (…
   api_count: 1
   score_band: thin
-  score_composite: 35.2
+  score_composite: 36.9
+  shared: 2
+- slug: rss-app
+  name: RSS.app
+  description: RSS.app provides a no‑code platform that lets users generate RSS feeds from any website or social media source, create embeddable widgets, and automate content distribution via bots to Discord, Slack, Telegram, and email. It offers a suite…
+  api_count: 3
+  score_band: thin
+  score_composite: 30.5
+  shared: 2
+- slug: openehr
+  name: openEHR
+  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
+  api_count: 7
+  score_band: thin
+  score_composite: 30.0
   shared: 2
 - slug: aousd
   name: Alliance for OpenUSD
@@ -123,13 +130,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 28.3
-  shared: 2
-- slug: openehr
-  name: openEHR
-  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 7
-  score_band: thin
-  score_composite: 28.1
   shared: 2
 - slug: apis-json
   name: APIs.json
@@ -142,8 +142,8 @@ providers:
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked s…
   api_count: 1
-  score_band: emerging
-  score_composite: 23.6
+  score_band: thin
+  score_composite: 26.4
   shared: 2
 - slug: cbs
   name: CBS (Paramount Global)
@@ -157,7 +157,7 @@ providers:
   description: The Federal Accounting Standards Advisory Board (FASAB) is the U.S. federal advisory body designated to set generally accepted accounting principles for the federal government and its component reporting entities. FASAB issues Statements o…
   api_count: 1
   score_band: emerging
-  score_composite: 21.2
+  score_composite: 21.9
   shared: 2
 - slug: wired
   name: Wired
@@ -171,7 +171,7 @@ providers:
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
   api_count: 23
   score_band: emerging
-  score_composite: 18.3
+  score_composite: 20.0
   shared: 2
 - slug: hackernoon
   name: Hackernoon

@@ -28,14 +28,14 @@ links:
   url: https://www.iso.org/committee/45342.html
 - type: Rules
   url: https://github.com/api-evangelist/graph-query-language-gql/blob/main/graph-query-language-gql-rules.yml
-provider_count: 10
+provider_count: 9
 providers:
 - slug: amazon-neptune
   name: Amazon Neptune
   description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages in…
   api_count: 9
   score_band: exemplar
-  score_composite: 66.9
+  score_composite: 68.5
   shared: 3
 - slug: sql
   name: SQL
@@ -49,21 +49,21 @@ providers:
   description: Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScri…
   api_count: 2
   score_band: strong
-  score_composite: 59.8
+  score_composite: 60.1
   shared: 2
 - slug: arangodb
   name: ArangoDB
   description: ArangoDB (now operating as Arango) is the company behind the open-source, graph-native multi-model database of the same name, which unifies graph, document, key/value, vector and full-text search in a single core with one declarative query…
   api_count: 1
-  score_band: developing
-  score_composite: 52.7
+  score_band: strong
+  score_composite: 54.4
   shared: 2
 - slug: ehrbase
   name: EHRbase
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.7
   shared: 2
 - slug: gel-data
   name: Gel Data
@@ -77,7 +77,7 @@ providers:
   description: SurrealDB is a multi-model database that unifies documents, graphs, vectors, time-series, full-text search, and relational data within a single ACID transaction framework. It exposes a native HTTP REST API and supports SurrealQL, a powerfu…
   api_count: 2
   score_band: thin
-  score_composite: 29.6
+  score_composite: 36.1
   shared: 2
 - slug: edgedb
   name: EdgeDB
@@ -85,13 +85,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 26.5
-  shared: 2
-- slug: database
-  name: Database
-  description: An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value, wide-column, ve…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
   shared: 2
 - slug: opencypher
   name: openCypher

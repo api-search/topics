@@ -13,14 +13,21 @@ repo: https://github.com/api-evangelist/capital-requirements
 api_count: 0
 apis: []
 links: []
-provider_count: 3
+provider_count: 5
 providers:
 - slug: finra
   name: FINRA
   description: The Financial Industry Regulatory Authority (FINRA) is a regulatory organization that oversees and regulates the securities industry in the United States. The FINRA Developer Center exposes Query, Notification, and Submission APIs for acce…
   api_count: 6
   score_band: thin
-  score_composite: 34.1
+  score_composite: 35.8
+  shared: 2
+- slug: bindler-co
+  name: Bindler
+  description: Bindler provides Excel workbooks, decks and datasets covering regulations such as the EU AI Act, CSRD, CBAM, IFRS S2, UAE tax and e‑invoicing, plus startup and project finance models. These tools help small companies comply by offering liv…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.4
   shared: 2
 - slug: farm-credit-administration
   name: Farm Credit Administration
@@ -28,6 +35,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 21.8
+  shared: 2
+- slug: amfi-india
+  name: AMFI India
+  description: The Association of Mutual Funds in India (AMFI) is the industry standards body representing the mutual fund sector in India. It provides research, data, regulatory guidance, and resources for investors, distributors, and fund houses, inclu…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.7
   shared: 2
 - slug: finansinspektionen
   name: Finansinspektionen

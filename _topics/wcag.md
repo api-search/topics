@@ -63,8 +63,8 @@ providers:
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
   api_count: 1
-  score_band: developing
-  score_composite: 52.1
+  score_band: strong
+  score_composite: 56.7
   shared: 2
 - slug: stark
   name: Stark
@@ -87,18 +87,18 @@ providers:
   score_band: minimal
   score_composite: 6.7
   shared: 2
-- slug: html
-  name: HTML
-  description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.9
-  shared: 2
 - slug: user1st
   name: User1st
   description: User1st is a web and mobile digital accessibility company whose U1 Suite gives organizations an efficient path to WCAG, ADA, and European Accessibility Act (EAA) compliance. It provides accessibility toolkits and remediation across web fra…
   api_count: 0
   score_band: minimal
   score_composite: 4.6
+  shared: 2
+- slug: html
+  name: HTML
+  description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
+  api_count: 0
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

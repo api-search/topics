@@ -27,14 +27,14 @@ links:
   url: https://swagger.io/blog/code-first-vs-design-first-api/
 - type: Specification
   url: https://spec.openapis.org/
-provider_count: 6
+provider_count: 7
 providers:
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
   shared: 2
 - slug: ogen
   name: Ogen
@@ -55,7 +55,7 @@ providers:
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
   shared: 2
 - slug: smithy
   name: Smithy
@@ -63,6 +63,13 @@ providers:
   api_count: 2
   score_band: emerging
   score_composite: 25.1
+  shared: 2
+- slug: structura-tools
+  name: Structura
+  description: Structura is a web-based visual domain modeling and code generation tool built by Metadev (metadev.pro). Architecture teams and software factories design class/domain models graphically or textually, refine them with the Zeus voice/text AI…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.7
   shared: 2
 - slug: design-patterns
   name: Design Patterns

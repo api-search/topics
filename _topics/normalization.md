@@ -23,36 +23,36 @@ providers:
   name: Acceldata
   description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively det…
   api_count: 3
-  score_band: strong
-  score_composite: 63.5
+  score_band: exemplar
+  score_composite: 68.4
   shared: 2
 - slug: microsoft-sql-server
   name: Microsoft SQL Server
-  description: A relational database management system developed by Microsoft for enterprise-scale data management and business intelligence solutions.
-  api_count: 30
-  score_band: strong
-  score_composite: 61.3
+  description: Microsoft SQL Server is Microsoft's relational database management system for enterprise data management, analytics and business intelligence. Its programmable surfaces span client drivers (ADO.NET, JDBC, ODBC, OLE DB, Python, Node.js), SM…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 66.7
   shared: 2
 - slug: tiledb
   name: TileDB
   description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
   api_count: 4
   score_band: strong
-  score_composite: 55.1
+  score_composite: 59.2
   shared: 2
 - slug: teradata
   name: Teradata
   description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
   api_count: 1
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.1
   shared: 2
 - slug: delphix
   name: Delphix
   description: Delphix, now part of Perforce Software, is a DevOps data platform for test data management, data virtualization, and data compliance. Its core products are Continuous Data (fast, space-efficient virtual database provisioning, refresh, book…
   api_count: 2
   score_band: developing
-  score_composite: 47.4
+  score_composite: 49.0
   shared: 2
 - slug: grist
   name: Grist

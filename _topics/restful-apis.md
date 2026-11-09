@@ -39,7 +39,7 @@ links:
   url: https://swagger.io/tools/
 - type: Postman REST Client
   url: https://www.postman.com/
-provider_count: 35
+provider_count: 37
 providers:
 - slug: rest
   name: REST
@@ -52,8 +52,8 @@ providers:
   name: RESTful Services
   description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
   api_count: 5
-  score_band: emerging
-  score_composite: 15.4
+  score_band: null
+  score_composite: 0
   shared: 4
 - slug: restful
   name: RESTful
@@ -67,42 +67,49 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
-  shared: 2
-- slug: 0xarchive
-  name: 0xArchive
-  description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.7
-  shared: 2
-- slug: cvent-event-cloud
-  name: Cvent Event Cloud
-  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hyb…'
-  api_count: 2
-  score_band: exemplar
-  score_composite: 70.9
+  score_composite: 83.5
   shared: 2
 - slug: aws-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, a…
   api_count: 13
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 76.0
+  shared: 2
+- slug: 0xarchive
+  name: 0xArchive
+  description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 75.7
+  shared: 2
+- slug: cvent-event-cloud
+  name: Cvent Event Cloud
+  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hyb…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 70.5
   shared: 2
 - slug: stayingapi
   name: StayingAPI
   description: Unified accommodation-data API returning live search, availability, price, cross-OTA price comparison, and normalized reviews across Airbnb, Booking.com, Vrbo, and Google Hotels via a single normalized JSON schema, so one integration cover…
   api_count: 1
-  score_band: strong
-  score_composite: 64.9
+  score_band: exemplar
+  score_composite: 69.5
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
+  score_band: exemplar
+  score_composite: 69.0
+  shared: 2
+- slug: odds-api
+  name: Odds API
+  description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, l…
+  api_count: 1
   score_band: strong
-  score_composite: 64.3
+  score_composite: 63.5
   shared: 2
 - slug: netcracker
   name: Netcracker
@@ -111,12 +118,19 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 2
-- slug: apiverve
-  name: APIVerve
-  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: strong
+  score_composite: 61.6
+  shared: 2
+- slug: reefapi
+  name: ReefAPI
+  description: ReefAPI is a unified web-data gateway that fronts 183 production data engines - Amazon, Zillow, Reddit, Trustpilot, LinkedIn Jobs, Indeed, Google Maps, Booking.com, StockX, YouTube and more - behind ONE JSON contract, ONE API key and ONE s…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 61.0
   shared: 2
 - slug: autodesk
   name: Autodesk
@@ -125,40 +139,33 @@ providers:
   score_band: strong
   score_composite: 60.3
   shared: 2
-- slug: odds-api
-  name: Odds API
-  description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, l…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.9
-  shared: 2
-- slug: reefapi
-  name: ReefAPI
-  description: ReefAPI is a unified web-data gateway that fronts 183 production data engines - Amazon, Zillow, Reddit, Trustpilot, LinkedIn Jobs, Indeed, Google Maps, Booking.com, StockX, YouTube and more - behind ONE JSON contract, ONE API key and ONE s…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.8
-  shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
-  score_band: developing
-  score_composite: 53.7
-  shared: 2
 - slug: mediacaption-api
   name: MediaCaption API
   description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
   api_count: 1
-  score_band: developing
-  score_composite: 52.4
+  score_band: strong
+  score_composite: 58.1
   shared: 2
 - slug: blng
   name: Blng
   description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos,…
   api_count: 3
   score_band: developing
-  score_composite: 50.5
+  score_composite: 54.1
+  shared: 2
+- slug: apiverve
+  name: APIVerve
+  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.3
+  shared: 2
+- slug: 3gpp
+  name: 3GPP
+  description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
+  api_count: 116
+  score_band: developing
+  score_composite: 48.0
   shared: 2
 - slug: autocad
   name: AutoCAD
@@ -167,26 +174,19 @@ providers:
   score_band: developing
   score_composite: 47.7
   shared: 2
-- slug: 3gpp
-  name: 3GPP
-  description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
-  api_count: 116
-  score_band: developing
-  score_composite: 46.3
-  shared: 2
 - slug: vehicles-dev-api
   name: Vehicles.dev
   description: Automotive vehicle data platform offering a live REST API for VIN decoding, specifications, recalls, market valuation, depreciation, ownership costs, listings, price history, and photos, backed by federal sources (NHTSA vPIC, NHTSA recalls…
   api_count: 1
   score_band: developing
-  score_composite: 42.7
+  score_composite: 45.2
   shared: 2
 - slug: adsmom-inc
   name: Adsmom
   description: Adsmom (SIA Adsmom) is a Latvia-based AI-powered ad intelligence platform that indexes 200M+ ads from Meta, TikTok and Google, decodes them with AI, and gives brands, agencies and research teams a clear read on what competitors are running…
   api_count: 1
   score_band: developing
-  score_composite: 41.7
+  score_composite: 43.3
   shared: 2
 - slug: ruby
   name: Ruby Programming Language and Popular API Gems
@@ -216,6 +216,13 @@ providers:
   score_band: thin
   score_composite: 30.4
   shared: 2
+- slug: den-archi
+  name: Den
+  description: 'Den (den.archi) is a Korean AEC (architecture, engineering and construction) knowledge-curation system delivered as a remote MCP server. It gives AI agents normative and practical AEC knowledge with citations: Korean national construction…'
+  api_count: 1
+  score_band: thin
+  score_composite: 28.8
+  shared: 2
 - slug: rayon
   name: Rayon
   description: Rayon is an AI-powered CAD (computer-aided design) platform built for interior designers and architects, positioned as a modern, browser-based alternative to legacy tools like AutoCAD and SketchUp. It provides professional 2D drafting and…
@@ -242,13 +249,6 @@ providers:
   description: The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that indust…
   api_count: 6
   score_band: emerging
-  score_composite: 19.4
-  shared: 2
-- slug: curl
-  name: cURL
-  description: cURL is a command-line tool and library for transferring data with URLs. Originally released in 1997 by Daniel Stenberg, cURL is the de facto standard tool used by developers for testing, automating, and scripting interactions with HTTP, H…
-  api_count: 2
-  score_band: emerging
-  score_composite: 19.3
+  score_composite: 21.0
   shared: 2
 ---

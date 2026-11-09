@@ -54,28 +54,28 @@ providers:
   description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Mana…
   api_count: 1
   score_band: exemplar
-  score_composite: 71.3
-  shared: 2
-- slug: zerotier
-  name: ZeroTier
-  description: ZeroTier, Inc. builds a software-defined networking (SDN) overlay that securely connects devices, servers, clouds, and networks anywhere in the world as if they were on the same local LAN, without the complexity of traditional VPNs, port f…
-  api_count: 2
-  score_band: strong
-  score_composite: 64.8
+  score_composite: 76.9
   shared: 2
 - slug: microsoft-azure-private-link
   name: Microsoft Azure Private Link
   description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverse…
   api_count: 2
-  score_band: strong
-  score_composite: 62.8
+  score_band: exemplar
+  score_composite: 68.8
+  shared: 2
+- slug: zerotier
+  name: ZeroTier
+  description: ZeroTier, Inc. builds a software-defined networking (SDN) overlay that securely connects devices, servers, clouds, and networks anywhere in the world as if they were on the same local LAN, without the complexity of traditional VPNs, port f…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.1
   shared: 2
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes ser…
   api_count: 11
   score_band: strong
-  score_composite: 60.3
+  score_composite: 63.2
   shared: 2
 - slug: juniper
   name: Juniper Networks
@@ -91,40 +91,47 @@ providers:
   score_band: strong
   score_composite: 55.7
   shared: 2
-- slug: oxide-computer
-  name: Oxide
-  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
-  api_count: 1
-  score_band: developing
-  score_composite: 46.2
-  shared: 2
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data…
   api_count: 3
   score_band: developing
-  score_composite: 46.0
+  score_composite: 48.4
+  shared: 2
+- slug: oxide-computer
+  name: Oxide
+  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store,…'
+  api_count: 1
+  score_band: developing
+  score_composite: 47.8
+  shared: 2
+- slug: cisco-nexus
+  name: Cisco Nexus Dashboard
+  description: APIs for managing and monitoring Cisco Nexus data center switches and network infrastructure.
+  api_count: 1
+  score_band: developing
+  score_composite: 40.3
   shared: 2
 - slug: citrix
   name: Citrix
   description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix…
   api_count: 7
   score_band: developing
-  score_composite: 39.7
-  shared: 2
-- slug: cisco-nexus
-  name: Cisco Nexus Dashboard
-  description: APIs for managing and monitoring Cisco Nexus data center switches and network infrastructure.
-  api_count: 1
-  score_band: thin
-  score_composite: 39.2
+  score_composite: 39.8
   shared: 2
 - slug: equinix
   name: Equinix
   description: Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs…
   api_count: 10
   score_band: thin
-  score_composite: 35.7
+  score_composite: 35.5
+  shared: 2
+- slug: simplivity
+  name: SimpliVity
+  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in dedu…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.7
   shared: 2
 - slug: parallels-swsoft
   name: Parallels (SWSoft)
@@ -132,13 +139,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 31.4
-  shared: 2
-- slug: simplivity
-  name: SimpliVity
-  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in dedu…
-  api_count: 1
-  score_band: thin
-  score_composite: 31.2
   shared: 2
 - slug: nanovms
   name: NanoVMs

@@ -51,28 +51,42 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/technical-specifications/refs/heads/main/vocabulary/technical-specifications-vocabulary.yml
 - type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/technical-specifications/refs/heads/main/json-ld/technical-specifications-context.jsonld
-provider_count: 14
+provider_count: 15
 providers:
 - slug: gsma
   name: GSMA
   description: The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona.…
   api_count: 37
   score_band: strong
-  score_composite: 54.3
+  score_composite: 56.0
+  shared: 2
+- slug: cogram-com
+  name: Cogram
+  description: Cogram provides AI-powered tools for architects and engineers, enabling automated documentation, collaboration, and design workflows. Founded in 2021, the platform leverages large language models to generate construction drawings, specific…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.3
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
+  score_composite: 46.4
   shared: 2
 - slug: ieee
   name: IEEE Xplore
   description: IEEE Xplore is the authoritative technical library operated by the Institute of Electrical and Electronics Engineers (IEEE), providing access to over 6 million documents spanning engineering, computer science, electronics, and technology.…
   api_count: 1
   score_band: thin
-  score_composite: 37.2
+  score_composite: 38.0
+  shared: 2
+- slug: openehr
+  name: openEHR
+  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
+  api_count: 7
+  score_band: thin
+  score_composite: 30.0
   shared: 2
 - slug: aousd
   name: Alliance for OpenUSD
@@ -80,13 +94,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 28.3
-  shared: 2
-- slug: openehr
-  name: openEHR
-  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 7
-  score_band: thin
-  score_composite: 28.1
   shared: 2
 - slug: apis-json
   name: APIs.json
@@ -99,15 +106,15 @@ providers:
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked s…
   api_count: 1
-  score_band: emerging
-  score_composite: 23.6
+  score_band: thin
+  score_composite: 26.4
   shared: 2
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
   api_count: 23
   score_band: emerging
-  score_composite: 18.3
+  score_composite: 20.0
   shared: 2
 - slug: openapi
   name: OpenAPI

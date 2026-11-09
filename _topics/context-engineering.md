@@ -55,91 +55,112 @@ links:
   url: https://docs.llamaindex.ai/
 - type: Reference
   url: https://python.langchain.com/docs/concepts/rag/
-provider_count: 624
+provider_count: 881
 providers:
 - slug: cognee
   name: Cognee
   description: Cognee is an open-source AI memory and knowledge graph platform that enables developers to build persistent, structured memory for AI agents and LLM applications. The platform provides a REST API and Python/TypeScript SDKs for ingesting do…
   api_count: 1
   score_band: developing
-  score_composite: 42.6
+  score_composite: 54.2
   shared: 5
 - slug: anthropic
   name: Anthropic
   description: Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropi…
   api_count: 5
   score_band: exemplar
-  score_composite: 89.0
+  score_composite: 87.5
   shared: 4
 - slug: dust-tt
   name: Dust
   description: Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for "AI Operators" — the people w…
   api_count: 1
-  score_band: strong
-  score_composite: 64.9
+  score_band: exemplar
+  score_composite: 72.3
   shared: 4
 - slug: seekr
   name: Seekr
   description: Seekr Technologies builds explainable, auditable, sovereign AI for regulated industries and high-stakes government missions. Its platform, SeekrFlow, is an end-to-end AI operating system that covers document ingestion and AI-ready data pre…
   api_count: 4
-  score_band: strong
-  score_composite: 63.4
+  score_band: exemplar
+  score_composite: 66.6
   shared: 4
 - slug: compresr
   name: Compresr
   description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — few…
   api_count: 1
   score_band: strong
-  score_composite: 59.7
-  shared: 4
-- slug: letta
-  name: Letta
-  description: Letta (formerly MemGPT) is a stateful AI agents platform built around long-term memory, tool execution, and multi-agent coordination. The Letta REST API exposes 239 endpoints across 36 public resource categories — agents, memory blocks, ar…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.5
-  shared: 4
-- slug: stacks-ai
-  name: Stacks Ai
-  description: StackAI (Stack AI, Inc.) is an enterprise AI agent platform that lets teams build, deploy, and govern no-code agentic workflows at scale. Its visual Workflow Builder chains LLMs, knowledge bases, connections, and logic nodes into productio…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.5
-  shared: 4
-- slug: amazon-bedrock
-  name: Amazon Bedrock
-  description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversati…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.8
+  score_composite: 61.9
   shared: 4
 - slug: vectara
   name: Vectara
   description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semant…
   api_count: 1
-  score_band: developing
-  score_composite: 48.4
+  score_band: strong
+  score_composite: 55.2
   shared: 4
 - slug: pydantic-ai
   name: PydanticAI
   description: PydanticAI is an open-source, model-agnostic Python agent framework built by the Pydantic team, designed to bring the ergonomic, type-safe design philosophy of FastAPI to production-grade generative AI application development. It provides…
   api_count: 2
   score_band: developing
-  score_composite: 48.3
+  score_composite: 54.1
+  shared: 4
+- slug: stacks-ai
+  name: Stacks Ai
+  description: StackAI (Stack AI, Inc.) is an enterprise AI agent platform that lets teams build, deploy, and govern no-code agentic workflows at scale. Its visual Workflow Builder chains LLMs, knowledge bases, connections, and logic nodes into productio…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.8
+  shared: 4
+- slug: letta
+  name: Letta
+  description: Letta (formerly MemGPT) is a stateful AI agents platform built around long-term memory, tool execution, and multi-agent coordination. The Letta REST API exposes 239 endpoints across 36 public resource categories — agents, memory blocks, ar…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.0
+  shared: 4
+- slug: amazon-bedrock
+  name: Amazon Bedrock
+  description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversati…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.4
   shared: 4
 - slug: ragflow
   name: RAGFlow
   description: RAGFlow is the open-source Retrieval-Augmented Generation engine built by InfiniFlow Inc. It combines deep document understanding (DeepDoc parsing of PDFs, images, tables and scanned files) with hybrid retrieval — dense vector search, BM25…
   api_count: 1
   score_band: developing
-  score_composite: 47.9
+  score_composite: 49.4
   shared: 4
 - slug: ai21-labs
   name: AI21 Labs
   description: AI21 Labs is an enterprise foundation-model company best known for the Jamba family of open-weight hybrid Mamba/Transformer models and AI21 Maestro, a dynamic planning system that orchestrates tools, retrieval, and validated output during…
   api_count: 1
   score_band: developing
-  score_composite: 39.7
+  score_composite: 41.1
+  shared: 4
+- slug: ondemand
+  name: Ondemand
+  description: OnDemand AI (on-demand.io) is a RAG-powered AI Platform-as-a-Service that lets companies infuse AI into their products without managing model infrastructure. The platform exposes a REST API for chat sessions and queries against a library o…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.9
+  shared: 4
+- slug: agenticmemory-ai
+  name: agenticmemory-ai
+  description: Agentic Memory provides a persistent memory API for AI agents and LLMs. It enables developers to store and retrieve conversation history, key‑value context, and scratchpad data with sub‑millisecond latency. A free tier is available, and de…
+  api_count: 2
+  score_band: developing
+  score_composite: 39.3
+  shared: 4
+- slug: julep
+  name: Julep
+  description: Julep is an open-source platform for building stateful AI agents that remember past interactions and execute long-running, multi-step tasks. Its cloud API and self-hostable server expose agents, sessions, tasks, executions, documents (RAG)…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.5
   shared: 4
 - slug: flowise
   name: Flowise
@@ -148,123 +169,102 @@ providers:
   score_band: thin
   score_composite: 37.1
   shared: 4
-- slug: julep
-  name: Julep
-  description: Julep is an open-source platform for building stateful AI agents that remember past interactions and execute long-running, multi-step tasks. Its cloud API and self-hostable server expose agents, sessions, tasks, executions, documents (RAG)…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.0
-  shared: 4
 - slug: langbase
   name: Langbase
   description: Langbase is a serverless AI developer platform for building, deploying, and scaling AI agents and applications. Its composable primitives - Pipes (agents), Memory (managed RAG), Threads, Agent (one API over 100+ LLMs), Tools, Parser, Chunk…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
-  shared: 4
-- slug: ondemand
-  name: Ondemand
-  description: OnDemand AI (on-demand.io) is a RAG-powered AI Platform-as-a-Service that lets companies infuse AI into their products without managing model infrastructure. The platform exposes a REST API for chat sessions and queries against a library o…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.4
+  score_composite: 36.9
   shared: 4
 - slug: adapter
   name: Adapter
   description: Adapter is a cognition API — a persistent memory and knowledge-graph layer that sits alongside AI models so understanding is already available when agents need answers. Founded by Adam Ghetti and David Bader, Adapter continuously reads and…
   api_count: 1
   score_band: thin
-  score_composite: 32.9
+  score_composite: 35.7
   shared: 4
 - slug: miriel
   name: Miriel
   description: 'Miriel is the context engine and platform for AI-native development. It gives AI apps and agents the context they need in real time through a simple API: developers connect a data source with the learn operation and retrieve relevant conte…'
   api_count: 7
-  score_band: emerging
-  score_composite: 24.9
+  score_band: thin
+  score_composite: 26.5
   shared: 4
 - slug: dify
   name: Dify
   description: Dify is an open-source platform for building AI applications, combining Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions for developers and non-technical innovators alike. Teams build agentic workflo…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.8
-  shared: 3
-- slug: octen-ai
-  name: Octen
-  description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.5
-  shared: 3
-- slug: agentuity
-  name: Agentuity
-  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanSta…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.4
+  score_composite: 78.4
   shared: 3
 - slug: perplexity
   name: Perplexity
   description: Perplexity AI is an answer engine that delivers accurate answers to complex questions using large language models with real-time web search capabilities.
   api_count: 2
   score_band: strong
-  score_composite: 61.6
-  shared: 3
-- slug: scorecard
-  name: Scorecard
-  description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, a…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.4
-  shared: 3
-- slug: dedaluslabs
-  name: Dedalus Labs
-  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketpla…'
-  api_count: 2
-  score_band: strong
-  score_composite: 59.0
+  score_composite: 65.7
   shared: 3
 - slug: sambanova-systems
   name: SambaNova Systems
   description: SambaNova Systems is an AI infrastructure company that builds custom Reconfigurable Dataflow Unit (RDU) chips and the SambaCloud, SambaStack, and SambaRack platforms for fast, energy-efficient AI inference. Its developer-facing product, Sa…
   api_count: 2
   score_band: strong
-  score_composite: 58.7
+  score_composite: 64.3
+  shared: 3
+- slug: octen-ai
+  name: Octen
+  description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.1
   shared: 3
 - slug: edgee
   name: Edgee
   description: Edgee is a French edge-native AI Gateway that sits between coding agents and LLM providers, intercepting, routing, compressing, metering and securing every request. Its OpenAI-compatible gateway API at edgee.io exposes chat completions, an…
   api_count: 1
   score_band: strong
-  score_composite: 58.4
+  score_composite: 63.0
+  shared: 3
+- slug: scorecard
+  name: Scorecard
+  description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, a…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.7
   shared: 3
 - slug: h-company
   name: H Company
   description: H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel and Creandum, that builds the Holo family of vision-language models and a Computer-Use Agents platform for automating work on browsers and desktops. It ships two public APIs:…
   api_count: 1
   score_band: strong
-  score_composite: 57.7
+  score_composite: 62.3
   shared: 3
-- slug: h2o-ai
-  name: H2O.ai
-  description: H2O.ai is an open-source artificial-intelligence and machine-learning company whose platform spans H2O-3 (a distributed, in-memory ML engine), H2O Driverless AI (automatic machine learning), H2O MLOps (model deployment, scoring and monitor…
+- slug: dedaluslabs
+  name: Dedalus Labs
+  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketpla…'
   api_count: 2
   score_band: strong
-  score_composite: 56.5
+  score_composite: 62.2
   shared: 3
-- slug: serper
-  name: Serper
-  description: Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and aut…
-  api_count: 2
+- slug: langdock
+  name: Langdock
+  description: Langdock is an enterprise AI platform — "The Platform for AI Adoption" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-ho…
+  api_count: 1
   score_band: strong
-  score_composite: 54.8
+  score_composite: 62.0
   shared: 3
 - slug: airweave
   name: Airweave
   description: Airweave is an open-source (MIT) context-retrieval layer that lets AI agents and RAG pipelines search across 50+ connected apps and databases through a single API. It syncs data from sources like Slack, Notion, GitHub, Google Drive, and Po…
   api_count: 1
   score_band: strong
-  score_composite: 54.6
+  score_composite: 59.2
+  shared: 3
+- slug: chroma
+  name: Chroma
+  description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal ret…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.5
   shared: 3
 ---

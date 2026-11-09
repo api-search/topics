@@ -60,7 +60,7 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 3
 - slug: ogen
   name: Ogen
@@ -95,49 +95,49 @@ providers:
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 76.3
   shared: 2
 - slug: conga
   name: Conga
   description: Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author aut…
   api_count: 31
   score_band: exemplar
-  score_composite: 68.6
+  score_composite: 71.1
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
-  shared: 2
-- slug: apiverve
-  name: APIVerve
-  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.9
+  score_band: exemplar
+  score_composite: 69.0
   shared: 2
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
+  score_composite: 52.3
   shared: 2
-- slug: swaggerhub
-  name: SwaggerHub
-  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
-  api_count: 2
+- slug: apiverve
+  name: APIVerve
+  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+  api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 51.3
   shared: 2
 - slug: btc-war-live-market-data-api
   name: BTC War Live Market Data API
   description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
   api_count: 2
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.6
+  shared: 2
+- slug: swaggerhub
+  name: SwaggerHub
+  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.8
   shared: 2
 - slug: kiota
   name: Kiota
@@ -151,7 +151,14 @@ providers:
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
+  shared: 2
+- slug: caseys-general-stores
+  name: Casey's General Stores
+  description: 'Casey''s General Stores (NASDAQ: CASY) is one of the largest convenience-store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food and convenience items, primarily in small midw…'
+  api_count: 21
+  score_band: developing
+  score_composite: 39.8
   shared: 2
 - slug: zally
   name: Zally
@@ -160,33 +167,26 @@ providers:
   score_band: developing
   score_composite: 39.5
   shared: 2
-- slug: caseys-general-stores
-  name: Casey's General Stores
-  description: 'Casey''s General Stores (NASDAQ: CASY) is one of the largest convenience-store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food and convenience items, primarily in small midw…'
-  api_count: 21
-  score_band: thin
-  score_composite: 38.1
-  shared: 2
 - slug: apis-guru
   name: APIs.guru
   description: APIs.guru is an open source, community-driven directory of public REST API definitions in OpenAPI 2.0/3.x format, described as the Wikipedia for Web APIs. The project searches for public API definitions, converts various formats to OpenAPI…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
+  score_composite: 32.6
   shared: 2
 - slug: apicurio
   name: Apicurio
   description: Apicurio is an open source API and schema tooling platform maintained by Red Hat under the Apache 2.0 license. It includes Apicurio Registry (a high-performance schema and API design registry), Apicurio Studio (a visual API designer for Op…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 32.5
   shared: 2
 - slug: typespec
   name: TypeSpec
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
   shared: 2
 - slug: api-fiddle
   name: API-Fiddle

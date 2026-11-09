@@ -70,7 +70,7 @@ providers:
   description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud expo…
   api_count: 2
   score_band: strong
-  score_composite: 55.3
+  score_composite: 63.2
   shared: 3
 - slug: allegion
   name: Allegion
@@ -93,33 +93,40 @@ providers:
   score_band: minimal
   score_composite: 2.9
   shared: 3
-- slug: kontaktio
-  name: Kontakt.io
-  description: Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with s…
-  api_count: 4
+- slug: losant
+  name: Losant
+  description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (th…
+  api_count: 1
   score_band: exemplar
-  score_composite: 71.4
+  score_composite: 76.1
   shared: 2
 - slug: hubble-network
   name: Hubble Network
   description: Hubble Network is a Seattle-based IoT connectivity company, founded in 2021 by Alex Haro (Life360) and Ben Wild (Amazon Sidewalk), building a dual-stack global network that any standard Bluetooth Low Energy 5.0+ chip can reach with no mode…
   api_count: 2
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 74.5
   shared: 2
-- slug: losant
-  name: Losant
-  description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (th…
-  api_count: 1
+- slug: kontaktio
+  name: Kontakt.io
+  description: Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with s…
+  api_count: 4
   score_band: exemplar
-  score_composite: 70.0
+  score_composite: 71.3
+  shared: 2
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: strong
+  score_composite: 61.6
   shared: 2
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (mi…
   api_count: 13
   score_band: strong
-  score_composite: 59.2
+  score_composite: 59.7
   shared: 2
 - slug: verizon
   name: Verizon
@@ -128,33 +135,40 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
-  score_band: developing
-  score_composite: 53.7
-  shared: 2
 - slug: reliance-jio
   name: Reliance Jio
   description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance Industries, is India's largest mobile network operator, serving roughly half a billion subscribers on an all-IP 4G/5G network from its home market of India, along…
   api_count: 3
   score_band: developing
-  score_composite: 50.5
-  shared: 2
-- slug: telia
-  name: Telia Company
-  description: Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business.…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.8
+  score_composite: 52.1
   shared: 2
 - slug: 1nce
   name: 1NCE
   description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management…
   api_count: 7
   score_band: developing
-  score_composite: 46.1
+  score_composite: 51.9
+  shared: 2
+- slug: cesanta
+  name: Cesanta
+  description: Cesanta is an embedded software and IoT company, established in 2013 to develop and support the Mongoose embedded web server and networking library (HTTP, WebSocket, MQTT, CoAP, TCP/IP) that ships in over 100 million devices from vendors s…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.7
+  shared: 2
+- slug: telia
+  name: Telia Company
+  description: Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business.…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.4
+  shared: 2
+- slug: golioth
+  name: Golioth
+  description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.1
   shared: 2
 - slug: celona
   name: Celona
@@ -163,33 +177,26 @@ providers:
   score_band: developing
   score_composite: 46.1
   shared: 2
-- slug: golioth
-  name: Golioth
-  description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.5
-  shared: 2
 - slug: swift-navigation
   name: Swift Navigation
   description: Swift Navigation builds precise positioning technology for mass-market applications — automotive ADAS and autonomy, mobile handsets, robotics, drones, micromobility, fleet and asset tracking, GIS and construction. Its flagship service, Sky…
   api_count: 4
   score_band: developing
-  score_composite: 40.6
+  score_composite: 42.2
   shared: 2
-- slug: cesanta
-  name: Cesanta
-  description: Cesanta is an embedded software and IoT company, established in 2013 to develop and support the Mongoose embedded web server and networking library (HTTP, WebSocket, MQTT, CoAP, TCP/IP) that ships in over 100 million devices from vendors s…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.1
+- slug: got-its
+  name: Reelables
+  description: Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attach…
+  api_count: 2
+  score_band: thin
+  score_composite: 36.8
   shared: 2
-- slug: elisa
-  name: ELISA
-  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
+- slug: memfault
+  name: Memfault
+  description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting…
   api_count: 1
   score_band: thin
-  score_composite: 36.3
+  score_composite: 35.8
   shared: 2
 - slug: zephyr
   name: Zephyr Project
@@ -197,6 +204,13 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 35.7
+  shared: 2
+- slug: elisa
+  name: ELISA
+  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.3
   shared: 2
 - slug: atmosic
   name: Atmosic
@@ -211,20 +225,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.2
-  shared: 2
-- slug: memfault
-  name: Memfault
-  description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.1
-  shared: 2
-- slug: got-its
-  name: Reelables
-  description: Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attach…
-  api_count: 2
-  score_band: thin
-  score_composite: 33.9
   shared: 2
 - slug: flic
   name: Flic
@@ -245,7 +245,7 @@ providers:
   description: Cisco Meraki is a cloud-managed networking platform that provides wireless access points, switches, security appliances, cameras, sensors, and mobile device management from a single dashboard. The Meraki Dashboard API is a RESTful interfac…
   api_count: 6
   score_band: thin
-  score_composite: 27.9
+  score_composite: 30.8
   shared: 2
 - slug: blynk
   name: Blynk
@@ -261,11 +261,11 @@ providers:
   score_band: thin
   score_composite: 26.9
   shared: 2
-- slug: cypress-semiconductor
-  name: Cypress Semiconductor
-  description: Cypress Semiconductor was a US-based semiconductor company known for its PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and Bluetooth connectivity stacks, NOR Flash memory, CapSense capacitive touch sensing, and Traveo auto…
-  api_count: 6
-  score_band: emerging
-  score_composite: 25.2
+- slug: fiware
+  name: FIWARE
+  description: FIWARE is an open-source framework that provides a curated set of standards and components for context information management. The cornerstone is the NGSI-LD API standardized by ETSI ISG CIM, which allows applications to provide, consume,…
+  api_count: 2
+  score_band: thin
+  score_composite: 26.5
   shared: 2
 ---

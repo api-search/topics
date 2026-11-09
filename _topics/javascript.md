@@ -61,7 +61,7 @@ providers:
   name: TypeScript
   description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for l…
   api_count: 3
-  score_band: developing
-  score_composite: 42.1
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

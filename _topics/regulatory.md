@@ -77,7 +77,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/vocabulary/regulatory-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/regulatory/refs/heads/main/examples/regulatory-compliance-check-finra-example.json
-provider_count: 241
+provider_count: 255
 providers:
 - slug: greenboard
   name: Greenboard
@@ -91,14 +91,14 @@ providers:
   description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance…
   api_count: 145
   score_band: strong
-  score_composite: 62.7
+  score_composite: 64.3
   shared: 4
 - slug: metricstream
   name: MetricStream
   description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
   api_count: 8
   score_band: thin
-  score_composite: 35.5
+  score_composite: 34.3
   shared: 4
 - slug: emtech
   name: EMTECH
@@ -126,14 +126,35 @@ providers:
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.8
+  score_composite: 69.4
+  shared: 3
+- slug: credo-ai
+  name: Credo AI
+  description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pair…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.7
   shared: 3
 - slug: spektr
   name: Spektr
   description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring usi…
   api_count: 1
+  score_band: strong
+  score_composite: 56.2
+  shared: 3
+- slug: venminder-digital-comply
+  name: Venminder (Digital Comply)
+  description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitori…
+  api_count: 1
   score_band: developing
-  score_composite: 50.8
+  score_composite: 52.6
+  shared: 3
+- slug: wegalvanize
+  name: Wegalvanize
+  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.8
   shared: 3
 - slug: green-check-verified
   name: Green Check Verified
@@ -149,13 +170,6 @@ providers:
   score_band: developing
   score_composite: 48.6
   shared: 3
-- slug: wegalvanize
-  name: Wegalvanize
-  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.1
-  shared: 3
 - slug: openpages
   name: OpenPages
   description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it…
@@ -163,33 +177,26 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 3
-- slug: venminder-digital-comply
-  name: Venminder (Digital Comply)
-  description: Venminder is a third-party risk management (TPRM) platform for financial institutions — vendor onboarding, due diligence, contract tracking, questionnaires, oversight tasks, issue tracking, spend analysis and Venmonitor continuous monitori…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.6
-  shared: 3
 - slug: merkle-science
   name: Merkle Science
   description: Merkle Science is a blockchain analytics and predictive crypto risk platform that helps virtual asset businesses, financial institutions, and government agencies detect fraud, monitor transactions, and stay compliant with AML, KYC, and CFT…
   api_count: 1
   score_band: developing
-  score_composite: 41.2
-  shared: 3
-- slug: regulation
-  name: Regulation
-  description: Regulation encompasses the rules, laws, and standards established by governments, agencies, and standards bodies that govern how businesses and individuals must operate. In the context of APIs and digital technology, regulation drives comp…
-  api_count: 3
-  score_band: thin
-  score_composite: 28.7
+  score_composite: 46.7
   shared: 3
 - slug: anitian
   name: Anitian
   description: Anitian, Inc. is a Portland, Oregon cloud security and compliance automation company that helps SaaS providers reach and maintain U.S. federal compliance. Its FedFlex platform automates the FedRAMP lifecycle — pre-engineered AWS and Azure…
   api_count: 2
   score_band: emerging
-  score_composite: 24.0
+  score_composite: 25.3
+  shared: 3
+- slug: wordsmith
+  name: Wordsmith
+  description: Wordsmith is an Edinburgh-based legal AI platform built for in-house legal teams, marketed as a Slack-native legal copilot that lets non-legal staff self-serve compliant answers, templates, and contract reviews directly in the tools they a…
+  api_count: 2
+  score_band: emerging
+  score_composite: 23.9
   shared: 3
 - slug: bretton
   name: Bretton
@@ -210,7 +217,7 @@ providers:
   description: Behavox is an AI-native compliance and conduct-surveillance software company serving the world's leading financial institutions and regulated enterprises. Its Unified AI Controls Platform spans directive, preventive, detective, and correct…
   api_count: 0
   score_band: emerging
-  score_composite: 21.8
+  score_composite: 20.8
   shared: 3
 - slug: risk-ledger
   name: Risk Ledger
@@ -233,13 +240,6 @@ providers:
   score_band: emerging
   score_composite: 20.5
   shared: 3
-- slug: azimuth-grc
-  name: Azimuth GRC
-  description: Azimuth GRC provides automated compliance management software that transforms complex regulatory requirements into clear, actionable guidance. Their platform, VALIDATOR, offers real‑time monitoring, audit automation, and curated legal cont…
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.2
-  shared: 3
 - slug: hummingbird
   name: Hummingbird
   description: Hummingbird is an AI-powered compliance operations platform for financial institutions and fintechs. It automates customer screening (sanctions, PEP, and adverse-media checks), transaction monitoring for financial crime, investigations and…
@@ -253,13 +253,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 15.7
-  shared: 3
-- slug: wordsmith
-  name: Wordsmith
-  description: Wordsmith is an Edinburgh-based legal AI platform built for in-house legal teams, marketed as a Slack-native legal copilot that lets non-legal staff self-serve compliant answers, templates, and contract reviews directly in the tools they a…
-  api_count: 2
-  score_band: emerging
-  score_composite: 15.1
   shared: 3
 - slug: diligent-boards
   name: Diligent
@@ -288,5 +281,12 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 13.2
+  shared: 3
+- slug: umony
+  name: Umony
+  description: Umony is a London-based communications compliance platform, founded in 2017 and backed by Seedcamp, that captures, records, and archives employee voice calls, SMS, WhatsApp, and Microsoft Teams conversations at the telecom-network level fo…
+  api_count: 0
+  score_band: emerging
+  score_composite: 13.0
   shared: 3
 ---

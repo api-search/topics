@@ -90,7 +90,7 @@ links:
   url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-schema/kubernetes-operator-schema.json
 - type: JSONLD
   url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-ld/kubernetes-operators-context.jsonld
-provider_count: 232
+provider_count: 248
 providers:
 - slug: spectro-cloud
   name: Spectro Cloud
@@ -104,7 +104,7 @@ providers:
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
   api_count: 1
   score_band: strong
-  score_composite: 60.5
+  score_composite: 65.0
   shared: 4
 - slug: coreos
   name: CoreOS
@@ -125,35 +125,35 @@ providers:
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery,…'
   api_count: 8
   score_band: exemplar
-  score_composite: 73.0
+  score_composite: 74.1
   shared: 3
 - slug: nuon
   name: Nuon
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into thei…
   api_count: 2
   score_band: strong
-  score_composite: 55.9
+  score_composite: 64.4
   shared: 3
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
   api_count: 3
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 62.8
   shared: 3
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-clo…
   api_count: 3
-  score_band: developing
-  score_composite: 50.2
+  score_band: strong
+  score_composite: 56.5
   shared: 3
 - slug: runwhen
   name: RunWhen
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into age…
   api_count: 1
-  score_band: developing
-  score_composite: 46.2
+  score_band: strong
+  score_composite: 55.7
   shared: 3
 - slug: porter
   name: Porter
@@ -162,19 +162,19 @@ providers:
   score_band: developing
   score_composite: 41.0
   shared: 3
-- slug: komo-do
-  name: Komodo
-  description: Komodo provides an open-source build and deployment system for managing servers, containers, and clusters. It offers a web-based interface to monitor CPU, memory, and disk usage, set alerts, and open shell sessions directly from the browse…
-  api_count: 2
-  score_band: developing
-  score_composite: 40.9
-  shared: 3
 - slug: helm
   name: Helm
   description: Package manager for Kubernetes that helps you define, install, and upgrade complex Kubernetes applications using charts. Helm uses a packaging format called charts, which are collections of files that describe a related set of Kubernetes r…
   api_count: 1
   score_band: developing
-  score_composite: 39.3
+  score_composite: 40.8
+  shared: 3
+- slug: calyptia
+  name: Calyptia
+  description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams creat…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.9
   shared: 3
 - slug: argocd
   name: Argo CD
@@ -189,13 +189,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 36.5
-  shared: 3
-- slug: calyptia
-  name: Calyptia
-  description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams creat…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.7
   shared: 3
 - slug: duplo-cloud
   name: Duplo Cloud
@@ -222,8 +215,8 @@ providers:
   name: Niteshift
   description: Niteshift is the full-stack cloud for coding agents. Engineering teams define their dev environment, tools, and policies once, then run frontier or open-source coding agents (Claude Code, Codex, Cursor, OpenCode, Pi) inside fully configure…
   api_count: 0
-  score_band: emerging
-  score_composite: 25.9
+  score_band: thin
+  score_composite: 26.9
   shared: 3
 - slug: tintri
   name: Tintri
@@ -231,6 +224,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 23.6
+  shared: 3
+- slug: komo-do
+  name: Komodo
+  description: Komodo provides an open-source build and deployment system for managing servers, containers, and clusters. It offers a web-based interface to monitor CPU, memory, and disk usage, set alerts, and open shell sessions directly from the browse…
+  api_count: 2
+  score_band: emerging
+  score_composite: 21.6
   shared: 3
 - slug: kagent
   name: kagent
@@ -252,6 +252,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 12.0
+  shared: 3
+- slug: cue-labs
+  name: CUE Labs
+  description: End Configuration-Related Outages CUE Hub stops misconfigurations from reaching production. It connects to your existing architecture to provide automated pre-deployment safety checks and impact analysis for every change. Book Demo Learn m…
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.2
   shared: 3
 - slug: metal3-io
   name: Metal3
@@ -295,11 +302,4 @@ providers:
   score_band: minimal
   score_composite: 0
   shared: 3
-- slug: github-actions
-  name: GitHub Actions
-  description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll r…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 81.3
-  shared: 2
 ---

@@ -93,7 +93,7 @@ links:
   url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./vocabulary/service-mesh-interface-vocabulary.yml
 - type: Examples
   url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./examples/
-provider_count: 65
+provider_count: 64
 providers:
 - slug: crossplane
   name: Crossplane
@@ -156,28 +156,28 @@ providers:
   description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and secu…
   api_count: 1
   score_band: strong
-  score_composite: 64.9
+  score_composite: 66.4
   shared: 2
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
   api_count: 5
   score_band: strong
-  score_composite: 61.6
+  score_composite: 60.4
   shared: 2
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
   api_count: 4
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.9
   shared: 2
 - slug: gsma
   name: GSMA
   description: The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona.…
   api_count: 37
   score_band: strong
-  score_composite: 54.3
+  score_composite: 56.0
   shared: 2
 - slug: buildpacks-io
   name: Buildpacks Io
@@ -193,12 +193,26 @@ providers:
   score_band: developing
   score_composite: 52.6
   shared: 2
+- slug: gloo-mesh
+  name: Gloo Mesh
+  description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, w…
+  api_count: 2
+  score_band: developing
+  score_composite: 50.0
+  shared: 2
 - slug: apache-apisix
   name: Apache APISIX
   description: Apache APISIX is a dynamic, real-time, high-performance cloud-native API gateway built on NGINX and etcd, developed by the Apache Software Foundation. It supports Lua and multi-language plugins for traffic management, authentication, obser…
   api_count: 2
   score_band: developing
   score_composite: 47.2
+  shared: 2
+- slug: asyncapi
+  name: AsyncAPI
+  description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.4
   shared: 2
 - slug: argo
   name: Argo
@@ -207,13 +221,6 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 2
-- slug: gloo-mesh
-  name: Gloo Mesh
-  description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, w…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.8
-  shared: 2
 - slug: keda
   name: KEDA
   description: KEDA (Kubernetes Event Driven Autoscaling) is a CNCF graduated application autoscaler that drives scaling of any container in Kubernetes based on the number of events needing to be processed. It extends Kubernetes with custom resources for…
@@ -221,19 +228,26 @@ providers:
   score_band: developing
   score_composite: 45.6
   shared: 2
-- slug: asyncapi
-  name: AsyncAPI
-  description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.2
-  shared: 2
 - slug: argo-workflows
   name: Argo Workflows
   description: Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. It is a CNCF graduated project that allows you to define workflows where each step is a container, model multi-step workflows…
   api_count: 1
   score_band: developing
-  score_composite: 43.7
+  score_composite: 44.6
+  shared: 2
+- slug: hami
+  name: HAMi
+  description: HAMi (Heterogeneous AI Computing Virtualization Middleware) is a CNCF incubating open-source project that brings device sharing, memory and core isolation, and topology-aware scheduling to heterogeneous AI accelerators on Kubernetes. It le…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.5
+  shared: 2
+- slug: isovalent
+  name: Isovalent
+  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
+  api_count: 2
+  score_band: developing
+  score_composite: 42.8
   shared: 2
 - slug: chaos-mesh
   name: Chaos Mesh
@@ -249,20 +263,6 @@ providers:
   score_band: developing
   score_composite: 41.3
   shared: 2
-- slug: isovalent
-  name: Isovalent
-  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
-  api_count: 2
-  score_band: developing
-  score_composite: 41.2
-  shared: 2
-- slug: hami
-  name: HAMi
-  description: HAMi (Heterogeneous AI Computing Virtualization Middleware) is a CNCF incubating open-source project that brings device sharing, memory and core isolation, and topology-aware scheduling to heterogeneous AI accelerators on Kubernetes. It le…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.8
-  shared: 2
 - slug: kuma
   name: Kuma
   description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
@@ -277,19 +277,19 @@ providers:
   score_band: developing
   score_composite: 39.6
   shared: 2
+- slug: google-cloud-service-mesh
+  name: Google Cloud Service Mesh
+  description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
+  api_count: 13
+  score_band: thin
+  score_composite: 38.6
+  shared: 2
 - slug: tetrate
   name: Tetrate
   description: Tetrate is an enterprise service mesh company that provides Tetrate Service Bridge (TSB), a multi-cluster, multi-cloud service mesh management platform built on Istio and Envoy Proxy. Tetrate offers management APIs for traffic, security, a…
   api_count: 1
   score_band: thin
   score_composite: 37.7
-  shared: 2
-- slug: google-cloud-service-mesh
-  name: Google Cloud Service Mesh
-  description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
-  api_count: 13
-  score_band: thin
-  score_composite: 37.0
   shared: 2
 - slug: google-anthos
   name: Google Anthos

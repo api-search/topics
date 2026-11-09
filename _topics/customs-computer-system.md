@@ -43,7 +43,7 @@ links:
   url: https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/safe_package.aspx
 - type: UNEDIFACT
   url: https://unece.org/trade/uncefact/introducing-unedifact
-provider_count: 9
+provider_count: 10
 providers:
 - slug: customs-and-border-protection
   name: Customs and Border Protection
@@ -63,8 +63,8 @@ providers:
   name: DSV
   description: DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from…
   api_count: 29
-  score_band: thin
-  score_composite: 38.9
+  score_band: developing
+  score_composite: 40.6
   shared: 2
 - slug: international-trade-administration
   name: International Trade Administration
@@ -72,13 +72,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.2
-  shared: 2
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: thin
-  score_composite: 31.0
   shared: 2
 - slug: un-comtrade
   name: UN Comtrade
@@ -94,12 +87,26 @@ providers:
   score_band: thin
   score_composite: 29.6
   shared: 2
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
+  score_band: emerging
+  score_composite: 25.1
+  shared: 2
 - slug: db-schenker
   name: DB Schenker
   description: DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,85…
   api_count: 4
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 23.2
+  shared: 2
+- slug: trimtabist-com
+  name: trimtabist-com
+  description: Trimtabist provides a free, no‑login service that lets users submit customs entries they have already filed and instantly recompute duties line‑by‑line against the tariff schedule as it existed on the entry date and origin. The platform em…
+  api_count: 1
+  score_band: minimal
+  score_composite: 10.2
   shared: 2
 - slug: donkey
   name: Donkey

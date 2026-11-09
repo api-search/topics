@@ -15,7 +15,7 @@ repo: https://github.com/api-evangelist/service-oriented-architecture
 api_count: 0
 apis: []
 links: []
-provider_count: 12
+provider_count: 5
 providers:
 - slug: soa
   name: SOA
@@ -31,54 +31,12 @@ providers:
   score_band: emerging
   score_composite: 16.3
   shared: 2
-- slug: restful-services
-  name: RESTful Services
-  description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
-  api_count: 5
-  score_band: emerging
-  score_composite: 15.4
-  shared: 2
 - slug: restful
   name: RESTful
   description: 'Representational State Transfer (REST) is an architectural style for designing networked applications using stateless HTTP communication and uniform interfaces. RESTful describes systems and APIs that conform to the REST constraints: clien…'
   api_count: 5
   score_band: emerging
   score_composite: 13.1
-  shared: 2
-- slug: event-driven-architecture
-  name: Event-Driven Architecture
-  description: Event-driven architecture (EDA) is a software architecture pattern promoting the production, detection, consumption of, and reaction to events. In this pattern, systems are designed to respond to state changes asynchronously through event…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
-- slug: microservice-architecture
-  name: Microservice Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services organized around business capabilities. Widely used by developers to build, maintain, and scale software applicatio…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: microservice-design
-  name: Microservice Design
-  description: Architectural approach for building applications as a collection of loosely coupled, independently deployable services that are organized around business capabilities. Covers principles, patterns, and best practices for designing effective…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 2
-- slug: pub-sub
-  name: Pub/Sub
-  description: A messaging pattern where publishers send messages to topics without knowledge of subscribers, and subscribers receive messages from topics they're interested in, enabling asynchronous and decoupled communication between services. Modern d…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
   shared: 2
 - slug: services-patterns
   name: Services Patterns
@@ -87,18 +45,11 @@ providers:
   score_band: minimal
   score_composite: 2.3
   shared: 2
-- slug: microservices-architecture
-  name: Microservices Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services, each running in its own process and communicating through lightweight mechanisms like HTTP/REST APIs. Widely used…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 2
-- slug: microservices-design-patterns
-  name: Microservices Design Patterns
-  description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
+- slug: restful-services
+  name: RESTful Services
+  description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
+  api_count: 5
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

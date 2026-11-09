@@ -15,21 +15,21 @@ repo: https://github.com/api-evangelist/iam
 api_count: 0
 apis: []
 links: []
-provider_count: 252
+provider_count: 270
 providers:
 - slug: aembit
   name: Aembit
   description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.6
+  score_composite: 75.9
   shared: 5
 - slug: amazon-iam
   name: Amazon IAM
   description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their acces…
   api_count: 1
   score_band: strong
-  score_composite: 57.3
+  score_composite: 59.0
   shared: 5
 - slug: strata-identity
   name: Strata Identity
@@ -43,63 +43,77 @@ providers:
   description: Infra is open-source authentication and access management for infrastructure. It grants short-lived, identity-based access to Kubernetes clusters, servers, and databases by connecting an organization's OIDC identity providers (Okta, Google…
   api_count: 1
   score_band: thin
-  score_composite: 30.8
+  score_composite: 32.5
   shared: 5
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign…
-  api_count: 7
+- slug: okta
+  name: Okta
+  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
+  api_count: 2
   score_band: exemplar
-  score_composite: 70.5
-  shared: 4
-- slug: auth0
-  name: Auth0
-  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 70.4
+  score_composite: 78.0
   shared: 4
 - slug: strivacity
   name: Strivacity
   description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers regi…
   api_count: 8
   score_band: exemplar
-  score_composite: 68.5
+  score_composite: 74.2
   shared: 4
 - slug: microsoft-entra
   name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  description: Microsoft Entra (formerly Azure Active Directory) is Microsoft's family of identity and network access products, providing authentication, authorization, directory, identity governance, external identities, verifiable credentials and secur…
   api_count: 1
-  score_band: strong
-  score_composite: 58.4
+  score_band: exemplar
+  score_composite: 73.9
   shared: 4
-- slug: centrify
-  name: Centrify
-  description: Centrify is an identity and privileged access management (PAM) platform now delivered as part of Delinea (the company formed from the Centrify + Thycotic merger). The Centrify Identity Platform / Cloud Suite / Privileged Access Service sec…
-  api_count: 15
-  score_band: strong
-  score_composite: 57.6
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 72.2
+  shared: 4
+- slug: auth0
+  name: Auth0
+  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 72.1
   shared: 4
 - slug: c1
   name: C1
   description: C1 (ConductorOne) is an identity and access management platform engineered for the AI era. It provides unified access governance across human identities, AI agents, and services — agentic identity management, policy-driven access controls,…
   api_count: 1
   score_band: strong
-  score_composite: 55.7
+  score_composite: 58.6
   shared: 4
-- slug: keycloak
-  name: Keycloak
-  description: Keycloak is an open source identity and access management solution for modern applications and services, providing single sign-on, identity brokering, user federation, and fine-grained authorization using OAuth 2.0 and OpenID Connect.
+- slug: centrify
+  name: Centrify
+  description: Centrify is an identity and privileged access management (PAM) platform now delivered as part of Delinea (the company formed from the Centrify + Thycotic merger). The Centrify Identity Platform / Cloud Suite / Privileged Access Service sec…
+  api_count: 15
+  score_band: strong
+  score_composite: 54.9
+  shared: 4
+- slug: ping-identity
+  name: Ping Identity
+  description: Identity for enterprises - flawless user experience with fortified enterprise protection. Ping Identity's PingOne platform provides cloud-based identity and access management with REST APIs covering authentication, authorization, user and…
   api_count: 1
-  score_band: thin
-  score_composite: 35.7
+  score_band: developing
+  score_composite: 53.5
   shared: 4
 - slug: pingone
   name: PingOne
   description: PingOne is Ping Identity's cloud-based identity and access management platform providing authentication, authorization, single sign-on, MFA, identity verification, risk evaluation, and user lifecycle management for workforce and customer i…
   api_count: 1
   score_band: thin
-  score_composite: 35.0
+  score_composite: 36.7
+  shared: 4
+- slug: keycloak
+  name: Keycloak
+  description: Keycloak is an open source identity and access management solution for modern applications and services, providing single sign-on, identity brokering, user federation, and fine-grained authorization using OAuth 2.0 and OpenID Connect.
+  api_count: 2
+  score_band: thin
+  score_composite: 35.3
   shared: 4
 - slug: sgnl
   name: SGNL
@@ -107,6 +121,20 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 32.2
+  shared: 4
+- slug: duo-security
+  name: Duo Security
+  description: Duo Security is a multi-factor authentication and zero trust security platform from Cisco for securing access to applications and APIs.
+  api_count: 1
+  score_band: thin
+  score_composite: 31.8
+  shared: 4
+- slug: casdoor
+  name: Casdoor
+  description: Casdoor is an open-source, AI-first identity and access management (IAM) and MCP gateway authentication server with a web UI. Built in Go (Beego) with a React frontend, Casdoor supports OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP, Kerberos/SPNEGO…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.0
   shared: 4
 - slug: zero-trust-architecture
   name: Zero Trust Architecture
@@ -122,13 +150,6 @@ providers:
   score_band: emerging
   score_composite: 22.7
   shared: 4
-- slug: casdoor
-  name: Casdoor
-  description: Casdoor is an open-source, AI-first identity and access management (IAM) and MCP gateway authentication server with a web UI. Built in Go (Beego) with a React frontend, Casdoor supports OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP, Kerberos/SPNEGO…
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.5
-  shared: 4
 - slug: newcore
   name: NewCore
   description: NewCore is an enterprise identity-security company building an identity platform that governs both human and AI-agent identities across the enterprise. Its three pillars are Identity Discovery (continuously discovering and mapping every id…
@@ -143,88 +164,67 @@ providers:
   score_band: minimal
   score_composite: 3.4
   shared: 4
-- slug: authentication
-  name: Authentication
-  description: A curated index of services, tooling, and open source solutions for API authentication, authorization, identity management, and secrets management. This collection covers identity providers, SSO platforms, privileged access management, MFA…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 4
-- slug: kinde
-  name: Kinde
-  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature fla…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 82.4
-  shared: 3
 - slug: azure-ad
   name: Microsoft Entra ID (formerly Azure AD)
   description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user ident…
   api_count: 9
   score_band: exemplar
-  score_composite: 81.8
+  score_composite: 89.0
   shared: 3
-- slug: okta
-  name: Okta
-  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
+- slug: kinde
+  name: Kinde
+  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature fla…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.8
+  score_composite: 88.8
+  shared: 3
+- slug: active-directory
+  name: Microsoft Active Directory
+  description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Acti…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 68.2
   shared: 3
 - slug: gluu
   name: Gluu
   description: Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applic…
   api_count: 12
   score_band: strong
-  score_composite: 62.9
-  shared: 3
-- slug: active-directory
-  name: Microsoft Active Directory
-  description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Acti…
-  api_count: 3
-  score_band: strong
-  score_composite: 61.8
-  shared: 3
-- slug: stytch
-  name: Stytch
-  description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client…
-  api_count: 3
-  score_band: strong
-  score_composite: 60.4
-  shared: 3
-- slug: forgerock
-  name: ForgeRock
-  description: ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.
-  api_count: 7
-  score_band: strong
-  score_composite: 57.1
-  shared: 3
-- slug: frontegg
-  name: Frontegg
-  description: Frontegg is a customer identity and access management (CIAM) platform for B2B SaaS. It provides self-serve authentication, multi-tenancy, role-based access control, single sign-on, SCIM provisioning, entitlements, and an admin portal that…
-  api_count: 10
-  score_band: strong
-  score_composite: 57.1
-  shared: 3
-- slug: yubico
-  name: Yubico
-  description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.7
+  score_composite: 66.1
   shared: 3
 - slug: descope
   name: Descope
   description: Descope is a customer and agentic identity access management (CIAM) platform founded in 2022 by veterans of Sentrigo and Demisto (acquired by Palo Alto Networks). Its signature is drag-and-drop Descope Flows — a visual authentication-flow…
   api_count: 1
   score_band: strong
-  score_composite: 56.5
+  score_composite: 66.0
+  shared: 3
+- slug: typingdna
+  name: TypingDNA
+  description: TypingDNA provides AI-based typing biometrics authentication, recognizing people by how they type on desktop and mobile keyboards. Its RESTful Authentication API enrolls and verifies typing patterns for fraud prevention, account-sharing de…
+  api_count: 3
+  score_band: strong
+  score_composite: 64.7
+  shared: 3
+- slug: stytch
+  name: Stytch
+  description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.4
   shared: 3
 - slug: propelauth
   name: PropelAuth
   description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and per…
   api_count: 3
   score_band: strong
-  score_composite: 56.5
+  score_composite: 61.2
+  shared: 3
+- slug: forgerock
+  name: ForgeRock
+  description: ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.
+  api_count: 8
+  score_band: strong
+  score_composite: 60.7
   shared: 3
 ---

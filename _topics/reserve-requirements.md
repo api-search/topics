@@ -59,15 +59,8 @@ links:
   url: https://www.federalreserve.gov/releases/h6/
 - type: GitHubOrganization
   url: https://github.com/federalreserve
-provider_count: 2
+provider_count: 1
 providers:
-- slug: mandatory-reserves-requirement
-  name: Mandatory Reserves Requirement
-  description: A central bank regulation requiring commercial banks to hold a minimum percentage of customer deposits as reserves, either as cash in their vaults or as deposits with the central bank, to ensure liquidity and stability in the banking syste…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.8
-  shared: 3
 - slug: fred
   name: FRED
   description: The Federal Reserve Economic Data (FRED) API is a public web service operated by the Research Division of the Federal Reserve Bank of St. Louis. It provides programmatic access to more than 800,000 economic time series drawn from 100+ data…

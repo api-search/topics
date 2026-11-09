@@ -53,8 +53,15 @@ links:
   url: https://stackoverflow.com/questions/tagged/c%2b%2b
 - type: Blog
   url: https://isocpp.org/blog/rss
-provider_count: 25
+provider_count: 27
 providers:
+- slug: eclipse
+  name: Eclipse Foundation
+  description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 72.2
+  shared: 2
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and…
@@ -62,54 +69,47 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 2
-- slug: eclipse
-  name: Eclipse Foundation
-  description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
-  api_count: 19
-  score_band: strong
-  score_composite: 62.6
-  shared: 2
 - slug: academy-software-foundation
   name: Academy Software Foundation
   description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source p…
   api_count: 14
   score_band: strong
-  score_composite: 55.4
+  score_composite: 62.5
   shared: 2
 - slug: etsi
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
-  score_band: developing
-  score_composite: 53.7
-  shared: 2
-- slug: ballerina
-  name: Ballerina
-  description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language…'
-  api_count: 1
-  score_band: developing
-  score_composite: 51.2
+  score_band: strong
+  score_composite: 61.6
   shared: 2
 - slug: ehrbase
   name: EHRbase
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.7
+  shared: 2
+- slug: ballerina
+  name: Ballerina
+  description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language…'
+  api_count: 1
+  score_band: developing
+  score_composite: 52.6
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 48.9
+  score_composite: 52.1
   shared: 2
 - slug: elisa
   name: ELISA
   description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
   api_count: 1
   score_band: thin
-  score_composite: 36.3
+  score_composite: 35.3
   shared: 2
 - slug: redpanda
   name: Redpanda
@@ -125,13 +125,6 @@ providers:
   score_band: thin
   score_composite: 30.4
   shared: 2
-- slug: r
-  name: R
-  description: R is a free, open-source programming language and statistical computing environment maintained by the R Core Team and supported by the R Foundation. It provides a wide variety of statistical and graphical techniques and is highly extensibl…
-  api_count: 3
-  score_band: thin
-  score_composite: 27.5
-  shared: 2
 - slug: godot
   name: Godot Engine
   description: Godot Engine is a free and open-source community-driven 2D and 3D game engine released under the MIT License and stewarded by the Godot Foundation. Godot ships an integrated editor plus a deep scripting and extension surface across three p…
@@ -144,7 +137,7 @@ providers:
   description: The Open Container Initiative (OCI) is an open governance structure for creating open industry standards around container formats and runtimes, hosted under the Linux Foundation.
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 23.1
   shared: 2
 - slug: openprose
   name: Openprose
@@ -167,20 +160,6 @@ providers:
   score_band: emerging
   score_composite: 15.6
   shared: 2
-- slug: connectivity-standards-alliance
-  name: Connectivity Standards Alliance
-  description: The Connectivity Standards Alliance (CSA) is a global industry consortium that develops and promotes open standards for the Internet of Things (IoT). It oversees the Matter, Zigbee, and Aliro specifications, providing certification program…
-  api_count: 1
-  score_band: emerging
-  score_composite: 15.0
-  shared: 2
-- slug: java
-  name: Java
-  description: Java is a high-level, class-based, object-oriented programming language developed by Sun Microsystems and now stewarded by Oracle. The Java Standard Edition (SE) platform provides a comprehensive set of APIs and class libraries for buildin…
-  api_count: 9
-  score_band: emerging
-  score_composite: 14.8
-  shared: 2
 - slug: cncf
   name: CNCF
   description: The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation and hosts critical components of the global cloud-native technology infrastructure - including Kubernetes, Prometheus, Envoy, etcd, OpenTelemetry, CloudEvents, gR…
@@ -188,19 +167,33 @@ providers:
   score_band: emerging
   score_composite: 12.7
   shared: 2
+- slug: web3d-consortium-inc
+  name: Web3D Consortium, Inc.
+  description: Web3D Consortium, Inc. is a non‑profit standards organization that develops and promotes open standards for real‑time 3D communication on the web and other platforms. It maintains the X3D specification, provides resources, tools, and docum…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.7
+  shared: 2
+- slug: ribose-inc
+  name: Ribose Inc.
+  description: Ribose Inc. builds the digital infrastructure for the standards community, providing open‑source platforms that modernize how standards bodies author, publish, and govern their specifications. The company offers tools for collaborative edi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.5
+  shared: 2
+- slug: connectivity-standards-alliance
+  name: Connectivity Standards Alliance
+  description: The Connectivity Standards Alliance (CSA) is a global industry consortium that develops and promotes open standards for the Internet of Things (IoT). It oversees the Matter, Zigbee, and Aliro specifications, providing certification program…
+  api_count: 1
+  score_band: minimal
+  score_composite: 9.7
+  shared: 2
 - slug: php
   name: PHP
   description: PHP is a widely-used server-side scripting language especially suited for web development and embedded in HTML. It powers a large portion of the web including platforms like WordPress and Drupal, and provides extensive database support, fr…
   api_count: 0
   score_band: minimal
   score_composite: 9.2
-  shared: 2
-- slug: perl
-  name: Perl
-  description: Perl is a highly capable, feature-rich programming language with over 37 years of development. It is best known for text processing, system administration, web development, and rapid scripting, supported by the Comprehensive Perl Archive N…
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.6
   shared: 2
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
@@ -227,6 +220,27 @@ providers:
   name: FUNDING.yml
   description: GitHub configuration file specifying funding platforms and links for project sponsorship, displayed as a Sponsor button on the repository page. Supports platforms including GitHub Sponsors, Patreon, Open Collective, Ko-fi, Liberapay, Tidel…
   api_count: 0
+  score_band: null
+  score_composite: 0
+  shared: 2
+- slug: java
+  name: Java
+  description: Java is a high-level, class-based, object-oriented programming language developed by Sun Microsystems and now stewarded by Oracle. The Java Standard Edition (SE) platform provides a comprehensive set of APIs and class libraries for buildin…
+  api_count: 9
+  score_band: null
+  score_composite: 0
+  shared: 2
+- slug: perl
+  name: Perl
+  description: Perl is a highly capable, feature-rich programming language with over 37 years of development. It is best known for text processing, system administration, web development, and rapid scripting, supported by the Comprehensive Perl Archive N…
+  api_count: 0
+  score_band: null
+  score_composite: 0
+  shared: 2
+- slug: r
+  name: R
+  description: R is a free, open-source programming language and statistical computing environment maintained by the R Core Team and supported by the R Foundation. It provides a wide variety of statistical and graphical techniques and is highly extensibl…
+  api_count: 3
   score_band: null
   score_composite: 0
   shared: 2

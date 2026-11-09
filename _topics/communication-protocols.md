@@ -62,21 +62,21 @@ links:
   url: https://www.cncf.io/
 - type: ProductPage
   url: https://httpwg.org/specs/
-provider_count: 10
+provider_count: 12
 providers:
 - slug: openadr-alliance
   name: OpenADR Alliance
   description: The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate…
   api_count: 4
   score_band: strong
-  score_composite: 55.3
+  score_composite: 58.2
   shared: 2
 - slug: firebase
   name: Firebase
   description: Firebase is Google's app development platform — a backend-as-a-service (BaaS) suite for building, running, and growing web and mobile apps. It bundles managed backend products including Authentication, Cloud Firestore, Realtime Database, C…
   api_count: 4
   score_band: developing
-  score_composite: 46.1
+  score_composite: 50.3
   shared: 2
 - slug: transportapi
   name: TransportAPI
@@ -90,7 +90,7 @@ providers:
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Cent…
   api_count: 1
   score_band: thin
-  score_composite: 30.0
+  score_composite: 31.6
   shared: 2
 - slug: w3c
   name: W3C
@@ -106,19 +106,26 @@ providers:
   score_band: thin
   score_composite: 26.9
   shared: 2
-- slug: websockets
-  name: WebSockets
-  description: WebSockets is a communication protocol providing full-duplex communication channels over a single TCP connection, enabling real-time data exchange between client and server. Standardized by RFC 6455 and the WHATWG Living Standard, it is fu…
-  api_count: 0
+- slug: statcounter
+  name: StatCounter
+  description: StatCounter provides web analytics services that help website owners track visitor behavior, traffic sources, and engagement in real time. Their platform offers features such as heatmaps, session replay, click fraud detection, and detailed…
+  api_count: 1
   score_band: emerging
-  score_composite: 19.3
+  score_composite: 17.3
+  shared: 2
+- slug: pilotfiber-com
+  name: Pilot
+  description: Pilot provides fiber internet services for businesses and residential customers across the United States, offering dedicated internet, dark fiber, IP transit, wavelength, and Ethernet solutions. The company focuses on high-performance netw…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.4
   shared: 2
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.3
+  score_band: null
+  score_composite: 0
   shared: 2
 - slug: sockeye-networks
   name: Sockeye Networks
@@ -132,6 +139,13 @@ providers:
   description: Subspace was a real-time network-as-a-service platform delivering a dedicated, performance-optimized global network for latency-sensitive applications — WebRTC, VoIP/SIP calling, video conferencing, multiplayer gaming, and fintech. Its Pro…
   api_count: 1
   score_band: minimal
+  score_composite: 0
+  shared: 2
+- slug: websockets
+  name: WebSockets
+  description: WebSockets is a communication protocol providing full-duplex communication channels over a single TCP connection, enabling real-time data exchange between client and server. Standardized by RFC 6455 and the WHATWG Living Standard, it is fu…
+  api_count: 0
+  score_band: null
   score_composite: 0
   shared: 2
 ---

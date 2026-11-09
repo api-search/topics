@@ -62,14 +62,14 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/test-specifications/main/json-ld/test-specifications-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/test-specifications/main/vocabulary/test-specifications-vocabulary.yml
-provider_count: 63
+provider_count: 65
 providers:
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent…
   api_count: 1
-  score_band: strong
-  score_composite: 66.3
+  score_band: exemplar
+  score_composite: 70.7
   shared: 3
 - slug: optic
   name: Optic
@@ -90,110 +90,145 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
+  shared: 2
+- slug: stoplight
+  name: Stoplight
+  description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 76.3
   shared: 2
 - slug: archbee
   name: Archbee
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
   api_count: 11
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 69.8
+  shared: 2
+- slug: developerhub
+  name: DeveloperHub
+  description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versionin…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.5
   shared: 2
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumer…
   api_count: 1
-  score_band: strong
-  score_composite: 62.6
-  shared: 2
-- slug: apimatic
-  name: APIMatic
-  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification fo…
-  api_count: 5
-  score_band: strong
-  score_composite: 61.6
+  score_band: exemplar
+  score_composite: 66.8
   shared: 2
 - slug: readme
   name: ReadMe
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive A…
   api_count: 2
   score_band: strong
-  score_composite: 61.6
+  score_composite: 65.7
   shared: 2
-- slug: coval
-  name: Coval
-  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Cova…
-  api_count: 20
+- slug: apimatic
+  name: APIMatic
+  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification fo…
+  api_count: 5
   score_band: strong
-  score_composite: 57.5
+  score_composite: 63.2
   shared: 2
-- slug: keploy
-  name: Keploy
-  description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
-  api_count: 1
+- slug: kubeshop
+  name: Kubeshop
+  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
+  api_count: 3
   score_band: strong
-  score_composite: 57.1
-  shared: 2
-- slug: bump-sh
-  name: Bump.sh
-  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.0
-  shared: 2
-- slug: developerhub
-  name: DeveloperHub
-  description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versionin…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.0
-  shared: 2
-- slug: smartbear
-  name: SmartBear
-  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI fo…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.9
-  shared: 2
-- slug: opkey
-  name: Opkey
-  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.3
-  shared: 2
-- slug: observeai
-  name: Observe.AI
-  description: Observe.AI is an agentic AI platform for the contact center, providing purpose-built AI agents that handle customer support end-to-end across voice and chat, real-time AI Copilot guidance that assists frontline agents during live interacti…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.5
+  score_composite: 62.8
   shared: 2
 - slug: testfairy
   name: TestFairy
   description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs,…
   api_count: 1
   score_band: strong
-  score_composite: 54.3
+  score_composite: 62.2
+  shared: 2
+- slug: keploy
+  name: Keploy
+  description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party Op…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.7
+  shared: 2
+- slug: coval
+  name: Coval
+  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Cova…
+  api_count: 20
+  score_band: strong
+  score_composite: 60.8
+  shared: 2
+- slug: opkey
+  name: Opkey
+  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.6
+  shared: 2
+- slug: bump-sh
+  name: Bump.sh
+  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.1
+  shared: 2
+- slug: observeai
+  name: Observe.AI
+  description: Observe.AI is an agentic AI platform for the contact center, providing purpose-built AI agents that handle customer support end-to-end across voice and chat, real-time AI Copilot guidance that assists frontline agents during live interacti…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.9
   shared: 2
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
   api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 58.0
   shared: 2
-- slug: kubeshop
-  name: Kubeshop
-  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.9
+- slug: accessibe
+  name: accessiBe
+  description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.7
   shared: 2
 - slug: sweep
   name: Sweep
   description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes…
   api_count: 2
+  score_band: strong
+  score_composite: 55.2
+  shared: 2
+- slug: smartbear
+  name: SmartBear
+  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI fo…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.8
+  shared: 2
+- slug: rainforest-qa
+  name: Rainforest QA
+  description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.8
+  shared: 2
+- slug: stainless
+  name: Stainless
+  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic,…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.5
+  shared: 2
+- slug: replay
+  name: Replay
+  description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause…
+  api_count: 1
   score_band: developing
   score_composite: 52.8
   shared: 2
@@ -202,28 +237,28 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
+  score_composite: 52.3
   shared: 2
-- slug: accessibe
-  name: accessiBe
-  description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
-  api_count: 1
+- slug: automation-preflight-api
+  name: Automation Preflight API
+  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
+  api_count: 2
   score_band: developing
   score_composite: 52.1
   shared: 2
-- slug: replay
-  name: Replay
-  description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause…
+- slug: assertible
+  name: Assertible
+  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body cont…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
+  score_composite: 49.9
   shared: 2
-- slug: stainless
-  name: Stainless
-  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic,…
-  api_count: 2
+- slug: testim-io
+  name: Testim
+  description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
+  api_count: 1
   score_band: developing
-  score_composite: 49.5
+  score_composite: 49.6
   shared: 2
 - slug: panaya
   name: Panaya
@@ -232,46 +267,11 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 2
-- slug: automation-preflight-api
-  name: Automation Preflight API
-  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
+- slug: octri-dev
+  name: Octri
+  description: 'Octri provides a platform that converts a single OpenAPI specification into four hosted products: API Studio for polished documentation on a custom domain, SDK Studio delivering client libraries in ten languages (TypeScript, Python, Go, Ja…'
   api_count: 2
   score_band: developing
-  score_composite: 49.3
-  shared: 2
-- slug: rainforest-qa
-  name: Rainforest QA
-  description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.8
-  shared: 2
-- slug: swaggerhub
-  name: SwaggerHub
-  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.5
-  shared: 2
-- slug: assertible
-  name: Assertible
-  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body cont…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.7
-  shared: 2
-- slug: openapi-generator
-  name: OpenAPI Generator
-  description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.5
-  shared: 2
-- slug: testim-io
-  name: Testim
-  description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.3
+  score_composite: 47.5
   shared: 2
 ---

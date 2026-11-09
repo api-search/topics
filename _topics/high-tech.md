@@ -91,7 +91,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/vocabulary/high-tech-vocabulary.yml
 - type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/examples/
-provider_count: 316
+provider_count: 324
 providers:
 - slug: snapmagic
   name: SnapMagic
@@ -105,28 +105,28 @@ providers:
   description: Cofactr provides electronics supply chain infrastructure for hardware manufacturers — component intelligence, procurement execution, and ITAR-registered warehousing and kitting — so teams avoid shortages and production delays with full tra…
   api_count: 1
   score_band: developing
-  score_composite: 45.7
+  score_composite: 48.1
   shared: 4
 - slug: avnet
   name: Avnet
   description: 'Avnet is a global technology distributor and solutions provider that delivers electronic components, embedded solutions, and design and supply chain services to industrial and commercial customers. It publishes two API surfaces: the Avnet…'
   api_count: 23
-  score_band: developing
-  score_composite: 53.9
+  score_band: strong
+  score_composite: 55.5
   shared: 3
 - slug: digi-key
   name: Digi-Key
   description: DigiKey is a global distributor of electronic components. Its developer portal (developer.digikey.com) publishes OAuth 2.0 REST APIs on api.digikey.com for product search, pricing and inventory (Product Information V4), product change noti…
   api_count: 22
   score_band: developing
-  score_composite: 51.7
+  score_composite: 47.2
   shared: 3
 - slug: renesas
   name: Renesas
   description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products…'
   api_count: 1
   score_band: developing
-  score_composite: 43.5
+  score_composite: 45.2
   shared: 3
 - slug: analog-devices
   name: Analog Devices
@@ -156,12 +156,19 @@ providers:
   score_band: emerging
   score_composite: 25.2
   shared: 3
+- slug: reed-semiconductor
+  name: Reed Semiconductor
+  description: Reed Semiconductor Corp. is a fabless power-management semiconductor company founded in 2019 and headquartered in Rhode Island, USA, with offices in Taipei, Shenzhen and Bengaluru. The name stands for Robust, Efficient, Eco-friendly and De…
+  api_count: 2
+  score_band: emerging
+  score_composite: 24.3
+  shared: 3
 - slug: fabric8labs
   name: Fabric8Labs
   description: Fabric8Labs is a San Diego, California based advanced-manufacturing company founded in 2015 that invented and commercialized Electrochemical Additive Manufacturing (ECAM), a room-temperature metal 3D printing process that uses a patented m…
   api_count: 2
   score_band: emerging
-  score_composite: 19.5
+  score_composite: 18.6
   shared: 3
 - slug: alif-semiconductor
   name: Alif Semiconductor
@@ -169,13 +176,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 17.6
-  shared: 3
-- slug: reed-semiconductor
-  name: Reed Semiconductor
-  description: Reed Semiconductor Corp. is a fabless power-management semiconductor company founded in 2019 and headquartered in Rhode Island, USA, with offices in Taipei, Shenzhen and Bengaluru. The name stands for Robust, Efficient, Eco-friendly and De…
-  api_count: 2
-  score_band: emerging
-  score_composite: 16.6
   shared: 3
 - slug: empower-semiconductor
   name: Empower Semiconductor

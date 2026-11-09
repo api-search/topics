@@ -109,7 +109,7 @@ providers:
   description: Flatcar Container Linux is a CNCF incubating minimal, immutable Linux distribution designed for running containers. It provides automatic atomic updates through the Nebraska update server, ensuring nodes stay secure and consistent. Flatcar…
   api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 36.7
   shared: 2
 - slug: debian
   name: Debian

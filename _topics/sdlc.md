@@ -14,13 +14,6 @@ repo: https://github.com/api-evangelist/sdlc
 api_count: 0
 apis: []
 links: []
-provider_count: 1
-providers:
-- slug: software-development-lifecycle
-  name: Software Development Lifecycle
-  description: The Software Development Lifecycle (SDLC) encompasses all processes, tools, and methodologies involved in planning, developing, testing, and delivering software from inception to retirement. Modern SDLC platforms integrate project planning…
-  api_count: 7
-  score_band: emerging
-  score_composite: 24.1
-  shared: 4
+provider_count: 0
+providers: []
 ---

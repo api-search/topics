@@ -67,7 +67,7 @@ links:
   url: https://github.com/api-evangelist/test-first/blob/main/json-ld/test-first-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/test-first/blob/main/vocabulary/test-first-vocabulary.yml
-provider_count: 6
+provider_count: 3
 providers:
 - slug: cucumber
   name: Cucumber
@@ -83,32 +83,11 @@ providers:
   score_band: minimal
   score_composite: 10.1
   shared: 2
-- slug: secure-by-design
-  name: Secure-By-Design
-  description: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely ad…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.1
-  shared: 2
 - slug: secure-by-default
   name: Secure-By-Default
   description: A security design principle where systems and software are configured with the most secure settings from the initial deployment, requiring users to explicitly opt-in to less secure options rather than having to manually enable security fea…
   api_count: 0
   score_band: minimal
   score_composite: 2.7
-  shared: 2
-- slug: security-by-design
-  name: Security by Design
-  description: A software development approach that integrates security considerations and practices from the initial design phase through the entire development lifecycle, rather than adding security as an afterthought. It plays a critical role in prote…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.8
-  shared: 2
-- slug: methodology
-  name: Methodology
-  description: Methodology is a concept entry covering systematic approaches and processes used in technology, software development, and computing to address specific technical challenges and improve outcomes.
-  api_count: 0
-  score_band: minimal
-  score_composite: 0.8
   shared: 2
 ---

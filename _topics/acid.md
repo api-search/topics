@@ -73,19 +73,19 @@ providers:
   score_band: thin
   score_composite: 36.4
   shared: 2
+- slug: riak
+  name: Riak KV
+  description: 'Riak KV is a distributed NoSQL key-value database originally developed by Basho Technologies, designed for high availability, fault tolerance, and horizontal scalability across commodity hardware. Riak exposes two client-facing APIs: a RES…'
+  api_count: 1
+  score_band: thin
+  score_composite: 26.6
+  shared: 2
 - slug: redplanetlabs
   name: Redplanetlabs
   description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while p…
   api_count: 1
   score_band: emerging
   score_composite: 25.7
-  shared: 2
-- slug: riak
-  name: Riak KV
-  description: 'Riak KV is a distributed NoSQL key-value database originally developed by Basho Technologies, designed for high availability, fault tolerance, and horizontal scalability across commodity hardware. Riak exposes two client-facing APIs: a RES…'
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.0
   shared: 2
 - slug: tigerbeetle
   name: TigerBeetle

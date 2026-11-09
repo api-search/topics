@@ -44,14 +44,14 @@ links:
   url: https://github.com/api-evangelist/underwriting-standards/blob/main/vocabulary/underwriting-standards-vocabulary.yml
 - type: JSONSchema
   url: https://github.com/api-evangelist/underwriting-standards/blob/main/json-schema/underwriting-standards-submission-schema.json
-provider_count: 315
+provider_count: 319
 providers:
 - slug: whitespace-london
   name: Whitespace
   description: Whitespace Software Limited is a London-based digital placing platform for the Lloyd's and London (re)insurance market, and one of only two electronic placing systems given fully recognised status by Lloyd's. Acquired by Verisk (via Sequel…
   api_count: 1
   score_band: developing
-  score_composite: 45.7
+  score_composite: 47.3
   shared: 4
 - slug: lloyds-of-london
   name: Lloyd's of London
@@ -100,14 +100,21 @@ providers:
   description: Origami Risk is a Chicago-headquartered risk, safety and insurance SaaS company founded in 2009 that began as a single-version cloud RMIS (risk management information system) and grew into a core-systems platform for the United States prop…
   api_count: 4
   score_band: developing
-  score_composite: 51.0
+  score_composite: 53.6
   shared: 3
 - slug: socotra
   name: Socotra
   description: Socotra is a cloud-native insurance core platform that lets carriers, MGAs, and program administrators configure, launch, and operate insurance products across any line, geography, or distribution channel. Its Connected Core / Insurance Su…
   api_count: 1
   score_band: developing
-  score_composite: 50.9
+  score_composite: 52.5
+  shared: 3
+- slug: evari
+  name: Evari
+  description: Evari is an insurance technology company founded in Sydney by Daniel Fogarty (former CEO of Zurich Australia and New Zealand), Robert Jeffery and Brack Norris, and now operating as Evari Services UK Ltd. It launched as a digital small-busi…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.8
   shared: 3
 - slug: acord
   name: ACORD
@@ -116,47 +123,47 @@ providers:
   score_band: developing
   score_composite: 50.2
   shared: 3
-- slug: evari
-  name: Evari
-  description: Evari is an insurance technology company founded in Sydney by Daniel Fogarty (former CEO of Zurich Australia and New Zealand), Robert Jeffery and Brack Norris, and now operating as Evari Services UK Ltd. It launched as a digital small-busi…
+- slug: coverwhaleinsurancesolutions
+  name: Cover Whale
+  description: Cover Whale is a commercial auto insurtech that quotes, binds, and issues policies through an always-on underwriting engine called DriveSmart. The platform pre-fills DOT and fleet data, pulls real-time driver and vehicle records, analyzes…
   api_count: 1
   score_band: developing
-  score_composite: 47.6
+  score_composite: 47.4
   shared: 3
 - slug: ppl-london-market
   name: PPL
   description: PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the…
   api_count: 5
   score_band: developing
-  score_composite: 45.3
+  score_composite: 46.9
   shared: 3
 - slug: zinnia
   name: Zinnia
   description: Zinnia is an Eldridge-backed insurance technology and third-party administration company that provides the policy administration, new business, order entry, illustration, document and in-force servicing infrastructure behind a large share…
   api_count: 10
   score_band: developing
-  score_composite: 44.7
+  score_composite: 46.3
   shared: 3
 - slug: open-insurance
   name: Open
   description: Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading as Open, is an Australian insurtech and underwriting agency that packages car, home and contents, landlord and travel cover as an embedded product other brands can sell.…
   api_count: 1
   score_band: developing
-  score_composite: 40.7
+  score_composite: 44.1
+  shared: 3
+- slug: majesco
+  name: Majesco
+  description: Majesco is a global provider of cloud-native insurance software for Property & Casualty and Life, Annuity & Health carriers, serving 130+ insurers worldwide from its Morristown, New Jersey headquarters. Founded in 1989, it unifies Policy,…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.0
   shared: 3
 - slug: ripe-insurance
   name: Ripe Insurance
   description: Ripe Insurance Services Limited, trading as Ripe and part of Ripe Thinking Limited, is a Stockport-based United Kingdom digital Managing General Agent and specialist insurance intermediary authorised and regulated by the Financial Conduct…
   api_count: 2
   score_band: developing
-  score_composite: 40.0
-  shared: 3
-- slug: majesco
-  name: Majesco
-  description: Majesco is a global provider of cloud-native insurance software for Property & Casualty and Life, Annuity & Health carriers, serving 130+ insurers worldwide from its Morristown, New Jersey headquarters. Founded in 1989, it unifies Policy,…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.0
+  score_composite: 41.7
   shared: 3
 - slug: hiscox
   name: Hiscox
@@ -193,19 +200,26 @@ providers:
   score_band: emerging
   score_composite: 25.0
   shared: 3
-- slug: weav
-  name: Weav
-  description: Weav.ai is an AI-native decisioning platform for property & casualty (P&C) insurance, applying agentic AI and document intelligence across underwriting, premium audit, and claims. The platform pairs pre-configured, line-of-business knowled…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.6
-  shared: 3
 - slug: accelerant
   name: Accelerant
   description: 'Accelerant Holdings (NYSE: ARX) operates the Accelerant Risk Exchange, a data-driven marketplace that connects underwriters of specialty insurance risk — MGAs, program administrators, captive managers and retail brokers, referred to as Mem…'
   api_count: 1
   score_band: emerging
   score_composite: 24.3
+  shared: 3
+- slug: weav
+  name: Weav
+  description: Weav.ai is an AI-native decisioning platform for property & casualty (P&C) insurance, applying agentic AI and document intelligence across underwriting, premium audit, and claims. The platform pairs pre-configured, line-of-business knowled…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.6
+  shared: 3
+- slug: ki-insurance
+  name: Ki Insurance
+  description: Ki is the first fully digital, algorithmically driven syndicate at Lloyd's of London, launched in 2020 out of Brit with Google Cloud and University College London and capitalised with US$500m from Blackstone Tactical Opportunities and Fair…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.2
   shared: 3
 - slug: wynsure
   name: Wynsure
@@ -220,13 +234,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 21.9
-  shared: 3
-- slug: ki-insurance
-  name: Ki Insurance
-  description: Ki is the first fully digital, algorithmically driven syndicate at Lloyd's of London, launched in 2020 out of Brit with Google Cloud and University College London and capitalised with US$500m from Blackstone Tactical Opportunities and Fair…
-  api_count: 1
-  score_band: emerging
-  score_composite: 21.5
   shared: 3
 - slug: honey-insurance
   name: Honey Insurance
@@ -248,12 +255,5 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 20.0
-  shared: 3
-- slug: open-gi
-  name: Open GI
-  description: Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. It…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.7
   shared: 3
 ---

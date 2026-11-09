@@ -134,35 +134,42 @@ links:
   url: https://github.com/api-evangelist/web-standards/blob/main/json-ld/web-standards-context.jsonld
 - type: Vocabulary
   url: https://github.com/api-evangelist/web-standards/blob/main/vocabulary/web-standards-vocabulary.yml
-provider_count: 19
+provider_count: 22
 providers:
 - slug: ehrbase
   name: EHRbase
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.7
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 48.9
+  score_composite: 52.1
   shared: 2
-- slug: typescript
-  name: TypeScript
-  description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for l…
-  api_count: 3
+- slug: fhir
+  name: Fast Healthcare Interoperability Resources
+  description: FHIR (Fast Healthcare Interoperability Resources) is a platform specification developed by HL7 that defines a set of capabilities for use across the healthcare process, in all jurisdictions, and in many different clinical and administrativ…
+  api_count: 1
   score_band: developing
-  score_composite: 42.1
+  score_composite: 49.0
   shared: 2
 - slug: canada-health-infoway
   name: Canada Health Infoway
   description: Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway…
   api_count: 2
-  score_band: thin
-  score_composite: 39.1
+  score_band: developing
+  score_composite: 41.1
+  shared: 2
+- slug: adrianhomelab-com
+  name: adrianhomelab-com
+  description: Adrian Oaida is a frontend developer based in Petrila, Romania, with close to a decade of experience building production React applications. He specializes in JavaScript, TypeScript, and modern web technologies, and has contributed to mult…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.7
   shared: 2
 - slug: cabolabs
   name: CaboLabs
@@ -171,19 +178,19 @@ providers:
   score_band: thin
   score_composite: 37.7
   shared: 2
+- slug: openehr
+  name: openEHR
+  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
+  api_count: 7
+  score_band: thin
+  score_composite: 30.0
+  shared: 2
 - slug: aousd
   name: Alliance for OpenUSD
   description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
   api_count: 2
   score_band: thin
   score_composite: 28.3
-  shared: 2
-- slug: openehr
-  name: openEHR
-  description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
-  api_count: 7
-  score_band: thin
-  score_composite: 28.1
   shared: 2
 - slug: meteor
   name: Meteor
@@ -206,6 +213,13 @@ providers:
   score_band: emerging
   score_composite: 21.8
   shared: 2
+- slug: ogc
+  name: Open Geospatial Consortium (OGC)
+  description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
+  api_count: 23
+  score_band: emerging
+  score_composite: 20.0
+  shared: 2
 - slug: thymeleaf
   name: Thymeleaf
   description: Thymeleaf is a modern server-side Java template engine for both web and standalone environments, capable of processing HTML, XML, JavaScript, CSS, and plain text. Its primary goal is to bring elegant natural templates to development workfl…
@@ -213,19 +227,12 @@ providers:
   score_band: emerging
   score_composite: 19.7
   shared: 2
-- slug: fhir
-  name: Fast Healthcare Interoperability Resources
-  description: FHIR (Fast Healthcare Interoperability Resources) is a platform specification developed by HL7 that defines a set of capabilities for use across the healthcare process, in all jurisdictions, and in many different clinical and administrativ…
-  api_count: 1
+- slug: wiastandards-com
+  name: wiastandards-com
+  description: WIA Standards (World Certification Industry Association) is a global organization dedicated to developing, maintaining, and promoting certification standards across various industries. With 18 years of experience, it offers over 730 standa…
+  api_count: 5
   score_band: emerging
   score_composite: 18.4
-  shared: 2
-- slug: ogc
-  name: Open Geospatial Consortium (OGC)
-  description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
-  api_count: 23
-  score_band: emerging
-  score_composite: 18.3
   shared: 2
 - slug: angular
   name: Angular
@@ -255,12 +262,12 @@ providers:
   score_band: minimal
   score_composite: 6.6
   shared: 2
-- slug: html
-  name: HTML
-  description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
+- slug: defence-geospatial-information-working-group-dgiwg
+  name: Defence Geospatial Information Working Group (DGIWG)
+  description: Defence Geospatial Information Working Group (DGIWG) is an international consortium that develops and promotes standards for the exchange of geospatial information among defence and security organisations. It facilitates interoperability,…
   api_count: 0
   score_band: minimal
-  score_composite: 4.9
+  score_composite: 6.0
   shared: 2
 - slug: yellowbrink
   name: YellowBrink
@@ -268,5 +275,19 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 4.1
+  shared: 2
+- slug: html
+  name: HTML
+  description: HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. Maintained as a Living Standard by WHATWG and developed in close coordination with the W3C, HTML defines the structure and semant…
+  api_count: 0
+  score_band: null
+  score_composite: 0
+  shared: 2
+- slug: typescript
+  name: TypeScript
+  description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for l…
+  api_count: 3
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

@@ -30,14 +30,14 @@ links:
   url: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
 - type: Reference
   url: https://www.nist.gov/cyberframework
-provider_count: 199
+provider_count: 208
 providers:
 - slug: zero-networks
   name: Zero Networks
   description: Zero Networks is an Israeli-American network security company whose Segment platform delivers automated, agentless microsegmentation and identity segmentation for enterprise networks. It builds a host-based firewall "bubble" around every a…
   api_count: 1
   score_band: developing
-  score_composite: 45.3
+  score_composite: 46.9
   shared: 4
 - slug: zero-trust-security-model
   name: Zero-Trust Security Model
@@ -69,52 +69,59 @@ providers:
   shared: 4
 - slug: microsoft-entra
   name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  description: Microsoft Entra (formerly Azure Active Directory) is Microsoft's family of identity and network access products, providing authentication, authorization, directory, identity governance, external identities, verifiable credentials and secur…
   api_count: 1
-  score_band: strong
-  score_composite: 58.4
+  score_band: exemplar
+  score_composite: 73.9
   shared: 3
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and No…
   api_count: 7
   score_band: strong
-  score_composite: 56.9
+  score_composite: 65.5
   shared: 3
 - slug: kolide
   name: Kolide
   description: Kolide is a device trust and endpoint security platform, now part of 1Password Extended Access Management. It enforces Zero Trust access by blocking non-compliant devices from authenticating into corporate applications through Okta, Google…
   api_count: 2
   score_band: strong
-  score_composite: 56.5
+  score_composite: 58.8
   shared: 3
 - slug: threatlocker
   name: ThreatLocker
   description: ThreatLocker is a Zero Trust endpoint and cloud security platform used by enterprises and managed service providers to enforce least privilege across endpoints, networks, and cloud workloads. Its capabilities include Application Control (a…
   api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 3
-- slug: tufin
-  name: Tufin
-  description: Tufin provides security policy orchestration solutions for managing network security policies across hybrid cloud environments, including firewalls, SDN, and cloud security controls. The Tufin Orchestration Suite (TOS) includes SecureTrack…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.5
+  score_band: strong
+  score_composite: 57.1
   shared: 3
 - slug: coronet
   name: CoroNet
   description: Coro (CoroNet) is a cybersecurity company delivering a unified, AI-native security platform for lean IT teams, growing organizations, and managed service providers (MSPs). A single platform and dashboard consolidate endpoint protection, em…
   api_count: 1
   score_band: developing
-  score_composite: 42.0
+  score_composite: 48.4
+  shared: 3
+- slug: tufin
+  name: Tufin
+  description: Tufin provides security policy orchestration solutions for managing network security policies across hybrid cloud environments, including firewalls, SDN, and cloud security controls. The Tufin Orchestration Suite (TOS) includes SecureTrack…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.8
   shared: 3
 - slug: wandera
   name: Wandera
   description: Wandera was a zero-trust mobile security company (backed by Bessemer Venture Partners and Sapphire Ventures) that Jamf acquired in July 2021 for approximately $400M. Its technology is now sold as Jamf Security Cloud (RADAR), providing mobi…
   api_count: 2
+  score_band: developing
+  score_composite: 42.7
+  shared: 3
+- slug: iboss
+  name: iboss
+  description: iboss, Inc. is a Boston-headquartered cybersecurity company founded in 2003 that operates an AI-powered, cloud-native Zero Trust SASE (Secure Access Service Edge) platform used by more than 4,000 enterprise, US federal, state and local gov…
+  api_count: 1
   score_band: thin
-  score_composite: 38.0
+  score_composite: 38.2
   shared: 3
 - slug: watchguard
   name: WatchGuard
@@ -135,7 +142,7 @@ providers:
   description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud, endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families. Check Point exposes a wide range of REST APIs…
   api_count: 5
   score_band: thin
-  score_composite: 34.4
+  score_composite: 32.6
   shared: 3
 - slug: virsec
   name: Virsec
@@ -151,12 +158,12 @@ providers:
   score_band: thin
   score_composite: 30.9
   shared: 3
-- slug: iboss
-  name: iboss
-  description: iboss, Inc. is a Boston-headquartered cybersecurity company founded in 2003 that operates an AI-powered, cloud-native Zero Trust SASE (Secure Access Service Edge) platform used by more than 4,000 enterprise, US federal, state and local gov…
-  api_count: 1
+- slug: qi-anxin
+  name: Qi Anxin
+  description: Qi An Xin Technology Group (QAX, 奇安信) is a Beijing-headquartered cybersecurity vendor founded in 2014 and listed on the Shanghai Stock Exchange STAR Market (688561), with more than 10,000 employees across 65 branches. It builds enterprise-…
+  api_count: 2
   score_band: thin
-  score_composite: 29.6
+  score_composite: 27.7
   shared: 3
 - slug: securew2
   name: SecureW2
@@ -199,13 +206,6 @@ providers:
   api_count: 3
   score_band: emerging
   score_composite: 23.6
-  shared: 3
-- slug: qi-anxin
-  name: Qi Anxin
-  description: Qi An Xin Technology Group (QAX, 奇安信) is a Beijing-headquartered cybersecurity vendor founded in 2014 and listed on the Shanghai Stock Exchange STAR Market (688561), with more than 10,000 employees across 65 branches. It builds enterprise-…
-  api_count: 2
-  score_band: emerging
-  score_composite: 19.8
   shared: 3
 - slug: elpha-secure
   name: Elpha Secure

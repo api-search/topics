@@ -43,7 +43,7 @@ links:
   url: https://spring.io/cloud
 - type: Open Liberty RESTful Microservices
   url: https://openliberty.io/docs/latest/rest-microservices.html
-provider_count: 143
+provider_count: 137
 providers:
 - slug: service-fabric
   name: Service Fabric
@@ -59,13 +59,6 @@ providers:
   score_band: thin
   score_composite: 34.9
   shared: 4
-- slug: service-mesh
-  name: Service Mesh
-  description: Service mesh is a dedicated infrastructure layer for handling service-to-service communication in microservices architectures. It provides traffic management, mutual TLS security, observability, policy enforcement, and resilience features…
-  api_count: 5
-  score_band: thin
-  score_composite: 27.0
-  shared: 4
 - slug: open-service-mesh
   name: Open Service Mesh
   description: Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh built on Envoy and the Service Mesh Interface (SMI) specification. OSM provides traffic shifting, mutual TLS, access control, observability, and automatic side…
@@ -73,33 +66,26 @@ providers:
   score_band: emerging
   score_composite: 21.5
   shared: 4
-- slug: microservice-architecture
-  name: Microservice Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services organized around business capabilities. Widely used by developers to build, maintain, and scale software applicatio…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
-  shared: 4
-- slug: microservices-architecture
-  name: Microservices Architecture
-  description: An architectural style that structures an application as a collection of loosely coupled, independently deployable services, each running in its own process and communicating through lightweight mechanisms like HTTP/REST APIs. Widely used…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 4
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
   api_count: 5
   score_band: strong
-  score_composite: 61.6
+  score_composite: 60.4
   shared: 3
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
   api_count: 4
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.9
+  shared: 3
+- slug: zeebe
+  name: Zeebe
+  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.2
   shared: 3
 - slug: etcd
   name: Etcd
@@ -108,19 +94,12 @@ providers:
   score_band: developing
   score_composite: 48.5
   shared: 3
-- slug: zeebe
-  name: Zeebe
-  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
-  shared: 3
 - slug: isovalent
   name: Isovalent
   description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
   api_count: 2
   score_band: developing
-  score_composite: 41.2
+  score_composite: 42.8
   shared: 3
 - slug: envoy-gateway
   name: Envoy Gateway
@@ -148,7 +127,7 @@ providers:
   description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
   api_count: 13
   score_band: thin
-  score_composite: 37.0
+  score_composite: 38.6
   shared: 3
 - slug: linkerd
   name: Linkerd
@@ -204,21 +183,7 @@ providers:
   description: Saaras provides cloud‑native API gateway and service‑mesh solutions built on Kubernetes. Their EnRoute Gateway offers high‑performance traffic management, security, observability, and dynamic routing for modern cloud applications. Saaras a…
   api_count: 4
   score_band: emerging
-  score_composite: 19.9
-  shared: 3
-- slug: restful-services
-  name: RESTful Services
-  description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
-  api_count: 5
-  score_band: emerging
-  score_composite: 15.4
-  shared: 3
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
+  score_composite: 16.3
   shared: 3
 - slug: octarine
   name: Octarine
@@ -227,19 +192,26 @@ providers:
   score_band: minimal
   score_composite: 2.6
   shared: 3
-- slug: microservices-design-patterns
-  name: Microservices Design Patterns
-  description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
+- slug: restful-services
+  name: RESTful Services
+  description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
+  api_count: 5
+  score_band: null
+  score_composite: 0
   shared: 3
 - slug: akuity
   name: Akuity
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery,…'
   api_count: 8
   score_band: exemplar
-  score_composite: 73.0
+  score_composite: 74.1
+  shared: 2
+- slug: calico
+  name: Calico
+  description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and secu…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.4
   shared: 2
 - slug: grafana-loki
   name: Grafana Loki
@@ -248,11 +220,39 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 2
+- slug: microsoft-azure-service-fabric
+  name: Azure Service Fabric
+  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for…
+  api_count: 4
+  score_band: strong
+  score_composite: 65.9
+  shared: 2
 - slug: spectro-cloud
   name: Spectro Cloud
   description: Spectro Cloud provides Palette, an enterprise platform for managing the full lifecycle of Kubernetes clusters and cloud-native and AI infrastructure across data centers, public clouds, bare metal, and the edge. Palette uses declarative clu…
   api_count: 3
   score_band: strong
   score_composite: 65.9
+  shared: 2
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up…'
+  api_count: 1
+  score_band: strong
+  score_composite: 65.2
+  shared: 2
+- slug: kubeshop
+  name: Kubeshop
+  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.8
+  shared: 2
+- slug: tigera
+  name: Tigera
+  description: Tigera is the creator of Project Calico, the open-source networking and network-security engine for Kubernetes, and the company behind Calico Open Source, Calico Enterprise and Calico Cloud. Its products deliver container networking (BGP,…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.7
   shared: 2
 ---

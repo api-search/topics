@@ -98,13 +98,6 @@ providers:
   score_band: thin
   score_composite: 26.9
   shared: 2
-- slug: smtp
-  name: SMTP
-  description: Simple Mail Transfer Protocol (SMTP) is the foundational internet standard for transmitting electronic mail across networks. Defined in RFC 5321 (October 2008), SMTP uses a command-response model over TCP port 25 (or 587 for submission, 46…
-  api_count: 2
-  score_band: emerging
-  score_composite: 11.5
-  shared: 2
 - slug: internet-assigned-numbers-authority
   name: Internet Assigned Numbers Authority
   description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
@@ -112,18 +105,25 @@ providers:
   score_band: emerging
   score_composite: 11.2
   shared: 2
-- slug: snmp
-  name: SNMP
-  description: Simple Network Management Protocol (SNMP) is the foundational IETF standard for monitoring and managing network devices. SNMP defines a request/response protocol over UDP (ports 161 and 162) for retrieving and altering management variables…
-  api_count: 5
-  score_band: minimal
-  score_composite: 10.9
-  shared: 2
 - slug: http-2
   name: HTTP/2
   description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over…
   api_count: 0
-  score_band: minimal
-  score_composite: 4.3
+  score_band: null
+  score_composite: 0
+  shared: 2
+- slug: smtp
+  name: SMTP
+  description: Simple Mail Transfer Protocol (SMTP) is the foundational internet standard for transmitting electronic mail across networks. Defined in RFC 5321 (October 2008), SMTP uses a command-response model over TCP port 25 (or 587 for submission, 46…
+  api_count: 2
+  score_band: null
+  score_composite: 0
+  shared: 2
+- slug: snmp
+  name: SNMP
+  description: Simple Network Management Protocol (SNMP) is the foundational IETF standard for monitoring and managing network devices. SNMP defines a request/response protocol over UDP (ports 161 and 162) for retrieving and altering management variables…
+  api_count: 5
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

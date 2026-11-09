@@ -63,19 +63,19 @@ providers:
   score_band: minimal
   score_composite: 3.4
   shared: 4
+- slug: aeb
+  name: AEB
+  description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
+  api_count: 11
+  score_band: thin
+  score_composite: 35.1
+  shared: 3
 - slug: trabex
   name: Trabex
   description: Trabex is a trade compliance platform that provides automated export compliance, shipment management, restricted party screening, and Automated Export System (AES) filing services. Trabex offers APIs for integrating trade compliance workfl…
   api_count: 1
   score_band: thin
   score_composite: 32.5
-  shared: 3
-- slug: aeb
-  name: AEB
-  description: AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and f…
-  api_count: 11
-  score_band: thin
-  score_composite: 31.2
   shared: 3
 - slug: bite-data
   name: BITE Data
@@ -96,14 +96,14 @@ providers:
   description: Tradeverifyd is a supply chain intelligence platform, formed by the combination of Transmute and mesur.io and backed by Techstars, that screens suppliers against 200+ global data sources, maps multi-tier supplier relationship graphs, monit…
   api_count: 2
   score_band: developing
-  score_composite: 40.4
+  score_composite: 42.0
   shared: 2
 - slug: dsv
   name: DSV
   description: DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from…
   api_count: 29
-  score_band: thin
-  score_composite: 38.9
+  score_band: developing
+  score_composite: 40.6
   shared: 2
 - slug: zonos
   name: Zonos
@@ -117,7 +117,7 @@ providers:
   description: Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and c…
   api_count: 17
   score_band: emerging
-  score_composite: 21.3
+  score_composite: 22.9
   shared: 2
 - slug: customs-and-border-protection
   name: Customs and Border Protection

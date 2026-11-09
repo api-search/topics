@@ -109,7 +109,7 @@ links:
   url: https://github.com/api-evangelist/zero-trust/blob/main/examples/zero-trust-access-decision-example.json
 - type: Resources
   url: https://github.com/api-evangelist/zero-trust/blob/main/vocabulary/zero-trust-vocabulary.yaml
-provider_count: 423
+provider_count: 434
 providers:
 - slug: zero-trust-network-access
   name: Zero Trust Network Access
@@ -137,28 +137,35 @@ providers:
   description: iboss, Inc. is a Boston-headquartered cybersecurity company founded in 2003 that operates an AI-powered, cloud-native Zero Trust SASE (Secure Access Service Edge) platform used by more than 4,000 enterprise, US federal, state and local gov…
   api_count: 1
   score_band: thin
-  score_composite: 29.6
+  score_composite: 38.2
   shared: 5
 - slug: aembit
   name: Aembit
   description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.6
+  score_composite: 75.9
   shared: 4
 - slug: microsoft-entra
   name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  description: Microsoft Entra (formerly Azure Active Directory) is Microsoft's family of identity and network access products, providing authentication, authorization, directory, identity governance, external identities, verifiable credentials and secur…
   api_count: 1
-  score_band: strong
-  score_composite: 58.4
+  score_band: exemplar
+  score_composite: 73.9
+  shared: 4
+- slug: coronet
+  name: CoroNet
+  description: Coro (CoroNet) is a cybersecurity company delivering a unified, AI-native security platform for lean IT teams, growing organizations, and managed service providers (MSPs). A single platform and dashboard consolidate endpoint protection, em…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.4
   shared: 4
 - slug: zero-networks
   name: Zero Networks
   description: Zero Networks is an Israeli-American network security company whose Segment platform delivers automated, agentless microsegmentation and identity segmentation for enterprise networks. It builds a host-based firewall "bubble" around every a…
   api_count: 1
   score_band: developing
-  score_composite: 45.3
+  score_composite: 46.9
   shared: 4
 - slug: spideroak
   name: SpiderOak
@@ -172,14 +179,7 @@ providers:
   description: P0 Security is a cloud-native Privileged Access Management (PAM) platform that governs runtime authorization for human users, machine/service accounts, and AI agents across hybrid and multi-cloud environments. Its AuthZ Control Plane enfor…
   api_count: 1
   score_band: developing
-  score_composite: 42.6
-  shared: 4
-- slug: coronet
-  name: CoroNet
-  description: Coro (CoroNet) is a cybersecurity company delivering a unified, AI-native security platform for lean IT teams, growing organizations, and managed service providers (MSPs). A single platform and dashboard consolidate endpoint protection, em…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.0
+  score_composite: 44.2
   shared: 4
 - slug: pulse
   name: Pulse
@@ -193,7 +193,7 @@ providers:
   description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud, endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families. Check Point exposes a wide range of REST APIs…
   api_count: 5
   score_band: thin
-  score_composite: 34.4
+  score_composite: 32.6
   shared: 4
 - slug: illumio
   name: Illumio
@@ -207,7 +207,7 @@ providers:
   description: Perimeter 81 is a cloud-native Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) platform, now part of Check Point as Check Point Harmony SASE following its 2023 acquisition. It lets organizations build and manage secu…
   api_count: 1
   score_band: thin
-  score_composite: 28.7
+  score_composite: 30.3
   shared: 4
 - slug: unisys
   name: Unisys
@@ -279,46 +279,46 @@ providers:
   score_band: minimal
   score_composite: 3.4
   shared: 4
-- slug: palo-alto-networks
-  name: Palo Alto Networks
-  description: Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS…
-  api_count: 468
-  score_band: exemplar
-  score_composite: 68.2
-  shared: 3
 - slug: tenable
   name: Tenable
   description: Tenable is a cybersecurity and exposure-management company, maker of Nessus and the Tenable One platform, providing vulnerability management, web application scanning, cloud security, identity exposure, attack surface management and OT sec…
   api_count: 8
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 72.3
+  shared: 3
+- slug: palo-alto-networks
+  name: Palo Alto Networks
+  description: Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS…
+  api_count: 468
+  score_band: exemplar
+  score_composite: 68.1
   shared: 3
 - slug: cisco-umbrella
   name: Cisco Umbrella
   description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudl…'
   api_count: 52
   score_band: strong
-  score_composite: 62.7
-  shared: 3
-- slug: centrify
-  name: Centrify
-  description: Centrify is an identity and privileged access management (PAM) platform now delivered as part of Delinea (the company formed from the Centrify + Thycotic merger). The Centrify Identity Platform / Cloud Suite / Privileged Access Service sec…
-  api_count: 15
-  score_band: strong
-  score_composite: 57.6
-  shared: 3
-- slug: cisco-secure-firewall
-  name: Cisco Secure Firewall
-  description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
-  api_count: 14
-  score_band: strong
-  score_composite: 57.0
+  score_composite: 65.7
   shared: 3
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and No…
   api_count: 7
   score_band: strong
-  score_composite: 56.9
+  score_composite: 65.5
+  shared: 3
+- slug: cisco-secure-firewall
+  name: Cisco Secure Firewall
+  description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
+  api_count: 14
+  score_band: strong
+  score_composite: 59.9
+  shared: 3
+- slug: virtru
+  name: Virtru
+  description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Acces…
+  api_count: 15
+  score_band: strong
+  score_composite: 58.7
   shared: 3
 ---

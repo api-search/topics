@@ -120,16 +120,16 @@ providers:
 - slug: gravitee
   name: Gravitee
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kube…
-  api_count: 2
+  api_count: 3
   score_band: strong
-  score_composite: 65.1
+  score_composite: 65.2
   shared: 2
 - slug: hivemq
   name: HiveMQ
   description: HiveMQ is an enterprise MQTT broker and IoT connectivity platform that provides reliable, scalable bidirectional messaging between connected devices and back-end systems using the MQTT protocol. It supports MQTT 3, MQTT 5, MQTT over WebSoc…
   api_count: 1
-  score_band: developing
-  score_composite: 49.3
+  score_band: strong
+  score_composite: 57.2
   shared: 2
 - slug: apache-activemq
   name: Apache ActiveMQ
@@ -142,7 +142,7 @@ providers:
   name: Messaging Protocol
   description: Messaging Protocol is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. Examples include AMQP, MQTT, STOMP, and other protocols that enable reliable, effic…
   api_count: 0
-  score_band: minimal
-  score_composite: 2.6
+  score_band: null
+  score_composite: 0
   shared: 2
 ---

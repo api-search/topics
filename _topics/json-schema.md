@@ -42,15 +42,15 @@ providers:
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
-  score_band: thin
-  score_composite: 38.1
+  score_band: developing
+  score_composite: 39.7
   shared: 2
 - slug: typespec
   name: TypeSpec
   description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
   api_count: 6
   score_band: thin
-  score_composite: 29.7
+  score_composite: 32.5
   shared: 2
 - slug: connexion
   name: Connexion

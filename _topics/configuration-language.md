@@ -73,7 +73,7 @@ providers:
   description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, an…
   api_count: 6
   score_band: developing
-  score_composite: 50.6
+  score_composite: 49.5
   shared: 2
 - slug: carvel
   name: Carvel

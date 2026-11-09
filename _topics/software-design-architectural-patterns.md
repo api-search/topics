@@ -48,7 +48,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/software-design-architectural-patterns/refs/heads/main/json-ld/software-design-architectural-patterns-context.jsonld
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/software-design-architectural-patterns/refs/heads/main/vocabulary/software-design-architectural-patterns-vocabulary.yml
-provider_count: 18
+provider_count: 8
 providers:
 - slug: axon-framework
   name: Axon Framework
@@ -62,28 +62,14 @@ providers:
   description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, providing frameworks for managing distributed data consistency across services without two-phase commit.
   api_count: 1
   score_band: emerging
-  score_composite: 19.8
-  shared: 3
-- slug: integration-patterns
-  name: Integration Patterns
-  description: Integration Patterns are design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Enterprise Integration Patterns (EIP),…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 3
-- slug: microservice-design
-  name: Microservice Design
-  description: Architectural approach for building applications as a collection of loosely coupled, independently deployable services that are organized around business capabilities. Covers principles, patterns, and best practices for designing effective…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.6
+  score_composite: 21.5
   shared: 3
 - slug: conductor-oss
   name: Conductor OSS
   description: Conductor OSS is the Netflix-founded, Orkes-stewarded open source workflow and agentic AI orchestration platform. It provides a durable, event-driven workflow engine for coordinating microservices, long-running tasks, human approvals, and…
   api_count: 1
   score_band: thin
-  score_composite: 32.7
+  score_composite: 34.3
   shared: 2
 - slug: vert-x
   name: Vert.x
@@ -104,14 +90,7 @@ providers:
   description: Conductor is a microservices orchestration platform originally created by Netflix, providing a workflow engine for coordinating and managing complex distributed processes across multiple services with built-in retries, error handling, and…
   api_count: 1
   score_band: emerging
-  score_composite: 19.9
-  shared: 2
-- slug: dependency-injection
-  name: Dependency Injection
-  description: A design pattern in which objects receive their dependencies from external sources rather than creating them internally, promoting loose coupling, easier testing, and clear composition roots. Effective use of this practice reduces bugs in…
-  api_count: 1
-  score_band: emerging
-  score_composite: 11.0
+  score_composite: 21.5
   shared: 2
 - slug: design-patterns
   name: Design Patterns
@@ -120,60 +99,11 @@ providers:
   score_band: emerging
   score_composite: 11.0
   shared: 2
-- slug: microservice-architecture-patterns
-  name: Micro-Service Architecture Patterns
-  description: Design patterns and best practices for building distributed systems using microservices architecture, including service decomposition, communication patterns, data management, and deployment strategies.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
-  shared: 2
-- slug: domain-driven-design
-  name: Domain-Driven Design
-  description: A software development approach that focuses on modeling software to match a domain according to input from domain experts, emphasizing collaboration between technical and domain experts to create a shared understanding through ubiquitous…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.3
-  shared: 2
-- slug: modular-monolith
-  name: Modular Monolith
-  description: An architectural pattern that structures a monolithic application into loosely coupled, well-defined modules with clear boundaries and dependencies, combining the operational simplicity of a monolith with the organizational benefits of mod…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.1
-  shared: 2
 - slug: services-patterns
   name: Services Patterns
   description: Design patterns and architectural approaches for building microservices and service-oriented applications. Modern distributed architectures rely on it to coordinate workloads across multiple nodes and regions.
   api_count: 0
   score_band: minimal
   score_composite: 2.3
-  shared: 2
-- slug: inversion-of-control
-  name: Inversion of Control
-  description: Inversion of Control (IoC) is a software design principle where the control flow of a program is inverted compared to traditional programming. Instead of application code calling frameworks, frameworks call application code. Common impleme…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 2
-- slug: microservices
-  name: Microservices
-  description: An index of microservices architecture frameworks, service discovery, resilience, messaging, workflow orchestration, and distributed systems tooling repositories.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 2
-- slug: microservices-design-patterns
-  name: Microservices Design Patterns
-  description: Architectural patterns and best practices for designing, building, and maintaining microservices-based applications, including patterns for communication, data management, deployment, and resilience.
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
-  shared: 2
-- slug: monolithic-architecture
-  name: Monolithic Architecture
-  description: Monolithic Architecture is a software design approach in which an application is built as a single, unified unit where all components, business logic, data access, and user interface are tightly coupled and deployed together. It contrasts…
-  api_count: 0
-  score_band: minimal
-  score_composite: 1.7
   shared: 2
 ---

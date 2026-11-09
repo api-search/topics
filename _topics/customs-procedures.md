@@ -49,7 +49,7 @@ links:
   url: https://www.atacarnet.com/
 - type: TIR
   url: https://unece.org/transport/border-crossing/tir
-provider_count: 11
+provider_count: 14
 providers:
 - slug: international-trade-administration
   name: International Trade Administration
@@ -84,14 +84,14 @@ providers:
   description: 'ShipFinder, operated by Singapore-based ELANE GLOBAL PTE. LTD., publishes a REST/HTTP maritime data API that turns the global AIS feed into queryable vessel intelligence. Forty documented operations are organised into seven datasets: AIS (…'
   api_count: 2
   score_band: developing
-  score_composite: 47.8
+  score_composite: 53.7
   shared: 2
 - slug: foreign-agricultural-service
   name: Foreign Agricultural Service
   description: The Foreign Agricultural Service (FAS) is the trade and export agency of the United States Department of Agriculture (USDA), working to promote U.S. agricultural exports and expand global markets for American agricultural products. FAS run…
   api_count: 2
   score_band: developing
-  score_composite: 40.7
+  score_composite: 42.4
   shared: 2
 - slug: export-import-bank-of-the-united-states
   name: Export-Import Bank of the United States
@@ -104,8 +104,22 @@ providers:
   name: Bite
   description: Bite provides AI‑native trade compliance and HTS classification software that automates tariff lookups, screening, and post‑entry audits. It integrates with ERP, EDI, and supplier systems to monitor, analyze, and manage risk across the glo…
   api_count: 1
-  score_band: thin
-  score_composite: 28.6
+  score_band: emerging
+  score_composite: 24.6
+  shared: 2
+- slug: atlasverified-ai
+  name: Atlas Verified
+  description: Atlas Verified provides AI-powered supplier verification for global trade, offering rapid checks on organic certification, OFAC, FDA, and import documents to ensure trustworthy partnerships.
+  api_count: 1
+  score_band: emerging
+  score_composite: 22.6
+  shared: 2
+- slug: une-education
+  name: une-education
+  description: UNE (Unified Norms Engine) provides deterministic cross‑border computation and compliance infrastructure for autonomous agents. It offers multiple nodes covering customs tariffs, trade regulations, maritime fuel compliance, standards, lega…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.6
   shared: 2
 - slug: tradelanes
   name: TradeLanes
@@ -113,6 +127,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.3
+  shared: 2
+- slug: trimtabist-com
+  name: trimtabist-com
+  description: Trimtabist provides a free, no‑login service that lets users submit customs entries they have already filed and instantly recompute duties line‑by‑line against the tariff schedule as it existed on the entry date and origin. The platform em…
+  api_count: 1
+  score_band: minimal
+  score_composite: 10.2
   shared: 2
 - slug: donkey
   name: Donkey

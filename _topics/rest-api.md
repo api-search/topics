@@ -28,7 +28,7 @@ links:
   url: https://raw.githubusercontent.com/api-evangelist/rest-api/refs/heads/main/vocabulary/rest-api-vocabulary.yml
 - type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/rest-api/refs/heads/main/json-ld/rest-api-context.jsonld
-provider_count: 55
+provider_count: 56
 providers:
 - slug: rest
   name: REST
@@ -41,22 +41,22 @@ providers:
   name: RESTful Services
   description: Representational State Transfer (REST) services are web services built using the REST architectural style, which uses stateless HTTP communication and standard HTTP methods (GET, POST, PUT, DELETE, PATCH) to expose resources. RESTful servi…
   api_count: 5
-  score_band: emerging
-  score_composite: 15.4
+  score_band: null
+  score_composite: 0
   shared: 4
 - slug: aws-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, a…
   api_count: 13
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 76.0
   shared: 3
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_band: exemplar
+  score_composite: 69.0
   shared: 3
 - slug: soa
   name: SOA
@@ -77,63 +77,70 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 83.5
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 76.3
   shared: 2
-- slug: apiverve
-  name: APIVerve
-  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+- slug: mediacaption-api
+  name: MediaCaption API
+  description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 58.1
+  shared: 2
+- slug: apidog
+  name: Apidog
+  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
   shared: 2
 - slug: smartbear
   name: SmartBear
   description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI fo…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
-  shared: 2
-- slug: apidog
-  name: Apidog
-  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and publis…'
-  api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  score_composite: 54.8
   shared: 2
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-ho…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
+  score_composite: 52.3
   shared: 2
-- slug: mediacaption-api
-  name: MediaCaption API
-  description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
+- slug: apiverve
+  name: APIVerve
+  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 51.3
   shared: 2
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.…
   api_count: 2
   score_band: developing
-  score_composite: 48.5
+  score_composite: 46.8
   shared: 2
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR ho…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 43.0
+  shared: 2
+- slug: rapidapi
+  name: RapidAPI
+  description: RapidAPI operates the world's largest API marketplace, connecting developers to thousands of APIs through a single platform. Their developer platform provides tools for API discovery, testing, management, design, and gateway configuration,…
+  api_count: 6
+  score_band: developing
+  score_composite: 41.3
   shared: 2
 - slug: ruby
   name: Ruby Programming Language and Popular API Gems
@@ -142,12 +149,19 @@ providers:
   score_band: developing
   score_composite: 40.9
   shared: 2
-- slug: rapidapi
-  name: RapidAPI
-  description: RapidAPI operates the world's largest API marketplace, connecting developers to thousands of APIs through a single platform. Their developer platform provides tools for API discovery, testing, management, design, and gateway configuration,…
-  api_count: 6
+- slug: api-blueprint
+  name: API Blueprint
+  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
+  api_count: 1
   score_band: developing
-  score_composite: 40.4
+  score_composite: 39.7
+  shared: 2
+- slug: platzi
+  name: Platzi
+  description: Platzi is the leading online learning platform in Latin America, offering thousands of technology, business, and marketing courses. For developers, Platzi (via PlatziLabs) publishes the free, public "Platzi Fake Store API" — a fully functi…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.7
   shared: 2
 - slug: plandex
   name: Plandex
@@ -156,19 +170,12 @@ providers:
   score_band: thin
   score_composite: 38.9
   shared: 2
-- slug: api-blueprint
-  name: API Blueprint
-  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
+- slug: crowdin
+  name: Crowdin
+  description: Crowdin is a localization management platform for software, mobile, games, and documentation. It offers a REST API v2 covering projects, files, strings, translations, screenshots, glossaries, MT engines, and webhooks, plus a single GraphQL…
   api_count: 1
   score_band: thin
-  score_composite: 38.1
-  shared: 2
-- slug: platzi
-  name: Platzi
-  description: Platzi is the leading online learning platform in Latin America, offering thousands of technology, business, and marketing courses. For developers, Platzi (via PlatziLabs) publishes the free, public "Platzi Fake Store API" — a fully functi…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.0
+  score_composite: 36.2
   shared: 2
 - slug: ogen
   name: Ogen
@@ -191,9 +198,9 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 2
-- slug: crowdin
-  name: Crowdin
-  description: Crowdin is a localization management platform for software, mobile, games, and documentation. It offers a REST API v2 covering projects, files, strings, translations, screenshots, glossaries, MT engines, and webhooks, plus a single GraphQL…
+- slug: playground
+  name: Playground API — Free Stateful Mock REST & GraphQL Service
+  description: A free, zero-configuration, stateful mock REST and GraphQL API sandbox by Nilesh Kumar / Niles Labs. Unlike static mock APIs, it provides stateful per-session virtual mutation overlays where POST/PUT/PATCH/DELETE mutations persist across G…
   api_count: 1
   score_band: thin
   score_composite: 34.6
@@ -205,12 +212,19 @@ providers:
   score_band: thin
   score_composite: 33.6
   shared: 2
-- slug: playground
-  name: Playground API — Free Stateful Mock REST & GraphQL Service
-  description: A free, zero-configuration, stateful mock REST and GraphQL API sandbox by Nilesh Kumar / Niles Labs. Unlike static mock APIs, it provides stateful per-session virtual mutation overlays where POST/PUT/PATCH/DELETE mutations persist across G…
+- slug: typespec
+  name: TypeSpec
+  description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services,…
+  api_count: 6
+  score_band: thin
+  score_composite: 32.5
+  shared: 2
+- slug: lokalise
+  name: Lokalise
+  description: Lokalise is a translation management system (TMS) for software, mobile, web, games, and documentation. It pairs collaborative localization workflows with AI machine translation and a full-coverage REST API (APIv2) that exposes projects, ke…
   api_count: 1
   score_band: thin
-  score_composite: 32.0
+  score_composite: 32.2
   shared: 2
 - slug: snapapi
   name: SnapAPI
@@ -225,19 +239,5 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 31.1
-  shared: 2
-- slug: httpie
-  name: HTTPie
-  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighte…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.0
-  shared: 2
-- slug: voiden
-  name: Voiden
-  description: Voiden is an offline-first, Git-native API workspace that unifies API design, testing, and documentation in plain Markdown .void files stored alongside your codebase. It uses composable, reusable blocks (endpoints, auth, headers, params, b…
-  api_count: 1
-  score_band: thin
-  score_composite: 29.9
   shared: 2
 ---
