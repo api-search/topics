@@ -30,19 +30,19 @@ apis:
   url: https://gohugo.io/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/convention-over-configuration/blob/main/plans/convention-over-configuration-plans-pricing.yml
+  url: https://artifacts.apis.io/convention-over-configuration/plans/convention-over-configuration-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/convention-over-configuration/blob/main/rate-limits/convention-over-configuration-rate-limits.yml
+  url: https://artifacts.apis.io/convention-over-configuration/rate-limits/convention-over-configuration-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/convention-over-configuration/blob/main/finops/convention-over-configuration-finops.yml
+  url: https://artifacts.apis.io/convention-over-configuration/finops/convention-over-configuration-finops.yml
 - type: Blog
   url: https://rubyonrails.org/blog/
 - type: BlogRSS
   url: https://rubyonrails.org/feed.xml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/convention-over-configuration/blob/main/security/convention-over-configuration-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/convention-over-configuration/security/convention-over-configuration-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/convention-over-configuration/blob/main/security/convention-over-configuration-domain-security.yml
+  url: https://artifacts.apis.io/convention-over-configuration/security/convention-over-configuration-domain-security.yml
 - type: Reference
   url: https://en.wikipedia.org/wiki/Convention_over_configuration
 - type: Reference

@@ -46,11 +46,11 @@ apis:
   url: https://docs.confluent.io/platform/current/schema-registry/develop/api.html
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/plans/schema-evolution-plans-pricing.yml
+  url: https://artifacts.apis.io/schema-evolution/plans/schema-evolution-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/rate-limits/schema-evolution-rate-limits.yml
+  url: https://artifacts.apis.io/schema-evolution/rate-limits/schema-evolution-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/finops/schema-evolution-finops.yml
+  url: https://artifacts.apis.io/schema-evolution/finops/schema-evolution-finops.yml
 - type: IssueTracker
   url: https://github.com/Apicurio/apicurio-registry/issues
 - type: Releases
@@ -64,21 +64,21 @@ links:
 - type: License
   url: https://github.com/Apicurio/apicurio-registry/blob/main/LICENSE
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/agentic-access/schema-evolution-agentic-access.yml
+  url: https://artifacts.apis.io/schema-evolution/agentic-access/schema-evolution-agentic-access.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/security/schema-evolution-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/schema-evolution/security/schema-evolution-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/security/schema-evolution-domain-security.yml
+  url: https://artifacts.apis.io/schema-evolution/security/schema-evolution-domain-security.yml
 - type: Website
   url: https://docs.confluent.io/platform/current/schema-registry/fundamentals/schema-evolution.html
 - type: JSONSchema
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/json-schema/schema-evolution-change-schema.json
+  url: https://artifacts.apis.io/schema-evolution/json-schema/schema-evolution-change-schema.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/json-structure/schema-evolution-compatibility-structure.json
+  url: https://artifacts.apis.io/schema-evolution/json-structure/schema-evolution-compatibility-structure.json
 - type: JSONLDContext
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/json-ld/schema-evolution-context.jsonld
+  url: https://artifacts.apis.io/schema-evolution/json-ld/schema-evolution-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/schema-evolution/blob/main/vocabulary/schema-evolution-vocabulary.yml
+  url: https://artifacts.apis.io/schema-evolution/vocabulary/schema-evolution-vocabulary.yml
 provider_count: 3
 providers:
 - slug: buf
@@ -86,20 +86,20 @@ providers:
   description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-b…'
   api_count: 2
   score_band: strong
-  score_composite: 65.3
+  score_composite: 64.9
   shared: 2
 - slug: the-guild-dev
   name: The Guild
   description: The Guild is an open-source software group building much of the GraphQL ecosystem's tooling, published together at the-guild.dev. Its portfolio spans GraphQL Hive (schema registry, usage observability and breaking-change detection), GraphQ…
   api_count: 10
   score_band: thin
-  score_composite: 35.3
+  score_composite: 34.7
   shared: 2
 - slug: confluent-schema-registry
   name: Confluent Schema Registry
   description: Confluent Schema Registry is the open-source serving layer for schema metadata used in Apache Kafka data pipelines. It exposes a RESTful interface for storing and retrieving Avro, JSON Schema, and Protobuf schemas, manages schema evolution…
   api_count: 1
   score_band: thin
-  score_composite: 33.3
+  score_composite: 33.5
   shared: 2
 ---

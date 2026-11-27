@@ -19,20 +19,20 @@ providers:
   description: Unison Computing, PBC is a public benefit corporation building the Unison programming language, Unison Cloud, and Unison Share. Unison is a statically-typed functional language where code is content-addressed and immutable; Unison Cloud de…
   api_count: 1
   score_band: thin
-  score_composite: 31.9
+  score_composite: 32.3
   shared: 1
 - slug: resilience4j
   name: Resilience4j
   description: Resilience4j is a lightweight fault tolerance library designed for Java 17+ and functional programming, providing higher-order functions to enhance functional interfaces with Circuit Breaker, Rate Limiter, Retry, Bulkhead, TimeLimiter, and…
   api_count: 1
   score_band: emerging
-  score_composite: 22.8
+  score_composite: 22.4
   shared: 1
 - slug: effectful
   name: Effectful
   description: Effectful Technologies is the company behind Effect, an open-source ecosystem of production-grade TypeScript libraries. The flagship `effect` library is a composable standard library and execution engine that unifies error handling, resour…
   api_count: 0
   score_band: emerging
-  score_composite: 15.1
+  score_composite: 14.3
   shared: 1
 ---

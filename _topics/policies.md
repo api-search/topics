@@ -30,8 +30,8 @@ providers:
 - slug: amazon-organizations
   name: Amazon Organizations
   description: AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
-  api_count: 1
-  score_band: strong
-  score_composite: 56.1
+  api_count: 9
+  score_band: exemplar
+  score_composite: 68.9
   shared: 2
 ---

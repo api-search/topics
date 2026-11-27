@@ -21,7 +21,7 @@ providers:
   name: Citus Data
   description: Citus Data is the company behind Citus, an open source extension that turns PostgreSQL into a distributed database. Rather than forking Postgres, Citus adds sharding, distributed tables, reference tables, and a distributed query planner so…
   api_count: 0
-  score_band: thin
-  score_composite: 27.7
+  score_band: emerging
+  score_composite: 25.2
   shared: 2
 ---

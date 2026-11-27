@@ -38,7 +38,7 @@ apis:
   url: https://www.rssboard.org/rss-autodiscovery
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/rss/blob/main/security/rss-domain-security.yml
+  url: https://artifacts.apis.io/rss/security/rss-domain-security.yml
 - type: Website
   url: https://www.rssboard.org/
 - type: Documentation
@@ -56,9 +56,9 @@ links:
 - type: OPMLSpecification
   url: http://opml.org/spec2.opml
 - type: JSONLDContext
-  url: https://github.com/api-evangelist/rss/blob/main/json-ld/rss-context.jsonld
+  url: https://artifacts.apis.io/rss/json-ld/rss-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/rss/blob/main/vocabulary/rss-vocabulary.yml
+  url: https://artifacts.apis.io/rss/vocabulary/rss-vocabulary.yml
 provider_count: 22
 providers:
 - slug: gsma
@@ -66,91 +66,91 @@ providers:
   description: The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona.…
   api_count: 37
   score_band: strong
-  score_composite: 56.0
+  score_composite: 58.8
   shared: 2
 - slug: acord
   name: ACORD
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 50.2
-  shared: 2
-- slug: opentravel-alliance
-  name: OpenTravel Alliance
-  description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
-  api_count: 8
-  score_band: developing
-  score_composite: 47.3
+  score_composite: 50.4
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 46.4
+  score_composite: 46.3
+  shared: 2
+- slug: opentravel-alliance
+  name: OpenTravel Alliance
+  description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
+  api_count: 8
+  score_band: developing
+  score_composite: 45.8
   shared: 2
 - slug: meredith
   name: Dotdash Meredith / People Inc
   description: Profile for People Inc (formerly Dotdash Meredith) in the API Evangelist network. America's largest digital and print publisher, operating 40+ brands including PEOPLE, Better Homes & Gardens, Allrecipes, Investopedia, Verywell, Food & Wine…
   api_count: 30
   score_band: developing
-  score_composite: 41.5
+  score_composite: 41.9
+  shared: 2
+- slug: rss-app
+  name: RSS.app
+  description: RSS.app provides a no‑code platform that lets users generate RSS feeds from any website or social media source, create embeddable widgets, and automate content distribution via bots to Discord, Slack, Telegram, and email. It offers a suite…
+  api_count: 3
+  score_band: developing
+  score_composite: 40.7
   shared: 2
 - slug: vice-media
   name: Vice Media
   description: Vice Media is the Brooklyn, New York youth-culture and news media company founded in 1994 in Montreal by Suroosh Alvi, Shane Smith and Gavin McInnes, which grew from the VICE magazine into a global multi-platform publisher, film and televi…
   api_count: 6
   score_band: thin
-  score_composite: 37.3
+  score_composite: 38.4
   shared: 2
 - slug: newsblur
   name: NewsBlur
   description: NewsBlur is a personal news reader that brings people together to talk about the world. It is an RSS/Atom feed aggregator with training-based intelligence (hide or highlight stories per feed), original-site and original-text views, saved (…
   api_count: 1
   score_band: thin
-  score_composite: 36.9
-  shared: 2
-- slug: rss-app
-  name: RSS.app
-  description: RSS.app provides a no‑code platform that lets users generate RSS feeds from any website or social media source, create embeddable widgets, and automate content distribution via bots to Discord, Slack, Telegram, and email. It offers a suite…
-  api_count: 3
-  score_band: thin
-  score_composite: 30.5
+  score_composite: 37.5
   shared: 2
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
   api_count: 7
   score_band: thin
-  score_composite: 30.0
+  score_composite: 30.4
   shared: 2
 - slug: aousd
   name: Alliance for OpenUSD
   description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
   api_count: 2
   score_band: thin
-  score_composite: 28.3
-  shared: 2
-- slug: apis-json
-  name: APIs.json
-  description: APIs.json is an open, machine-readable specification that API providers can use to describe their API operations, similar to how websites use sitemap.xml. The format provides a lightweight means for individuals and organizations to documen…
-  api_count: 1
-  score_band: thin
-  score_composite: 26.7
+  score_composite: 27.9
   shared: 2
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked s…
   api_count: 1
   score_band: thin
-  score_composite: 26.4
+  score_composite: 27.6
+  shared: 2
+- slug: apis-json
+  name: APIs.json
+  description: APIs.json is an open, machine-readable specification that API providers can use to describe their API operations, similar to how websites use sitemap.xml. The format provides a lightweight means for individuals and organizations to documen…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.9
   shared: 2
 - slug: cbs
   name: CBS (Paramount Global)
   description: CBS is the flagship broadcast television network of Paramount (Paramount Skydance Corporation, formerly Paramount Global), covering CBS Entertainment, CBS News, CBS Sports and the CBS owned-and-operated stations, and feeding Paramount+. CB…
   api_count: 2
   score_band: emerging
-  score_composite: 23.2
+  score_composite: 24.4
   shared: 2
 - slug: federal-accounting-standards-advisory-board
   name: Federal Accounting Standards Advisory Board
@@ -164,21 +164,21 @@ providers:
   description: Wired (wired.com) is an American technology and culture magazine published by Condé Nast, covering how emerging technologies affect culture, the economy, and politics. Founded in 1993, Wired provides RSS feeds for programmatic content cons…
   api_count: 1
   score_band: emerging
-  score_composite: 20.4
+  score_composite: 21.3
   shared: 2
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
   api_count: 23
   score_band: emerging
-  score_composite: 20.0
+  score_composite: 20.8
   shared: 2
 - slug: hackernoon
   name: Hackernoon
   description: HackerNoon is an independent technology publishing platform and community CMS, founded in 2016 by David Smooke and headquartered in Edwards, Colorado. It operates a free, open library of more than 150,000 practitioner-authored, human-edite…
   api_count: 0
   score_band: emerging
-  score_composite: 17.0
+  score_composite: 17.7
   shared: 2
 - slug: astm-international
   name: ASTM International
@@ -192,21 +192,21 @@ providers:
   description: The OpenAPI Initiative is a Linux Foundation project that promotes the OpenAPI Specification for defining standard, language-agnostic interfaces to RESTful APIs. It provides governance, tooling ecosystem support, and community collaboratio…
   api_count: 1
   score_band: minimal
-  score_composite: 8.6
+  score_composite: 7.3
   shared: 2
 - slug: mismo
   name: MISMO
   description: MISMO — the Mortgage Industry Standards Maintenance Organization — is the standards development body for US real estate finance, founded in 1999 and a not-for-profit wholly owned subsidiary of the Mortgage Bankers Association since 2004. I…
   api_count: 0
   score_band: minimal
-  score_composite: 6.7
+  score_composite: 6.8
   shared: 2
 - slug: fox-rothschild
   name: Fox Rothschild
   description: 'Fox Rothschild LLP is a national US law firm with approximately 1,000 attorneys across 30+ offices. The firm has no public developer APIs. Its programmatic surface is limited to publication and content distribution: subscription-based emai…'
   api_count: 21
   score_band: minimal
-  score_composite: 6.3
+  score_composite: 5.5
   shared: 2
 - slug: associated-content
   name: Associated Content

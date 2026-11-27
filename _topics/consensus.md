@@ -34,11 +34,11 @@ apis:
   url: https://arxiv.org/abs/1803.05069
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/consensus/blob/main/plans/consensus-plans-pricing.yml
+  url: https://artifacts.apis.io/consensus/plans/consensus-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/consensus/blob/main/rate-limits/consensus-rate-limits.yml
+  url: https://artifacts.apis.io/consensus/rate-limits/consensus-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/consensus/blob/main/finops/consensus-finops.yml
+  url: https://artifacts.apis.io/consensus/finops/consensus-finops.yml
 - type: IssueTracker
   url: https://github.com/cometbft/cometbft/issues
 - type: Releases
@@ -52,7 +52,7 @@ links:
 - type: License
   url: https://github.com/cometbft/cometbft/blob/main/LICENSE
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/consensus/blob/main/security/consensus-domain-security.yml
+  url: https://artifacts.apis.io/consensus/security/consensus-domain-security.yml
 - type: Reference
   url: https://en.wikipedia.org/wiki/Consensus_(computer_science)
 - type: Reference
@@ -72,41 +72,41 @@ providers:
   description: etcd is a CNCF graduated distributed, reliable key-value store used as the backing store for all Kubernetes cluster data. It provides strong consistency guarantees using the Raft consensus algorithm, supporting watch operations, lease-base…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.2
   shared: 2
 - slug: sapien
   name: Sapien
   description: Sapien is the company behind Proof of Quality (PoQ), an open protocol and consensus/attestation system for verifiable quality signals on AI data and subjective expert outputs. A panel of independent, collateral-backed validators reviews ea…
   api_count: 1
   score_band: developing
-  score_composite: 42.1
+  score_composite: 41.9
   shared: 2
 - slug: tendermint
   name: Tendermint
   description: Tendermint is a core contributor to the Cosmos Network and the original developer of Tendermint Core, a best-in-class Byzantine Fault Tolerant (BFT) consensus engine for state-machine replication, alongside the Cosmos SDK blockchain applic…
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 40.3
   shared: 2
 - slug: apache-helix
   name: Apache Helix
   description: Apache Helix is a generic cluster management framework for partitioned and replicated distributed resources. It automates partition management, replication, fault tolerance, and cluster expansion for distributed systems, providing a REST A…
   api_count: 1
   score_band: thin
-  score_composite: 37.1
+  score_composite: 38.5
   shared: 2
 - slug: espresso
   name: Espresso
   description: Espresso Systems builds the Espresso Network, a high-performance consensus and sequencing layer that gives rollups and institution-grade financial applications real-time settlement (~3 second finality) without sacrificing control, privacy,…
   api_count: 1
   score_band: thin
-  score_composite: 35.4
+  score_composite: 34.9
   shared: 2
 - slug: cypherium
   name: Cypherium
   description: Cypherium is a permissionless Layer-1 blockchain built to bridge centralized (CeFi) and decentralized (DeFi) finance and bring real-world assets on-chain at scale. It runs CypherBFT, a hybrid consensus that pairs GPU proof-of-work committe…
   api_count: 2
   score_band: emerging
-  score_composite: 13.0
+  score_composite: 12.4
   shared: 2
 ---

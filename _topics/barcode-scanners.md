@@ -27,13 +27,13 @@ apis:
   url: https://www.ean-search.org/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/barcode-scanners/blob/main/plans/barcode-scanners-plans-pricing.yml
+  url: https://artifacts.apis.io/barcode-scanners/plans/barcode-scanners-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/barcode-scanners/blob/main/rate-limits/barcode-scanners-rate-limits.yml
+  url: https://artifacts.apis.io/barcode-scanners/rate-limits/barcode-scanners-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/barcode-scanners/blob/main/finops/barcode-scanners-finops.yml
+  url: https://artifacts.apis.io/barcode-scanners/finops/barcode-scanners-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/barcode-scanners/blob/main/security/barcode-scanners-domain-security.yml
+  url: https://artifacts.apis.io/barcode-scanners/security/barcode-scanners-domain-security.yml
 - type: Website
   url: https://www.barcodelookup.com/
 - type: Website
@@ -41,115 +41,115 @@ links:
 - type: Website
   url: https://www.ean-search.org/
 - type: Vocabulary
-  url: https://github.com/api-evangelist/barcode-scanners/blob/main/vocabulary/barcode-scanners-vocabulary.yaml
+  url: https://artifacts.apis.io/barcode-scanners/vocabulary/barcode-scanners-vocabulary.yaml
 - type: JSONLD
-  url: https://github.com/api-evangelist/barcode-scanners/blob/main/json-ld/barcode-scanners-context.jsonld
-provider_count: 150
+  url: https://artifacts.apis.io/barcode-scanners/json-ld/barcode-scanners-context.jsonld
+provider_count: 154
 providers:
 - slug: walmart
   name: Walmart
   description: Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers fro…
   api_count: 27
   score_band: strong
-  score_composite: 65.0
+  score_composite: 63.7
   shared: 3
 - slug: optoro
   name: Optoro
   description: Optoro is a returns management and reverse-logistics software company (Washington, DC; acquired by Blue Yonder in August 2025) whose OptiTurn platform powers the full returns lifecycle for retailers, brands and 3PLs — a shopper-facing retu…
   api_count: 17
   score_band: strong
-  score_composite: 63.6
+  score_composite: 62.4
   shared: 3
 - slug: leaflink
   name: LeafLink
   description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
   api_count: 2
   score_band: strong
-  score_composite: 63.2
+  score_composite: 62.1
   shared: 3
 - slug: relex
   name: RELEX Solutions
   description: RELEX Solutions is a Helsinki-headquartered supply chain and retail planning software company whose unified platform covers demand forecasting, inventory and replenishment, space and assortment, pricing and promotions, workforce and store…
   api_count: 2
   score_band: strong
-  score_composite: 55.0
+  score_composite: 56.5
   shared: 3
 - slug: tailor
   name: Tailor
   description: Tailor Technologies builds Tailor Platform, a headless, API-first ERP for retail, e-commerce and manufacturing operators. Its control plane is exposed as a single 254-RPC ConnectRPC service published as Protocol Buffers, and every applicat…
   api_count: 3
   score_band: strong
-  score_composite: 54.9
+  score_composite: 56.4
   shared: 3
 - slug: nabis
   name: Nabis
   description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace…
   api_count: 3
   score_band: developing
-  score_composite: 51.7
+  score_composite: 51.2
+  shared: 3
+- slug: jennipro-com
+  name: JENNi
+  description: JENNi is the inventory network connecting local inventory to demand across America. It enables retailers, brands, and reps to make any stocked item instantly sellable across channels, offering real‑time routing, integration with POS system…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.8
   shared: 3
 - slug: happy-cabbage-analytics
   name: Happy Cabbage Analytics
   description: Happy Cabbage Analytics is a cannabis retail software company founded in 2019 and headquartered in San Francisco, California, whose Happy Buyers platform gives dispensary buyers AI-assisted inventory management, demand forecasting, repleni…
   api_count: 1
   score_band: thin
-  score_composite: 36.8
+  score_composite: 35.1
   shared: 3
 - slug: prediko
   name: Prediko
   description: Prediko is an AI-powered inventory management and planning platform for Shopify D2C and B2B brands, covering demand forecasting, supply and replenishment planning, purchase-order management, raw-materials and bill-of-materials tracking, an…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
-  shared: 3
-- slug: warego
-  name: WareGo
-  description: Cloud-based Warehouse Management System (WMS) for wholesalers, distributors, 3PLs, and ecommerce businesses, covering inventory tracking, order fulfillment, serial-number tracking, kitting, replenishment, inventory forecasting and supply-c…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.7
+  score_composite: 33.3
   shared: 3
 - slug: gs1
   name: GS1
   description: GS1 (GS1 AISBL) is the not-for-profit, neutral standards body headquartered at Avenue Louise 523, 1050 Brussels, Belgium, that maintains the identification keys and data standards the rest of the supply chain hangs its transactions on — GT…
   api_count: 1
   score_band: emerging
-  score_composite: 22.1
+  score_composite: 24.0
+  shared: 3
+- slug: warego
+  name: WareGo
+  description: Cloud-based Warehouse Management System (WMS) for wholesalers, distributors, 3PLs, and ecommerce businesses, covering inventory tracking, order fulfillment, serial-number tracking, kitting, replenishment, inventory forecasting and supply-c…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.0
   shared: 3
 - slug: simbe-robotics
   name: Simbe Robotics
   description: Simbe Robotics (Simbe) is a San Francisco Bay Area physical-AI and retail-robotics company whose Store Intelligence platform combines the Tally shelf-scanning robot, fixed in-store sensors and RFID to give grocery, wholesale-club, home-imp…
   api_count: 1
   score_band: emerging
-  score_composite: 15.6
+  score_composite: 17.4
   shared: 3
 - slug: spoiler-alert
   name: Spoiler Alert
   description: Spoiler Alert is a Boston-based software company (a Techstars portfolio company) that helps consumer packaged goods (CPG) manufacturers, wholesalers, and retailers manage and sell excess, short-dated, and obsolete inventory. Its purpose-bu…
   api_count: 0
   score_band: emerging
-  score_composite: 12.9
+  score_composite: 15.9
   shared: 3
 - slug: stockly
   name: Stockly
   description: Stockly (Stockly SAS, headquartered in Vitry-sur-Seine, France) operates a global inventory network for e-commerce, positioning itself as "the first global inventory for Retail." It connects online retailers that are missing stock (Demande…
   api_count: 0
   score_band: emerging
-  score_composite: 11.3
-  shared: 3
-- slug: ailumia
-  name: Ailumia
-  description: Ailumia is an AI-driven retail operations platform that helps brands and sellers grow on the world's most valuable marketplaces, with a focus on Amazon. The platform applies artificial intelligence across the retail workflow to manage mark…
-  api_count: 0
-  score_band: emerging
-  score_composite: 11.2
+  score_composite: 12.4
   shared: 3
 - slug: autone
   name: autone
   description: autone is an AI-powered inventory management platform for retail brands, blending machine-driven recommendations with merchandising expertise and a brand's own data to optimize stock decisions across buying, reordering, replenishment, and…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.1
+  score_band: emerging
+  score_composite: 11.5
   shared: 3
 - slug: another
   name: Another
@@ -158,19 +158,26 @@ providers:
   score_band: minimal
   score_composite: 10.0
   shared: 3
+- slug: ailumia
+  name: Ailumia
+  description: Ailumia is an AI-driven retail operations platform that helps brands and sellers grow on the world's most valuable marketplaces, with a focus on Amazon. The platform applies artificial intelligence across the retail workflow to manage mark…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.8
+  shared: 3
 - slug: afresh-technologies
   name: Afresh Technologies
   description: Afresh Technologies builds an AI platform for grocery retail that helps supermarkets and distributors manage fresh food, reducing shrink, improving in-stock rates, and cutting food waste across store ordering, inventory management, product…
   api_count: 0
   score_band: minimal
-  score_composite: 9.5
+  score_composite: 8.9
   shared: 3
 - slug: shelf-engine
   name: Shelf Engine
   description: Shelf Engine was a Seattle-based technology company that used machine learning and AI-driven demand forecasting to help grocery retailers reduce food waste and optimize ordering of perishable and fresh food items. It offered a guaranteed-o…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
+  score_composite: 2.6
   shared: 3
 - slug: syrup
   name: Syrup
@@ -191,69 +198,62 @@ providers:
   description: Omnichannel commerce platform with REST APIs for retail and restaurant POS, inventory management, loyalty programs, and e-commerce integrations. Lightspeed serves retailers and restaurateurs with cloud-based point-of-sale systems, enabling…
   api_count: 3
   score_band: exemplar
-  score_composite: 86.5
+  score_composite: 84.5
   shared: 2
 - slug: square
   name: Square
   description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
   api_count: 1
   score_band: exemplar
-  score_composite: 76.1
+  score_composite: 78.2
   shared: 2
 - slug: katana
   name: Katana
   description: Katana is a cloud manufacturing ERP and inventory management platform for product businesses. It gives makers and small-to-midsize manufacturers real-time inventory control across multiple locations and sales channels, production and manuf…
   api_count: 1
   score_band: strong
-  score_composite: 66.4
+  score_composite: 64.7
   shared: 2
 - slug: orderful
   name: Orderful
   description: Orderful is a modern B2B trading and EDI platform that lets companies connect once to transact with any partner in their supply chain without building custom integrations. Its Mosaic API turns X12 and EDIFACT electronic data interchange in…
   api_count: 1
   score_band: strong
-  score_composite: 64.6
+  score_composite: 64.5
   shared: 2
 - slug: liquidonate
   name: LiquiDonate
   description: LiquiDonate is a San Francisco based reverse-logistics and donation-disposition platform that turns retail returns, excess inventory and unsellable goods into local nonprofit donations instead of landfill or liquidation. Its matching engin…
   api_count: 2
   score_band: strong
-  score_composite: 64.5
-  shared: 2
-- slug: byrd
-  name: Byrd
-  description: byrd is a European e-commerce fulfillment and third-party logistics (3PL) provider operating a network of 25+ fulfillment warehouses across Europe and the UK. It offers multichannel order fulfillment with integrations to the major shop and…
-  api_count: 2
-  score_band: strong
-  score_composite: 63.3
-  shared: 2
-- slug: erply
-  name: Erply
-  description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more st…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.7
-  shared: 2
-- slug: depop
-  name: depop
-  description: 'Depop is a peer-to-peer fashion marketplace where people buy, sell and discover secondhand and unique clothing. Its Selling API is an enterprise partner API that lets approved partners automate the seller experience on Depop: create and ma…'
-  api_count: 1
-  score_band: strong
-  score_composite: 60.4
+  score_composite: 63.7
   shared: 2
 - slug: crunchtime
   name: Crunchtime
   description: Crunchtime (CrunchTime! Information Systems) is an AI-powered restaurant operations management platform used by 850+ multi-unit restaurant brands across 150,000+ locations to run inventory and food-cost control, labor and scheduling, opera…
   api_count: 4
   score_band: strong
-  score_composite: 59.8
+  score_composite: 61.3
   shared: 2
-- slug: channelengine
-  name: ChannelEngine
-  description: ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once an…
-  api_count: 3
+- slug: byrd
+  name: Byrd
+  description: byrd is a European e-commerce fulfillment and third-party logistics (3PL) provider operating a network of 25+ fulfillment warehouses across Europe and the UK. It offers multichannel order fulfillment with integrations to the major shop and…
+  api_count: 2
   score_band: strong
-  score_composite: 59.0
+  score_composite: 61.0
+  shared: 2
+- slug: erply
+  name: Erply
+  description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more st…
+  api_count: 4
+  score_band: strong
+  score_composite: 60.4
+  shared: 2
+- slug: crunchtime-information-systems
+  name: Crunchtime Information Systems
+  description: Crunchtime (Crunchtime Information Systems) is a Boston-based provider of AI-powered operations-management software for multi-unit restaurants, founded in 1995 and serving 850+ restaurant brands across 150,000+ locations. Its platform unif…
+  api_count: 4
+  score_band: strong
+  score_composite: 60.2
   shared: 2
 ---

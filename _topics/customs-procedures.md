@@ -49,104 +49,132 @@ links:
   url: https://www.atacarnet.com/
 - type: TIR
   url: https://unece.org/transport/border-crossing/tir
-provider_count: 14
+provider_count: 18
 providers:
 - slug: international-trade-administration
   name: International Trade Administration
   description: The International Trade Administration (ITA) creates prosperity by strengthening the international competitiveness of U.S. industry, promoting trade and investment, and ensuring fair trade and compliance with trade laws and agreements. ITA…
   api_count: 1
   score_band: thin
-  score_composite: 33.2
+  score_composite: 33.6
+  shared: 4
+- slug: fxlayerhq-com
+  name: FxLayer
+  description: FxLayer is a FEMA compliance platform built and run by Trianzor Private Limited, New Delhi. It helps Indian importers, exporters, and service firms manage export realisation, EDPMS, and IDPMS processes, ensuring regulatory compliance and s…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.4
   shared: 4
 - slug: cbp
   name: CBP
   description: U.S. Customs and Border Protection (CBP) is the nation's largest law enforcement agency and a major revenue-collecting authority, responsible for facilitating legitimate international trade and travel while enforcing trade laws, collecting…
   api_count: 4
   score_band: emerging
-  score_composite: 21.0
+  score_composite: 19.2
   shared: 4
 - slug: un-comtrade
   name: UN Comtrade
   description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
   api_count: 1
   score_band: thin
-  score_composite: 30.3
+  score_composite: 29.0
   shared: 3
 - slug: customs-and-border-protection
   name: Customs and Border Protection
   description: U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illega…
   api_count: 5
   score_band: emerging
-  score_composite: 19.5
+  score_composite: 18.9
   shared: 3
 - slug: shipfinder-ais-data-api
   name: ShipFinder AIS Data API
   description: 'ShipFinder, operated by Singapore-based ELANE GLOBAL PTE. LTD., publishes a REST/HTTP maritime data API that turns the global AIS feed into queryable vessel intelligence. Forty documented operations are organised into seven datasets: AIS (…'
   api_count: 2
   score_band: developing
-  score_composite: 53.7
+  score_composite: 51.6
   shared: 2
 - slug: foreign-agricultural-service
   name: Foreign Agricultural Service
   description: The Foreign Agricultural Service (FAS) is the trade and export agency of the United States Department of Agriculture (USDA), working to promote U.S. agricultural exports and expand global markets for American agricultural products. FAS run…
   api_count: 2
   score_band: developing
-  score_composite: 42.4
+  score_composite: 40.1
+  shared: 2
+- slug: eximagent-ai
+  name: EximAgent
+  description: EximAgent is an AI‑powered platform that helps global traders find export buyers, research companies, and explore HS codes and tariffs. The service offers conversational assistance to streamline international trade intelligence and market…
+  api_count: 2
+  score_band: thin
+  score_composite: 38.4
+  shared: 2
+- slug: atlasverified-ai
+  name: Atlas Verified
+  description: Atlas Verified provides AI-powered supplier verification for global trade, offering rapid checks on organic certification, OFAC, FDA, and import documents to ensure trustworthy partnerships.
+  api_count: 1
+  score_band: thin
+  score_composite: 32.6
   shared: 2
 - slug: export-import-bank-of-the-united-states
   name: Export-Import Bank of the United States
   description: The U.S. Export-Import Bank (EXIM) is the official export credit agency of the United States federal government. It assists in financing and facilitating U.S. exports of goods and services by providing export credit insurance, working capi…
   api_count: 2
   score_band: thin
-  score_composite: 29.6
+  score_composite: 30.0
   shared: 2
 - slug: bite
   name: Bite
   description: Bite provides AI‑native trade compliance and HTS classification software that automates tariff lookups, screening, and post‑entry audits. It integrates with ERP, EDI, and supplier systems to monitor, analyze, and manage risk across the glo…
   api_count: 1
-  score_band: emerging
-  score_composite: 24.6
+  score_band: thin
+  score_composite: 26.2
   shared: 2
-- slug: atlasverified-ai
-  name: Atlas Verified
-  description: Atlas Verified provides AI-powered supplier verification for global trade, offering rapid checks on organic certification, OFAC, FDA, and import documents to ensure trustworthy partnerships.
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.6
-  shared: 2
-- slug: une-education
-  name: une-education
-  description: UNE (Unified Norms Engine) provides deterministic cross‑border computation and compliance infrastructure for autonomous agents. It offers multiple nodes covering customs tariffs, trade regulations, maritime fuel compliance, standards, lega…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.6
+- slug: fromerica-com
+  name: Fromerica
+  description: Fromerica is a B2B marketplace connecting U.S. manufacturers and exporters with importers worldwide. It offers free US tariff (HTS) lookup, denied‑party screening tools, and a quote request system. Importers can search a map of active expo…
+  api_count: 2
+  score_band: thin
+  score_composite: 26.2
   shared: 2
 - slug: tradelanes
   name: TradeLanes
   description: TradeLanes is a trade execution and operational-intelligence platform for U.S. exporters, freight forwarders, and drayage teams. Its Vessel Schedule Report (VSR) delivers a daily delta-only view of ERD and CY cutoff changes across 40+ U.S.…
   api_count: 0
   score_band: emerging
-  score_composite: 18.3
+  score_composite: 20.9
+  shared: 2
+- slug: une-education
+  name: une-education
+  description: UNE (Unified Norms Engine) provides deterministic cross‑border computation and compliance infrastructure for autonomous agents. It offers multiple nodes covering customs tariffs, trade regulations, maritime fuel compliance, standards, lega…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.5
   shared: 2
 - slug: trimtabist-com
   name: trimtabist-com
   description: Trimtabist provides a free, no‑login service that lets users submit customs entries they have already filed and instantly recompute duties line‑by‑line against the tariff schedule as it existed on the entry date and origin. The platform em…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.2
+  score_band: emerging
+  score_composite: 13.4
   shared: 2
 - slug: donkey
   name: Donkey
   description: Donkey is an AI-native trading company (Y Combinator, Summer 2026) that buys directly from Chinese factories and sells delivered duty-paid to US importers. Donkey mines public US customs records to identify the factory that actually makes…
   api_count: 0
   score_band: minimal
-  score_composite: 7.8
+  score_composite: 8.7
+  shared: 2
+- slug: klassio-se
+  name: Klassio
+  description: Klassio provides tariff classification (CN/HS), EUDR scope detection, and MFN duty lookups for EU importers. Users can describe products in free text or enter a KN code to receive accurate customs information sourced from open data, helpin…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.6
   shared: 2
 - slug: agraga
   name: Agraga
   description: Agraga (operated by Virya Logistics Technologies Private Limited) is a Chennai, India based digital cross-border logistics platform founded in 2021 by Anoop Raghavan and Venkatesh Narayanaswamy. It positions itself as a single operator for…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
+  score_composite: 5.1
   shared: 2
 ---

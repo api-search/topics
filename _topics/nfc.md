@@ -42,7 +42,7 @@ providers:
   description: Howler is a South African event technology platform that consolidates ticketing, RFID cashless payments, and vendor and access-control management into a single system for event organisers and attendees. Founded out of the Barclays Accelera…
   api_count: 1
   score_band: developing
-  score_composite: 39.5
+  score_composite: 40.3
   shared: 2
 - slug: nacha
   name: Nacha
@@ -56,13 +56,13 @@ providers:
   description: Billfold provides a cashless and contactless point‑of‑sale operating system for live events. Built by operators for operators, it unifies payments, devices, POS terminals, and workflow data into a single platform, offering real‑time revenu…
   api_count: 1
   score_band: emerging
-  score_composite: 18.3
+  score_composite: 25.7
   shared: 2
 - slug: pragmatic
   name: Pragmatic
   description: Pragmatic Semiconductor Limited is a UK semiconductor manufacturer that designs and produces FlexICs - ultra-thin, physically flexible integrated circuits built on thin-film transistor (TFT) technology rather than conventional crystalline…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.2
+  score_band: emerging
+  score_composite: 13.1
   shared: 2
 ---

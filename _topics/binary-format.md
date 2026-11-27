@@ -36,13 +36,13 @@ providers:
   description: Protocol Buffers (Protobuf) is Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. It defines a schema language for specifying message structures in .proto files, which are compiled into effic…
   api_count: 1
   score_band: emerging
-  score_composite: 24.5
+  score_composite: 24.0
   shared: 2
 - slug: capn-proto
   name: Cap'n Proto
   description: Cap'n Proto is an open-source binary data interchange format and capability-based RPC protocol specification originally created by Kenton Varda. Unlike Protocol Buffers, Cap'n Proto's in-memory representation is identical to its wire forma…
   api_count: 5
   score_band: emerging
-  score_composite: 12.6
+  score_composite: 11.6
   shared: 2
 ---

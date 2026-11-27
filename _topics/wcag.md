@@ -29,13 +29,13 @@ apis:
   url: https://www.w3.org/WAI/standards-guidelines/act/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/wcag/blob/main/plans/wcag-plans-pricing.yml
+  url: https://artifacts.apis.io/wcag/plans/wcag-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/wcag/blob/main/rate-limits/wcag-rate-limits.yml
+  url: https://artifacts.apis.io/wcag/rate-limits/wcag-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/wcag/blob/main/finops/wcag-finops.yml
+  url: https://artifacts.apis.io/wcag/finops/wcag-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/wcag/blob/main/security/wcag-domain-security.yml
+  url: https://artifacts.apis.io/wcag/security/wcag-domain-security.yml
 - type: Website
   url: https://www.w3.org/WAI/
 - type: Documentation
@@ -47,45 +47,66 @@ links:
 - type: Tools
   url: https://github.com/w3c/wcag-em-report-tool
 - type: Vocabulary
-  url: https://github.com/api-evangelist/wcag/blob/main/vocabulary/wcag-vocabulary.yml
+  url: https://artifacts.apis.io/wcag/vocabulary/wcag-vocabulary.yml
 - type: JSONLD
-  url: https://github.com/api-evangelist/wcag/blob/main/json-ld/wcag-context.jsonld
-provider_count: 7
+  url: https://artifacts.apis.io/wcag/json-ld/wcag-context.jsonld
+provider_count: 10
 providers:
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 3
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
+  score_composite: 55.4
+  shared: 2
+- slug: checker-lazynext
+  name: United Global Ventures Private Limited
+  description: United Global Ventures Private Limited operates the Lazynext Accessibility Checker, a web‑based service that scans any public website for WCAG 2.1/2.2 accessibility issues. It offers free tier scans with rendered‑page checks, whole‑site cr…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.8
+  shared: 2
+- slug: inclusifyapp-com
+  name: Inclusify
+  description: Inclusify provides web accessibility software that scans, fixes, and documents WCAG and ADA compliance issues. It offers automated audits, remediation tracking, a visitor widget, and compliance reporting for websites, with free and paid pl…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.2
+  shared: 2
+- slug: kilotest-com
+  name: Kilotest
+  description: 'kilotest-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.'
+  api_count: 1
+  score_band: thin
+  score_composite: 29.0
   shared: 2
 - slug: stark
   name: Stark
   description: Stark is a digital accessibility compliance platform used by more than 50,000 companies as their accessibility infrastructure across the entire software product lifecycle, from issue detection and remediation to insights and governance. St…
   api_count: 0
   score_band: emerging
-  score_composite: 20.8
+  score_composite: 21.7
   shared: 2
 - slug: u-s-access-board
   name: U.S. Access Board
   description: The U.S. Access Board is an independent federal agency that promotes equality for people with disabilities through the development of accessibility guidelines and standards. The Board develops criteria for accessibility in the built enviro…
   api_count: 0
   score_band: emerging
-  score_composite: 18.2
+  score_composite: 16.8
   shared: 2
 - slug: echo-labs
   name: Echo Labs
   description: Echo Labs is a San Francisco-based company building AI-powered media accessibility for higher education. Its platform audits, captions, and audio describes entire institutional video libraries within 24 hours, producing ADA / Title II and…
   api_count: 0
   score_band: minimal
-  score_composite: 6.7
+  score_composite: 6.5
   shared: 2
 - slug: user1st
   name: User1st

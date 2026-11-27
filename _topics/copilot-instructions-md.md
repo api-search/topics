@@ -26,11 +26,11 @@ apis:
   url: https://docs.github.com/en/copilot/customizing-copilot
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/copilot-instructions-md/blob/main/plans/copilot-instructions-md-plans-pricing.yml
+  url: https://artifacts.apis.io/copilot-instructions-md/plans/copilot-instructions-md-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/copilot-instructions-md/blob/main/rate-limits/copilot-instructions-md-rate-limits.yml
+  url: https://artifacts.apis.io/copilot-instructions-md/rate-limits/copilot-instructions-md-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/copilot-instructions-md/blob/main/finops/copilot-instructions-md-finops.yml
+  url: https://artifacts.apis.io/copilot-instructions-md/finops/copilot-instructions-md-finops.yml
 - type: Documentation
   url: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot
 - type: Documentation
@@ -39,7 +39,7 @@ links:
   url: https://github.com/github/awesome-copilot
 - type: Blog
   url: https://github.blog/changelog/2025-01-23-custom-instructions-for-github-copilot-in-vs-code-now-generally-available/
-provider_count: 10
+provider_count: 11
 providers:
 - slug: claude-md
   name: CLAUDE.md
@@ -69,6 +69,13 @@ providers:
   score_band: null
   score_composite: 0
   shared: 3
+- slug: codemindhq-dev
+  name: CodeMind
+  description: CodeMind (codemindhq.dev) is an AI coding service that plugs into Claude Code, Cursor, Cline and Windsurf as a remote Model Context Protocol (MCP) server at https://api.codemindhq.dev/mcp, authenticated with a Bearer API key. Given a featu…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.4
+  shared: 2
 - slug: clinerules
   name: .clinerules
   description: .clinerules is the rule-file convention used by the Cline open-source AI coding agent. Projects expose persistent guidance to Cline by placing a .clinerules/ directory at the repository root containing one or more Markdown or text files. E…

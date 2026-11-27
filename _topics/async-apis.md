@@ -80,31 +80,31 @@ links:
 - type: Website
   url: https://asyncapi.com
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/async-apis/blob/main/agentic-access/async-apis-agentic-access.yml
+  url: https://artifacts.apis.io/async-apis/agentic-access/async-apis-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/async-apis/blob/main/security/async-apis-domain-security.yml
+  url: https://artifacts.apis.io/async-apis/security/async-apis-domain-security.yml
 - type: TopicIndex
   url: https://github.com/api-evangelist/async-apis
 - type: JSONSchema
-  url: https://github.com/api-evangelist/async-apis/blob/main/json-schema/asyncapi-document-schema.json
+  url: https://artifacts.apis.io/async-apis/json-schema/asyncapi-document-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/async-apis/blob/main/json-schema/asyncapi-channel-schema.json
+  url: https://artifacts.apis.io/async-apis/json-schema/asyncapi-channel-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/async-apis/blob/main/json-schema/asyncapi-operation-schema.json
+  url: https://artifacts.apis.io/async-apis/json-schema/asyncapi-operation-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/async-apis/blob/main/json-schema/asyncapi-message-schema.json
+  url: https://artifacts.apis.io/async-apis/json-schema/asyncapi-message-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/async-apis/blob/main/json-schema/asyncapi-server-schema.json
+  url: https://artifacts.apis.io/async-apis/json-schema/asyncapi-server-schema.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/async-apis/blob/main/json-ld/async-apis-context.jsonld
+  url: https://artifacts.apis.io/async-apis/json-ld/async-apis-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/async-apis/blob/main/vocabulary/async-apis-vocabulary.yml
+  url: https://artifacts.apis.io/async-apis/vocabulary/async-apis-vocabulary.yml
 - type: Examples
-  url: https://github.com/api-evangelist/async-apis/blob/main/examples/asyncapi-kafka-example.yml
+  url: https://artifacts.apis.io/async-apis/examples/asyncapi-kafka-example.yml
 - type: Examples
-  url: https://github.com/api-evangelist/async-apis/blob/main/examples/asyncapi-mqtt-example.yml
+  url: https://artifacts.apis.io/async-apis/examples/asyncapi-mqtt-example.yml
 - type: Examples
-  url: https://github.com/api-evangelist/async-apis/blob/main/examples/asyncapi-websocket-example.yml
+  url: https://artifacts.apis.io/async-apis/examples/asyncapi-websocket-example.yml
 - type: Specification
   url: https://www.asyncapi.com/docs/reference/specification/latest
 - type: SpecificationRepo
@@ -121,22 +121,22 @@ providers:
   name: Gravitee
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kube…
   api_count: 3
-  score_band: strong
-  score_composite: 65.2
+  score_band: exemplar
+  score_composite: 66.6
   shared: 2
 - slug: hivemq
   name: HiveMQ
   description: HiveMQ is an enterprise MQTT broker and IoT connectivity platform that provides reliable, scalable bidirectional messaging between connected devices and back-end systems using the MQTT protocol. It supports MQTT 3, MQTT 5, MQTT over WebSoc…
   api_count: 1
   score_band: strong
-  score_composite: 57.2
+  score_composite: 58.3
   shared: 2
 - slug: apache-activemq
   name: Apache ActiveMQ
   description: Apache ActiveMQ is an open-source, high-performance message broker written in Java, developed by the Apache Software Foundation. It implements the Jakarta Messaging (JMS) API and supports multiple messaging protocols including AMQP, STOMP,…
   api_count: 4
   score_band: thin
-  score_composite: 35.4
+  score_composite: 35.8
   shared: 2
 - slug: messaging-protocol
   name: Messaging Protocol

@@ -15,9 +15,9 @@ api_count: 0
 apis: []
 links:
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/interface-specifications/blob/main/security/interface-specifications-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/interface-specifications/security/interface-specifications-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/interface-specifications/blob/main/security/interface-specifications-domain-security.yml
+  url: https://artifacts.apis.io/interface-specifications/security/interface-specifications-domain-security.yml
 - type: Website
   url: https://en.wikipedia.org/wiki/Interface_specification
 provider_count: 0

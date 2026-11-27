@@ -24,16 +24,36 @@ apis:
   description: Microservices.io is a pattern language for microservices architectures, documenting patterns for decomposition, data management, communication, deployment, and cross-cutting concerns. It covers API Gateway, Saga, Event Sourcing, CQRS, and…
   url: https://microservices.io/patterns/
 links:
+- type: Website
+  url: https://learn.microsoft.com/en-us/azure/architecture/
+- type: SecurityTxt
+  url: https://artifacts.apis.io/software-design-architectural-patterns/well-known/software-design-architectural-patterns-www-security.txt
+- type: WellKnown
+  url: https://artifacts.apis.io/software-design-architectural-patterns/well-known/software-design-architectural-patterns-well-known.yml
+- type: Spectral
+  url: https://artifacts.apis.io/software-design-architectural-patterns/rules/software-design-architectural-patterns-jsonschema-spectral-rules.yml
+- type: JSONLD
+  url: https://artifacts.apis.io/software-design-architectural-patterns/json-ld/software-design-architectural-patterns-context.jsonld
+- type: Vocabulary
+  url: https://artifacts.apis.io/software-design-architectural-patterns/vocabulary/software-design-architectural-patterns-vocabulary.yml
+- type: Security
+  url: https://www.microsoft.com/en-us/msrc/bounty-safe-harbor
+- type: Hosts
+  url: https://artifacts.apis.io/software-design-architectural-patterns/hosts/software-design-architectural-patterns-hosts.yml
+- type: Vendors
+  url: https://artifacts.apis.io/software-design-architectural-patterns/vendors/software-design-architectural-patterns-vendors.yml
+- type: Documentation
+  url: https://dev.microsoft.com/
 - type: Plans
-  url: https://github.com/api-evangelist/software-design-architectural-patterns/blob/main/plans/software-design-architectural-patterns-plans-pricing.yml
+  url: https://artifacts.apis.io/software-design-architectural-patterns/plans/software-design-architectural-patterns-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/software-design-architectural-patterns/blob/main/rate-limits/software-design-architectural-patterns-rate-limits.yml
+  url: https://artifacts.apis.io/software-design-architectural-patterns/rate-limits/software-design-architectural-patterns-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/software-design-architectural-patterns/blob/main/finops/software-design-architectural-patterns-finops.yml
+  url: https://artifacts.apis.io/software-design-architectural-patterns/finops/software-design-architectural-patterns-finops.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/software-design-architectural-patterns/blob/main/security/software-design-architectural-patterns-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/software-design-architectural-patterns/security/software-design-architectural-patterns-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/software-design-architectural-patterns/blob/main/security/software-design-architectural-patterns-domain-security.yml
+  url: https://artifacts.apis.io/software-design-architectural-patterns/security/software-design-architectural-patterns-domain-security.yml
 - type: Reference
   url: https://en.wikipedia.org/wiki/Architectural_pattern
 - type: Reference
@@ -44,10 +64,6 @@ links:
   url: https://refactoring.guru/design-patterns
 - type: Reference
   url: https://martinfowler.com/architecture/
-- type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/software-design-architectural-patterns/refs/heads/main/json-ld/software-design-architectural-patterns-context.jsonld
-- type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/software-design-architectural-patterns/refs/heads/main/vocabulary/software-design-architectural-patterns-vocabulary.yml
 provider_count: 8
 providers:
 - slug: axon-framework
@@ -55,49 +71,49 @@ providers:
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 33.1
+  score_composite: 31.2
   shared: 3
 - slug: eventuate
   name: Eventuate
   description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, providing frameworks for managing distributed data consistency across services without two-phase commit.
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 20.1
   shared: 3
 - slug: conductor-oss
   name: Conductor OSS
   description: Conductor OSS is the Netflix-founded, Orkes-stewarded open source workflow and agentic AI orchestration platform. It provides a durable, event-driven workflow engine for coordinating microservices, long-running tasks, human approvals, and…
   api_count: 1
   score_band: thin
-  score_composite: 34.3
+  score_composite: 33.9
   shared: 2
 - slug: vert-x
   name: Vert.x
   description: Eclipse Vert.x is a toolkit for building reactive applications on the JVM, providing support for multiple languages including Java, JavaScript, Groovy, Ruby, and Kotlin with an event-driven, non-blocking architecture. Part of the Eclipse F…
   api_count: 7
   score_band: thin
-  score_composite: 31.9
+  score_composite: 30.8
   shared: 2
 - slug: spring-cloud-stream
   name: Spring Cloud Stream
   description: Spring Cloud Stream is a framework for building event-driven microservices connected with shared messaging systems. It provides a flexible programming model built on established Spring idioms and best practices, including support for persi…
   api_count: 3
   score_band: thin
-  score_composite: 30.0
+  score_composite: 29.6
   shared: 2
 - slug: netflix-conductor
   name: Netflix Conductor
   description: Conductor is a microservices orchestration platform originally created by Netflix, providing a workflow engine for coordinating and managing complex distributed processes across multiple services with built-in retries, error handling, and…
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 20.1
   shared: 2
 - slug: design-patterns
   name: Design Patterns
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
-  score_band: emerging
-  score_composite: 11.0
+  score_band: minimal
+  score_composite: 10.8
   shared: 2
 - slug: services-patterns
   name: Services Patterns

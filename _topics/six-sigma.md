@@ -27,19 +27,19 @@ apis:
   url: https://www.isixsigma.com
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/six-sigma/blob/main/plans/six-sigma-plans-pricing.yml
+  url: https://artifacts.apis.io/six-sigma/plans/six-sigma-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/six-sigma/blob/main/rate-limits/six-sigma-rate-limits.yml
+  url: https://artifacts.apis.io/six-sigma/rate-limits/six-sigma-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/six-sigma/blob/main/finops/six-sigma-finops.yml
+  url: https://artifacts.apis.io/six-sigma/finops/six-sigma-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/six-sigma/blob/main/security/six-sigma-domain-security.yml
+  url: https://artifacts.apis.io/six-sigma/security/six-sigma-domain-security.yml
 - type: Website
   url: https://www.asq.org/quality-resources/six-sigma
 - type: JSONLD
-  url: https://github.com/api-evangelist/six-sigma/blob/main/json-ld/six-sigma-context.jsonld
+  url: https://artifacts.apis.io/six-sigma/json-ld/six-sigma-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/six-sigma/blob/main/vocabulary/six-sigma-vocabulary.yml
+  url: https://artifacts.apis.io/six-sigma/vocabulary/six-sigma-vocabulary.yml
 provider_count: 0
 providers: []
 ---

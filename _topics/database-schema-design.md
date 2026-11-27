@@ -44,7 +44,7 @@ links:
 - type: Reference
   url: https://www.mongodb.com/docs/manual/data-modeling/
 - type: Vocabulary
-  url: https://github.com/api-evangelist/database-schema-design/blob/main/vocabulary/database-schema-design-vocabulary.yml
+  url: https://artifacts.apis.io/database-schema-design/vocabulary/database-schema-design-vocabulary.yml
 provider_count: 0
 providers: []
 ---

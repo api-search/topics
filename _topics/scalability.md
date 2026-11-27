@@ -35,11 +35,11 @@ apis:
   description: Grafana is the open-source platform for monitoring and observability, providing a REST HTTP API for managing dashboards, data sources, users, and alerts. Widely used alongside Prometheus for scalability metrics visualization and alerting w…
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/scalability/blob/main/plans/scalability-plans-pricing.yml
+  url: https://artifacts.apis.io/scalability/plans/scalability-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/scalability/blob/main/rate-limits/scalability-rate-limits.yml
+  url: https://artifacts.apis.io/scalability/rate-limits/scalability-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/scalability/blob/main/finops/scalability-finops.yml
+  url: https://artifacts.apis.io/scalability/finops/scalability-finops.yml
 - type: GitHubOrganization
   url: https://github.com/kedacore
 - type: CNCF Landscape
@@ -47,13 +47,13 @@ links:
 - type: Blog
   url: https://kubernetes.io/blog/
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/scalability/main/json-schema/scalability-scaling-policy-schema.json
+  url: https://artifacts.apis.io/scalability/json-schema/scalability-scaling-policy-schema.json
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/scalability/main/json-schema/scalability-load-balancer-schema.json
+  url: https://artifacts.apis.io/scalability/json-schema/scalability-load-balancer-schema.json
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/scalability/main/json-ld/scalability-context.jsonld
+  url: https://artifacts.apis.io/scalability/json-ld/scalability-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/scalability/main/vocabulary/scalability-vocabulary.yml
+  url: https://artifacts.apis.io/scalability/vocabulary/scalability-vocabulary.yml
 provider_count: 80
 providers:
 - slug: new-relic
@@ -61,196 +61,203 @@ providers:
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain re…
   api_count: 5
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 74.4
   shared: 3
 - slug: amazon-elastic-load-balancing
   name: Amazon Elastic Load Balancing
   description: Amazon Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions, ensuring high availability and fault tolerance for…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.3
+  api_count: 11
+  score_band: exemplar
+  score_composite: 73.5
   shared: 3
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 64.9
+  score_composite: 65.8
   shared: 3
 - slug: haproxy
   name: HAProxy
   description: HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It exposes a Data Plane API for dynamic configuration management and a stats socket for r…
   api_count: 1
   score_band: developing
-  score_composite: 44.1
+  score_composite: 44.0
   shared: 3
 - slug: amazon-lightsail
   name: Amazon Lightsail
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
-  api_count: 3
+  api_count: 22
   score_band: exemplar
-  score_composite: 75.4
+  score_composite: 76.4
+  shared: 2
+- slug: amazon-ec2-auto-scaling
+  name: Amazon EC2 Auto Scaling
+  description: Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. You can use fleet management features to maintain the health and availability of…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 75.6
   shared: 2
 - slug: synadia-communications
   name: Synadia Communications
   description: Synadia Communications, Inc. is the creator and primary maintainer of NATS.io, the CNCF connectivity and messaging system, and sells the commercial platform built on it. Its products are Synadia Cloud (fully managed, globally distributed N…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.1
+  score_composite: 71.9
+  shared: 2
+- slug: aws-elastic-beanstalk
+  name: AWS Elastic Beanstalk
+  description: AWS Elastic Beanstalk is a Platform-as-a-Service offering that makes it easy to deploy, scale, and manage web applications and services developed in Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar AWS infrastructure. It…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 71.2
+  shared: 2
+- slug: amazon-ec2
+  name: Amazon EC2
+  description: Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud, allowing you to launch virtual server instances, manage networking, and configure storage with complete control over your computing resources.
+  api_count: 124
+  score_band: exemplar
+  score_composite: 71.0
+  shared: 2
+- slug: microsoft-azure-load-balancer
+  name: Azure Load Balancer
+  description: Azure Load Balancer is a high-performance, low-latency layer-4 load balancing service for distributing inbound and outbound network traffic across virtual machines and other Azure resources. It supports public and internal load balancers,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.2
+  shared: 2
+- slug: amazon-global-accelerator
+  name: Amazon Global Accelerator
+  description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 69.6
   shared: 2
 - slug: platform.sh
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster o…
   api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 68.5
+  shared: 2
+- slug: google-cloud-platform
+  name: Google Cloud Platform
+  description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure.
+  api_count: 31
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 2
+- slug: google-cloud-load-balancing
+  name: Google Cloud Load Balancing
+  description: Google Cloud Load Balancing provides high-performance, scalable load balancing for Google Cloud Platform services, distributing traffic across multiple instances, regions, and backends to ensure reliability and low latency.
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.0
   shared: 2
 - slug: spectro-cloud
   name: Spectro Cloud
   description: Spectro Cloud provides Palette, an enterprise platform for managing the full lifecycle of Kubernetes clusters and cloud-native and AI infrastructure across data centers, public clouds, bare metal, and the edge. Palette uses declarative clu…
   api_count: 3
-  score_band: strong
-  score_composite: 65.9
+  score_band: exemplar
+  score_composite: 66.7
   shared: 2
-- slug: amazon-ec2-auto-scaling
-  name: Amazon EC2 Auto Scaling
-  description: Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. You can use fleet management features to maintain the health and availability of…
-  api_count: 1
+- slug: microsoft-azure-virtual-machines
+  name: Azure Virtual Machines
+  description: Azure Virtual Machines (VMs) is one of several types of on-demand, scalable computing resources that Azure offers. VMs give you the flexibility of virtualization without having to buy and maintain physical hardware.
+  api_count: 6
   score_band: strong
-  score_composite: 65.3
+  score_composite: 64.2
   shared: 2
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
   api_count: 1
   score_band: strong
-  score_composite: 65.0
-  shared: 2
-- slug: google-cloud-platform
-  name: Google Cloud Platform
-  description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure.
-  api_count: 1
-  score_band: strong
-  score_composite: 64.8
+  score_composite: 63.9
   shared: 2
 - slug: nuon
   name: Nuon
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into thei…
   api_count: 2
   score_band: strong
-  score_composite: 64.4
+  score_composite: 63.4
   shared: 2
 - slug: scale3
   name: Scale3
   description: Scale3 Labs is a modern observability and infrastructure platform for Web3 and generative AI. Its Web3 products (Autopilot, Nodepilot and Blockchain Intelligence) let node operators and validators deploy, monitor, log and alert on blockcha…
   api_count: 1
   score_band: strong
-  score_composite: 63.9
-  shared: 2
-- slug: amazon-ec2
-  name: Amazon EC2
-  description: Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud, allowing you to launch virtual server instances, manage networking, and configure storage with complete control over your computing resources.
-  api_count: 1
-  score_band: strong
-  score_composite: 61.8
+  score_composite: 63.0
   shared: 2
 - slug: gameye
   name: Gameye
   description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single RES…
   api_count: 1
   score_band: strong
-  score_composite: 61.8
-  shared: 2
-- slug: amazon-global-accelerator
-  name: Amazon Global Accelerator
-  description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.4
+  score_composite: 60.2
   shared: 2
 - slug: termius
   name: Termius
   description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults…
   api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 58.3
   shared: 2
 - slug: render
   name: Render
   description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, Postgre…
   api_count: 1
   score_band: strong
-  score_composite: 56.5
-  shared: 2
-- slug: scaleway
-  name: Scaleway
-  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources includin…
-  api_count: 10
-  score_band: developing
-  score_composite: 53.8
-  shared: 2
-- slug: microsoft-azure-load-balancer
-  name: Azure Load Balancer
-  description: Azure Load Balancer is a high-performance, low-latency layer-4 load balancing service for distributing inbound and outbound network traffic across virtual machines and other Azure resources. It supports public and internal load balancers,…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.3
+  score_composite: 54.6
   shared: 2
 - slug: localstack
   name: LocalStack
   description: LocalStack is a cloud service emulator that runs in a single container on your laptop or in your CI environment, providing a local test and mocking framework for developing cloud applications against AWS, Snowflake, and Azure without provi…
   api_count: 1
   score_band: developing
-  score_composite: 53.2
-  shared: 2
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 1
-  score_band: developing
-  score_composite: 52.0
-  shared: 2
-- slug: google-cloud-load-balancing
-  name: Google Cloud Load Balancing
-  description: Google Cloud Load Balancing provides high-performance, scalable load balancing for Google Cloud Platform services, distributing traffic across multiple instances, regions, and backends to ensure reliability and low latency.
-  api_count: 1
-  score_band: developing
-  score_composite: 52.0
-  shared: 2
-- slug: microsoft-azure-virtual-machines
-  name: Azure Virtual Machines
-  description: Azure Virtual Machines (VMs) is one of several types of on-demand, scalable computing resources that Azure offers. VMs give you the flexibility of virtualization without having to buy and maintain physical hardware.
-  api_count: 1
-  score_band: developing
-  score_composite: 51.8
-  shared: 2
-- slug: openbao
-  name: OpenBao
-  description: OpenBao is an open source, community-driven identity-based secrets and encryption management system, forked from HashiCorp Vault in 2023 and governed by the Linux Foundation as a sandbox project of the Open Source Security Foundation (Open…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.7
-  shared: 2
-- slug: vmware
-  name: VMware
-  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 2
-- slug: strongdm
-  name: StrongDM
-  description: StrongDM is a Zero Trust Privileged Access Management (PAM) platform that brokers and governs access to infrastructure — databases, servers, Kubernetes clusters, cloud resources, network devices, and internal web apps — through a central c…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.0
+  score_composite: 52.4
   shared: 2
 - slug: tensorwave
   name: TensorWave
   description: TensorWave is a Las Vegas-headquartered AI cloud provider that builds and operates bare-metal GPU infrastructure exclusively on AMD Instinct accelerators (MI300X, MI325X, MI355X and MI455X) with AMD's open ROCm software stack. The company…
   api_count: 1
   score_band: developing
-  score_composite: 49.7
+  score_composite: 52.1
+  shared: 2
+- slug: docker
+  name: Docker
+  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+  api_count: 1
+  score_band: developing
+  score_composite: 51.7
+  shared: 2
+- slug: scaleway
+  name: Scaleway
+  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources includin…
+  api_count: 10
+  score_band: developing
+  score_composite: 51.6
+  shared: 2
+- slug: openbao
+  name: OpenBao
+  description: OpenBao is an open source, community-driven identity-based secrets and encryption management system, forked from HashiCorp Vault in 2023 and governed by the Linux Foundation as a sandbox project of the Open Source Security Foundation (Open…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.3
+  shared: 2
+- slug: civo
+  name: Civo
+  description: Civo is a sovereign cloud and AI platform ("Civo - Sovereign Cloud and AI Platform") offering public cloud services including managed Kubernetes, compute instances, databases and the Konstruct IDP, private cloud via CivoStack Enterprise an…
+  api_count: 2
+  score_band: developing
+  score_composite: 50.1
+  shared: 2
+- slug: vmware
+  name: VMware
+  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
+  api_count: 1
+  score_band: developing
+  score_composite: 49.8
   shared: 2
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -258,12 +265,5 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 49.1
-  shared: 2
-- slug: cast-ai
-  name: CAST AI
-  description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The pla…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.8
   shared: 2
 ---

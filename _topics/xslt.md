@@ -26,17 +26,17 @@ apis:
   url: https://www.w3.org/TR/xslt-10/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/xslt/blob/main/plans/xslt-plans-pricing.yml
+  url: https://artifacts.apis.io/xslt/plans/xslt-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/xslt/blob/main/rate-limits/xslt-rate-limits.yml
+  url: https://artifacts.apis.io/xslt/rate-limits/xslt-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/xslt/blob/main/finops/xslt-finops.yml
+  url: https://artifacts.apis.io/xslt/finops/xslt-finops.yml
 - type: IssueTracker
   url: https://github.com/Saxonica/Saxon-HE/issues
 - type: Releases
   url: https://github.com/Saxonica/Saxon-HE/releases
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/xslt/blob/main/security/xslt-domain-security.yml
+  url: https://artifacts.apis.io/xslt/security/xslt-domain-security.yml
 - type: Website
   url: https://www.w3.org/TR/xslt/
 - type: Documentation
@@ -48,21 +48,21 @@ links:
 - type: Specification
   url: https://www.w3.org/TR/xslt-30/
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/json-schema/xslt-stylesheet-schema.json
+  url: https://artifacts.apis.io/xslt/json-schema/xslt-stylesheet-schema.json
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/json-schema/xslt-transformation-schema.json
+  url: https://artifacts.apis.io/xslt/json-schema/xslt-transformation-schema.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/json-structure/xslt-stylesheet-structure.json
+  url: https://artifacts.apis.io/xslt/json-structure/xslt-stylesheet-structure.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/json-structure/xslt-transformation-structure.json
+  url: https://artifacts.apis.io/xslt/json-structure/xslt-transformation-structure.json
 - type: Examples
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/examples/xslt-stylesheet-example.json
+  url: https://artifacts.apis.io/xslt/examples/xslt-stylesheet-example.json
 - type: Examples
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/examples/xslt-transformation-example.json
+  url: https://artifacts.apis.io/xslt/examples/xslt-transformation-example.json
 - type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/json-ld/xslt-context.jsonld
+  url: https://artifacts.apis.io/xslt/json-ld/xslt-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/xslt/refs/heads/main/vocabulary/xslt-vocabulary.yml
+  url: https://artifacts.apis.io/xslt/vocabulary/xslt-vocabulary.yml
 provider_count: 4
 providers:
 - slug: acord
@@ -70,27 +70,27 @@ providers:
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.4
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 47.3
+  score_composite: 45.8
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 2
 - slug: mismo
   name: MISMO
   description: MISMO — the Mortgage Industry Standards Maintenance Organization — is the standards development body for US real estate finance, founded in 1999 and a not-for-profit wholly owned subsidiary of the Mortgage Bankers Association since 2004. I…
   api_count: 0
   score_band: minimal
-  score_composite: 6.7
+  score_composite: 6.8
   shared: 2
 ---

@@ -32,11 +32,11 @@ apis:
   url: https://dredd.org
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/test-first/blob/main/plans/test-first-plans-pricing.yml
+  url: https://artifacts.apis.io/test-first/plans/test-first-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/test-first/blob/main/rate-limits/test-first-rate-limits.yml
+  url: https://artifacts.apis.io/test-first/rate-limits/test-first-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/test-first/blob/main/finops/test-first-finops.yml
+  url: https://artifacts.apis.io/test-first/finops/test-first-finops.yml
 - type: Blog
   url: https://cucumber.io/blog/
 - type: BlogRSS
@@ -52,36 +52,36 @@ links:
 - type: License
   url: https://github.com/cucumber/cucumber-js/blob/main/LICENSE
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/test-first/blob/main/security/test-first-domain-security.yml
+  url: https://artifacts.apis.io/test-first/security/test-first-domain-security.yml
 - type: Documentation
   url: https://en.wikipedia.org/wiki/Test-driven_development
 - type: Documentation
   url: https://www.agilealliance.org/glossary/tdd/
 - type: JSONSchema
-  url: https://github.com/api-evangelist/test-first/blob/main/json-schema/test-first-specification-schema.json
+  url: https://artifacts.apis.io/test-first/json-schema/test-first-specification-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/test-first/blob/main/json-schema/test-first-contract-schema.json
+  url: https://artifacts.apis.io/test-first/json-schema/test-first-contract-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/test-first/blob/main/json-schema/test-first-mock-schema.json
+  url: https://artifacts.apis.io/test-first/json-schema/test-first-mock-schema.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/test-first/blob/main/json-ld/test-first-context.jsonld
+  url: https://artifacts.apis.io/test-first/json-ld/test-first-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/test-first/blob/main/vocabulary/test-first-vocabulary.yml
+  url: https://artifacts.apis.io/test-first/vocabulary/test-first-vocabulary.yml
 provider_count: 3
 providers:
 - slug: cucumber
   name: Cucumber
   description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing execu…
   api_count: 5
-  score_band: thin
-  score_composite: 26.8
+  score_band: emerging
+  score_composite: 25.7
   shared: 2
 - slug: approxima
   name: Approxima
   description: 'Approxima is a Y Combinator (Winter 2026) startup building AI agents that test every pull request. Approxima plugs into your CI/CD pipeline and runs autonomous agents on each PR: the agents build your application in an isolated sandbox, ex…'
   api_count: 0
-  score_band: minimal
-  score_composite: 10.1
+  score_band: emerging
+  score_composite: 12.2
   shared: 2
 - slug: secure-by-default
   name: Secure-By-Default

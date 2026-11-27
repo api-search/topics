@@ -53,73 +53,73 @@ apis:
   url: https://docs.oracle.com/en-us/iaas/api/
 links:
 - type: FinOps
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/finops/oracle-platforms-finops.yml
+  url: https://artifacts.apis.io/oracle-platforms/finops/oracle-platforms-finops.yml
 - type: CapabilityMap
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/capabilities/oracle-platforms-capability-edges.yml
+  url: https://artifacts.apis.io/oracle-platforms/capabilities/oracle-platforms-capability-edges.yml
 - type: Overlay
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/overlays/oracle-platforms-core-overlay.yaml
+  url: https://artifacts.apis.io/oracle-platforms/overlays/oracle-platforms-core-overlay.yaml
 - type: Overlay
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/overlays/oracle-platforms-database-overlay.yaml
+  url: https://artifacts.apis.io/oracle-platforms/overlays/oracle-platforms-database-overlay.yaml
 - type: Overlay
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/overlays/oracle-platforms-integration-overlay.yaml
+  url: https://artifacts.apis.io/oracle-platforms/overlays/oracle-platforms-integration-overlay.yaml
 - type: Overlay
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/overlays/oracle-platforms-content-management-overlay.yaml
+  url: https://artifacts.apis.io/oracle-platforms/overlays/oracle-platforms-content-management-overlay.yaml
 - type: Overlay
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/overlays/oracle-platforms-analytics-overlay.yaml
+  url: https://artifacts.apis.io/oracle-platforms/overlays/oracle-platforms-analytics-overlay.yaml
 - type: Overlay
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/overlays/oracle-platforms-data-science-overlay.yaml
+  url: https://artifacts.apis.io/oracle-platforms/overlays/oracle-platforms-data-science-overlay.yaml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/security/oracle-platforms-domain-security.yml
+  url: https://artifacts.apis.io/oracle-platforms/security/oracle-platforms-domain-security.yml
 - type: Packages
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/packages/oracle-platforms-packages.yml
+  url: https://artifacts.apis.io/oracle-platforms/packages/oracle-platforms-packages.yml
 - type: SDKs
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/packages/oracle-platforms-packages.yml
+  url: https://artifacts.apis.io/oracle-platforms/packages/oracle-platforms-packages.yml
 - type: MCPServer
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/mcp/oracle-platforms-mcp.yml
+  url: https://artifacts.apis.io/oracle-platforms/mcp/oracle-platforms-mcp.yml
 - type: ToolCrosswalk
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/mcp/oracle-platforms-tool-crosswalk.yml
+  url: https://artifacts.apis.io/oracle-platforms/mcp/oracle-platforms-tool-crosswalk.yml
 - type: LLMsTxt
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/llms/oracle-platforms-llms.txt
+  url: https://artifacts.apis.io/oracle-platforms/llms/oracle-platforms-llms.txt
 - type: Conformance
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/conformance/oracle-platforms-conformance.yml
+  url: https://artifacts.apis.io/oracle-platforms/conformance/oracle-platforms-conformance.yml
 - type: Compliance
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/security/oracle-platforms-trust-center.yml
+  url: https://artifacts.apis.io/oracle-platforms/security/oracle-platforms-trust-center.yml
 - type: ErrorCatalog
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/errors/oracle-platforms-problem-types.yml
+  url: https://artifacts.apis.io/oracle-platforms/errors/oracle-platforms-problem-types.yml
 - type: Lifecycle
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/lifecycle/oracle-platforms-lifecycle.yml
+  url: https://artifacts.apis.io/oracle-platforms/lifecycle/oracle-platforms-lifecycle.yml
 - type: StatusPage
   url: https://ocistatus.oraclecloud.com/
 - type: Deprecation
   url: https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm
 - type: Authentication
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/authentication/oracle-platforms-authentication.yml
+  url: https://artifacts.apis.io/oracle-platforms/authentication/oracle-platforms-authentication.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/security/oracle-platforms-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/oracle-platforms/security/oracle-platforms-vulnerability-disclosure.yml
 - type: Security
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/security/oracle-platforms-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/oracle-platforms/security/oracle-platforms-vulnerability-disclosure.yml
 - type: TrustCenter
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/security/oracle-platforms-trust-center.yml
+  url: https://artifacts.apis.io/oracle-platforms/security/oracle-platforms-trust-center.yml
 - type: Sandbox
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/sandbox/oracle-platforms-sandbox.yml
+  url: https://artifacts.apis.io/oracle-platforms/sandbox/oracle-platforms-sandbox.yml
 - type: Conventions
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/conventions/oracle-platforms-conventions.yml
+  url: https://artifacts.apis.io/oracle-platforms/conventions/oracle-platforms-conventions.yml
 - type: Idempotency
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/conventions/oracle-platforms-conventions.yml
+  url: https://artifacts.apis.io/oracle-platforms/conventions/oracle-platforms-conventions.yml
 - type: ChangeLog
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/changelog/oracle-platforms-changelog.yml
+  url: https://artifacts.apis.io/oracle-platforms/changelog/oracle-platforms-changelog.yml
 - type: CLI
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/cli/oracle-platforms-cli.yml
+  url: https://artifacts.apis.io/oracle-platforms/cli/oracle-platforms-cli.yml
 - type: DataModel
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/data-model/oracle-platforms-data-model.yml
+  url: https://artifacts.apis.io/oracle-platforms/data-model/oracle-platforms-data-model.yml
 - type: Webhooks
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/asyncapi/oracle-platforms-events.yml
+  url: https://artifacts.apis.io/oracle-platforms/asyncapi/oracle-platforms-events.yml
 - type: AgentSkill
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/skills/_index.yml
+  url: https://artifacts.apis.io/oracle-platforms/skills/_index.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/rate-limits/oracle-platforms-rate-limits.yml
+  url: https://artifacts.apis.io/oracle-platforms/rate-limits/oracle-platforms-rate-limits.yml
 - type: Plans
-  url: https://github.com/api-evangelist/oracle-platforms/blob/main/plans/oracle-platforms-plans-pricing.yml
+  url: https://artifacts.apis.io/oracle-platforms/plans/oracle-platforms-plans-pricing.yml
 - type: DeveloperPortal
   url: https://developer.oracle.com/
 - type: Documentation
@@ -132,91 +132,105 @@ links:
   url: https://developer.oracle.com/community/
 - type: GitHubOrganization
   url: https://github.com/oracle
-provider_count: 447
+provider_count: 501
 providers:
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kube…
   api_count: 9
   score_band: exemplar
-  score_composite: 76.9
+  score_composite: 75.6
   shared: 4
 - slug: microsoft-azure
   name: Microsoft Azure
   description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
-  api_count: 697
+  api_count: 720
   score_band: exemplar
-  score_composite: 78.4
+  score_composite: 76.0
   shared: 3
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 64.9
+  score_composite: 65.8
   shared: 3
 - slug: crusoe
   name: Crusoe
   description: Crusoe is a vertically integrated "AI factory" company that designs, builds, and operates energy-first AI infrastructure, and sells it as Crusoe Cloud — a GPU cloud for training, fine-tuning, and inference. The public developer surface is…
   api_count: 2
   score_band: strong
-  score_composite: 61.8
+  score_composite: 62.5
   shared: 3
 - slug: tiledb
   name: TileDB
   description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
   api_count: 4
   score_band: strong
-  score_composite: 59.2
-  shared: 3
-- slug: ocient
-  name: Ocient
-  description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.9
+  score_composite: 58.8
   shared: 3
 - slug: databricks
   name: Databricks
   description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
   api_count: 1
   score_band: strong
-  score_composite: 57.1
+  score_composite: 58.7
+  shared: 3
+- slug: ocient
+  name: Ocient
+  description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with com…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
   shared: 3
 - slug: workday
   name: Workday
   description: Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.
   api_count: 16
   score_band: strong
-  score_composite: 55.9
+  score_composite: 54.7
   shared: 3
 - slug: teradata
   name: Teradata
   description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.8
+  shared: 3
+- slug: smartmind
+  name: SmartMind
+  description: SmartMind AI Inc. is a South Korean AI company (Techstars 2020, Seoul) building ontology-based enterprise AI. Its current products are Qurify — a natural-language data analysis platform that answers questions without SQL by combining struc…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.7
   shared: 3
 - slug: tibco
   name: TIBCO
   description: APIs and services provided by TIBCO Software Inc., a global leader in integration, API management, and analytics software.
   api_count: 4
   score_band: developing
-  score_composite: 43.7
+  score_composite: 41.6
   shared: 3
-- slug: smartmind
-  name: SmartMind
-  description: SmartMind AI Inc. is a South Korean AI company (Techstars 2020, Seoul) building ontology-based enterprise AI. Its current products are Qurify — a natural-language data analysis platform that answers questions without SQL by combining struc…
+- slug: fluxito-app
+  name: Fluxito
+  description: Fluxito provides marketing analytics integration for AI platforms, connecting Google Analytics, Google Tag Manager, Google Ads, Meta, TikTok, Snap, and BigQuery to AI-driven workflows. It offers live dashboards, MCP-ready data streams, and…
   api_count: 1
+  score_band: developing
+  score_composite: 39.3
+  shared: 3
+- slug: clientsuccess
+  name: ClientSuccess
+  description: ClientSuccess provides a comprehensive customer success platform that helps businesses reduce churn, increase revenue, and deliver world‑class customer experiences. The SaaS solution combines AI‑driven insights, automation, and a unified p…
+  api_count: 0
   score_band: thin
-  score_composite: 39.2
+  score_composite: 33.0
   shared: 3
 - slug: aible
   name: Aible
   description: Aible is an enterprise AI company founded in 2018 and headquartered in Pleasanton, California, that lets business users build and run AI agents, AutoML models and generative-AI analytics against data that stays inside the customer's own AW…
   api_count: 1
   score_band: thin
-  score_composite: 30.4
+  score_composite: 31.7
   shared: 3
 - slug: sqream-technologies
   name: SQream Technologies
@@ -230,77 +244,70 @@ providers:
   description: IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for running large-scale SQL analytics and in-database machine learning on structured data. Originally a standalone data-warehouse appliance vendor acqu…
   api_count: 0
   score_band: emerging
-  score_composite: 24.1
-  shared: 3
-- slug: clientsuccess
-  name: ClientSuccess
-  description: ClientSuccess provides a comprehensive customer success platform that helps businesses reduce churn, increase revenue, and deliver world‑class customer experiences. The SaaS solution combines AI‑driven insights, automation, and a unified p…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.4
-  shared: 3
-- slug: decisionnext
-  name: DecisionNext
-  description: DecisionNext is a San Francisco-founded (2015) AI and machine-learning software company whose prescriptive analytics platform helps commodity-driven businesses decide what to buy and sell, when, at what price, and on what formula. The plat…
-  api_count: 0
-  score_band: emerging
-  score_composite: 19.4
+  score_composite: 22.6
   shared: 3
 - slug: tresata
   name: Tresata
   description: Tresata is a Charlotte, North Carolina enterprise software company building what it describes as the foundational data layer for agentic AI. Its platform is marketed under the product names AB (Asset Builder), AU (Unreal Data Engine) and A…
   api_count: 0
   score_band: emerging
-  score_composite: 18.1
+  score_composite: 19.3
+  shared: 3
+- slug: decisionnext
+  name: DecisionNext
+  description: DecisionNext is a San Francisco-founded (2015) AI and machine-learning software company whose prescriptive analytics platform helps commodity-driven businesses decide what to buy and sell, when, at what price, and on what formula. The plat…
+  api_count: 0
+  score_band: emerging
+  score_composite: 19.2
   shared: 3
 - slug: syncler
   name: Sellmore
   description: Sellmore provides integration software for data synchronization, enabling businesses to connect and automate their systems across platforms. The solution offers process automation, data quality management, and a unified interface for manag…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.1
-  shared: 3
-- slug: vespucci
-  name: Vespucci
-  description: Vespucci (Vespucci Analytics) is a product-analytics platform that helps teams understand why their users engage with a product. Rather than replacing existing analytics, it connects to the event data companies already collect in Amplitude…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.0
+  score_band: emerging
+  score_composite: 16.3
   shared: 3
 - slug: abinitio
   name: Ab Initio
   description: Ab Initio provides an enterprise data platform that enables large-scale data processing, integration, and analytics across diverse industries. Its software automates data ingestion, transformation, and delivery, supporting batch and real‑t…
   api_count: 1
   score_band: minimal
-  score_composite: 7.0
+  score_composite: 9.7
+  shared: 3
+- slug: vespucci
+  name: Vespucci
+  description: Vespucci (Vespucci Analytics) is a product-analytics platform that helps teams understand why their users engage with a product. Rather than replacing existing analytics, it connects to the event data companies already collect in Amplitude…
+  api_count: 0
+  score_band: minimal
+  score_composite: 7.5
   shared: 3
 - slug: aaktelescienceinc
   name: AAK Tele-Science
   description: AAK Tele-Science, Inc. (aakscience.com) is a Davis, California software company founded in 2020 that operates a cloud-based collaborative platform for the global scientific research community. The AAK platform connects researchers, institu…
   api_count: 1
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 7.1
   shared: 3
 - slug: akashx
   name: AkashX
   description: AkashX is a Techstars-backed data and AI company building an Online Cognitive Processing (OLCP) Database and a declarative "Cognitive SQL" engine for reasoning over structured and unstructured data at scale. Its platform runs small languag…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.0
   shared: 3
 - slug: recommind
   name: Recommind
   description: Recommind was an enterprise information analytics and eDiscovery software company founded in 2000, best known for its CORE predictive-analytics platform and its Axcelerate eDiscovery and information-governance products used by legal and en…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
+  score_composite: 2.6
   shared: 3
 - slug: bloom9
   name: Bloom9
   description: Bloom9 is a data analytics platform that claims to provide businesses with tools for data integration, visualization, and predictive insights. The company was initially identified through secondary‑market listings and lacks a clearly docum…
   api_count: 0
   score_band: minimal
-  score_composite: 3.1
+  score_composite: 2.2
   shared: 3
 - slug: canopy-labs
   name: Canopy Labs
@@ -321,27 +328,20 @@ providers:
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching,…
   api_count: 11
   score_band: exemplar
-  score_composite: 80.2
+  score_composite: 80.8
+  shared: 2
+- slug: google-analytics
+  name: Google Analytics
+  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-plat…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 79.7
   shared: 2
 - slug: clickhouse
   name: ClickHouse
   description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 76.9
-  shared: 2
-- slug: outsystems
-  name: OutSystems
-  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11),…
-  api_count: 14
-  score_band: exemplar
-  score_composite: 75.7
-  shared: 2
-- slug: svix
-  name: Svix
-  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 74.5
+  score_composite: 77.1
   shared: 2
 ---

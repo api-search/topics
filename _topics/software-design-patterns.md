@@ -26,13 +26,13 @@ apis:
   url: https://www.patterns.dev/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/software-design-patterns/blob/main/plans/software-design-patterns-plans-pricing.yml
+  url: https://artifacts.apis.io/software-design-patterns/plans/software-design-patterns-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/software-design-patterns/blob/main/rate-limits/software-design-patterns-rate-limits.yml
+  url: https://artifacts.apis.io/software-design-patterns/rate-limits/software-design-patterns-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/software-design-patterns/blob/main/finops/software-design-patterns-finops.yml
+  url: https://artifacts.apis.io/software-design-patterns/finops/software-design-patterns-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/software-design-patterns/blob/main/security/software-design-patterns-domain-security.yml
+  url: https://artifacts.apis.io/software-design-patterns/security/software-design-patterns-domain-security.yml
 - type: Reference
   url: https://refactoring.guru/design-patterns
 - type: Reference
@@ -44,31 +44,31 @@ links:
 - type: Reference
   url: https://en.wikipedia.org/wiki/Design_Patterns
 - type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/software-design-patterns/refs/heads/main/json-ld/software-design-patterns-context.jsonld
+  url: https://artifacts.apis.io/software-design-patterns/json-ld/software-design-patterns-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/software-design-patterns/refs/heads/main/vocabulary/software-design-patterns-vocabulary.yml
+  url: https://artifacts.apis.io/software-design-patterns/vocabulary/software-design-patterns-vocabulary.yml
 provider_count: 4
 providers:
 - slug: design-patterns
   name: Design Patterns
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
-  score_band: emerging
-  score_composite: 11.0
+  score_band: minimal
+  score_composite: 10.8
   shared: 3
 - slug: amazon-well-architected-tool
   name: Amazon Well-Architected Tool
   description: The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural best practices. It provides a consistent process for evaluating architectures and implementing designs that scale over time acro…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.7
+  api_count: 22
+  score_band: exemplar
+  score_composite: 67.3
   shared: 2
 - slug: arketo-ai
   name: Arketo
   description: Arketo is a web‑based developer application that connects AI assistants such as Claude, Code, Cursor, and others to automatically draw your app’s architecture live, flag potential breakages, and generate detailed reports. It helps prompt‑b…
   api_count: 1
-  score_band: emerging
-  score_composite: 20.5
+  score_band: thin
+  score_composite: 27.4
   shared: 2
 - slug: services-patterns
   name: Services Patterns

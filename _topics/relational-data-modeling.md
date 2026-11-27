@@ -45,21 +45,21 @@ apis:
   url: https://sqldbm.com/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/plans/relational-data-modeling-plans-pricing.yml
+  url: https://artifacts.apis.io/relational-data-modeling/plans/relational-data-modeling-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/rate-limits/relational-data-modeling-rate-limits.yml
+  url: https://artifacts.apis.io/relational-data-modeling/rate-limits/relational-data-modeling-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/finops/relational-data-modeling-finops.yml
+  url: https://artifacts.apis.io/relational-data-modeling/finops/relational-data-modeling-finops.yml
 - type: CapabilityMap
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/capabilities/relational-data-modeling-capability-edges.yml
+  url: https://artifacts.apis.io/relational-data-modeling/capabilities/relational-data-modeling-capability-edges.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/agentic-access/relational-data-modeling-agentic-access.yml
+  url: https://artifacts.apis.io/relational-data-modeling/agentic-access/relational-data-modeling-agentic-access.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/security/relational-data-modeling-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/relational-data-modeling/security/relational-data-modeling-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/security/relational-data-modeling-domain-security.yml
+  url: https://artifacts.apis.io/relational-data-modeling/security/relational-data-modeling-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/relational-data-modeling/blob/main/authentication/relational-data-modeling-authentication.yml
+  url: https://artifacts.apis.io/relational-data-modeling/authentication/relational-data-modeling-authentication.yml
 - type: Website
   url: https://en.wikipedia.org/wiki/Relational_model
 - type: Reference
@@ -67,11 +67,11 @@ links:
 - type: Reference
   url: https://en.wikipedia.org/wiki/Database_normalization
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/relational-data-modeling/refs/heads/main/json-schema/relational-data-modeling-entity-schema.json
+  url: https://artifacts.apis.io/relational-data-modeling/json-schema/relational-data-modeling-entity-schema.json
 - type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/relational-data-modeling/refs/heads/main/json-ld/relational-data-modeling-context.jsonld
+  url: https://artifacts.apis.io/relational-data-modeling/json-ld/relational-data-modeling-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/relational-data-modeling/refs/heads/main/vocabulary/relational-data-modeling-vocabulary.yml
+  url: https://artifacts.apis.io/relational-data-modeling/vocabulary/relational-data-modeling-vocabulary.yml
 provider_count: 0
 providers: []
 ---

@@ -42,7 +42,7 @@ links:
 - type: Reference
   url: https://datavaultalliance.com/
 - type: Vocabulary
-  url: https://github.com/api-evangelist/data-modeling/blob/main/vocabulary/data-modeling-vocabulary.yml
+  url: https://artifacts.apis.io/data-modeling/vocabulary/data-modeling-vocabulary.yml
 provider_count: 0
 providers: []
 ---

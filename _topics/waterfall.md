@@ -20,44 +20,58 @@ links:
 - type: Documentation
   url: https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model
 - type: Vocabulary
-  url: https://github.com/api-evangelist/waterfall/blob/main/vocabulary/waterfall-vocabulary.yml
+  url: https://artifacts.apis.io/waterfall/vocabulary/waterfall-vocabulary.yml
 - type: JSONLD
-  url: https://github.com/api-evangelist/waterfall/blob/main/json-ld/waterfall-context.jsonld
-provider_count: 5
+  url: https://artifacts.apis.io/waterfall/json-ld/waterfall-context.jsonld
+provider_count: 7
 providers:
 - slug: shortcut-software
   name: Shortcut Software
   description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 20…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.0
+  score_composite: 71.4
   shared: 2
 - slug: hansoft
   name: Hansoft
   description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban,…
   api_count: 3
-  score_band: strong
-  score_composite: 55.6
+  score_band: developing
+  score_composite: 50.8
   shared: 2
 - slug: lightsprint
   name: Lightsprint
   description: Lightsprint is an AI-native product-development platform where developers, product managers, and designers plan, build, and ship together against a codebase a team already runs, rather than a greenfield prototype. Its three surfaces are Pl…
   api_count: 1
   score_band: developing
-  score_composite: 44.4
+  score_composite: 43.9
+  shared: 2
+- slug: i-kanban-com
+  name: iKanban
+  description: iKanban provides AI‑enhanced task and project management for engineering teams. It integrates AI agents like Claude, Copilot, Antigravity and Codex to pick up tasks, open pull requests and report back on the team board, streamlining workfl…
+  api_count: 4
+  score_band: thin
+  score_composite: 32.3
   shared: 2
 - slug: rezonant
   name: Rezonant
   description: Rezonant is a London-based product development workspace, founded by former Stripe UK engineering leader Emma Burrows, that captures product intent and carries it all the way through tasks, coding agents, and shipped code. It helps product…
   api_count: 0
   score_band: emerging
-  score_composite: 19.3
+  score_composite: 19.7
   shared: 2
 - slug: agile-today-org
   name: Agile Today
   description: Agile Today provides a methodology graph for AI agents to manage projects through a structured set of gates and stages. The platform integrates practices from PMBOK®, PRINCE2®, Scrum, Kanban, and BABOK®, offering reproducible, traceable de…
   api_count: 0
-  score_band: minimal
-  score_composite: 9.2
+  score_band: emerging
+  score_composite: 16.6
+  shared: 2
+- slug: m-flow-io
+  name: MFlow
+  description: MFlow provides an AI‑powered delivery intelligence platform that equips software teams with autonomous agents to plan work, generate code, review pull requests, and manage project knowledge. The service integrates with tools like Jira, Tre…
+  api_count: 1
+  score_band: emerging
+  score_composite: 12.4
   shared: 2
 ---

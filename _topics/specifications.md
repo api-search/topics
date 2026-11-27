@@ -65,19 +65,19 @@ links:
 - type: ContributionGuide
   url: https://github.com/OAI/OpenAPI-Specification/blob/main/CONTRIBUTING.md
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/specifications/blob/main/security/specifications-domain-security.yml
+  url: https://artifacts.apis.io/specifications/security/specifications-domain-security.yml
 - type: Website
   url: https://github.com/api-evangelist/specifications
 - type: GitHubRepository
   url: https://github.com/api-evangelist/specifications
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/json-schema/specification-record-schema.json
+  url: https://artifacts.apis.io/specifications/json-schema/specification-record-schema.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/json-structure/specification-record-structure.json
+  url: https://artifacts.apis.io/specifications/json-structure/specification-record-structure.json
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/json-ld/specifications-context.jsonld
+  url: https://artifacts.apis.io/specifications/json-ld/specifications-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/vocabulary/specifications-vocabulary.yml
+  url: https://artifacts.apis.io/specifications/vocabulary/specifications-vocabulary.yml
 - type: GitHubOrganization
   url: https://github.com/OAI
 - type: GitHubOrganization
@@ -98,6 +98,10 @@ links:
   url: https://github.com/microsoft
 - type: GitHubOrganization
   url: https://github.com/raml-org
+- type: UsageTerms
+  url: https://artifacts.apis.io/specifications/terms/specifications-terms-of-service.yml
+- type: DataLicense
+  url: https://artifacts.apis.io/specifications/data-license/specifications-data-license.yml
 provider_count: 2
 providers:
 - slug: apigovernance-dev
@@ -105,7 +109,7 @@ providers:
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 22.0
   shared: 2
 - slug: headers
   name: HTTP Headers

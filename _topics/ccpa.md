@@ -37,11 +37,11 @@ apis:
   url: https://globalprivacycontrol.org/
 links:
 - type: CapabilityMap
-  url: https://github.com/api-evangelist/ccpa/blob/main/capabilities/ccpa-capability-edges.yml
+  url: https://artifacts.apis.io/ccpa/capabilities/ccpa-capability-edges.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/ccpa/blob/main/security/ccpa-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/ccpa/security/ccpa-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/ccpa/blob/main/security/ccpa-domain-security.yml
+  url: https://artifacts.apis.io/ccpa/security/ccpa-domain-security.yml
 - type: Website
   url: https://oag.ca.gov/privacy/ccpa
 - type: Documentation
@@ -61,263 +61,263 @@ links:
 - type: GPP
   url: https://iabtechlab.com/gpp/
 - type: Authentication
-  url: https://github.com/api-evangelist/ccpa/blob/main/authentication/ccpa-authentication.yml
+  url: https://artifacts.apis.io/ccpa/authentication/ccpa-authentication.yml
 - type: OpenAPI
-  url: https://github.com/api-evangelist/ccpa/blob/main/openapi/_original/ccpa-drop-databroker-api.yml
+  url: https://artifacts.apis.io/ccpa/openapi/_original/ccpa-drop-databroker-api.yml
 - type: Overlay
-  url: https://github.com/api-evangelist/ccpa/blob/main/overlays/ccpa-drop-databroker-api-overlay.yaml
+  url: https://artifacts.apis.io/ccpa/overlays/ccpa-drop-databroker-api-overlay.yaml
 - type: WellKnown
-  url: https://github.com/api-evangelist/ccpa/blob/main/well-known/ccpa-well-known.yml
+  url: https://artifacts.apis.io/ccpa/well-known/ccpa-well-known.yml
 - type: SecurityTxt
-  url: https://github.com/api-evangelist/ccpa/blob/main/well-known/ccpa-security.txt
+  url: https://artifacts.apis.io/ccpa/well-known/ccpa-security.txt
 - type: Security
-  url: https://github.com/api-evangelist/ccpa/blob/main/security/ccpa-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/ccpa/security/ccpa-vulnerability-disclosure.yml
 - type: Conventions
-  url: https://github.com/api-evangelist/ccpa/blob/main/conventions/ccpa-conventions.yml
+  url: https://artifacts.apis.io/ccpa/conventions/ccpa-conventions.yml
 - type: Conformance
-  url: https://github.com/api-evangelist/ccpa/blob/main/conformance/ccpa-conformance.yml
+  url: https://artifacts.apis.io/ccpa/conformance/ccpa-conformance.yml
 - type: ErrorCatalog
-  url: https://github.com/api-evangelist/ccpa/blob/main/errors/ccpa-problem-types.yml
+  url: https://artifacts.apis.io/ccpa/errors/ccpa-problem-types.yml
 - type: Lifecycle
-  url: https://github.com/api-evangelist/ccpa/blob/main/lifecycle/ccpa-lifecycle.yml
+  url: https://artifacts.apis.io/ccpa/lifecycle/ccpa-lifecycle.yml
 - type: ChangeLog
-  url: https://github.com/api-evangelist/ccpa/blob/main/changelog/ccpa-changelog.yml
+  url: https://artifacts.apis.io/ccpa/changelog/ccpa-changelog.yml
 - type: Sandbox
-  url: https://github.com/api-evangelist/ccpa/blob/main/sandbox/ccpa-sandbox.yml
+  url: https://artifacts.apis.io/ccpa/sandbox/ccpa-sandbox.yml
 - type: Webhooks
-  url: https://github.com/api-evangelist/ccpa/blob/main/asyncapi/ccpa-drop-webhooks.yml
+  url: https://artifacts.apis.io/ccpa/asyncapi/ccpa-drop-webhooks.yml
 - type: DataModel
-  url: https://github.com/api-evangelist/ccpa/blob/main/data-model/ccpa-data-model.yml
+  url: https://artifacts.apis.io/ccpa/data-model/ccpa-data-model.yml
 - type: Packages
-  url: https://github.com/api-evangelist/ccpa/blob/main/packages/ccpa-packages.yml
+  url: https://artifacts.apis.io/ccpa/packages/ccpa-packages.yml
 - type: SDKs
-  url: https://github.com/api-evangelist/ccpa/blob/main/packages/ccpa-packages.yml
+  url: https://artifacts.apis.io/ccpa/packages/ccpa-packages.yml
 - type: AgentSkill
-  url: https://github.com/api-evangelist/ccpa/blob/main/skills/_index.yml
+  url: https://artifacts.apis.io/ccpa/skills/_index.yml
 - type: LLMsTxt
-  url: https://github.com/api-evangelist/ccpa/blob/main/llms/ccpa-llms.txt
+  url: https://artifacts.apis.io/ccpa/llms/ccpa-llms.txt
 - type: RateLimits
-  url: https://github.com/api-evangelist/ccpa/blob/main/rate-limits/ccpa-rate-limits.yml
+  url: https://artifacts.apis.io/ccpa/rate-limits/ccpa-rate-limits.yml
 - type: Plans
-  url: https://github.com/api-evangelist/ccpa/blob/main/plans/ccpa-plans-pricing.yml
+  url: https://artifacts.apis.io/ccpa/plans/ccpa-plans-pricing.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/ccpa/blob/main/finops/ccpa-finops.yml
+  url: https://artifacts.apis.io/ccpa/finops/ccpa-finops.yml
 - type: DeveloperPortal
   url: https://privacy.ca.gov/drop-for-data-brokers/
 - type: APIReference
   url: https://privacy.ca.gov/drop-for-data-brokers/technical-specifications/api-operations/
 - type: GettingStarted
   url: https://privacy.ca.gov/drop-for-data-brokers/technical-specifications/getting-started/
-provider_count: 120
+provider_count: 134
 providers:
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
   api_count: 1
   score_band: strong
-  score_composite: 55.8
+  score_composite: 57.8
   shared: 4
 - slug: vaquill-ai
   name: Vaquill AI
   description: 'Vaquill AI is US primary law data infrastructure: a credit-metered Legal Data API over the US Code, the CFR, every state and territory statutory code, regulations, constitutions, court rules, session laws, agency guidance and executive ord…'
   api_count: 3
-  score_band: strong
-  score_composite: 61.9
+  score_band: exemplar
+  score_composite: 74.4
   shared: 3
 - slug: pimloc
   name: Pimloc
   description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 59.3
   shared: 3
 - slug: trustboost-dev
   name: TrustBoost PII Sanitizer
   description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
   api_count: 1
-  score_band: strong
-  score_composite: 54.6
+  score_band: developing
+  score_composite: 53.1
   shared: 3
 - slug: i6eal-open-ai-data-api
   name: i6eal Open AI Data API
   description: A free, no-authentication open-data REST API from i6eal (a German AI studio operated by Syka Ventures UG) exposing 16 AI-related datasets and monitors for Germany and the EU as static JSON/CSV/JSON-LD/Atom files served over HTTPS from Clou…
   api_count: 1
   score_band: developing
-  score_composite: 45.6
-  shared: 3
-- slug: cookieyes
-  name: Cookieyes
-  description: CookieYes is a Google-certified consent management platform (CMP) that helps websites comply with privacy laws such as GDPR, CCPA/CPRA, LGPD, PIPEDA and POPIA. It provides customizable cookie consent banners, an automatic cookie scanner wi…
-  api_count: 0
-  score_band: thin
-  score_composite: 33.8
+  score_composite: 46.7
   shared: 3
 - slug: openlaws
   name: OpenLaws
   description: OpenLaws is a Public Benefit Corporation that provides programmatic access to U.S. law text — federal and state statutes, regulations, constitutions, and case law — through a unified Legal Data API. The platform exposes keyword and citatio…
   api_count: 1
   score_band: thin
-  score_composite: 33.0
+  score_composite: 33.6
+  shared: 3
+- slug: cookieyes
+  name: Cookieyes
+  description: CookieYes is a Google-certified consent management platform (CMP) that helps websites comply with privacy laws such as GDPR, CCPA/CPRA, LGPD, PIPEDA and POPIA. It provides customizable cookie consent banners, an automatic cookie scanner wi…
+  api_count: 0
+  score_band: thin
+  score_composite: 31.9
   shared: 3
 - slug: odaseva
   name: Odaseva
   description: Odaseva is an enterprise data security, backup, and governance platform purpose-built for large, complex Salesforce environments. It provides data backup and recovery, archiving, seeding and anonymization/masking, encryption and key manage…
   api_count: 0
   score_band: emerging
-  score_composite: 25.3
+  score_composite: 25.6
   shared: 3
 - slug: planitprima-com
   name: planitprima-com
   description: Planit Prima offers a web‑based data protection management platform that helps organisations maintain GDPR‑compliant documentation. The software keeps data protection management lean, transparent and always up to date with legal requiremen…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.3
+  score_band: emerging
+  score_composite: 13.9
   shared: 3
 - slug: onetrust
   name: OneTrust
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP…
   api_count: 37
   score_band: exemplar
-  score_composite: 77.1
+  score_composite: 78.3
+  shared: 2
+- slug: amazon-macie
+  name: Amazon Macie
+  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
+  api_count: 22
+  score_band: exemplar
+  score_composite: 75.4
+  shared: 2
+- slug: aws-backup
+  name: AWS Backup
+  description: AWS Backup is a fully managed, policy-based data protection service that centralizes and automates backup of data across AWS services including EBS volumes, EC2 instances, RDS databases, DynamoDB tables, EFS file systems, FSx file systems,…
+  api_count: 27
+  score_band: exemplar
+  score_composite: 69.8
+  shared: 2
+- slug: thomson-reuters
+  name: Thomson Reuters
+  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
+  api_count: 134
+  score_band: exemplar
+  score_composite: 66.9
   shared: 2
 - slug: altr
   name: ALTR
   description: ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines autom…
   api_count: 21
   score_band: strong
-  score_composite: 62.1
-  shared: 2
-- slug: california-privacy-protection-agency
-  name: California Privacy Protection Agency
-  description: The California Privacy Protection Agency (CPPA, branded CalPrivacy) is the state regulator that administers and enforces the California Consumer Privacy Act and the Delete Act. Under the Delete Act it operates DROP, the Delete Request and…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.6
-  shared: 2
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.8
-  shared: 2
-- slug: inth
-  name: Inth
-  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.4
-  shared: 2
-- slug: thomson-reuters
-  name: Thomson Reuters
-  description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax softwa…
-  api_count: 134
-  score_band: strong
-  score_composite: 58.5
-  shared: 2
-- slug: certifaction
-  name: Certifaction
-  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their…'
-  api_count: 2
-  score_band: strong
-  score_composite: 57.5
-  shared: 2
-- slug: singlefile
-  name: SingleFile
-  description: SingleFile is an AI-powered entity management and corporate compliance platform for corporations, law firms, and investment organizations. It automates business entity formation, EIN filing, annual report filing, registered agent services,…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.4
+  score_composite: 62.2
   shared: 2
 - slug: immuta
   name: Immuta
   description: Immuta is a data security and access-governance platform that lets organizations register their cloud data platforms — Snowflake, Databricks (Unity Catalog, Lakebase, Spark), Amazon Redshift and Redshift Spectrum, Amazon S3, AWS Lake Forma…
   api_count: 1
   score_band: strong
-  score_composite: 57.3
+  score_composite: 60.3
+  shared: 2
+- slug: california-privacy-protection-agency
+  name: California Privacy Protection Agency
+  description: The California Privacy Protection Agency (CPPA, branded CalPrivacy) is the state regulator that administers and enforces the California Consumer Privacy Act and the Delete Act. Under the Delete Act it operates DROP, the Delete Request and…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.9
+  shared: 2
+- slug: inth
+  name: Inth
+  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.9
+  shared: 2
+- slug: singlefile
+  name: SingleFile
+  description: SingleFile is an AI-powered entity management and corporate compliance platform for corporations, law firms, and investment organizations. It automates business entity formation, EIN filing, annual report filing, registered agent services,…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.9
+  shared: 2
+- slug: certscore-ai
+  name: certscore-ai
+  description: CertScore.ai provides automated privacy and security scanning for public websites, detecting cookies, trackers, consent mechanisms, and privacy policy signals. Users can run free scans, review detailed evidence, and integrate findings into…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.4
+  shared: 2
+- slug: mine
+  name: MINE
+  description: Mine (MineOS) is a data privacy, governance, and AI security posture management platform backed by Battery Ventures. Its MineOS product automates data mapping and inventory, data subject / privacy rights requests (DSR), consent management,…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.2
+  shared: 2
+- slug: hempdata-io
+  name: HempData
+  description: HempData provides free, citation‑backed data on U.S. hemp regulations, statutes, bills, and enforcement actions across all 50 states and DC. Their API offers endpoints for compliance checks, state profiles, and regulatory queries, all with…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.7
+  shared: 2
+- slug: certifaction
+  name: Certifaction
+  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their…'
+  api_count: 2
+  score_band: strong
+  score_composite: 55.2
   shared: 2
 - slug: osano
   name: Osano
   description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
   api_count: 2
   score_band: strong
-  score_composite: 57.1
-  shared: 2
-- slug: mine
-  name: MINE
-  description: Mine (MineOS) is a data privacy, governance, and AI security posture management platform backed by Battery Ventures. Its MineOS product automates data mapping and inventory, data subject / privacy rights requests (DSR), consent management,…
-  api_count: 2
-  score_band: developing
-  score_composite: 54.2
-  shared: 2
-- slug: confido-legal
-  name: Confido Legal
-  description: Confido Legal is a payment processing and disbursements platform purpose-built for the legal industry. It enables law firms and legal technology vendors to accept client payments with automated trust-account routing, send real-time digital…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.1
+  score_composite: 54.3
   shared: 2
 - slug: bigid
   name: BigID
   description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data &…
   api_count: 3
   score_band: developing
-  score_composite: 52.0
+  score_composite: 53.5
+  shared: 2
+- slug: corpuslaw-us
+  name: Corpus
+  description: Corpus (corpuslaw.us) is an independent US legal-information and business-formation service founded and run by Tyler Eakes. It forms LLCs in all 50 states plus DC (and nonprofit corporations in 48 states), payable by card or USDC, and inde…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.7
+  shared: 2
+- slug: aiactradar-com
+  name: AI Act Radar
+  description: AI Act Radar provides a structured webhook feed and JSON API delivering real‑time updates on the European Union AI Act. It aggregates regulatory articles, deadlines, national implementations, and source information, offering developers a m…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.5
   shared: 2
 - slug: nabis
   name: Nabis
   description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace…
   api_count: 3
   score_band: developing
-  score_composite: 51.7
+  score_composite: 51.2
   shared: 2
 - slug: spin-ai
   name: Spin.AI
   description: Spin.AI is a SaaS security platform providing data protection, ransomware detection, and compliance management for cloud applications including Google Workspace, Microsoft 365, Salesforce, and Slack. The SpinOne Public API enables programm…
   api_count: 1
   score_band: developing
-  score_composite: 50.2
+  score_composite: 51.2
   shared: 2
-- slug: relativity
-  name: Relativity
-  description: Relativity is an eDiscovery and legal review platform offering RelativityOne, a cloud-based SaaS solution for managing the full legal data lifecycle. Its REST API enables programmatic access to workspaces, document import and export, proce…
-  api_count: 32
-  score_band: developing
-  score_composite: 50.0
-  shared: 2
-- slug: mitratech
-  name: Mitratech
-  description: Mitratech is an Austin, Texas based enterprise software company supplying legal operations, governance, risk and compliance, and HR compliance software to corporate legal departments, compliance teams and human resources organizations. Its…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.5
-  shared: 2
-- slug: luminance
-  name: Luminance
-  description: Luminance Technologies Ltd. is a UK-headquartered legal-AI company, founded in 2015 out of Cambridge mathematics research, that builds what it markets as Legal-Grade AI for the full contract lifecycle — drafting, negotiation, analysis, com…
-  api_count: 3
-  score_band: developing
-  score_composite: 46.8
-  shared: 2
-- slug: incountry
-  name: InCountry
-  description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured RES…
+- slug: piwik-pro
+  name: Piwik PRO
+  description: Piwik PRO provides a privacy‑first analytics, tag management and data activation platform designed for enterprises that need full control over data collection, storage and reporting. It supports compliance frameworks such as GDPR, HIPAA an…
   api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 50.8
   shared: 2
-- slug: kodex
-  name: Kodex
-  description: Kodex (Albatross Technologies) operates the Kodex Global Network, a platform for managing law enforcement and government data requests — subpoenas, warrants, and emergency disclosure requests — for crypto exchanges, fintechs, banks, and te…
-  api_count: 2
-  score_band: developing
-  score_composite: 45.7
-  shared: 2
-- slug: certscore-ai
-  name: certscore-ai
-  description: CertScore.ai provides automated privacy and security scanning for public websites, detecting cookies, trackers, consent mechanisms, and privacy policy signals. Users can run free scans, review detailed evidence, and integrate findings into…
+- slug: confido-legal
+  name: Confido Legal
+  description: Confido Legal is a payment processing and disbursements platform purpose-built for the legal industry. It enables law firms and legal technology vendors to accept client payments with automated trust-account routing, send real-time digital…
   api_count: 1
   score_band: developing
-  score_composite: 44.4
+  score_composite: 49.2
   shared: 2
 ---

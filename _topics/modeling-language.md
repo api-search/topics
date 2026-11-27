@@ -27,20 +27,20 @@ providers:
   description: Acelab is a Brooklyn, New York software company building Material Hub, an AI-assisted material intelligence platform for the architecture, engineering, construction and owner (AECO) market. Founded in 2019 by architecture graduates from Ha…
   api_count: 2
   score_band: thin
-  score_composite: 38.3
+  score_composite: 37.6
   shared: 2
 - slug: sparx-enterprise-architect
   name: Sparx Enterprise Architect
   description: Sparx Enterprise Architect is a comprehensive modeling, design, and management platform for enterprise architecture, software engineering, and systems engineering. It provides automation APIs including a COM Automation Interface, Add-In Fr…
   api_count: 4
   score_band: thin
-  score_composite: 37.6
+  score_composite: 36.2
   shared: 2
 - slug: avoice
   name: Avoice
   description: Avoice is an AI-native workspace for architects and engineers that automates the non-design work of running an architectural practice. Its AI agents understand drawings, specifications, schedules, materials, building codes, and research to…
   api_count: 0
   score_band: emerging
-  score_composite: 11.9
+  score_composite: 13.4
   shared: 2
 ---

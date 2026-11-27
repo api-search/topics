@@ -19,7 +19,7 @@ links:
 - type: BlogRSS
   url: https://developer.mozilla.org/en-US/blog/rss.xml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/http/blob/main/security/http-domain-security.yml
+  url: https://artifacts.apis.io/http/security/http-domain-security.yml
 - type: GitHubOrganization
   url: https://github.com/httpwg
 - type: Website
@@ -27,15 +27,15 @@ links:
 - type: Reference
   url: https://httpwg.org/specs/
 - type: JSONLDContext
-  url: https://github.com/api-evangelist/http/blob/main/json-ld/http-context.jsonld
+  url: https://artifacts.apis.io/http/json-ld/http-context.jsonld
 - type: JSONSchema
-  url: https://github.com/api-evangelist/http/blob/main/json-schema/http-request.json
+  url: https://artifacts.apis.io/http/json-schema/http-request.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/http/blob/main/json-schema/http-response.json
+  url: https://artifacts.apis.io/http/json-schema/http-response.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/http/blob/main/json-schema/http-problem-details.json
+  url: https://artifacts.apis.io/http/json-schema/http-problem-details.json
 - type: Rules
-  url: https://github.com/api-evangelist/http/blob/main/rules/http-rules.yml
+  url: https://artifacts.apis.io/http/rules/http-rules.yml
 provider_count: 5
 providers:
 - slug: w3c
@@ -43,21 +43,21 @@ providers:
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 2
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
-  score_band: thin
-  score_composite: 26.9
+  score_band: emerging
+  score_composite: 25.4
   shared: 2
 - slug: internet-assigned-numbers-authority
   name: Internet Assigned Numbers Authority
   description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
   api_count: 3
-  score_band: emerging
-  score_composite: 11.2
+  score_band: minimal
+  score_composite: 10.3
   shared: 2
 - slug: http-2
   name: HTTP/2

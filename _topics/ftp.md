@@ -41,7 +41,7 @@ providers:
   name: Amazon Transfer Family
   description: AWS Transfer Family is a secure transfer service that enables you to transfer files into and out of AWS storage services. It supports SFTP, FTPS, and FTP protocols, providing a fully managed file transfer service with native integration to…
   api_count: 71
-  score_band: developing
-  score_composite: 52.3
+  score_band: exemplar
+  score_composite: 75.7
   shared: 2
 ---

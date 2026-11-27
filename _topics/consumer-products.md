@@ -77,7 +77,7 @@ links:
 - type: IssueTracker
   url: https://github.com/gs1/GS1DigitalLinkToolkit.js/issues
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/consumer-products/blob/main/security/consumer-products-domain-security.yml
+  url: https://artifacts.apis.io/consumer-products/security/consumer-products-domain-security.yml
 - type: Website
   url: https://github.com/api-evangelist/consumer-products
 - type: GitHubOrganization
@@ -89,131 +89,145 @@ links:
 - type: OpenData
   url: https://world.openfoodfacts.org/data
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-schema/consumer-product-schema.json
+  url: https://artifacts.apis.io/consumer-products/json-schema/consumer-product-schema.json
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-schema/product-identifier-schema.json
+  url: https://artifacts.apis.io/consumer-products/json-schema/product-identifier-schema.json
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-schema/nutrition-facts-schema.json
+  url: https://artifacts.apis.io/consumer-products/json-schema/nutrition-facts-schema.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-structure/consumer-product-structure.json
+  url: https://artifacts.apis.io/consumer-products/json-structure/consumer-product-structure.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-structure/product-identifier-structure.json
+  url: https://artifacts.apis.io/consumer-products/json-structure/product-identifier-structure.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-structure/nutrition-facts-structure.json
+  url: https://artifacts.apis.io/consumer-products/json-structure/nutrition-facts-structure.json
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/json-ld/consumer-products-context.jsonld
+  url: https://artifacts.apis.io/consumer-products/json-ld/consumer-products-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/vocabulary/consumer-products-vocabulary.yml
+  url: https://artifacts.apis.io/consumer-products/vocabulary/consumer-products-vocabulary.yml
 - type: Examples
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-food-example.json
+  url: https://artifacts.apis.io/consumer-products/examples/consumer-product-food-example.json
 - type: Examples
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-beauty-example.json
+  url: https://artifacts.apis.io/consumer-products/examples/consumer-product-beauty-example.json
 - type: Examples
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-products/refs/heads/main/examples/consumer-product-household-example.json
-provider_count: 147
+  url: https://artifacts.apis.io/consumer-products/examples/consumer-product-household-example.json
+provider_count: 149
 providers:
 - slug: salsify
   name: Salsify
   description: Salsify is a product experience management (PXM) and supplier experience management (SXM) platform used by brands, distributors and retailers to centralize product content, digital assets and syndication to the digital shelf. The Salsify p…
   api_count: 3
   score_band: strong
-  score_composite: 64.5
+  score_composite: 65.8
   shared: 3
 - slug: 1worldsync
   name: 1WorldSync
   description: 1WorldSync is the leading product content network and a GS1-certified GDSN data pool, helping consumer goods brands, manufacturers, and retailers create, manage, syndicate, and verify trusted product content across the digital shelf and th…
   api_count: 1
   score_band: developing
-  score_composite: 53.4
+  score_composite: 53.9
   shared: 3
 - slug: powerreviews
   name: PowerReviews
   description: PowerReviews provides ratings and reviews software and APIs for collecting, syndicating, and displaying user-generated reviews, questions, and answers so shoppers can make better purchase decisions and retailers and brands can drive e-comm…
   api_count: 2
   score_band: developing
-  score_composite: 47.3
+  score_composite: 46.7
   shared: 3
 - slug: akeneo
   name: Akeneo
   description: Akeneo is a Product Information Management (PIM) platform that centralizes, enriches, and distributes product data across digital commerce channels, enabling brands, retailers, and manufacturers to deliver consistent product experiences. T…
   api_count: 1
   score_band: developing
-  score_composite: 41.4
+  score_composite: 42.3
   shared: 3
 - slug: alkemics
   name: Alkemics
   description: Alkemics was a French SaaS company founded in 2011 in Paris that operated a collaborative commerce platform connecting consumer packaged goods (CPG) brands and retailers to share, enrich, and distribute product content and data across the…
   api_count: 22
   score_band: thin
-  score_composite: 36.0
+  score_composite: 38.3
   shared: 3
 - slug: colgate-palmolive
   name: Colgate-Palmolive
   description: Colgate-Palmolive Company is a global consumer-products manufacturer operating in oral care, personal care, home care, and pet nutrition through brands such as Colgate, Palmolive, Hill's Pet Nutrition, Speed Stick, Ajax, and Softsoap. Colg…
   api_count: 0
   score_band: emerging
-  score_composite: 14.8
+  score_composite: 16.7
+  shared: 3
+- slug: a2a-passport-ai
+  name: A2A Passport
+  description: 'A passport is a signed document for a product or a retail banner: where its record lives, where it is on the record, who lists it, where the money door is. Issued live from the GSC hubs, stamped every week.'
+  api_count: 1
+  score_band: emerging
+  score_composite: 14.4
   shared: 3
 - slug: harmonya
   name: Harmonya
   description: Harmonya is a New York- and Tel Aviv-based product intelligence company for consumer packaged goods manufacturers and retailers. Founded in 2021, it reads live product listings, pack and label copy, manufacturer specs, syndicated feeds and…
   api_count: 0
   score_band: emerging
-  score_composite: 13.5
-  shared: 3
-- slug: a2a-passport-ai
-  name: A2A Passport
-  description: 'A passport is a signed document for a product or a retail banner: where its record lives, where it is on the record, who lists it, where the money door is. Issued live from the GSC hubs, stamped every week.'
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.0
+  score_composite: 12.3
   shared: 3
 - slug: noviconnect
   name: Novi Connect
   description: Novi Connect (Novi) is an AI shopping optimization platform and data infrastructure for CPG and retail brands. It connects brands, certification bodies, and major retailers to verify, standardize, and distribute product data so products ar…
   api_count: 0
   score_band: minimal
-  score_composite: 8.9
+  score_composite: 10.0
+  shared: 3
+- slug: gsc-fleet-ai
+  name: gsc-fleet-ai
+  description: 'gsc-fleet-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.'
+  api_count: 1
+  score_band: minimal
+  score_composite: 10.0
+  shared: 3
+- slug: gsc-em-com
+  name: gsc-em-com
+  description: 'gsc-em-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.'
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
   shared: 3
 - slug: green-thumb-industries
   name: Green Thumb Industries
   description: A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multipl…
   api_count: 0
   score_band: minimal
-  score_composite: 7.5
+  score_composite: 8.9
   shared: 3
 - slug: bazaarvoice
   name: Bazaarvoice
   description: Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of br…
   api_count: 12
-  score_band: strong
-  score_composite: 65.9
+  score_band: exemplar
+  score_composite: 67.4
   shared: 2
 - slug: open-food-facts
   name: Open Food Facts
   description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Da…
   api_count: 8
   score_band: strong
-  score_composite: 65.1
+  score_composite: 66.2
   shared: 2
 - slug: erply
   name: Erply
   description: Erply is a cloud-based retail management platform providing point-of-sale (POS), inventory and warehouse management, product information management (PIM), CRM, sales reporting and ecommerce integrations for retailers running one or more st…
   api_count: 4
   score_band: strong
-  score_composite: 62.7
+  score_composite: 60.4
+  shared: 2
+- slug: wisepim
+  name: WISEPIM Open Data API
+  description: WISEPIM provides AI‑powered product information management for e‑commerce brands. It enriches, translates and validates product data, then syncs it across channels such as Shopify, Magento, WooCommerce and marketplaces. Free plan up to 100…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.6
   shared: 2
 - slug: channable
   name: Channable
   description: Channable is a feed management and marketplace integration platform that helps online retailers, brands, and agencies optimize, distribute, and advertise their product data across more than 2,500 marketing channels, price comparison sites,…
   api_count: 1
-  score_band: developing
-  score_composite: 53.9
-  shared: 2
-- slug: treez
-  name: Treez
-  description: Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its publ…
-  api_count: 7
   score_band: developing
   score_composite: 53.4
   shared: 2
@@ -222,104 +236,90 @@ providers:
   description: Back Market is a French-founded global online marketplace dedicated exclusively to refurbished consumer electronics — smartphones, laptops, tablets, consoles, watches, audio and home appliances — operating across 17 countries on three regi…
   api_count: 1
   score_band: developing
-  score_composite: 51.6
+  score_composite: 53.1
+  shared: 2
+- slug: treez
+  name: Treez
+  description: Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its publ…
+  api_count: 7
+  score_band: developing
+  score_composite: 52.8
   shared: 2
 - slug: smarter-sorting
   name: Smarter Sorting
   description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. I…
   api_count: 1
   score_band: developing
-  score_composite: 48.0
-  shared: 2
-- slug: wisepim
-  name: WISEPIM Open Data API
-  description: WISEPIM provides AI‑powered product information management for e‑commerce brands. It enriches, translates and validates product data, then syncs it across channels such as Shopify, Magento, WooCommerce and marketplaces. Free plan up to 100…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.1
-  shared: 2
-- slug: lily-ai
-  name: Lily AI
-  description: Lily AI, Inc. is a retail product-intelligence company whose platform, Lily Max, enriches e-commerce product catalogs so that products are legible to advertising platforms, search engines, onsite search, and AI shopping agents. Agents iden…
-  api_count: 2
-  score_band: developing
-  score_composite: 41.7
+  score_composite: 50.1
   shared: 2
 - slug: kroger
   name: Kroger
   description: The Kroger Co. is the largest supermarket operator in the United States and runs a two-tier developer programme from developer.kroger.com. The Public tier is self-service after account and application registration and covers Products, Loca…
   api_count: 14
   score_band: developing
-  score_composite: 41.4
+  score_composite: 42.1
+  shared: 2
+- slug: lily-ai
+  name: Lily AI
+  description: Lily AI, Inc. is a retail product-intelligence company whose platform, Lily Max, enriches e-commerce product catalogs so that products are legible to advertising platforms, search engines, onsite search, and AI shopping agents. Agents iden…
+  api_count: 2
+  score_band: developing
+  score_composite: 41.6
+  shared: 2
+- slug: trax
+  name: Trax
+  description: Trax (Trax Retail) is a cloud-based retail intelligence platform that uses computer vision and image recognition to turn shelf photographs into real-time, actionable in-store insights for consumer packaged goods (CPG) brands and retailers.…
+  api_count: 2
+  score_band: developing
+  score_composite: 39.7
   shared: 2
 - slug: maison-safqa-holdings-limited
   name: Maison Safqa
   description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Devel…
   api_count: 1
-  score_band: developing
-  score_composite: 40.4
-  shared: 2
-- slug: fabric-com
-  name: fabric
-  description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appe…
-  api_count: 16
-  score_band: developing
-  score_composite: 39.3
+  score_band: thin
+  score_composite: 38.8
   shared: 2
 - slug: coldsnap
   name: ColdSnap
   description: ColdSnap (formerly Sigma Phase, Corp.) is a Billerica, Massachusetts hardware and frozen-confection company founded in October 2018 by Matt Fonte, whose plug-and-play countertop appliance chills and churns a single serving of premium ice c…
   api_count: 3
   score_band: thin
-  score_composite: 37.6
+  score_composite: 38.4
   shared: 2
-- slug: trax
-  name: Trax
-  description: Trax (Trax Retail) is a cloud-based retail intelligence platform that uses computer vision and image recognition to turn shelf photographs into real-time, actionable in-store insights for consumer packaged goods (CPG) brands and retailers.…
+- slug: ibotta
+  name: Ibotta
+  description: 'Ibotta is a Denver-based consumer technology company (NYSE: IBTA) that operates a cash-back rewards platform and the Ibotta Performance Network (IPN), a digital promotions and retail-media network. Consumers earn real cash back on everyday…'
   api_count: 2
   score_band: thin
-  score_composite: 37.0
+  score_composite: 37.7
+  shared: 2
+- slug: fabric-com
+  name: fabric
+  description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appe…
+  api_count: 16
+  score_band: thin
+  score_composite: 37.7
   shared: 2
 - slug: bybe
   name: BYBE
   description: BYBE, Inc. is a promotion platform for the beer, wine, and spirits industry, connecting alcohol beverage brands, retailers, and consumers through digital cash-back rebates. Brands fund offers in the BYBE dashboard; retailers embed those of…
   api_count: 1
   score_band: thin
-  score_composite: 36.2
-  shared: 2
-- slug: madeiramadeira
-  name: Madeiramadeira
-  description: MadeiraMadeira (MadeiraMadeira Comercio Eletronico S/A, Curitiba, Parana) is one of Brazil's largest online retailers and marketplaces for home goods - furniture, decor, appliances, building materials, bathroom and kitchen fixtures, and pl…
-  api_count: 7
-  score_band: thin
-  score_composite: 36.2
-  shared: 2
-- slug: lemon-perfect
-  name: Lemon Perfect
-  description: Lemon Perfect is an Atlanta-based beverage company founded in 2017 by Yanni Hufnagel, making organic, zero-sugar flavored lemon water powered by half a squeezed organic lemon per bottle and 100% daily value vitamin C. It sells direct-to-co…
-  api_count: 2
-  score_band: thin
-  score_composite: 36.0
+  score_composite: 37.6
   shared: 2
 - slug: cure-hydration
   name: Cure Hydration
   description: Cure Hydration (CURE) is a New York based direct-to-consumer beverage brand founded in 2019 by Lauren Picasso, selling plant-based electrolyte drink mixes built on the World Health Organization's Oral Rehydration Solution formula — organic…
   api_count: 3
   score_band: thin
-  score_composite: 35.9
+  score_composite: 36.1
   shared: 2
-- slug: venzee
-  name: Venzee
-  description: Venzee is a product data syndication and Product Information Management (PIM) platform for ecommerce brands, manufacturers, and distributors, now operating as Jasper PIM (JasperX) with a channel connector ecosystem powered by Venzee's MESH…
-  api_count: 1
+- slug: madeiramadeira
+  name: Madeiramadeira
+  description: MadeiraMadeira (MadeiraMadeira Comercio Eletronico S/A, Curitiba, Parana) is one of Brazil's largest online retailers and marketplaces for home goods - furniture, decor, appliances, building materials, bathroom and kitchen fixtures, and pl…
+  api_count: 7
   score_band: thin
-  score_composite: 34.7
-  shared: 2
-- slug: flipp-wishabi
-  name: Flipp (Wishabi)
-  description: Flipp (operated by Wishabi) is a Toronto-based retail media and digital merchandising company that connects retailers, brands, and consumers through shoppable digital experiences. Its consumer app aggregates weekly digital flyers, coupons,…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.5
+  score_composite: 36.1
   shared: 2
 ---

@@ -20,16 +20,16 @@ providers:
 - slug: amazon-trusted-advisor
   name: Amazon Trusted Advisor
   description: AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It inspects your AWS environment and makes recommendations for saving money, improving system performance and reliability, a…
-  api_count: 16
-  score_band: developing
-  score_composite: 51.5
+  api_count: 17
+  score_band: exemplar
+  score_composite: 67.8
   shared: 2
 - slug: devsecops
   name: DevSecOps
   description: Development, Security, and Operations methodology that integrates security practices within the DevOps process, emphasizing security automation and collaboration throughout the software development lifecycle. DevSecOps treats security as c…
   api_count: 0
   score_band: minimal
-  score_composite: 4.2
+  score_composite: 3.3
   shared: 2
 - slug: secure-by-default
   name: Secure-By-Default

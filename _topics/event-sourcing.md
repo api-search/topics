@@ -15,7 +15,7 @@ api_count: 0
 apis: []
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/event-sourcing/blob/main/security/event-sourcing-domain-security.yml
+  url: https://artifacts.apis.io/event-sourcing/security/event-sourcing-domain-security.yml
 - type: Website
   url: https://martinfowler.com/eaaDev/EventSourcing.html
 provider_count: 3
@@ -25,20 +25,20 @@ providers:
   description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 55.5
   shared: 2
 - slug: axon-framework
   name: Axon Framework
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed…
   api_count: 1
   score_band: thin
-  score_composite: 33.1
+  score_composite: 31.2
   shared: 2
 - slug: eventuate
   name: Eventuate
   description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, providing frameworks for managing distributed data consistency across services without two-phase commit.
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 20.1
   shared: 2
 ---

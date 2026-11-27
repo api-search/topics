@@ -28,6 +28,6 @@ providers:
   description: Adaptigent (formerly GT Software) is a technology company founded in 1982 that specializes in mainframe integration and API enablement solutions. Their flagship product, Adaptive Integration Fabric (formerly Ivory Suite), empowers enterpri…
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 24.4
   shared: 2
 ---

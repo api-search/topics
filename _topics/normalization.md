@@ -24,77 +24,77 @@ providers:
   description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively det…
   api_count: 3
   score_band: exemplar
-  score_composite: 68.4
+  score_composite: 67.3
   shared: 2
 - slug: microsoft-sql-server
   name: Microsoft SQL Server
   description: Microsoft SQL Server is Microsoft's relational database management system for enterprise data management, analytics and business intelligence. Its programmable surfaces span client drivers (ADO.NET, JDBC, ODBC, OLE DB, Python, Node.js), SM…
   api_count: 3
   score_band: exemplar
-  score_composite: 66.7
+  score_composite: 67.0
   shared: 2
 - slug: tiledb
   name: TileDB
   description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models…
   api_count: 4
   score_band: strong
-  score_composite: 59.2
+  score_composite: 58.8
   shared: 2
 - slug: teradata
   name: Teradata
   description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scal…
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 52.8
   shared: 2
 - slug: delphix
   name: Delphix
   description: Delphix, now part of Perforce Software, is a DevOps data platform for test data management, data virtualization, and data compliance. Its core products are Continuous Data (fast, space-efficient virtual database provisioning, refresh, book…
   api_count: 2
   score_band: developing
-  score_composite: 49.0
+  score_composite: 48.1
   shared: 2
 - slug: grist
   name: Grist
   description: Grist is a collaborative spreadsheet and relational database platform that combines the flexibility of spreadsheets with the power of a structured database. It provides a REST API for reading and writing table records, managing organizatio…
   api_count: 1
   score_band: thin
-  score_composite: 36.6
+  score_composite: 35.5
   shared: 2
 - slug: one-data
   name: One Data
   description: One Data is a German enterprise software company (onedata.ai, formerly onedata.de) whose AI-native platform transforms legacy and fragmented enterprise data into trusted, governed, AI-ready data products. Its capabilities span metadata man…
   api_count: 0
   score_band: emerging
-  score_composite: 15.5
-  shared: 2
-- slug: ibm-db2
-  name: IBM Db2
-  description: IBM Db2 is a family of data management products from IBM that includes relational and hybrid database servers running on cloud, distributed, and z/OS platforms, supporting transactional, analytical, and AI workloads. Db2 exposes RESTful se…
-  api_count: 2
-  score_band: emerging
-  score_composite: 15.1
+  score_composite: 16.8
   shared: 2
 - slug: collibra
   name: Collibra
   description: Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra Data Intelligence Platform helps enterprises discover, understand, govern, and trus…
   api_count: 7
   score_band: emerging
-  score_composite: 13.7
+  score_composite: 15.0
+  shared: 2
+- slug: ibm-db2
+  name: IBM Db2
+  description: IBM Db2 is a family of data management products from IBM that includes relational and hybrid database servers running on cloud, distributed, and z/OS platforms, supporting transactional, analytical, and AI workloads. Db2 exposes RESTful se…
+  api_count: 2
+  score_band: emerging
+  score_composite: 14.0
   shared: 2
 - slug: sql
   name: SQL
   description: SQL (Structured Query Language) is the ANSI/ISO standard language for managing and querying relational databases. SQL defines the interface for creating, reading, updating, and deleting data in relational database management systems (RDBMS…
   api_count: 2
   score_band: emerging
-  score_composite: 13.5
+  score_composite: 13.1
   shared: 2
 - slug: governata
   name: Governata
   description: Governata is a Saudi Arabia-based data governance and management platform that helps government entities and enterprises turn complex data into business value through comprehensive, PDPL-aligned data management. Its product suite spans Dat…
   api_count: 0
   score_band: minimal
-  score_composite: 4.9
+  score_composite: 4.0
   shared: 2
 - slug: versant
   name: Versant

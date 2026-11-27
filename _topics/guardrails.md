@@ -66,38 +66,42 @@ links:
 - type: IssueTracker
   url: https://github.com/api-evangelist/guardrails/issues
 - type: TrustCenter
-  url: https://github.com/api-evangelist/guardrails/blob/main/security/guardrails-trust-center.yml
+  url: https://artifacts.apis.io/guardrails/security/guardrails-trust-center.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/guardrails/blob/main/security/guardrails-domain-security.yml
+  url: https://artifacts.apis.io/guardrails/security/guardrails-domain-security.yml
 - type: Repository
   url: https://github.com/api-evangelist/guardrails
 - type: JSONSchema
-  url: https://github.com/api-evangelist/guardrails/blob/main/json-schema/guardrail-policy-schema.json
+  url: https://artifacts.apis.io/guardrails/json-schema/guardrail-policy-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/guardrails/blob/main/json-schema/guardrail-violation-schema.json
+  url: https://artifacts.apis.io/guardrails/json-schema/guardrail-violation-schema.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/guardrails/blob/main/json-ld/guardrails-context.jsonld
+  url: https://artifacts.apis.io/guardrails/json-ld/guardrails-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/guardrails/blob/main/vocabulary/guardrails-vocabulary.yml
+  url: https://artifacts.apis.io/guardrails/vocabulary/guardrails-vocabulary.yml
 - type: Examples
-  url: https://github.com/api-evangelist/guardrails/blob/main/examples/
+  url: https://artifacts.apis.io/guardrails/examples/
 - type: LlmsText
   url: https://docs.lakera.ai/llms.txt
-provider_count: 29
+- type: UsageTerms
+  url: https://artifacts.apis.io/guardrails/terms/guardrails-terms-of-service.yml
+- type: DataLicense
+  url: https://artifacts.apis.io/guardrails/data-license/guardrails-data-license.yml
+provider_count: 30
 providers:
 - slug: activefence
   name: ActiveFence
   description: 'ActiveFence — now operating as Alice — is an AI security, safety and trust & safety company headquartered in New York and Tel Aviv. It sells two product families through one REST API at api.alice.io: ActiveFamily (ActiveScore automated det…'
   api_count: 2
-  score_band: developing
-  score_composite: 53.4
+  score_band: strong
+  score_composite: 55.3
   shared: 6
 - slug: gray-swan
   name: Gray Swan
   description: Gray Swan AI is an AI security company that helps enterprises deploy AI with confidence. Its Cygnal product is a real-time, drop-in secure proxy that fronts LLM providers (OpenAI, Anthropic, and Gemini request formats) with input/output fi…
   api_count: 1
   score_band: developing
-  score_composite: 44.8
+  score_composite: 46.1
   shared: 4
 - slug: lakera
   name: Lakera
@@ -111,168 +115,175 @@ providers:
   description: Silmaril is a Y Combinator-backed runtime security company that builds an AI application firewall for agentic systems. The Silmaril Firewall classifies prompts, retrieved context, tool calls, tool responses, model output, and accumulated e…
   api_count: 1
   score_band: thin
-  score_composite: 34.4
+  score_composite: 35.0
   shared: 4
 - slug: vijil
   name: Vijil
   description: 'Vijil is an AI agent trust platform (Mayfield-backed, ~$23M raised) that helps enterprises make AI agents reliable, secure, and safe for production. Its Console API and CLI span four products across the agent lifecycle: Diamond (pre-deploy…'
   api_count: 1
   score_band: strong
-  score_composite: 58.2
+  score_composite: 58.6
   shared: 3
 - slug: alice
   name: Alice
   description: Alice (formerly ActiveFence) is an enterprise AI security, safety, and trust platform for the GenAI era. Its WonderSuite platform stress-tests, guards, and monitors AI models, applications, and agents against jailbreaks, prompt injection,…
   api_count: 1
   score_band: developing
-  score_composite: 45.5
+  score_composite: 46.5
   shared: 3
 - slug: trojai
   name: TrojAI
   description: TrojAI is an enterprise AI security platform (acquired by A10 Networks) that lets organizations deploy AI models and agents safely. Its two products — TrojAI Detect (generative-AI red teaming, model robustness stress-testing, and integrity…
   api_count: 1
-  score_band: thin
-  score_composite: 38.1
+  score_band: developing
+  score_composite: 40.0
   shared: 3
 - slug: robust-intelligence
   name: Robust Intelligence
   description: Robust Intelligence is an AI security company founded in 2019 to defend ML and GenAI systems against adversarial attacks, data poisoning, prompt injection, and unsafe outputs. Its platform combined automated red teaming (Algorithmic AI Red…
   api_count: 3
   score_band: minimal
-  score_composite: 9.1
+  score_composite: 8.2
   shared: 3
 - slug: mindgard
   name: Mindgard
   description: Mindgard is a UK-based offensive AI security company (London/Lancaster, spun out of Lancaster University) that provides an automated AI red-teaming and security testing platform for large language models, AI agents, and generative AI syste…
   api_count: 0
   score_band: minimal
-  score_composite: 7.9
+  score_composite: 7.0
   shared: 3
 - slug: hidden-layer
   name: HiddenLayer
   description: HiddenLayer is an Austin, Texas-based AI security company founded in March 2022 by Chris Sestito (CEO), Tanner Burns (Chief Scientist), and Jim Ballard (CIO) — former Cylance researchers who encountered a real-world attack on production ML…
   api_count: 0
   score_band: minimal
-  score_composite: 4.7
+  score_composite: 3.8
   shared: 3
 - slug: airia
   name: Airia
   description: 'Airia (Airia LLC, Atlanta) is an enterprise AI orchestration, security and governance platform: a no-code/low-code/pro-code agent builder, a model routing and cost gateway, an MCP Gateway that fronts 1,000+ app connectors and turns hosted…'
   api_count: 1
   score_band: strong
-  score_composite: 65.7
+  score_composite: 63.6
   shared: 2
 - slug: fiddler-labs
   name: Fiddler Labs
   description: Fiddler Labs (Fiddler AI) is an enterprise AI Observability and Security platform that provides unified visibility, context, and control across AI agents, LLM and GenAI applications, and traditional ML models. The Fiddler platform delivers…
   api_count: 1
   score_band: strong
-  score_composite: 62.8
+  score_composite: 62.3
+  shared: 2
+- slug: patronus-protect
+  name: Patronus Protect
+  description: Patronus Protect, from Casdo Labs GmbH, is an on-device AI firewall that detects prompt injection, PII/DLP, sensitive documents and agentic tool risk in text, public HTTPS webpages, documents and MCP servers before they are used by AI agen…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.2
   shared: 2
 - slug: fiddlerai
   name: fiddler.ai
   description: Fiddler AI is an enterprise AI Observability and Security platform — an "AI Control Plane" for AI agents, LLM applications, and traditional ML models. It delivers unified monitoring, real-time guardrails (safety, hallucination/faithfulness…
   api_count: 1
   score_band: strong
-  score_composite: 55.3
+  score_composite: 54.4
   shared: 2
 - slug: trustboost-dev
   name: TrustBoost PII Sanitizer
   description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
   api_count: 1
-  score_band: strong
-  score_composite: 54.6
+  score_band: developing
+  score_composite: 53.1
   shared: 2
-- slug: patronus-protect
-  name: Patronus Protect
-  description: Patronus Protect, from Casdo Labs GmbH, is an on-device AI firewall that detects prompt injection, PII/DLP, sensitive documents and agentic tool risk in text, public HTTPS webpages, documents and MCP servers before they are used by AI agen…
+- slug: rogue-defense-getingeniousai-com
+  name: Rogue-Agent Defense (Ingenious AI)
+  description: Rogue-Agent Defense is the AI agent firewall against prompt injection, offering real‑time shields, policy enforcement, canary tokens, and data exfiltration protection. The platform provides multi‑layer interception, free and paid plans for…
   api_count: 1
   score_band: developing
-  score_composite: 50.4
+  score_composite: 46.0
   shared: 2
 - slug: agentcheck-care
   name: AgentCheck
   description: 'AgentCheck is an AI-agent diagnostic service at agentcheck.care: give it the URL of a bot - an A2A agent or an OpenAI-compatible chat endpoint - and it runs synthetic-persona conversations, OWASP LLM Top 10 prompt-injection tests, PII-leak…'
   api_count: 2
   score_band: developing
-  score_composite: 45.3
+  score_composite: 41.6
   shared: 2
 - slug: promptfoo
   name: Promptfoo
   description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated re…
   api_count: 6
   score_band: thin
-  score_composite: 36.3
-  shared: 2
-- slug: lasso-security
-  name: Lasso Security
-  description: Lasso Security is a GenAI security platform that protects every LLM and AI agent touchpoint. Its Deputy gateway inspects LLM and MCP traffic in real time, and the Classify / Threat Detection API scores prompts and completions for prompt in…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.9
+  score_composite: 36.6
   shared: 2
 - slug: aihcc-cloud
   name: AIHCC
   description: AIHCC, operated by Shenzhen LianShi Technology Co., Ltd., provides AI safety infrastructure for agents, offering hallucination detection, prompt injection protection, and full‑chain audit tools. Their platform includes products like Halluc…
   api_count: 2
   score_band: thin
-  score_composite: 27.1
+  score_composite: 33.8
+  shared: 2
+- slug: lasso-security
+  name: Lasso Security
+  description: Lasso Security is a GenAI security platform that protects every LLM and AI agent touchpoint. Its Deputy gateway inspects LLM and MCP traffic in real time, and the Classify / Threat Detection API scores prompts and completions for prompt in…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.6
   shared: 2
 - slug: impart-security
   name: Impart Security
   description: Impart Security is a runtime security platform that unifies WAF, API security, and AI/LLM/agent/MCP protection on one inline enforcement engine. It analyzes the full request/response flow — headers, parameters, query strings, and bodies —…
   api_count: 1
   score_band: emerging
-  score_composite: 23.9
-  shared: 2
-- slug: virtue-ai
-  name: Virtue Ai
-  description: Virtue AI is an enterprise AI security and safety company that secures AI agents, models, and applications across an organization. Its platform pairs real-time guardrails (VirtueGuard) with automated red-teaming (VirtueRed) and an agent-se…
-  api_count: 0
-  score_band: emerging
-  score_composite: 22.6
+  score_composite: 23.8
   shared: 2
 - slug: adversa-ai
   name: Adversa AI
   description: Adversa AI is an autonomous AI red-teaming and security company (founded 2021, Tel Aviv) that provides continuous security assessment for AI agents, LLMs, and GenAI applications. Its platform runs 300+ attack techniques — jailbreaks, promp…
   api_count: 0
   score_band: emerging
-  score_composite: 22.2
+  score_composite: 21.7
+  shared: 2
+- slug: virtue-ai
+  name: Virtue Ai
+  description: Virtue AI is an enterprise AI security and safety company that secures AI agents, models, and applications across an organization. Its platform pairs real-time guardrails (VirtueGuard) with automated red-teaming (VirtueRed) and an agent-se…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.4
   shared: 2
 - slug: straiker
   name: Straiker
   description: Straiker is an AI-native security company for agentic AI, founded by security veterans from Palo Alto Networks. It protects every layer of AI agent deployments from prompts to infrastructure with a closed-loop system that pairs autonomous…
   api_count: 0
   score_band: emerging
-  score_composite: 11.2
+  score_composite: 12.8
   shared: 2
 - slug: apex
   name: Apex (Apex Security)
   description: Apex Security was an AI security startup founded in 2023 in Tel Aviv by Matan Derman (CEO) and Tomer Avni (CPO), backed by Sequoia Capital, Index Ventures and angel investors including Sam Altman. Its platform gave enterprises visibility i…
   api_count: 0
   score_band: minimal
-  score_composite: 9.9
+  score_composite: 10.1
   shared: 2
 - slug: alinia-ai
   name: Alinia Ai
   description: Alinia is an AI compliance and control platform that helps enterprises deploy large language models and AI agents safely and in compliance with regulations, making AI systems "compliant by design" through regulation-informed control layers…
   api_count: 0
   score_band: minimal
-  score_composite: 8.8
+  score_composite: 7.2
   shared: 2
 - slug: salus
   name: Salus
   description: Salus provides runtime validation and governance for AI agents. It sits between an agent and its tools as a policy-aware proxy that intercepts each action before it executes, then clarifies, rewrites, escalates for human review, or blocks…
   api_count: 0
   score_band: minimal
-  score_composite: 7.9
+  score_composite: 7.0
   shared: 2
 - slug: irregular
   name: Irregular
   description: Irregular (formerly Pattern Labs) is a frontier AI security lab founded in 2023 by Dan Lahav and Eli David with the mission of protecting the world as AI systems become increasingly capable and sophisticated. The company runs security asse…
   api_count: 0
   score_band: minimal
-  score_composite: 6.2
+  score_composite: 5.8
   shared: 2
 - slug: fabraix
   name: Fabraix

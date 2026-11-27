@@ -13,21 +13,28 @@ apis: []
 links:
 - type: Questions
   url: https://github.com/api-evangelist/questions/questions.yml
-provider_count: 3
+provider_count: 4
 providers:
 - slug: stack-overflow
   name: Stack Overflow
   description: 'Stack Overflow is the world''s largest question-and-answer community for developers, with over 23 million questions on programming, software development, and technology topics. Stack Overflow offers two API products: the public Stack Exchan…'
   api_count: 2
   score_band: thin
-  score_composite: 37.2
+  score_composite: 36.6
+  shared: 1
+- slug: the-trivia-api-com
+  name: The Trivia API
+  description: The Trivia API provides a plain HTTP API that serves trivia questions as JSON for integration into applications. It offers filtering by category, difficulty, tags, region, and language, and supports multiple‑choice, image, and typed‑answer…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.1
   shared: 1
 - slug: open-trivia-db
   name: Open Trivia DB
   description: The Open Trivia Database provides a completely free JSON API for use in programming projects. Use of this API does not require an API key, just generate the URL and use it in your own application to retrieve trivia questions across multipl…
   api_count: 1
   score_band: emerging
-  score_composite: 20.8
+  score_composite: 19.5
   shared: 1
 - slug: vark
   name: Vark (Aardvark)

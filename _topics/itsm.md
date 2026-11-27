@@ -21,28 +21,28 @@ providers:
   description: Harmony is an agentic enterprise service management (ESM) platform that gives every employee an always-on AI expert for IT, HR, finance, procurement, and legal service requests inside Slack and Microsoft Teams. Its AI agents autonomously r…
   api_count: 1
   score_band: developing
-  score_composite: 50.1
+  score_composite: 51.6
   shared: 2
 - slug: motadata
   name: Motadata
   description: 'Motadata (Mindarray Systems) is a global IT software company running two AI-native platforms on a shared deep-learning foundation: ObserveOps, a unified observability and AIOps platform that brings metrics, logs, traces, flows and topology…'
   api_count: 2
   score_band: thin
-  score_composite: 37.1
+  score_composite: 35.5
   shared: 2
 - slug: sysaid
   name: SysAid
   description: SysAid is an AI-powered IT service management (ITSM) and help desk platform that helps IT teams manage tickets, assets, workflows, problem and change management, self-service portals, and automation. The platform combines a generative AI s…
   api_count: 1
   score_band: thin
-  score_composite: 30.9
+  score_composite: 30.6
   shared: 2
 - slug: st-labs
   name: ST Labs
   description: ST Labs (Standard Template Labs, stlabs.com) is an AI-native IT service management platform that turns historical ticket data, knowledge bases, and enterprise integrations into instant resolutions, automated workflows, and a living graph o…
   api_count: 0
   score_band: emerging
-  score_composite: 19.3
+  score_composite: 21.0
   shared: 2
 - slug: atspoke
   name: atSpoke

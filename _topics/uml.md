@@ -26,17 +26,17 @@ apis:
   url: https://plantuml.com/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/uml/blob/main/plans/uml-plans-pricing.yml
+  url: https://artifacts.apis.io/uml/plans/uml-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/uml/blob/main/rate-limits/uml-rate-limits.yml
+  url: https://artifacts.apis.io/uml/rate-limits/uml-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/uml/blob/main/finops/uml-finops.yml
+  url: https://artifacts.apis.io/uml/finops/uml-finops.yml
 - type: Blog
   url: https://www.omg.org/insights/
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/uml/blob/main/agentic-access/uml-agentic-access.yml
+  url: https://artifacts.apis.io/uml/agentic-access/uml-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/uml/blob/main/security/uml-domain-security.yml
+  url: https://artifacts.apis.io/uml/security/uml-domain-security.yml
 - type: GitHubOrg
   url: https://github.com/plantuml
 - type: GitHubOrg
@@ -56,13 +56,13 @@ links:
 - type: Documentation
   url: https://docs.kroki.io/kroki/
 - type: JSONLD
-  url: https://github.com/api-evangelist/uml/blob/main/json-ld/uml-context.jsonld
+  url: https://artifacts.apis.io/uml/json-ld/uml-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/uml/blob/main/vocabulary/uml-vocabulary.yml
+  url: https://artifacts.apis.io/uml/vocabulary/uml-vocabulary.yml
 - type: JSONSchema
-  url: https://github.com/api-evangelist/uml/blob/main/json-schema/uml-diagram-schema.json
+  url: https://artifacts.apis.io/uml/json-schema/uml-diagram-schema.json
 - type: SpectralRules
-  url: https://github.com/api-evangelist/uml/blob/main/rules/uml-rules.yml
+  url: https://artifacts.apis.io/uml/rules/uml-rules.yml
 provider_count: 4
 providers:
 - slug: napkin
@@ -77,20 +77,20 @@ providers:
   description: Sparx Enterprise Architect is a comprehensive modeling, design, and management platform for enterprise architecture, software engineering, and systems engineering. It provides automation APIs including a COM Automation Interface, Add-In Fr…
   api_count: 4
   score_band: thin
-  score_composite: 37.6
+  score_composite: 36.2
   shared: 2
 - slug: terrastruct
   name: Terrastruct
   description: Terrastruct builds diagramming tools crafted to visualize software architecture. Its flagship product is D2, a modern, open-source (MPL-2.0) diagram scripting language that turns text into diagrams (SVG, PNG, PDF, PPTX, GIF, and ASCII). Te…
   api_count: 0
   score_band: thin
-  score_composite: 28.0
+  score_composite: 27.3
   shared: 2
 - slug: structura-tools
   name: Structura
   description: Structura is a web-based visual domain modeling and code generation tool built by Metadev (metadev.pro). Architecture teams and software factories design class/domain models graphically or textually, refine them with the Zeus voice/text AI…
   api_count: 1
   score_band: emerging
-  score_composite: 17.7
+  score_composite: 23.7
   shared: 2
 ---

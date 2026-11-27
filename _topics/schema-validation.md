@@ -34,11 +34,11 @@ apis:
   url: https://github.com/sourcemeta/alterschema
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/schema-validation/blob/main/plans/schema-validation-plans-pricing.yml
+  url: https://artifacts.apis.io/schema-validation/plans/schema-validation-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/schema-validation/blob/main/rate-limits/schema-validation-rate-limits.yml
+  url: https://artifacts.apis.io/schema-validation/rate-limits/schema-validation-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/schema-validation/blob/main/finops/schema-validation-finops.yml
+  url: https://artifacts.apis.io/schema-validation/finops/schema-validation-finops.yml
 - type: IssueTracker
   url: https://github.com/ajv-validator/ajv/issues
 - type: Releases
@@ -50,7 +50,7 @@ links:
 - type: License
   url: https://github.com/ajv-validator/ajv/blob/master/LICENSE
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/schema-validation/blob/main/security/schema-validation-domain-security.yml
+  url: https://artifacts.apis.io/schema-validation/security/schema-validation-domain-security.yml
 - type: Website
   url: https://json-schema.org/
 - type: Documentation
@@ -60,15 +60,15 @@ links:
 - type: GitHubOrganization
   url: https://github.com/json-schema-org
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/json-schema/schema-validation-config-schema.json
+  url: https://artifacts.apis.io/schema-validation/json-schema/schema-validation-config-schema.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/json-structure/schema-validation-config-structure.json
+  url: https://artifacts.apis.io/schema-validation/json-structure/schema-validation-config-structure.json
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/json-ld/schema-validation-context.jsonld
+  url: https://artifacts.apis.io/schema-validation/json-ld/schema-validation-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/vocabulary/schema-validation-vocabulary.yml
+  url: https://artifacts.apis.io/schema-validation/vocabulary/schema-validation-vocabulary.yml
 - type: Examples
-  url: https://raw.githubusercontent.com/api-evangelist/schema-validation/refs/heads/main/examples/schema-validation-ajv-example.json
+  url: https://artifacts.apis.io/schema-validation/examples/schema-validation-ajv-example.json
 provider_count: 18
 providers:
 - slug: optic
@@ -76,112 +76,112 @@ providers:
   description: Optic is an MIT-licensed command-line tool for OpenAPI linting, diffing and testing. It compares two versions of an OpenAPI document with behaviour-aware diffing to catch breaking changes before they ship, enforces style-guide rulesets (br…
   api_count: 1
   score_band: emerging
-  score_composite: 19.7
+  score_composite: 21.8
   shared: 3
 - slug: dredd
   name: Dredd
   description: Dredd is a language-agnostic, MIT-licensed open source command-line tool that validates a running HTTP API against its own API description document. It compiles every request/response pair documented in an API Blueprint, OpenAPI 2.0 or (ex…
   api_count: 1
   score_band: emerging
-  score_composite: 17.7
+  score_composite: 16.9
   shared: 3
 - slug: apis-io
   name: APIs.io
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 95.4
+  score_composite: 91.9
   shared: 2
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
+  score_composite: 82.5
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 74.1
   shared: 2
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 60.1
+  score_composite: 65.2
   shared: 2
 - slug: elva
   name: Elva
   description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth O…'
   api_count: 1
   score_band: developing
-  score_composite: 52.2
+  score_composite: 49.4
   shared: 2
 - slug: btc-war-live-market-data-api
   name: BTC War Live Market Data API
   description: Public, keyless, read-only real-time crypto market-data API from btcwar.net, exposing live Binance Spot snapshots and single-market observations for nine USDT pairs as JSON and Schema.org JSON-LD. Every response carries provenance, a sourc…
   api_count: 2
   score_band: developing
-  score_composite: 47.6
+  score_composite: 47.2
   shared: 2
 - slug: kiota
   name: Kiota
   description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the…'
   api_count: 1
   score_band: developing
-  score_composite: 45.0
+  score_composite: 46.6
   shared: 2
 - slug: orval
   name: Orval
   description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hoo…
   api_count: 1
   score_band: thin
-  score_composite: 37.0
+  score_composite: 38.9
   shared: 2
 - slug: ogen
   name: Ogen
   description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflectio…'
   api_count: 1
   score_band: thin
-  score_composite: 36.2
+  score_composite: 37.0
   shared: 2
 - slug: schemathesis
   name: Schemathesis
   description: Schemathesis is a property-based API testing tool that automatically generates test cases from OpenAPI and GraphQL schemas to find bugs and specification violations. It uses the Hypothesis property-based testing framework to generate diver…
   api_count: 1
   score_band: thin
-  score_composite: 30.4
-  shared: 2
-- slug: nswag
-  name: NSwag
-  description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from A…'
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.5
+  score_composite: 31.1
   shared: 2
 - slug: schwarz-it
   name: Schwarz IT
   description: Schwarz IT (Schwarz IT KG, Neckarsulm, Germany) is the IT service company of the Schwarz Group (Lidl, Kaufland), describing itself on GitHub as "the technological heartbeat of the companies of Schwarz Group". It is listed as an affiliated…
   api_count: 1
   score_band: emerging
-  score_composite: 23.5
+  score_composite: 23.8
+  shared: 2
+- slug: nswag
+  name: NSwag
+  description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from A…'
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.7
   shared: 2
 - slug: spectral
   name: Spectral
   description: Spectral is an open-source API style guide enforcer and linter from Stoplight, providing a flexible JSON/YAML linting engine with built-in support for OpenAPI (v3.1, v3.0, v2.0), Arazzo v1.0, and AsyncAPI v2.x. Teams use Spectral to define…
   api_count: 1
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 19.5
   shared: 2
 - slug: speclynx
   name: SpecLynx
   description: SpecLynx provides enterprise-ready API tooling for authors and maintainers of OpenAPI, AsyncAPI, and Arazzo specifications. Built by veterans with 15+ years of Swagger and OpenAPI development experience, SpecLynx products prioritize securi…
   api_count: 6
   score_band: emerging
-  score_composite: 15.3
+  score_composite: 16.0
   shared: 2
 - slug: portman
   name: Portman
@@ -195,6 +195,6 @@ providers:
   description: Jargon is a platform for Domain Driven Design for APIs and Enterprise Data Modelling. It provides text-based modelling, template-based API design, real-time validation, version control with breaking change detection, and generation of arti…
   api_count: 1
   score_band: minimal
-  score_composite: 9.9
+  score_composite: 8.9
   shared: 2
 ---

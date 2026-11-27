@@ -24,66 +24,87 @@ apis:
   url: https://github.com/TechForPalestine/boycott-israeli-consumer-goods-dataset
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/plans/boycott-israeli-consumer-goods-dataset-plans-pricing.yml
+  url: https://artifacts.apis.io/boycott-israeli-consumer-goods-dataset/plans/boycott-israeli-consumer-goods-dataset-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/rate-limits/boycott-israeli-consumer-goods-dataset-rate-limits.yml
+  url: https://artifacts.apis.io/boycott-israeli-consumer-goods-dataset/rate-limits/boycott-israeli-consumer-goods-dataset-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/finops/boycott-israeli-consumer-goods-dataset-finops.yml
+  url: https://artifacts.apis.io/boycott-israeli-consumer-goods-dataset/finops/boycott-israeli-consumer-goods-dataset-finops.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/boycott-israeli-consumer-goods-dataset/blob/main/agentic-access/boycott-israeli-consumer-goods-dataset-agentic-access.yml
+  url: https://artifacts.apis.io/boycott-israeli-consumer-goods-dataset/agentic-access/boycott-israeli-consumer-goods-dataset-agentic-access.yml
 - type: Website
   url: https://github.com/TechForPalestine/boycott-israeli-consumer-goods-dataset
 - type: Organization
   url: https://techforpalestine.org
-provider_count: 7
+provider_count: 10
 providers:
+- slug: stad-gent
+  name: Stad Gent
+  description: Stad Gent (City of Ghent, Belgium) publishes its open data through the Open Data Portal at data.stad.gent, a tenant of the Opendatasoft (Huwise) platform holding about 316 datasets. The portal exposes the Opendatasoft Explore API v2.1 (dat…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.2
+  shared: 2
 - slug: zenodo
   name: Zenodo
   description: Zenodo is a free, open research data repository operated by CERN and co-developed under the European OpenAIRE program. It enables researchers to deposit, share, and preserve any research output — including datasets, software, papers, prepr…
   api_count: 1
   score_band: developing
-  score_composite: 40.1
+  score_composite: 39.8
   shared: 2
 - slug: opendatasoft
   name: Opendatasoft
   description: Open data platform with REST APIs for accessing public datasets from 1,000+ cities and organizations, providing standard OData and JSON query interfaces. Now operating as Huwise, the platform powers 3,000+ data marketplaces and provides ca…
   api_count: 1
   score_band: thin
-  score_composite: 37.9
+  score_composite: 38.9
   shared: 2
 - slug: nutrientsdb
   name: NutrientsDB
   description: A curated global food-composition dataset of roughly 2.9 million food entries across 86 normalized nutrient fields, deduplicated across 180+ countries and sold under a one-time license as a downloadable file for local use rather than as a…
   api_count: 1
   score_band: thin
-  score_composite: 33.3
-  shared: 2
-- slug: new-york-public-library-whats-on-the-menu
-  name: New York Public Library What's On The Menu
-  description: The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. T…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.5
+  score_composite: 35.3
   shared: 2
 - slug: curatorsearch
   name: CuratorSearch
   description: An independent, daily-refreshed record of museum/gallery/curatorial vacancies and advertised salaries, aggregated from 400+ institutions' careers pages. Exposes a keyless REST/JSON API, an OpenAPI 3.1 contract, a hosted MCP server, llms.tx…
   api_count: 1
   score_band: thin
-  score_composite: 29.9
+  score_composite: 34.1
+  shared: 2
+- slug: new-york-public-library-whats-on-the-menu
+  name: New York Public Library What's On The Menu
+  description: The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. T…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.5
+  shared: 2
+- slug: kaggle
+  name: Kaggle
+  description: 'Kaggle (a Google company) is an online community and platform for data scientists and machine learning practitioners: it hosts competitions, public datasets, cloud Notebooks, Models, Benchmarks and Learn courses. Developers reach it progra…'
+  api_count: 2
+  score_band: emerging
+  score_composite: 23.8
   shared: 2
 - slug: free-exercise-db
   name: Free Exercise DB
   description: 'Free Exercise DB is an open, public-domain exercise dataset published by yuhonas on GitHub: 873 individual JSON documents describing strength, stretching, plyometric, powerlifting, olympic-weightlifting, strongman and cardio exercises, eac…'
   api_count: 1
   score_band: emerging
-  score_composite: 22.4
+  score_composite: 23.6
   shared: 2
 - slug: data-gov
   name: Data.gov
   description: Data.gov is the United States federal government's open data catalog, operated by the General Services Administration (GSA) Technology Transformation Services. It indexes over 300,000 datasets, tools, and resources from federal, state, loc…
   api_count: 4
   score_band: emerging
-  score_composite: 19.3
+  score_composite: 21.2
+  shared: 2
+- slug: open-government-lithuania
+  name: Lithuanian Open Data Portal (data.gov.lt)
+  description: data.gov.lt is Lithuania's national open data portal (Lietuvos atvirų duomenų portalas). Its Universal API (UAPI), served by the open-source Spinta framework, exposes published datasets read-only and anonymously at get.data.gov.lt, while d…
+  api_count: 2
+  score_band: emerging
+  score_composite: 16.9
   shared: 2
 ---

@@ -46,15 +46,15 @@ apis:
   url: https://www.openpolicyagent.org/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/zero-trust/blob/main/plans/zero-trust-plans-pricing.yml
+  url: https://artifacts.apis.io/zero-trust/plans/zero-trust-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/zero-trust/blob/main/rate-limits/zero-trust-rate-limits.yml
+  url: https://artifacts.apis.io/zero-trust/rate-limits/zero-trust-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/zero-trust/blob/main/finops/zero-trust-finops.yml
+  url: https://artifacts.apis.io/zero-trust/finops/zero-trust-finops.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/zero-trust/blob/main/security/zero-trust-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/zero-trust/security/zero-trust-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/zero-trust/blob/main/security/zero-trust-domain-security.yml
+  url: https://artifacts.apis.io/zero-trust/security/zero-trust-domain-security.yml
 - type: Documentation
   url: https://www.nist.gov/publications/zero-trust-architecture
 - type: Documentation
@@ -98,227 +98,227 @@ links:
 - type: Resources
   url: https://github.com/api-evangelist/zero-trust-security-model
 - type: JSONSchema
-  url: https://github.com/api-evangelist/zero-trust/blob/main/json-schema/zero-trust-access-decision-schema.json
+  url: https://artifacts.apis.io/zero-trust/json-schema/zero-trust-access-decision-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/zero-trust/blob/main/json-schema/zero-trust-subject-schema.json
+  url: https://artifacts.apis.io/zero-trust/json-schema/zero-trust-subject-schema.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/zero-trust/blob/main/json-structure/zero-trust-access-decision-structure.json
+  url: https://artifacts.apis.io/zero-trust/json-structure/zero-trust-access-decision-structure.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/zero-trust/blob/main/json-ld/zero-trust-context.jsonld
+  url: https://artifacts.apis.io/zero-trust/json-ld/zero-trust-context.jsonld
 - type: CodeExamples
-  url: https://github.com/api-evangelist/zero-trust/blob/main/examples/zero-trust-access-decision-example.json
+  url: https://artifacts.apis.io/zero-trust/examples/zero-trust-access-decision-example.json
 - type: Resources
-  url: https://github.com/api-evangelist/zero-trust/blob/main/vocabulary/zero-trust-vocabulary.yaml
-provider_count: 434
+  url: https://artifacts.apis.io/zero-trust/vocabulary/zero-trust-vocabulary.yaml
+provider_count: 438
 providers:
 - slug: zero-trust-network-access
   name: Zero Trust Network Access
   description: Zero Trust Network Access (ZTNA) is a security framework and product category that grants access to private applications and resources based on identity, device posture, and context, rather than network location. ZTNA replaces the implicit…
   api_count: 1
   score_band: thin
-  score_composite: 35.8
+  score_composite: 35.2
   shared: 7
 - slug: zero-trust-security-model
   name: Zero-Trust Security Model
   description: The Zero Trust security model is a strategic cybersecurity approach that eliminates implicit trust and requires continuous verification of every user, device, workload, and request attempting to access resources, regardless of network loca…
   api_count: 5
   score_band: emerging
-  score_composite: 25.2
+  score_composite: 24.3
   shared: 7
 - slug: zero-trust-architecture
   name: Zero Trust Architecture
   description: Zero Trust Architecture (ZTA) is a security framework defined by NIST SP 800-207 that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardle…
   api_count: 5
   score_band: emerging
-  score_composite: 23.1
+  score_composite: 22.6
   shared: 6
 - slug: iboss
   name: iboss
   description: iboss, Inc. is a Boston-headquartered cybersecurity company founded in 2003 that operates an AI-powered, cloud-native Zero Trust SASE (Secure Access Service Edge) platform used by more than 4,000 enterprise, US federal, state and local gov…
   api_count: 1
-  score_band: thin
-  score_composite: 38.2
+  score_band: developing
+  score_composite: 40.3
   shared: 5
 - slug: aembit
   name: Aembit
   description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit…
   api_count: 2
   score_band: exemplar
-  score_composite: 75.9
+  score_composite: 74.5
   shared: 4
 - slug: microsoft-entra
   name: Microsoft Entra
   description: Microsoft Entra (formerly Azure Active Directory) is Microsoft's family of identity and network access products, providing authentication, authorization, directory, identity governance, external identities, verifiable credentials and secur…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.9
+  score_composite: 70.3
   shared: 4
 - slug: coronet
   name: CoroNet
   description: Coro (CoroNet) is a cybersecurity company delivering a unified, AI-native security platform for lean IT teams, growing organizations, and managed service providers (MSPs). A single platform and dashboard consolidate endpoint protection, em…
   api_count: 1
   score_band: developing
-  score_composite: 48.4
+  score_composite: 47.5
   shared: 4
 - slug: zero-networks
   name: Zero Networks
   description: Zero Networks is an Israeli-American network security company whose Segment platform delivers automated, agentless microsegmentation and identity segmentation for enterprise networks. It builds a host-based firewall "bubble" around every a…
   api_count: 1
   score_band: developing
-  score_composite: 46.9
-  shared: 4
-- slug: spideroak
-  name: SpiderOak
-  description: SpiderOak (SpiderOak, Inc. / SpiderOak Mission Systems) builds zero-trust access governance and secure data exchange software for defense, aerospace and commercial operators working in contested, disconnected, degraded, intermittent and lo…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.8
+  score_composite: 47.0
   shared: 4
 - slug: p0-security
   name: P0 Security
   description: P0 Security is a cloud-native Privileged Access Management (PAM) platform that governs runtime authorization for human users, machine/service accounts, and AI agents across hybrid and multi-cloud environments. Its AuthZ Control Plane enfor…
   api_count: 1
   score_band: developing
-  score_composite: 44.2
+  score_composite: 46.2
+  shared: 4
+- slug: spideroak
+  name: SpiderOak
+  description: SpiderOak (SpiderOak, Inc. / SpiderOak Mission Systems) builds zero-trust access governance and secure data exchange software for defense, aerospace and commercial operators working in contested, disconnected, degraded, intermittent and lo…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.9
   shared: 4
 - slug: pulse
   name: Pulse
   description: 'Ivanti''s secure-access product family, formerly Pulse Secure, acquired by Ivanti in 2020. Three administrator-facing REST APIs configure and observe it: Ivanti Connect Secure for SSL VPN remote access, Ivanti Policy Secure for 802.1X and R…'
   api_count: 3
   score_band: thin
-  score_composite: 38.5
+  score_composite: 37.2
   shared: 4
 - slug: checkpoint
   name: Check Point
   description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud, endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families. Check Point exposes a wide range of REST APIs…
   api_count: 5
   score_band: thin
-  score_composite: 32.6
+  score_composite: 31.3
   shared: 4
 - slug: illumio
   name: Illumio
   description: Illumio is a Zero Trust Segmentation (microsegmentation) cybersecurity company whose platform stops the lateral spread of ransomware and breaches across data centers, cloud, and endpoints. Its Policy Compute Engine (PCE) exposes a REST API…
   api_count: 1
   score_band: thin
-  score_composite: 30.9
+  score_composite: 29.4
   shared: 4
 - slug: perimeter-81
   name: Perimeter 81
   description: Perimeter 81 is a cloud-native Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) platform, now part of Check Point as Check Point Harmony SASE following its 2023 acquisition. It lets organizations build and manage secu…
   api_count: 1
   score_band: thin
-  score_composite: 30.3
+  score_composite: 28.9
   shared: 4
 - slug: unisys
   name: Unisys
   description: Unisys is a global information technology company that provides specialized solutions integrated with leading-edge security. Unisys delivers digital workplace services, cloud and infrastructure services, and enterprise computing solutions…
   api_count: 4
   score_band: emerging
-  score_composite: 23.8
-  shared: 4
-- slug: venice
-  name: Venice
-  description: Venice is an enterprise privileged access management (PAM) platform built for the AI era, delivering zero standing access across human, machine, and AI-driven identities. Founded by Rotem Lurie (CEO) and Or Vaknin (CTO) and operating out o…
-  api_count: 0
-  score_band: emerging
-  score_composite: 16.2
+  score_composite: 24.1
   shared: 4
 - slug: oasis-security
   name: Oasis Security
   description: Oasis Security is an enterprise Non-Human Identity Management (NHIM) and agentic access management platform that discovers, governs, and secures non-human identities — service accounts, API keys, secrets, certificates, and AI agents — acro…
   api_count: 0
   score_band: emerging
-  score_composite: 15.8
+  score_composite: 17.4
   shared: 4
-- slug: xage
-  name: Xage
-  description: Xage Security is a Palo Alto, California zero trust access and protection company whose Xage Fabric Platform enforces identity-based access control across operational technology (OT), IT, cloud and edge environments — covering privileged a…
+- slug: venice
+  name: Venice
+  description: Venice is an enterprise privileged access management (PAM) platform built for the AI era, delivering zero standing access across human, machine, and AI-driven identities. Founded by Rotem Lurie (CEO) and Or Vaknin (CTO) and operating out o…
   api_count: 0
   score_band: emerging
-  score_composite: 15.6
+  score_composite: 16.6
   shared: 4
 - slug: firemon
   name: FireMon
   description: FireMon is a cybersecurity company providing firewall and security policy management across hybrid, on-premises, and cloud environments. Its platform normalizes and governs security policies spanning firewalls, cloud security groups, and m…
   api_count: 0
   score_band: emerging
-  score_composite: 15.5
+  score_composite: 16.3
+  shared: 4
+- slug: xage
+  name: Xage
+  description: Xage Security is a Palo Alto, California zero trust access and protection company whose Xage Fabric Platform enforces identity-based access control across operational technology (OT), IT, cloud and edge environments — covering privileged a…
+  api_count: 0
+  score_band: emerging
+  score_composite: 15.3
   shared: 4
 - slug: aceiss
   name: Aceiss
   description: Aceiss is a security monitoring and access-visibility platform that gives CISOs and risk managers continuous insight into who has access to their GitHub organizations and repositories. It monitors user access across repositories, detects u…
   api_count: 0
   score_band: emerging
-  score_composite: 14.8
+  score_composite: 15.1
   shared: 4
 - slug: 6cloudtechnology
   name: 6Cloud Technology
   description: 6Cloud Technology (Chinese name 六方云; legal entity Beijing 6Cloud Information Technology Co., Ltd. / 北京六方云信息技术有限公司) is a Beijing-based industrial and critical-infrastructure cybersecurity product vendor founded in 2018 and backed by China's…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.0
   shared: 4
 - slug: axis-security
   name: Axis Security
   description: Axis Security was a Security Service Edge (SSE) and Zero Trust Network Access (ZTNA) vendor founded in 2018 and headquartered in San Mateo, California, with research and development in Israel. Its cloud-delivered Atmos platform combined ZT…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
-  shared: 4
-- slug: cyemptive
-  name: Cyemptive
-  description: Cyemptive Technologies is a cybersecurity vendor founded in 2014 by Rob Pike, headquartered in Washington State with additional offices in North Carolina, the United Kingdom, France and India. It sells preemptive, detection-independent sec…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.4
+  score_composite: 2.6
   shared: 4
 - slug: guardicore
   name: Guardicore
   description: Guardicore is a micro-segmentation and Zero Trust network security company, founded in 2013 and backed by Battery Ventures and Partech, best known for its Centra platform for software-defined segmentation, application dependency mapping, a…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
+  score_composite: 2.6
+  shared: 4
+- slug: cyemptive
+  name: Cyemptive
+  description: Cyemptive Technologies is a cybersecurity vendor founded in 2014 by Rob Pike, headquartered in Washington State with additional offices in North Carolina, the United Kingdom, France and India. It sells preemptive, detection-independent sec…
+  api_count: 0
+  score_band: minimal
+  score_composite: 2.5
   shared: 4
 - slug: tenable
   name: Tenable
   description: Tenable is a cybersecurity and exposure-management company, maker of Nessus and the Tenable One platform, providing vulnerability management, web application scanning, cloud security, identity exposure, attack surface management and OT sec…
   api_count: 8
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 71.6
+  shared: 3
+- slug: amazon-iam-access-analyzer
+  name: Amazon IAM Access Analyzer
+  description: AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies by providing a suite of capabilities including findings for external, internal, and unused access, basic and custom policy checks for validating policies, and poli…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 70.4
   shared: 3
 - slug: palo-alto-networks
   name: Palo Alto Networks
   description: Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS…
   api_count: 468
   score_band: exemplar
-  score_composite: 68.1
-  shared: 3
-- slug: cisco-umbrella
-  name: Cisco Umbrella
-  description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudl…'
-  api_count: 52
-  score_band: strong
-  score_composite: 65.7
+  score_composite: 68.8
   shared: 3
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and No…
   api_count: 7
   score_band: strong
-  score_composite: 65.5
+  score_composite: 65.3
   shared: 3
-- slug: cisco-secure-firewall
-  name: Cisco Secure Firewall
-  description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
-  api_count: 14
+- slug: cisco-umbrella
+  name: Cisco Umbrella
+  description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudl…'
+  api_count: 52
+  score_band: strong
+  score_composite: 64.3
+  shared: 3
+- slug: amazon-verified-access
+  name: Amazon Verified Access
+  description: AWS Verified Access provides secure access to corporate applications without requiring a VPN. It evaluates each application request in real time using security signals like identity, device posture, and contextual data to grant granular ac…
+  api_count: 26
   score_band: strong
   score_composite: 59.9
-  shared: 3
-- slug: virtru
-  name: Virtru
-  description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Acces…
-  api_count: 15
-  score_band: strong
-  score_composite: 58.7
   shared: 3
 ---

@@ -45,75 +45,68 @@ apis:
   url: https://docs.github.com/en/rest/issues
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/plans/acceptance-criteria-plans-pricing.yml
+  url: https://artifacts.apis.io/acceptance-criteria/plans/acceptance-criteria-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/rate-limits/acceptance-criteria-rate-limits.yml
+  url: https://artifacts.apis.io/acceptance-criteria/rate-limits/acceptance-criteria-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/finops/acceptance-criteria-finops.yml
+  url: https://artifacts.apis.io/acceptance-criteria/finops/acceptance-criteria-finops.yml
 - type: CapabilityMap
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/capabilities/acceptance-criteria-capability-edges.yml
+  url: https://artifacts.apis.io/acceptance-criteria/capabilities/acceptance-criteria-capability-edges.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/agentic-access/acceptance-criteria-agentic-access.yml
+  url: https://artifacts.apis.io/acceptance-criteria/agentic-access/acceptance-criteria-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/security/acceptance-criteria-domain-security.yml
+  url: https://artifacts.apis.io/acceptance-criteria/security/acceptance-criteria-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/authentication/acceptance-criteria-authentication.yml
+  url: https://artifacts.apis.io/acceptance-criteria/authentication/acceptance-criteria-authentication.yml
 - type: Website
   url: https://www.agilealliance.org/glossary/acceptance-criteria/
 - type: GettingStarted
   url: https://www.mountaingoatsoftware.com/blog/clarifying-the-relationship-between-definition-of-done-and-conditions-of-satisfaction
 - type: SpectralRules
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/rules/acceptance-criteria-spectral-rules.yml
+  url: https://artifacts.apis.io/acceptance-criteria/rules/acceptance-criteria-spectral-rules.yml
 - type: Vocabulary
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/vocabulary/acceptance-criteria-vocabulary.yaml
+  url: https://artifacts.apis.io/acceptance-criteria/vocabulary/acceptance-criteria-vocabulary.yaml
 - type: OpenAPI
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/openapi/_original/acceptance-criteria-management.yaml
+  url: https://artifacts.apis.io/acceptance-criteria/openapi/_original/acceptance-criteria-management.yaml
 - type: JSONSchema
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-schema/acceptance-criteria-management-user-story-schema.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-schema/acceptance-criteria-management-user-story-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-schema/acceptance-criteria-management-acceptance-criterion-schema.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-schema/acceptance-criteria-management-acceptance-criterion-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-schema/acceptance-criteria-management-scenario-schema.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-schema/acceptance-criteria-management-scenario-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-schema/acceptance-criteria-management-test-run-schema.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-schema/acceptance-criteria-management-test-run-schema.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-structure/acceptance-criteria-management-user-story-structure.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-structure/acceptance-criteria-management-user-story-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-structure/acceptance-criteria-management-acceptance-criterion-structure.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-structure/acceptance-criteria-management-acceptance-criterion-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-structure/acceptance-criteria-management-scenario-structure.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-structure/acceptance-criteria-management-scenario-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-structure/acceptance-criteria-management-test-run-structure.json
+  url: https://artifacts.apis.io/acceptance-criteria/json-structure/acceptance-criteria-management-test-run-structure.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/json-ld/acceptance-criteria-management-context.jsonld
+  url: https://artifacts.apis.io/acceptance-criteria/json-ld/acceptance-criteria-management-context.jsonld
 - type: Examples
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/examples/acceptance-criteria-management-user-story-example.json
+  url: https://artifacts.apis.io/acceptance-criteria/examples/acceptance-criteria-management-user-story-example.json
 - type: Examples
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/examples/acceptance-criteria-management-acceptance-criterion-example.json
+  url: https://artifacts.apis.io/acceptance-criteria/examples/acceptance-criteria-management-acceptance-criterion-example.json
 - type: Examples
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/examples/acceptance-criteria-management-scenario-example.json
+  url: https://artifacts.apis.io/acceptance-criteria/examples/acceptance-criteria-management-scenario-example.json
 - type: Examples
-  url: https://github.com/api-evangelist/acceptance-criteria/blob/main/examples/acceptance-criteria-management-test-run-example.json
+  url: https://artifacts.apis.io/acceptance-criteria/examples/acceptance-criteria-management-test-run-example.json
 provider_count: 31
 providers:
 - slug: cucumber
   name: Cucumber
   description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing execu…
   api_count: 5
-  score_band: thin
-  score_composite: 26.8
+  score_band: emerging
+  score_composite: 25.7
   shared: 4
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
   api_count: 3
-  score_band: strong
-  score_composite: 62.8
-  shared: 2
-- slug: testfairy
-  name: TestFairy
-  description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs,…
-  api_count: 1
   score_band: strong
   score_composite: 62.2
   shared: 2
@@ -122,159 +115,166 @@ providers:
   description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Cova…
   api_count: 20
   score_band: strong
-  score_composite: 60.8
+  score_composite: 60.9
   shared: 2
 - slug: opkey
   name: Opkey
   description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests an…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 59.3
+  shared: 2
+- slug: testfairy
+  name: TestFairy
+  description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs,…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
   shared: 2
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
+  score_composite: 55.4
   shared: 2
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, env…
   api_count: 1
-  score_band: developing
-  score_composite: 53.8
+  score_band: strong
+  score_composite: 55.1
   shared: 2
 - slug: replay
   name: Replay
   description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause…
   api_count: 1
   score_band: developing
-  score_composite: 52.8
-  shared: 2
-- slug: automation-preflight-api
-  name: Automation Preflight API
-  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.1
-  shared: 2
-- slug: assertible
-  name: Assertible
-  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body cont…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.9
-  shared: 2
-- slug: testim-io
-  name: Testim
-  description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.6
+  score_composite: 52.7
   shared: 2
 - slug: panaya
   name: Panaya
   description: Panaya is an enterprise change-intelligence and agentic-testing platform for business applications, helping organizations de-risk changes to SAP (including S/4HANA migrations and upgrades), Oracle (EBS, Cloud, NetSuite), Salesforce, Workda…
   api_count: 1
   score_band: developing
-  score_composite: 49.4
+  score_composite: 52.1
+  shared: 2
+- slug: automation-preflight-api
+  name: Automation Preflight API
+  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-be…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.3
+  shared: 2
+- slug: assertible
+  name: Assertible
+  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body cont…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.9
+  shared: 2
+- slug: testim-io
+  name: Testim
+  description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-e…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.9
   shared: 2
 - slug: aha
   name: Aha.io
   description: Aha! is a product development suite that combines roadmapping, idea management, requirements specification, whiteboarding, knowledge bases, and development tracking into a single platform for product teams. The suite spans Aha! Roadmaps, A…
   api_count: 1
   score_band: developing
-  score_composite: 44.7
+  score_composite: 41.2
   shared: 2
 - slug: selenium
   name: Selenium
   description: Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves,…
   api_count: 1
-  score_band: developing
-  score_composite: 39.7
-  shared: 2
-- slug: sauce-labs
-  name: Sauce Labs
-  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtu…
-  api_count: 2
   score_band: thin
-  score_composite: 38.4
+  score_composite: 39.2
   shared: 2
 - slug: cypressio
   name: Cypress.io
   description: Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end and component testing framework that runs tests directly in the browser with time-travel debugging, automatic waiting, and cross-browser support. Its commercial C…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 37.7
+  shared: 2
+- slug: sauce-labs
+  name: Sauce Labs
+  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtu…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.5
   shared: 2
 - slug: ranger
   name: Ranger
   description: Ranger is an AI-powered quality-assurance platform that lets coding agents verify their own work in a real browser. Its CLI (@ranger-testing/ranger-cli) sets up a project so an AI coding agent — Claude Code, OpenCode, Cursor, Codex, or any…
   api_count: 0
   score_band: thin
-  score_composite: 35.3
-  shared: 2
-- slug: testiny
-  name: Testiny
-  description: Testiny is a modern test management platform for QA teams that keeps manual and automated test cases, test plans, test runs, and results in a single place, with reporting and integrations for Jira, GitLab, and GitHub. Everything in the pro…
-  api_count: 1
-  score_band: thin
-  score_composite: 29.6
+  score_composite: 35.2
   shared: 2
 - slug: qase
   name: Qase
   description: Qase is a cloud test management platform (TestOps) for QA and engineering teams to author test cases, organize them into suites and plans, launch and complete test runs, publish automated results from CI pipelines, and track defects. The Q…
   api_count: 1
   score_band: thin
-  score_composite: 27.0
+  score_composite: 28.6
+  shared: 2
+- slug: testiny
+  name: Testiny
+  description: Testiny is a modern test management platform for QA teams that keeps manual and automated test cases, test plans, test runs, and results in a single place, with reporting and integrations for Jira, GitLab, and GitHub. Everything in the pro…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.9
   shared: 2
 - slug: headspin
   name: HeadSpin
   description: HeadSpin is a real-device digital-experience, functional, and performance testing platform for mobile, web, and OTT applications. Teams test, monitor, and optimize app behavior on real devices and real SIMs across 60+ locations in 50+ coun…
   api_count: 1
   score_band: emerging
-  score_composite: 23.0
+  score_composite: 24.1
   shared: 2
 - slug: evinced
   name: evinced
   description: Evinced is an AI-powered digital accessibility platform that automatically detects, clusters, tracks, and prevents accessibility (WCAG/ADA) issues across web and mobile applications. It ships developer-first automation SDKs for Selenium, C…
   api_count: 0
   score_band: emerging
-  score_composite: 20.6
+  score_composite: 22.3
   shared: 2
 - slug: testlio
   name: Testlio
   description: Testlio is a managed software testing and quality assurance company that pairs a global, vetted community of expert testers with a testing-management platform (powered by its Leo AI Engine) to deliver on-demand manual, automated, functiona…
   api_count: 0
   score_band: emerging
-  score_composite: 18.7
-  shared: 2
-- slug: taiga
-  name: Taiga
-  description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.8
-  shared: 2
-- slug: step-ci
-  name: Step CI
-  description: Step CI is an open source API testing and monitoring framework that uses YAML-based workflows to define and run automated API test scenarios. It supports REST, GraphQL, gRPC, tRPC, and SOAP protocols in a single unified testing framework.…
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.5
+  score_composite: 20.9
   shared: 2
 - slug: simantic
   name: Simantic
   description: Simantic builds simulated hardware for embedded QA, modernizing embedded firmware development through hardware simulation designed for AI adoption in hardware engineering. Its platform emulates microcontroller (MCU) systems so engineers ca…
   api_count: 0
   score_band: emerging
-  score_composite: 16.9
+  score_composite: 17.6
+  shared: 2
+- slug: taiga
+  name: Taiga
+  description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.3
   shared: 2
 - slug: muuktest
   name: Muuktest
   description: MuukTest (MuukLabs) is an AI-powered test automation and managed QA services company founded in 2019 that helps software teams reach high end-to-end test coverage in weeks rather than months. It blends an AI-driven automation platform with…
   api_count: 0
+  score_band: emerging
+  score_composite: 16.6
+  shared: 2
+- slug: step-ci
+  name: Step CI
+  description: Step CI is an open source API testing and monitoring framework that uses YAML-based workflows to define and run automated API test scenarios. It supports REST, GraphQL, gRPC, tRPC, and SOAP protocols in a single unified testing framework.…
+  api_count: 1
   score_band: emerging
   score_composite: 16.4
   shared: 2
@@ -283,21 +283,21 @@ providers:
   description: Regression Games builds AI agents and bots for video games. Its platform lets studios create bots for QA testing, multiplayer simulation, game balancing, and NPC behavior with minimal code. The Unity SDK (gg.regression.unity.bots / RGUnity…
   api_count: 0
   score_band: emerging
-  score_composite: 15.0
+  score_composite: 15.7
   shared: 2
 - slug: specflow
   name: SpecFlow
   description: SpecFlow was an open-source BDD (Behavior-Driven Development) testing framework for .NET that allowed teams to write executable specifications in natural language using the Gherkin syntax. Originally developed by TechTalk, it was acquired…
   api_count: 2
   score_band: emerging
-  score_composite: 14.6
+  score_composite: 13.2
   shared: 2
 - slug: canary
   name: Canary
   description: Canary is an AI QA engineer that reads your source code to understand developer intent. Push a pull request and Canary reads the diff, understands the intent, and runs feature and regression tests against your preview app across real brows…
   api_count: 0
   score_band: minimal
-  score_composite: 5.3
+  score_composite: 6.1
   shared: 2
 - slug: appurify
   name: Appurify

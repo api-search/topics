@@ -36,39 +36,39 @@ apis:
   description: The outbox is an OrderedCollection endpoint that stores activities published by an actor. Clients POST activities to an actor's outbox to create, update, delete, follow, like, and perform other social interactions. The server then federate…
 links:
 - type: Spectral
-  url: https://github.com/api-evangelist/activitypub/blob/main/rules/activitypub-rules.yml
+  url: https://artifacts.apis.io/activitypub/rules/activitypub-rules.yml
 - type: Spectral
-  url: https://github.com/api-evangelist/activitypub/blob/main/rules/activitypub-jsonschema-spectral-rules.yml
+  url: https://artifacts.apis.io/activitypub/rules/activitypub-jsonschema-spectral-rules.yml
 - type: JSONLD
-  url: https://github.com/api-evangelist/activitypub/blob/main/json-ld/activitypub-context.jsonld
+  url: https://artifacts.apis.io/activitypub/json-ld/activitypub-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/activitypub/blob/main/vocabulary/activitystreams-vocabulary.yml
+  url: https://artifacts.apis.io/activitypub/vocabulary/activitystreams-vocabulary.yml
 - type: Vocabulary
-  url: https://github.com/api-evangelist/activitypub/blob/main/vocabulary/activitypub-vocabulary.yml
+  url: https://artifacts.apis.io/activitypub/vocabulary/activitypub-vocabulary.yml
 - type: AgentSkill
-  url: https://github.com/api-evangelist/activitypub/blob/main/skills/_index.yml
+  url: https://artifacts.apis.io/activitypub/skills/_index.yml
 - type: DataModel
-  url: https://github.com/api-evangelist/activitypub/blob/main/data-model/activitypub-data-model.yml
+  url: https://artifacts.apis.io/activitypub/data-model/activitypub-data-model.yml
 - type: ErrorCatalog
-  url: https://github.com/api-evangelist/activitypub/blob/main/errors/activitypub-problem-types.yml
+  url: https://artifacts.apis.io/activitypub/errors/activitypub-problem-types.yml
 - type: Conformance
-  url: https://github.com/api-evangelist/activitypub/blob/main/conformance/activitypub-conformance.yml
+  url: https://artifacts.apis.io/activitypub/conformance/activitypub-conformance.yml
 - type: Hosts
-  url: https://github.com/api-evangelist/activitypub/blob/main/hosts/activitypub-hosts.yml
+  url: https://artifacts.apis.io/activitypub/hosts/activitypub-hosts.yml
 - type: Vendors
-  url: https://github.com/api-evangelist/activitypub/blob/main/vendors/activitypub-vendors.yml
+  url: https://artifacts.apis.io/activitypub/vendors/activitypub-vendors.yml
 - type: SDKs
-  url: https://github.com/api-evangelist/activitypub/blob/main/packages/activitypub-packages.yml
+  url: https://artifacts.apis.io/activitypub/packages/activitypub-packages.yml
 - type: Packages
-  url: https://github.com/api-evangelist/activitypub/blob/main/packages/activitypub-packages.yml
+  url: https://artifacts.apis.io/activitypub/packages/activitypub-packages.yml
 - type: BlogRSS
   url: https://activitypub.rocks/feed.xml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/activitypub/blob/main/agentic-access/activitypub-agentic-access.yml
+  url: https://artifacts.apis.io/activitypub/agentic-access/activitypub-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/activitypub/blob/main/security/activitypub-domain-security.yml
+  url: https://artifacts.apis.io/activitypub/security/activitypub-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/activitypub/blob/main/authentication/activitypub-authentication.yml
+  url: https://artifacts.apis.io/activitypub/authentication/activitypub-authentication.yml
 - type: Website
   url: https://activitypub.rocks/
 - type: Documentation
@@ -96,67 +96,67 @@ links:
 - type: JSONSchema
   url: https://www.w3.org/TR/activitystreams-core/
 - type: RateLimits
-  url: https://github.com/api-evangelist/activitypub/blob/main/rate-limits/activitypub-rate-limits.yml
+  url: https://artifacts.apis.io/activitypub/rate-limits/activitypub-rate-limits.yml
 - type: Plans
-  url: https://github.com/api-evangelist/activitypub/blob/main/plans/activitypub-plans.yml
+  url: https://artifacts.apis.io/activitypub/plans/activitypub-plans.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/activitypub/blob/main/finops/activitypub-finops.yml
+  url: https://artifacts.apis.io/activitypub/finops/activitypub-finops.yml
 provider_count: 8
 providers:
-- slug: misskey
-  name: Misskey
-  description: Misskey is a free, open-source, decentralized microblogging platform that implements the ActivityPub protocol, enabling federation across independent instances and interoperability with other fediverse software such as Mastodon and Pleroma…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.4
-  shared: 2
 - slug: diaspora
   name: Diaspora
   description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operate…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 44.2
+  shared: 2
+- slug: misskey
+  name: Misskey
+  description: Misskey is a free, open-source, decentralized microblogging platform that implements the ActivityPub protocol, enabling federation across independent instances and interoperability with other fediverse software such as Mastodon and Pleroma…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.0
   shared: 2
 - slug: pixelfed
   name: Pixelfed
   description: Pixelfed is a decentralized, federated photo-sharing platform and open-source alternative to Instagram. Built on the ActivityPub protocol, it connects with the broader Fediverse — including Mastodon, PeerTube, and other federated networks…
   api_count: 1
   score_band: thin
-  score_composite: 38.7
+  score_composite: 38.0
   shared: 2
 - slug: atproto
   name: AT Protocol
   description: AT Protocol (Authenticated Transfer Protocol) is an open, federated social networking protocol developed by Bluesky Social PBC that powers the Bluesky social network and its 40M+ users. The protocol defines a public HTTP API surface via XR…
   api_count: 2
   score_band: thin
-  score_composite: 36.7
+  score_composite: 36.1
   shared: 2
 - slug: lemmy
   name: Lemmy
   description: Lemmy is a free, open-source, self-hostable federated link aggregator and discussion platform built as a Reddit alternative. It exposes a versioned REST API at /api/v4/ for creating posts, commenting, managing communities, voting, searchin…
   api_count: 1
   score_band: thin
-  score_composite: 34.3
+  score_composite: 33.9
   shared: 2
 - slug: elk
   name: Elk
   description: Elk is a nimble, MIT-licensed Mastodon web client maintained by Anthony Fu, Daniel Roe, Kevin Deng and Patak. It runs as a Nuxt 4 progressive web app at elk.zone and connects to any Mastodon-compatible instance the user chooses, speaking t…
   api_count: 1
   score_band: thin
-  score_composite: 29.1
+  score_composite: 28.7
   shared: 2
 - slug: zot
   name: Zot
   description: A decentralized communication protocol and platform for federated social networking, enabling secure and private content sharing across distributed servers.
   api_count: 1
   score_band: emerging
-  score_composite: 14.1
+  score_composite: 14.2
   shared: 2
 - slug: salduu-profe-social
   name: Salduu (Profe Social)
   description: Salduu, operating as Profe Social at profe.social, is a 500 Global-backed social networking platform. The live host serves Mastodon's default robots.txt (Disallow /search, sitemap.xml.gz) and a Ruby on Rails error stack, indicating the pla…
   api_count: 0
   score_band: minimal
-  score_composite: 2.9
+  score_composite: 2.1
   shared: 2
 ---

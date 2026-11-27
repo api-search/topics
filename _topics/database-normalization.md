@@ -40,7 +40,7 @@ links:
 - type: Standards
   url: https://www.iso.org/standard/76583.html
 - type: Vocabulary
-  url: https://github.com/api-evangelist/database-normalization/blob/main/vocabulary/database-normalization-vocabulary.yml
+  url: https://artifacts.apis.io/database-normalization/vocabulary/database-normalization-vocabulary.yml
 provider_count: 0
 providers: []
 ---

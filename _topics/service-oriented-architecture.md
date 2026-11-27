@@ -22,21 +22,21 @@ providers:
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 20.4
+  score_composite: 19.9
   shared: 2
 - slug: rest
   name: REST
   description: REST (Representational State Transfer) is an architectural style for designing networked applications, defined by Roy Fielding in his 2000 doctoral dissertation. REST uses stateless communication, standard HTTP methods (GET, POST, PUT, DEL…
   api_count: 4
   score_band: emerging
-  score_composite: 16.3
+  score_composite: 15.7
   shared: 2
 - slug: restful
   name: RESTful
   description: 'Representational State Transfer (REST) is an architectural style for designing networked applications using stateless HTTP communication and uniform interfaces. RESTful describes systems and APIs that conform to the REST constraints: clien…'
   api_count: 5
   score_band: emerging
-  score_composite: 13.1
+  score_composite: 11.8
   shared: 2
 - slug: services-patterns
   name: Services Patterns

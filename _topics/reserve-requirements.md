@@ -32,17 +32,17 @@ apis:
   url: https://fred.stlouisfed.org/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/reserve-requirements/blob/main/plans/reserve-requirements-plans-pricing.yml
+  url: https://artifacts.apis.io/reserve-requirements/plans/reserve-requirements-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/reserve-requirements/blob/main/rate-limits/reserve-requirements-rate-limits.yml
+  url: https://artifacts.apis.io/reserve-requirements/rate-limits/reserve-requirements-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/reserve-requirements/blob/main/finops/reserve-requirements-finops.yml
+  url: https://artifacts.apis.io/reserve-requirements/finops/reserve-requirements-finops.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/reserve-requirements/blob/main/agentic-access/reserve-requirements-agentic-access.yml
+  url: https://artifacts.apis.io/reserve-requirements/agentic-access/reserve-requirements-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/reserve-requirements/blob/main/security/reserve-requirements-domain-security.yml
+  url: https://artifacts.apis.io/reserve-requirements/security/reserve-requirements-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/reserve-requirements/blob/main/authentication/reserve-requirements-authentication.yml
+  url: https://artifacts.apis.io/reserve-requirements/authentication/reserve-requirements-authentication.yml
 - type: Website
   url: https://www.federalreserve.gov/monetarypolicy/reservereq.htm
 - type: Documentation
@@ -66,6 +66,6 @@ providers:
   description: The Federal Reserve Economic Data (FRED) API is a public web service operated by the Research Division of the Federal Reserve Bank of St. Louis. It provides programmatic access to more than 800,000 economic time series drawn from 100+ data…
   api_count: 10
   score_band: thin
-  score_composite: 31.5
+  score_composite: 31.9
   shared: 2
 ---

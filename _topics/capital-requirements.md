@@ -20,34 +20,34 @@ providers:
   description: The Financial Industry Regulatory Authority (FINRA) is a regulatory organization that oversees and regulates the securities industry in the United States. The FINRA Developer Center exposes Query, Notification, and Submission APIs for acce…
   api_count: 6
   score_band: thin
-  score_composite: 35.8
+  score_composite: 37.7
   shared: 2
 - slug: bindler-co
   name: Bindler
   description: Bindler provides Excel workbooks, decks and datasets covering regulations such as the EU AI Act, CSRD, CBAM, IFRS S2, UAE tax and e‑invoicing, plus startup and project finance models. These tools help small companies comply by offering liv…
   api_count: 1
-  score_band: emerging
-  score_composite: 25.4
+  score_band: thin
+  score_composite: 27.0
   shared: 2
 - slug: farm-credit-administration
   name: Farm Credit Administration
   description: The Farm Credit Administration (FCA) is an independent US federal agency that regulates and examines the Farm Credit System (FCS) — a nationwide network of cooperatively owned banks and associations providing credit and financial services…
   api_count: 1
   score_band: emerging
-  score_composite: 21.8
+  score_composite: 22.2
   shared: 2
 - slug: amfi-india
   name: AMFI India
   description: The Association of Mutual Funds in India (AMFI) is the industry standards body representing the mutual fund sector in India. It provides research, data, regulatory guidance, and resources for investors, distributors, and fund houses, inclu…
   api_count: 0
-  score_band: minimal
-  score_composite: 6.7
+  score_band: emerging
+  score_composite: 11.2
   shared: 2
 - slug: finansinspektionen
   name: Finansinspektionen
   description: Finansinspektionen is Sweden’s financial supervisory authority, responsible for overseeing banks, insurance companies, securities firms and other financial institutions. It works to ensure market stability, protect consumers, enforce regul…
   api_count: 1
   score_band: minimal
-  score_composite: 6.5
+  score_composite: 7.4
   shared: 2
 ---

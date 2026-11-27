@@ -49,11 +49,11 @@ apis:
   url: https://kubernetes.io/docs/concepts/extend-kubernetes/operator/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/plans/kubernetes-operators-plans-pricing.yml
+  url: https://artifacts.apis.io/kubernetes-operators/plans/kubernetes-operators-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/rate-limits/kubernetes-operators-rate-limits.yml
+  url: https://artifacts.apis.io/kubernetes-operators/rate-limits/kubernetes-operators-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/finops/kubernetes-operators-finops.yml
+  url: https://artifacts.apis.io/kubernetes-operators/finops/kubernetes-operators-finops.yml
 - type: IssueTracker
   url: https://github.com/operator-framework/operator-sdk/issues
 - type: Releases
@@ -67,9 +67,9 @@ links:
 - type: License
   url: https://github.com/operator-framework/operator-sdk/blob/master/LICENSE
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/security/kubernetes-operators-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/kubernetes-operators/security/kubernetes-operators-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/security/kubernetes-operators-domain-security.yml
+  url: https://artifacts.apis.io/kubernetes-operators/security/kubernetes-operators-domain-security.yml
 - type: Website
   url: https://kubernetes.io
 - type: Documentation
@@ -87,31 +87,31 @@ links:
 - type: ChangeLog
   url: https://kubernetes.io/releases/
 - type: JSONSchema
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-schema/kubernetes-operator-schema.json
+  url: https://artifacts.apis.io/kubernetes-operators/json-schema/kubernetes-operator-schema.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/kubernetes-operators/blob/main/json-ld/kubernetes-operators-context.jsonld
-provider_count: 248
+  url: https://artifacts.apis.io/kubernetes-operators/json-ld/kubernetes-operators-context.jsonld
+provider_count: 251
 providers:
 - slug: spectro-cloud
   name: Spectro Cloud
   description: Spectro Cloud provides Palette, an enterprise platform for managing the full lifecycle of Kubernetes clusters and cloud-native and AI infrastructure across data centers, public clouds, bare metal, and the edge. Palette uses declarative clu…
   api_count: 3
-  score_band: strong
-  score_composite: 65.9
+  score_band: exemplar
+  score_composite: 66.7
   shared: 4
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-…
   api_count: 1
   score_band: strong
-  score_composite: 65.0
+  score_composite: 63.9
   shared: 4
 - slug: coreos
   name: CoreOS
   description: CoreOS was a San Francisco-based container infrastructure company founded in 2013 that built a lightweight, automatically-updating Linux distribution (Container Linux, originally CoreOS Linux) and a family of now-foundational cloud-native…
   api_count: 0
   score_band: minimal
-  score_composite: 2.9
+  score_composite: 3.2
   shared: 4
 - slug: heptio
   name: Heptio
@@ -125,168 +125,168 @@ providers:
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery,…'
   api_count: 8
   score_band: exemplar
-  score_composite: 74.1
+  score_composite: 73.7
   shared: 3
 - slug: nuon
   name: Nuon
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into thei…
   api_count: 2
   score_band: strong
-  score_composite: 64.4
+  score_composite: 63.4
   shared: 3
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypr…
   api_count: 3
   score_band: strong
-  score_composite: 62.8
+  score_composite: 62.2
   shared: 3
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-clo…
   api_count: 3
   score_band: strong
-  score_composite: 56.5
+  score_composite: 56.4
   shared: 3
 - slug: runwhen
   name: RunWhen
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into age…
   api_count: 1
-  score_band: strong
-  score_composite: 55.7
+  score_band: developing
+  score_composite: 52.9
   shared: 3
 - slug: porter
   name: Porter
   description: A package manager for Kubernetes that uses Cloud Native Application Bundles (CNAB) to package and deploy applications along with their dependencies and configuration.
   api_count: 1
   score_band: developing
-  score_composite: 41.0
+  score_composite: 42.3
   shared: 3
 - slug: helm
   name: Helm
   description: Package manager for Kubernetes that helps you define, install, and upgrade complex Kubernetes applications using charts. Helm uses a packaging format called charts, which are collections of files that describe a related set of Kubernetes r…
   api_count: 1
   score_band: developing
-  score_composite: 40.8
+  score_composite: 41.0
   shared: 3
 - slug: calyptia
   name: Calyptia
   description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams creat…
   api_count: 1
   score_band: thin
-  score_composite: 38.9
+  score_composite: 39.0
   shared: 3
 - slug: argocd
   name: Argo CD
   description: Argo CD is a declarative GitOps continuous-delivery tool for Kubernetes, part of the CNCF Graduated Argo project. The argocd-server component exposes a gRPC and REST API used by the Web UI, the argocd CLI, and CI/CD systems. APIs cover app…
   api_count: 1
   score_band: thin
-  score_composite: 36.6
+  score_composite: 38.7
   shared: 3
 - slug: sensu
   name: Sensu
   description: Sensu (Sensu by Sumo Logic) is an observability pipeline that delivers monitoring as code across multi-cloud and hybrid environments. Sensu Go codifies monitoring workflows into declarative, versionable configuration and exposes a backend…
   api_count: 1
   score_band: thin
-  score_composite: 36.5
+  score_composite: 34.0
   shared: 3
 - slug: duplo-cloud
   name: Duplo Cloud
   description: DuploCloud is an AI-native DevOps platform that automates cloud infrastructure provisioning, security, and compliance across AWS, Azure, GCP, and Kubernetes. Its ARMOR agent runtime lets teams build and run AI DevOps agents that create tic…
   api_count: 0
   score_band: thin
-  score_composite: 34.5
+  score_composite: 32.7
   shared: 3
 - slug: kubeark
   name: Kubeark
   description: 'Kubeark is an enterprise orchestration and AI automation platform that standardizes system integration across hybrid estates. It combines three surfaces: workflow automation, where technical teams and end users build language-agnostic work…'
   api_count: 0
   score_band: thin
-  score_composite: 32.8
-  shared: 3
-- slug: kasten
-  name: Kasten
-  description: Veeam Kasten (formerly Kasten K10) is an enterprise-grade, Kubernetes-native data protection platform. It delivers backup and recovery, disaster recovery, application mobility, ransomware resilience, and virtual-machine (KubeVirt) protecti…
-  api_count: 0
-  score_band: thin
-  score_composite: 27.6
+  score_composite: 32.3
   shared: 3
 - slug: niteshift
   name: Niteshift
   description: Niteshift is the full-stack cloud for coding agents. Engineering teams define their dev environment, tools, and policies once, then run frontier or open-source coding agents (Claude Code, Codex, Cursor, OpenCode, Pi) inside fully configure…
   api_count: 0
   score_band: thin
-  score_composite: 26.9
+  score_composite: 28.4
   shared: 3
-- slug: tintri
-  name: Tintri
-  description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC…'
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.6
+- slug: kasten
+  name: Kasten
+  description: Veeam Kasten (formerly Kasten K10) is an enterprise-grade, Kubernetes-native data protection platform. It delivers backup and recovery, disaster recovery, application mobility, ransomware resilience, and virtual-machine (KubeVirt) protecti…
+  api_count: 0
+  score_band: thin
+  score_composite: 26.8
   shared: 3
 - slug: komo-do
   name: Komodo
   description: Komodo provides an open-source build and deployment system for managing servers, containers, and clusters. It offers a web-based interface to monitor CPU, memory, and disk usage, set alerts, and open shell sessions directly from the browse…
   api_count: 2
   score_band: emerging
-  score_composite: 21.6
+  score_composite: 26.0
+  shared: 3
+- slug: tintri
+  name: Tintri
+  description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC…'
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.6
   shared: 3
 - slug: kagent
   name: kagent
   description: kagent is an open-source framework for running AI agents in Kubernetes, automating complex DevOps operations and troubleshooting tasks with intelligent workflows. It is a Cloud Native Computing Foundation sandbox project that brings agenti…
   api_count: 1
   score_band: emerging
-  score_composite: 21.6
-  shared: 3
-- slug: lablabee
-  name: LabLabee
-  description: LabLabee is an AI-powered enablement, testing and troubleshooting platform for telecom teams, positioning itself as "the Copilot for Telco Engineers." The platform delivers on-demand, hands-on labs, sandboxes, learning paths and skill test…
-  api_count: 0
-  score_band: emerging
-  score_composite: 12.4
-  shared: 3
-- slug: k3s
-  name: K3s
-  description: K3s is a lightweight Kubernetes distribution designed for resource-constrained environments, edge computing, IoT devices, and CI/CD pipelines. K3s is a fully compliant Kubernetes distribution with a reduced memory footprint and simplified…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.0
+  score_composite: 22.4
   shared: 3
 - slug: cue-labs
   name: CUE Labs
   description: End Configuration-Related Outages CUE Hub stops misconfigurations from reaching production. It connects to your existing architecture to provide automated pre-deployment safety checks and impact analysis for every change. Book Demo Learn m…
   api_count: 1
   score_band: emerging
-  score_composite: 11.2
+  score_composite: 17.4
   shared: 3
-- slug: metal3-io
-  name: Metal3
-  description: Metal3 (Metal Kubed) is a CNCF incubating project that provides bare metal host provisioning for Kubernetes. It leverages Ironic for hardware management and integrates with the Cluster API to enable Kubernetes-native lifecycle management o…
+- slug: lablabee
+  name: LabLabee
+  description: LabLabee is an AI-powered enablement, testing and troubleshooting platform for telecom teams, positioning itself as "the Copilot for Telco Engineers." The platform delivers on-demand, hands-on labs, sandboxes, learning paths and skill test…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.5
+  shared: 3
+- slug: k3s
+  name: K3s
+  description: K3s is a lightweight Kubernetes distribution designed for resource-constrained environments, edge computing, IoT devices, and CI/CD pipelines. K3s is a fully compliant Kubernetes distribution with a reduced memory footprint and simplified…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.7
+  score_band: emerging
+  score_composite: 11.0
   shared: 3
 - slug: komodor
   name: Komodor
   description: Komodor is an autonomous AI SRE platform for Kubernetes observability, troubleshooting, and operations across multiple clusters. The platform surfaces cluster events, deployment timelines, dependency maps, and remediation runbooks to help…
   api_count: 1
   score_band: minimal
-  score_composite: 10.5
+  score_composite: 9.4
+  shared: 3
+- slug: metal3-io
+  name: Metal3
+  description: Metal3 (Metal Kubed) is a CNCF incubating project that provides bare metal host provisioning for Kubernetes. It leverages Ironic for hardware management and integrates with the Cluster API to enable Kubernetes-native lifecycle management o…
+  api_count: 1
+  score_band: minimal
+  score_composite: 9.4
   shared: 3
 - slug: operator-framework
   name: Operator Framework
   description: The Operator Framework is a CNCF incubating toolkit for building and managing Kubernetes Operators. It includes the Operator SDK for scaffolding and building operators using Go, Ansible, or Helm, the Operator Lifecycle Manager (OLM) for in…
   api_count: 2
   score_band: minimal
-  score_composite: 10.2
+  score_composite: 8.9
   shared: 3
 - slug: diamanti
   name: Diamanti
   description: Diamanti was a San Jose, California infrastructure company (founded 2014) that built hyperconverged, bare-metal infrastructure purpose-built for containers and Kubernetes. Its flagship Ultima platform paired plug-and-play appliances with h…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
+  score_composite: 2.6
   shared: 3
 - slug: d2iq
   name: D2iQ

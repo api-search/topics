@@ -22,6 +22,6 @@ providers:
   description: This is a demo repository showing how GitHub can be used to manage an API contract using an APIs.json index plus an OpenAPI definition and supporting artifacts. The API used in the demo is the APIs.io Search API, which exposes search and s…
   api_count: 1
   score_band: emerging
-  score_composite: 24.4
+  score_composite: 23.1
   shared: 2
 ---

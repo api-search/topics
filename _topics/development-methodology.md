@@ -22,6 +22,6 @@ providers:
   description: Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard b…
   api_count: 1
   score_band: emerging
-  score_composite: 17.8
+  score_composite: 17.3
   shared: 2
 ---

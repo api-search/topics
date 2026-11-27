@@ -52,13 +52,13 @@ apis:
   url: https://www.scala-sbt.org/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/scala/blob/main/plans/scala-plans-pricing.yml
+  url: https://artifacts.apis.io/scala/plans/scala-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/scala/blob/main/rate-limits/scala-rate-limits.yml
+  url: https://artifacts.apis.io/scala/rate-limits/scala-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/scala/blob/main/finops/scala-finops.yml
+  url: https://artifacts.apis.io/scala/finops/scala-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/scala/blob/main/security/scala-domain-security.yml
+  url: https://artifacts.apis.io/scala/security/scala-domain-security.yml
 - type: Website
   url: https://www.scala-lang.org/
 - type: Blog
@@ -76,17 +76,17 @@ links:
 - type: Community
   url: https://discord.gg/scala
 - type: JSONSchema
-  url: https://github.com/api-evangelist/scala/blob/main/json-schema/scala-library-schema.json
+  url: https://artifacts.apis.io/scala/json-schema/scala-library-schema.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/scala/blob/main/json-structure/scala-library-structure.json
+  url: https://artifacts.apis.io/scala/json-structure/scala-library-structure.json
 - type: JSONLDContext
-  url: https://github.com/api-evangelist/scala/blob/main/json-ld/scala-context.jsonld
+  url: https://artifacts.apis.io/scala/json-ld/scala-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/scala/blob/main/vocabulary/scala-vocabulary.yml
+  url: https://artifacts.apis.io/scala/vocabulary/scala-vocabulary.yml
 - type: Examples
-  url: https://github.com/api-evangelist/scala/blob/main/examples/scala-zio-http-example.json
+  url: https://artifacts.apis.io/scala/examples/scala-zio-http-example.json
 - type: Examples
-  url: https://github.com/api-evangelist/scala/blob/main/examples/scala-cats-effect-http4s-example.json
+  url: https://artifacts.apis.io/scala/examples/scala-cats-effect-http4s-example.json
 provider_count: 9
 providers:
 - slug: unison-computing
@@ -94,42 +94,42 @@ providers:
   description: Unison Computing, PBC is a public benefit corporation building the Unison programming language, Unison Cloud, and Unison Share. Unison is a statically-typed functional language where code is content-addressed and immutable; Unison Cloud de…
   api_count: 1
   score_band: thin
-  score_composite: 31.9
+  score_composite: 32.3
   shared: 3
 - slug: lightbend
   name: Lightbend
   description: Lightbend, Inc. (dba Akka) is the company behind the Akka agentic systems platform. Founded as Typesafe by the creators of the Scala language and the Akka actor toolkit, the company built the JVM reactive stack — Akka actors, Akka Streams,…
   api_count: 0
   score_band: developing
-  score_composite: 43.3
+  score_composite: 44.4
   shared: 2
 - slug: akka
   name: Akka
   description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of librari…
   api_count: 1
   score_band: thin
-  score_composite: 31.4
+  score_composite: 30.5
   shared: 2
 - slug: vineyard
   name: Vineyard
   description: Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyar…
   api_count: 1
   score_band: thin
-  score_composite: 28.2
+  score_composite: 26.9
   shared: 2
 - slug: redplanetlabs
   name: Redplanetlabs
   description: Red Planet Labs builds Rama, a unified backend platform for the JVM (Java/Clojure) that consolidates databases, queues, workers, and infrastructure into a single programming model — aiming to reduce backend complexity by up to 100x while p…
   api_count: 1
   score_band: emerging
-  score_composite: 25.7
+  score_composite: 24.0
   shared: 2
 - slug: groovy
   name: Apache Groovy
   description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syn…
   api_count: 3
   score_band: emerging
-  score_composite: 14.8
+  score_composite: 13.9
   shared: 2
 - slug: concord-systems
   name: Concord Systems

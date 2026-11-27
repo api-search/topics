@@ -20,7 +20,7 @@ links:
 - type: Blog
   url: https://asq.org/newsroom
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/lean-six-sigma-black-belt/blob/main/security/lean-six-sigma-black-belt-domain-security.yml
+  url: https://artifacts.apis.io/lean-six-sigma-black-belt/security/lean-six-sigma-black-belt-domain-security.yml
 - type: Website
   url: https://www.asq.org/cert/six-sigma-black-belt
 provider_count: 0

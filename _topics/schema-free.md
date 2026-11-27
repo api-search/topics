@@ -34,33 +34,33 @@ apis:
   url: https://www.mongodb.com/developer/products/atlas/atlas-data-api/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/schema-free/blob/main/plans/schema-free-plans-pricing.yml
+  url: https://artifacts.apis.io/schema-free/plans/schema-free-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/schema-free/blob/main/rate-limits/schema-free-rate-limits.yml
+  url: https://artifacts.apis.io/schema-free/rate-limits/schema-free-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/schema-free/blob/main/finops/schema-free-finops.yml
+  url: https://artifacts.apis.io/schema-free/finops/schema-free-finops.yml
 - type: Blog
   url: https://www.mongodb.com/company/blog
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/schema-free/blob/main/agentic-access/schema-free-agentic-access.yml
+  url: https://artifacts.apis.io/schema-free/agentic-access/schema-free-agentic-access.yml
 - type: TrustCenter
-  url: https://github.com/api-evangelist/schema-free/blob/main/security/schema-free-trust-center.yml
+  url: https://artifacts.apis.io/schema-free/security/schema-free-trust-center.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/schema-free/blob/main/security/schema-free-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/schema-free/security/schema-free-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/schema-free/blob/main/security/schema-free-domain-security.yml
+  url: https://artifacts.apis.io/schema-free/security/schema-free-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/schema-free/blob/main/authentication/schema-free-authentication.yml
+  url: https://artifacts.apis.io/schema-free/authentication/schema-free-authentication.yml
 - type: Website
   url: https://www.mongodb.com/resources/basics/databases/nosql-explained/data-modeling
 - type: JSONSchema
-  url: https://github.com/api-evangelist/schema-free/blob/main/json-schema/schema-free-document-schema.json
+  url: https://artifacts.apis.io/schema-free/json-schema/schema-free-document-schema.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/schema-free/blob/main/json-structure/schema-free-nosql-structure.json
+  url: https://artifacts.apis.io/schema-free/json-structure/schema-free-nosql-structure.json
 - type: JSONLDContext
-  url: https://github.com/api-evangelist/schema-free/blob/main/json-ld/schema-free-context.jsonld
+  url: https://artifacts.apis.io/schema-free/json-ld/schema-free-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/schema-free/blob/main/vocabulary/schema-free-vocabulary.yml
+  url: https://artifacts.apis.io/schema-free/vocabulary/schema-free-vocabulary.yml
 - type: Integrations
   url: https://www.mongodb.com/company/partners
 provider_count: 6
@@ -68,23 +68,23 @@ providers:
 - slug: amazon-dynamodb
   name: Amazon DynamoDB
   description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-valu…
-  api_count: 1
+  api_count: 19
   score_band: exemplar
-  score_composite: 80.9
+  score_composite: 82.4
   shared: 2
 - slug: mongodb
   name: MongoDB
   description: MongoDB provides a document‑model database platform that can be deployed on any cloud or on‑premises infrastructure. It offers services such as MongoDB Atlas for multi‑cloud data management, vector search, real‑time operational workloads,…
   api_count: 2
   score_band: exemplar
-  score_composite: 77.8
+  score_composite: 79.9
   shared: 2
 - slug: amazon-documentdb
   name: Amazon DocumentDB
   description: Amazon DocumentDB is a fully managed, MongoDB-compatible document database service that makes it easy to set up, operate, and scale MongoDB-compatible databases in the cloud. DocumentDB is designed from the ground up to give you the perfor…
-  api_count: 1
+  api_count: 11
   score_band: exemplar
-  score_composite: 66.6
+  score_composite: 72.9
   shared: 2
 - slug: apache-couchdb
   name: Apache CouchDB
@@ -98,7 +98,7 @@ providers:
   description: MongoDB Atlas is a fully managed cloud database service for MongoDB, available on AWS, Google Cloud, and Microsoft Azure, with global clusters, automated backups, security, and integrated search, vector, and stream processing capabilities.…
   api_count: 1
   score_band: thin
-  score_composite: 37.4
+  score_composite: 37.9
   shared: 2
 - slug: compose
   name: Compose

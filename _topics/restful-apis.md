@@ -18,7 +18,7 @@ api_count: 0
 apis: []
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/restful-apis/blob/main/security/restful-apis-domain-security.yml
+  url: https://artifacts.apis.io/restful-apis/security/restful-apis-domain-security.yml
 - type: Website
   url: https://restfulapi.net/
 - type: OpenAPI Specification
@@ -39,14 +39,14 @@ links:
   url: https://swagger.io/tools/
 - type: Postman REST Client
   url: https://www.postman.com/
-provider_count: 37
+provider_count: 39
 providers:
 - slug: rest
   name: REST
   description: REST (Representational State Transfer) is an architectural style for designing networked applications, defined by Roy Fielding in his 2000 doctoral dissertation. REST uses stateless communication, standard HTTP methods (GET, POST, PUT, DEL…
   api_count: 4
   score_band: emerging
-  score_composite: 16.3
+  score_composite: 15.7
   shared: 4
 - slug: restful-services
   name: RESTful Services
@@ -60,82 +60,89 @@ providers:
   description: 'Representational State Transfer (REST) is an architectural style for designing networked applications using stateless HTTP communication and uniform interfaces. RESTful describes systems and APIs that conform to the REST constraints: clien…'
   api_count: 5
   score_band: emerging
-  score_composite: 13.1
+  score_composite: 11.8
   shared: 3
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
+  score_composite: 82.5
   shared: 2
 - slug: aws-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, a…
-  api_count: 13
+  api_count: 39
   score_band: exemplar
-  score_composite: 76.0
+  score_composite: 77.4
   shared: 2
 - slug: 0xarchive
   name: 0xArchive
   description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
   api_count: 1
   score_band: exemplar
-  score_composite: 75.7
+  score_composite: 74.9
   shared: 2
-- slug: cvent-event-cloud
-  name: Cvent Event Cloud
-  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hyb…'
-  api_count: 2
+- slug: apiverve
+  name: APIVerve
+  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
+  api_count: 1
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 73.9
+  shared: 2
+- slug: autodesk
+  name: Autodesk
+  description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, aut…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 72.3
   shared: 2
 - slug: stayingapi
   name: StayingAPI
   description: Unified accommodation-data API returning live search, availability, price, cross-OTA price comparison, and normalized reviews across Airbnb, Booking.com, Vrbo, and Google Hotels via a single normalized JSON schema, so one integration cover…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.5
+  score_composite: 68.6
   shared: 2
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.0
+  score_composite: 67.7
   shared: 2
-- slug: odds-api
-  name: Odds API
-  description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, l…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.5
+- slug: cvent-event-cloud
+  name: Cvent Event Cloud
+  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hyb…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 66.6
   shared: 2
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and…
   api_count: 4
   score_band: strong
-  score_composite: 62.8
+  score_composite: 64.6
   shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
+- slug: odds-api
+  name: Odds API
+  description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, l…
+  api_count: 1
   score_band: strong
-  score_composite: 61.6
+  score_composite: 64.5
   shared: 2
 - slug: reefapi
   name: ReefAPI
   description: ReefAPI is a unified web-data gateway that fronts 183 production data engines - Amazon, Zillow, Reddit, Trustpilot, LinkedIn Jobs, Indeed, Google Maps, Booking.com, StockX, YouTube and more - behind ONE JSON contract, ONE API key and ONE s…
   api_count: 1
   score_band: strong
-  score_composite: 61.0
+  score_composite: 60.7
   shared: 2
-- slug: autodesk
-  name: Autodesk
-  description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, aut…
-  api_count: 12
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
   score_band: strong
   score_composite: 60.3
   shared: 2
@@ -144,42 +151,35 @@ providers:
   description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key auth…
   api_count: 1
   score_band: strong
-  score_composite: 58.1
+  score_composite: 60.2
   shared: 2
 - slug: blng
   name: Blng
   description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos,…
   api_count: 3
-  score_band: developing
-  score_composite: 54.1
-  shared: 2
-- slug: apiverve
-  name: APIVerve
-  description: An agent-native API marketplace exposing 300+ (367+ enumerated) ready-made REST APIs behind a single API key with a uniform JSON envelope. Offers REST, an alpha GraphQL gateway, OpenAPI + Postman contracts, a self-hosted apis.json, an llms…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
+  score_band: strong
+  score_composite: 54.8
   shared: 2
 - slug: 3gpp
   name: 3GPP
   description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
   api_count: 116
   score_band: developing
-  score_composite: 48.0
+  score_composite: 49.2
   shared: 2
 - slug: autocad
   name: AutoCAD
   description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET,…
   api_count: 6
   score_band: developing
-  score_composite: 47.7
+  score_composite: 46.4
   shared: 2
-- slug: vehicles-dev-api
-  name: Vehicles.dev
-  description: Automotive vehicle data platform offering a live REST API for VIN decoding, specifications, recalls, market valuation, depreciation, ownership costs, listings, price history, and photos, backed by federal sources (NHTSA vPIC, NHTSA recalls…
+- slug: ruby
+  name: Ruby Programming Language and Popular API Gems
+  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, po…'
   api_count: 1
   score_band: developing
-  score_composite: 45.2
+  score_composite: 43.7
   shared: 2
 - slug: adsmom-inc
   name: Adsmom
@@ -188,26 +188,26 @@ providers:
   score_band: developing
   score_composite: 43.3
   shared: 2
-- slug: ruby
-  name: Ruby Programming Language and Popular API Gems
-  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, po…'
+- slug: vehicles-dev-api
+  name: Vehicles.dev
+  description: Automotive vehicle data platform offering a live REST API for VIN decoding, specifications, recalls, market valuation, depreciation, ownership costs, listings, price history, and photos, backed by federal sources (NHTSA vPIC, NHTSA recalls…
   api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 42.6
   shared: 2
 - slug: acelab
   name: Acelab
   description: Acelab is a Brooklyn, New York software company building Material Hub, an AI-assisted material intelligence platform for the architecture, engineering, construction and owner (AECO) market. Founded in 2019 by architecture graduates from Ha…
   api_count: 2
   score_band: thin
-  score_composite: 38.3
+  score_composite: 37.6
   shared: 2
 - slug: apache-cxf
   name: Apache CXF
   description: Apache CXF is an open-source Java services framework governed by the Apache Software Foundation that helps build and develop web services using JAX-WS (SOAP) and JAX-RS (REST) frontend APIs. It supports contract-first (WSDL) and code-first…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 34.4
   shared: 2
 - slug: camara-project
   name: CAMARA Project
@@ -215,6 +215,13 @@ providers:
   api_count: 24
   score_band: thin
   score_composite: 30.4
+  shared: 2
+- slug: snaptrude
+  name: Snaptrude
+  description: Snaptrude is a cloud-native design platform for architecture and interior design that unifies sketching, real-time collaboration, AI-assisted programming, and BIM into a single browser-based tool. Snaptrude 3.0 offers four integrated modes…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.7
   shared: 2
 - slug: den-archi
   name: Den
@@ -228,27 +235,20 @@ providers:
   description: Rayon is an AI-powered CAD (computer-aided design) platform built for interior designers and architects, positioned as a modern, browser-based alternative to legacy tools like AutoCAD and SketchUp. It provides professional 2D drafting and…
   api_count: 0
   score_band: thin
-  score_composite: 28.1
+  score_composite: 27.3
   shared: 2
-- slug: snaptrude
-  name: Snaptrude
-  description: Snaptrude is a cloud-native design platform for architecture and interior design that unifies sketching, real-time collaboration, AI-assisted programming, and BIM into a single browser-based tool. Snaptrude 3.0 offers four integrated modes…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.1
-  shared: 2
-- slug: dropwizard
-  name: Dropwizard
-  description: Dropwizard is a Java framework for developing ops-friendly, high-performance RESTful web services, pulling together stable, mature libraries from the Java ecosystem into a simple, lightweight package.
+- slug: parlor-sh
+  name: Parlor.sh
+  description: Parlor.sh provides a simple, open HTTP‑based chat‑room service where each room is identified by a unique URL. Anyone with the URL can read, join, and post messages without accounts or SDKs. The platform emphasizes privacy, unlisted rooms,…
   api_count: 1
   score_band: emerging
-  score_composite: 22.7
+  score_composite: 23.9
   shared: 2
-- slug: nmfta
-  name: NMFTA
-  description: The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that indust…
-  api_count: 6
+- slug: getrender-ai
+  name: GetRender
+  description: GetRender provides AI-powered architectural rendering and design tools that transform sketches, photos, floor plans, and 3D models into realistic visualizations of buildings, interiors, and landscapes. Users can upload images or describe d…
+  api_count: 0
   score_band: emerging
-  score_composite: 21.0
+  score_composite: 23.3
   shared: 2
 ---

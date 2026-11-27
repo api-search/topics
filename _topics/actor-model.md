@@ -24,19 +24,19 @@ apis:
   description: Supervision hierarchy
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/actor-model/blob/main/plans/actor-model-plans-pricing.yml
+  url: https://artifacts.apis.io/actor-model/plans/actor-model-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/actor-model/blob/main/rate-limits/actor-model-rate-limits.yml
+  url: https://artifacts.apis.io/actor-model/rate-limits/actor-model-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/actor-model/blob/main/finops/actor-model-finops.yml
+  url: https://artifacts.apis.io/actor-model/finops/actor-model-finops.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/actor-model/blob/main/agentic-access/actor-model-agentic-access.yml
+  url: https://artifacts.apis.io/actor-model/agentic-access/actor-model-agentic-access.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/actor-model/blob/main/security/actor-model-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/actor-model/security/actor-model-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/actor-model/blob/main/security/actor-model-domain-security.yml
+  url: https://artifacts.apis.io/actor-model/security/actor-model-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/actor-model/blob/main/authentication/actor-model-authentication.yml
+  url: https://artifacts.apis.io/actor-model/authentication/actor-model-authentication.yml
 - type: Website
   url: https://en.wikipedia.org/wiki/Actor_model
 - type: Documentation
@@ -44,11 +44,11 @@ links:
 - type: GitHubOrganization
   url: https://github.com/akka
 - type: SpectralRules
-  url: https://github.com/api-evangelist/actor-model/blob/main/rules/actor-model-spectral-rules.yml
+  url: https://artifacts.apis.io/actor-model/rules/actor-model-spectral-rules.yml
 - type: Vocabulary
-  url: https://github.com/api-evangelist/actor-model/blob/main/vocabulary/actor-model-vocabulary.yaml
+  url: https://artifacts.apis.io/actor-model/vocabulary/actor-model-vocabulary.yaml
 - type: JSONLD
-  url: https://github.com/api-evangelist/actor-model/blob/main/json-ld/actor-model-context.jsonld
+  url: https://artifacts.apis.io/actor-model/json-ld/actor-model-context.jsonld
 provider_count: 3
 providers:
 - slug: lightbend
@@ -56,14 +56,14 @@ providers:
   description: Lightbend, Inc. (dba Akka) is the company behind the Akka agentic systems platform. Founded as Typesafe by the creators of the Scala language and the Akka actor toolkit, the company built the JVM reactive stack — Akka actors, Akka Streams,…
   api_count: 0
   score_band: developing
-  score_composite: 43.3
+  score_composite: 44.4
   shared: 2
 - slug: akka
   name: Akka
   description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of librari…
   api_count: 1
   score_band: thin
-  score_composite: 31.4
+  score_composite: 30.5
   shared: 2
 - slug: tla-plus-foundation
   name: TLA Plus Foundation

@@ -33,11 +33,11 @@ apis:
   url: https://github.com/opencontainers/image-spec
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/containerfile/blob/main/plans/containerfile-plans-pricing.yml
+  url: https://artifacts.apis.io/containerfile/plans/containerfile-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/containerfile/blob/main/rate-limits/containerfile-rate-limits.yml
+  url: https://artifacts.apis.io/containerfile/rate-limits/containerfile-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/containerfile/blob/main/finops/containerfile-finops.yml
+  url: https://artifacts.apis.io/containerfile/finops/containerfile-finops.yml
 - type: IssueTracker
   url: https://github.com/containers/common/issues
 - type: Releases
@@ -51,9 +51,9 @@ links:
 - type: License
   url: https://github.com/containers/common/blob/main/LICENSE
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/containerfile/blob/main/security/containerfile-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/containerfile/security/containerfile-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/containerfile/blob/main/security/containerfile-domain-security.yml
+  url: https://artifacts.apis.io/containerfile/security/containerfile-domain-security.yml
 - type: Specification
   url: https://github.com/containers/common/blob/main/docs/Containerfile.5.md
 - type: Documentation
@@ -66,77 +66,77 @@ links:
   url: https://github.com/containers
 - type: GitHubRepository
   url: https://github.com/containers/buildah
-provider_count: 58
+provider_count: 59
 providers:
 - slug: dagger
   name: Dagger
   description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET,…
   api_count: 1
   score_band: strong
-  score_composite: 58.6
+  score_composite: 58.9
   shared: 4
+- slug: amazon-ecr
+  name: Amazon ECR
+  description: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worr…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 3
 - slug: nexus
   name: Sonatype Nexus Repository
   description: Sonatype Nexus Repository (formerly Nexus Repository Manager) is Sonatype's artifact repository manager for packages, containers, build artifacts and AI/ML models across Maven, npm, Docker/OCI, PyPI, NuGet, Helm, Go, Hugging Face and 25+ o…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.0
-  shared: 3
-- slug: amazon-ecr
-  name: Amazon ECR
-  description: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worr…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.8
+  score_composite: 69.7
   shared: 3
 - slug: goharbor
   name: GoHarbor
   description: 'Harbor is an open source, CNCF-hosted registry that stores, signs and scans OCI artifacts, adding the policy and identity layer a plain container registry lacks: projects, RBAC and robot accounts, vulnerability scanning and SBOM generation…'
   api_count: 2
   score_band: strong
-  score_composite: 62.1
+  score_composite: 62.5
   shared: 3
 - slug: github-container-registry
   name: GitHub Container Registry
   description: GitHub Container Registry stores container images within your GitHub organization or personal account, allows you to associate images with repositories, and provides fine-grained permissions for managing access. It supports Docker and OCI…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.1
+  api_count: 2
+  score_band: strong
+  score_composite: 61.8
   shared: 3
 - slug: docker
   name: Docker
   description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
   api_count: 1
   score_band: developing
-  score_composite: 52.0
+  score_composite: 51.7
   shared: 3
 - slug: docker-hub
   name: Docker Hub
   description: Docker Hub is the world's largest container image registry, providing a cloud-based service for finding, storing, sharing, and managing container images. It offers public and private repositories, automated builds, webhooks, and integratio…
   api_count: 1
   score_band: developing
-  score_composite: 46.7
+  score_composite: 48.7
   shared: 3
 - slug: podman
   name: Podman
   description: Podman is a daemonless, open-source container engine for developing, managing, and running OCI containers on Linux, supporting both rootful and rootless operation as a drop-in replacement for Docker. The Podman REST API exposes a Docker-co…
   api_count: 1
   score_band: thin
-  score_composite: 36.9
+  score_composite: 38.1
   shared: 3
 - slug: drone
   name: Drone
   description: Drone is an open-source, container-native continuous integration and continuous delivery platform that automates software build, testing, and deployment pipelines entirely through Docker containers. Acquired by Harness in 2021, Drone enabl…
   api_count: 1
   score_band: thin
-  score_composite: 33.5
+  score_composite: 31.9
   shared: 3
 - slug: open-container-initiative
   name: Open Container Initiative
   description: The Open Container Initiative (OCI) is an open governance structure for creating open industry standards around container formats and runtimes, hosted under the Linux Foundation.
   api_count: 1
   score_band: emerging
-  score_composite: 23.1
+  score_composite: 22.1
   shared: 3
 - slug: kamal-deploy
   name: Kamal
@@ -150,28 +150,28 @@ providers:
   description: Coasts (Containerized Hosts) is an open-source, MIT-licensed CLI tool that provides localhost service isolation and orchestration for git worktrees. It spawns multiple fully isolated development runtimes for the same project on a single ma…
   api_count: 0
   score_band: emerging
-  score_composite: 18.9
+  score_composite: 18.1
   shared: 3
 - slug: nixpacks
   name: Nixpacks
   description: Nixpacks is an open-source build tool that converts application source code into OCI-compliant Docker images by combining language-specific providers, Nix packages, and Buildkit. Originally created by Railway as the build system powering t…
   api_count: 5
   score_band: emerging
-  score_composite: 13.3
+  score_composite: 13.5
   shared: 3
 - slug: dokku
   name: Dokku
   description: Dokku is an open-source Docker-powered self-hosted Platform-as-a-Service that helps you build and manage the lifecycle of applications from initial push to scaling out. Often described as "the smallest PaaS implementation you've ever seen"…
   api_count: 0
   score_band: emerging
-  score_composite: 11.6
+  score_composite: 12.0
   shared: 3
 - slug: easypanel
   name: Easypanel
   description: Easypanel is a modern, self-hosted server control panel powered by Docker and Docker Swarm that simplifies application deployment, database provisioning, and server management through an intuitive web interface. Operators can deploy applic…
   api_count: 0
   score_band: minimal
-  score_composite: 9.1
+  score_composite: 8.5
   shared: 3
 - slug: dchq
   name: DCHQ
@@ -187,95 +187,95 @@ providers:
   score_band: minimal
   score_composite: 0
   shared: 3
-- slug: amazon-lightsail
-  name: Amazon Lightsail
-  description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 75.4
-  shared: 2
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
   description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
-  api_count: 1
+  api_count: 4
   score_band: exemplar
-  score_composite: 72.6
+  score_composite: 77.3
+  shared: 2
+- slug: amazon-lightsail
+  name: Amazon Lightsail
+  description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Light…
+  api_count: 22
+  score_band: exemplar
+  score_composite: 76.4
+  shared: 2
+- slug: amazon-ecs
+  name: Amazon ECS
+  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
+  api_count: 18
+  score_band: exemplar
+  score_composite: 76.0
+  shared: 2
+- slug: azure-container-registry
+  name: Azure Container Registry
+  description: Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry for storing and managing private container images and artifacts. It supports automated container image builds, geo-replication, and inte…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 68.5
   shared: 2
 - slug: platform.sh
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster o…
   api_count: 2
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 68.5
   shared: 2
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api…
   api_count: 1
   score_band: strong
-  score_composite: 66.0
+  score_composite: 66.3
   shared: 2
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and g…
   api_count: 1
   score_band: strong
-  score_composite: 64.9
+  score_composite: 65.8
   shared: 2
 - slug: jfrog-container-registry
   name: JFrog Container Registry
   description: JFrog Container Registry is a free, hybrid, and multi-cloud Docker registry and Helm chart repository for managing and distributing container images. It provides advanced access control, vulnerability scanning, and scales to support enterp…
   api_count: 1
   score_band: strong
-  score_composite: 64.5
-  shared: 2
-- slug: amazon-ecs
-  name: Amazon ECS
-  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
-  api_count: 1
-  score_band: strong
-  score_composite: 63.0
+  score_composite: 61.7
   shared: 2
 - slug: gameye
   name: Gameye
   description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single RES…
   api_count: 1
   score_band: strong
-  score_composite: 61.8
-  shared: 2
-- slug: azure-container-registry
-  name: Azure Container Registry
-  description: Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry for storing and managing private container images and artifacts. It supports automated container image builds, geo-replication, and inte…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.1
+  score_composite: 60.2
   shared: 2
 - slug: portainer
   name: Portainer
   description: Portainer provides a centralized multi‑cluster management platform for Kubernetes, Docker, Swarm and Podman workloads. It offers enterprise identity and access features such as SSO, LDAP and OIDC, as well as GitOps deployment workflows and…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 57.1
   shared: 2
 - slug: coolify
   name: Coolify
   description: Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Vercel, Heroku, Netlify, and Railway. It lets you deploy static sites, APIs, full-stack applications, databases, and 280+ one-click services to any SSH-accessibl…
   api_count: 1
   score_band: developing
-  score_composite: 51.6
+  score_composite: 49.6
   shared: 2
 - slug: buildpacks
   name: Cloud Native Buildpacks
   description: Cloud Native Buildpacks (CNBs) transform application source code into OCI-compliant container images that can run on any cloud, without requiring Dockerfiles. Initiated by Pivotal and Heroku in January 2018, CNB joined the CNCF as a Sandbo…
   api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 49.2
   shared: 2
-- slug: dokploy
-  name: Dokploy
-  description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Doc…
-  api_count: 2
+- slug: cloudovna-eu
+  name: Cloudovňa
+  description: Cloudovňa (cloudovna.eu) is an EU-based Docker and database hosting service operated from Košice, Slovakia (trade name of Martin Vlček, company ID 54 031 371). It runs any image from Docker Hub or GitHub Container Registry with managed Pos…
+  api_count: 1
   score_band: developing
-  score_composite: 46.9
+  score_composite: 46.3
   shared: 2
 ---

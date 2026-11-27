@@ -37,25 +37,25 @@ apis:
   url: https://developers.home-assistant.io/docs/api/rest/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/aircon/blob/main/plans/aircon-plans-pricing.yml
+  url: https://artifacts.apis.io/aircon/plans/aircon-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/aircon/blob/main/rate-limits/aircon-rate-limits.yml
+  url: https://artifacts.apis.io/aircon/rate-limits/aircon-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/aircon/blob/main/finops/aircon-finops.yml
+  url: https://artifacts.apis.io/aircon/finops/aircon-finops.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/aircon/blob/main/security/aircon-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/aircon/security/aircon-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/aircon/blob/main/security/aircon-domain-security.yml
+  url: https://artifacts.apis.io/aircon/security/aircon-domain-security.yml
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/aircon/refs/heads/main/vocabulary/aircon-vocabulary.yaml
-provider_count: 132
+  url: https://artifacts.apis.io/aircon/vocabulary/aircon-vocabulary.yaml
+provider_count: 136
 providers:
 - slug: sensibo
   name: Sensibo
   description: Sensibo builds smart air conditioning controllers and indoor air quality monitors (Sensibo Sky, Air, Air Pro, and Elements) that add app, voice, and API control to existing mini-split, window, and portable AC and heat-pump units. The Sensi…
   api_count: 1
   score_band: thin
-  score_composite: 29.1
+  score_composite: 28.8
   shared: 5
 - slug: lennox-international
   name: Lennox International
@@ -68,134 +68,120 @@ providers:
   name: Boldr
   description: Boldr is a Techstars-backed consumer hardware company building energy-saving smart home climate control devices. Its two products are Kelvin, a smart infrared heater, and Klima, a smart thermostat controller for mini-split air conditioners…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.9
+  score_band: emerging
+  score_composite: 12.7
   shared: 5
 - slug: aedifion
   name: Aedifion
   description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building tra…
   api_count: 1
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.3
   shared: 4
 - slug: 75f
   name: 75F
   description: 75F is an IoT-based building management and automation company (Burnsville, Minnesota; acquired by Carrier Global in July 2026) whose vertically integrated platform pairs wireless sensors, thermostats and Central Control Units with cloud s…
-  api_count: 2
+  api_count: 3
   score_band: developing
-  score_composite: 39.9
+  score_composite: 48.7
   shared: 4
 - slug: ecobee
   name: ecobee
   description: ecobee makes smart Wi-Fi thermostats, room sensors, cameras, and other connected home devices. The ecobee API is a REST-like JSON interface, based at https://api.ecobee.com/1/, that lets authorized third-party applications read and control…
   api_count: 1
   score_band: thin
-  score_composite: 28.2
+  score_composite: 27.5
   shared: 4
+- slug: google-nest
+  name: Google Nest Smart Device Management
+  description: The Smart Device Management (SDM) API is a REST API that allows developers to manage Google Nest devices including thermostats, cameras, doorbells, and displays. It provides access to device traits and commands using a trait-based model, e…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.8
+  shared: 3
 - slug: carrier-global
   name: Carrier Global
   description: Carrier Global Corporation is a global provider of healthy, safe, sustainable, and intelligent building and cold-chain solutions, spanning HVAC, refrigeration, fire, security, and building automation technologies. Its digital ecosystem inc…
   api_count: 3
-  score_band: strong
-  score_composite: 54.7
-  shared: 3
-- slug: nest
-  name: Nest
-  description: Nest is Google's smart home brand — thermostats, cameras, doorbells, and the Nest Hub — originally founded as Nest Labs (a Lightspeed Venture Partners portfolio company) and acquired by Google. Developers integrate with authorized Nest dev…
-  api_count: 1
   score_band: developing
-  score_composite: 53.7
+  score_composite: 53.1
   shared: 3
 - slug: passivelogic
   name: PassiveLogic
   description: PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Crea…
   api_count: 1
   score_band: developing
-  score_composite: 42.6
-  shared: 3
-- slug: google-nest
-  name: Google Nest Smart Device Management
-  description: The Smart Device Management (SDM) API is a REST API that allows developers to manage Google Nest devices including thermostats, cameras, doorbells, and displays. It provides access to device traits and commands using a trait-based model, e…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.4
+  score_composite: 42.7
   shared: 3
 - slug: verdigris-technologies
   name: Verdigris Technologies
   description: Verdigris Technologies builds AI-powered building energy intelligence, pairing proprietary current-sensor hardware clamped onto a building's electrical panels with cloud software that monitors every circuit in real time. The Verdigris API…
   api_count: 1
   score_band: developing
-  score_composite: 41.0
+  score_composite: 41.9
   shared: 3
 - slug: brick
   name: BRICK Schema
   description: BRICK is an open-source community-driven ontology standard for standardizing semantic descriptions of physical, logical, and virtual assets in buildings and the relationships between them. Using Semantic Web (RDF/OWL) technology, BRICK v1.…
   api_count: 2
   score_band: thin
-  score_composite: 36.6
+  score_composite: 36.8
   shared: 3
 - slug: clockworks-analytics
   name: Clockworks Analytics
   description: Clockworks Analytics is a Boston-area building-analytics company whose cloud platform performs automated fault detection and diagnostics (FDD) on HVAC and building systems. It ingests interval data from Building Management Systems through…
   api_count: 4
   score_band: thin
-  score_composite: 35.1
+  score_composite: 36.7
   shared: 3
 - slug: hello-therma
   name: Hello Therma
   description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of R…
   api_count: 1
   score_band: thin
-  score_composite: 30.0
+  score_composite: 27.9
   shared: 3
 - slug: gridpoint
   name: GridPoint
   description: GridPoint is a Reston, Virginia clean-technology company, founded in 2003, that builds energy management and sustainability systems for commercial buildings, enterprises and government agencies. It combines its own edge hardware — EC2000 a…
   api_count: 0
-  score_band: emerging
-  score_composite: 25.9
+  score_band: thin
+  score_composite: 26.9
   shared: 3
 - slug: trane-technologies
   name: Trane Technologies
   description: 'Trane Technologies plc (NYSE: TT) is an Ireland-domiciled global climate innovator that designs, manufactures, sells, and services heating, ventilation, air conditioning (HVAC), transport refrigeration, and building-automation systems. The…'
   api_count: 8
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 20.8
   shared: 3
 - slug: infinitum
   name: Infinitum
   description: Infinitum (formerly Infinitum Electric) is an Austin, Texas motor manufacturer, founded in 2016 by Ben Schuler, that builds the Aircore EC+ family of air-core printed-circuit-board (PCB) stator electric motors along with integrated fan and…
   api_count: 1
   score_band: emerging
-  score_composite: 18.4
+  score_composite: 18.9
   shared: 3
 - slug: control4
   name: Control4
   description: Control4 is a smart home and building automation platform, now part of Snap One / ADI Global (Resideo), headquartered in Salt Lake City, Utah. It unifies control of lighting, audio/video, home theater, climate, security, shades, and voice…
   api_count: 0
   score_band: emerging
-  score_composite: 13.7
+  score_composite: 12.3
   shared: 3
 - slug: universal-electronics
   name: Universal Electronics
   description: Universal Electronics Inc. (UEI) is a global leader in universal control and sensing technologies for the smart home, known for its QuickSet software platform, UEI TIDE smart thermostats and sensors, the Nevo white-label control platform,…
   api_count: 0
   score_band: emerging
-  score_composite: 13.0
+  score_composite: 12.1
   shared: 3
 - slug: green-fusion
   name: Green Fusion
   description: Green Fusion GmbH is a Berlin-based climate-energy software company that provides an intelligent 360-degree energy management platform for the residential real estate sector (Wohnungswirtschaft). Its software digitizes and optimizes buildi…
   api_count: 0
   score_band: minimal
-  score_composite: 8.9
-  shared: 3
-- slug: 500nettechnologycoltd
-  name: 500net
-  description: 500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-buildi…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.3
+  score_composite: 9.4
   shared: 3
 - slug: altotech-global
   name: AltoTech Global
@@ -204,60 +190,74 @@ providers:
   score_band: minimal
   score_composite: 5.0
   shared: 3
+- slug: 500nettechnologycoltd
+  name: 500net
+  description: 500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-buildi…
+  api_count: 0
+  score_band: minimal
+  score_composite: 4.7
+  shared: 3
 - slug: comfort-systems-usa
   name: Comfort Systems USA
   description: 'Comfort Systems USA (NYSE: FIX) is a Houston-based mechanical, electrical and plumbing contractor — one of the largest in the United States — that installs, services and maintains HVAC, piping, electrical and building-automation systems fo…'
   api_count: 0
   score_band: minimal
-  score_composite: 4.3
+  score_composite: 4.6
   shared: 3
 - slug: daikin
   name: Daikin
   description: Daikin is a global leader in air conditioning, heating, ventilation and refrigeration technologies. Founded in 1924 in Osaka, Japan, Daikin develops innovative climate‑control solutions for residential, commercial and industrial applicatio…
   api_count: 0
   score_band: minimal
-  score_composite: 3.1
+  score_composite: 2.2
   shared: 3
 - slug: butterflymx
   name: ButterflyMX
   description: ButterflyMX is a property-access technology company whose smart video intercoms, keypads, smart locks, elevator controls, vehicle-access readers, package rooms and front-desk stations are installed in more than 20,000 multifamily, commerci…
   api_count: 1
   score_band: strong
-  score_composite: 57.2
+  score_composite: 59.0
   shared: 2
 - slug: rachio
   name: Rachio
   description: Rachio makes smart, WiFi-connected irrigation controllers, Smart Hose Timers and lighting controllers for homes and landscapes. The Rachio Public API lets developers read a person's account, controllers (devices) and irrigation zones, star…
   api_count: 10
   score_band: strong
-  score_composite: 56.7
+  score_composite: 58.5
   shared: 2
-- slug: clevergy
-  name: Clevergy
-  description: Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform inges…
+- slug: chirpwireless-io
+  name: CHIRP Wireless
+  description: CHIRP Wireless (branded CHIRP / Chirp) is a remote home monitoring and automation platform that brings multi-brand LoRaWAN sensors, cameras (via Chirp Lens) and connected devices together, with an AI setup assistant, alerts, a visual rules…
   api_count: 1
-  score_band: developing
-  score_composite: 53.9
+  score_band: strong
+  score_composite: 57.4
+  shared: 2
+- slug: gridx-ai
+  name: gridX
+  description: 'gridX (gridX GmbH, Aachen, Germany) provides XENON, a white-label connectivity and flexibility platform for distributed energy resources. It covers home energy management systems (HEMS) and EV charging infrastructure: connecting PV, batter…'
+  api_count: 1
+  score_band: strong
+  score_composite: 56.6
   shared: 2
 - slug: allegion
   name: Allegion
   description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Porta…
   api_count: 2
   score_band: developing
-  score_composite: 52.9
+  score_composite: 52.4
   shared: 2
-- slug: viridi-parente
-  name: Viridi
-  description: Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation techno…
+- slug: johnson-controls
+  name: Johnson Controls
+  description: Johnson Controls is a global diversified technology and multi-industrial leader serving customers in over 150 countries, providing products, services, and solutions for buildings (HVAC, fire, security, building automation), energy storage,…
   api_count: 1
   score_band: developing
-  score_composite: 46.4
+  score_composite: 51.7
   shared: 2
-- slug: door
-  name: Door
-  description: DOOR (formerly Latch) is a multifamily proptech company providing a smart-building access and building-intelligence platform. It unifies smart locks, readers, intercoms, cameras, thermostats and sensors with software (DOOR OS) for property…
-  api_count: 2
+- slug: clevergy
+  name: Clevergy
+  description: Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform inges…
+  api_count: 1
   score_band: developing
-  score_composite: 45.5
+  score_composite: 51.2
   shared: 2
 ---

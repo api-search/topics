@@ -41,7 +41,7 @@ links:
 - type: Standards
   url: https://www.iso.org/committee/53186.html
 - type: Vocabulary
-  url: https://github.com/api-evangelist/data-models/blob/main/vocabulary/data-models-vocabulary.yml
+  url: https://artifacts.apis.io/data-models/vocabulary/data-models-vocabulary.yml
 provider_count: 0
 providers: []
 ---

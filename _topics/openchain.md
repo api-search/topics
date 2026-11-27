@@ -18,15 +18,15 @@ apis:
   url: https://www.openchainproject.org/resources
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/openchain/blob/main/plans/openchain-plans-pricing.yml
+  url: https://artifacts.apis.io/openchain/plans/openchain-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/openchain/blob/main/rate-limits/openchain-rate-limits.yml
+  url: https://artifacts.apis.io/openchain/rate-limits/openchain-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/openchain/blob/main/finops/openchain-finops.yml
+  url: https://artifacts.apis.io/openchain/finops/openchain-finops.yml
 - type: Website
   url: https://www.openchainproject.org/
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/openchain/blob/main/security/openchain-domain-security.yml
+  url: https://artifacts.apis.io/openchain/security/openchain-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/openchain
 - type: Documentation
@@ -39,56 +39,63 @@ links:
   url: https://openchainproject.org/llms.txt
 - type: Blog
   url: https://openchainproject.org/feed
-provider_count: 18
+provider_count: 19
 providers:
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations…
   api_count: 1
   score_band: thin
-  score_composite: 35.1
+  score_composite: 34.3
   shared: 3
 - slug: spdx
   name: SPDX
   description: The Software Package Data Exchange (SPDX) is an open standard under the Linux Foundation for communicating software bill of materials information including components, licenses, copyrights, and security references. It is an ISO/IEC standar…
   api_count: 1
   score_band: minimal
-  score_composite: 9.1
+  score_composite: 8.5
   shared: 3
 - slug: academy-software-foundation
   name: Academy Software Foundation
   description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source p…
   api_count: 14
   score_band: strong
-  score_composite: 62.5
+  score_composite: 61.4
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 52.1
+  score_composite: 51.2
   shared: 2
 - slug: asyncapi
   name: AsyncAPI
   description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
   api_count: 1
   score_band: developing
-  score_composite: 46.4
+  score_composite: 46.3
   shared: 2
 - slug: agentsync
   name: Agentsync
   description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Produce…
   api_count: 1
   score_band: thin
-  score_composite: 38.3
+  score_composite: 37.4
+  shared: 2
+- slug: licenseground-com
+  name: LicenseGround
+  description: LicenseGround provides machine‑readable regulatory licensing data for AI agents, covering state licensing boards across the United States such as California CSLB, Florida DBPR, Texas TDLR, New York DOB, Massachusetts OPSI, and Illinois. Th…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.3
   shared: 2
 - slug: elisa
   name: ELISA
   description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
   api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 32.4
   shared: 2
 - slug: camara-project
   name: CAMARA Project
@@ -102,56 +109,56 @@ providers:
   description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
   api_count: 2
   score_band: thin
-  score_composite: 28.3
-  shared: 2
-- slug: apigovernance-dev
-  name: APIGovernance.Dev
-  description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.2
+  score_composite: 27.9
   shared: 2
 - slug: medallion
   name: Medallion
   description: Medallion is an AI-powered healthcare operations platform for provider credentialing, enrollment, and licensing, operated by FirstLayerAI, Inc. It positions itself as the AI operations partner powering healthcare's first real-time CVO (Cre…
   api_count: 0
   score_band: emerging
-  score_composite: 20.2
+  score_composite: 22.6
   shared: 2
-- slug: certivity
-  name: Certivity
-  description: Certivity is a Munich-based RegTech company, founded in 2021, that operates an AI-native regulatory intelligence platform for regulated industries such as automotive, aerospace, and connected vehicles. Its product, Certivity Core, turns co…
-  api_count: 0
+- slug: apigovernance-dev
+  name: APIGovernance.Dev
+  description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
+  api_count: 1
   score_band: emerging
-  score_composite: 12.0
+  score_composite: 22.0
   shared: 2
 - slug: ul-solutions
   name: UL Solutions
   description: UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The…
   api_count: 0
   score_band: emerging
-  score_composite: 11.1
+  score_composite: 15.7
+  shared: 2
+- slug: certivity
+  name: Certivity
+  description: Certivity is a Munich-based RegTech company, founded in 2021, that operates an AI-native regulatory intelligence platform for regulated industries such as automotive, aerospace, and connected vehicles. Its product, Certivity Core, turns co…
+  api_count: 0
+  score_band: emerging
+  score_composite: 14.2
   shared: 2
 - slug: payna
   name: Payna
   description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.2
+  score_band: emerging
+  score_composite: 11.8
   shared: 2
 - slug: open-voice-network
   name: Open Voice Network
   description: The Open Voice Network is a Linux Foundation project advancing open standards for AI-enabled voice assistance systems. Its core initiatives around TrustMark and interoperability promote ethical, accessible, and interoperable voice technolo…
   api_count: 1
   score_band: minimal
-  score_composite: 8.6
+  score_composite: 8.0
   shared: 2
 - slug: openapi-initiative
   name: OpenAPI Initiative
   description: The OpenAPI Initiative is a Linux Foundation project that promotes the OpenAPI Specification for defining standard, language-agnostic interfaces to RESTful APIs. It provides governance, tooling ecosystem support, and community collaboratio…
   api_count: 1
   score_band: minimal
-  score_composite: 8.6
+  score_composite: 7.3
   shared: 2
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md

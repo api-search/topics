@@ -30,13 +30,13 @@ apis:
   url: https://www.w3.org/XML/Schema
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/xml/blob/main/plans/xml-plans-pricing.yml
+  url: https://artifacts.apis.io/xml/plans/xml-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/xml/blob/main/rate-limits/xml-rate-limits.yml
+  url: https://artifacts.apis.io/xml/rate-limits/xml-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/xml/blob/main/finops/xml-finops.yml
+  url: https://artifacts.apis.io/xml/finops/xml-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/xml/blob/main/security/xml-domain-security.yml
+  url: https://artifacts.apis.io/xml/security/xml-domain-security.yml
 - type: Website
   url: https://www.w3.org/XML/
 - type: Documentation
@@ -48,15 +48,15 @@ links:
 - type: GitHubRepository
   url: https://github.com/w3c/xml
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/json-schema/xml-document-schema.json
+  url: https://artifacts.apis.io/xml/json-schema/xml-document-schema.json
 - type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/json-schema/xml-element-schema.json
+  url: https://artifacts.apis.io/xml/json-schema/xml-element-schema.json
 - type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/json-structure/xml-document-structure.json
+  url: https://artifacts.apis.io/xml/json-structure/xml-document-structure.json
 - type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/json-ld/xml-context.jsonld
+  url: https://artifacts.apis.io/xml/json-ld/xml-context.jsonld
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/xml/refs/heads/main/vocabulary/xml-vocabulary.yml
+  url: https://artifacts.apis.io/xml/vocabulary/xml-vocabulary.yml
 provider_count: 7
 providers:
 - slug: acord
@@ -64,28 +64,28 @@ providers:
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.4
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 47.3
+  score_composite: 45.8
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 2
 - slug: mismo
   name: MISMO
   description: MISMO — the Mortgage Industry Standards Maintenance Organization — is the standards development body for US real estate finance, founded in 1999 and a not-for-profit wholly owned subsidiary of the Mortgage Bankers Association since 2004. I…
   api_count: 0
   score_band: minimal
-  score_composite: 6.7
+  score_composite: 6.8
   shared: 2
 - slug: html
   name: HTML

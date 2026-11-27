@@ -41,15 +41,15 @@ apis:
   url: https://html.spec.whatwg.org/multipage/server-sent-events.html
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/communication-protocols/blob/main/plans/communication-protocols-plans-pricing.yml
+  url: https://artifacts.apis.io/communication-protocols/plans/communication-protocols-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/communication-protocols/blob/main/rate-limits/communication-protocols-rate-limits.yml
+  url: https://artifacts.apis.io/communication-protocols/rate-limits/communication-protocols-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/communication-protocols/blob/main/finops/communication-protocols-finops.yml
+  url: https://artifacts.apis.io/communication-protocols/finops/communication-protocols-finops.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/communication-protocols/blob/main/security/communication-protocols-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/communication-protocols/security/communication-protocols-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/communication-protocols/blob/main/security/communication-protocols-domain-security.yml
+  url: https://artifacts.apis.io/communication-protocols/security/communication-protocols-domain-security.yml
 - type: Documentation
   url: https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 - type: Reference
@@ -69,56 +69,56 @@ providers:
   description: The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate…
   api_count: 4
   score_band: strong
-  score_composite: 58.2
-  shared: 2
-- slug: firebase
-  name: Firebase
-  description: Firebase is Google's app development platform — a backend-as-a-service (BaaS) suite for building, running, and growing web and mobile apps. It bundles managed backend products including Authentication, Cloud Firestore, Realtime Database, C…
-  api_count: 4
-  score_band: developing
-  score_composite: 50.3
+  score_composite: 55.7
   shared: 2
 - slug: transportapi
   name: TransportAPI
   description: TransportAPI is a managed data service provider for UK public transport, offering real-time and scheduled bus, rail, and multimodal transport data via REST and WebSocket APIs to power apps, websites, analytics, and data-mining workflows.
   api_count: 1
   score_band: thin
-  score_composite: 34.8
+  score_composite: 33.0
   shared: 2
 - slug: lumen-technologies
   name: Lumen Technologies
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Cent…
   api_count: 1
   score_band: thin
-  score_composite: 31.6
+  score_composite: 32.1
+  shared: 2
+- slug: hitsteps-com
+  name: Hitsteps
+  description: Hitsteps provides real-time web analytics and website statistics, offering live visitor tracking, source attribution, and journey mapping in one place. Their platform includes heatmaps, growth insights, and AI-powered chat on paid plans. U…
+  api_count: 2
+  score_band: thin
+  score_composite: 29.3
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 2
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
-  score_band: thin
-  score_composite: 26.9
+  score_band: emerging
+  score_composite: 25.4
   shared: 2
 - slug: statcounter
   name: StatCounter
   description: StatCounter provides web analytics services that help website owners track visitor behavior, traffic sources, and engagement in real time. Their platform offers features such as heatmaps, session replay, click fraud detection, and detailed…
   api_count: 1
   score_band: emerging
-  score_composite: 17.3
+  score_composite: 19.2
   shared: 2
 - slug: pilotfiber-com
   name: Pilot
   description: Pilot provides fiber internet services for businesses and residential customers across the United States, offering dedicated internet, dark fiber, IP transit, wavelength, and Ethernet solutions. The company focuses on high-performance netw…
   api_count: 0
   score_band: minimal
-  score_composite: 6.4
+  score_composite: 7.1
   shared: 2
 - slug: http-2
   name: HTTP/2

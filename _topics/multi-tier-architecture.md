@@ -26,8 +26,8 @@ providers:
   name: Arketo
   description: Arketo is a web‑based developer application that connects AI assistants such as Claude, Code, Cursor, and others to automatically draw your app’s architecture live, flag potential breakages, and generate detailed reports. It helps prompt‑b…
   api_count: 1
-  score_band: emerging
-  score_composite: 20.5
+  score_band: thin
+  score_composite: 27.4
   shared: 2
 - slug: services-patterns
   name: Services Patterns

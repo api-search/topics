@@ -24,13 +24,13 @@ apis:
   url: https://www.rfc-editor.org/rfc/rfc9745.html
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/sunset-header/blob/main/plans/sunset-header-plans-pricing.yml
+  url: https://artifacts.apis.io/sunset-header/plans/sunset-header-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/sunset-header/blob/main/rate-limits/sunset-header-rate-limits.yml
+  url: https://artifacts.apis.io/sunset-header/rate-limits/sunset-header-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/sunset-header/blob/main/finops/sunset-header-finops.yml
+  url: https://artifacts.apis.io/sunset-header/finops/sunset-header-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/sunset-header/blob/main/security/sunset-header-domain-security.yml
+  url: https://artifacts.apis.io/sunset-header/security/sunset-header-domain-security.yml
 - type: Website
   url: https://datatracker.ietf.org/doc/html/rfc8594
 - type: IETF Specification

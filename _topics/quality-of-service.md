@@ -19,13 +19,13 @@ providers:
   description: Vodafone Group plc is a UK-headquartered (Newbury, England) multinational telecommunications company and one of the world's largest mobile and fixed network operators, with operations in 15 country markets and partner-market agreements cov…
   api_count: 27
   score_band: emerging
-  score_composite: 14.6
+  score_composite: 13.3
   shared: 1
 - slug: koordinator
   name: Koordinator
   description: Koordinator is a QoS-based scheduling system for hybrid workloads orchestration on Kubernetes, providing colocation, interference detection, and resource optimization capabilities to improve cluster utilization.
   api_count: 1
   score_band: minimal
-  score_composite: 10.1
+  score_composite: 9.1
   shared: 1
 ---

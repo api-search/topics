@@ -46,7 +46,7 @@ links:
 - type: Reference
   url: https://www.w3.org/XML/Schema
 - type: Vocabulary
-  url: https://github.com/api-evangelist/data-format/blob/main/vocabulary/data-format-vocabulary.yml
+  url: https://artifacts.apis.io/data-format/vocabulary/data-format-vocabulary.yml
 provider_count: 0
 providers: []
 ---

@@ -66,233 +66,233 @@ links:
 - type: IssueTracker
   url: https://github.com/api-evangelist/agent-readiness/issues
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/security/agent-readiness-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/agent-readiness/security/agent-readiness-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/security/agent-readiness-domain-security.yml
+  url: https://artifacts.apis.io/agent-readiness/security/agent-readiness-domain-security.yml
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
 - type: GitHubRepository
   url: https://github.com/api-evangelist/agent-readiness
 - type: Documentation
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/README.md
+  url: https://artifacts.apis.io/agent-readiness/README.md
 - type: JSONSchema
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/json-schema/agent-readiness-signal-schema.json
+  url: https://artifacts.apis.io/agent-readiness/json-schema/agent-readiness-signal-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/json-schema/agent-readiness-provider-schema.json
+  url: https://artifacts.apis.io/agent-readiness/json-schema/agent-readiness-provider-schema.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/json-ld/agent-readiness-context.jsonld
+  url: https://artifacts.apis.io/agent-readiness/json-ld/agent-readiness-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/agent-readiness/blob/main/vocabulary/agent-readiness-vocabulary.yaml
-provider_count: 484
+  url: https://artifacts.apis.io/agent-readiness/vocabulary/agent-readiness-vocabulary.yaml
+provider_count: 624
 providers:
 - slug: apis-io
   name: APIs.io
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they…
   api_count: 20
   score_band: exemplar
-  score_composite: 95.4
+  score_composite: 91.9
   shared: 4
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
+  score_composite: 82.5
   shared: 4
 - slug: farmdash
-  name: FarmDash Agent Hub
+  name: FarmDash.one
   description: FarmDash is a zero-custody intelligence and control layer for DeFi agents and airdrop farmers, combining Trail Heat opportunity scoring, Signal Architect swap routing, wallet and Sybil-risk intelligence, and Hyperliquid futures research ac…
   api_count: 6
-  score_band: strong
-  score_composite: 64.5
+  score_band: exemplar
+  score_composite: 66.5
   shared: 4
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 60.1
+  score_composite: 65.2
   shared: 4
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 74.1
   shared: 3
 - slug: improvado
   name: Improvado
   description: Improvado is a marketing intelligence and AI-agent platform that connects, extracts, transforms, and loads data from 876+ marketing, advertising, sales, and analytics sources into governed data pipelines, warehouses, and BI tools. Its Embe…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 71.0
   shared: 3
 - slug: archbee
   name: Archbee
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review,…
   api_count: 11
   score_band: exemplar
-  score_composite: 69.8
-  shared: 3
-- slug: apigee
-  name: Apigee
-  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer…
-  api_count: 5
-  score_band: exemplar
-  score_composite: 69.6
+  score_composite: 70.8
   shared: 3
 - slug: taskfolk
   name: Taskfolk
   description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backl…
   api_count: 2
   score_band: exemplar
-  score_composite: 69.3
+  score_composite: 68.3
   shared: 3
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living O…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.0
+  score_composite: 67.7
+  shared: 3
+- slug: apigee
+  name: Apigee
+  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 3
+- slug: explorium
+  name: Explorium
+  description: Explorium is the B2B data layer for AI agents and go-to-market systems. Its AgentSource platform is one external-data and enrichment API plus a hosted MCP server, resolving, fetching, enriching and monitoring a company dataset and a people…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.4
   shared: 3
 - slug: api-evangelist
   name: API Evangelist
   description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collec…
   api_count: 2
-  score_band: exemplar
-  score_composite: 68.4
+  score_band: strong
+  score_composite: 64.5
   shared: 3
-- slug: explorium
-  name: Explorium
-  description: Explorium is the B2B data layer for AI agents and go-to-market systems. Its AgentSource platform is one external-data and enrichment API plus a hosted MCP server, resolving, fetching, enriching and monitoring a company dataset and a people…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 68.3
+- slug: latitude10-tech
+  name: latitude10-tech
+  description: 'Latitude 10 is an API platform: one OpenAPI file becomes a versioned registry, a hosted API reference with a client, docs for people and AI agents, TypeScript and Python SDKs, and a hosted MCP server. It’s built by Jorge Ortega at October…'
+  api_count: 3
+  score_band: strong
+  score_composite: 63.7
   shared: 3
 - slug: reachdesk
   name: Reachdesk
   description: Reachdesk is a global B2B corporate gifting and direct mail platform that enables sales, marketing, and customer success teams to send physical gifts, branded merchandise, and digital rewards at scale. The Reachdesk REST API allows program…
   api_count: 1
   score_band: strong
-  score_composite: 61.6
+  score_composite: 62.0
   shared: 3
 - slug: assetfare
   name: AssetFare
   description: A non-custodial routing API for AI agents that returns fee-inclusive cross-chain and same-chain quotes and bounded unsigned actions; the caller's own wallet verifies, signs and submits every transaction, and AssetFare never holds keys, sig…
   api_count: 6
   score_band: strong
-  score_composite: 60.0
+  score_composite: 61.9
   shared: 3
 - slug: jentic
   name: Jentic
   description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 57.9
+  score_composite: 59.6
   shared: 3
 - slug: sweep
   name: Sweep
   description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes…
   api_count: 2
   score_band: strong
-  score_composite: 55.2
+  score_composite: 55.7
   shared: 3
 - slug: orthogonal
   name: Orthogonal
   description: Orthogonal is a unified API and payment layer for AI agents, backed by Pantera Capital and Y Combinator. An agent describes what it needs in natural language and Orthogonal returns the right service from a catalog of 40+ third-party APIs (…
   api_count: 2
-  score_band: developing
-  score_composite: 53.2
-  shared: 3
-- slug: elva
-  name: Elva
-  description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth O…'
-  api_count: 1
-  score_band: developing
-  score_composite: 52.2
+  score_band: strong
+  score_composite: 54.4
   shared: 3
 - slug: agntcy
   name: AGNTCY
   description: AGNTCY is the open collective for agent interoperability, initiated by Outshift — Cisco's incubation group — and governed under the Linux Foundation (LF Projects, LLC), developed in the open across 52 public repositories. It publishes spec…
   api_count: 4
   score_band: developing
-  score_composite: 51.8
-  shared: 3
-- slug: latitude10-tech
-  name: latitude10-tech
-  description: 'Latitude 10 is an API platform: one OpenAPI file becomes a versioned registry, a hosted API reference with a client, docs for people and AI agents, TypeScript and Python SDKs, and a hosted MCP server. It’s built by Jorge Ortega at October…'
-  api_count: 3
-  score_band: developing
-  score_composite: 50.1
+  score_composite: 51.0
   shared: 3
 - slug: liblab
   name: Liblab
   description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted p…
   api_count: 13
   score_band: developing
-  score_composite: 47.9
+  score_composite: 50.3
+  shared: 3
+- slug: elva
+  name: Elva
+  description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth O…'
+  api_count: 1
+  score_band: developing
+  score_composite: 49.4
   shared: 3
 - slug: gaipagents-com
   name: gaipagents-com
   description: GAIP (Governed Agentic Intelligence Platform) provides a public, read‑only API that records and serves dated evidence of AI agents, MCP servers, and online shops. It offers OpenAPI 3.1 specification, MCP and A2A JSON‑RPC endpoints, and a s…
   api_count: 1
+  score_band: developing
+  score_composite: 43.8
+  shared: 3
+- slug: cr8-dev
+  name: CR8 Agent Commons
+  description: CR8 Agent Commons (cr8.dev) is a public, append-only message board for AI agents, with humans welcome to watch and post. There are no accounts and identity is self-declared. Agents can read the feed and post through a small open HTTP API (…
+  api_count: 1
   score_band: thin
-  score_composite: 32.5
+  score_composite: 33.7
   shared: 3
 - slug: onescreen-ai
   name: OneScreen AI
   description: OneScreen AI is a data-driven out-of-home (OOH) advertising company that makes real-world media — billboards, transit, and place-based advertising — as queryable and buyable as any digital channel. It combines more than 1,500 OOH audience…
   api_count: 1
   score_band: thin
-  score_composite: 30.4
+  score_composite: 30.6
   shared: 3
 - slug: crow
   name: Crow
   description: Crow is a Y Combinator (Winter 2026) company building an AI infrastructure platform that makes any web or mobile application AI-native. Instead of a simple chatbot, Crow embeds an agent that connects to a product's own APIs and MCP servers…
   api_count: 1
   score_band: emerging
-  score_composite: 17.6
+  score_composite: 16.2
   shared: 3
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with…
   api_count: 4
   score_band: exemplar
-  score_composite: 89.6
+  score_composite: 89.5
   shared: 2
 - slug: zoominfo
   name: ZoomInfo
   description: 'ZoomInfo is a B2B go-to-market intelligence platform whose contact and company database, buyer-intent signals, scoops and news feeds are sold to sales, marketing, operations and recruiting teams. Its API estate is mid-migration: the legacy…'
   api_count: 7
   score_band: exemplar
-  score_composite: 87.2
-  shared: 2
-- slug: redocly
-  name: Redocly
-  description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel,…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 82.7
-  shared: 2
-- slug: relevance-ai
-  name: Relevance AI
-  description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 81.4
-  shared: 2
-- slug: close
-  name: Close
-  description: Close is an inside-sales CRM with calling, email, SMS, and WhatsApp built in. The Close API exposes leads, contacts, opportunities, tasks, activities (calls, emails, SMS, meetings, notes), pipelines, custom objects, sequences, smart views,…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 78.3
+  score_composite: 86.8
   shared: 2
 - slug: okta
   name: Okta
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Acces…
   api_count: 2
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 81.8
+  shared: 2
+- slug: redocly
+  name: Redocly
+  description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel,…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 81.2
+  shared: 2
+- slug: relevance-ai
+  name: Relevance AI
+  description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 80.6
   shared: 2
 ---

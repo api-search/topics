@@ -31,6 +31,6 @@ providers:
   description: At Princess Beef Heavy Industries (or as we call it pb33f), we build beautifully designed heavy-duty and enterprise grade software for code hackers and ...
   api_count: 1
   score_band: thin
-  score_composite: 30.5
+  score_composite: 29.5
   shared: 2
 ---

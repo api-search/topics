@@ -17,7 +17,7 @@ api_count: 0
 apis: []
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/lean-six-sigma/blob/main/security/lean-six-sigma-domain-security.yml
+  url: https://artifacts.apis.io/lean-six-sigma/security/lean-six-sigma-domain-security.yml
 - type: Website
   url: https://www.lean.org/lexicon-terms/six-sigma/
 - type: LlmsText

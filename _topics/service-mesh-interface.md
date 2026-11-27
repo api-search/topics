@@ -40,7 +40,7 @@ links:
 - type: ContributionGuide
   url: https://github.com/servicemeshinterface/smi-spec/blob/main/CONTRIBUTING.md
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/service-mesh-interface/blob/main/security/service-mesh-interface-domain-security.yml
+  url: https://artifacts.apis.io/service-mesh-interface/security/service-mesh-interface-domain-security.yml
 - type: Website
   url: https://smi-spec.io
 - type: Specification
@@ -86,13 +86,17 @@ links:
 - type: KnownImplementation
   url: https://argoproj.github.io/rollouts/
 - type: JSONSchema
-  url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./json-schema/
+  url: https://artifacts.apis.io/service-mesh-interface/./json-schema/
 - type: JSONLD
-  url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./json-ld/service-mesh-interface-context.jsonld
+  url: https://artifacts.apis.io/service-mesh-interface/./json-ld/service-mesh-interface-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./vocabulary/service-mesh-interface-vocabulary.yml
+  url: https://artifacts.apis.io/service-mesh-interface/./vocabulary/service-mesh-interface-vocabulary.yml
 - type: Examples
-  url: https://github.com/api-evangelist/service-mesh-interface/blob/main/./examples/
+  url: https://artifacts.apis.io/service-mesh-interface/./examples/
+- type: UsageTerms
+  url: https://artifacts.apis.io/service-mesh-interface/terms/service-mesh-interface-terms-of-service.yml
+- type: DataLicense
+  url: https://artifacts.apis.io/service-mesh-interface/data-license/service-mesh-interface-data-license.yml
 provider_count: 64
 providers:
 - slug: crossplane
@@ -100,28 +104,28 @@ providers:
   description: Crossplane is a graduated CNCF open-source Kubernetes add-on that transforms a cluster into a universal control plane for cloud infrastructure, services, and applications. Crossplane introduces custom resources including CompositeResourceD…
   api_count: 1
   score_band: developing
-  score_composite: 45.8
+  score_composite: 47.0
   shared: 3
 - slug: envoy-gateway
   name: Envoy Gateway
   description: Envoy Gateway is a CNCF project that manages Envoy Proxy as a standalone or Kubernetes-based application gateway. It implements the Kubernetes Gateway API and extends it with its own API group, gateway.envoyproxy.io, whose eight Custom Res…
   api_count: 3
   score_band: developing
-  score_composite: 40.9
+  score_composite: 41.9
   shared: 3
 - slug: linkerd
   name: Linkerd
   description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
   api_count: 3
   score_band: thin
-  score_composite: 35.9
+  score_composite: 37.1
   shared: 3
 - slug: istio
   name: Istio
   description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing,…
   api_count: 3
   score_band: thin
-  score_composite: 34.9
+  score_composite: 34.5
   shared: 3
 - slug: ambient-mesh
   name: Ambient Mesh
@@ -130,179 +134,179 @@ providers:
   score_band: thin
   score_composite: 33.8
   shared: 3
-- slug: traefik-mesh
-  name: Traefik Mesh
-  description: Traefik Mesh (formerly Maesh) is a lightweight, non-invasive service mesh built on top of Traefik Proxy for Kubernetes. It provides automatic traffic management, observability, and security for microservices without requiring sidecar conta…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.7
-  shared: 3
 - slug: meshery
   name: Meshery
   description: Meshery is the cloud native manager for Kubernetes and cloud native infrastructure. It is an extensible, self-service engineering platform that enables collaborative design, lifecycle and performance management of cloud native applications…
   api_count: 0
   score_band: thin
-  score_composite: 28.5
+  score_composite: 30.5
+  shared: 3
+- slug: traefik-mesh
+  name: Traefik Mesh
+  description: Traefik Mesh (formerly Maesh) is a lightweight, non-invasive service mesh built on top of Traefik Proxy for Kubernetes. It provides automatic traffic management, observability, and security for microservices without requiring sidecar conta…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.4
   shared: 3
 - slug: nginx-service-mesh
   name: NGINX Service Mesh
   description: NGINX Service Mesh (NSM) is a service mesh from F5 NGINX powered by NGINX Plus, designed to manage container-to-container traffic in Kubernetes environments. It provides mTLS, traffic policies via the Service Mesh Interface (SMI), traffic…
   api_count: 1
   score_band: minimal
-  score_composite: 8.8
+  score_composite: 7.5
   shared: 3
 - slug: calico
   name: Calico
   description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and secu…
   api_count: 1
-  score_band: strong
-  score_composite: 66.4
+  score_band: exemplar
+  score_composite: 67.3
   shared: 2
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an…
   api_count: 5
   score_band: strong
-  score_composite: 60.4
+  score_composite: 62.3
   shared: 2
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a ho…
   api_count: 4
   score_band: strong
-  score_composite: 57.9
+  score_composite: 60.4
+  shared: 2
+- slug: google-cloud-service-mesh
+  name: Google Cloud Service Mesh
+  description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
+  api_count: 4
+  score_band: strong
+  score_composite: 59.7
   shared: 2
 - slug: gsma
   name: GSMA
   description: The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona.…
   api_count: 37
   score_band: strong
-  score_composite: 56.0
+  score_composite: 58.8
+  shared: 2
+- slug: google-anthos
+  name: Google Anthos
+  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premis…
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
   shared: 2
 - slug: buildpacks-io
   name: Buildpacks Io
   description: Cloud Native Buildpacks (CNB) is a CNCF Graduated project (graduated 2026-07-17) that transforms application source code into OCI images that can run on any cloud. The v3 specification — Buildpack API 0.12, Platform API 0.15, and Distribut…
   api_count: 1
   score_band: developing
-  score_composite: 53.5
-  shared: 2
-- slug: buoyant
-  name: Buoyant
-  description: Buoyant is the creator of Linkerd, the CNCF-graduated service mesh for Kubernetes. Linkerd provides zero-trust security via mutual TLS, ultra-high availability with automated failover, and observability for microservices including AI/LLM w…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.6
+  score_composite: 52.2
   shared: 2
 - slug: gloo-mesh
   name: Gloo Mesh
   description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, w…
   api_count: 2
   score_band: developing
-  score_composite: 50.0
+  score_composite: 51.9
+  shared: 2
+- slug: buoyant
+  name: Buoyant
+  description: Buoyant is the creator of Linkerd, the CNCF-graduated service mesh for Kubernetes. Linkerd provides zero-trust security via mutual TLS, ultra-high availability with automated failover, and observability for microservices including AI/LLM w…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.2
   shared: 2
 - slug: apache-apisix
   name: Apache APISIX
   description: Apache APISIX is a dynamic, real-time, high-performance cloud-native API gateway built on NGINX and etcd, developed by the Apache Software Foundation. It supports Lua and multi-language plugins for traffic management, authentication, obser…
   api_count: 2
   score_band: developing
-  score_composite: 47.2
-  shared: 2
-- slug: asyncapi
-  name: AsyncAPI
-  description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.4
+  score_composite: 47.9
   shared: 2
 - slug: argo
   name: Argo
   description: Argo is a collection of open-source Kubernetes-native tools for workflows, events, CI/CD, and progressive delivery. The project includes Argo Workflows (container-native workflow engine), Argo CD (declarative GitOps continuous delivery), A…
   api_count: 3
   score_band: developing
-  score_composite: 46.3
+  score_composite: 47.0
   shared: 2
 - slug: keda
   name: KEDA
   description: KEDA (Kubernetes Event Driven Autoscaling) is a CNCF graduated application autoscaler that drives scaling of any container in Kubernetes based on the number of events needing to be processed. It extends Kubernetes with custom resources for…
   api_count: 5
   score_band: developing
-  score_composite: 45.6
+  score_composite: 46.8
+  shared: 2
+- slug: asyncapi
+  name: AsyncAPI
+  description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, valid…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.3
   shared: 2
 - slug: argo-workflows
   name: Argo Workflows
   description: Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. It is a CNCF graduated project that allows you to define workflows where each step is a container, model multi-step workflows…
   api_count: 1
   score_band: developing
-  score_composite: 44.6
+  score_composite: 45.4
   shared: 2
 - slug: hami
   name: HAMi
   description: HAMi (Heterogeneous AI Computing Virtualization Middleware) is a CNCF incubating open-source project that brings device sharing, memory and core isolation, and topology-aware scheduling to heterogeneous AI accelerators on Kubernetes. It le…
   api_count: 1
   score_band: developing
-  score_composite: 43.5
-  shared: 2
-- slug: isovalent
-  name: Isovalent
-  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.8
+  score_composite: 44.4
   shared: 2
 - slug: chaos-mesh
   name: Chaos Mesh
   description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range o…
   api_count: 2
   score_band: developing
-  score_composite: 42.2
+  score_composite: 43.0
   shared: 2
 - slug: rook
   name: Rook
   description: Rook is a CNCF graduated cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for Ceph distributed storage systems to natively integrate with cloud-native environments. It automates the deploymen…
   api_count: 1
   score_band: developing
-  score_composite: 41.3
+  score_composite: 42.0
   shared: 2
-- slug: kuma
-  name: Kuma
-  description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
-  api_count: 1
+- slug: isovalent
+  name: Isovalent
+  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium proje…
+  api_count: 2
   score_band: developing
-  score_composite: 40.7
+  score_composite: 41.7
   shared: 2
 - slug: coredns
   name: CoreDNS
   description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching,…
   api_count: 2
   score_band: developing
-  score_composite: 39.6
+  score_composite: 40.9
   shared: 2
-- slug: google-cloud-service-mesh
-  name: Google Cloud Service Mesh
-  description: Google Cloud Service Mesh is Google's managed service mesh solution for GKE and supported GKE Enterprise environments, enabling secure, observable, and reliable communication between microservices. It provides a managed Istio control plane…
-  api_count: 13
-  score_band: thin
-  score_composite: 38.6
-  shared: 2
-- slug: tetrate
-  name: Tetrate
-  description: Tetrate is an enterprise service mesh company that provides Tetrate Service Bridge (TSB), a multi-cluster, multi-cloud service mesh management platform built on Istio and Envoy Proxy. Tetrate offers management APIs for traffic, security, a…
+- slug: kuma
+  name: Kuma
+  description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
   api_count: 1
-  score_band: thin
-  score_composite: 37.7
-  shared: 2
-- slug: google-anthos
-  name: Google Anthos
-  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premis…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.8
+  score_band: developing
+  score_composite: 40.4
   shared: 2
 - slug: argocd
   name: Argo CD
   description: Argo CD is a declarative GitOps continuous-delivery tool for Kubernetes, part of the CNCF Graduated Argo project. The argocd-server component exposes a gRPC and REST API used by the Web UI, the argocd CLI, and CI/CD systems. APIs cover app…
   api_count: 1
   score_band: thin
-  score_composite: 36.6
+  score_composite: 38.7
+  shared: 2
+- slug: apiclarity
+  name: APIClarity
+  description: APIClarity is an open source (Apache-2.0) API security and observability tool that captures API traffic in a Kubernetes environment, reconstructs OpenAPI specifications from what it observes, and detects shadow APIs, zombie APIs, specifica…
+  api_count: 12
+  score_band: thin
+  score_composite: 37.1
   shared: 2
 ---

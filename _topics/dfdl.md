@@ -22,9 +22,9 @@ api_count: 0
 apis: []
 links:
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/dfdl/blob/main/security/dfdl-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/dfdl/security/dfdl-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/dfdl/blob/main/security/dfdl-domain-security.yml
+  url: https://artifacts.apis.io/dfdl/security/dfdl-domain-security.yml
 - type: Website
   url: https://daffodil.apache.org/
 - type: Specification

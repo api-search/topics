@@ -40,13 +40,13 @@ apis:
   url: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/javascript/blob/main/plans/javascript-plans-pricing.yml
+  url: https://artifacts.apis.io/javascript/plans/javascript-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/javascript/blob/main/rate-limits/javascript-rate-limits.yml
+  url: https://artifacts.apis.io/javascript/rate-limits/javascript-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/javascript/blob/main/finops/javascript-finops.yml
+  url: https://artifacts.apis.io/javascript/finops/javascript-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/javascript/blob/main/security/javascript-domain-security.yml
+  url: https://artifacts.apis.io/javascript/security/javascript-domain-security.yml
 - type: Website
   url: https://www.javascript.com/
 - type: Documentation

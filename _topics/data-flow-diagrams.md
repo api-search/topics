@@ -31,14 +31,14 @@ links:
 - type: Tools
   url: https://plantuml.com/
 - type: Vocabulary
-  url: https://github.com/api-evangelist/data-flow-diagrams/blob/main/vocabulary/data-flow-diagrams-vocabulary.yml
+  url: https://artifacts.apis.io/data-flow-diagrams/vocabulary/data-flow-diagrams-vocabulary.yml
 provider_count: 1
 providers:
 - slug: changebook-app
   name: ChangeBook
   description: ChangeBook provides a living map of your codebase designed for AI agents. It offers a platform where developers can visualize, explore, and interact with their code repositories, enabling AI-driven insights, automated documentation, and in…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.2
+  score_band: emerging
+  score_composite: 13.4
   shared: 2
 ---

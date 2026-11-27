@@ -125,29 +125,29 @@ apis:
   url: https://score.dev
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/application-research/blob/main/plans/application-research-plans-pricing.yml
+  url: https://artifacts.apis.io/application-research/plans/application-research-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/application-research/blob/main/rate-limits/application-research-rate-limits.yml
+  url: https://artifacts.apis.io/application-research/rate-limits/application-research-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/application-research/blob/main/finops/application-research-finops.yml
+  url: https://artifacts.apis.io/application-research/finops/application-research-finops.yml
 - type: CapabilityMap
-  url: https://github.com/api-evangelist/application-research/blob/main/capabilities/application-research-capability-edges.yml
+  url: https://artifacts.apis.io/application-research/capabilities/application-research-capability-edges.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/application-research/blob/main/agentic-access/application-research-agentic-access.yml
+  url: https://artifacts.apis.io/application-research/agentic-access/application-research-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/application-research/blob/main/security/application-research-domain-security.yml
+  url: https://artifacts.apis.io/application-research/security/application-research-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/application-research/blob/main/authentication/application-research-authentication.yml
+  url: https://artifacts.apis.io/application-research/authentication/application-research-authentication.yml
 - type: OAuthScopes
-  url: https://github.com/api-evangelist/application-research/blob/main/scopes/application-research-scopes.yml
+  url: https://artifacts.apis.io/application-research/scopes/application-research-scopes.yml
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
 - type: JSONLD
-  url: https://github.com/api-evangelist/application-research/blob/main/json-ld/application-research-context.jsonld
+  url: https://artifacts.apis.io/application-research/json-ld/application-research-context.jsonld
 - type: SpectralRules
-  url: https://github.com/api-evangelist/application-research/blob/main/rules/application-research-spectral-rules.yml
+  url: https://artifacts.apis.io/application-research/rules/application-research-spectral-rules.yml
 - type: Vocabulary
-  url: https://github.com/api-evangelist/application-research/blob/main/vocabulary/application-research-vocabulary.yaml
+  url: https://artifacts.apis.io/application-research/vocabulary/application-research-vocabulary.yaml
 provider_count: 2
 providers:
 - slug: cloudevents
@@ -155,13 +155,13 @@ providers:
   description: CloudEvents is a CNCF graduated specification for describing event data in a common way. It provides a consistent format for event metadata across services, platforms, and systems, enabling interoperability between event producers and cons…
   api_count: 1
   score_band: thin
-  score_composite: 36.2
+  score_composite: 36.3
   shared: 2
 - slug: openfeature
   name: OpenFeature
   description: OpenFeature is a CNCF incubating open specification for feature flag management. It provides a vendor-agnostic API for evaluating feature flags, enabling developers to use a consistent interface regardless of the underlying feature flag pr…
   api_count: 1
   score_band: thin
-  score_composite: 28.3
+  score_composite: 27.6
   shared: 2
 ---

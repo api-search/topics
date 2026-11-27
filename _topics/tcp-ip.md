@@ -22,13 +22,13 @@ apis:
   url: https://www.rfc-editor.org/rfc/rfc3493
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/tcp-ip/blob/main/plans/tcp-ip-plans-pricing.yml
+  url: https://artifacts.apis.io/tcp-ip/plans/tcp-ip-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/tcp-ip/blob/main/rate-limits/tcp-ip-rate-limits.yml
+  url: https://artifacts.apis.io/tcp-ip/rate-limits/tcp-ip-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/tcp-ip/blob/main/finops/tcp-ip-finops.yml
+  url: https://artifacts.apis.io/tcp-ip/finops/tcp-ip-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/tcp-ip/blob/main/security/tcp-ip-domain-security.yml
+  url: https://artifacts.apis.io/tcp-ip/security/tcp-ip-domain-security.yml
 - type: Documentation
   url: https://www.rfc-editor.org/
 - type: Documentation
@@ -53,8 +53,8 @@ providers:
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
-  score_band: thin
-  score_composite: 26.9
+  score_band: emerging
+  score_composite: 25.4
   shared: 4
 - slug: http-2
   name: HTTP/2
@@ -68,21 +68,21 @@ providers:
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Cent…
   api_count: 1
   score_band: thin
-  score_composite: 31.6
+  score_composite: 32.1
   shared: 2
 - slug: internet-assigned-numbers-authority
   name: Internet Assigned Numbers Authority
   description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
   api_count: 3
-  score_band: emerging
-  score_composite: 11.2
+  score_band: minimal
+  score_composite: 10.3
   shared: 2
 - slug: pilotfiber-com
   name: Pilot
   description: Pilot provides fiber internet services for businesses and residential customers across the United States, offering dedicated internet, dark fiber, IP transit, wavelength, and Ethernet solutions. The company focuses on high-performance netw…
   api_count: 0
   score_band: minimal
-  score_composite: 6.4
+  score_composite: 7.1
   shared: 2
 - slug: messaging-protocol
   name: Messaging Protocol

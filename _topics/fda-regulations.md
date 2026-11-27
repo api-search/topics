@@ -24,132 +24,124 @@ apis:
   url: https://datadashboard.fda.gov/oii/api/index.htm
 links:
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/agentic-access/fda-regulations-agentic-access.yml
+  url: https://artifacts.apis.io/fda-regulations/agentic-access/fda-regulations-agentic-access.yml
 - type: AgentSkill
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/skills/_index.yml
+  url: https://artifacts.apis.io/fda-regulations/skills/_index.yml
 - type: APIReference
   url: https://datadashboard.fda.gov/oii/api/index.htm#section-endpoints
 - type: Authentication
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/authentication/fda-regulations-authentication.yml
+  url: https://artifacts.apis.io/fda-regulations/authentication/fda-regulations-authentication.yml
 - type: Conformance
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/conformance/fda-regulations-conformance.yml
+  url: https://artifacts.apis.io/fda-regulations/conformance/fda-regulations-conformance.yml
 - type: Conventions
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/conventions/fda-regulations-conventions.yml
+  url: https://artifacts.apis.io/fda-regulations/conventions/fda-regulations-conventions.yml
 - type: DataModel
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/data-model/fda-regulations-data-model.yml
+  url: https://artifacts.apis.io/fda-regulations/data-model/fda-regulations-data-model.yml
 - type: DeveloperPortal
   url: https://datadashboard.fda.gov/oii/api/index.htm
 - type: Documentation
   url: https://datadashboard.fda.gov/oii/api/index.htm
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/security/fda-regulations-domain-security.yml
+  url: https://artifacts.apis.io/fda-regulations/security/fda-regulations-domain-security.yml
 - type: ErrorCatalog
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/errors/fda-regulations-error-codes.yml
+  url: https://artifacts.apis.io/fda-regulations/errors/fda-regulations-error-codes.yml
 - type: Examples
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/examples/fda-regulations-examples.yml
+  url: https://artifacts.apis.io/fda-regulations/examples/fda-regulations-examples.yml
 - type: GettingStarted
   url: https://datadashboard.fda.gov/oii/api/index.htm#section-usage
 - type: GitHubOrganization
   url: https://github.com/FDA
 - type: Lifecycle
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/lifecycle/fda-regulations-lifecycle.yml
+  url: https://artifacts.apis.io/fda-regulations/lifecycle/fda-regulations-lifecycle.yml
 - type: LLMsTxt
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/llms/fda-regulations-llms.txt
+  url: https://artifacts.apis.io/fda-regulations/llms/fda-regulations-llms.txt
 - type: OpenAPI
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/openapi/_original/fda-regulations-data-dashboard-openapi.yml
+  url: https://artifacts.apis.io/fda-regulations/openapi/_original/fda-regulations-data-dashboard-openapi.yml
 - type: Overlay
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/overlays/fda-regulations-data-dashboard-overlay.yaml
+  url: https://artifacts.apis.io/fda-regulations/overlays/fda-regulations-data-dashboard-overlay.yaml
 - type: Packages
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/packages/fda-regulations-packages.yml
+  url: https://artifacts.apis.io/fda-regulations/packages/fda-regulations-packages.yml
 - type: Plans
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/plans/fda-regulations-plans-pricing.yml
+  url: https://artifacts.apis.io/fda-regulations/plans/fda-regulations-plans-pricing.yml
 - type: PrivacyPolicy
   url: https://www.fda.gov/about-fda/about-website/website-policies
 - type: RateLimits
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/rate-limits/fda-regulations-rate-limits.yml
+  url: https://artifacts.apis.io/fda-regulations/rate-limits/fda-regulations-rate-limits.yml
 - type: Sandbox
   url: https://datadashboard.fda.gov/oii/api/index.htm#section-try
 - type: Support
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/mailto:FDADataDashboard@fda.hhs.gov
+  url: https://artifacts.apis.io/fda-regulations/mailto:FDADataDashboard@fda.hhs.gov
 - type: TermsOfService
   url: https://www.fda.gov/about-fda/about-website/website-policies
 - type: Website
   url: https://www.fda.gov/regulatory-information/laws-enforced-fda
 - type: X-MCPServerCandidate
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/mcp/fda-regulations-mcp.yml
+  url: https://artifacts.apis.io/fda-regulations/mcp/fda-regulations-mcp.yml
 - type: X-WellKnownProbe
-  url: https://github.com/api-evangelist/fda-regulations/blob/main/well-known/fda-regulations-well-known.yml
-provider_count: 623
+  url: https://artifacts.apis.io/fda-regulations/well-known/fda-regulations-well-known.yml
+- type: UsageTerms
+  url: https://artifacts.apis.io/fda-regulations/terms/fda-regulations-terms-of-service.yml
+- type: DataProcessing
+  url: https://artifacts.apis.io/fda-regulations/privacy/fda-regulations-privacy-policy.yml
+- type: DataLicense
+  url: https://artifacts.apis.io/fda-regulations/data-license/fda-regulations-data-license.yml
+provider_count: 625
 providers:
 - slug: food-and-drug-administration
   name: Food and Drug Administration
   description: openFDA is an Elasticsearch-based public API that serves FDA data on drugs, devices, foods, animal/veterinary products, and tobacco. Each noun exposes one or more datasets including adverse events, recall enforcement reports, product label…
   api_count: 1
   score_band: thin
-  score_composite: 29.7
+  score_composite: 29.9
   shared: 3
 - slug: johnson-and-johnson
   name: Johnson & Johnson
   description: Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such a…
   api_count: 1
-  score_band: thin
-  score_composite: 26.6
+  score_band: emerging
+  score_composite: 25.7
   shared: 3
 - slug: food-safety-and-inspection-service
   name: Food Safety and Inspection Service
   description: The Food Safety and Inspection Service (FSIS) is a branch of the United States Department of Agriculture (USDA) responsible for ensuring the safety of the nation's commercial supply of meat, poultry, and egg products. FSIS publishes a Reca…
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 20.2
   shared: 3
 - slug: acto
   name: ACTO
   description: ACTO is a Toronto-headquartered Life Sciences software company whose Intelligent Field Excellence (IFE) platform prepares biopharmaceutical, biotech and medtech commercial and medical field teams for healthcare-provider conversations. The…
   api_count: 0
   score_band: emerging
-  score_composite: 17.8
+  score_composite: 18.5
   shared: 3
 - slug: gan-and-lee-pharmaceuticals
   name: Gan & Lee Pharmaceuticals
   description: 'Gan & Lee Pharmaceuticals (Shanghai Stock Exchange: 603087) is a Chinese biopharmaceutical company founded in 1998, specializing in the research, development, production, and commercialization of recombinant insulin analogs and injection d…'
   api_count: 0
   score_band: minimal
-  score_composite: 9.8
+  score_composite: 8.3
   shared: 3
 - slug: rakuten-medical
   name: Rakuten Medical
   description: Rakuten Medical, Inc. is a global biotechnology company headquartered in San Diego, California, developing precision, cell-targeting investigational cancer therapies on its proprietary Alluminox platform — a drug-device combination pairing…
   api_count: 0
   score_band: minimal
-  score_composite: 8.1
+  score_composite: 8.0
   shared: 3
 - slug: via-global-health
   name: Via Global Health
   description: Via Global Health (VIA Global Health) is a medical equipment and pharmaceutical supplier serving distributors, healthcare providers, and NGOs across Africa, Asia, and Latin America. The company sources quality diagnostic equipment, surgica…
   api_count: 0
   score_band: minimal
-  score_composite: 8.0
+  score_composite: 7.7
   shared: 3
 - slug: panacea
   name: Panacea
   description: Panacea is an AI-native FDA regulatory services firm (Y Combinator Spring 2026, operating as withpanacea.com) that pairs experienced ex-FDA regulatory consultants with a proprietary AI platform to accelerate medical device and pharmaceutic…
   api_count: 0
   score_band: minimal
-  score_composite: 4.6
-  shared: 3
-- slug: zurex-pharma
-  name: Zurex Pharma
-  description: Zurex Pharma, Inc. is a privately held specialty pharmaceutical and medical technology company founded in 2008 and headquartered in Middleton, Wisconsin, developing a portfolio of patented antimicrobial formulations intended to prevent hea…
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.4
-  shared: 3
-- slug: hospira
-  name: Hospira
-  description: Hospira was a global specialty pharmaceutical and medication delivery company providing injectable drugs and infusion technologies before being acquired by Pfizer in 2015. No public APIs are offered under the Hospira brand.
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.8
+  score_composite: 4.0
   shared: 3
 - slug: vascular-therapies
   name: Vascular Therapies
@@ -158,80 +150,101 @@ providers:
   score_band: minimal
   score_composite: 2.6
   shared: 3
+- slug: zurex-pharma
+  name: Zurex Pharma
+  description: Zurex Pharma, Inc. is a privately held specialty pharmaceutical and medical technology company founded in 2008 and headquartered in Middleton, Wisconsin, developing a portfolio of patented antimicrobial formulations intended to prevent hea…
+  api_count: 0
+  score_band: minimal
+  score_composite: 2.6
+  shared: 3
+- slug: hospira
+  name: Hospira
+  description: Hospira was a global specialty pharmaceutical and medication delivery company providing injectable drugs and infusion technologies before being acquired by Pfizer in 2015. No public APIs are offered under the Hospira brand.
+  api_count: 0
+  score_band: minimal
+  score_composite: 2.1
+  shared: 3
 - slug: veeva
   name: Veeva
   description: Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operat…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.6
+  score_composite: 75.2
   shared: 2
 - slug: autoderm-ai-dermatology-api
   name: Autoderm – AI Dermatology API
   description: Autoderm is a white-label REST API for AI-assisted analysis of dermatological images, operated as a regulated medical device. A client POSTs a single skin photograph as multipart/form-data and receives the top five most probable conditions…
   api_count: 1
   score_band: strong
-  score_composite: 65.1
+  score_composite: 64.9
   shared: 2
 - slug: tracelink
   name: TraceLink
   description: TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two doz…
   api_count: 6
   score_band: strong
-  score_composite: 57.5
+  score_composite: 58.8
   shared: 2
 - slug: athelas
   name: Athelas
   description: Athelas (Commure d/b/a Athelas) is a healthcare technology company building AI-powered infrastructure for provider organizations, spanning remote patient monitoring (RPM), an AI-native EHR ("Air"), ambient AI scribing, and revenue cycle ma…
   api_count: 1
-  score_band: developing
-  score_composite: 53.2
+  score_band: strong
+  score_composite: 54.3
   shared: 2
 - slug: cancer-gov
   name: Cancer.gov
   description: Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical tr…
   api_count: 17
   score_band: developing
-  score_composite: 50.8
-  shared: 2
-- slug: cms-gov
-  name: CMS — Centers for Medicare & Medicaid Services
-  description: The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Mark…
-  api_count: 42
-  score_band: developing
-  score_composite: 46.5
+  score_composite: 50.1
   shared: 2
 - slug: va-gov
   name: Department of Veterans Affairs (VA Lighthouse)
   description: VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake…
   api_count: 22
   score_band: developing
-  score_composite: 44.7
+  score_composite: 46.2
+  shared: 2
+- slug: cms-gov
+  name: CMS — Centers for Medicare & Medicaid Services
+  description: The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Mark…
+  api_count: 42
+  score_band: developing
+  score_composite: 46.1
   shared: 2
 - slug: rhizome-ai
   name: Rhizome Ai
   description: Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities…
   api_count: 1
   score_band: developing
-  score_composite: 43.7
-  shared: 2
-- slug: biogen
-  name: Biogen
-  description: Biogen is a global biotechnology company that discovers, develops, and delivers therapies for people living with serious neurological diseases including multiple sclerosis, Alzheimer's, and spinal muscular atrophy.
-  api_count: 1
-  score_band: thin
-  score_composite: 39.2
+  score_composite: 41.7
   shared: 2
 - slug: open-fda
   name: openFDA
   description: openFDA is the FDA's open data platform providing REST APIs for public access to FDA regulatory datasets. It covers drug adverse events (FAERS), drug labeling (SPL), drug recall enforcement reports, medical device 510(k) clearances, device…
   api_count: 17
-  score_band: thin
-  score_composite: 39.1
+  score_band: developing
+  score_composite: 39.5
+  shared: 2
+- slug: biogen
+  name: Biogen
+  description: Biogen is a global biotechnology company that discovers, develops, and delivers therapies for people living with serious neurological diseases including multiple sclerosis, Alzheimer's, and spinal muscular atrophy.
+  api_count: 1
+  score_band: developing
+  score_composite: 39.4
   shared: 2
 - slug: eko-health
   name: Eko Health
   description: Eko Health Inc. is an Oakland, California digital health company that builds FDA-cleared digital stethoscopes (CORE 500, CORE Digital Attachment, DUO, and the 3M Littmann CORE) together with cloud software and AI algorithms for the detecti…
   api_count: 2
+  score_band: thin
+  score_composite: 39.0
+  shared: 2
+- slug: doceree
+  name: Doceree
+  description: Doceree Inc. is a US healthcare marketing technology company (Short Hills, New Jersey) operating a global network of physician-only platforms for programmatic messaging and point-of-care advertising to healthcare professionals. Its platfor…
+  api_count: 3
   score_band: thin
   score_composite: 38.5
   shared: 2
@@ -240,55 +253,48 @@ providers:
   description: myTomorrows is a healthcare technology platform that helps patients and healthcare professionals discover and access clinical trials and expanded-access (pre-approval) treatment options, and helps biopharma companies run and manage expande…
   api_count: 1
   score_band: thin
-  score_composite: 37.5
-  shared: 2
-- slug: doceree
-  name: Doceree
-  description: Doceree Inc. is a US healthcare marketing technology company (Short Hills, New Jersey) operating a global network of physician-only platforms for programmatic messaging and point-of-care advertising to healthcare professionals. Its platfor…
-  api_count: 3
-  score_band: thin
-  score_composite: 36.6
-  shared: 2
-- slug: exo
-  name: Exo
-  description: Exo (Exo Imaging, Inc.) is a Santa Clara, California medical imaging company building a handheld ultrasound ecosystem for point-of-care ultrasound (POCUS). Its silicon-based Exo Iris handheld probe pairs an FDA-cleared, on-device AI suite…
-  api_count: 0
-  score_band: thin
-  score_composite: 36.1
+  score_composite: 37.8
   shared: 2
 - slug: xrhealth
   name: XRHealth
   description: XRHealth is an extended-reality (XR) therapeutics and virtual-clinic company, founded in 2016 with offices in Boston, Massachusetts and Tel Aviv, Israel, that delivers FDA-registered and CE-marked virtual and augmented reality treatment fo…
   api_count: 2
   score_band: thin
-  score_composite: 35.9
+  score_composite: 36.1
   shared: 2
 - slug: ketryx
   name: Ketryx
   description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation,…
   api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 35.7
+  shared: 2
+- slug: exo
+  name: Exo
+  description: Exo (Exo Imaging, Inc.) is a Santa Clara, California medical imaging company building a handheld ultrasound ecosystem for point-of-care ultrasound (POCUS). Its silicon-based Exo Iris handheld probe pairs an FDA-cleared, on-device AI suite…
+  api_count: 0
+  score_band: thin
+  score_composite: 35.0
+  shared: 2
+- slug: dexcom
+  name: Dexcom
+  description: Dexcom is a leading medical device company that develops, manufactures, and distributes continuous glucose monitoring (CGM) systems for people with diabetes. The company's wearable sensors stream real-time glucose data to mobile apps, dedi…
+  api_count: 7
+  score_band: thin
+  score_composite: 33.5
+  shared: 2
+- slug: roivant-sciences
+  name: Roivant Sciences
+  description: 'Roivant Sciences (Nasdaq: ROIV) is a holding company that builds focused subsidiary biotech and health-tech operating units called "Vants." Founded by Vivek Ramaswamy in 2014 and now led by CEO Matt Gline, Roivant has launched companies ac…'
+  api_count: 1
+  score_band: thin
+  score_composite: 33.2
   shared: 2
 - slug: united-states-department-of-agriculture
   name: United States Department of Agriculture
   description: The United States Department of Agriculture (USDA) is a federal agency responsible for developing and executing policies related to farming, agriculture, forestry, and food. The USDA works to ensure the sustainability and safety of America…
   api_count: 4
   score_band: thin
-  score_composite: 33.6
-  shared: 2
-- slug: substance-abuse-and-mental-health-services-administration
-  name: Substance Abuse and Mental Health Services Administration
-  description: The Substance Abuse and Mental Health Services Administration (SAMHSA) is a branch of the U.S. Department of Health and Human Services dedicated to improving the quality and availability of prevention, treatment, and recovery support servi…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.2
-  shared: 2
-- slug: cdc-gov
-  name: CDC
-  description: The US Centers for Disease Control and Prevention (CDC) provides a suite of public APIs for accessing disease surveillance data, vaccination rates, health statistics, environmental public health tracking, and public health datasets. Key of…
-  api_count: 12
-  score_band: thin
-  score_composite: 32.9
+  score_composite: 32.0
   shared: 2
 ---

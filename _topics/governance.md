@@ -80,7 +80,7 @@ links:
 - type: License
   url: https://github.com/stoplightio/spectral/blob/develop/LICENSE
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/governance/blob/main/security/governance-domain-security.yml
+  url: https://artifacts.apis.io/governance/security/governance-domain-security.yml
 - type: Reference
   url: https://stoplight.io/open-source/spectral
 - type: Reference
@@ -97,21 +97,21 @@ links:
   url: https://github.com/api-evangelist
 - type: DeveloperPortal
   url: https://developer.apievangelist.com/
-provider_count: 83
+provider_count: 87
 providers:
 - slug: redocly
   name: Redocly
   description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel,…
   api_count: 4
   score_band: exemplar
-  score_composite: 82.7
+  score_composite: 81.2
   shared: 3
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 74.1
   shared: 3
 - slug: vacuum
   name: Vacuum
@@ -125,168 +125,182 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
+  score_composite: 82.5
+  shared: 2
+- slug: amazon-cloudtrail
+  name: Amazon CloudTrail
+  description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 80.1
+  shared: 2
+- slug: amazon-config
+  name: Amazon Config
+  description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 76.9
   shared: 2
 - slug: eclipse
   name: Eclipse Foundation
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
   score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.0
   shared: 2
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
   api_count: 2
   score_band: exemplar
-  score_composite: 69.4
+  score_composite: 69.5
   shared: 2
-- slug: amazon-cloudtrail
-  name: Amazon CloudTrail
-  description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
-  api_count: 1
+- slug: amazon-organizations
+  name: Amazon Organizations
+  description: AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
+  api_count: 9
   score_band: exemplar
-  score_composite: 67.3
-  shared: 2
-- slug: amazon-config
-  name: Amazon Config
-  description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.3
-  shared: 2
-- slug: netcracker
-  name: Netcracker
-  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.8
-  shared: 2
-- slug: etsi
-  name: ETSI
-  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
-  api_count: 24
-  score_band: strong
-  score_composite: 61.6
-  shared: 2
-- slug: microsoft-azure-policy
-  name: Azure Policy
-  description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business stan…
-  api_count: 7
-  score_band: strong
-  score_composite: 61.1
+  score_composite: 68.9
   shared: 2
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into determinist…
   api_count: 1
   score_band: strong
-  score_composite: 60.1
+  score_composite: 65.2
+  shared: 2
+- slug: amazon-control-tower
+  name: Amazon Control Tower
+  description: AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment based on best practices. It establishes a landing zone with pre-configured governance and guardrails, enabling organizations to maintai…
+  api_count: 4
+  score_band: strong
+  score_composite: 64.6
+  shared: 2
+- slug: netcracker
+  name: Netcracker
+  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and…
+  api_count: 4
+  score_band: strong
+  score_composite: 64.6
+  shared: 2
+- slug: google-cloud-assured-workloads
+  name: Google Cloud Assured Workloads
+  description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.0
+  shared: 2
+- slug: microsoft-azure-policy
+  name: Azure Policy
+  description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business stan…
+  api_count: 13
+  score_band: strong
+  score_composite: 63.4
+  shared: 2
+- slug: etsi
+  name: ETSI
+  description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
+  api_count: 24
+  score_band: strong
+  score_composite: 60.3
   shared: 2
 - slug: credo-ai
   name: Credo AI
   description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pair…
   api_count: 2
   score_band: strong
-  score_composite: 56.7
-  shared: 2
-- slug: goethena
-  name: Goethena
-  description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.3
-  shared: 2
-- slug: amazon-organizations
-  name: Amazon Organizations
-  description: AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
-  api_count: 1
-  score_band: strong
-  score_composite: 56.1
+  score_composite: 59.0
   shared: 2
 - slug: sweep
   name: Sweep
   description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes…
   api_count: 2
   score_band: strong
-  score_composite: 55.2
+  score_composite: 55.7
+  shared: 2
+- slug: goethena
+  name: Goethena
+  description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.8
   shared: 2
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide…
   api_count: 1
-  score_band: strong
-  score_composite: 54.3
-  shared: 2
-- slug: google-cloud-assured-workloads
-  name: Google Cloud Assured Workloads
-  description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
-  api_count: 1
   score_band: developing
-  score_composite: 51.7
-  shared: 2
-- slug: wegalvanize
-  name: Wegalvanize
-  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
-  shared: 2
-- slug: amazon-control-tower
-  name: Amazon Control Tower
-  description: AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment based on best practices. It establishes a landing zone with pre-configured governance and guardrails, enabling organizations to maintai…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.6
-  shared: 2
-- slug: vanta
-  name: Vanta
-  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.6
+  score_composite: 50.9
   shared: 2
 - slug: 3gpp
   name: 3GPP
   description: 3GPP (the 3rd Generation Partnership Project) is the global standards partnership that writes the technical specifications for mobile networks — GSM, UMTS, LTE, 5G and the ongoing 6G work — through seven regional Organizational Partners (A…
   api_count: 116
   score_band: developing
-  score_composite: 48.0
+  score_composite: 49.2
+  shared: 2
+- slug: wegalvanize
+  name: Wegalvanize
+  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.4
+  shared: 2
+- slug: vanta
+  name: Vanta
+  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.9
   shared: 2
 - slug: openpages
   name: OpenPages
   description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it…
   api_count: 1
   score_band: developing
-  score_composite: 47.8
+  score_composite: 45.4
+  shared: 2
+- slug: gntai-dev
+  name: gnt.ai
+  description: gnt.ai provides a platform that connects engineering and business teams to enforce guardrails on AI agent actions. It offers rule-based reviews, decision approvals, and policy enforcement before agents execute code, ensuring compliance and…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.1
+  shared: 2
+- slug: a2ainfrastructure-com
+  name: A2A Infrastructure
+  description: A2A Infrastructure provides AI compliance software for enterprises, offering a platform that monitors, audits, and controls AI agents across tools like ChatGPT, Claude, and Copilot. The solution ensures EU AI Act, NIST AI RMF, GDPR, and st…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.9
   shared: 2
 - slug: montycloud
   name: MontyCloud
   description: MontyCloud is a Bellevue, Washington software company whose DAY2 platform is a no-code, autonomous CloudOps product for AWS-focused managed service providers and enterprise cloud teams. DAY2 connects to customer AWS (and Azure) accounts th…
   api_count: 2
   score_band: developing
-  score_composite: 41.4
+  score_composite: 41.9
   shared: 2
-- slug: nudge-security
-  name: Nudge Security
-  description: Nudge Security is a SaaS and AI security management platform that discovers all SaaS and cloud applications used across an organization, helps security teams manage OAuth grants, enforce security policies, monitor app-to-app integrations,…
+- slug: kosli
+  name: Kosli
+  description: Kosli provides governance infrastructure for AI-driven software development lifecycle (SDLC). It offers an append‑only evidence store, automated compliance checks, AI‑powered insights, and integrations with CI pipelines to ensure secure, a…
   api_count: 1
-  score_band: thin
-  score_composite: 38.0
+  score_band: developing
+  score_composite: 41.0
   shared: 2
 - slug: legalon
   name: LegalOn
   description: LegalOn Technologies is a legal-technology company building AI software for in-house legal teams, corporate legal operations, and law firms. Its platform covers AI contract review and redlining, contract playbooks, matter management, a con…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 39.0
   shared: 2
 - slug: kion
   name: Kion
   description: Kion is a cloud operations platform that provides automated governance and FinOps capabilities across AWS, Azure, GCP, and OCI through a self-hosted deployment model. The platform consolidates multiple point solutions into a comprehensive…
   api_count: 1
   score_band: thin
-  score_composite: 37.2
+  score_composite: 36.2
   shared: 2
 - slug: open-policy-agent
   name: Open Policy Agent
@@ -294,19 +308,5 @@ providers:
   api_count: 7
   score_band: thin
   score_composite: 36.2
-  shared: 2
-- slug: ketryx
-  name: Ketryx
-  description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation,…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.3
-  shared: 2
-- slug: metricstream
-  name: MetricStream
-  description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
-  api_count: 8
-  score_band: thin
-  score_composite: 34.3
   shared: 2
 ---

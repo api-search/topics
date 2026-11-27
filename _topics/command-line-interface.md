@@ -33,15 +33,15 @@ apis:
   url: https://devcenter.heroku.com/articles/cli-style-guide
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/command-line-interface/blob/main/plans/command-line-interface-plans-pricing.yml
+  url: https://artifacts.apis.io/command-line-interface/plans/command-line-interface-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/command-line-interface/blob/main/rate-limits/command-line-interface-rate-limits.yml
+  url: https://artifacts.apis.io/command-line-interface/rate-limits/command-line-interface-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/command-line-interface/blob/main/finops/command-line-interface-finops.yml
+  url: https://artifacts.apis.io/command-line-interface/finops/command-line-interface-finops.yml
 - type: IssueTracker
   url: https://github.com/cli-guidelines/cli-guidelines/issues
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/command-line-interface/blob/main/security/command-line-interface-domain-security.yml
+  url: https://artifacts.apis.io/command-line-interface/security/command-line-interface-domain-security.yml
 - type: Website
   url: https://clig.dev/
 - type: Documentation
@@ -52,133 +52,189 @@ links:
   url: https://devcenter.heroku.com/articles/cli-style-guide
 - type: Resources
   url: https://github.com/agarrharr/awesome-cli-apps
-provider_count: 161
+provider_count: 186
 providers:
 - slug: shell-scripting
   name: Shell Scripting
   description: A collection of APIs and resources for Shell Scripting development, including utilities, documentation, and tools.
   api_count: 5
   score_band: emerging
-  score_composite: 14.1
+  score_composite: 13.6
   shared: 5
 - slug: bash
   name: Bash Shell
   description: GNU Bash (Bourne Again SHell) is the default Unix shell and command-line interpreter on most Linux distributions and macOS. Developed by Brian Fox for the GNU Project as a free replacement for the Bourne shell, Bash provides a rich scripti…
   api_count: 0
   score_band: minimal
-  score_composite: 4.4
+  score_composite: 3.5
   shared: 5
 - slug: powershell
   name: PowerShell
   description: PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. The PowerShell ecosystem exposes APIs through the PowerShell Gallery (an OData-based p…
   api_count: 1
   score_band: developing
-  score_composite: 50.1
+  score_composite: 51.1
   shared: 4
 - slug: aider
   name: Aider
   description: 'Aider is an open-source, terminal-based AI pair programmer that edits code directly inside a developer''s local Git repository. Written in Python and distributed via PyPI under the Apache 2.0 license, Aider is a BYO-LLM tool: the user suppl…'
   api_count: 15
   score_band: emerging
-  score_composite: 26.0
+  score_composite: 26.1
   shared: 4
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and exec…
   api_count: 1
   score_band: thin
-  score_composite: 38.9
-  shared: 3
-- slug: httpie
-  name: HTTPie
-  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighte…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.0
+  score_composite: 39.1
   shared: 3
 - slug: fern-api
   name: Fern
   description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
   api_count: 1
   score_band: thin
-  score_composite: 29.2
+  score_composite: 35.7
+  shared: 3
+- slug: httpie
+  name: HTTPie
+  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighte…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.5
   shared: 3
 - slug: tabtabtab
   name: TabTabTab
   description: 'TabTabTab runs coding agents in the background, triggered by webhooks, schedules, Slack, or direct requests. You wire up a trigger once and work comes back to you: code changes arrive as pull requests you can verify before you merge, while…'
   api_count: 1
   score_band: thin
-  score_composite: 29.0
-  shared: 3
-- slug: aside
-  name: Aside
-  description: Aside is an AI-powered browser from a Y Combinator (Fall 2025) startup that runs an autonomous browser agent to complete real work across the logged-in websites you already use — email, dashboards, internal tools, documents, and spreadshee…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.8
+  score_composite: 27.9
   shared: 3
 - slug: prompt-driven
   name: Prompt Driven
   description: Prompt Driven (PDD) is the company behind Prompt-Driven Development, a prompt-native programming system in which .prompt files are the human-authored source language and traditional code (Python, TypeScript, Go, and others) is generated as…
   api_count: 0
   score_band: emerging
-  score_composite: 20.7
+  score_composite: 21.6
+  shared: 3
+- slug: aside
+  name: Aside
+  description: Aside is an AI-powered browser from a Y Combinator (Fall 2025) startup that runs an autonomous browser agent to complete real work across the logged-in websites you already use — email, dashboards, internal tools, documents, and spreadshee…
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.5
   shared: 3
 - slug: fiberplane
   name: Fiberplane
   description: Fiberplane is an Amsterdam-founded developer-tools company, backed by Northzone, building agent-native tooling for the "software factory" era of AI coding agents. Its current lineup centers on fp (fp.dev), a local-first CLI for tracking wo…
   api_count: 0
   score_band: emerging
-  score_composite: 18.5
+  score_composite: 20.0
   shared: 3
 - slug: dredd
   name: Dredd
   description: Dredd is a language-agnostic, MIT-licensed open source command-line tool that validates a running HTTP API against its own API description document. It compiles every request/response pair documented in an API Blueprint, OpenAPI 2.0 or (ex…
   api_count: 1
   score_band: emerging
-  score_composite: 17.7
+  score_composite: 16.9
   shared: 3
 - slug: github-actions
   name: GitHub Actions
   description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll r…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 82.6
+  shared: 2
+- slug: sequenzy
+  name: Sequenzy
+  description: Sequenzy provides an AI‑native email marketing platform for SaaS companies, enabling automated onboarding sequences, trial emails, and transactional messages triggered by events such as Stripe payments. The service offers a REST API, CLI,…
   api_count: 1
   score_band: exemplar
-  score_composite: 82.9
+  score_composite: 76.3
+  shared: 2
+- slug: evalgate-com
+  name: EvalGate
+  description: EvalGate provides measurable AI evaluation checks, inspectable evidence, and clear release decisions for AI behavior. It connects to your repository to find AI model calls, prompts, agents, and tools, testing them to catch regressions befo…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 75.9
   shared: 2
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0…
   api_count: 2
   score_band: exemplar
-  score_composite: 77.5
+  score_composite: 75.0
+  shared: 2
+- slug: tembo
+  name: Tembo
+  description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.7
   shared: 2
 - slug: buttondown
   name: Buttondown
   description: Buttondown is an independent, bootstrapped email newsletter platform for writers, creators and developers, offering a Markdown and rich-text editor, subscriber management with tags, segments and metadata, automations, RSS-to-email, surveys…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.6
+  score_composite: 70.0
+  shared: 2
+- slug: fillo-so
+  name: Fillo
+  description: Fillo is a forms-as-infrastructure product that lets coding agents and developers build structured forms into their own products without hand-building the backend. The service handles validation, file uploads, versioning, response storage,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.1
+  shared: 2
+- slug: codebase-design
+  name: Codebase
+  description: 'Codebase (codebase.design) is an AI app builder: users describe an app in text or voice, watch the AI write code, create files and render a live preview in real time, iterate with conversational edits, and then download the full source or…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.0
+  shared: 2
+- slug: anysphere-cursor-ai
+  name: Anysphere Cursor Ai
+  description: Anysphere Cursor Ai develops advanced AI‑powered coding assistants that help developers build ambitious software faster. The platform offers a desktop IDE, a powerful CLI, and cloud‑based agents that can understand code, generate implement…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.6
   shared: 2
 - slug: gumloop
   name: Gumloop
   description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail…
   api_count: 1
   score_band: strong
+  score_composite: 65.6
+  shared: 2
+- slug: okteto
+  name: Okteto
+  description: 'Okteto is a development-environment platform built on Kubernetes. Its site says it "gives coding agents production-like environments to verify their work": isolated, full-stack environments that run on your own infrastructure. Teams use it…'
+  api_count: 1
+  score_band: strong
   score_composite: 65.3
   shared: 2
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up…'
+- slug: autoposting-ai
+  name: Autoposting.ai
+  description: Autoposting.ai provides an AI‑powered social media automation platform that generates engaging content, schedules posts across multiple platforms, and offers smart reposting, carousel creation, video clipping, and self‑learning AI that ada…
   api_count: 1
   score_band: strong
-  score_composite: 65.2
+  score_composite: 64.8
   shared: 2
-- slug: coasty
-  name: Coasty
-  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work…
+- slug: upapi-io
+  name: upapi-io
+  description: upAPI is an API marketplace platform that provides a single API key and gateway to access over 60 production APIs across categories such as media, finance, social media, and more. It offers weighted‑unit billing, per‑operation pricing, and…
   api_count: 1
   score_band: strong
-  score_composite: 63.4
+  score_composite: 63.7
+  shared: 2
+- slug: shipstar-ai
+  name: shipstar-ai
+  description: Shipstar AI provides automated marketing tools for developers, generating live, dismissable banner bars, changelogs, release notes, and social posts directly from GitHub commits. It offers a free plan with no credit card required, integrat…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.6
   shared: 2
 - slug: apimatic
   name: APIMatic
@@ -187,81 +243,25 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 2
-- slug: unblocked
-  name: Unblocked
-  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineer…
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up…'
   api_count: 1
   score_band: strong
   score_composite: 63.2
   shared: 2
-- slug: h-company
-  name: H Company
-  description: H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel and Creandum, that builds the Holo family of vision-language models and a Computer-Use Agents platform for automating work on browsers and desktops. It ships two public APIs:…
+- slug: coasty
+  name: Coasty
+  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work…
   api_count: 1
   score_band: strong
-  score_composite: 62.3
+  score_composite: 62.8
   shared: 2
-- slug: amika
-  name: Amika
-  description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in…
-  api_count: 1
+- slug: google-apps-script
+  name: Google Apps Script
+  description: The Apps Script API provides programmatic access to manage Google Apps Script projects, deployments, and executions. It enables creating and updating script projects, managing project versions and deployments, monitoring script processes,…
+  api_count: 3
   score_band: strong
-  score_composite: 61.1
-  shared: 2
-- slug: anysphere-cursor-ai
-  name: Anysphere Cursor Ai
-  description: Anysphere Cursor Ai develops advanced AI‑powered coding assistants that help developers build ambitious software faster. The platform offers a desktop IDE, a powerful CLI, and cloud‑based agents that can understand code, generate implement…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.1
-  shared: 2
-- slug: replicas
-  name: Replicas
-  description: Replicas (tryreplicas.com), a Y Combinator (Spring 2026) company, runs end-to-end background coding agents in isolated cloud sandboxes. Teams delegate engineering tasks - from Slack, Linear, GitHub, GitLab, Sentry, the web dashboard, a CLI…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.9
-  shared: 2
-- slug: gitar
-  name: Gitar
-  description: Gitar is an AI code review platform that goes beyond commenting on pull and merge requests — it automatically fixes broken builds, failing tests, linting errors, and code-review findings, and validates every change against your CI pipeline…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.9
-  shared: 2
-- slug: tesslio
-  name: tessl.io
-  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing,…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.5
-  shared: 2
-- slug: termius
-  name: Termius
-  description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.9
-  shared: 2
-- slug: tembo
-  name: Tembo
-  description: Tembo (tembo.io) is a cloud platform for running AI coding agents (Claude Code, Codex, Cursor, Amp, OpenCode and others) in isolated, shareable sandbox environments connected to repositories, issue trackers, observability tools and databas…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.0
-  shared: 2
-- slug: ninjaone
-  name: NinjaOne
-  description: NinjaOne is a unified IT operations and endpoint management platform for enterprise IT teams and managed service providers (MSPs), combining remote monitoring and management (RMM), endpoint management, patch management, remote access, back…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.4
-  shared: 2
-- slug: panther
-  name: Panther
-  description: Panther is a cloud-native, code-driven detection and response platform and AI-powered SOC that ingests and normalizes security logs at petabyte scale into a security data lake (customer-connected AWS/Snowflake/Databricks or Panther-hosted)…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.1
+  score_composite: 62.5
   shared: 2
 ---

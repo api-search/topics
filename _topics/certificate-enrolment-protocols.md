@@ -55,13 +55,13 @@ apis:
   url: https://datatracker.ietf.org/doc/html/rfc8555
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/plans/certificate-enrolment-protocols-plans-pricing.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/plans/certificate-enrolment-protocols-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/rate-limits/certificate-enrolment-protocols-rate-limits.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/rate-limits/certificate-enrolment-protocols-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/finops/certificate-enrolment-protocols-finops.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/finops/certificate-enrolment-protocols-finops.yml
 - type: CapabilityMap
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/capabilities/certificate-enrolment-protocols-capability-edges.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/capabilities/certificate-enrolment-protocols-capability-edges.yml
 - type: IssueTracker
   url: https://github.com/letsencrypt/boulder/issues
 - type: Releases
@@ -73,11 +73,11 @@ links:
 - type: License
   url: https://github.com/letsencrypt/boulder/blob/main/LICENSE
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/agentic-access/certificate-enrolment-protocols-agentic-access.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/agentic-access/certificate-enrolment-protocols-agentic-access.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/security/certificate-enrolment-protocols-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/security/certificate-enrolment-protocols-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/certificate-enrolment-protocols/blob/main/security/certificate-enrolment-protocols-domain-security.yml
+  url: https://artifacts.apis.io/certificate-enrolment-protocols/security/certificate-enrolment-protocols-domain-security.yml
 - type: Website
   url: https://en.wikipedia.org/wiki/Certificate_enrollment
 - type: IETF
@@ -88,70 +88,70 @@ links:
   url: https://cert-manager.io/
 - type: Certbot
   url: https://certbot.eff.org/
-provider_count: 92
+provider_count: 109
 providers:
 - slug: venafi
   name: Venafi
   description: Venafi is the machine identity security platform for discovering, issuing, provisioning and retiring TLS/SSL certificates, SSH keys, code-signing keys and workload identities across data centers, clouds and Kubernetes. Its Control Plane sh…
   api_count: 2
   score_band: developing
-  score_composite: 45.7
+  score_composite: 44.6
   shared: 4
 - slug: lets-encrypt
   name: Let's Encrypt
   description: Let's Encrypt is a free, automated, and open certificate authority run by the Internet Security Research Group affiliated with the Linux Foundation. It provides TLS certificates to secure the web, having issued billions of certificates to…
   api_count: 1
   score_band: emerging
-  score_composite: 24.3
+  score_composite: 23.7
   shared: 4
 - slug: amazon-private-ca
   name: Amazon Private CA
   description: AWS Private Certificate Authority (AWS Private CA) is a highly available, fully managed private CA service that helps you easily and securely manage the lifecycle of your private certificates. It allows you to create private CA hierarchies…
-  api_count: 1
+  api_count: 8
+  score_band: exemplar
+  score_composite: 77.3
+  shared: 3
+- slug: microsoft-azure-key-vault
+  name: Azure Key Vault
+  description: Azure Key Vault is a cloud service for securely storing and accessing secrets, keys, and certificates. It helps safeguard cryptographic keys and secrets used by cloud applications and services.
+  api_count: 9
   score_band: strong
-  score_composite: 62.9
+  score_composite: 63.8
   shared: 3
 - slug: smallstep
   name: SmallStep
   description: Smallstep operates the world's first Device Identity Platform. It issues hardware-backed, short-lived X.509 and SSH certificates that cryptographically prove what is acting and from where — for devices, humans, workloads, AI agents, and MC…
   api_count: 1
   score_band: strong
-  score_composite: 59.5
-  shared: 3
-- slug: microsoft-azure-key-vault
-  name: Azure Key Vault
-  description: Azure Key Vault is a cloud service for securely storing and accessing secrets, keys, and certificates. It helps safeguard cryptographic keys and secrets used by cloud applications and services.
-  api_count: 1
-  score_band: developing
-  score_composite: 53.3
+  score_composite: 60.7
   shared: 3
 - slug: openbao
   name: OpenBao
   description: OpenBao is an open source, community-driven identity-based secrets and encryption management system, forked from HashiCorp Vault in 2023 and governed by the Linux Foundation as a sandbox project of the Open Source Security Foundation (Open…
   api_count: 1
   score_band: developing
-  score_composite: 51.7
+  score_composite: 50.3
   shared: 3
 - slug: infisical
   name: Infisical
   description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform o…
   api_count: 1
   score_band: developing
-  score_composite: 47.5
+  score_composite: 45.5
   shared: 3
 - slug: sigstore
   name: Sigstore
   description: Sigstore is a set of free-to-use open source tools for signing, verifying, and protecting software supply chain artifacts. It provides a transparent and auditable signing infrastructure that eliminates the need for managing signing keys, m…
   api_count: 2
   score_band: thin
-  score_composite: 33.9
+  score_composite: 34.4
   shared: 3
 - slug: keyfactor
   name: Keyfactor
   description: Keyfactor is a machine-identity and PKI (public key infrastructure) company that provides a control plane for digital trust — helping organizations discover, issue, automate, and govern cryptographic keys and certificates across enterprise…
   api_count: 0
   score_band: thin
-  score_composite: 32.6
+  score_composite: 32.1
   shared: 3
 - slug: ssl-tls
   name: SSL/TLS
@@ -163,141 +163,141 @@ providers:
 - slug: amazon-kms
   name: Amazon KMS
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those…
-  api_count: 1
+  api_count: 8
   score_band: exemplar
-  score_composite: 70.2
+  score_composite: 76.8
+  shared: 2
+- slug: amazon-certificate-manager
+  name: Amazon Certificate Manager
+  description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles c…
+  api_count: 7
+  score_band: exemplar
+  score_composite: 75.1
+  shared: 2
+- slug: amazon-cloudhsm
+  name: Amazon CloudHSM
+  description: AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to manage cryptographic keys on dedicated FIPS 140-2 Level 3 validated, single-tenant HSM instances running within your own VPC for regulatory compliance and dat…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 2
+- slug: google-cloud-kms
+  name: Google Cloud KMS
+  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symm…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 70.9
   shared: 2
 - slug: cisco-xdr
   name: Cisco XDR
   description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes f…
   api_count: 12
   score_band: exemplar
-  score_composite: 69.9
+  score_composite: 69.6
   shared: 2
-- slug: amazon-certificate-manager
-  name: Amazon Certificate Manager
-  description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles c…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.3
+- slug: google-cloud-certificate-manager
+  name: Google Cloud Certificate Manager
+  description: Google Cloud Certificate Manager is a service that lets you acquire and manage TLS (SSL) certificates for use with Google Cloud load balancers and other Google Cloud services. It supports provisioning, renewing, and deploying both Google-m…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.0
   shared: 2
 - slug: censys
   name: Censys
   description: Censys is an internet intelligence and attack surface management platform that continuously scans the public IPv4 space, IPv6 announced ranges, and the global certificate transparency ecosystem to produce a comprehensive public dataset of…
   api_count: 2
   score_band: strong
-  score_composite: 66.1
+  score_composite: 66.2
+  shared: 2
+- slug: atomadic-tech
+  name: Atomadic Tech
+  description: 'Atomadic Tech operates AAAA-Nexus, an "agent control plane" for autonomous AI agents: a 149-operation REST API on atomadic.tech covering security and threat scoring, trust and reputation oracles, agent-to-agent escrow, SLA enforcement, EU…'
+  api_count: 1
+  score_band: strong
+  score_composite: 62.0
   shared: 2
 - slug: cisco-secure-firewall
   name: Cisco Secure Firewall
   description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box devic…
   api_count: 14
   score_band: strong
-  score_composite: 59.9
-  shared: 2
-- slug: juniper
-  name: Juniper Networks
-  description: Juniper Networks (an HPE company since 2025) builds AI-native networking, routing, switching and security for service providers, enterprises and public-sector organizations. Its programmable surface spans the Mist cloud API (1,059 REST ope…
-  api_count: 6
-  score_band: strong
-  score_composite: 58.7
-  shared: 2
-- slug: amazon-cloudhsm
-  name: Amazon CloudHSM
-  description: AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to manage cryptographic keys on dedicated FIPS 140-2 Level 3 validated, single-tenant HSM instances running within your own VPC for regulatory compliance and dat…
-  api_count: 6
-  score_band: strong
-  score_composite: 58.0
-  shared: 2
-- slug: panther
-  name: Panther
-  description: Panther is a cloud-native, code-driven detection and response platform and AI-powered SOC that ingests and normalizes security logs at petabyte scale into a security data lake (customer-connected AWS/Snowflake/Databricks or Panther-hosted)…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.1
+  score_composite: 58.9
   shared: 2
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 58.2
   shared: 2
-- slug: fortanix
-  name: Fortanix
-  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, H…
-  api_count: 3
+- slug: sipi
+  name: GitDealFlow
+  description: GitDealFlow, operating as sipi.bot, provides a pre‑spend firewall for autonomous AI agents. It lets developers set budget caps, velocity limits, and merchant rules so that every proposed payment is evaluated before execution. The service o…
+  api_count: 1
   score_band: strong
-  score_composite: 55.2
+  score_composite: 57.6
+  shared: 2
+- slug: juniper
+  name: Juniper Networks
+  description: Juniper Networks (an HPE company since 2025) builds AI-native networking, routing, switching and security for service providers, enterprises and public-sector organizations. Its programmable surface spans the Mist cloud API (1,059 REST ope…
+  api_count: 6
+  score_band: strong
+  score_composite: 57.3
+  shared: 2
+- slug: panther
+  name: Panther
+  description: Panther is a cloud-native, code-driven detection and response platform and AI-powered SOC that ingests and normalizes security logs at petabyte scale into a security data lake (customer-connected AWS/Snowflake/Databricks or Panther-hosted)…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.9
+  shared: 2
+- slug: mcpgate
+  name: mcpgate
+  description: mcpgate provides a self‑hosted MCP (Machine‑Control‑Protocol) gateway that connects AI models to enterprise tools. It enables secure, audited interactions between large language models like Claude, ChatGPT, Gemini and internal systems such…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.7
   shared: 2
 - slug: nym-technologies
   name: Nym Technologies
   description: Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect…
   api_count: 2
-  score_band: developing
-  score_composite: 54.0
-  shared: 2
-- slug: google-cloud-kms
-  name: Google Cloud KMS
-  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symm…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.2
-  shared: 2
-- slug: cerby
-  name: Cerby
-  description: Cerby is an identity, access, and password management platform for nonfederated and disconnected applications — the enterprise software that does not support SAML, SCIM, or an integration API of its own. Cerby extends existing IAM, IGA, an…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.6
-  shared: 2
-- slug: splunk-soar
-  name: Splunk SOAR
-  description: Splunk SOAR, built on the Phantom platform Splunk acquired in 2018 and now part of Cisco through the 2024 Splunk acquisition, is a security orchestration, automation and response platform. It runs playbooks across hundreds of connected sec…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.6
-  shared: 2
-- slug: google-cloud-certificate-manager
-  name: Google Cloud Certificate Manager
-  description: Google Cloud Certificate Manager is a service that lets you acquire and manage TLS (SSL) certificates for use with Google Cloud load balancers and other Google Cloud services. It supports provisioning, renewing, and deploying both Google-m…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 2
-- slug: sandboxaq
-  name: SandboxAQ
-  description: SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.0
-  shared: 2
-- slug: atomadic-tech
-  name: Atomadic Tech
-  description: 'Atomadic Tech operates AAAA-Nexus, an "agent control plane" for autonomous AI agents: a 149-operation REST API on atomadic.tech covering security and threat scoring, trust and reputation oracles, agent-to-agent escrow, SLA enforcement, EU…'
-  api_count: 1
-  score_band: developing
-  score_composite: 50.9
-  shared: 2
-- slug: wegalvanize
-  name: Wegalvanize
-  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
+  score_band: strong
+  score_composite: 55.2
   shared: 2
 - slug: deck
   name: Deck
   description: Deck provides a platform that enables agents to access and automate interactions with websites that lack public APIs. By securely handling user credentials, including 2FA and captchas, Deck’s agents can fetch bills, submit claims, make pay…
   api_count: 1
   score_band: developing
-  score_composite: 47.2
+  score_composite: 53.5
   shared: 2
-- slug: mcpgate
-  name: mcpgate
-  description: mcpgate provides a self‑hosted MCP (Machine‑Control‑Protocol) gateway that connects AI models to enterprise tools. It enables secure, audited interactions between large language models like Claude, ChatGPT, Gemini and internal systems such…
-  api_count: 2
+- slug: fortanix
+  name: Fortanix
+  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, H…
+  api_count: 3
   score_band: developing
-  score_composite: 46.8
+  score_composite: 53.5
+  shared: 2
+- slug: ctlogs-io
+  name: CTlogs.io
+  description: CTlogs.io is a Certificate Transparency search service operated by Lyalpha GmbH (Düsseldorf, Germany; HRB 106435, Amtsgericht Düsseldorf). It indexes publicly-trusted TLS certificates from major CT logs and offers structured search by exac…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
+  shared: 2
+- slug: sandboxaq
+  name: SandboxAQ
+  description: SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.9
+  shared: 2
+- slug: cerby
+  name: Cerby
+  description: Cerby is an identity, access, and password management platform for nonfederated and disconnected applications — the enterprise software that does not support SAML, SCIM, or an integration API of its own. Cerby extends existing IAM, IGA, an…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.3
   shared: 2
 ---

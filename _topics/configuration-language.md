@@ -45,11 +45,11 @@ apis:
   url: https://kdl.dev/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/configuration-language/blob/main/plans/configuration-language-plans-pricing.yml
+  url: https://artifacts.apis.io/configuration-language/plans/configuration-language-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/configuration-language/blob/main/rate-limits/configuration-language-rate-limits.yml
+  url: https://artifacts.apis.io/configuration-language/rate-limits/configuration-language-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/configuration-language/blob/main/finops/configuration-language-finops.yml
+  url: https://artifacts.apis.io/configuration-language/finops/configuration-language-finops.yml
 - type: IssueTracker
   url: https://github.com/toml-lang/toml/issues
 - type: Releases
@@ -57,7 +57,7 @@ links:
 - type: License
   url: https://github.com/toml-lang/toml/blob/main/LICENSE
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/configuration-language/blob/main/security/configuration-language-domain-security.yml
+  url: https://artifacts.apis.io/configuration-language/security/configuration-language-domain-security.yml
 - type: Reference
   url: https://en.wikipedia.org/wiki/Configuration_file
 - type: Reference
@@ -66,6 +66,8 @@ links:
   url: https://github.com/avelino/awesome-go#configuration
 - type: Reference
   url: https://json-schema.org/
+- type: DataLicense
+  url: https://artifacts.apis.io/configuration-language/data-license/configuration-language-data-license.yml
 provider_count: 4
 providers:
 - slug: cribl
@@ -73,27 +75,27 @@ providers:
   description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, an…
   api_count: 6
   score_band: developing
-  score_composite: 49.5
+  score_composite: 51.6
   shared: 2
 - slug: carvel
   name: Carvel
   description: Carvel is a set of reliable, single-purpose, composable command-line tools that help build, configure, and deploy applications to Kubernetes. The toolset includes ytt for YAML templating, kapp for application lifecycle management, kbld for…
   api_count: 7
   score_band: thin
-  score_composite: 37.2
+  score_composite: 38.2
   shared: 2
 - slug: capn-proto
   name: Cap'n Proto
   description: Cap'n Proto is an open-source binary data interchange format and capability-based RPC protocol specification originally created by Kenton Varda. Unlike Protocol Buffers, Cap'n Proto's in-memory representation is identical to its wire forma…
   api_count: 5
   score_band: emerging
-  score_composite: 12.6
+  score_composite: 11.6
   shared: 2
 - slug: kustomize
   name: Kustomize
   description: Kustomize is a Kubernetes-native configuration management tool that lets you customize untemplated YAML files for multiple purposes, leaving the original YAML intact and usable as-is, using a template-free approach to configuration customi…
   api_count: 1
-  score_band: emerging
-  score_composite: 11.6
+  score_band: minimal
+  score_composite: 10.6
   shared: 2
 ---

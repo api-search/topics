@@ -26,17 +26,17 @@ apis:
   url: https://en.wikipedia.org/wiki/Architectural_pattern
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/architectural-design-patterns/blob/main/plans/architectural-design-patterns-plans-pricing.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/plans/architectural-design-patterns-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/architectural-design-patterns/blob/main/rate-limits/architectural-design-patterns-rate-limits.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/rate-limits/architectural-design-patterns-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/architectural-design-patterns/blob/main/finops/architectural-design-patterns-finops.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/finops/architectural-design-patterns-finops.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/architectural-design-patterns/blob/main/agentic-access/architectural-design-patterns-agentic-access.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/agentic-access/architectural-design-patterns-agentic-access.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/architectural-design-patterns/blob/main/security/architectural-design-patterns-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/security/architectural-design-patterns-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/architectural-design-patterns/blob/main/security/architectural-design-patterns-domain-security.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/security/architectural-design-patterns-domain-security.yml
 - type: Portal
   url: https://en.wikipedia.org/wiki/Architectural_pattern
 - type: Documentation
@@ -44,19 +44,19 @@ links:
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
 - type: SpectralRules
-  url: https://raw.githubusercontent.com/api-evangelist/architectural-design-patterns/refs/heads/main/rules/architectural-design-patterns-spectral-rules.yml
+  url: https://artifacts.apis.io/architectural-design-patterns/rules/architectural-design-patterns-spectral-rules.yml
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/architectural-design-patterns/refs/heads/main/vocabulary/architectural-design-patterns-vocabulary.yaml
+  url: https://artifacts.apis.io/architectural-design-patterns/vocabulary/architectural-design-patterns-vocabulary.yaml
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/architectural-design-patterns/refs/heads/main/json-ld/architectural-design-patterns-api-context.jsonld
+  url: https://artifacts.apis.io/architectural-design-patterns/json-ld/architectural-design-patterns-api-context.jsonld
 provider_count: 2
 providers:
 - slug: design-patterns
   name: Design Patterns
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
-  score_band: emerging
-  score_composite: 11.0
+  score_band: minimal
+  score_composite: 10.8
   shared: 3
 - slug: services-patterns
   name: Services Patterns

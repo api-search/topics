@@ -16,15 +16,15 @@ apis:
   url: https://example.com/apis.yml
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/persons-api/blob/main/plans/persons-api-plans-pricing.yml
+  url: https://artifacts.apis.io/persons-api/plans/persons-api-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/persons-api/blob/main/rate-limits/persons-api-rate-limits.yml
+  url: https://artifacts.apis.io/persons-api/rate-limits/persons-api-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/persons-api/blob/main/finops/persons-api-finops.yml
+  url: https://artifacts.apis.io/persons-api/finops/persons-api-finops.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/persons-api/blob/main/agentic-access/persons-api-agentic-access.yml
+  url: https://artifacts.apis.io/persons-api/agentic-access/persons-api-agentic-access.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/persons-api/blob/main/authentication/persons-api-authentication.yml
+  url: https://artifacts.apis.io/persons-api/authentication/persons-api-authentication.yml
 - type: Website
   url: http://apievangelist.com
 provider_count: 0

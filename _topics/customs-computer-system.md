@@ -43,76 +43,97 @@ links:
   url: https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/safe_package.aspx
 - type: UNEDIFACT
   url: https://unece.org/trade/uncefact/introducing-unedifact
-provider_count: 10
+provider_count: 13
 providers:
 - slug: customs-and-border-protection
   name: Customs and Border Protection
   description: U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illega…
   api_count: 5
   score_band: emerging
-  score_composite: 19.5
+  score_composite: 18.9
   shared: 6
 - slug: cbp
   name: CBP
   description: U.S. Customs and Border Protection (CBP) is the nation's largest law enforcement agency and a major revenue-collecting authority, responsible for facilitating legitimate international trade and travel while enforcing trade laws, collecting…
   api_count: 4
   score_band: emerging
-  score_composite: 21.0
+  score_composite: 19.2
   shared: 3
 - slug: dsv
   name: DSV
   description: DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from…
   api_count: 29
   score_band: developing
-  score_composite: 40.6
+  score_composite: 42.2
   shared: 2
 - slug: international-trade-administration
   name: International Trade Administration
   description: The International Trade Administration (ITA) creates prosperity by strengthening the international competitiveness of U.S. industry, promoting trade and investment, and ensuring fair trade and compliance with trade laws and agreements. ITA…
   api_count: 1
   score_band: thin
-  score_composite: 33.2
+  score_composite: 33.6
   shared: 2
-- slug: un-comtrade
-  name: UN Comtrade
-  description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
-  api_count: 1
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
   score_band: thin
-  score_composite: 30.3
+  score_composite: 31.1
   shared: 2
 - slug: export-import-bank-of-the-united-states
   name: Export-Import Bank of the United States
   description: The U.S. Export-Import Bank (EXIM) is the official export credit agency of the United States federal government. It assists in financing and facilitating U.S. exports of goods and services by providing export credit insurance, working capi…
   api_count: 2
   score_band: thin
-  score_composite: 29.6
+  score_composite: 30.0
   shared: 2
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: emerging
-  score_composite: 25.1
+- slug: un-comtrade
+  name: UN Comtrade
+  description: United Nations international trade statistics database with a REST API for accessing import/export data, commodity trade flows, and bilateral trade statistics. Covers over 200 reporting countries and territories with data spanning goods an…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.0
+  shared: 2
+- slug: fxlayerhq-com
+  name: FxLayer
+  description: FxLayer is a FEMA compliance platform built and run by Trianzor Private Limited, New Delhi. It helps Indian importers, exporters, and service firms manage export realisation, EDPMS, and IDPMS processes, ensuring regulatory compliance and s…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.4
+  shared: 2
+- slug: fromerica-com
+  name: Fromerica
+  description: Fromerica is a B2B marketplace connecting U.S. manufacturers and exporters with importers worldwide. It offers free US tariff (HTS) lookup, denied‑party screening tools, and a quote request system. Importers can search a map of active expo…
+  api_count: 2
+  score_band: thin
+  score_composite: 26.2
   shared: 2
 - slug: db-schenker
   name: DB Schenker
   description: DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,85…
   api_count: 4
   score_band: emerging
-  score_composite: 23.2
+  score_composite: 23.5
   shared: 2
 - slug: trimtabist-com
   name: trimtabist-com
   description: Trimtabist provides a free, no‑login service that lets users submit customs entries they have already filed and instantly recompute duties line‑by‑line against the tariff schedule as it existed on the entry date and origin. The platform em…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.2
+  score_band: emerging
+  score_composite: 13.4
   shared: 2
 - slug: donkey
   name: Donkey
   description: Donkey is an AI-native trading company (Y Combinator, Summer 2026) that buys directly from Chinese factories and sells delivered duty-paid to US importers. Donkey mines public US customs records to identify the factory that actually makes…
   api_count: 0
   score_band: minimal
-  score_composite: 7.8
+  score_composite: 8.7
+  shared: 2
+- slug: klassio-se
+  name: Klassio
+  description: Klassio provides tariff classification (CN/HS), EUDR scope detection, and MFN duty lookups for EU importers. Users can describe products in free text or enter a KN code to receive accurate customs information sourced from open data, helpin…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.6
   shared: 2
 ---

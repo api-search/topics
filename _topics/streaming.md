@@ -97,25 +97,25 @@ links:
 - type: License
   url: https://github.com/apache/kafka/blob/trunk/LICENSE
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/streaming/blob/main/security/streaming-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/streaming/security/streaming-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/streaming/blob/main/security/streaming-domain-security.yml
+  url: https://artifacts.apis.io/streaming/security/streaming-domain-security.yml
 - type: JSONSchema
-  url: https://github.com/api-evangelist/streaming/blob/main/json-schema/streaming-stream-schema.json
+  url: https://artifacts.apis.io/streaming/json-schema/streaming-stream-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/streaming/blob/main/json-schema/streaming-stream-record-schema.json
+  url: https://artifacts.apis.io/streaming/json-schema/streaming-stream-record-schema.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/streaming/blob/main/json-schema/streaming-stream-platform-schema.json
+  url: https://artifacts.apis.io/streaming/json-schema/streaming-stream-platform-schema.json
 - type: JSONLD
-  url: https://github.com/api-evangelist/streaming/blob/main/json-ld/streaming-context.jsonld
+  url: https://artifacts.apis.io/streaming/json-ld/streaming-context.jsonld
 - type: Vocabulary
-  url: https://github.com/api-evangelist/streaming/blob/main/vocabulary/streaming-vocabulary.yml
+  url: https://artifacts.apis.io/streaming/vocabulary/streaming-vocabulary.yml
 - type: Examples
-  url: https://github.com/api-evangelist/streaming/blob/main/examples/streaming-stream-example.json
+  url: https://artifacts.apis.io/streaming/examples/streaming-stream-example.json
 - type: Examples
-  url: https://github.com/api-evangelist/streaming/blob/main/examples/streaming-stream-record-example.json
+  url: https://artifacts.apis.io/streaming/examples/streaming-stream-record-example.json
 - type: Examples
-  url: https://github.com/api-evangelist/streaming/blob/main/examples/streaming-stream-platform-example.json
+  url: https://artifacts.apis.io/streaming/examples/streaming-stream-platform-example.json
 provider_count: 144
 providers:
 - slug: redpanda
@@ -123,140 +123,133 @@ providers:
   description: Redpanda is a Kafka API-compatible streaming data platform written in C++ with no JVM and no ZooKeeper, optimized for low latency and operational simplicity. The core broker (redpanda) is open source and available under the Business Source…
   api_count: 10
   score_band: thin
-  score_composite: 33.2
+  score_composite: 34.7
   shared: 5
 - slug: streamkap
   name: Streamkap
   description: Streamkap is a real-time streaming ETL and change data capture (CDC) platform built on Apache Kafka and Apache Flink. It streams data from operational databases (PostgreSQL, MySQL, MongoDB, SQL Server, Oracle) to cloud warehouses, lakes, a…
   api_count: 1
   score_band: emerging
-  score_composite: 19.4
+  score_composite: 18.8
   shared: 5
 - slug: nstream
   name: Nstream
   description: Nstream is the company behind SwimOS, an open-source platform for building streaming data applications. Instead of polling databases, Nstream keeps application state continuously in memory as stateful "web agents" that ingest events from a…
   api_count: 0
   score_band: emerging
-  score_composite: 21.0
+  score_composite: 22.2
   shared: 4
+- slug: amazon-msk
+  name: Amazon MSK
+  description: Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data, with the infrastructure management handled by AWS.
+  api_count: 14
+  score_band: exemplar
+  score_composite: 77.1
+  shared: 3
 - slug: s2-dev
   name: S2 Dev
   description: S2 ("Stream Store") is the API for unlimited, durable, real-time streams. Where object storage deals with blobs, S2 provides append-able, ordered record streams that can be tailed in real time and replayed from any retained point. Core dat…
   api_count: 1
   score_band: exemplar
-  score_composite: 71.9
+  score_composite: 71.0
   shared: 3
 - slug: laserdata
   name: LaserData
   description: LaserData is a hyper-efficient data streaming platform built in Rust for AI-native, real-time, and latency-sensitive workloads. Founded by the creators of Apache Iggy, LaserData packages the Iggy message-streaming engine — io_uring, thread…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.3
+  score_composite: 69.9
   shared: 3
 - slug: buf
   name: Buf
   description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-b…'
   api_count: 2
   score_band: strong
-  score_composite: 65.3
+  score_composite: 64.9
   shared: 3
 - slug: heroiclabs
   name: Heroic Labs
   description: Heroic Labs is the company behind Nakama, a leading open-source game backend server providing a comprehensive REST, WebSocket, and gRPC API for building scalable multiplayer and social games. The platform delivers essential backend service…
   api_count: 4
   score_band: strong
-  score_composite: 64.5
-  shared: 3
-- slug: amazon-msk
-  name: Amazon MSK
-  description: Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data, with the infrastructure management handled by AWS.
-  api_count: 2
-  score_band: strong
-  score_composite: 64.4
-  shared: 3
-- slug: striim
-  name: Striim
-  description: Unified data integration and streaming platform offering change data capture (CDC), real-time streaming analytics, and data validation. Exposes a token-authenticated REST API (WActionStore queries, system health, Application Management) co…
-  api_count: 3
-  score_band: developing
-  score_composite: 49.1
-  shared: 3
-- slug: ably
-  name: Ably
-  description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.5
-  shared: 3
-- slug: macrometa
-  name: Macrometa
-  description: Macrometa is a global data network and edge computing platform. Its Global Data Network (GDN) provides a geo-distributed, serverless NoSQL database, pub/sub streams, complex event processing, and edge functions through a unified REST API p…
-  api_count: 8
-  score_band: developing
-  score_composite: 47.6
+  score_composite: 63.2
   shared: 3
 - slug: automq
   name: AutoMQ
   description: AutoMQ is a cloud-native, Kafka-compatible streaming platform that replaces Kafka broker local disks with shared S3-compatible object storage, offered as open source and as AutoMQ Cloud (BYOC). Developers use the Kafka protocol directly; A…
   api_count: 1
   score_band: developing
-  score_composite: 40.7
+  score_composite: 49.6
+  shared: 3
+- slug: striim
+  name: Striim
+  description: Unified data integration and streaming platform offering change data capture (CDC), real-time streaming analytics, and data validation. Exposes a token-authenticated REST API (WActionStore queries, system health, Application Management) co…
+  api_count: 3
+  score_band: developing
+  score_composite: 48.7
+  shared: 3
+- slug: ably
+  name: Ably
+  description: Ably is a realtime messaging platform offering pub/sub, presence, push notifications, chat, LiveSync, and integrations over WebSocket and HTTP. Ably publishes its OpenAPI specifications publicly via the ably/open-specs GitHub repository, w…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.8
+  shared: 3
+- slug: macrometa
+  name: Macrometa
+  description: Macrometa is a global data network and edge computing platform. Its Global Data Network (GDN) provides a geo-distributed, serverless NoSQL database, pub/sub streams, complex event processing, and edge functions through a unified REST API p…
+  api_count: 8
+  score_band: developing
+  score_composite: 45.5
   shared: 3
 - slug: warpstream
   name: WarpStream
   description: WarpStream is a diskless, Apache Kafka-compatible data streaming platform built directly on top of cloud object storage such as S3, GCP, and Azure. It eliminates the need for local disks, brokers to rebalance, and ZooKeeper, delivering Kaf…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 37.1
   shared: 3
 - slug: neuphonic
   name: Neuphonic
   description: Neuphonic is an ultra-low-latency voice AI platform specializing in real-time text-to-speech synthesis with sub-25ms latency, making it suitable for conversational AI and live applications. The platform provides both a cloud-hosted API wit…
   api_count: 1
   score_band: thin
-  score_composite: 35.6
+  score_composite: 35.9
   shared: 3
 - slug: capital-com-public-api
   name: Capital.com Public API
   description: Capital.com is a European trading platform offering CFDs across shares, indices, commodities, forex, and cryptocurrencies. The Capital.com Public API provides direct access to the trading engine for automated strategies, giving programmati…
   api_count: 8
   score_band: thin
-  score_composite: 31.3
-  shared: 3
-- slug: risingwave
-  name: RisingWave
-  description: RisingWave is a distributed SQL streaming platform that continuously ingests event streams from Kafka, Kinesis, and other sources, transforms them using PostgreSQL-compatible SQL, and serves low-latency results through incrementally mainta…
-  api_count: 6
-  score_band: thin
-  score_composite: 31.3
+  score_composite: 31.1
   shared: 3
 - slug: estuary-flow
   name: Estuary Flow
   description: Estuary Flow is a real-time data movement and transformation platform combining streaming infrastructure, a runtime, and an open-source ecosystem of connectors. It supports change data capture (CDC), SaaS integration, database replication,…
   api_count: 4
   score_band: thin
-  score_composite: 29.7
+  score_composite: 30.8
+  shared: 3
+- slug: risingwave
+  name: RisingWave
+  description: RisingWave is a distributed SQL streaming platform that continuously ingests event streams from Kafka, Kinesis, and other sources, transforms them using PostgreSQL-compatible SQL, and serves low-latency results through incrementally mainta…
+  api_count: 6
+  score_band: thin
+  score_composite: 30.4
   shared: 3
 - slug: quix
   name: Quix
   description: Quix is a Python-native stream-processing platform for real-time data and ML. It pairs Quix Streams - an open source (Apache 2.0) Python library for building containerized stream-processing applications on Apache Kafka - with Quix Cloud, a…
   api_count: 1
   score_band: thin
-  score_composite: 29.3
+  score_composite: 28.3
   shared: 3
 - slug: aisstream
   name: AISStream
   description: AISStream.io is a free service that streams global real-time AIS (Automatic Identification System) vessel-tracking data over a WebSocket. Clients register for a free API key, open a secure WebSocket to "wss://stream.aisstream.io/v0/stream"…
   api_count: 1
   score_band: thin
-  score_composite: 28.9
-  shared: 3
-- slug: apache-samza
-  name: Apache Samza
-  description: Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream processing applications. It integrates with Apache Kafka for messaging and supports both stream and batch processing.
-  api_count: 1
-  score_band: thin
-  score_composite: 27.2
+  score_composite: 28.0
   shared: 3
 - slug: pulsoid
   name: Pulsoid
@@ -265,12 +258,19 @@ providers:
   score_band: thin
   score_composite: 27.2
   shared: 3
+- slug: apache-samza
+  name: Apache Samza
+  description: Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream processing applications. It integrates with Apache Kafka for messaging and supports both stream and batch processing.
+  api_count: 1
+  score_band: thin
+  score_composite: 26.9
+  shared: 3
 - slug: bytewax
   name: Bytewax
   description: Bytewax is a Python-native distributed stream processing framework built on a Rust runtime. Developers define dataflows using the bytewax.dataflow API, composing operators (map, filter, reduce, joins, windowing) over connectors for Kafka,…
   api_count: 3
-  score_band: thin
-  score_composite: 26.2
+  score_band: emerging
+  score_composite: 25.9
   shared: 3
 - slug: concord-systems
   name: Concord Systems
@@ -284,48 +284,48 @@ providers:
   description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible and usable data products with the market l…
   api_count: 7
   score_band: exemplar
-  score_composite: 88.0
+  score_composite: 87.2
   shared: 2
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
+  score_composite: 82.5
   shared: 2
 - slug: confluent-the-data-streaming-platform
   name: Confluent | the Data Streaming Platform
   description: Confluent is a fully managed data streaming platform built by the original creators of Apache Kafka. It lets organizations stream, connect, process, and govern data in motion through a cloud-native service (Confluent Cloud) and the on-prem…
   api_count: 2
   score_band: exemplar
-  score_composite: 82.0
+  score_composite: 82.1
   shared: 2
 - slug: aws-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, a…
-  api_count: 13
+  api_count: 39
   score_band: exemplar
-  score_composite: 76.0
-  shared: 2
-- slug: 0xarchive
-  name: 0xArchive
-  description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 75.7
+  score_composite: 77.4
   shared: 2
 - slug: x
   name: X
   description: X (formerly Twitter) operates the X Developer Platform, the programmable interface to the public conversation on X. The X API v2 is a 190-operation REST surface covering Posts, Users, Direct Messages, the encrypted Chat API, Lists, Spaces,…
   api_count: 2
   score_band: exemplar
-  score_composite: 74.7
+  score_composite: 75.0
   shared: 2
-- slug: microsoft-azure-stream-analytics
-  name: Azure Stream Analytics
-  description: Azure Stream Analytics is Microsoft Azure's fully managed real-time analytics service. Its REST API, served through Azure Resource Manager at management.azure.com, manages streaming jobs, inputs (Event Hubs, IoT Hub, Blob storage), outputs…
-  api_count: 8
+- slug: 0xarchive
+  name: 0xArchive
+  description: 0xArchive is a replayable market-data archive for two decentralised perpetuals venues, Hyperliquid and Lighter, delivered as one REST API, one WebSocket API that carries both live subscriptions and historical replay on a single connection,…
+  api_count: 1
   score_band: exemplar
-  score_composite: 71.0
+  score_composite: 74.9
+  shared: 2
+- slug: microsoft-azure-web-pubsub
+  name: Azure Web PubSub
+  description: Azure Web PubSub is a fully-managed service that enables building real-time, two-way messaging applications using publish-subscribe patterns over WebSockets. It supports broadcasting messages to clients in groups, sending messages to speci…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 72.4
   shared: 2
 ---

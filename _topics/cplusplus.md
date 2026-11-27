@@ -20,7 +20,7 @@ api_count: 0
 apis: []
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/cplusplus/blob/main/security/cplusplus-domain-security.yml
+  url: https://artifacts.apis.io/cplusplus/security/cplusplus-domain-security.yml
 - type: Website
   url: https://isocpp.org/
 - type: ReferenceDocumentation
@@ -53,70 +53,77 @@ links:
   url: https://stackoverflow.com/questions/tagged/c%2b%2b
 - type: Blog
   url: https://isocpp.org/blog/rss
-provider_count: 27
+provider_count: 29
 providers:
 - slug: eclipse
   name: Eclipse Foundation
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
   score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.0
   shared: 2
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and…
   api_count: 4
   score_band: strong
-  score_composite: 62.8
+  score_composite: 64.6
   shared: 2
 - slug: academy-software-foundation
   name: Academy Software Foundation
   description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source p…
   api_count: 14
   score_band: strong
-  score_composite: 62.5
+  score_composite: 61.4
   shared: 2
 - slug: etsi
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
   score_band: strong
-  score_composite: 61.6
-  shared: 2
-- slug: ehrbase
-  name: EHRbase
-  description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.7
+  score_composite: 60.3
   shared: 2
 - slug: ballerina
   name: Ballerina
   description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language…'
   api_count: 1
   score_band: developing
-  score_composite: 52.6
+  score_composite: 54.2
+  shared: 2
+- slug: ehrbase
+  name: EHRbase
+  description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.5
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 52.1
+  score_composite: 51.2
   shared: 2
-- slug: elisa
-  name: ELISA
-  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
+- slug: mzizi-dev
+  name: Mzizi
+  description: Mzizi is a general‑purpose programming language project aimed at improving the Rust developer experience by removing the need for borrows, lifetimes and ownership in user code. It provides a CLI, component library, and a compiler that tran…
   api_count: 1
-  score_band: thin
-  score_composite: 35.3
+  score_band: developing
+  score_composite: 45.4
   shared: 2
 - slug: redpanda
   name: Redpanda
   description: Redpanda is a Kafka API-compatible streaming data platform written in C++ with no JVM and no ZooKeeper, optimized for low latency and operational simplicity. The core broker (redpanda) is open source and available under the Business Source…
   api_count: 10
   score_band: thin
-  score_composite: 33.2
+  score_composite: 34.7
+  shared: 2
+- slug: elisa
+  name: ELISA
+  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.4
   shared: 2
 - slug: camara-project
   name: CAMARA Project
@@ -130,28 +137,49 @@ providers:
   description: Godot Engine is a free and open-source community-driven 2D and 3D game engine released under the MIT License and stewarded by the Godot Foundation. Godot ships an integrated editor plus a deep scripting and extension surface across three p…
   api_count: 5
   score_band: emerging
-  score_composite: 24.9
+  score_composite: 25.1
   shared: 2
 - slug: open-container-initiative
   name: Open Container Initiative
   description: The Open Container Initiative (OCI) is an open governance structure for creating open industry standards around container formats and runtimes, hosted under the Linux Foundation.
   api_count: 1
   score_band: emerging
-  score_composite: 23.1
+  score_composite: 22.1
   shared: 2
 - slug: openprose
   name: Openprose
   description: 'OpenProse, Inc. builds an open-source (MIT) programming language for AI sessions: standing AI jobs are declared as durable Markdown contracts (`*.prose.md` files) that state what should stay true, and the system works out how much model wo…'
   api_count: 0
   score_band: emerging
-  score_composite: 19.4
+  score_composite: 18.6
   shared: 2
 - slug: owasp
   name: OWASP
   description: The Open Worldwide Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software through community-led open source projects, hundreds of chapters worldwide, and educational resources. OWASP d…
   api_count: 1
   score_band: emerging
-  score_composite: 18.3
+  score_composite: 18.1
+  shared: 2
+- slug: ribose-inc
+  name: Ribose Inc.
+  description: Ribose Inc. builds the digital infrastructure for the standards community, providing open‑source platforms that modernize how standards bodies author, publish, and govern their specifications. The company offers tools for collaborative edi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 17.7
+  shared: 2
+- slug: web3d-consortium-inc
+  name: Web3D Consortium, Inc.
+  description: Web3D Consortium, Inc. is a non‑profit standards organization that develops and promotes open standards for real‑time 3D communication on the web and other platforms. It maintains the X3D specification, provides resources, tools, and docum…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.2
+  shared: 2
+- slug: connectivity-standards-alliance
+  name: Connectivity Standards Alliance
+  description: The Connectivity Standards Alliance (CSA) is a global industry consortium that develops and promotes open standards for the Internet of Things (IoT). It oversees the Matter, Zigbee, and Aliro specifications, providing certification program…
+  api_count: 1
+  score_band: emerging
+  score_composite: 15.9
   shared: 2
 - slug: wing-cloud
   name: Wing Cloud
@@ -165,35 +193,21 @@ providers:
   description: The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation and hosts critical components of the global cloud-native technology infrastructure - including Kubernetes, Prometheus, Envoy, etcd, OpenTelemetry, CloudEvents, gR…
   api_count: 2
   score_band: emerging
-  score_composite: 12.7
-  shared: 2
-- slug: web3d-consortium-inc
-  name: Web3D Consortium, Inc.
-  description: Web3D Consortium, Inc. is a non‑profit standards organization that develops and promotes open standards for real‑time 3D communication on the web and other platforms. It maintains the X3D specification, provides resources, tools, and docum…
-  api_count: 0
-  score_band: emerging
   score_composite: 11.7
-  shared: 2
-- slug: ribose-inc
-  name: Ribose Inc.
-  description: Ribose Inc. builds the digital infrastructure for the standards community, providing open‑source platforms that modernize how standards bodies author, publish, and govern their specifications. The company offers tools for collaborative edi…
-  api_count: 0
-  score_band: emerging
-  score_composite: 11.5
-  shared: 2
-- slug: connectivity-standards-alliance
-  name: Connectivity Standards Alliance
-  description: The Connectivity Standards Alliance (CSA) is a global industry consortium that develops and promotes open standards for the Internet of Things (IoT). It oversees the Matter, Zigbee, and Aliro specifications, providing certification program…
-  api_count: 1
-  score_band: minimal
-  score_composite: 9.7
   shared: 2
 - slug: php
   name: PHP
   description: PHP is a widely-used server-side scripting language especially suited for web development and embedded in HTML. It powers a large portion of the web including platforms like WordPress and Drupal, and provides extensive database support, fr…
   api_count: 0
   score_band: minimal
-  score_composite: 9.2
+  score_composite: 9.0
+  shared: 2
+- slug: govenantstandard-org
+  name: GOVENANT Standard
+  description: GOVENANT Standard is an open standard for provable, governed AI agents. It defines a covenant‑based framework where autonomous actions are bound by verifiable outcomes, detectable silence, and earned autonomy. The platform provides tools f…
+  api_count: 0
+  score_band: minimal
+  score_composite: 8.8
   shared: 2
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md

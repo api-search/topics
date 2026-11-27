@@ -26,15 +26,15 @@ apis:
   url: https://microservices.io/patterns/
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/architecture-pattern/blob/main/plans/architecture-pattern-plans-pricing.yml
+  url: https://artifacts.apis.io/architecture-pattern/plans/architecture-pattern-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/architecture-pattern/blob/main/rate-limits/architecture-pattern-rate-limits.yml
+  url: https://artifacts.apis.io/architecture-pattern/rate-limits/architecture-pattern-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/architecture-pattern/blob/main/finops/architecture-pattern-finops.yml
+  url: https://artifacts.apis.io/architecture-pattern/finops/architecture-pattern-finops.yml
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/architecture-pattern/blob/main/agentic-access/architecture-pattern-agentic-access.yml
+  url: https://artifacts.apis.io/architecture-pattern/agentic-access/architecture-pattern-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/architecture-pattern/blob/main/security/architecture-pattern-domain-security.yml
+  url: https://artifacts.apis.io/architecture-pattern/security/architecture-pattern-domain-security.yml
 - type: Portal
   url: https://microservices.io/patterns/
 - type: Documentation
@@ -44,145 +44,138 @@ links:
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
 - type: SpectralRules
-  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/rules/architecture-pattern-spectral-rules.yml
+  url: https://artifacts.apis.io/architecture-pattern/rules/architecture-pattern-spectral-rules.yml
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/vocabulary/architecture-pattern-vocabulary.yaml
+  url: https://artifacts.apis.io/architecture-pattern/vocabulary/architecture-pattern-vocabulary.yaml
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/json-ld/architecture-pattern-api-context.jsonld
-provider_count: 20
+  url: https://artifacts.apis.io/architecture-pattern/json-ld/architecture-pattern-api-context.jsonld
+provider_count: 19
 providers:
 - slug: websphere
   name: IBM WebSphere
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 7
   score_band: strong
-  score_composite: 59.9
+  score_composite: 59.8
   shared: 2
 - slug: zeebe
   name: Zeebe
   description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It…
   api_count: 1
   score_band: developing
-  score_composite: 53.2
+  score_composite: 52.3
   shared: 2
 - slug: spring
   name: Spring Framework
   description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, mes…
   api_count: 3
   score_band: developing
-  score_composite: 40.0
+  score_composite: 40.2
   shared: 2
 - slug: nats
   name: NATS
   description: A high-performance, cloud-native messaging system for microservices, IoT, and edge computing. Provides pub-sub, request-reply, and queue-based messaging patterns with at-most-once and at-least-once delivery guarantees.
   api_count: 2
-  score_band: developing
-  score_composite: 39.9
-  shared: 2
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of servi…
-  api_count: 1
   score_band: thin
-  score_composite: 35.4
+  score_composite: 38.5
   shared: 2
 - slug: diagrid
   name: Diagrid
   description: Diagrid is the execution layer for production AI, built by the creators of the open source Dapr and KEDA projects. Its managed platform, Diagrid Catalyst, gives AI agents, workflows, and MCP servers durable execution (applications resume f…
   api_count: 0
   score_band: thin
-  score_composite: 35.0
+  score_composite: 36.5
   shared: 2
 - slug: istio
   name: Istio
   description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing,…
   api_count: 3
   score_band: thin
-  score_composite: 34.9
-  shared: 2
-- slug: nacos
-  name: Nacos
-  description: Nacos is an easy-to-use dynamic service discovery, configuration, and service management platform from Alibaba for building cloud-native applications, supporting Dubbo, gRPC, Spring Cloud RESTful, and Kubernetes services.
-  api_count: 1
-  score_band: thin
-  score_composite: 30.0
+  score_composite: 34.5
   shared: 2
 - slug: spin
   name: Spin
   description: Spin is an open source framework by Fermyon for building and running fast, secure, and composable cloud microservices with WebAssembly. Spin provides a developer experience for creating event-driven serverless applications that compile to…
   api_count: 5
   score_band: thin
-  score_composite: 28.7
+  score_composite: 29.8
   shared: 2
 - slug: kratos
   name: Kratos
   description: Kratos is a Go framework for building cloud-native microservices, originally created at Bilibili. It provides built-in support for HTTP and gRPC transports, service discovery, configuration management, logging, metrics, and tracing, follow…
   api_count: 1
   score_band: thin
-  score_composite: 27.9
+  score_composite: 28.7
+  shared: 2
+- slug: nacos
+  name: Nacos
+  description: Nacos is an easy-to-use dynamic service discovery, configuration, and service management platform from Alibaba for building cloud-native applications, supporting Dubbo, gRPC, Spring Cloud RESTful, and Kubernetes services.
+  api_count: 1
+  score_band: thin
+  score_composite: 28.5
   shared: 2
 - slug: quarkus
   name: Quarkus
   description: Quarkus is a Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, designed to build cloud-native microservices and serverless applications with fast startup times and low memory footprint.
   api_count: 1
   score_band: thin
-  score_composite: 27.3
+  score_composite: 27.7
   shared: 2
 - slug: open-liberty
   name: Open Liberty
   description: Open Liberty is a lightweight, open source Java application server from IBM for building cloud-native microservices and applications with full support for Jakarta EE and MicroProfile.
   api_count: 1
-  score_band: thin
-  score_composite: 27.1
+  score_band: emerging
+  score_composite: 26.1
   shared: 2
 - slug: jboss
   name: JBoss
   description: JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The JBoss product portfolio includes JBoss EAP (Enterprise Application Platform), the WildFly community appl…
   api_count: 5
   score_band: emerging
-  score_composite: 26.0
-  shared: 2
-- slug: alibaba-sentinel
-  name: Alibaba Sentinel
-  description: Alibaba Sentinel is a powerful open source flow control component enabling reliability, resilience, and monitoring for microservices. Originally developed by Alibaba and used in production at Alibaba for over 10 years, Sentinel provides fl…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.4
+  score_composite: 25.7
   shared: 2
 - slug: helidon
   name: Helidon
   description: Helidon is a collection of Java libraries from Oracle for writing microservices that run on a fast web core powered by Netty, supporting MicroProfile and reactive programming models.
   api_count: 1
   score_band: emerging
-  score_composite: 22.9
+  score_composite: 22.5
   shared: 2
 - slug: netflix-eureka
   name: Netflix Eureka
   description: Netflix Eureka is a RESTful service registry used for service discovery, load balancing, and failover of middle-tier servers in microservice and cloud-native architectures, originally built for the AWS cloud.
   api_count: 1
   score_band: emerging
-  score_composite: 22.3
+  score_composite: 22.5
   shared: 2
-- slug: micronaut
-  name: Micronaut
-  description: Micronaut is a modern JVM-based framework for building modular, easily testable microservice and serverless applications with ahead-of-time compilation and minimal memory consumption.
+- slug: alibaba-sentinel
+  name: Alibaba Sentinel
+  description: Alibaba Sentinel is a powerful open source flow control component enabling reliability, resilience, and monitoring for microservices. Originally developed by Alibaba and used in production at Alibaba for over 10 years, Sentinel provides fl…
   api_count: 1
   score_band: emerging
-  score_composite: 22.0
+  score_composite: 22.2
   shared: 2
 - slug: open-service-mesh
   name: Open Service Mesh
   description: Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh built on Envoy and the Service Mesh Interface (SMI) specification. OSM provides traffic shifting, mutual TLS, access control, observability, and automatic side…
   api_count: 1
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 21.9
+  shared: 2
+- slug: micronaut
+  name: Micronaut
+  description: Micronaut is a modern JVM-based framework for building modular, easily testable microservice and serverless applications with ahead-of-time compilation and minimal memory consumption.
+  api_count: 1
+  score_band: emerging
+  score_composite: 21.0
   shared: 2
 - slug: mia-platform
   name: Mia-Platform
   description: Mia-Platform is an Internal Developer Platform (IDP) that harmonizes infrastructure, applications, and data for intelligent engineering at scale. It provides an API-first platform for building and managing microservices and cloud-native ap…
   api_count: 1
   score_band: minimal
-  score_composite: 7.9
+  score_composite: 6.9
   shared: 2
 - slug: services-patterns
   name: Services Patterns

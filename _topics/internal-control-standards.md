@@ -21,154 +21,147 @@ links:
 - type: Blog
   url: https://www.coso.org/news
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/internal-control-standards/blob/main/security/internal-control-standards-domain-security.yml
+  url: https://artifacts.apis.io/internal-control-standards/security/internal-control-standards-domain-security.yml
 - type: Website
   url: https://www.coso.org/internal-control
 - type: Guidance
   url: https://www.coso.org/guidance-on-internal-control
 - type: Sustainability
   url: https://www.coso.org/guidance-on-icsr
-provider_count: 139
+provider_count: 145
 providers:
+- slug: amazon-config
+  name: Amazon Config
+  description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 76.9
+  shared: 3
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
   api_count: 2
   score_band: exemplar
-  score_composite: 69.4
-  shared: 3
-- slug: amazon-config
-  name: Amazon Config
-  description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.3
+  score_composite: 69.5
   shared: 3
 - slug: wegalvanize
   name: Wegalvanize
   description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
   api_count: 1
   score_band: developing
-  score_composite: 49.8
+  score_composite: 48.4
   shared: 3
 - slug: vanta
   name: Vanta
   description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
   api_count: 2
   score_band: developing
-  score_composite: 48.6
+  score_composite: 47.9
   shared: 3
 - slug: openpages
   name: OpenPages
   description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it…
   api_count: 1
   score_band: developing
-  score_composite: 47.8
+  score_composite: 45.4
   shared: 3
 - slug: metricstream
   name: MetricStream
   description: MetricStream is a San Jose, California based enterprise software company and a market leader in integrated Governance, Risk, and Compliance (GRC) management, serving large regulated organizations across banking and financial services, insu…
   api_count: 8
   score_band: thin
-  score_composite: 34.3
+  score_composite: 33.9
+  shared: 3
+- slug: wordsmith
+  name: Wordsmith
+  description: Wordsmith is an Edinburgh-based legal AI platform built for in-house legal teams, marketed as a Slack-native legal copilot that lets non-legal staff self-serve compliant answers, templates, and contract reviews directly in the tools they a…
+  api_count: 2
+  score_band: thin
+  score_composite: 26.6
   shared: 3
 - slug: anitian
   name: Anitian
   description: Anitian, Inc. is a Portland, Oregon cloud security and compliance automation company that helps SaaS providers reach and maintain U.S. federal compliance. Its FedFlex platform automates the FedRAMP lifecycle — pre-engineered AWS and Azure…
   api_count: 2
   score_band: emerging
-  score_composite: 25.3
-  shared: 3
-- slug: wordsmith
-  name: Wordsmith
-  description: Wordsmith is an Edinburgh-based legal AI platform built for in-house legal teams, marketed as a Slack-native legal copilot that lets non-legal staff self-serve compliant answers, templates, and contract reviews directly in the tools they a…
-  api_count: 2
-  score_band: emerging
-  score_composite: 23.9
-  shared: 3
-- slug: risk-ledger
-  name: Risk Ledger
-  description: Risk Ledger is a London-based third-party and supply chain risk management platform that helps organizations assess, monitor, and continuously manage the security risks across their supplier networks. Through its "Active Supply Chain Secur…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.6
-  shared: 3
-- slug: carbide
-  name: Carbide
-  description: Carbide (carbidesecure.com) is a compliance-automation and risk-management platform that pairs software with credentialed security advisors to help fast-growing organizations achieve and maintain security certifications and regulatory comp…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.5
-  shared: 3
-- slug: auditboard
-  name: AuditBoard
-  description: AuditBoard (rebranded in 2026 as Optro) is an AI-powered GRC (governance, risk, and compliance) SaaS platform used by more than half of the Fortune 500 to run their audit, risk, and compliance programs. Its connected-risk suite spans Contr…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.0
+  score_composite: 25.0
   shared: 3
 - slug: diligent-pharma
   name: Diligent Pharma
   description: Diligent Pharma, Inc. is a Princeton, New Jersey clinical-trial quality and compliance company, founded in 2015, that operates a centralized vendor qualification and oversight platform for pharmaceutical and biotech sponsors and their serv…
   api_count: 0
   score_band: emerging
-  score_composite: 19.4
-  shared: 3
-- slug: diligent-boards
-  name: Diligent
-  description: Diligent Corporation is a governance, risk, and compliance (GRC) software company best known for its board management portal (Diligent Boards / Boardbooks) and the broader Diligent One Platform, which unifies board management, enterprise r…
-  api_count: 4
-  score_band: emerging
-  score_composite: 14.9
-  shared: 3
-- slug: scytale
-  name: Scytale
-  description: Scytale is an AI-powered Governance, Risk, and Compliance (GRC) platform that automates security compliance for cloud and SaaS companies. It combines AI agents with in-house compliance experts to automate evidence collection, continuous co…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.1
+  score_composite: 22.2
   shared: 3
 - slug: azimuth-grc
   name: Azimuth GRC
   description: Azimuth GRC provides automated compliance management software that transforms complex regulatory requirements into clear, actionable guidance. Their platform, VALIDATOR, offers real‑time monitoring, audit automation, and curated legal cont…
   api_count: 1
   score_band: emerging
-  score_composite: 12.6
+  score_composite: 21.0
+  shared: 3
+- slug: carbide
+  name: Carbide
+  description: Carbide (carbidesecure.com) is a compliance-automation and risk-management platform that pairs software with credentialed security advisors to help fast-growing organizations achieve and maintain security certifications and regulatory comp…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.8
+  shared: 3
+- slug: risk-ledger
+  name: Risk Ledger
+  description: Risk Ledger is a London-based third-party and supply chain risk management platform that helps organizations assess, monitor, and continuously manage the security risks across their supplier networks. Through its "Active Supply Chain Secur…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.8
+  shared: 3
+- slug: auditboard
+  name: AuditBoard
+  description: AuditBoard (rebranded in 2026 as Optro) is an AI-powered GRC (governance, risk, and compliance) SaaS platform used by more than half of the Fortune 500 to run their audit, risk, and compliance programs. Its connected-risk suite spans Contr…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.1
+  shared: 3
+- slug: scytale
+  name: Scytale
+  description: Scytale is an AI-powered Governance, Risk, and Compliance (GRC) platform that automates security compliance for cloud and SaaS companies. It combines AI agents with in-house compliance experts to automate evidence collection, continuous co…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.3
+  shared: 3
+- slug: diligent-boards
+  name: Diligent
+  description: Diligent Corporation is a governance, risk, and compliance (GRC) software company best known for its board management portal (Diligent Boards / Boardbooks) and the broader Diligent One Platform, which unifies board management, enterprise r…
+  api_count: 4
+  score_band: emerging
+  score_composite: 15.4
   shared: 3
 - slug: greenboard
   name: Greenboard
   description: Greenboard is an AI-native compliance software platform for SEC- and FINRA-regulated financial institutions, consolidating communications archiving, employee compliance monitoring, marketing/advertising review, firm-wide compliance managem…
   api_count: 0
   score_band: emerging
-  score_composite: 12.1
+  score_composite: 15.3
   shared: 3
 - slug: klaimee
   name: Klaimee
   description: Klaimee is a Y Combinator (Spring/P26 batch) startup building certification, financial guarantee, and liability insurance for AI agents running in production. The company evaluates an autonomous agent across risk dimensions such as scope,…
   api_count: 0
-  score_band: minimal
-  score_composite: 7.8
-  shared: 3
-- slug: innovatrix-tech-corp
-  name: Sahl
-  description: Innovatrix Tech, Corp. operates Sahl (getsahl.io), an AI-powered Governance, Risk, and Compliance (GRC) platform built in the MENA region for MENA organizations. Sahl automates policy generation, control mapping, risk assessment, evidence…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.1
+  score_band: emerging
+  score_composite: 14.0
   shared: 3
 - slug: auditocity
   name: Auditocity
   description: Auditocity is an HR compliance software platform that helps organizations of any size master regulatory requirements and best practices. It maintains a library of more than 14,000 questions spanning federal, state, and industry-specific HR…
   api_count: 0
   score_band: minimal
-  score_composite: 5.5
+  score_composite: 7.1
   shared: 3
-- slug: kovrai
-  name: Kovr.ai
-  description: Kovr.ai is a security and compliance automation company surfaced through the Battery Ventures portfolio and profiled in the API Evangelist network. Its verified public engineering presence is the GitHub organization github.com/kovr-ai, who…
+- slug: innovatrix-tech-corp
+  name: Sahl
+  description: Innovatrix Tech, Corp. operates Sahl (getsahl.io), an AI-powered Governance, Risk, and Compliance (GRC) platform built in the MENA region for MENA organizations. Sahl automates policy generation, control mapping, risk assessment, evidence…
   api_count: 0
   score_band: minimal
-  score_composite: 4.4
+  score_composite: 6.8
   shared: 3
 - slug: paisley-consulting
   name: Paisley Consulting
@@ -176,6 +169,13 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 4.0
+  shared: 3
+- slug: kovrai
+  name: Kovr.ai
+  description: Kovr.ai is a security and compliance automation company surfaced through the Battery Ventures portfolio and profiled in the API Evangelist network. Its verified public engineering presence is the GitHub organization github.com/kovr-ai, who…
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.9
   shared: 3
 - slug: security-standards-and-procedures
   name: Security Standards and Procedures
@@ -198,12 +198,33 @@ providers:
   score_band: minimal
   score_composite: 0
   shared: 3
+- slug: amazon-cloudtrail
+  name: Amazon CloudTrail
+  description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 80.1
+  shared: 2
 - slug: onetrust
   name: OneTrust
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP…
   api_count: 37
   score_band: exemplar
-  score_composite: 77.1
+  score_composite: 78.3
+  shared: 2
+- slug: security-scorecard
+  name: SecurityScorecard
+  description: SecurityScorecard is a cybersecurity ratings and third-party risk management platform that continuously rates the security posture of any company from the outside in, producing an A-F security score across ten risk factors. Its REST API (b…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 72.8
+  shared: 2
+- slug: amazon-audit-manager
+  name: Amazon Audit Manager
+  description: AWS Audit Manager helps you continuously audit your AWS usage to simplify how you assess risk and compliance with regulations and industry standards.
+  api_count: 12
+  score_band: exemplar
+  score_composite: 71.2
   shared: 2
 - slug: drata
   name: Drata
@@ -212,32 +233,11 @@ providers:
   score_band: exemplar
   score_composite: 70.7
   shared: 2
-- slug: security-scorecard
-  name: SecurityScorecard
-  description: SecurityScorecard is a cybersecurity ratings and third-party risk management platform that continuously rates the security posture of any company from the outside in, producing an A-F security score across ten risk factors. Its REST API (b…
-  api_count: 8
-  score_band: exemplar
-  score_composite: 70.6
-  shared: 2
-- slug: fama
-  name: Fama
-  description: Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web cont…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 67.8
-  shared: 2
-- slug: amazon-cloudtrail
-  name: Amazon CloudTrail
-  description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 67.3
-  shared: 2
 - slug: avetta
   name: Avetta
   description: Avetta operates a cloud-based supply chain risk management (SCRM) and contractor compliance platform, Avetta One, used by more than 360,000 businesses across 120+ countries to prequalify, audit, and continuously monitor contractors and sup…
   api_count: 6
-  score_band: strong
-  score_composite: 65.2
+  score_band: exemplar
+  score_composite: 68.7
   shared: 2
 ---

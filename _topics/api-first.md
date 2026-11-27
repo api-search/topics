@@ -28,15 +28,15 @@ apis:
   url: https://nordicapis.com
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/api-first/blob/main/plans/api-first-plans-pricing.yml
+  url: https://artifacts.apis.io/api-first/plans/api-first-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/api-first/blob/main/rate-limits/api-first-rate-limits.yml
+  url: https://artifacts.apis.io/api-first/rate-limits/api-first-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/api-first/blob/main/finops/api-first-finops.yml
+  url: https://artifacts.apis.io/api-first/finops/api-first-finops.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/api-first/blob/main/security/api-first-domain-security.yml
+  url: https://artifacts.apis.io/api-first/security/api-first-domain-security.yml
 - type: LLMsTxt
-  url: https://github.com/api-evangelist/api-first/blob/main/llms/api-first-llms.txt
+  url: https://artifacts.apis.io/api-first/llms/api-first-llms.txt
 - type: Documentation
   url: https://nordicapis.com/a-software-architects-guide-to-api-first-strategy/
 provider_count: 8
@@ -46,55 +46,55 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
+  score_composite: 82.5
   shared: 2
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism…
   api_count: 1
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 74.1
   shared: 2
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer…
-  api_count: 5
+  api_count: 4
   score_band: exemplar
-  score_composite: 69.6
+  score_composite: 67.6
   shared: 2
 - slug: apiwiz
   name: APIwiz
   description: APIwiz is a federated API management platform that streamlines the complete API lifecycle from design through monetization. The low-code platform provides centralized control for organizations managing APIs across multiple cloud environmen…
   api_count: 1
-  score_band: emerging
-  score_composite: 24.6
+  score_band: thin
+  score_composite: 26.8
   shared: 2
 - slug: apigovernance-dev
   name: APIGovernance.Dev
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 22.0
   shared: 2
 - slug: soa
   name: SOA
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 20.4
+  score_composite: 19.9
   shared: 2
 - slug: design-patterns
   name: Design Patterns
   description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
   api_count: 1
-  score_band: emerging
-  score_composite: 11.0
+  score_band: minimal
+  score_composite: 10.8
   shared: 2
 - slug: lunchbadger
   name: LunchBadger
   description: LunchBadger is a technology company focused on providing a visual platform for designing, building, and managing microservice architectures and APIs. It offers tools for API modeling, documentation, and governance, aiming to streamline the…
   api_count: 0
   score_band: minimal
-  score_composite: 4.8
+  score_composite: 4.2
   shared: 2
 ---

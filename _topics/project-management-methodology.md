@@ -18,25 +18,25 @@ apis: []
 links: []
 provider_count: 3
 providers:
-- slug: hansoft
-  name: Hansoft
-  description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban,…
-  api_count: 3
-  score_band: strong
-  score_composite: 55.6
-  shared: 2
 - slug: favro
   name: Favro
   description: Favro is a cloud planning and collaboration platform for agile teams, combining planning boards, backlogs, sprint/kanban widgets, roadmaps, and OKR/portfolio management in a single organization-scoped workspace. Its public REST API (https:…
   api_count: 1
-  score_band: strong
-  score_composite: 54.9
+  score_band: developing
+  score_composite: 54.0
+  shared: 2
+- slug: hansoft
+  name: Hansoft
+  description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban,…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.8
   shared: 2
 - slug: agile-today-org
   name: Agile Today
   description: Agile Today provides a methodology graph for AI agents to manage projects through a structured set of gates and stages. The platform integrates practices from PMBOK®, PRINCE2®, Scrum, Kanban, and BABOK®, offering reproducible, traceable de…
   api_count: 0
-  score_band: minimal
-  score_composite: 9.2
+  score_band: emerging
+  score_composite: 16.6
   shared: 2
 ---

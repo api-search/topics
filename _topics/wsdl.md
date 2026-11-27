@@ -19,7 +19,7 @@ api_count: 0
 apis: []
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/wsdl/blob/main/security/wsdl-domain-security.yml
+  url: https://artifacts.apis.io/wsdl/security/wsdl-domain-security.yml
 - type: Specification
   url: https://www.w3.org/TR/wsdl20/
 - type: Specification
@@ -37,41 +37,41 @@ links:
 - type: Community
   url: https://lists.w3.org/Archives/Public/public-ws-desc/
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-description.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-description.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-types.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-types.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-interface.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-interface.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-operation.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-operation.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-interface-fault.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-interface-fault.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-binding.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-binding.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-service.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-service.json
 - type: JSONSchema
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-schema/wsdl-endpoint.json
+  url: https://artifacts.apis.io/wsdl/json-schema/wsdl-endpoint.json
 - type: JSONLDContext
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-ld/wsdl-context.jsonld
+  url: https://artifacts.apis.io/wsdl/json-ld/wsdl-context.jsonld
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-description-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-description-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-types-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-types-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-interface-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-interface-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-operation-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-operation-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-interface-fault-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-interface-fault-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-binding-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-binding-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-service-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-service-structure.json
 - type: JSONStructure
-  url: https://github.com/api-evangelist/wsdl/blob/main/json-structure/wsdl-endpoint-structure.json
+  url: https://artifacts.apis.io/wsdl/json-structure/wsdl-endpoint-structure.json
 - type: Vocabulary
-  url: https://github.com/api-evangelist/wsdl/blob/main/vocabulary/wsdl-vocabulary.yaml
+  url: https://artifacts.apis.io/wsdl/vocabulary/wsdl-vocabulary.yaml
 provider_count: 10
 providers:
 - slug: soap
@@ -86,62 +86,62 @@ providers:
   description: ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settleme…
   api_count: 6
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.4
   shared: 2
 - slug: opentravel-alliance
   name: OpenTravel Alliance
   description: The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001…
   api_count: 8
   score_band: developing
-  score_composite: 47.3
+  score_composite: 45.8
   shared: 2
 - slug: apache-cxf
   name: Apache CXF
   description: Apache CXF is an open-source Java services framework governed by the Apache Software Foundation that helps build and develop web services using JAX-WS (SOAP) and JAX-RS (REST) frontend APIs. It supports contract-first (WSDL) and code-first…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 34.4
   shared: 2
 - slug: w3c
   name: W3C
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 2
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of th…
   api_count: 6
-  score_band: thin
-  score_composite: 26.9
+  score_band: emerging
+  score_composite: 25.4
   shared: 2
 - slug: soa
   name: SOA
   description: Service-Oriented Architecture (SOA) is an architectural style for building software applications as a collection of loosely coupled, interoperable services. Each service encapsulates a specific business capability and communicates with oth…
   api_count: 1
   score_band: emerging
-  score_composite: 20.4
+  score_composite: 19.9
   shared: 2
 - slug: internet-assigned-numbers-authority
   name: Internet Assigned Numbers Authority
   description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database…
   api_count: 3
-  score_band: emerging
-  score_composite: 11.2
-  shared: 2
-- slug: resware
-  name: ResWare
-  description: ResWare is customizable title and escrow production software for real estate closings, originally built by Adeptive Software Corporation and acquired by Qualia Labs in December 2020 (now shipping as ResWare 10 within the Qualia ecosystem).…
-  api_count: 7
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 10.3
   shared: 2
 - slug: mismo
   name: MISMO
   description: MISMO — the Mortgage Industry Standards Maintenance Organization — is the standards development body for US real estate finance, founded in 1999 and a not-for-profit wholly owned subsidiary of the Mortgage Bankers Association since 2004. I…
   api_count: 0
   score_band: minimal
-  score_composite: 6.7
+  score_composite: 6.8
+  shared: 2
+- slug: resware
+  name: ResWare
+  description: ResWare is customizable title and escrow production software for real estate closings, originally built by Adeptive Software Corporation and acquired by Qualia Labs in December 2020 (now shipping as ResWare 10 within the Qualia ecosystem).…
+  api_count: 7
+  score_band: minimal
+  score_composite: 5.9
   shared: 2
 ---

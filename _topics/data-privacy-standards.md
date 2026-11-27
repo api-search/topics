@@ -47,36 +47,36 @@ links:
 - type: Authority
   url: https://edpb.europa.eu/
 - type: Vocabulary
-  url: https://github.com/api-evangelist/data-privacy-standards/blob/main/vocabulary/data-privacy-standards-vocabulary.yml
-provider_count: 123
+  url: https://artifacts.apis.io/data-privacy-standards/vocabulary/data-privacy-standards-vocabulary.yml
+provider_count: 140
 providers:
 - slug: pimloc
   name: Pimloc
   description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 59.3
   shared: 3
 - slug: trustboost-dev
   name: TrustBoost PII Sanitizer
   description: TrustBoost PII Sanitizer is a pay-per-call "privacy firewall" for autonomous AI agent pipelines, built and operated by an individual developer (Teodoro Crispin, GitHub teodorofodocrispin-cmyk) and served entirely from https://api.trustboos…
   api_count: 1
-  score_band: strong
-  score_composite: 54.6
+  score_band: developing
+  score_composite: 53.1
   shared: 3
 - slug: cookieyes
   name: Cookieyes
   description: CookieYes is a Google-certified consent management platform (CMP) that helps websites comply with privacy laws such as GDPR, CCPA/CPRA, LGPD, PIPEDA and POPIA. It provides customizable cookie consent banners, an automatic cookie scanner wi…
   api_count: 0
   score_band: thin
-  score_composite: 33.8
+  score_composite: 31.9
   shared: 3
 - slug: odaseva
   name: Odaseva
   description: Odaseva is an enterprise data security, backup, and governance platform purpose-built for large, complex Salesforce environments. It provides data backup and recovery, archiving, seeding and anonymization/masking, encryption and key manage…
   api_count: 0
   score_band: emerging
-  score_composite: 25.3
+  score_composite: 25.6
   shared: 3
 - slug: privado
   name: Privado
@@ -90,174 +90,174 @@ providers:
   description: Lightbeam is an AI data security and guardrails platform that discovers and classifies sensitive data across cloud, SaaS and on-premises systems, ties that data to identity and access context through its Data Identity Graph, and enforces g…
   api_count: 0
   score_band: emerging
-  score_composite: 15.5
+  score_composite: 16.9
+  shared: 3
+- slug: northend-law
+  name: North End Law
+  description: North End Law is an AI-native law firm specializing in privacy, data protection, and AI governance. They offer flat, transparent fees for services such as privacy counsel, AI governance programs, contract reviews, and compliance with regul…
+  api_count: 1
+  score_band: emerging
+  score_composite: 16.8
   shared: 3
 - slug: planitprima-com
   name: planitprima-com
   description: Planit Prima offers a web‑based data protection management platform that helps organisations maintain GDPR‑compliant documentation. The software keeps data protection management lean, transparent and always up to date with legal requiremen…
   api_count: 1
-  score_band: minimal
-  score_composite: 10.3
+  score_band: emerging
+  score_composite: 13.9
   shared: 3
+- slug: amazon-cloudtrail
+  name: Amazon CloudTrail
+  description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 80.1
+  shared: 2
 - slug: onetrust
   name: OneTrust
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP…
   api_count: 37
   score_band: exemplar
-  score_composite: 77.1
+  score_composite: 78.3
+  shared: 2
+- slug: amazon-config
+  name: Amazon Config
+  description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 76.9
+  shared: 2
+- slug: amazon-macie
+  name: Amazon Macie
+  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
+  api_count: 22
+  score_band: exemplar
+  score_composite: 75.4
+  shared: 2
+- slug: vaquill-ai
+  name: Vaquill AI
+  description: 'Vaquill AI is US primary law data infrastructure: a credit-metered Legal Data API over the US Code, the CFR, every state and territory statutory code, regulations, constitutions, court rules, session laws, agency guidance and executive ord…'
+  api_count: 3
+  score_band: exemplar
+  score_composite: 74.4
+  shared: 2
+- slug: aws-backup
+  name: AWS Backup
+  description: AWS Backup is a fully managed, policy-based data protection service that centralizes and automates backup of data across AWS services including EBS volumes, EC2 instances, RDS databases, DynamoDB tables, EFS file systems, FSx file systems,…
+  api_count: 27
+  score_band: exemplar
+  score_composite: 69.8
   shared: 2
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed co…
   api_count: 2
   score_band: exemplar
-  score_composite: 69.4
+  score_composite: 69.5
   shared: 2
-- slug: amazon-cloudtrail
-  name: Amazon CloudTrail
-  description: AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud deployments with immutable audit trai…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 67.3
+- slug: amazon-control-tower
+  name: Amazon Control Tower
+  description: AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment based on best practices. It establishes a landing zone with pre-configured governance and guardrails, enabling organizations to maintai…
+  api_count: 4
+  score_band: strong
+  score_composite: 64.6
   shared: 2
-- slug: amazon-config
-  name: Amazon Config
-  description: AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past, enabling assessment, auditing, and evaluati…
+- slug: google-cloud-assured-workloads
+  name: Google Cloud Assured Workloads
+  description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
   api_count: 1
   score_band: strong
-  score_composite: 66.3
+  score_composite: 64.0
+  shared: 2
+- slug: microsoft-azure-policy
+  name: Azure Policy
+  description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business stan…
+  api_count: 13
+  score_band: strong
+  score_composite: 63.4
   shared: 2
 - slug: altr
   name: ALTR
   description: ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines autom…
   api_count: 21
   score_band: strong
-  score_composite: 62.1
-  shared: 2
-- slug: vaquill-ai
-  name: Vaquill AI
-  description: 'Vaquill AI is US primary law data infrastructure: a credit-metered Legal Data API over the US Code, the CFR, every state and territory statutory code, regulations, constitutions, court rules, session laws, agency guidance and executive ord…'
-  api_count: 3
-  score_band: strong
-  score_composite: 61.9
-  shared: 2
-- slug: microsoft-azure-policy
-  name: Azure Policy
-  description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business stan…
-  api_count: 7
-  score_band: strong
-  score_composite: 61.1
-  shared: 2
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the d…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.8
-  shared: 2
-- slug: inth
-  name: Inth
-  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.4
-  shared: 2
-- slug: certifaction
-  name: Certifaction
-  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their…'
-  api_count: 2
-  score_band: strong
-  score_composite: 57.5
+  score_composite: 62.2
   shared: 2
 - slug: immuta
   name: Immuta
   description: Immuta is a data security and access-governance platform that lets organizations register their cloud data platforms — Snowflake, Databricks (Unity Catalog, Lakebase, Spark), Amazon Redshift and Redshift Spectrum, Amazon S3, AWS Lake Forma…
   api_count: 1
   score_band: strong
-  score_composite: 57.3
-  shared: 2
-- slug: osano
-  name: Osano
-  description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.1
+  score_composite: 60.3
   shared: 2
 - slug: credo-ai
   name: Credo AI
   description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pair…
   api_count: 2
   score_band: strong
-  score_composite: 56.7
+  score_composite: 59.0
   shared: 2
-- slug: goethena
-  name: Goethena
-  description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
+- slug: inth
+  name: Inth
+  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-sour…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 57.9
   shared: 2
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and…
   api_count: 1
   score_band: strong
-  score_composite: 55.8
+  score_composite: 57.8
   shared: 2
-- slug: torii
-  name: Torii
-  description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide…
+- slug: certscore-ai
+  name: certscore-ai
+  description: CertScore.ai provides automated privacy and security scanning for public websites, detecting cookies, trackers, consent mechanisms, and privacy policy signals. Users can run free scans, review detailed evidence, and integrate findings into…
   api_count: 1
   score_band: strong
-  score_composite: 54.3
+  score_composite: 56.4
   shared: 2
 - slug: mine
   name: MINE
   description: Mine (MineOS) is a data privacy, governance, and AI security posture management platform backed by Battery Ventures. Its MineOS product automates data mapping and inventory, data subject / privacy rights requests (DSR), consent management,…
   api_count: 2
-  score_band: developing
-  score_composite: 54.2
+  score_band: strong
+  score_composite: 56.2
+  shared: 2
+- slug: hempdata-io
+  name: HempData
+  description: HempData provides free, citation‑backed data on U.S. hemp regulations, statutes, bills, and enforcement actions across all 50 states and DC. Their API offers endpoints for compliance checks, state profiles, and regulatory queries, all with…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.7
+  shared: 2
+- slug: certifaction
+  name: Certifaction
+  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their…'
+  api_count: 2
+  score_band: strong
+  score_composite: 55.2
+  shared: 2
+- slug: goethena
+  name: Goethena
+  description: Ethena (goethena.com) is an AI-powered compliance training and ethics platform used by 2,000+ organizations to run harassment prevention, code of conduct, data privacy, anti-bribery, and regulatory compliance programs across their workforc…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.8
+  shared: 2
+- slug: osano
+  name: Osano
+  description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy…
+  api_count: 2
+  score_band: strong
+  score_composite: 54.3
   shared: 2
 - slug: bigid
   name: BigID
   description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data &…
   api_count: 3
   score_band: developing
-  score_composite: 52.0
-  shared: 2
-- slug: google-cloud-assured-workloads
-  name: Google Cloud Assured Workloads
-  description: Google Cloud Assured Workloads enables organizations to create and manage compliance-controlled environments on Google Cloud. It provides guardrails for regulatory compliance frameworks such as FedRAMP, HIPAA, CJIS, ITAR, and others by enf…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.7
-  shared: 2
-- slug: spin-ai
-  name: Spin.AI
-  description: Spin.AI is a SaaS security platform providing data protection, ransomware detection, and compliance management for cloud applications including Google Workspace, Microsoft 365, Salesforce, and Slack. The SpinOne Public API enables programm…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.2
-  shared: 2
-- slug: wegalvanize
-  name: Wegalvanize
-  description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBo…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
-  shared: 2
-- slug: amazon-control-tower
-  name: Amazon Control Tower
-  description: AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment based on best practices. It establishes a landing zone with pre-configured governance and guardrails, enabling organizations to maintai…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.6
-  shared: 2
-- slug: vanta
-  name: Vanta
-  description: Vanta is a trust management platform that automates security compliance for frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR. The Vanta API enables organizations to programmatically manage their compliance posture, automate…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.6
+  score_composite: 53.5
   shared: 2
 ---

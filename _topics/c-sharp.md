@@ -33,35 +33,59 @@ apis:
   description: ASP.NET Core is the cross-platform web framework for C#, used to build web applications, APIs, and real-time services on the .NET runtime.
   url: https://learn.microsoft.com/en-us/aspnet/core
 links:
+- type: SecurityTxt
+  url: https://artifacts.apis.io/c-sharp/well-known/c-sharp-www-security.txt
+- type: WellKnown
+  url: https://artifacts.apis.io/c-sharp/well-known/c-sharp-well-known.yml
+- type: LLMsTxt
+  url: https://artifacts.apis.io/c-sharp/llms/c-sharp-llms.txt
+- type: Hosts
+  url: https://artifacts.apis.io/c-sharp/hosts/c-sharp-hosts.yml
+- type: Vendors
+  url: https://artifacts.apis.io/c-sharp/vendors/c-sharp-vendors.yml
+- type: Packages
+  url: https://artifacts.apis.io/c-sharp/packages/c-sharp-packages.yml
+- type: Security
+  url: https://www.microsoft.com/security
+- type: SDKs
+  url: https://learn.microsoft.com/en-us/dotnet/azure/sdk/azure-sdk-for-dotnet
+- type: PrivacyPolicy
+  url: https://www.microsoft.com/privacy?icid=DSM_Footer_Company_Privacy
+- type: DeveloperPortal
+  url: https://developer.microsoft.com/en-us
+- type: ChangeLog
+  url: https://developer.microsoft.com/en-us/changelog
+- type: GettingStarted
+  url: https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started
 - type: Plans
-  url: https://github.com/api-evangelist/c-sharp/blob/main/plans/c-sharp-plans-pricing.yml
+  url: https://artifacts.apis.io/c-sharp/plans/c-sharp-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/c-sharp/blob/main/rate-limits/c-sharp-rate-limits.yml
+  url: https://artifacts.apis.io/c-sharp/rate-limits/c-sharp-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/c-sharp/blob/main/finops/c-sharp-finops.yml
+  url: https://artifacts.apis.io/c-sharp/finops/c-sharp-finops.yml
 - type: VulnerabilityDisclosure
-  url: https://github.com/api-evangelist/c-sharp/blob/main/security/c-sharp-vulnerability-disclosure.yml
+  url: https://artifacts.apis.io/c-sharp/security/c-sharp-vulnerability-disclosure.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/c-sharp/blob/main/security/c-sharp-domain-security.yml
+  url: https://artifacts.apis.io/c-sharp/security/c-sharp-domain-security.yml
 - type: Website
   url: https://learn.microsoft.com/en-us/dotnet/csharp/
 - type: Documentation
   url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
-- type: Language Reference
+- type: APIReference
   url: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/
 - type: Specification
   url: https://learn.microsoft.com/en-us/dotnet/csharp/specification/
 - type: GitHubOrg
   url: https://github.com/dotnet
-- type: Roslyn Compiler
+- type: SourceCode
   url: https://github.com/dotnet/roslyn
-- type: .NET Runtime
+- type: SourceCode
   url: https://github.com/dotnet/runtime
-- type: .NET Docs
+- type: SourceCode
   url: https://github.com/dotnet/docs
-- type: NuGet
+- type: Website
   url: https://www.nuget.org
-- type: Download .NET
+- type: Download
   url: https://dotnet.microsoft.com/download
 - type: Blog
   url: https://devblogs.microsoft.com/dotnet/
@@ -73,57 +97,57 @@ providers:
   name: Microsoft .NET
   description: Microsoft .NET is a free, cross-platform, open source developer platform for building many different types of applications. The .NET APIs and developer tools provide programmatic access to .NET runtime services, NuGet package management, p…
   api_count: 10
-  score_band: strong
-  score_composite: 66.1
+  score_band: exemplar
+  score_composite: 67.4
   shared: 3
 - slug: restsharp
   name: RestSharp
   description: RestSharp is a simple REST and HTTP API client library for .NET that wraps HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response bodies. Supports JSON, XML, and CSV f…
   api_count: 1
   score_band: emerging
-  score_composite: 19.6
+  score_composite: 19.7
   shared: 3
 - slug: microsoft-package
   name: Microsoft Package
   description: A collection of Microsoft package management APIs covering NuGet, Windows Package Manager (WinGet), Microsoft Store, and Azure Artifacts for managing and distributing software packages across Microsoft platforms.
   api_count: 8
-  score_band: thin
-  score_composite: 34.9
+  score_band: strong
+  score_composite: 54.6
   shared: 2
 - slug: refitter
   name: Refitter
   description: Refitter is a .NET tool and source generator that produces Refit HTTP client interfaces from OpenAPI specifications. It runs at compile time as a source generator or as a standalone CLI tool (dotnet-refitter), enabling type-safe API consum…
   api_count: 2
   score_band: thin
-  score_composite: 34.1
+  score_composite: 34.3
   shared: 2
 - slug: nswag
   name: NSwag
   description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from A…'
   api_count: 1
   score_band: emerging
-  score_composite: 24.5
+  score_composite: 23.7
   shared: 2
 - slug: polly
   name: Polly
   description: Polly is a .NET resilience and transient-fault-handling library that allows developers to express resilience strategies such as Retry, Circuit Breaker, Hedging, Timeout, Rate Limiter, and Fallback in a fluent and thread-safe manner. A .NET…
   api_count: 1
   score_band: emerging
-  score_composite: 14.5
-  shared: 2
-- slug: xamarin
-  name: Xamarin
-  description: Xamarin was the San Francisco company behind the Mono-based cross-platform mobile development framework, letting developers build native iOS, Android, and Mac apps from a single C#/.NET codebase. Backed by investors including Insight Partn…
-  api_count: 0
-  score_band: emerging
-  score_composite: 12.3
+  score_composite: 13.0
   shared: 2
 - slug: nunit
   name: NUnit
   description: NUnit is a unit-testing framework for all .NET languages. Initially ported from JUnit, the current production release has been completely rewritten with many new features and support for a wide range of .NET platforms. NUnit is a software…
   api_count: 4
   score_band: emerging
-  score_composite: 12.1
+  score_composite: 12.9
+  shared: 2
+- slug: xamarin
+  name: Xamarin
+  description: Xamarin was the San Francisco company behind the Mono-based cross-platform mobile development framework, letting developers build native iOS, Android, and Mac apps from a single C#/.NET codebase. Backed by investors including Insight Partn…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.4
   shared: 2
 - slug: aptera
   name: Aptera

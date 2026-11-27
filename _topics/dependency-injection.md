@@ -19,11 +19,11 @@ apis:
   description: Rules, capabilities, vocabulary, and linked-data description for the Dependency Injection design pattern.
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/dependency-injection/blob/main/plans/dependency-injection-plans-pricing.yml
+  url: https://artifacts.apis.io/dependency-injection/plans/dependency-injection-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/dependency-injection/blob/main/rate-limits/dependency-injection-rate-limits.yml
+  url: https://artifacts.apis.io/dependency-injection/rate-limits/dependency-injection-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/dependency-injection/blob/main/finops/dependency-injection-finops.yml
+  url: https://artifacts.apis.io/dependency-injection/finops/dependency-injection-finops.yml
 - type: Reference
   url: https://en.wikipedia.org/wiki/Dependency_injection
 - type: Reference

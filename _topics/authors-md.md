@@ -22,11 +22,11 @@ apis:
   url: https://allcontributors.org
 links:
 - type: Plans
-  url: https://github.com/api-evangelist/authors-md/blob/main/plans/authors-md-plans-pricing.yml
+  url: https://artifacts.apis.io/authors-md/plans/authors-md-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/authors-md/blob/main/rate-limits/authors-md-rate-limits.yml
+  url: https://artifacts.apis.io/authors-md/rate-limits/authors-md-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/authors-md/blob/main/finops/authors-md-finops.yml
+  url: https://artifacts.apis.io/authors-md/finops/authors-md-finops.yml
 - type: IssueTracker
   url: https://github.com/all-contributors/all-contributors/issues
 - type: Releases
@@ -38,14 +38,14 @@ links:
 - type: License
   url: https://github.com/all-contributors/all-contributors/blob/main/LICENSE
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/authors-md/blob/main/security/authors-md-domain-security.yml
+  url: https://artifacts.apis.io/authors-md/security/authors-md-domain-security.yml
 - type: GitHubOrganization
   url: https://github.com/api-evangelist
 - type: GitHubRepository
   url: https://github.com/api-evangelist/authors-md
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/authors-md/refs/heads/main/vocabulary/authors-md-vocabulary.yaml
-provider_count: 42
+  url: https://artifacts.apis.io/authors-md/vocabulary/authors-md-vocabulary.yaml
+provider_count: 45
 providers:
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
@@ -73,119 +73,133 @@ providers:
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
   score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.0
   shared: 2
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and…
   api_count: 4
   score_band: strong
-  score_composite: 62.8
+  score_composite: 64.6
   shared: 2
 - slug: academy-software-foundation
   name: Academy Software Foundation
   description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source p…
   api_count: 14
   score_band: strong
-  score_composite: 62.5
+  score_composite: 61.4
   shared: 2
 - slug: etsi
   name: ETSI
   description: ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a Euro…
   api_count: 24
   score_band: strong
-  score_composite: 61.6
-  shared: 2
-- slug: fossa
-  name: Fossa
-  description: FOSSA is a software supply chain security and open source management platform that scans codebases, containers, and binaries to detect open source dependencies, then enforces open source license compliance, vulnerability management, and SB…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.6
+  score_composite: 60.3
   shared: 2
 - slug: customeros
   name: CustomerOS
   description: CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, a…
   api_count: 9
   score_band: strong
-  score_composite: 56.6
+  score_composite: 57.2
+  shared: 2
+- slug: fossa
+  name: Fossa
+  description: FOSSA is a software supply chain security and open source management platform that scans codebases, containers, and binaries to detect open source dependencies, then enforces open source license compliance, vulnerability management, and SB…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.9
   shared: 2
 - slug: ehrbase
   name: EHRbase
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 52.7
+  score_composite: 52.5
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 52.1
+  score_composite: 51.2
+  shared: 2
+- slug: agentdocs-eu
+  name: agentdocs-eu
+  description: AgentDocs is a collaborative documentation platform designed for AI agents and humans. It offers a markdown editor, shareable links, and a full REST API that enables agents to read, write, search, and manage docs programmatically. The serv…
+  api_count: 2
+  score_band: developing
+  score_composite: 44.3
+  shared: 2
+- slug: blobpedia-org
+  name: BLOBPEDIA
+  description: BLOBPEDIA is the central knowledge hub for the Celestia ecosystem, providing indexed, searchable CIPs, documentation, whitepapers, discussions and ecosystem activity. It offers a unified full‑text search across the modular data‑availabilit…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.2
   shared: 2
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagge…
   api_count: 1
   score_band: developing
-  score_composite: 43.0
+  score_composite: 42.5
   shared: 2
 - slug: tidelift
   name: Tidelift
   description: Tidelift provides open-source software supply-chain management for enterprises. Its platform combines package intelligence (maintenance, quality, end-of-life, and vulnerability signals) with catalogs of approved dependencies, policy and li…
   api_count: 1
   score_band: developing
-  score_composite: 41.0
+  score_composite: 40.8
   shared: 2
 - slug: api-blueprint
   name: API Blueprint
   description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Ma…
   api_count: 1
   score_band: developing
-  score_composite: 39.7
+  score_composite: 39.8
   shared: 2
-- slug: agentdocs-eu
-  name: agentdocs-eu
-  description: AgentDocs is a collaborative documentation platform designed for AI agents and humans. It offers a markdown editor, shareable links, and a full REST API that enables agents to read, write, search, and manage docs programmatically. The serv…
-  api_count: 2
-  score_band: thin
-  score_composite: 36.6
-  shared: 2
-- slug: elisa
-  name: ELISA
-  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
+- slug: squiredocs-com
+  name: squiredocs-com
+  description: Squire Docs is an open‑source collaborative document editor designed for people and AI agents to edit the same documents in real time. Every edit is attributed, and the platform provides two‑way markdown synchronization with your repositor…
   api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 37.0
   shared: 2
-- slug: apigen
-  name: APIGen
-  description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and in…
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
   api_count: 1
   score_band: thin
-  score_composite: 34.1
-  shared: 2
-- slug: blobpedia-org
-  name: BLOBPEDIA
-  description: BLOBPEDIA is the central knowledge hub for the Celestia ecosystem, providing indexed, searchable CIPs, documentation, whitepapers, discussions and ecosystem activity. It offers a unified full‑text search across the modular data‑availabilit…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.9
+  score_composite: 35.7
   shared: 2
 - slug: university-of-vienna
   name: University of Vienna
   description: 'The University of Vienna (Universitat Wien), founded 1365, is Austria''s largest university and a member of LERU. Its programmable footprint is unusual for a university in one specific way: Vienna does not merely deploy a repository platfor…'
   api_count: 1
   score_band: thin
-  score_composite: 33.4
+  score_composite: 33.8
+  shared: 2
+- slug: apigen
+  name: APIGen
+  description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and in…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.6
+  shared: 2
+- slug: elisa
+  name: ELISA
+  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups s…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.4
   shared: 2
 - slug: svn
   name: Subversion
   description: Apache Subversion (SVN) is a centralized version control system that tracks changes to files and directories over time. It supports atomic commits, directory versioning, cheap branching and tagging, merge tracking, and binary file handling…
   api_count: 1
   score_band: thin
-  score_composite: 31.1
+  score_composite: 31.0
   shared: 2
 - slug: camara-project
   name: CAMARA Project
@@ -194,67 +208,53 @@ providers:
   score_band: thin
   score_composite: 30.4
   shared: 2
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generat…
-  api_count: 1
+- slug: claude-world-com
+  name: ClaudeWorld
+  description: ClaudeWorld provides a comprehensive map of agent‑tool evolution, operating methods, architecture lessons, practical guides, and product capability differences. It empowers developers to master Claude Code through advanced frameworks and m…
+  api_count: 2
   score_band: thin
-  score_composite: 29.2
+  score_composite: 30.2
   shared: 2
-- slug: squiredocs-com
-  name: squiredocs-com
-  description: Squire Docs is an open‑source collaborative document editor designed for people and AI agents to edit the same documents in real time. Every edit is attributed, and the platform provides two‑way markdown synchronization with your repositor…
-  api_count: 1
+- slug: foliowiki-online
+  name: Folio
+  description: 'Folio is an open-source (MIT) Confluence and Notion alternative: a self‑hosted team wiki in Git with live editing, tables, AI agents and public sites. It offers a Docker‑based deployment, AI‑assisted editing, and the ability to publish spa…'
+  api_count: 2
   score_band: thin
-  score_composite: 26.6
+  score_composite: 29.3
+  shared: 2
+- slug: agentplaybooks-ai
+  name: AgentPlaybooks
+  description: AgentPlaybooks provides a platform for creating, sharing, and deploying AI agent playbooks. It offers self‑hosted documentation, a blog, and tools for integrating with various LLMs and agents. Users can explore use cases, customize skills,…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.3
+  shared: 2
+- slug: llmref-org
+  name: LLM Reference
+  description: LLM Reference provides versioned, model‑ready documentation and semantic search for AI tools. It offers a free public API at api.llmref.org that returns llms.txt, searchable chunks, and SDKs, enabling deterministic, reproducible access to…
+  api_count: 2
+  score_band: emerging
+  score_composite: 24.1
   shared: 2
 - slug: open-container-initiative
   name: Open Container Initiative
   description: The Open Container Initiative (OCI) is an open governance structure for creating open industry standards around container formats and runtimes, hosted under the Linux Foundation.
   api_count: 1
   score_band: emerging
-  score_composite: 23.1
-  shared: 2
-- slug: nextra
-  name: Nextra
-  description: Nextra is an open-source, Next.js-based documentation framework for building fast, modern, and beautifully styled documentation sites. It extends Next.js with MDX support, file-system routing, built-in search powered by Pagefind, syntax hi…
-  api_count: 3
-  score_band: emerging
-  score_composite: 21.4
+  score_composite: 22.1
   shared: 2
 - slug: docusaurus
   name: Docusaurus
   description: Docusaurus is an open-source static site generator built by Meta for creating documentation websites. Powered by React, it supports MDX, versioning, internationalization, search, and a plugin ecosystem, making it a popular choice for open-…
   api_count: 1
   score_band: emerging
-  score_composite: 20.8
-  shared: 2
-- slug: claude-world-com
-  name: ClaudeWorld
-  description: ClaudeWorld provides a comprehensive map of agent‑tool evolution, operating methods, architecture lessons, practical guides, and product capability differences. It empowers developers to master Claude Code through advanced frameworks and m…
-  api_count: 2
-  score_band: emerging
-  score_composite: 20.7
+  score_composite: 20.4
   shared: 2
 - slug: apache-orc
   name: Apache ORC
   description: Apache ORC is a self-describing, type-aware columnar file format designed for Hadoop workloads. It provides high compression ratios and fast read performance for large-scale data processing with support for complex data types.
   api_count: 3
   score_band: emerging
-  score_composite: 20.6
-  shared: 2
-- slug: bookstack
-  name: BookStack
-  description: BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments,…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.7
-  shared: 2
-- slug: owasp
-  name: OWASP
-  description: The Open Worldwide Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software through community-led open source projects, hundreds of chapters worldwide, and educational resources. OWASP d…
-  api_count: 1
-  score_band: emerging
-  score_composite: 18.3
+  score_composite: 20.3
   shared: 2
 ---

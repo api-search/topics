@@ -44,126 +44,126 @@ links:
   url: https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs-nomenclature-2022-edition.aspx
 - type: USHTS
   url: https://hts.usitc.gov/
-provider_count: 234
+provider_count: 241
 providers:
 - slug: portbase
   name: Portbase
   description: Portbase is the Port Community System (PCS) organisation of the Port of Rotterdam Authority and the Port of Amsterdam, digitally connecting the Dutch port community - terminals, shipping companies, transporters, forwarders and government -…
   api_count: 4
-  score_band: developing
-  score_composite: 45.5
+  score_band: strong
+  score_composite: 56.1
   shared: 3
 - slug: convelio
   name: Convelio
   description: Convelio is a Paris- and London-based tech-enabled fine art logistics company that moves high-value, fragile and oversized objects — paintings, sculpture, antiques and design — for galleries, auction houses, art fairs, dealers, collectors…
   api_count: 1
   score_band: developing
-  score_composite: 45.1
+  score_composite: 43.4
   shared: 3
 - slug: icontainers
   name: iContainers
   description: iContainers is a digital freight forwarder founded in 2007 in Barcelona and now part of Agility Logistics, following its 2019/2022 merger with Shipa Freight. The platform lets SMEs, importers/exporters, moving companies, freight agents and…
   api_count: 1
   score_band: developing
-  score_composite: 42.7
+  score_composite: 41.1
   shared: 3
 - slug: boxc
   name: Boxc
   description: BoxC (BoxC Logistics, Inc.) is an international e-commerce logistics management platform. Its single RESTful API drives cross-border ecommerce by integrating dozens of carriers, customs clearance, duties and taxes, warehousing and fulfillm…
-  api_count: 2
+  api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 35.2
   shared: 3
 - slug: port-community-systems
   name: Port Community Systems
   description: Port Community Systems (PCS) are neutral and open electronic platforms enabling intelligent and secure exchange of information between public and private stakeholders to optimise, manage, and automate efficient port and logistics processes…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
+  score_composite: 34.1
+  shared: 3
+- slug: cargowise
+  name: CargoWise
+  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
+  api_count: 5
+  score_band: thin
+  score_composite: 31.1
   shared: 3
 - slug: wavebl
   name: WaveBL
   description: WaveBL is an Israeli digital trade platform, headquartered in Kfar Saba and founded out of the ZIM shipping group, that moves original electronic bills of lading (eBLs) and the trade documents around them between carriers, freight forwarde…
   api_count: 1
   score_band: thin
-  score_composite: 30.6
+  score_composite: 30.1
   shared: 3
 - slug: magaya
   name: Magaya
   description: Magaya is a logistics and supply chain software company whose cloud Digital Freight Platform runs freight forwarding, warehouse management, customs compliance, rate management, and a digital customer experience portal. Magaya exposes progr…
   api_count: 1
   score_band: thin
-  score_composite: 29.4
-  shared: 3
-- slug: cargowise
-  name: CargoWise
-  description: CargoWise is WiseTech Global's logistics execution platform - a single-database ERP for international freight forwarding, customs, warehousing, transport, and landside logistics. Its integration surface is delivered primarily through eAdap…
-  api_count: 5
-  score_band: emerging
-  score_composite: 25.1
+  score_composite: 28.0
   shared: 3
 - slug: gls-group
   name: GLS Group
   description: GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of mor…
   api_count: 4
   score_band: emerging
-  score_composite: 23.5
+  score_composite: 25.8
   shared: 3
 - slug: marlo-technologies
   name: Marlo Technologies
   description: Marlo is a maritime ERP platform for dry bulk, tanker, and commercial shipping companies, unifying chartering, voyage management, finance, banking, and compliance in a single system. Operators use Marlo to plan charters, track voyage opera…
   api_count: 0
   score_band: emerging
-  score_composite: 17.6
+  score_composite: 17.0
   shared: 3
 - slug: nowlun-holding-corp
   name: Nowlun
   description: Nowlun is a digital freight-forwarding platform serving the Middle East and North Africa that lets businesses compare instant ocean-freight quotes from 30+ shipping lines, book FCL and bulk sea shipments, arrange inland trucking to and fro…
   api_count: 1
   score_band: emerging
-  score_composite: 16.9
+  score_composite: 16.0
   shared: 3
 - slug: cogoport
   name: Cogoport
   description: Cogoport is a global logistics and supply chain platform offering freight booking, customs, trade finance, and supply chain visibility for businesses across ocean, air, and inland transport. It provides ocean (FCL and LCL) and air freight…
   api_count: 0
   score_band: emerging
-  score_composite: 13.9
+  score_composite: 15.0
   shared: 3
 - slug: nowports
   name: Nowports
   description: Nowports is a digital freight forwarder for Latin America, offering technology-enabled international logistics across ocean, air, and ground freight. Its Centraliza platform centralizes shipment tracking, document management, and alerts, w…
   api_count: 0
   score_band: emerging
-  score_composite: 13.8
+  score_composite: 13.7
   shared: 3
 - slug: nabu
   name: Nabu
   description: Nabu is an AI-powered customs clearance platform that automates international trade compliance end to end. It collects shipment data from emails, PDFs, Excel files, databases, and TMS records via API, EDI, SFTP, or email, prepares complete…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.9
+  score_band: emerging
+  score_composite: 11.4
   shared: 3
 - slug: shippio
   name: Shippio
   description: Shippio is a Japanese logistics-technology company positioning itself as "Japan's first digital forwarder." It provides cloud-based SaaS for visualizing and streamlining international trade and freight-forwarding operations, combining doma…
   api_count: 0
   score_band: minimal
-  score_composite: 7.1
-  shared: 3
-- slug: apx
-  name: APX
-  description: APX (APX Logistics Solutions) is a Southeast Asian less-than-truckload (LTL) digital logistics platform headquartered in Bangkok, with operations in Thailand, Malaysia, and Singapore. It positions itself as the region's first LTL digital l…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.2
+  score_composite: 6.7
   shared: 3
 - slug: agraga
   name: Agraga
   description: Agraga (operated by Virya Logistics Technologies Private Limited) is a Chennai, India based digital cross-border logistics platform founded in 2021 by Anoop Raghavan and Venkatesh Narayanaswamy. It positions itself as a single operator for…
   api_count: 0
   score_band: minimal
-  score_composite: 3.4
+  score_composite: 5.1
+  shared: 3
+- slug: apx
+  name: APX
+  description: APX (APX Logistics Solutions) is a Southeast Asian less-than-truckload (LTL) digital logistics platform headquartered in Bangkok, with operations in Thailand, Malaysia, and Singapore. It positions itself as the region's first LTL digital l…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.0
   shared: 3
 - slug: haven
   name: Haven
@@ -172,88 +172,88 @@ providers:
   score_band: minimal
   score_composite: 2.6
   shared: 3
+- slug: smklog-com
+  name: SMKlog
+  description: 'SMKlog (SMKLOG-2022 LLC, Berkeley Heights, New Jersey) is an independent US parcel shipping calculator and label seller: describe an item in plain words, get live USPS, UPS, FedEx and DHL Express rates from a US origin to the US, Canada, t…'
+  api_count: 3
+  score_band: exemplar
+  score_composite: 100.0
+  shared: 2
 - slug: aftership
   name: AfterShip
   description: AfterShip is a post-purchase experience platform for ecommerce brands, retailers, marketplaces and 3PLs, founded in 2012 and headquartered in Hong Kong. Its products cover shipment tracking across 1,400+ carriers, branded tracking pages, A…
   api_count: 7
   score_band: exemplar
-  score_composite: 84.1
-  shared: 2
-- slug: smklog-com
-  name: SMKlog
-  description: 'SMKlog (SMKLOG-2022 LLC, Berkeley Heights, New Jersey) is an independent US parcel shipping calculator and label seller: describe an item in plain words, get live USPS, UPS, FedEx and DHL Express rates from a US origin to the US, Canada, t…'
-  api_count: 1
-  score_band: exemplar
-  score_composite: 79.5
+  score_composite: 83.3
   shared: 2
 - slug: fedex
   name: FedEx
   description: FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes…
   api_count: 29
   score_band: exemplar
-  score_composite: 69.4
+  score_composite: 70.7
+  shared: 2
+- slug: parcellab
+  name: parcelLab
+  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the cus…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.7
   shared: 2
 - slug: sendcloud
   name: Sendcloud
   description: Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and…
   api_count: 20
-  score_band: exemplar
-  score_composite: 68.9
-  shared: 2
-- slug: mvmnt
-  name: MVMNT
-  description: 'MVMNT is a freight-brokerage transportation management system (TMS) for midmarket and small freight brokers and shippers. Its REST API (OpenAPI 3.1) and real-time webhooks let teams automate freight workflows end to end: managing customers…'
-  api_count: 1
   score_band: strong
-  score_composite: 64.7
+  score_composite: 65.6
+  shared: 2
+- slug: shipengine
+  name: ShipEngine
+  description: ShipEngine, an Auctane company now documented as the ShipStation API (formerly ShipEngine), is a REST shipping API for rate shopping, label generation, package tracking, address validation, batches, manifests and order-source connections a…
+  api_count: 2
+  score_band: strong
+  score_composite: 63.9
   shared: 2
 - slug: mycarrier
   name: MyCarrier
   description: MyCarrier is a transportation management system (TMS) for less-than-truckload (LTL) and full-truckload freight, founded in 2018 by Michael Bookout and Chris Scheid. The platform lets shippers quote, book, dispatch, track, audit and pay fre…
   api_count: 6
   score_band: strong
-  score_composite: 64.6
+  score_composite: 63.6
   shared: 2
-- slug: byrd
-  name: Byrd
-  description: byrd is a European e-commerce fulfillment and third-party logistics (3PL) provider operating a network of 25+ fulfillment warehouses across Europe and the UK. It offers multichannel order fulfillment with integrations to the major shop and…
+- slug: wholechain
+  name: Wholechain
+  description: Wholechain (Wholechain, Inc.) is a blockchain-based supply chain traceability platform built to enable trust, coordination, and transparency in fragmented supply chains. It helps businesses map and capture supply chain events from origin t…
   api_count: 2
   score_band: strong
-  score_composite: 63.3
+  score_composite: 63.5
   shared: 2
-- slug: leaflink
-  name: LeafLink
-  description: LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments…
-  api_count: 2
+- slug: mvmnt
+  name: MVMNT
+  description: 'MVMNT is a freight-brokerage transportation management system (TMS) for midmarket and small freight brokers and shippers. Its REST API (OpenAPI 3.1) and real-time webhooks let teams automate freight workflows end to end: managing customers…'
+  api_count: 1
   score_band: strong
-  score_composite: 63.2
+  score_composite: 63.4
   shared: 2
 - slug: nash
   name: Nash
   description: Nash is an AI-powered last-mile delivery orchestration platform that lets retailers, restaurants, grocers, pharmacies, and logistics teams quote, dispatch, and track deliveries across a network of third-party couriers and their own interna…
   api_count: 1
   score_band: strong
-  score_composite: 63.1
+  score_composite: 62.9
+  shared: 2
+- slug: australia-post
+  name: Australia Post
+  description: Australia Post is Australia's primary postal operator, offering a developer platform with REST APIs for e-commerce merchants, logistics providers, and delivery partners. APIs cover shipping label creation, parcel tracking, postage calculat…
+  api_count: 12
+  score_band: strong
+  score_composite: 62.7
   shared: 2
 - slug: la-poste-groupe
   name: La Poste Groupe
   description: 'La Poste Groupe is the French state-owned postal, parcel, banking and digital services group. Its public API programme runs on Okapi, the group''s own API management platform, published at developer.laposte.fr: nine APIs covering shipment t…'
   api_count: 4
   score_band: strong
-  score_composite: 62.1
-  shared: 2
-- slug: veho
-  name: Veho
-  description: Veho is a US last-mile delivery and returns carrier built for e-commerce brands, pairing a crowdsourced driver network with purpose-built logistics software. The Veho API (Version 2) is a REST/JSON API for shippers and 3PLs to create deliv…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.8
-  shared: 2
-- slug: shipmonk
-  name: ShipMonk
-  description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order manage…
-  api_count: 6
-  score_band: strong
-  score_composite: 57.5
+  score_composite: 62.4
   shared: 2
 ---

@@ -18,7 +18,7 @@ api_count: 0
 apis: []
 links:
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/standardization/blob/main/security/standardization-domain-security.yml
+  url: https://artifacts.apis.io/standardization/security/standardization-domain-security.yml
 - type: Documentation
   url: https://en.wikipedia.org/wiki/Standardization
 - type: Portal
@@ -35,140 +35,147 @@ links:
   url: https://www.w3.org/
 - type: Portal
   url: https://www.ietf.org/
-provider_count: 21
+provider_count: 22
 providers:
 - slug: eclipse
   name: Eclipse Foundation
   description: The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is…
   api_count: 19
   score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.0
   shared: 2
 - slug: ehrbase
   name: EHRbase
   description: EHRbase is an open source openEHR Clinical Data Repository (CDR) - a standards-based backend for storing, versioning and querying structured clinical data. It implements the official openEHR REST API (ITS-REST 1.0.2) against openEHR Refere…
   api_count: 1
   score_band: developing
-  score_composite: 52.7
+  score_composite: 52.5
   shared: 2
 - slug: agentic-ai-foundation
   name: Agentic AI Foundation
   description: 'The Agentic AI Foundation (AAIF) is a Linux Foundation project, announced 9 December 2025, that gives the core open standards and projects of the AI agent ecosystem a neutral home. It hosts five projects: Anthropic''s Model Context Protocol…'
   api_count: 1
   score_band: developing
-  score_composite: 52.1
+  score_composite: 51.2
   shared: 2
 - slug: fhir
   name: Fast Healthcare Interoperability Resources
   description: FHIR (Fast Healthcare Interoperability Resources) is a platform specification developed by HL7 that defines a set of capabilities for use across the healthcare process, in all jurisdictions, and in many different clinical and administrativ…
   api_count: 1
   score_band: developing
-  score_composite: 49.0
+  score_composite: 50.5
   shared: 2
 - slug: canada-health-infoway
   name: Canada Health Infoway
   description: Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway…
   api_count: 2
   score_band: developing
-  score_composite: 41.1
-  shared: 2
-- slug: cabolabs
-  name: CaboLabs
-  description: CaboLabs Health Informatics is a Montevideo, Uruguay based health informatics company founded in 2012 by Pablo Pazos Gutierrez, specializing in clinical data standards and interoperability. It builds and licenses Atomik, a standardized ope…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.7
+  score_composite: 39.9
   shared: 2
 - slug: ketryx
   name: Ketryx
   description: Ketryx is an AI-native application lifecycle management (ALM) and compliance platform for regulated medical-device and life-sciences software teams. It integrates with developer tools such as Jira and GitHub to automate the documentation,…
   api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 35.7
+  shared: 2
+- slug: cabolabs
+  name: CaboLabs
+  description: CaboLabs Health Informatics is a Montevideo, Uruguay based health informatics company founded in 2012 by Pablo Pazos Gutierrez, specializing in clinical data standards and interoperability. It builds and licenses Atomik, a standardized ope…
+  api_count: 2
+  score_band: thin
+  score_composite: 35.4
   shared: 2
 - slug: openehr
   name: openEHR
   description: 'openEHR is the open specification family for electronic health records, and the main structural alternative to HL7 FHIR. It is governed by two UK not-for-profit entities: the openEHR Foundation, a company limited by guarantee that holds th…'
   api_count: 7
   score_band: thin
-  score_composite: 30.0
-  shared: 2
-- slug: aousd
-  name: Alliance for OpenUSD
-  description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
-  api_count: 2
-  score_band: thin
-  score_composite: 28.3
+  score_composite: 30.4
   shared: 2
 - slug: cohereon-io
   name: Cohereon
   description: Cohereon is an organization presenting the Cohereon Imperium platform, focusing on non‑human intelligence risk, catastrophic risk governance, and engineered operational proof. The site offers extensive documentation, policy, governance, an…
   api_count: 1
   score_band: thin
-  score_composite: 28.2
+  score_composite: 29.9
+  shared: 2
+- slug: aousd
+  name: Alliance for OpenUSD
+  description: The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D…
+  api_count: 2
+  score_band: thin
+  score_composite: 27.9
   shared: 2
 - slug: apigovernance-dev
   name: APIGovernance.Dev
   description: APIGovernance.Dev is an AI-powered API governance platform that enforces API best practices through automated reviews trained on 10,000 public APIs. It provides the API Governance Top-10 list of best practices, automated CI/CD integration,…
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 22.0
   shared: 2
 - slug: ogc
   name: Open Geospatial Consortium (OGC)
   description: The Open Geospatial Consortium is the standards body for geospatial interoperability — a member-funded consortium founded in 1994 and headquartered in the United States, with 362 member organizations plus 159 individual members across gove…
   api_count: 23
   score_band: emerging
-  score_composite: 20.0
+  score_composite: 20.8
   shared: 2
 - slug: wiastandards-com
   name: wiastandards-com
   description: WIA Standards (World Certification Industry Association) is a global organization dedicated to developing, maintaining, and promoting certification standards across various industries. With 18 years of experience, it offers over 730 standa…
   api_count: 5
   score_band: emerging
-  score_composite: 18.4
+  score_composite: 18.2
   shared: 2
 - slug: artificial-intelligence-underwriting-company
   name: Artificial Intelligence Underwriting Company
   description: Artificial Intelligence Underwriting Company (AIUC) is a San Francisco-based AI agent standards and insurance company that builds confidence infrastructure for enterprises adopting AI agents. It pairs AIUC-1 — described as the world's firs…
   api_count: 0
   score_band: emerging
-  score_composite: 11.4
+  score_composite: 12.3
   shared: 2
-- slug: freshehr
-  name: freshEHR
-  description: freshEHR Clinical Informatics Ltd is a UK open-standards health and social care informatics consultancy, founded in 2014 by Dr Ian McNicoll and registered in England as company 08989238. It provides openEHR and HL7 FHIR expertise rather th…
+- slug: govenantstandard-org
+  name: GOVENANT Standard
+  description: GOVENANT Standard is an open standard for provable, governed AI agents. It defines a covenant‑based framework where autonomous actions are bound by verifiable outcomes, detectable silence, and earned autonomy. The platform provides tools f…
   api_count: 0
   score_band: minimal
-  score_composite: 6.6
+  score_composite: 8.8
   shared: 2
 - slug: defence-geospatial-information-working-group-dgiwg
   name: Defence Geospatial Information Working Group (DGIWG)
   description: Defence Geospatial Information Working Group (DGIWG) is an international consortium that develops and promotes standards for the exchange of geospatial information among defence and security organisations. It facilitates interoperability,…
   api_count: 0
   score_band: minimal
-  score_composite: 6.0
+  score_composite: 8.3
+  shared: 2
+- slug: freshehr
+  name: freshEHR
+  description: freshEHR Clinical Informatics Ltd is a UK open-standards health and social care informatics consultancy, founded in 2014 by Dr Ian McNicoll and registered in England as company 08989238. It provides openEHR and HL7 FHIR expertise rather th…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.7
   shared: 2
 - slug: iso
   name: ISO
   description: The International Organization for Standardization (ISO) develops and publishes international standards covering technology, manufacturing, food safety, and many other industries. ISO standards provide globally recognized frameworks that h…
   api_count: 0
   score_band: minimal
-  score_composite: 6.0
+  score_composite: 5.1
   shared: 2
 - slug: wivity
   name: Wivity
   description: Wivity Inc. is a Web3 governance consultancy that helps organizations form blockchain consortia and infrastructure DAOs, design Web3 infrastructure, and optimize decentralized governance through its Wivity Governance framework, drawing on…
   api_count: 0
   score_band: minimal
-  score_composite: 4.5
+  score_composite: 3.9
   shared: 2
 - slug: yellowbrink
   name: YellowBrink
   description: YellowBrink is a Netherlands-based, vendor-neutral community platform for open health data, founded by Jan de Lange and Bouwe Koopal to connect healthcare professionals, vendors, researchers and policymakers working with open standards suc…
   api_count: 0
   score_band: minimal
-  score_composite: 4.1
+  score_composite: 3.4
   shared: 2
 - slug: codeowners
   name: CODEOWNERS

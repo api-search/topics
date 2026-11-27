@@ -24,48 +24,48 @@ providers:
   description: Lightsprint is an AI-native product-development platform where developers, product managers, and designers plan, build, and ship together against a codebase a team already runs, rather than a greenfield prototype. Its three surfaces are Pl…
   api_count: 1
   score_band: developing
-  score_composite: 44.4
+  score_composite: 43.9
   shared: 2
 - slug: nova-lima
   name: Nova Lima
   description: Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single plac…
   api_count: 1
   score_band: thin
-  score_composite: 35.6
+  score_composite: 35.1
   shared: 2
 - slug: hive
   name: Hive
   description: Hive (hive.com) is a project management and team collaboration platform that centralizes projects, tasks, time tracking, messaging, and workflow automation across teams, with multiple project views including Kanban, Gantt, Timeline, and Ca…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
+  score_composite: 29.5
   shared: 2
 - slug: zoho-projects
   name: Zoho Projects
   description: Zoho Projects is a cloud-based project management platform with a REST API for managing projects, tasks, milestones, bugs, time logs, forums, documents, and team collaboration. The API enables developers to integrate project data, automate…
   api_count: 1
   score_band: emerging
-  score_composite: 23.3
+  score_composite: 23.5
   shared: 2
 - slug: alcoven-co
   name: Alcoven
   description: Alcoven is a web‑based collaborative project management platform that lets teams store briefs, documents, and tasks in a single project and interact with AI assistants such as Claude, Codex, and ChatGPT. Users can open a project in any of…
   api_count: 1
   score_band: emerging
-  score_composite: 18.6
+  score_composite: 23.4
   shared: 2
 - slug: balloon
   name: Balloon
   description: Balloon is a research-backed team collaboration and decision-making platform built to eliminate groupthink and give quieter voices a psychologically safe way to contribute. Its core workflow, called a "flight," is a two-stage, partly anony…
   api_count: 0
   score_band: emerging
-  score_composite: 14.4
+  score_composite: 16.1
   shared: 2
-- slug: amazon-codestar
-  name: Amazon CodeStar
-  description: AWS CodeStar provides a unified user interface enabling you to easily manage your software development activities in one place. With AWS CodeStar, you can set up your entire continuous delivery toolchain in minutes, allowing you to create…
-  api_count: 1
+- slug: kumbuka-ai
+  name: Kumbuka AI
+  description: Kumbuka AI provides a governed, auditable source of truth for AI assistants. It offers a shared, curated memory layer where teams store decisions, conventions, constraints, and glossaries. Accessible via a single MCP endpoint, it ensures c…
+  api_count: 0
   score_band: minimal
-  score_composite: 0
+  score_composite: 8.9
   shared: 2
 ---

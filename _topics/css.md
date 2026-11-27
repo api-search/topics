@@ -24,9 +24,9 @@ apis:
   url: https://jigsaw.w3.org/css-validator/
 links:
 - type: RateLimits
-  url: https://github.com/api-evangelist/css/blob/main/rate-limits/css-rate-limits.yml
+  url: https://artifacts.apis.io/css/rate-limits/css-rate-limits.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/css/blob/main/security/css-domain-security.yml
+  url: https://artifacts.apis.io/css/security/css-domain-security.yml
 - type: Website
   url: https://www.w3.org/Style/CSS/
 - type: Specification
@@ -68,21 +68,23 @@ links:
 - type: Tools
   url: https://www.w3.org/Style/CSS/Test/
 - type: Vocabulary
-  url: https://github.com/api-evangelist/css/blob/main/vocabulary/css-vocabulary.yml
+  url: https://artifacts.apis.io/css/vocabulary/css-vocabulary.yml
 - type: Packages
-  url: https://github.com/api-evangelist/css/blob/main/packages/css-packages.yml
+  url: https://artifacts.apis.io/css/packages/css-packages.yml
 - type: LLMsTxt
-  url: https://github.com/api-evangelist/css/blob/main/llms/css-llms.txt
+  url: https://artifacts.apis.io/css/llms/css-llms.txt
 - type: Lifecycle
-  url: https://github.com/api-evangelist/css/blob/main/lifecycle/css-lifecycle.yml
+  url: https://artifacts.apis.io/css/lifecycle/css-lifecycle.yml
 - type: ChangeLog
-  url: https://github.com/api-evangelist/css/blob/main/changelog/css-changelog.yml
+  url: https://artifacts.apis.io/css/changelog/css-changelog.yml
 - type: Conformance
-  url: https://github.com/api-evangelist/css/blob/main/conformance/css-conformance.yml
+  url: https://artifacts.apis.io/css/conformance/css-conformance.yml
 - type: Plans
-  url: https://github.com/api-evangelist/css/blob/main/plans/css-plans-pricing.yml
+  url: https://artifacts.apis.io/css/plans/css-plans-pricing.yml
 - type: AgentSkill
-  url: https://github.com/api-evangelist/css/blob/main/skills/_index.yml
+  url: https://artifacts.apis.io/css/skills/_index.yml
+- type: UsageTerms
+  url: https://artifacts.apis.io/css/terms/css-terms-of-service.yml
 provider_count: 3
 providers:
 - slug: w3c
@@ -90,7 +92,7 @@ providers:
   description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on acces…
   api_count: 1
   score_band: thin
-  score_composite: 27.7
+  score_composite: 26.3
   shared: 2
 - slug: html
   name: HTML

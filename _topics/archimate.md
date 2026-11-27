@@ -29,19 +29,19 @@ links:
 - type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/archimate/overview
 - type: Plans
-  url: https://github.com/api-evangelist/archimate/blob/main/plans/archimate-plans-pricing.yml
+  url: https://artifacts.apis.io/archimate/plans/archimate-plans-pricing.yml
 - type: RateLimits
-  url: https://github.com/api-evangelist/archimate/blob/main/rate-limits/archimate-rate-limits.yml
+  url: https://artifacts.apis.io/archimate/rate-limits/archimate-rate-limits.yml
 - type: FinOps
-  url: https://github.com/api-evangelist/archimate/blob/main/finops/archimate-finops.yml
+  url: https://artifacts.apis.io/archimate/finops/archimate-finops.yml
 - type: Website
   url: https://www.opengroup.org/
 - type: AgenticAccess
-  url: https://github.com/api-evangelist/archimate/blob/main/agentic-access/archimate-agentic-access.yml
+  url: https://artifacts.apis.io/archimate/agentic-access/archimate-agentic-access.yml
 - type: DomainSecurity
-  url: https://github.com/api-evangelist/archimate/blob/main/security/archimate-domain-security.yml
+  url: https://artifacts.apis.io/archimate/security/archimate-domain-security.yml
 - type: Authentication
-  url: https://github.com/api-evangelist/archimate/blob/main/authentication/archimate-authentication.yml
+  url: https://artifacts.apis.io/archimate/authentication/archimate-authentication.yml
 - type: Portal
   url: https://www.opengroup.org/archimate-forum
 - type: Documentation
@@ -57,11 +57,11 @@ links:
 - type: Training
   url: https://www.opengroup.org/certifications/archimate
 - type: SpectralRules
-  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/rules/archimate-spectral-rules.yml
+  url: https://artifacts.apis.io/archimate/rules/archimate-spectral-rules.yml
 - type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/vocabulary/archimate-vocabulary.yaml
+  url: https://artifacts.apis.io/archimate/vocabulary/archimate-vocabulary.yaml
 - type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/json-ld/archimate-model-exchange-api-context.jsonld
+  url: https://artifacts.apis.io/archimate/json-ld/archimate-model-exchange-api-context.jsonld
 provider_count: 1
 providers:
 - slug: trisotech
@@ -69,6 +69,6 @@ providers:
   description: Trisotech is a Montreal, Canada software company, founded in 1996, that builds the Digital Enterprise Suite — a standards-anchored low-code platform for modelling and automating business processes, cases and decisions. Its modelers impleme…
   api_count: 3
   score_band: strong
-  score_composite: 58.4
+  score_composite: 59.6
   shared: 2
 ---
